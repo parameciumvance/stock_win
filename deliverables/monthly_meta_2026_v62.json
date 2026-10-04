@@ -1,0 +1,12 @@
+{
+  "train_rows": 381756,
+  "train_label_max": "2025-12-31",
+  "verified_january_2_score_rows": 583,
+  "max_reproduction_delta": 9.71445146547012e-17,
+  "january_signal": "2025-12-31",
+  "january_fill": "2026-01-02",
+  "january_candidates": 581,
+  "january_top_k": 59,
+  "months": 9,
+  "still_no_order_or_nav_proof": true
+}

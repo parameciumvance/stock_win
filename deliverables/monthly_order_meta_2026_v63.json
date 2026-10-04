@@ -1,0 +1,10 @@
+{
+  "months": 9,
+  "first_fill": "2026-01-02",
+  "last_fill": "2026-09-01",
+  "open_quote_is_not_guaranteed_fill": true,
+  "end_of_day_volume_is_not_opening_auction_depth": true,
+  "one_price_session_is_not_proof_of_limit_lock": true,
+  "corporate_action_matches_are_from_existing_reconstructed_cache": true,
+  "no_cash_ledger": true
+}

@@ -1,0 +1,3 @@
+method,months,selected_stock_months,available,cash_event_stock_months,unresolved_stock_months,entry_day_action_stock_months,mean_monthly_coverage,mean_gross_price_plus_cash_return_by_month,positive_proxy_months
+logistic,9,616,608,55,8,1,0.9873332850451495,0.08910547460728667,8
+mom60_skip5,9,616,613,63,3,3,0.9951537978656623,0.07396961786309915,8

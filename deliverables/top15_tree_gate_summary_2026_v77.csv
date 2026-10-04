@@ -1,0 +1,5 @@
+method,pass_positive_relative_pred,n,mean_relative20
+logistic,False,66,-0.050728204369204444
+logistic,True,69,0.07826516450867153
+mom60_skip5,False,74,-0.003025126176542416
+mom60_skip5,True,61,0.08414636327805178

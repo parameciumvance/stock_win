@@ -1,0 +1,32 @@
+[
+  {
+    "local_name": "quotes_twse_2023.csv.gz",
+    "sha256": "d71b40cdc0c1d6038ee342b000d36dacd54e34ea48f38afd4e1075a896ddb54e",
+    "bytes": 8662597
+  },
+  {
+    "local_name": "quotes_twse_2024.csv.gz",
+    "sha256": "fef02efcc7056f8726bb8535ae54cfa7ffe61ca29a97f3477345f5ee8a6242bd",
+    "bytes": 9258235
+  },
+  {
+    "local_name": "quotes_twse_2025.csv.gz",
+    "sha256": "856af726fcdad898d5b352854fe494db94965c20994ffc36bf1042d4a45e5386",
+    "bytes": 9828621
+  },
+  {
+    "local_name": "quotes_twse_2026_asof_20261002.csv.gz",
+    "sha256": "37dc6ff9954a07f663cb1a7c84f60c55eb17ace51505870f0dc8df9aaa0e146d",
+    "bytes": 7664501
+  },
+  {
+    "local_name": "twse_raw_2023.zip",
+    "sha256": "e3cc76f8d2124ee587e336134c7bd8c09e8a85ab015ed540fd58d649a6adbf38",
+    "bytes": 23089040
+  },
+  {
+    "local_name": "twse_raw_2026_asof_20261002.zip",
+    "sha256": "76b7a7255a85d333445565c5216af13a2af0d2ddaa2f9dff1a5961c772ac04a6",
+    "bytes": 13172564
+  }
+]

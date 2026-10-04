@@ -1,0 +1,5 @@
+method,first_gate_date,first_gate_event_id,total_days,complete_days,nav_days,days_after_first_gate,complete_days_without_nav
+equal,2025-08-07,exrights:2886:20250807,243,143,114,100,29
+momentum_60_skip5,2025-08-15,exrights:3535:20250815,243,149,144,94,5
+logistic,2025-09-04,exrights:2493:20250904,243,163,150,80,13
+hist_gradient_boosting,2025-09-04,exrights:2493:20250904,243,163,149,80,14

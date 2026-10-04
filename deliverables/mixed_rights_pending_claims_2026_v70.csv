@@ -1,0 +1,4 @@
+method,symbol,entry_date,exit_date,entry_open,exit_open,initial_decision_cash_amount,cash_entitlement_amount_confirmed_by_reference,free_share_claim_per_original,free_share_claim_status,cash_claim_status,paid_rights_waiver_assumption,illustrative_claim_mark_return,include_in_monthly_realized_proxy
+logistic,7610,2026-07-01,2026-08-03,2295.0,1320.0,0.5,0.5,0.2000598697684344,delivery_unverified,payment_unverified,yes_only_for_component_mark,-0.3095516217453885,False
+mom60_skip5,7610,2026-07-01,2026-08-03,2295.0,1320.0,0.5,0.5,0.2000598697684344,delivery_unverified,payment_unverified,yes_only_for_component_mark,-0.3095516217453885,False
+logistic,2464,2026-09-01,2026-10-01,183.5,193.5,0.5,,0.0,none,revised_amount_unknown,none,,False

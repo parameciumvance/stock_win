@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-02",
+  "training_rows": 504220,
+  "training_dates": 765,
+  "latest_training_signal": "2026-09-02",
+  "latest_training_label_end": "2026-10-02",
+  "scored_candidates": 639,
+  "logistic_top10_count": 64,
+  "excluded_2026_symbols": [
+    "3149",
+    "4989",
+    "6225"
+  ],
+  "scores_are_not_calibrated_probabilities": true,
+  "trade_executability_not_verified": true
+}

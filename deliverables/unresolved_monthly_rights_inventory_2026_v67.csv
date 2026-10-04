@@ -1,0 +1,12 @@
+method,symbol,company,entry_date,exit_observation_date,event_date,event_type,event_id,source_file,source_row_1based,official_previous_close,official_reference,confirmed_share_ratio,selected_surge_label
+logistic,8021,尖點,2026-01-02,2026-02-02,2026-01-13,權,exrights:8021:20260113,exrights_2026.json,12,218.0,216.11,,True
+mom60_skip5,8021,尖點,2026-01-02,2026-02-02,2026-01-13,權,exrights:8021:20260113,exrights_2026.json,12,218.0,216.11,,True
+logistic,2313,華通,2026-06-01,2026-07-01,2026-06-22,權,exrights:2313:20260622,exrights_2026.json,483,259.5,257.64,,False
+logistic,7610,聯友金屬-創,2026-07-01,2026-08-03,2026-07-13,權息,exrights:7610:20260713,exrights_2026.json,776,2650.0,2181.01,,True
+mom60_skip5,7610,聯友金屬-創,2026-07-01,2026-08-03,2026-07-13,權息,exrights:7610:20260713,exrights_2026.json,776,2650.0,2181.01,,True
+logistic,4764,雙鍵,2026-07-01,2026-08-03,2026-07-24,權,exrights:4764:20260724,exrights_2026.json,965,309.5,304.28,,False
+mom60_skip5,4764,雙鍵,2026-07-01,2026-08-03,2026-07-24,權,exrights:4764:20260724,exrights_2026.json,965,309.5,304.28,,False
+logistic,6715,嘉基,2026-07-01,2026-08-03,2026-07-29,權,exrights:6715:20260729,exrights_2026.json,994,360.0,355.94,,False
+logistic,4764,雙鍵,2026-08-03,2026-09-01,2026-08-20,權,exrights:4764:20260820,exrights_2026.json,1147,203.0,200.77,,False
+logistic,3016,嘉晶,2026-08-03,2026-09-01,2026-08-27,權,exrights:3016:20260827,exrights_2026.json,1192,102.0,101.8,,True
+logistic,2464,盟立,2026-09-01,2026-10-01,2026-09-02,權息,exrights:2464:20260902,exrights_2026.json,1233,184.5,182.3,,False

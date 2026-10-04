@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+*.log
+*.tmp
+
+# Original exchange responses and generated high-volume panels / models
+data/raw/
+twse_history/raw/
+inputs/
+output*/
+twse_history/output*/
+*.joblib
+*.zip
+*.csv.gz
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store

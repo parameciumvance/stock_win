@@ -1,0 +1,11 @@
+{
+  "last_data_date": "2026-10-02",
+  "price_basis": "raw_open_at_entry_and_next_month_first_open",
+  "includes_no_dividends_or_share_entitlements": true,
+  "excludes_any_recorded_corporate_action_during_closed_interval": true,
+  "excludes_any_missing_or_nontrading_market_day": true,
+  "quote_is_not_order_fill": true,
+  "fees_taxes_slippage_not_included": true,
+  "excluded_stock_months_can_be_nonrandom": true,
+  "not_a_portfolio_nav_or_alpha": true
+}

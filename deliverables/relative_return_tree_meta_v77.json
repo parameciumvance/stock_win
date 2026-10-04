@@ -1,0 +1,7 @@
+{
+  "model": "HistGradientBoostingRegressor, prior classifier structural settings",
+  "target": "20 market-day adjusted close relative 0050",
+  "activation": "none",
+  "independently_untouched": false,
+  "tradeable_nav": false
+}

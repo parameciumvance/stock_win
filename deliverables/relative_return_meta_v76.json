@@ -1,0 +1,34 @@
+{
+  "target": "adjusted_close_20_market_day_return_minus_0050_adjusted_close_20_return",
+  "features": [
+    "mom5",
+    "mom20",
+    "mom60",
+    "mom120",
+    "mom60_skip5",
+    "relative20",
+    "ma20_distance",
+    "ma60_distance",
+    "volatility20",
+    "atr14",
+    "volume_ratio20",
+    "log_turnover20",
+    "breakout60"
+  ],
+  "model": "StandardScaler + Ridge(alpha=100)",
+  "time_rule": "train label_window_end < evaluation-year Jan 1",
+  "historical_folds": [
+    2024,
+    2025,
+    2026
+  ],
+  "evaluated_2026_end": "2026-09-02",
+  "excluded_2026": [
+    "3149",
+    "4989",
+    "6225"
+  ],
+  "gate": "predicted relative return > 0; retrospective diagnostic only",
+  "independently_untouched": false,
+  "tradeable_nav": false
+}

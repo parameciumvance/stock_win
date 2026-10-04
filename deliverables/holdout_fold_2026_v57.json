@@ -1,0 +1,20 @@
+{
+  "fold": "2023-2025_to_2026",
+  "train_rows": 381756,
+  "train_dates": 584,
+  "train_first": "2023-07-12",
+  "train_last": "2025-12-02",
+  "max_train_label_end": "2025-12-31",
+  "eval_rows": 110932,
+  "eval_dates": 161,
+  "eval_first": "2026-01-02",
+  "eval_last": "2026-09-02",
+  "positives": 14327,
+  "excluded_symbols": [
+    "3149",
+    "4989",
+    "6225"
+  ],
+  "excluded_stock_days": 323,
+  "excluded_basis": "Official 2026 reference-price discontinuity; rights valuation unresolved"
+}

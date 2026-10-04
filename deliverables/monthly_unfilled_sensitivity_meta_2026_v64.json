@@ -1,0 +1,9 @@
+{
+  "assumption": "Every one-price new buy >=9.5% above prior raw close gets zero label credit",
+  "other_selections_unchanged": true,
+  "denominator_kept_at_full_top10": true,
+  "missed_orders_are_not_replaced": true,
+  "cash_and_exits_not_simulated": true,
+  "flag_uses_fill_day_ohlcv_after_the_signal": true,
+  "not_tradeable_nav": true
+}

@@ -1,0 +1,5 @@
+method,side,proposed_names,observed_quote,valid_open,one_price_session,one_price_up_near_10pct,one_price_down_near_10pct,one_price_up_buy_positive,zero_or_missing_volume,median_full_day_turnover_twd
+logistic,buy,313,313,313,7,6,1,5,0,686710471.0
+logistic,sell,248,248,248,1,1,0,0,0,311315673.5
+mom60_skip5,buy,317,317,317,1,1,0,1,0,658557056.0
+mom60_skip5,sell,252,252,252,1,0,1,0,0,476651291.5

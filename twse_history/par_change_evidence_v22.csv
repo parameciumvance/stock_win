@@ -1,0 +1,2 @@
+event_id,symbol,effective_date,old_par_value,new_par_value,new_shares_per_old,announcement_date,delivery_date,resume_trade_date,issuer_notice_url,policy
+par_change:6919:20250721,6919,2025-07-21,5,0.5,10,2025-06-26,2025-07-21,2025-07-21,https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=5517aaf0-77df-48b8-b05e-99289973a3f4,fractional_research_share_ratio

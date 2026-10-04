@@ -1,0 +1,3 @@
+method,months,selected,available,waiver_scenario_stock_months,mean_of_nine_monthly_means
+logistic,9,616,614,6,0.08833461982244277
+mom60_skip5,9,616,615,2,0.07402070521910117

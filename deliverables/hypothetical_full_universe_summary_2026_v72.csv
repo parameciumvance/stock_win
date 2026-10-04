@@ -1,0 +1,5 @@
+scenario,method,months,selected,hypothetical_claim_marks,mean_of_nine_monthly_marks
+early,logistic,9,616,2,0.08829246991878946
+early,mom60_skip5,9,616,1,0.07403278243948014
+late,logistic,9,616,2,0.08829246991878946
+late,mom60_skip5,9,616,1,0.07403278243948014

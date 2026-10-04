@@ -1,0 +1,13 @@
+{
+  "source": "v57 fixed 2026 score file",
+  "rows": 110932,
+  "dates": 161,
+  "thresholds_twd": [
+    10000000,
+    30000000,
+    100000000
+  ],
+  "thresholds_are_posthoc_diagnostics": true,
+  "no_refit": true,
+  "no_execution_claim": true
+}

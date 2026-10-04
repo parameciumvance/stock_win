@@ -1,0 +1,10 @@
+{
+  "training_cutoff": "2025-12-31",
+  "scores_from": "v57 frozen 2026 test",
+  "first_fill": "2026-02-02",
+  "last_fill": "2026-09-01",
+  "number_of_months": 8,
+  "rank_fraction": 0.1,
+  "initial_rebalance_excluded_from_churn_average": true,
+  "no_trading_nav_or_fill_assertion": true
+}

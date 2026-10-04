@@ -1,0 +1,134 @@
+"""Render the audited 2024–2025 result summary, after a successful build/test run."""
+from datetime import datetime
+import json
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import pandas as pd
+
+
+def main():
+    root = Path(__file__).parent
+    out = root / "output_multiyear"
+    s = json.loads((out / "summary_2024_2025.json").read_text())
+    tests = json.loads((out / "test_results.json").read_text())
+    if tests["failures"] or tests["errors"]:
+        raise ValueError("Tests failed; cannot render a passing report")
+    annual = pd.read_csv(out / "year_summary_2024_2025.csv")
+    audit = pd.read_csv(out / "corporate_action_audit_2024_2025.csv", dtype={"symbol": str})
+    boundary = pd.read_csv(out / "year_boundary_audit_2024_2025.csv", dtype={"symbol": str})
+    annual_rows = "\n".join(
+        f"| {int(r.year)} | {int(r.market_days):,} | {int(r.quote_rows):,} | {int(r.observed_common_symbols):,} | {int(r.labels_available):,} | {int(r.positives):,} | {r.positive_rate:.4%} |"
+        for r in annual.itertuples())
+    temporal_rows = "\n".join(f"| {k} | {v:,} |" for k, v in s["temporal_roles"].items())
+    boundary_examples = boundary[boundary.symbol.isin(["0050", "2330", "2454"])]
+    boundary_rows = "\n".join(
+        f"| {r.symbol} | {r.raw_previous_close:g} → {r.raw_next_close:g} | {r.raw_close_return:.3%} | {r.adjusted_close_return:.3%} |"
+        for r in boundary_examples.itertuples())
+    audit_counts = "、".join(f"{k}：{v:,}" for k, v in s["event_audit_states"].items())
+    special = audit[audit.audit_state.ne("matched")]
+    special_rows = "\n".join(
+        f"| {r.symbol} | {r.effective_date} | {r.event_type} | {r.audit_state} |"
+        for r in special.itertuples()) or "| — | — | — | 全部可核對事件一致 |"
+    now = datetime.now(ZoneInfo("Asia/Taipei")).date()
+    text = f"""# 2024–2025 台股資料擴充與跨年驗證
+
+更新日期：{now}。本次完成兩年資料建置與驗證；尚未訓練模型，也未計算可成交策略績效。
+
+## 完成項目
+
+- [x] 下載並核對 2024 年 242 個官方交易日行情
+- [x] 以官方市場成交資料核對 2025 年 243 個既有行情日期
+- [x] 補齊 2024 公司行動與中化、廷鑫、昶虹等下市股票
+- [x] 先合併原始資料，再在共同時間軸上還原價格
+- [x] 重算跨年 20 日標籤，保留窗口結束日
+- [x] 建立 2025 留出候選切分，排除訓練標籤跨入測試期的列
+- [x] 通過 {tests['tests_run']} 項測試
+- [ ] 擴充 2016–2023 與 2026 年資料
+- [ ] 補齊合併／下市對價、股數與投資人現金流帳
+- [ ] 建立量價特徵、規則 baseline 與模型評估
+
+## 資料規模
+
+兩年合計 **{s['market_days']:,} 個市場交易日、{s['raw_quote_rows']:,} 筆原始行情**，日期與官方每月成交紀錄完全一致。兩年出現過的普通股共 **{s['historical_common_symbols']:,} 檔**，普通股原始行情 {s['historical_common_quote_rows']:,} 列；加上成員期間缺價日期後，逐日股票池為 {s['membership_rows']:,} 列。
+
+| 年度 | 市場日 | 原始行情列 | 曾出現普通股 | 可用 label | 正例 | 正例率 |
+|---|---:|---:|---:|---:|---:|---:|
+{annual_rows}
+
+每日行情包含各類證券；普通股股票池排除 ETF、TDR、特別股與 ETN 等。0050 另列為 benchmark。正式下市日前的資料保留；缺價不補造成交，也不串接合併前後不同代號的價格。
+
+目前仍是歷史行情與官方 CFI／下市清單的回溯重建，不等於取得了完整逐日原始證券主檔。當前公司名稱、分類及事後知道的下市資訊不作歷史預測特徵。
+
+## 公司行動與跨年還原
+
+保留全部官方來源事件 {s['all_source_events']:,} 筆。普通股適用事件 {s['common_stock_events']:,} 筆，其中除權息 {s['common_events_by_type'].get('exrights', 0):,}、減資 {s['common_events_by_type'].get('reduction', 0):,}、面額變更 {s['common_events_by_type'].get('par_change', 0):,}；0050 另有 {s['benchmark_events']:,} 筆配息或分割事件。
+
+事件前收核對狀態：{audit_counts}。
+
+| 代號 | 生效日 | 事件 | 非 matched 狀態 |
+|---|---|---|---|
+{special_rows}
+
+跨年還原使用共同起點累積因子；1 月 1 日不重設。以下比較 2024 年末至 2025 年首個市場交易日：
+
+| 代號 | 原始前收 → 原始次收 | 原始價差 | 共同因子還原價差 |
+|---|---|---:|---:|
+{boundary_rows}
+
+如在年初除息，原始價差與還原價差合理不同。原本 2025 單年版缺少前一年收盤的核對，可以用本次 2024 年底行情補上。單元測試另驗證：若 12 月除息而翌年首日市價未變，共同序列應產生零報酬，不能因每年重新錨定製造假跌幅。
+
+`adj_*` 是官方參考價連續序列；還沒有逐筆股利、減資退現、認股款及股數帳，不是股東精確總報酬。成交股數維持原值，不用除息價格因子調整股數。
+
+## 跨年標籤與留出切分
+
+定義仍為未來 20 個市場交易日最高還原價相對訊號日還原收盤價上漲至少 30%，且未來窗口每天都須有有效最高價。訊號日最高價不列入窗口；任何缺價或窗口不足均留空。
+
+本次有 **{s['labels_crossing_year']:,} 筆完整 label 跨過年底**。2024 年底不再因單年檔案截斷而一律無標籤，但若以 2025 年為留出測試，這些列會標為 `purged_overlap`，不列入訓練候選。
+
+以 {s['holdout_start']} 為邊界的切分：
+
+| role | 列數 |
+|---|---:|
+{temporal_rows}
+
+`train_eligible` 的 `label_window_end` 必須嚴格早於測試邊界；`test_eligible` 的訊號日位於邊界當日或之後。`unlabeled` 不當成負例，也不當成無風險退出。這只是切分規則；特徵缺值、上市天數、流動性與樣本權重還會影響最後可用訓練列。
+
+正例率是事件分布，不是預測準確率。隔日開盤口徑未驗證成交；也沒有假設能賣在未來最高價。
+
+## 驗證與可重現性
+
+- {tests['tests_run']} 項測試通過，失敗 {tests['failures']}、錯誤 {tests['errors']}。
+- 官方新上市日期核對 {s['official_new_listings_checked']:,} 筆：原表日期與首筆行情不一致 {s['new_listing_mismatches']:,} 筆；依實際官方市場日曆對齊後仍不一致 {s['listing_calendar_mismatches']:,} 筆。
+- 跨年價格對照 {s['boundary_rows']:,} 筆；完整明細在 `year_boundary_audit_2024_2025.csv`。
+- 還原後絕對前後收盤變動超過 30% 的紀錄 {s['adjusted_close_jumps_over_30pct']:,} 筆，保留明細供核對，不自動消除真實市場漲跌。
+- 所有輸入年度行情的 SHA-256 及結果統計見 `summary_2024_2025.json`；官方來源回應另附來源網址、取得時間與雜湊。
+
+### 已逐項查明的價格與日期例外
+
+- **8101 華冠**：2024-08-21 最後交易收盤 1.90 元，停牌期間完成彌補虧損減資。證交所 8 月 28 日公告每千股換發 200 股，11 月 18 日公告新股 11 月 19 日買賣；以 1.90 ÷ 0.2 **計算**連續價格基準 9.50 元，復牌收盤 10.45 元對此基準約 +10%。年度 `TWTAUU` 結果沒有這列，所以另附公告影本、日期、雜湊與人工核實股數比例事件；9.50 是由正式比例及官方停牌前收盤計算，未冒稱是另一筆 API 直接回傳的參考價。
+- **6919 康霈**：官方新上市表列 2024-10-02，而當月官方 FMTQIK 無 10 月 2、3 日市場成交日期，首筆行情在下一市場日 10 月 4 日。稽核同時保留原始不一致欄與依市場日曆對齊結果。
+- **2429 銘旺科**：2024-07-02 官方除權資料列前收 38.90、除權息參考價 29.15，並列開盤競價基準 38.90。參考價連續序列的跳幅不等於當日可交易報酬；本次保留官方定義與異常清單，沒有把 46.7% 的調整後變動直接視為策略獲利。
+
+華冠的公司行動來源為證交所 [減資換發公告](https://dsp.twse.com.tw/public/static/downloads/announcement/official/ABS-11300163801-1.pdf) 及 [恢復上市公告](https://dsp.twse.com.tw/public/static/downloads/announcement/official/AB-11318052921-1.pdf)；兩份原始 PDF 皆附在壓縮檔內。
+
+使用方式見 `README_multiyear.md`。本次資料足以演練「2024 訓練、2025 留出」的特徵及 baseline 管線；對長期穩健性的結論仍需更多年份與市場狀態。
+
+## 官方來源
+
+- [每日市場成交資訊 FMTQIK](https://www.twse.com.tw/zh/trading/historical/fmtqik.html)
+- [每日收盤行情 MI_INDEX](https://www.twse.com.tw/zh/trading/historical/mi-index.html)
+- [證券 ISIN／CFI 分類](https://isin.twse.com.tw/isin/C_public.jsp?strMode=2)
+- [終止上市公司](https://www.twse.com.tw/zh/listed/suspend-listing.html)
+- [除權除息結果](https://www.twse.com.tw/zh/announcement/ex-right/twt49u.html)
+- [減資參考價格](https://www.twse.com.tw/zh/announcement/reduction/twtauu.html)
+- [面額變更參考價格](https://www.twse.com.tw/zh/announcement/change/twtb8u.html)
+- [ETF 分割／反分割參考價格](https://www.twse.com.tw/zh/announcement/split/twtcau.html)
+"""
+    target = root / "history_extension_report_2024_2025.md"
+    target.write_text(text)
+    print(target)
+
+
+if __name__ == "__main__":
+    main()

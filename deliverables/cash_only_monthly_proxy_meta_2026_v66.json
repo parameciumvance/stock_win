@@ -1,0 +1,12 @@
+{
+  "holding_interval": "after entry open through exit open",
+  "entry_ex_date_does_not_entitle_buyer": true,
+  "exit_ex_date_entitles_prior_holder": true,
+  "cash_source": "official 2026 TWT49U 權值+息值 for 權/息=息 only",
+  "cash_is_gross_receivable_not_payment_date_balance": true,
+  "rights_and_share_changes_excluded": true,
+  "complete_daily_prices_required": true,
+  "quote_is_not_order_fill": true,
+  "fees_and_taxes_not_included": true,
+  "still_not_nav_or_alpha": true
+}

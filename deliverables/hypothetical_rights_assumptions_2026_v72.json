@@ -1,0 +1,32 @@
+{
+  "purpose": "Counterfactual accounting sensitivity, not historical payment or deliverability evidence",
+  "asof_data_cutoff": "2026-10-02",
+  "share_unit": "one original share; fractional entitlement retained as a normalized claim, not an executable odd-lot order",
+  "trade_assumption": "one original share bought at observed entry open; all then-saleable shares sold at observed exit open; gross prices, zero costs and no fill proof",
+  "paid_subscription_election": "waive_all_paid_rights_without_compensation",
+  "marks": "cash receivable at face value; pending free shares at exit open only for an illustrative exit-date economic mark",
+  "events": {
+    "7610": {
+      "ex_date": "2026-07-13",
+      "cash_per_original": 0.5,
+      "free_shares_total": 9720000,
+      "cash_total": 24292728,
+      "free_shares_per_original": 0.2000598697684344,
+      "amount_basis": "TWSE dividend decision as of 2026-10-03; cross-check with dividend-only reference; actual payment and delivery dates unverified",
+      "hypothetical_dates": {
+        "early": {"cash_payment": "2026-07-31", "free_share_delivery": "2026-07-31"},
+        "late": {"cash_payment": "2026-08-17", "free_share_delivery": "2026-08-17"}
+      }
+    },
+    "2464": {
+      "ex_date": "2026-09-02",
+      "cash_per_original": 0.48,
+      "free_shares_per_original": 0.0,
+      "amount_basis": "pure assumption based on displayed 184.50 minus 184.02 dividend-only reference; displayed price rounding prevents exact confirmation; board's original 0.50 is not the revised entitlement",
+      "hypothetical_dates": {
+        "early": {"cash_payment": "2026-09-30", "free_share_delivery": null},
+        "late": {"cash_payment": "2026-10-02", "free_share_delivery": null}
+      }
+    }
+  }
+}
