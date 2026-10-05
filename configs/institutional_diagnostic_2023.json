@@ -8,5 +8,6 @@
   "ridge_alpha": 1000,
   "top_fraction": 0.1,
   "min_pool_size": 100,
-  "output_directory": "deliverables"
+  "output_directory": "deliverables",
+  "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d"
 }

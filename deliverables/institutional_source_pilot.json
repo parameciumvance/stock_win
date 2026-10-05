@@ -97,5 +97,30 @@
     "all_source_rows": 14141
   },
   "sample_only": true,
-  "year2023_acquisition": "in_progress"
+  "year2023_acquisition": "in_progress",
+  "no_warrants_selection_check": {
+    "official_page": "https://www.twse.com.tw/zh/trading/foreign/t86.html",
+    "select_type": "ALLBUT0999",
+    "description": "全部(不含權證、牛熊證、可展延牛熊證)",
+    "samples": [
+      {
+        "date": "20150105",
+        "filtered_rows": 863,
+        "full_rows": 6880,
+        "all_filtered_rows_equal": true
+      },
+      {
+        "date": "20200106",
+        "filtered_rows": 1072,
+        "full_rows": 10373,
+        "all_filtered_rows_equal": true
+      },
+      {
+        "date": "20240105",
+        "filtered_rows": 1154,
+        "full_rows": 14141,
+        "all_filtered_rows_equal": true
+      }
+    ]
+  }
 }

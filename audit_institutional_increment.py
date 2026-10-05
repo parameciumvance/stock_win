@@ -73,6 +73,11 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage):
     flow = pd.read_csv(features_path, dtype={'symbol': str}, parse_dates=['date'])
     if flow.duplicated(['date', 'symbol']).any():
         raise ValueError('Duplicate feature date/symbol')
+    if 'institutional_source_date' in flow:
+        source_date = pd.to_datetime(flow.institutional_source_date)
+        observed = flow[FLOW_FEATURES].notna().any(axis=1)
+        if not source_date[observed].lt(flow.loc[observed, 'date']).all():
+            raise ValueError('Institutional feature source must precede signal date')
     merged = full.merge(flow[['date', 'symbol'] + FLOW_FEATURES], on=['date', 'symbol'], how='left', validate='one_to_one')
     before_flows = merged.eligible & np.isfinite(merged[PRICE_FEATURES + ['target']]).all(axis=1)
     complete = before_flows & np.isfinite(merged[FLOW_FEATURES]).all(axis=1)
@@ -88,6 +93,8 @@ def main():
     parser.add_argument('--config', default='configs/institutional_diagnostic_2023.json')
     args = parser.parse_args()
     config = json.loads(Path(args.config).read_text())
+    if hashlib.sha256(Path(config['prices']).read_bytes()).hexdigest() != config['expected_prices_sha256']:
+        raise ValueError('Frozen price input checksum mismatch')
     train, test, coverage = dataset(config['prices'], config['features'], pd.Timestamp(config['train_cutoff']),
                                      config['commission'], config['sell_tax'], config['slippage_each_side'])
     if len(train) < 1000 or len(test) < 1000:

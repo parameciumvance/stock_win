@@ -111,6 +111,7 @@ def main():
     parser.add_argument("--output", default="deliverables/institutional_normalized.csv.gz")
     parser.add_argument("--universe", help="Historical CSV[.gz] with date,symbol,is_member; filter after full source validation")
     parser.add_argument("--fetch", action="store_true")
+    parser.add_argument("--select-type", choices=["ALL", "ALLBUT0999"], default="ALL")
     parser.add_argument("--workers", type=int, choices=[1, 2], default=2)
     parser.add_argument("--delay", type=float, default=2)
     args = parser.parse_args()
@@ -138,7 +139,7 @@ def main():
 
     def one(day):
         name = "t86_" + day
-        url = "https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date=" + day + "&selectType=ALL"
+        url = "https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date=" + day + "&selectType=" + args.select_type
         native = root / (name + ".json")
         meta_path = root / (name + ".meta.json")
         cached = native.exists() and meta_path.exists()
