@@ -1,0 +1,86 @@
+{
+  "records": [
+    {
+      "symbol": "2330",
+      "revenue_month": "2024-01",
+      "revenue_twd_thousands": 215785127,
+      "previous_year_twd_thousands": 200050544,
+      "reported_yoy_pct": 7.9,
+      "issuer_publication_date": "2024-02-07",
+      "issuer_timestamp_precision": "date",
+      "sec_accepted_at": "2024-02-07T19:01:57+08:00",
+      "timing_basis": "issuer_date_and_sec_acceptance_next_market_day",
+      "candidate_available_date": "2024-02-15",
+      "first_publication_timestamp_verified": false,
+      "complete_revision_history_verified": false,
+      "strict_ledger_eligible": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000014/tsm-revenue20240207x6k.htm",
+      "issuer_url": "https://pr.tsmc.com/english/news/3110",
+      "acceptance_source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000014/0001046179-24-000014-index.html",
+      "snapshot_sha256": "76f9423bb0ec785fb887b2f8266842f3742350ed6b6bf7898a9dc9fb7b3182fb",
+      "source_hashes": {
+        "submissions": "e70ab50fd6f80607949ebd8d3d47aeecce5d2d813074c34c331488cf10892ad2",
+        "issuer": "6520eb5833365e27968e80d46c9c38f3bac15fc7e3774ca32e92af0a681818e3",
+        "index": "4f7e883391c7ddf408845bf4ba3202beb620cb50018ec02d80e953aa06c58b0c",
+        "filing": "76f9423bb0ec785fb887b2f8266842f3742350ed6b6bf7898a9dc9fb7b3182fb"
+      }
+    },
+    {
+      "symbol": "2330",
+      "revenue_month": "2024-02",
+      "revenue_twd_thousands": 181648270,
+      "previous_year_twd_thousands": 163174097,
+      "reported_yoy_pct": 11.3,
+      "issuer_publication_date": "2024-03-08",
+      "issuer_timestamp_precision": "date",
+      "sec_accepted_at": "2024-03-08T19:05:24+08:00",
+      "timing_basis": "issuer_date_and_sec_acceptance_next_market_day",
+      "candidate_available_date": "2024-03-11",
+      "first_publication_timestamp_verified": false,
+      "complete_revision_history_verified": false,
+      "strict_ledger_eligible": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000026/tsm-revenue20240308x6k.htm",
+      "issuer_url": "https://pr.tsmc.com/english/news/3119",
+      "acceptance_source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000026/0001046179-24-000026-index.html",
+      "snapshot_sha256": "5f897512c985b64df9528775b8cc2eef06ee806b3be188f6d6aa8a75bc81cb5d",
+      "source_hashes": {
+        "submissions": "e70ab50fd6f80607949ebd8d3d47aeecce5d2d813074c34c331488cf10892ad2",
+        "issuer": "33f73478591f92a3f610532702fa93f722f9cf2d4fd032a3dd2028e6d3a59439",
+        "index": "5351640317848949e2252360e4013f5c2a046f4763dec7a848cd113160c3e8f0",
+        "filing": "5f897512c985b64df9528775b8cc2eef06ee806b3be188f6d6aa8a75bc81cb5d"
+      }
+    },
+    {
+      "symbol": "2330",
+      "revenue_month": "2024-03",
+      "revenue_twd_thousands": 195210804,
+      "previous_year_twd_thousands": 145408332,
+      "reported_yoy_pct": 34.3,
+      "issuer_publication_date": "2024-04-10",
+      "issuer_timestamp_precision": "date",
+      "sec_accepted_at": "2024-04-10T18:04:06+08:00",
+      "timing_basis": "issuer_date_and_sec_acceptance_next_market_day",
+      "candidate_available_date": "2024-04-11",
+      "first_publication_timestamp_verified": false,
+      "complete_revision_history_verified": false,
+      "strict_ledger_eligible": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000042/tsm-revenue20240410x6k.htm",
+      "issuer_url": "https://pr.tsmc.com/english/news/3125",
+      "acceptance_source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000042/0001046179-24-000042-index.html",
+      "snapshot_sha256": "fa4a8d3c935a21230a65a409cd25f5a7c358b13fae4c5524e61936fafb7d69a0",
+      "source_hashes": {
+        "submissions": "e70ab50fd6f80607949ebd8d3d47aeecce5d2d813074c34c331488cf10892ad2",
+        "issuer": "75721df58345aea1133ae25392c3609b4baa040f0cc8091608a70e364b2cf885",
+        "index": "f10f6e8cf1ab47c75af4e5a10ff8d0b95f44ad10924b7d6388047cf48af22d0a",
+        "filing": "fa4a8d3c935a21230a65a409cd25f5a7c358b13fae4c5524e61936fafb7d69a0"
+      }
+    }
+  ],
+  "calendar_sha256": {
+    "calendar_202402.json": "53e7251786dbed22568879613f932c653e42fb587820a1c170282a4991b6ca6a",
+    "calendar_202403.json": "05a3c537d038ab4990310484b695c6b6498ddfb8bdcb0a76199ea29cc5a99520",
+    "calendar_202404.json": "265202eaf09cb7731cca7bd7d0719ecdaf130d25694f7d62b1943e7d9aed0216"
+  },
+  "status": "source_pilot_only_not_model_input",
+  "strict_ledger_rows": 0
+}

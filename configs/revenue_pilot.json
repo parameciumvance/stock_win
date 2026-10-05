@@ -1,0 +1,43 @@
+{
+  "submissions_url": "https://data.sec.gov/submissions/CIK0001046179.json",
+  "calendar_months": [
+    "202402",
+    "202403",
+    "202404"
+  ],
+  "reports": [
+    {
+      "revenue_month": "2024-01",
+      "accession": "0001046179-24-000014",
+      "document": "tsm-revenue20240207x6k.htm",
+      "issuer_cache": "tsmc_202401_en",
+      "issuer_url": "https://pr.tsmc.com/english/news/3110",
+      "index_cache": "sec_202401_index",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000014/0001046179-24-000014-index.html",
+      "filing_cache": "sec_202401_filing",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000014/tsm-revenue20240207x6k.htm"
+    },
+    {
+      "revenue_month": "2024-02",
+      "accession": "0001046179-24-000026",
+      "document": "tsm-revenue20240308x6k.htm",
+      "issuer_cache": "tsmc_202402_en",
+      "issuer_url": "https://pr.tsmc.com/english/news/3119",
+      "index_cache": "sec_202402_index",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000026/0001046179-24-000026-index.html",
+      "filing_cache": "sec_202402_filing",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000026/tsm-revenue20240308x6k.htm"
+    },
+    {
+      "revenue_month": "2024-03",
+      "accession": "0001046179-24-000042",
+      "document": "tsm-revenue20240410x6k.htm",
+      "issuer_cache": "tsmc_202403",
+      "issuer_url": "https://pr.tsmc.com/english/news/3125",
+      "index_cache": "sec_202403_index",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000042/0001046179-24-000042-index.html",
+      "filing_cache": "sec_202403_filing",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000042/tsm-revenue20240410x6k.htm"
+    }
+  ]
+}

@@ -18,3 +18,7 @@
 **不能把「次月 10 日」直接填入 `published_at`。** 既有 `asof_revenue.py` 只接受有真實公開時刻及原始快照 SHA-256 的輸入；若走 B，應另建欄位及輸出名稱，與正式資料隔離。資料已經被回溯檢視，未來模型比較仍需預先固定方案與新的市場期間。
 
 原始 HTML 樣本與 `monthly_revenue_sample_202401.meta.json` 已保存。證交所 [OpenAPI 說明](https://openapi.twse.com.tw/)與 [政府資料目錄](https://data.gov.tw/dataset/18420)列出月營收彙總資料；[公開資訊觀測站](https://mops.twse.com.tw/)提供公司申報查詢，但本試點尚未核實可批量取得逐公司歷史申報時刻。
+
+## 續作：官方公告試點已完成
+
+見 `deliverables/revenue_source_pilot_report.md`：1 家公司、3 個月份的公司新聞稿日期、SEC 精確千元營收及兩份接受時間來源均已核对；六項邊界測試通過。MOPS 該筆舊查詢仍無資料，完整修正軌跡和全市场覆蓋待查。SEC 接受時間不冒充首次公開時刻，正式 ledger 新增零筆。月營收特徵保留 pending，其他資料工程可繼續；下一項是免費法人買賣超來源驗證。
