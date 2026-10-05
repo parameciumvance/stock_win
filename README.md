@@ -8,6 +8,7 @@
 
 - [完整 Tasks 與研究規格](docs/taiwan_stock_ml_v1_spec.md)
 - [資料取得與重建](docs/DATA_SETUP.md)；[輸入檔 SHA-256](docs/INPUT_CHECKSUMS.json)
+- [月營收公告時點接入](docs/DATA_SETUP.md#月營收的公告時點)；`twse_history/asof_revenue.py` 需真正公開時間及原始快照
 - [30 萬元 Top 15 委託與資金檢核](deliverables/top15_300k_order_funding_report_2026_v75.md)
 - [相對報酬模型與零股來源檢核](deliverables/relative_return_and_oddlot_report_2026_v78.md)
 
@@ -54,4 +55,4 @@ python audit_relative_gate_history_v78.py
 
 ## 下一步
 
-先補更早年度及按實際公布日對齊的月營收、法人資料，檢查對次日開盤與固定持有相對報酬的增量價值；事先固定方法，等新的市場期間再評估。2026 年九個換股日的官方盤中零股 CSV 與精確持股現金帳暫列後續工作；每日市場價量也不能證明限價單必然成交。
+已備好更早年度下載核對順序及月營收時點對齊工具；接著須取得連續歷史行情和逐公司原始公告時間，才能測試對次日開盤與固定持有相對報酬的增量價值。事先固定方法，等新的市場期間再評估。2026 年九個換股日的官方盤中零股 CSV 與精確持股現金帳暫列後續工作；每日市場價量也不能證明限價單必然成交。
