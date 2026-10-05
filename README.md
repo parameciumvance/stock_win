@@ -9,6 +9,7 @@
 - [完整 Tasks 與研究規格](docs/taiwan_stock_ml_v1_spec.md)
 - [資料取得與重建](docs/DATA_SETUP.md)；[輸入檔 SHA-256](docs/INPUT_CHECKSUMS.json)
 - [月營收公告時點接入](docs/DATA_SETUP.md#月營收的公告時點)；`twse_history/asof_revenue.py` 需真正公開時間及原始快照
+- [2017 年度與 2017–2018 跨年試點](deliverables/history_2017_acquisition_report.md)
 - [2018 年度免費資料與股票池試點](deliverables/history_2018_acquisition_report.md)；[年度封存 SHA-256](docs/INPUT_CHECKSUMS.json)
 - [2019 年度與 2019–2020 跨年試點](deliverables/history_2019_acquisition_report.md)
 - [2020 年度與 2020–2021 跨年試點](deliverables/history_2020_acquisition_report.md)
@@ -62,4 +63,4 @@ python audit_relative_gate_history_v78.py
 
 ## 下一步
 
-已完成 2018–2022 上市行情和普通股池試點，以及 2019–2023 相鄰年份的跨年共同因子檢查；另備妥月營收時點對齊工具。接著須補齊 2015–2017 歷史年份與逐公司原始公告時間，才能測試對次日開盤與固定持有相對報酬的增量價值。事先固定方法，等新的市場期間再評估。2026 年九個換股日的官方盤中零股 CSV 與精確持股現金帳暫列後續工作；每日市場價量也不能證明限價單必然成交。
+已完成 2017–2022 上市行情和普通股池試點，以及 2017–2023 相鄰年份的跨年共同因子檢查；另備妥月營收時點對齊工具。接著須補齊 2015–2016 歷史年份與逐公司原始公告時間，才能測試對次日開盤與固定持有相對報酬的增量價值。事先固定方法，等新的市場期間再評估。2026 年九個換股日的官方盤中零股 CSV 與精確持股現金帳暫列後續工作；每日市場價量也不能證明限價單必然成交。
