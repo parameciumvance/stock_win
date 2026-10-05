@@ -87,3 +87,5 @@ python -m twse_history.build_multiyear \
 ```
 
 與 [輸入 SHA-256](INPUT_CHECKSUMS.json) 比對年度報價後執行；輸出的 `summary_2015_2026.json` 應有 2,863 個官方市場日、3,220,115 筆原始報價、202,508 筆跨年標籤及五筆超過 30% 的相鄰有報價日變化。匹配的完整摘要見 [long_history_summary_2015_2026.json](long_history_summary_2015_2026.json)。上述摘要是資料健康與 +30% 舊標籤統計，沒有重訓或實盤成績。
+
+在全段建置成功後，`python audit_long_volatility.py` 可重算 2015–2023 的波動排序診斷；見 [長期壓力測試](../deliverables/long_volatility_2015_2023_report.md)。這個命令使用全段還原參考價與標籤，不下載公告時點或驗證零股成交。

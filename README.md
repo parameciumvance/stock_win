@@ -9,6 +9,7 @@
 - [完整 Tasks 與研究規格](docs/taiwan_stock_ml_v1_spec.md)
 - [資料取得與重建](docs/DATA_SETUP.md)；[輸入檔 SHA-256](docs/INPUT_CHECKSUMS.json)
 - [月營收公告時點接入](docs/DATA_SETUP.md#月營收的公告時點)；`twse_history/asof_revenue.py` 需真正公開時間及原始快照
+- [2015–2023 波動基準長期壓力測試](deliverables/long_volatility_2015_2023_report.md)
 - [2015–2026 全段共同建置與五筆邊界稽核](deliverables/long_history_2015_2026_report.md)
 - [2015 年度與 2015–2016 跨年試點](deliverables/history_2015_acquisition_report.md)
 - [2016 年度與 2016–2017 跨年試點](deliverables/history_2016_acquisition_report.md)
