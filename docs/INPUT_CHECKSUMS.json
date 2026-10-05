@@ -1,5 +1,15 @@
 [
   {
+    "local_name": "quotes_twse_2022.csv.gz",
+    "sha256": "33d52c16571779907951aff22fa5c7c96be6d0daf087df92e80025f57a908b4e",
+    "bytes": 8622501
+  },
+  {
+    "local_name": "twse_raw_2022.zip",
+    "sha256": "28d4ba0a629c56ff885b84cb91a0fa08502801bf0267ab171dfab534285890b6",
+    "bytes": 23895743
+  },
+  {
     "local_name": "quotes_twse_2018.csv.gz",
     "sha256": "b5739871ca5b639208ae49bb574baf1c68737bdd028abc052d76e1b06e487fc5",
     "bytes": 7550046

@@ -49,9 +49,9 @@ python -m twse_history.fetch_history --year 2018 --quotes inputs/quotes_twse_201
 
 按年替換 `2018`；先核對 `health_twse_<year>.json`、完整日曆、原始回應與 `.meta.json` 的 SHA-256，再建立連續 2015–2026 的原始行情與公司行動。**不能只把 2015／2018／2020／2022 四個年份拼起來**：120 日量價特徵和 20 日標籤都依賴中間連續的交易日。重建時將所有年度原始行情共同傳入 `build_multiyear`，並複查跨年公司行動和股票池；各年度不能先獨立還原後拼接。
 
-2026-10-05 已實際取得及驗證完整 2018 年度：247 日、260,823 列，並完成單年度普通股池及公司行動試建。來源包 `twse_raw_2018.zip` 與年度行情 `quotes_twse_2018.csv.gz` 的 SHA-256 見 [INPUT_CHECKSUMS.json](INPUT_CHECKSUMS.json)；[試點報告](../deliverables/history_2018_acquisition_report.md)記錄了分類推斷和覆蓋缺口。2015、2020、2022 年目前只各測試一日解析，尚未取得全年。
+2026-10-05 已實際取得及驗證完整 2018 年度：247 日、260,823 列，並完成單年度普通股池及公司行動試建。[2018 試點報告](../deliverables/history_2018_acquisition_report.md)記錄了分類推斷和覆蓋缺口。2022 年也已完成 246 日、287,161 列，並與 2023 原始行情共用因子建置跨年價格；見 [2022 試點報告](../deliverables/history_2022_acquisition_report.md)。2015、2020 年目前只各測試一日解析，尚未取得全年。兩個年度封存包與行情的 SHA-256 見 [INPUT_CHECKSUMS.json](INPUT_CHECKSUMS.json)。
 
-2018 原始來源封存包可解壓到專案根目錄，內含 `inputs/`、`data/raw/twse_2018/` 及 `twse_history/raw/` 的必要來源；重新執行 `python -m twse_history.build_history --year 2018 --quotes inputs/quotes_twse_2018.csv.gz`。`package_year_archive.py --year 2018 --output ...` 可在完整快取上重新產生帶逐檔 SHA-256 的 ZIP。2018 檔案雖已保存，距離 2015–2026 連續價格仍缺多個年份；不得用缺口前後的收盤日當作相鄰交易日。
+原始來源封存包可解壓到專案根目錄，內含 `inputs/`、`data/raw/twse_<year>/` 及 `twse_history/raw/` 的必要來源；分別重新執行 `python -m twse_history.build_history --year 2018 --quotes inputs/quotes_twse_2018.csv.gz` 或替換為 2022。`package_year_archive.py --year 2018 --output ...` 可在完整快取上重新產生帶逐檔 SHA-256 的 ZIP。已有 2018、2022 和 2023–2026，距離 2015–2026 連續價格仍缺 2015–2017、2019–2021；不得用缺口前後的收盤日當作相鄰交易日。
 
 ## 月營收的公告時點
 
