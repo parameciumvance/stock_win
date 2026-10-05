@@ -175,7 +175,8 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(classify_security("1101", "ESVUFR", set())[0], "common_stock")
         self.assertEqual(classify_security("1101B", "EPNRAR", set())[0], "preferred_or_other_equity")
         self.assertEqual(classify_security("9103", "EDSDDR", set())[0], "depository_receipt")
-        self.assertEqual(classify_security("911612", "", {"911612"}, "滬安")[0], "depository_receipt")
+        for symbol in ("910069", "911609", "911612", "913889"):
+            self.assertEqual(classify_security(symbol, "", {symbol}, "舊簡稱")[0], "depository_receipt")
         self.assertEqual(classify_security("0050", "CEOGEU", set())[0], "fund_note_or_other")
         self.assertEqual(classify_security("2888", "", {"2888"})[0], "common_stock")
         self.assertEqual(classify_security("9998", "", set())[0], "unresolved")
@@ -192,6 +193,12 @@ class SourceTests(unittest.TestCase):
         collapsed = collapse_identical_action_rows(same)
         self.assertEqual(len(collapsed), 1)
         self.assertEqual(collapsed.loc[0, "duplicate_source_rows_1based"], "3,4")
+        earlier = same.iloc[[0]].assign(source_row_1based=2,
+            selected_reference_field="恢復買賣參考價",
+            official_reference=5.78, adjustment_factor=5.78 / 1.77)
+        corrected = pd.concat([earlier, same.assign(
+            selected_reference_field="除權參考價")], ignore_index=True)
+        self.assertEqual(collapse_identical_action_rows(corrected).loc[0, "official_reference"], 5.68)
         with self.assertRaisesRegex(ValueError, "composite-event"):
             collapse_identical_action_rows(same.assign(
                 official_reference=[5.68, 5.69]))

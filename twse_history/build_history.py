@@ -89,11 +89,14 @@ def classify_security(symbol, cfi, delisted_symbols, observed_name=""):
     # Check the official quote name BEFORE the four-digit delisted-issuer rule.
     if re.fullmatch(r"9(?:[0-9]{3}|[0-9]{5})", symbol) and str(observed_name).upper().endswith("-DR"):
         return "depository_receipt", "official_quote_name_dr_and_ticker_format"
-    # The official 2016 delisting feed shortens 911612 to 滬安電力, without
-    # -DR. Its depositary bank identifies code 911612 as a Taiwan DR:
+    # Older delisting feeds/quote names omit -DR. These exact retired codes
+    # are documented as TDRs by TWSE (2010 annual report, 2012 fact book)
+    # or the depositary bank; do not infer all six-digit codes are TDRs.
+    # https://www.twse.com.tw/downloads/zh/about/company/annual_99.pdf
+    # https://www.twse.com.tw/downloads/zh/about/company/factbook/2012/1.06.htm
     # https://www.feib.com.tw/UpFiles/wealthmanagement/pdf/HA_TDR-letter.pdf
-    if symbol == "911612" and symbol in delisted_symbols:
-        return "depository_receipt", "documented_legacy_dr_911612"
+    if symbol in {"910069", "911609", "911612", "913889"} and symbol in delisted_symbols:
+        return "depository_receipt", "documented_legacy_dr"
     # A historical issuer on the official company delisting list with a normal
     # four-digit ticker can be retained even if its ISIN has been retired.
     if re.fullmatch(r"[1-9][0-9]{3}", symbol) and symbol in delisted_symbols:
@@ -189,20 +192,37 @@ def build_universe(quotes, raw, calendar):
 
 
 def collapse_identical_action_rows(result):
-    """Keep one official event when duplicate rows have identical economics."""
+    """Use one factor for duplicate rows, with a narrow reference-field priority."""
     keep = []
-    for (_, _), group in result.groupby(["symbol", "effective_date"], sort=False):
+    for _, group in result.groupby(["symbol", "effective_date"], sort=False):
         if len(group) == 1:
             keep.append(group.iloc[0].copy())
             continue
-        fields = ["event_type", "event_subtype", "official_previous_close",
-                  "official_reference", "adjustment_factor", "selected_reference_field"]
-        if any(group[field].nunique(dropna=False) != 1 for field in fields):
+        common = ["event_type", "event_subtype", "official_previous_close"]
+        if any(group[field].nunique(dropna=False) != 1 for field in common):
             raise ValueError("Same-symbol same-day actions require composite-event review; not multiplied automatically")
         if group.source_file.nunique() != 1:
             raise ValueError("Same-symbol same-day actions have different sources")
-        selected = group.sort_values("source_row_1based").iloc[-1].copy()
+        economics = ["official_reference", "adjustment_factor", "selected_reference_field"]
+        if all(group[field].nunique(dropna=False) == 1 for field in economics):
+            selected = group.sort_values("source_row_1based").iloc[-1].copy()
+            resolution = "identical_economics"
+        else:
+            corrected = group[group.selected_reference_field.eq("除權參考價")]
+            uncorrected = group[group.selected_reference_field.eq("恢復買賣參考價")]
+            if (group.event_type.iloc[0] != "reduction" or corrected.empty or
+                    len(corrected) + len(uncorrected) != len(group) or
+                    corrected.official_reference.nunique() != 1 or
+                    uncorrected.official_reference.nunique() != 1 or
+                    corrected.adjustment_factor.nunique() != 1):
+                raise ValueError("Same-symbol same-day actions require composite-event review; not multiplied automatically")
+            # The reduction feed may retain a preliminary resumption reference
+            # and a later row with the explicit ex-right reference. The latter
+            # already has priority in load_actions; never multiply both.
+            selected = corrected.sort_values("source_row_1based").iloc[0].copy()
+            resolution = "official_exrights_reference_over_resumption"
         selected["duplicate_source_rows_1based"] = ",".join(map(str, sorted(group.source_row_1based)))
+        selected["duplicate_resolution"] = resolution
         keep.append(selected)
     return pd.DataFrame(keep).reset_index(drop=True)
 
