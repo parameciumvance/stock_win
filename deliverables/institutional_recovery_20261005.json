@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "bundle_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "manifest_members_verified": 506,
+  "tests_passed": 18,
+  "source_commit": "1253fc92a99ce98d39472d92da01168ea995bba4",
+  "summary_matches_saved_result": true,
+  "max_metric_absolute_delta": 0.0,
+  "train_rows": 11135,
+  "train_signal_dates": 17,
+  "test_rows": 49908,
+  "test_dates": 83,
+  "institutional_2024_checkpoint": "not_found_in_current_search_and_recent_inventory_write_outcome_unconfirmed",
+  "twse_download_probe": "URLError: urlopen error timed out (10 seconds)",
+  "crossyear_2024_model": "blocked_missing_flow_input",
+  "models_exported": "deliverables/institutional_ridge_models_2023.json"
+}

@@ -22,3 +22,12 @@
 ## 完整性識別
 
 正規化 `institutional_twse_2024.csv.gz`：SHA-256 `a296ca2dfdb1bfd1344cca28858211c40194d1451a07dc9caec41618032f9df2`。股票池：`bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942`。細節見 `deliverables/institutional_acquisition_2024.json`。
+
+## 晚間復原更新
+
+暫存工作區已由平台維護清理，2023 保存包成功恢復；18 項測試及 2023 模型重跑通過。
+2024 原取得的統計紀錄仍保存在 repo，但沒有找到可還原的年度法人資料。
+官方 T86 10 秒下載測試逾時，目前網路允許清單不包含該主機。
+2024 模型、補充包仍 pending；沒有新增跨年成效。
+接續方式見 `docs/INSTITUTIONAL_RESUME.md`。
+

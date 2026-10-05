@@ -33,3 +33,29 @@ GitHub 已提交內容和先前封存的年度資料仍在。本轮先讀取 mai
 2. 核對／恢復 2023 重跑包，核對 2024 正規化檢查點；若未保存且暫存遺失，沿既有 `--year 2024 --select-type ALLBUT0999` 命令重抓。
 3. 重建 2023–2024 連續法人特徵；執行已固定 `configs/institutional_diagnostic_2024.json`。模型擬合不使用同日法人，標籤在训练 cutoff 前結束。
 4. 完成 2024 補充資料包、逐成員 hash 與保存，再更新跨年結果。Makefile 已加入 `test-institutional` 與 `institutional-diagnostics`；資料還原後可重跑。
+
+## 2026-10-05 晚間的實際恢復結果
+
+執行服務已恢復，可正常啟動本機程序。平台通知自動維護已清理暫存目錄；
+工作目錄沒有先前專案／資料，不把這件事歸因於使用者刪檔。
+
+已由保存的 `institutional_twse_2023_repro_bundle.zip` 恢復輸入，驗證全包
+SHA-256、ZIP CRC 及 506 個 manifest 來源成員；從 GitHub commit
+`1253fc92a99ce98d39472d92da01168ea995bba4` 恢復所需程式。
+18 項測試通過，重跑 2023 的所有每日平均指標絕對差皆為 0，
+訓練／測試列數與輸入 hash 相同。2023 模型係數 JSON 已產生。
+這是再現，沒有新增 2024 成效。
+
+再次按確切名稱、簡短名稱及最近檔案清單查找 2024 正規化資料／補充包，
+未找到可用項目；原先保存請求仍無成功回覆，維持 outcome unknown。
+未重複建立同名備份。
+
+目前環境網路允許清單未包含 `www.twse.com.tw`；
+一次 T86 官方樣本下載在 10 秒逾時（URLError）。
+這不能證明證交所本身停機。未啟動 242 日下載佇列。
+
+復原入口：`python3 resume_institutional.py --bundle <已保存的2023完整資料包> --check-only`。
+只有在能正常連線 TWSE 的主機上才執行 `--fetch`；成功取得原始與正規化資料後
+先產生 source checkpoint，再建立特徵及執行先前固定的 2024 配置。
+詳見 `docs/INSTITUTIONAL_RESUME.md`。
+
