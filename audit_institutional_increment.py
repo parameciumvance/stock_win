@@ -100,10 +100,15 @@ def main():
                                      config.get('start_year', 2023), config.get('end_year', 2023))
     if len(train) < 1000 or len(test) < 1000:
         raise ValueError('Insufficient training/test rows')
+    fitted_models = {}
     for name, columns in [('price_ridge', PRICE_FEATURES), ('price_flow_ridge', PRICE_FEATURES + FLOW_FEATURES)]:
         model = make_pipeline(StandardScaler(), Ridge(alpha=config['ridge_alpha']))
         model.fit(train[columns], train.target)
         test[name] = model.predict(test[columns])
+        scaler, ridge = model.steps[0][1], model.steps[1][1]
+        fitted_models[name] = {'features': columns, 'scaler_mean': scaler.mean_.tolist(),
+                              'scaler_scale': scaler.scale_.tolist(), 'ridge_coefficients': ridge.coef_.tolist(),
+                              'ridge_intercept': float(ridge.intercept_)}
     test['vol20_rank'] = test.vol20
     rows = []
     for day, group in test.groupby('date', sort=True):
@@ -137,6 +142,9 @@ def main():
                'status': 'exploratory_quote_proxy_already_researched_history_not_fresh_holdout',
                'input_sha256': {key: hashlib.sha256(Path(config[key]).read_bytes()).hexdigest() for key in ('prices', 'features')}}
     (path / f'institutional_increment_summary_{suffix}.json').write_text(json.dumps(summary, indent=2) + '\n')
+    (path / f'institutional_ridge_models_{suffix}.json').write_text(json.dumps({
+        'status': 'research_diagnostic_not_calibrated_surge_probability', 'train_cutoff': config['train_cutoff'],
+        'input_sha256': summary['input_sha256'], 'models': fitted_models}, indent=2) + '\n')
     print(json.dumps(summary, indent=2))
 
 

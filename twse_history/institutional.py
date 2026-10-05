@@ -146,14 +146,26 @@ def main():
         if not cached and args.fetch:
             import hashlib
             import urllib.request
+            import urllib.error
             from datetime import datetime, timezone
             root.mkdir(parents=True, exist_ok=True)
-            with urllib.request.urlopen(urllib.request.Request(url, headers={
-                    "User-Agent": "stock-win-research/1.0 (historical source validation)"}), timeout=20) as response:
-                raw = response.read()
-                meta = {"source_url": url, "final_url": response.url, "http_status": response.status,
-                        "fetched_at": datetime.now(timezone.utc).isoformat(), "bytes": len(raw),
-                        "sha256": hashlib.sha256(raw).hexdigest()}
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(urllib.request.Request(url, headers={
+                            "User-Agent": "stock-win-research/1.0 (historical source validation)"}), timeout=20) as response:
+                        raw = response.read()
+                        meta = {"source_url": url, "final_url": response.url, "http_status": response.status,
+                                "fetched_at": datetime.now(timezone.utc).isoformat(), "bytes": len(raw),
+                                "sha256": hashlib.sha256(raw).hexdigest()}
+                    break
+                except urllib.error.HTTPError as error:
+                    if error.code not in (500, 502, 503, 504) or attempt == 2:
+                        raise
+                    time.sleep(5 * (attempt + 1))
+                except (TimeoutError, urllib.error.URLError, ConnectionError):
+                    if attempt == 2:
+                        raise
+                    time.sleep(5 * (attempt + 1))
             if meta["final_url"] != url or meta["http_status"] != 200:
                 raise ValueError("T86 source redirected/errored")
             normalize_t86(json.loads(raw), day)  # Do not cache a failure as completed.
@@ -177,7 +189,10 @@ def main():
     futures = {pool.submit(one, day): day for day in dates}
     try:
         for i, future in enumerate(as_completed(futures), 1):
-            result = future.result()
+            try:
+                result = future.result()
+            except Exception as error:
+                raise RuntimeError(f"T86 source failed on {futures[future]}: {error}") from error
             rows.extend(result)
             if i % 5 == 0 or i == len(dates):
                 print(f"completed={i}/{len(dates)} rows={len(rows)}", flush=True)

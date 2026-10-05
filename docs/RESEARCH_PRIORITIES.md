@@ -21,7 +21,9 @@
 - [x] 免費法人 T86 三年度來源驗證、加總與普通股覆蓋試點、可續抓工具和 1／5／20 日因果特徵介面完成；見 `docs/INSTITUTIONAL_DATA.md`。
 - [x] 2023 全年法人日報與因果特徵完成並封存重跑包；239 日、226,920 筆普通股流量、平均每日覆蓋 96.92%。
 - [x] 同池、固定成本與 purged 標籤的 2023 內部 Ridge 增量比較完成；法人將 Top10% 平均相對報價代理由 −1.592% 改善至 −1.403%，只有 17 個訓練訊號日；見 `deliverables/institutional_increment_report_2023.md`。
-- [ ] 2024 免費法人日報與連續跨年特徵建置，採 2023 訓練、2024 比較以處理訓練日不足。設定 `configs/institutional_diagnostic_2024.json` 先固定，歷史結果仍不得稱獨立留出。
+- [x] 2024 免費法人 242 日、241,431 筆普通股正規化紀錄與連續 2023–2024 特徵生成完成；見 `deliverables/institutional_acquisition_2024.json`。
+- [ ] **Blocked：執行服務再次 environment_offline / HTTP 409**。2024 跨年模型未取得結果，補充包封存未確認；单檔備份回覆未知，恢復後先核對再重試。見 `deliverables/institutional_status_2024.md`、`docs/SESSION_RECOVERY.md`。
+- [ ] 恢復後採 2023 訓練、2024 比較，處理訓練日不足；`configs/institutional_diagnostic_2024.json` 已先固定，歷史結果不得稱独立留出。
 - [x] 主要分類評估加上「前 10% 命中率 ÷ 當日股票池正例率」和逐年度相對報酬排名相關性。
 - [ ] 暫緩繼續深挖無明顯優勢策略的逐檔公司權益；先用帶成本的還原價代理淘汰研究方向，若有穩定增益再核精確持股與現金帳。
 - [x] v79–v81 診斷加入三份上游大檔的 SHA-256 驗證與 `make diagnostics` 重算入口；缺檔即停止。

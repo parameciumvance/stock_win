@@ -1,0 +1,24 @@
+{
+  "year": 2024,
+  "market_days": 242,
+  "raw_days": 242,
+  "expected_days": 242,
+  "source_select_type": "ALLBUT0999",
+  "raw_selected_security_rows": 289480,
+  "common_flow_rows": 241431,
+  "common_symbols_observed": 1034,
+  "historical_member_rows": 245544,
+  "missing_member_rows": 4113,
+  "mean_daily_coverage": 0.9832586741819093,
+  "min_daily_coverage": 0.958876629889669,
+  "max_daily_coverage": 0.994140625,
+  "duplicate_keys": 0,
+  "all_declared_identities_checked": true,
+  "recovered_dates": [
+    "2024-06-06",
+    "2024-06-07",
+    "2024-12-18"
+  ],
+  "normalized_sha256": "a296ca2dfdb1bfd1344cca28858211c40194d1451a07dc9caec41618032f9df2",
+  "universe_sha256": "bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942"
+}

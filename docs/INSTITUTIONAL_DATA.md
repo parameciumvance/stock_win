@@ -16,8 +16,10 @@
 - [x] 擷取工具逐日保存原始 JSON 與 SHA-256 metadata，缺檔可續抓，最多 2 workers。
 - [x] 當時普通股池篩選介面；先驗證所有原始列，再依 date/symbol 篩選，缺列保留。
 - [x] 1／5／20 日因果特徵工具與邊界測試；共 16 項營收、法人解析與特徵測試通過。
-- [ ] 2023 全年來源下載、覆蓋率檢查與封存。
-- [ ] 產生全年法人特徵，與量價基準使用同股票池、固定目標、成本、時間切分比較增量。
+- [x] 2023 全年 239 日下載與覆蓋檢查完成，完整重跑包已封存。
+- [x] 2023 年內固定成本與共同池的 Ridge 增量完成；見 `deliverables/institutional_increment_report_2023.md`。
+- [x] 2024 全年 242 日、241,431 筆普通股流量與 2023–2024 連續特徵生成成功。
+- [ ] 2024 跨年比較與補充包封存被 environment_offline 阻塞，詳見 `docs/SESSION_RECOVERY.md`。
 - [ ] 新期間資料與預先固定驗證方案；目前研究年份不可改稱独立留出。
 
 ## 重跑
@@ -48,3 +50,11 @@ python -m twse_history.institutional_features --year 2023 \
 - `total_net_volume_ratio_1d/5d/20d`
 
 5／20 日为日比率的平均，每個窗口須有完整觀測；不 forward fill，不補零。這不是持股比例，兩種來源的成交範圍可能不同，比率超过 1 不直接截斷；後續研究须做覆蓋與異常值檢查。暫只接受新版外資口徑。未知精確公告時間採次市場日的研究使用規則，明示回溯來源和修正歷史限制。這批來源工程尚未產生新模型成效。
+
+## 降低後續下載量與復原
+
+官方頁面明确列出 `ALLBUT0999`：不含權證、牛熊證、可展延牛熊證。三個年度樣本的保留列與完整 ALL 完全一致，原始样本已記錄；2024 採這個範圍。不同範圍須使用各自快取目录，不讓原始來源 URL 悄悄改寫。
+
+2024 下載命令在原年度命令改為 `--year 2024 --cache inputs/institutional_2024 --output inputs/institutional_twse_2024.csv.gz --select-type ALLBUT0999`，沿用完整普通股池和 calendar。網路 timeout／500/502/503/504 最多三次請求，5／10 秒退避；4xx 不自動反覆重試。
+
+還原資料後可執行 `make test-institutional`、`make institutional-diagnostics`，重建特徵和兩份研究比較。2023 包已確認保存；2024 備份狀態未確認，先核對而非盲目重新寫入。模型 coefficients JSON 的輸出介面已加入，待恢復執行後生成；目前只有 2023 結果已確認。
