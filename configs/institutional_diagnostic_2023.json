@@ -1,0 +1,12 @@
+{
+  "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+  "features": "inputs/institutional_features_2023.csv.gz",
+  "train_cutoff": "2023-08-31",
+  "commission": 0.001425,
+  "sell_tax": 0.003,
+  "slippage_each_side": 0.005,
+  "ridge_alpha": 1000,
+  "top_fraction": 0.1,
+  "min_pool_size": 100,
+  "output_directory": "deliverables"
+}
