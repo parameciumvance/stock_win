@@ -1,0 +1,50 @@
+# 免費法人買賣超資料與特徵
+
+## 已核對
+
+官方免費日報：`https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date=YYYYMMDD&selectType=ALL`。2015-01-05、2020-01-06、2024-01-05 樣本共 31,394 筆、無重複代碼、買賣與加總恒等式均一致。見 `deliverables/institutional_source_pilot.json`。
+
+2024-01-05 的既有歷史普通股池有 997 檔，960 檔在 T86 出現，37 檔無列；缺列不作零值。ALL 回應含 ETF、權證等，不能把所有 14,141 列当普通股。
+
+2015 樣本为旧「外資」欄位；2020 和 2024 为「外陸資（不含外資自營商）」並另列外資自營商。保留 `foreign_schema`，不宣稱舊新外資口徑已等同。外資自營商數據不再加到三大法人合計，避免重複計數。來源說明：[TWSE 日報](https://wwwc.twse.com.tw/zh/trading/foreign/t86.html)、[TWSE 欄位與計數說明](https://eshop.twse.com.tw/zh/product/detail/010ebd2cdb854169bb8707378f75b12a)。
+
+來源 notes 明載：含一般、零股、盤後定價、鉅額，且以當日原始成交情形統計，不以申報錯帳／更正帳號調整後資料統計。保存原文與 hash，不把這個說明當逐筆下載時刻或完整版本歷史。
+
+## Tasks
+
+- [x] 三個年度樣本可取得，欄位與加總驗證通過。
+- [x] 擷取工具逐日保存原始 JSON 與 SHA-256 metadata，缺檔可續抓，最多 2 workers。
+- [x] 當時普通股池篩選介面；先驗證所有原始列，再依 date/symbol 篩選，缺列保留。
+- [x] 1／5／20 日因果特徵工具與邊界測試；共 16 項營收、法人解析與特徵測試通過。
+- [ ] 2023 全年來源下載、覆蓋率檢查與封存。
+- [ ] 產生全年法人特徵，與量價基準使用同股票池、固定目標、成本、時間切分比較增量。
+- [ ] 新期間資料與預先固定驗證方案；目前研究年份不可改稱独立留出。
+
+## 重跑
+
+```bash
+python -m twse_history.institutional --dates 20150105 20200106 20240105
+python -m unittest twse_history.test_institutional twse_history.test_institutional_features -v
+
+python -m twse_history.institutional --year 2023 \
+  --cache inputs/institutional_2023 \
+  --universe twse_history/output_multiyear_2023_2026_asof_20261002/universe_daily_2023_2026.csv.gz \
+  --output inputs/institutional_twse_2023.csv.gz --fetch
+
+python -m twse_history.institutional_features --year 2023 \
+  --prices twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz \
+  --flows inputs/institutional_twse_2023.csv.gz \
+  --output inputs/institutional_features_2023.csv.gz
+```
+
+需要官方年度交易日曆及完整的歷史普通股池；缺檔、壓縮檔不完整、日期或加總不一致會停止。所有原始日期確認後才寫年度 CSV；錯誤時取消未執行下載，最多等待兩個已啟動請求各自的 timeout。原始 JSON 每日已保存，可以原命令續抓。
+
+## 特徵規格
+
+每一來源日用 raw shares / raw quote volume 得到日比率，訊號只使用上一市場日及更早資料：
+
+- `foreign_net_volume_ratio_1d/5d/20d`
+- `trust_net_volume_ratio_1d/5d/20d`
+- `total_net_volume_ratio_1d/5d/20d`
+
+5／20 日为日比率的平均，每個窗口須有完整觀測；不 forward fill，不補零。這不是持股比例，兩種來源的成交範圍可能不同，比率超过 1 不直接截斷；後續研究须做覆蓋與異常值檢查。暫只接受新版外資口徑。未知精確公告時間採次市場日的研究使用規則，明示回溯來源和修正歷史限制。這批來源工程尚未產生新模型成效。
