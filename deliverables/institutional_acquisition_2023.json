@@ -1,0 +1,19 @@
+{
+  "year": 2023,
+  "market_days": 239,
+  "raw_days": 239,
+  "expected_days": 239,
+  "raw_all_security_rows": 3014612,
+  "common_flow_rows": 226920,
+  "common_symbols_observed": 998,
+  "historical_member_rows": 234123,
+  "missing_member_rows": 7203,
+  "mean_daily_coverage": 0.9692079586085705,
+  "min_daily_coverage": 0.9400826446280992,
+  "max_daily_coverage": 0.994908350305499,
+  "duplicate_keys": 0,
+  "all_declared_identities_checked": true,
+  "universe_source": "twse_history/output_multiyear_2023_2026_asof_20261002/universe_daily_2023_2026.csv.gz",
+  "normalized_sha256": "2fe6d28497f70efcd1a83cd9a46705e61626d1cc536d0175ae49fb963d1d9b7f",
+  "universe_sha256": "bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942"
+}

@@ -63,19 +63,25 @@ def build_features(prices, flows, market_days):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--year", type=int, required=True)
+    scope = parser.add_mutually_exclusive_group(required=True)
+    scope.add_argument("--year", type=int)
+    scope.add_argument("--years", type=int, nargs="+")
     parser.add_argument("--prices", required=True)
-    parser.add_argument("--flows", required=True)
+    parser.add_argument("--flows", required=True, nargs="+")
     parser.add_argument("--calendar-root", default="twse_history/raw")
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
-    days = pd.to_datetime(market_days_from_cache(Path(args.calendar_root), args.year), format="%Y%m%d")
+    years = args.years or [args.year]
+    if len(set(years)) != len(years) or sorted(years) != list(range(min(years), max(years) + 1)):
+        raise ValueError("Need distinct contiguous years")
+    days = pd.to_datetime([day for year in sorted(years) for day in
+                          market_days_from_cache(Path(args.calendar_root), year)], format="%Y%m%d")
     pieces = []
     for chunk in pd.read_csv(args.prices, usecols=["date", "symbol", "volume", "universe_role"],
                              dtype={"symbol": str}, chunksize=200000):
-        pieces.append(chunk[chunk.date.str.startswith(str(args.year)) & chunk.universe_role.eq("common_stock")])
+        pieces.append(chunk[chunk.date.str[:4].isin([str(y) for y in years]) & chunk.universe_role.eq("common_stock")])
     prices = pd.concat(pieces, ignore_index=True)
-    flows = pd.read_csv(args.flows, dtype={"symbol": str})
+    flows = pd.concat([pd.read_csv(path, dtype={"symbol": str}) for path in args.flows], ignore_index=True)
     output = build_features(prices, flows, days)
     path = Path(args.output)
     path.parent.mkdir(parents=True, exist_ok=True)

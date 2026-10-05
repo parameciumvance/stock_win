@@ -108,5 +108,10 @@
     "local_name": "twse_raw_2026_asof_20261002.zip",
     "sha256": "76b7a7255a85d333445565c5216af13a2af0d2ddaa2f9dff1a5961c772ac04a6",
     "bytes": 13172564
+  },
+  {
+    "local_name": "institutional_twse_2023_repro_bundle.zip",
+    "sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+    "bytes": 114495119
   }
 ]

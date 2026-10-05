@@ -23,12 +23,12 @@ PRICE_FEATURES = ['r1', 'r5', 'r20', 'r60', 'vol20', 'atr14', 'ma5_20',
 FLOW_FEATURES = [r + f'_net_volume_ratio_{w}d' for r in ('foreign', 'trust', 'total') for w in (1, 5, 20)]
 
 
-def dataset(price_path, features_path, cutoff, commission, tax, slippage):
+def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_year=2023, end_year=2023):
     pieces = []
     use = ['date', 'symbol', 'open', 'high', 'low', 'close', 'volume', 'turnover_twd',
            'adj_open', 'adj_high', 'adj_low', 'adj_close', 'universe_role']
     for chunk in pd.read_csv(price_path, usecols=use, dtype={'symbol': str}, chunksize=200000):
-        pieces.append(chunk[chunk.date.ge('2023-01-01') & chunk.date.le('2024-01-31')])
+        pieces.append(chunk[chunk.date.ge(f'{start_year}-01-01') & chunk.date.le(f'{end_year + 1}-01-31')])
     prices = pd.concat(pieces, ignore_index=True)
     prices['date'] = pd.to_datetime(prices.date)
     if prices.duplicated(['date', 'symbol']).any():
@@ -68,7 +68,7 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage):
         frame['eligible'] = close.rolling(120, min_periods=120).count().eq(120) & g.close.ge(10) & g.volume.gt(0) & turnover20.ge(10000000)
         frame['symbol'] = symbol
         frame['date'] = days
-        output.append(frame[frame.date.dt.year.eq(2023)])
+        output.append(frame[frame.date.dt.year.between(start_year, end_year)])
     full = pd.concat(output, ignore_index=True)
     flow = pd.read_csv(features_path, dtype={'symbol': str}, parse_dates=['date'])
     if flow.duplicated(['date', 'symbol']).any():
@@ -96,7 +96,8 @@ def main():
     if hashlib.sha256(Path(config['prices']).read_bytes()).hexdigest() != config['expected_prices_sha256']:
         raise ValueError('Frozen price input checksum mismatch')
     train, test, coverage = dataset(config['prices'], config['features'], pd.Timestamp(config['train_cutoff']),
-                                     config['commission'], config['sell_tax'], config['slippage_each_side'])
+                                     config['commission'], config['sell_tax'], config['slippage_each_side'],
+                                     config.get('start_year', 2023), config.get('end_year', 2023))
     if len(train) < 1000 or len(test) < 1000:
         raise ValueError('Insufficient training/test rows')
     for name, columns in [('price_ridge', PRICE_FEATURES), ('price_flow_ridge', PRICE_FEATURES + FLOW_FEATURES)]:
@@ -121,7 +122,10 @@ def main():
     if daily.empty:
         raise ValueError('No eligible test dates')
     path = Path(config['output_directory']);path.mkdir(parents=True, exist_ok=True)
-    daily.to_csv(path / 'institutional_increment_daily_2023.csv', index=False)
+    suffix = config.get('study_name', '2023')
+    if not isinstance(suffix, str) or not all(c.isalnum() or c == '_' for c in suffix):
+        raise ValueError('Unsafe study name')
+    daily.to_csv(path / f'institutional_increment_daily_{suffix}.csv', index=False)
     summary = {'config': config, 'price_features': PRICE_FEATURES, 'flow_features': FLOW_FEATURES,
                'coverage': coverage, 'train_rows': len(train), 'train_signal_dates': train.date.nunique(),
                'train_first_signal': train.date.min().strftime('%Y-%m-%d'),
@@ -132,7 +136,7 @@ def main():
                'daily_mean_metrics': daily.drop(columns=['date']).mean().to_dict(),
                'status': 'exploratory_quote_proxy_already_researched_history_not_fresh_holdout',
                'input_sha256': {key: hashlib.sha256(Path(config[key]).read_bytes()).hexdigest() for key in ('prices', 'features')}}
-    (path / 'institutional_increment_summary_2023.json').write_text(json.dumps(summary, indent=2) + '\n')
+    (path / f'institutional_increment_summary_{suffix}.json').write_text(json.dumps(summary, indent=2) + '\n')
     print(json.dumps(summary, indent=2))
 
 

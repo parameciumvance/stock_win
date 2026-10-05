@@ -1,0 +1,68 @@
+{
+  "config": {
+    "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "features": "inputs/institutional_features_2023.csv.gz",
+    "train_cutoff": "2023-08-31",
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005,
+    "ridge_alpha": 1000,
+    "top_fraction": 0.1,
+    "min_pool_size": 100,
+    "output_directory": "deliverables",
+    "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d"
+  },
+  "price_features": [
+    "r1",
+    "r5",
+    "r20",
+    "r60",
+    "vol20",
+    "atr14",
+    "ma5_20",
+    "ma20_60",
+    "volume5_20",
+    "log_turnover20"
+  ],
+  "flow_features": [
+    "foreign_net_volume_ratio_1d",
+    "foreign_net_volume_ratio_5d",
+    "foreign_net_volume_ratio_20d",
+    "trust_net_volume_ratio_1d",
+    "trust_net_volume_ratio_5d",
+    "trust_net_volume_ratio_20d",
+    "total_net_volume_ratio_1d",
+    "total_net_volume_ratio_5d",
+    "total_net_volume_ratio_20d"
+  ],
+  "coverage": {
+    "eligible_price_label_rows": 73935,
+    "complete_flow_rows": 73718,
+    "flow_complete_fraction": 0.9970649895178197
+  },
+  "train_rows": 11135,
+  "train_signal_dates": 17,
+  "train_first_signal": "2023-07-11",
+  "train_last_signal": "2023-08-02",
+  "train_last_label_end": "2023-08-31",
+  "test_rows": 49908,
+  "test_dates": 83,
+  "test_first": "2023-09-01",
+  "test_last": "2023-12-29",
+  "daily_mean_metrics": {
+    "pool": 601.3012048192771,
+    "top_count": 60.6144578313253,
+    "pool_net_relative": -0.023016872803536616,
+    "price_ridge_top_net_relative": -0.01592239133380461,
+    "price_ridge_rank_ic": 0.10823700019906306,
+    "price_flow_ridge_top_net_relative": -0.014025461691774804,
+    "price_flow_ridge_rank_ic": 0.11888094456940253,
+    "vol20_rank_top_net_relative": -0.01593469417579313,
+    "vol20_rank_rank_ic": -0.08292844236850996
+  },
+  "status": "exploratory_quote_proxy_already_researched_history_not_fresh_holdout",
+  "input_sha256": {
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "features": "5a96f11f5dd395e7d83396657de7df932e6ad39fa071fe9efec5c177bfd93ca2"
+  }
+}
