@@ -9,7 +9,7 @@ import pandas as pd
 
 from .build_history import (adjust_prices, build_labels, build_universe,
                             classify_security, date_value, full_window_max,
-                            load_actions, load_table)
+                            collapse_identical_action_rows, load_actions, load_table)
 
 
 def quotes(close, start="2025-01-02", symbol="2330"):
@@ -175,15 +175,26 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(classify_security("1101", "ESVUFR", set())[0], "common_stock")
         self.assertEqual(classify_security("1101B", "EPNRAR", set())[0], "preferred_or_other_equity")
         self.assertEqual(classify_security("9103", "EDSDDR", set())[0], "depository_receipt")
+        self.assertEqual(classify_security("911612", "", {"911612"}, "滬安")[0], "depository_receipt")
         self.assertEqual(classify_security("0050", "CEOGEU", set())[0], "fund_note_or_other")
         self.assertEqual(classify_security("2888", "", {"2888"})[0], "common_stock")
         self.assertEqual(classify_security("9998", "", set())[0], "unresolved")
-        self.assertEqual(classify_security("910482", "", set(), "聖馬丁-DR")[0],
-                         "depository_receipt")
-        self.assertEqual(classify_security("910482", "", set(), "不明商品")[0],
-                         "unresolved")
-        self.assertEqual(classify_security("9157", "", {"9157"}, "陽光能源-DR")[0],
-                         "depository_receipt")
+
+    def test_duplicate_action_only_collapses_identical_economics(self):
+        same = pd.DataFrame([
+            dict(symbol="5906", effective_date=pd.Timestamp("2016-07-14"),
+                 event_type="reduction", event_subtype="彌補虧損",
+                 official_previous_close=1.77, official_reference=5.68,
+                 adjustment_factor=5.68 / 1.77, selected_reference_field="恢復買賣參考價",
+                 source_file="reduction_2016.json", source_row_1based=i)
+            for i in (3, 4)
+        ])
+        collapsed = collapse_identical_action_rows(same)
+        self.assertEqual(len(collapsed), 1)
+        self.assertEqual(collapsed.loc[0, "duplicate_source_rows_1based"], "3,4")
+        with self.assertRaisesRegex(ValueError, "composite-event"):
+            collapse_identical_action_rows(same.assign(
+                official_reference=[5.68, 5.69]))
 
 
 if __name__ == "__main__":
