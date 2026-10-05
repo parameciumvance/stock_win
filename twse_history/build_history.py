@@ -75,7 +75,7 @@ def load_delistings(raw):
     return table
 
 
-def classify_security(symbol, cfi, delisted_symbols):
+def classify_security(symbol, cfi, delisted_symbols, observed_name=""):
     if cfi.startswith("ES"):
         return "common_stock", "official_isin_cfi"
     if cfi.startswith("ED"):
@@ -84,6 +84,11 @@ def classify_security(symbol, cfi, delisted_symbols):
         return "preferred_or_other_equity", "official_isin_cfi"
     if cfi:
         return "fund_note_or_other", "official_isin_cfi"
+    # Retired depositary receipts may be absent from today's ISIN master.
+    # Both four- and six-digit 9xxx tickers existed in historical quotes.
+    # Check the official quote name BEFORE the four-digit delisted-issuer rule.
+    if re.fullmatch(r"9(?:[0-9]{3}|[0-9]{5})", symbol) and str(observed_name).upper().endswith("-DR"):
+        return "depository_receipt", "official_quote_name_dr_and_ticker_format"
     # A historical issuer on the official company delisting list with a normal
     # four-digit ticker can be retained even if its ISIN has been retired.
     if re.fullmatch(r"[1-9][0-9]{3}", symbol) and symbol in delisted_symbols:
@@ -123,7 +128,8 @@ def build_universe(quotes, raw, calendar):
         group = group.sort_values("date")
         ref = lookup.loc[symbol] if symbol in lookup.index else pd.Series(dtype=object)
         cfi = str(ref.get("cfi", ""))
-        kind, evidence = classify_security(symbol, cfi, set(delisted_map.index))
+        kind, evidence = classify_security(symbol, cfi, set(delisted_map.index),
+                                           group.name.iloc[-1])
         start, end = group.date.min(), group.date.max()
         delist = delisted_map.get(symbol, pd.NaT)
         if pd.notna(delist) and (group.date >= delist).any():

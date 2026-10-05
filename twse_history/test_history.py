@@ -178,6 +178,12 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(classify_security("0050", "CEOGEU", set())[0], "fund_note_or_other")
         self.assertEqual(classify_security("2888", "", {"2888"})[0], "common_stock")
         self.assertEqual(classify_security("9998", "", set())[0], "unresolved")
+        self.assertEqual(classify_security("910482", "", set(), "聖馬丁-DR")[0],
+                         "depository_receipt")
+        self.assertEqual(classify_security("910482", "", set(), "不明商品")[0],
+                         "unresolved")
+        self.assertEqual(classify_security("9157", "", {"9157"}, "陽光能源-DR")[0],
+                         "depository_receipt")
 
 
 if __name__ == "__main__":
