@@ -1,0 +1,206 @@
+{
+  "start_year": 2015,
+  "end_year": 2026,
+  "as_of": "2026-10-02",
+  "market_days": 2863,
+  "calendar_exact_match": true,
+  "raw_quote_rows": 3220115,
+  "raw_symbols": 1520,
+  "historical_common_symbols": 1153,
+  "historical_common_quote_rows": 2722693,
+  "membership_rows": 2728723,
+  "quote_state_counts": {
+    "observed": 2712694,
+    "present_without_full_ohlc": 9999,
+    "missing_or_suspended": 6030
+  },
+  "all_source_events": 12139,
+  "common_stock_events": 10194,
+  "common_events_by_type": {
+    "exrights": 9875,
+    "reduction": 309,
+    "par_change": 10
+  },
+  "benchmark_events": 23,
+  "event_audit_states": {
+    "matched": 10216,
+    "no_quote_on_one_side_in_sample": 1
+  },
+  "official_new_listings_checked": 301,
+  "new_listing_mismatches": 1,
+  "listing_calendar_mismatches": 0,
+  "listings_scheduled_on_non_market_day": 1,
+  "labels_available": 2618184,
+  "positives": 114592,
+  "positive_rate": 0.043767741304660025,
+  "labels_crossing_year": 202508,
+  "censor_reasons": {
+    "missing_future_high": 72937,
+    "insufficient_market_horizon": 21573,
+    "missing_signal_close": 16029
+  },
+  "holdout_start": "2026-01-01",
+  "temporal_roles": {
+    "train_eligible": 2427742,
+    "test_eligible": 169902,
+    "unlabeled": 110539,
+    "purged_overlap": 20540
+  },
+  "adjusted_close_jumps_over_30pct": 5,
+  "boundary_rows": 10446,
+  "years": [
+    {
+      "year": 2015,
+      "market_days": 244,
+      "quote_rows": 225139,
+      "observed_common_symbols": 876,
+      "membership_rows": 210357,
+      "labels_available": 204341,
+      "positives": 5009,
+      "positive_rate": 0.024512946496297854,
+      "labels_crossing_year": 16684
+    },
+    {
+      "year": 2016,
+      "market_days": 244,
+      "quote_rows": 233286,
+      "observed_common_symbols": 899,
+      "membership_rows": 214909,
+      "labels_available": 205104,
+      "positives": 4811,
+      "positive_rate": 0.023456392854356814,
+      "labels_crossing_year": 16969
+    },
+    {
+      "year": 2017,
+      "market_days": 246,
+      "quote_rows": 248380,
+      "observed_common_symbols": 913,
+      "membership_rows": 221249,
+      "labels_available": 212434,
+      "positives": 6828,
+      "positive_rate": 0.03214174755453458,
+      "labels_crossing_year": 17464
+    },
+    {
+      "year": 2018,
+      "market_days": 247,
+      "quote_rows": 260823,
+      "observed_common_symbols": 937,
+      "membership_rows": 226459,
+      "labels_available": 215911,
+      "positives": 6112,
+      "positive_rate": 0.0283079602243517,
+      "labels_crossing_year": 17365
+    },
+    {
+      "year": 2019,
+      "market_days": 242,
+      "quote_rows": 265503,
+      "observed_common_symbols": 947,
+      "membership_rows": 225877,
+      "labels_available": 215867,
+      "positives": 4538,
+      "positive_rate": 0.02102220348640598,
+      "labels_crossing_year": 18195
+    },
+    {
+      "year": 2020,
+      "market_days": 245,
+      "quote_rows": 273675,
+      "observed_common_symbols": 953,
+      "membership_rows": 231244,
+      "labels_available": 224002,
+      "positives": 15185,
+      "positive_rate": 0.06778957330738118,
+      "labels_crossing_year": 18471
+    },
+    {
+      "year": 2021,
+      "market_days": 244,
+      "quote_rows": 276705,
+      "observed_common_symbols": 963,
+      "membership_rows": 232302,
+      "labels_available": 225935,
+      "positives": 15406,
+      "positive_rate": 0.06818775311483391,
+      "labels_crossing_year": 18541
+    },
+    {
+      "year": 2022,
+      "market_days": 246,
+      "quote_rows": 287161,
+      "observed_common_symbols": 980,
+      "membership_rows": 237598,
+      "labels_available": 230015,
+      "positives": 6023,
+      "positive_rate": 0.026185248788122513,
+      "labels_crossing_year": 18750
+    },
+    {
+      "year": 2023,
+      "market_days": 239,
+      "quote_rows": 286253,
+      "observed_common_symbols": 999,
+      "membership_rows": 234387,
+      "labels_available": 228330,
+      "positives": 9299,
+      "positive_rate": 0.04072614198747427,
+      "labels_crossing_year": 19444
+    },
+    {
+      "year": 2024,
+      "market_days": 242,
+      "quote_rows": 301398,
+      "observed_common_symbols": 1034,
+      "membership_rows": 245544,
+      "labels_available": 240335,
+      "positives": 12138,
+      "positive_rate": 0.05050450412965236,
+      "labels_crossing_year": 20085
+    },
+    {
+      "year": 2025,
+      "market_days": 243,
+      "quote_rows": 315727,
+      "observed_common_symbols": 1066,
+      "membership_rows": 254096,
+      "labels_available": 246008,
+      "positives": 11891,
+      "positive_rate": 0.04833582647718773,
+      "labels_crossing_year": 20540
+    },
+    {
+      "year": 2026,
+      "market_days": 181,
+      "quote_rows": 246065,
+      "observed_common_symbols": 1089,
+      "membership_rows": 194701,
+      "labels_available": 169902,
+      "positives": 17352,
+      "positive_rate": 0.10212946286682911,
+      "labels_crossing_year": 0
+    }
+  ],
+  "input_sha256": {
+    "quotes_twse_2015.csv.gz": "b0459637823135d56d7b1ae7a01f872aed53a25f8ed530c80deae02b21aae2a2",
+    "quotes_twse_2016.csv.gz": "48e9062691650ec10464205c4d5f4fda6f77bc61ca2a3cf13d484f0169157f14",
+    "quotes_twse_2017.csv.gz": "ce4735881147176d544d0545f71fa4598292964b769258404124adbc52eb2066",
+    "quotes_twse_2018.csv.gz": "b5739871ca5b639208ae49bb574baf1c68737bdd028abc052d76e1b06e487fc5",
+    "quotes_twse_2019.csv.gz": "6636a23be750307ab8e9ef5e06342b6897ca8761f60ec8dba983374b6535fa5f",
+    "quotes_twse_2020.csv.gz": "62075fb4042edad0cc471cf98d2951fd82d527c85620b45df43d023aa1e7ffe0",
+    "quotes_twse_2021.csv.gz": "e87aba0f8fb910b21b61e1930c779128479cffbc7f59fa060629b4a015cee44f",
+    "quotes_twse_2022.csv.gz": "33d52c16571779907951aff22fa5c7c96be6d0daf087df92e80025f57a908b4e",
+    "quotes_twse_2023.csv.gz": "d71b40cdc0c1d6038ee342b000d36dacd54e34ea48f38afd4e1075a896ddb54e",
+    "quotes_twse_2024.csv.gz": "fef02efcc7056f8726bb8535ae54cfa7ffe61ca29a97f3477345f5ee8a6242bd",
+    "quotes_twse_2025.csv.gz": "856af726fcdad898d5b352854fe494db94965c20994ffc36bf1042d4a45e5386",
+    "quotes_twse_2026_asof_20261002.csv.gz": "37dc6ff9954a07f663cb1a7c84f60c55eb17ace51505870f0dc8df9aaa0e146d"
+  },
+  "limitations": [
+    "Reconstructed classifications, not archived daily security master snapshots.",
+    "Continuous official-reference prices are not a shareholder cash-flow total-return ledger.",
+    "Merger consideration, delisting payoffs, publication history and fill constraints remain incomplete.",
+    "Holdout roles purge overlapping labels; no model has been fitted or evaluated.",
+    "Missing-label censoring may be nonrandom; it is not a loss-free exit assumption."
+  ]
+}

@@ -51,7 +51,7 @@ python -m twse_history.fetch_history --year 2018 --quotes inputs/quotes_twse_201
 
 2026-10-05 已取得、驗證 2015–2022 八個完整年度。2015 年有 244 日、225,139 列，並與 2016 共用因子，見 [2015 試點報告](../deliverables/history_2015_acquisition_report.md)；2016 年有 244 日、233,286 列，並與 2017 共用因子，見 [2016 試點報告](../deliverables/history_2016_acquisition_report.md)；2017 年有 246 日、248,380 列，並與 2018 共用因子，見 [2017 試點報告](../deliverables/history_2017_acquisition_report.md)；2018 年有 247 日、260,823 列，見 [2018 試點報告](../deliverables/history_2018_acquisition_report.md)；2019 年有 242 日、265,503 列，並與 2020 共用因子，見 [2019 試點報告](../deliverables/history_2019_acquisition_report.md)；2020 年有 245 日、273,675 列，並與 2021 共用因子，見 [2020 試點報告](../deliverables/history_2020_acquisition_report.md)；2021 年有 244 日、276,705 列，並與 2022 共用因子，見 [2021 試點報告](../deliverables/history_2021_acquisition_report.md)；2022 年有 246 日、287,161 列，並與 2023 共用因子，見 [2022 試點報告](../deliverables/history_2022_acquisition_report.md)。年度封存包與行情的 SHA-256 見 [INPUT_CHECKSUMS.json](INPUT_CHECKSUMS.json)。
 
-原始來源封存包可解壓到專案根目錄，內含 `inputs/`、`data/raw/twse_<year>/` 及 `twse_history/raw/` 的必要來源；重新執行 `python -m twse_history.build_history --year 2018 --quotes inputs/quotes_twse_2018.csv.gz`，或替換為 2015、2016、2017、2019、2020、2021、2022。`package_year_archive.py --year 2018 --output ...` 可在完整快取上重新產生帶逐檔 SHA-256 的 ZIP。已有 2015–2026 的年度行情與部分原始封存，仍須全段共同建置與核對；不能把各年度已還原價直接拼接。
+原始來源封存包可解壓到專案根目錄，內含 `inputs/`、`data/raw/twse_<year>/` 及 `twse_history/raw/` 的必要來源；重新執行 `python -m twse_history.build_history --year 2018 --quotes inputs/quotes_twse_2018.csv.gz`，或替換為 2015、2016、2017、2019、2020、2021、2022。`package_year_archive.py --year 2018 --output ...` 可在完整快取上重新產生帶逐檔 SHA-256 的 ZIP。已於 2026-10-05 用 2015–2026（截至 10/02）全部原始報價共同建置，見 [全段稽核報告](../deliverables/long_history_2015_2026_report.md)；各年度已還原價不能直接拼接。2026 年原始檔只截至 10/02，且 ISIN 主檔仍是 9/28 回溯快取。
 
 ## 月營收的公告時點
 
@@ -74,3 +74,16 @@ python -m twse_history.asof_revenue --signals signals.csv --reports reports.csv 
 ```
 
 目前沒有經核實的歷史逐公司公告時間表，因此**尚未訓練含月營收的新模型，也未宣稱增加績效**。切勿把「次月 10 日截止申報」直接填入 `published_at`。
+
+## 2015–2026 全段重算（Bash）
+
+將 2015–2025 行情置於 `inputs/quotes_twse_<year>.csv.gz`，已核對 SHA-256 的 2026 截止檔置於 `inputs/quotes_twse_2026_asof_20261002.csv.gz`；各年封存 ZIP 解壓至專案根目錄。2024／2025 的來源快取須使用匹配的原研究封存；目前並未提供一鍵下載舊時點快照。
+
+```bash
+python -m twse_history.build_multiyear \
+  --quotes inputs/quotes_twse_{2015..2025}.csv.gz inputs/quotes_twse_2026_asof_20261002.csv.gz \
+  --start-year 2015 --end-year 2026 --as-of 2026-10-02 \
+  --output twse_history/output_2015_2026_asof_20261002
+```
+
+與 [輸入 SHA-256](INPUT_CHECKSUMS.json) 比對年度報價後執行；輸出的 `summary_2015_2026.json` 應有 2,863 個官方市場日、3,220,115 筆原始報價、202,508 筆跨年標籤及五筆超過 30% 的相鄰有報價日變化。匹配的完整摘要見 [long_history_summary_2015_2026.json](long_history_summary_2015_2026.json)。上述摘要是資料健康與 +30% 舊標籤統計，沒有重訓或實盤成績。

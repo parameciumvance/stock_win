@@ -8,12 +8,13 @@
 - [x] 取得 2015 年全年官方行情與公司行動，並與 2016 跨年建置；見 `deliverables/history_2015_acquisition_report.md`。
 - [x] 取得 2016 年全年官方行情與公司行動，並與 2017 跨年建置；見 `deliverables/history_2016_acquisition_report.md`。
 - [x] 取得 2017 年全年官方行情與公司行動，並與 2018 跨年建置；見 `deliverables/history_2017_acquisition_report.md`。
-- [x] 取得並核對 2018 全年官方上市行情、公司行動與普通股池；見 `deliverables/history_2018_acquisition_report.md`。2015 目前僅驗證一個交易日解析。
+- [x] 取得並核對 2018 全年官方上市行情、公司行動與普通股池；見 `deliverables/history_2018_acquisition_report.md`。
 - [x] 取得並核對 2022 全年官方行情及公司行動，與 2023 原始行情共同建置跨年價格；見 `deliverables/history_2022_acquisition_report.md`。
 - [x] 取得 2021 全年行情及公司行動，並與 2022 共同建置；見 `deliverables/history_2021_acquisition_report.md`。
 - [x] 取得 2020 全年行情及公司行動，並與 2021 共同建置；見 `deliverables/history_2020_acquisition_report.md`。
 - [x] 取得 2019 年全年上市行情與公司行動，並與 2020 共同建置；見 `deliverables/history_2019_acquisition_report.md`。
-- [ ] 將 2015–2026 全部原始年度在連續區間共同建置並核對；上櫃 TPEx 需另建歷史股票池、資料格式、公司行動與授權檢核。
+- [x] 將 2015–2026 原始年度在連續區間共同建置並稽核例外；見 `deliverables/long_history_2015_2026_report.md`。上櫃 TPEx 仍需另建股票池、公司行動和授權檢核。
+- [ ] 以已固定的次日開盤／固定持有口徑，對 2015–2023 分段壓力測試簡單波動基準；不得將看過的年度稱為獨立留出。暫不擴充 TPEx，直到上市流程可重算；上櫃 TPEx 需另建歷史股票池、資料格式、公司行動與授權檢核。
 - [x] 主要分類評估加上「前 10% 命中率 ÷ 當日股票池正例率」和逐年度相對報酬排名相關性。
 - [ ] 暫緩繼續深挖無明顯優勢策略的逐檔公司權益；先用帶成本的還原價代理淘汰研究方向，若有穩定增益再核精確持股與現金帳。
 - [x] v79–v81 診斷加入三份上游大檔的 SHA-256 驗證與 `make diagnostics` 重算入口；缺檔即停止。
