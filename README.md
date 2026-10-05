@@ -30,6 +30,8 @@ python -m pip install -r twse_history/requirements_research_v4.txt
 python -m unittest twse_history.test_history twse_history.test_multiyear -v
 ```
 
+這次 v79–v81 診斷可先 `make test-diagnostics`；將三份上游大檔依 [資料說明](docs/DATA_SETUP.md)放入相應路徑後，執行 `make check-diagnostic-inputs` 核對[大小與 SHA-256](docs/DIAGNOSTIC_INPUTS.json)，再用 `make diagnostics` 依序重算。缺少或不符時命令會停止，不會用另一版快照冒充封存結果。
+
 WSL2 Ubuntu 可直接使用；Windows PowerShell 啟用環境請改用 `.venv\Scripts\Activate.ps1`。大量研究重算須先依 `docs/DATA_SETUP.md` 放入來源快取與年度行情。部分舊版程式會檢查特定快取與 SHA-256，應使用匹配版本的資料，不要用新抓資料冒充當時快照。
 
 ## 最新研究流程

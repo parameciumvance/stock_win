@@ -32,6 +32,8 @@ python -m twse_history.fetch_history --year 2024 --quotes inputs/quotes_twse_202
 
 這些大型上游檔案在原研究封存／本機工作目錄中；可用 `twse_history.build_multiyear`、`crossyear_research_2023_2025_v55.py`、`evaluate_2026_fixed_v57.py` 等版本化程式重算。若缺乏匹配的原始快取，舊期數字只能查閱報告，不能宣稱已從本 repo 的空白 checkout 重現。
 
+v79–v81 的三份直接上游檔案已另列於 [DIAGNOSTIC_INPUTS.json](DIAGNOSTIC_INPUTS.json)。`make check-diagnostic-inputs` 先核對位元組數和 SHA-256；通過後 `make diagnostics` 才重算波動排名、次日開盤先觸及與區塊敏感性。此入口只覆蓋本次診斷，沒有把原始快取或 2023–2026 上游模型重建變成一鍵流程。
+
 ## 盤中零股與界線
 
 證交所[盤中零股交易行情單](https://www.twse.com.tw/zh/trading/historical/twtc7u.html)可按日期查詢並下載 CSV。研究需 2026-01-02、02-02、03-02、04-01、05-04、06-01、07-01、08-03、09-01 九日資料。取得後先保存原始檔、URL、時間及 SHA-256，核對欄位和代號覆蓋率；每日市場成交價量不等於我方委託已撮合。若缺檔則維持成交與現金帳未知。

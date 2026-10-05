@@ -1,0 +1,17 @@
+[
+  {
+    "path": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "bytes": 35136713,
+    "sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d"
+  },
+  {
+    "path": "deliverables/crossyear_scores_v55.csv.gz",
+    "bytes": 18072634,
+    "sha256": "d44619d5275a5b310bef105e0388d4836da37a1d0bed29d795e2552a5b7219ac"
+  },
+  {
+    "path": "deliverables/holdout_scores_2026_v57.csv.gz",
+    "bytes": 4741525,
+    "sha256": "dc38a572bfd41b6c91ad617093d5b917f531e5d94de7ef2f8fad9c70d30d3fc2"
+  }
+]
