@@ -1,0 +1,29 @@
+{
+  "method_provenance_commit": "118f35a5713ac627b8c3efd383e8aa695a4fc345",
+  "year": 2025,
+  "calendar": "full market-date union, reindex 0050 without filling",
+  "train_cutoff": "2024-12-31",
+  "model": "StandardScaler train-only + Ridge(alpha=1000)",
+  "feature_groups": [
+    "10 price/volume features",
+    "9 lagged institutional ratios"
+  ],
+  "selection": "identical complete-label/complete-feature pool, Top 10%, deterministic symbol tie break",
+  "costs": {
+    "commission_each_side": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005
+  },
+  "uncertainty": {
+    "paired_circular_blocks": [
+      10,
+      20,
+      40
+    ],
+    "primary_block": 20,
+    "replicates": 5000,
+    "seed": 20261009
+  },
+  "no_model_selection": "No tuning or choice based on 2025 outcomes; 2025 was already researched history.",
+  "asof_audit": "Trace selections before filtering future labels; leave unavailable outcomes missing."
+}

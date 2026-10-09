@@ -132,6 +132,7 @@ def main():
         run(sys.executable, "-m", "twse_history.institutional", "--year", str(year),
             "--cache", f"inputs/institutional_{year}", "--universe", str(universe),
             "--output", str(flow_path), "--select-type", "ALLBUT0999", "--fetch")
+        run(sys.executable, "audit_institutional_acquisition.py", "--year", str(year))
         # Save raw and normalized data before feature/model computation.
         run(sys.executable, "package_institutional_archive.py", "--year", str(year),
             "--cache", f"inputs/institutional_{year}", "--include", str(flow_path),

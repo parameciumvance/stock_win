@@ -37,3 +37,9 @@ POOL_CONFIG ?= configs/institutional_pool_audit_2024.json
 
 institutional-pool-audit:
 	$(PYTHON) audit_institutional_pool.py --config $(POOL_CONFIG)
+
+.PHONY: institutional-source-audit
+YEAR ?= 2025
+
+institutional-source-audit:
+	$(PYTHON) audit_institutional_acquisition.py --year $(YEAR)
