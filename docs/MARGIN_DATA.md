@@ -29,6 +29,8 @@ make test-margin
 
 每年先封存來源再續抓下一年。封存時從原始快取重新解析，逐列核對正規化 CSV，再檢查歷史普通股覆蓋、全部 member hash 與 ZIP CRC。既有快取不重新下載；首次錯誤取消尚未開始的年度請求，避免停止顯示進度後還等待整年排隊。
 
+長時間執行環境可能失去程序連線，可使用 `python3 -m twse_history.margin --year 2025 --max-new-days 40 --fetch` 分批接續；每批先核對既有來源，只有全部市場日完整後才寫年度 CSV 與取得報告，部分快取不會冒充年度模型輸入。
+
 價格、法人及日曆依 `docs/INSTITUTIONAL_RESUME.md` 恢復；營收依 `docs/REVENUE_PROXY.md` 復原。研究輸出在 `deliverables/margin/`，原始來源在 `inputs/margin/raw_年度/`。
 
 本研究不代表獨立留出、年度 NAV 或實盤成交。若四類免費特徵仍不足以帶來穩定的成本後相對優勢，下一個需要決定的事項是是否改變持有期與換股頻率，應先重新固定設計，不能只挑較好的歷史結果。

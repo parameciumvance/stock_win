@@ -1,0 +1,44 @@
+{
+  "frozen_at": "2026-10-09T23:45:39.396538+00:00",
+  "status": "fixed_exploratory_histogram_tree_not_fresh_holdout",
+  "base_protocol": "configs/margin_protocol.json",
+  "years": [
+    2024,
+    2025,
+    2026
+  ],
+  "model": "sklearn.ensemble.HistGradientBoostingRegressor",
+  "parameters": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "max_depth": 4,
+    "min_samples_leaf": 200,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 20261010
+  },
+  "feature_sets": [
+    "price",
+    "price_flow_revenue",
+    "price_flow_revenue_margin"
+  ],
+  "primary": "all_margin_tree_minus_price_tree",
+  "secondary": [
+    "all_margin_tree_minus_all_margin_ridge",
+    "all_margin_tree_minus_all_tree"
+  ],
+  "labels_and_pool": "Use exact verified common dataset from fixed credit study; no future result filtering before top selection.",
+  "validation": "Prior-year Dec31 purged expanding fit; no random early-stopping split, grid search or reuse as a new holdout.",
+  "uncertainty": {
+    "block_lengths": [
+      10,
+      20,
+      40
+    ],
+    "primary_block": 20,
+    "replicates": 5000,
+    "seed": 20261010
+  }
+}

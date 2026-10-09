@@ -82,21 +82,28 @@ def cached(root,day,fetch=False):
     return parse(raw,day),meta
 
 
-def acquire(year,asof=None,fetch=False):
+def acquire(year,asof=None,fetch=False,max_new_days=None):
     days=[str(d) for d in market_days_from_cache(Path('twse_history/raw'),year,asof)]
     root=Path(f'inputs/margin/raw_{year}')
+    missing=[d for d in days if not ((root/f'margin_{d}.json').exists() and (root/f'margin_{d}.meta.json').exists())]
+    chosen=set(missing[:max_new_days]) if max_new_days else set(missing)
+    workdays=[d for d in days if d not in missing or d in chosen]
     frames=[];meta=[]
     pool=ThreadPoolExecutor(max_workers=2)
     try:
-        for i,(f,m) in enumerate(pool.map(lambda d:cached(root,d,fetch),days),1):
-            frames.append(f);meta.append(dict(m,date=days[i-1],rows=len(f)))
-            if i%5==0:print(f'year={year} verified={i}/{len(days)} date={days[i-1]}',flush=True)
+        for i,(f,m) in enumerate(pool.map(lambda d:cached(root,d,fetch),workdays),1):
+            frames.append(f);meta.append(dict(m,date=workdays[i-1],rows=len(f)))
+            if i%5==0:print(f'year={year} verified={i}/{len(days)} date={workdays[i-1]}',flush=True)
     except BaseException:
         # Do not wait for a whole queued year after the first failed source.
         pool.shutdown(wait=False,cancel_futures=True)
         raise
     else:
         pool.shutdown(wait=True)
+    if len(frames)!=len(days):
+        print(json.dumps(dict(year=year,verified_days=len(frames),required_days=len(days),
+                              status='partial_source_cache_no_annual_model_input')),flush=True)
+        return
     full=pd.concat(frames,ignore_index=True)
     output=Path('inputs/margin');output.mkdir(exist_ok=True,parents=True)
     path=output/f'margin_twse_{year}.csv.gz'
@@ -112,4 +119,7 @@ def acquire(year,asof=None,fetch=False):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--year',type=int,required=True);p.add_argument('--asof');p.add_argument('--fetch',action='store_true')
-    a=p.parse_args();acquire(a.year,a.asof,a.fetch)
+    p.add_argument('--max-new-days',type=int,help='Bound each network batch; annual outputs only when all required days verified')
+    a=p.parse_args()
+    if a.max_new_days is not None and a.max_new_days<1:p.error('--max-new-days must be positive')
+    acquire(a.year,a.asof,a.fetch,a.max_new_days)

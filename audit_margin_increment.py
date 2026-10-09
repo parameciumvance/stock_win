@@ -15,7 +15,7 @@ from twse_history.revenue_proxy import attach_features,REVENUE_FEATURES,sha
 from twse_history.margin_features import build_features,MARGIN_FEATURES
 
 
-def run(years=None):
+def run(years=None,prepare_only=False):
     config=json.loads(Path('configs/margin_protocol.json').read_text())
     years=years or config['years']
     if any(y not in config['years'] for y in years):raise ValueError('Year outside frozen protocol')
@@ -57,6 +57,17 @@ def run(years=None):
     scores=list(columns)+['vol20']
     input_hashes.update(prices=sha(base['prices']),flows=sha(base['flows']),revenue=sha(monthly_path),
                         credit_features=sha(credit_path),protocol=sha('configs/margin_protocol.json'))
+    # Owned, hash-verified cache only; never load externally supplied pickle files.
+    cache=Path(f'inputs/margin/common_2023_{last_year}.pkl.gz')
+    cols=list(dict.fromkeys(columns['all_margin']+['date','symbol','revenue_month','proxy_available_date',
+        'month_end','endpoint_target','label_window_end','margin_source_date']))
+    common=common[common.date.dt.year.le(last_year)][cols].copy()
+    pending=cache.with_name(cache.name+'.pending')
+    common.to_pickle(pending,compression='gzip');pending.replace(cache)
+    cache_meta=dict(cache=str(cache),cache_sha256=sha(cache),input_sha256=input_hashes,rows=len(common))
+    (output/f'common_cache_{last_year}.json').write_text(json.dumps(cache_meta,indent=2)+'\n')
+    if prepare_only:
+        print(json.dumps(cache_meta),flush=True);return
     summaries=[]
     for year in years:
         cutoff=pd.Timestamp(f'{year-1}-12-31')
@@ -121,4 +132,5 @@ def report(x,output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--year',type=int,choices=[2024,2025,2026])
-    a=p.parse_args();run([a.year] if a.year else None)
+    p.add_argument('--prepare-only',action='store_true')
+    a=p.parse_args();run([a.year] if a.year else None,a.prepare_only)

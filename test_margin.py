@@ -4,6 +4,11 @@ import unittest
 from twse_history.margin import parse,FIELDS
 from twse_history.margin_features import build_features,MARGIN_FEATURES
 import pandas as pd
+from unittest.mock import patch
+import tempfile
+import os
+from pathlib import Path
+from twse_history.margin import acquire
 
 
 class MarginTests(unittest.TestCase):
@@ -46,6 +51,19 @@ class MarginTests(unittest.TestCase):
         r=build_features(pd.concat(frames),days).set_index('date')
         self.assertTrue(pd.isna(r.loc[days[4],'finance_stopped']))
         self.assertTrue(pd.isna(r.loc[days[6],'finance_balance_change_5d']))
+
+    def test_bounded_partial_download_cannot_become_annual_input(self):
+        f=parse(json.dumps(self.payload()).encode(),'2024-01-05')
+        original=Path.cwd()
+        with tempfile.TemporaryDirectory() as d:
+            try:
+                os.chdir(d)
+                with patch('twse_history.margin.market_days_from_cache',return_value=['20240105','20240108']),\
+                     patch('twse_history.margin.cached',return_value=(f,{})) as reader:
+                    acquire(2024,fetch=True,max_new_days=1)
+                    self.assertEqual(reader.call_count,1)
+                    self.assertFalse(Path('inputs/margin/margin_twse_2024.csv.gz').exists())
+            finally:os.chdir(original)
 
 
 if __name__=='__main__':unittest.main()
