@@ -1,0 +1,56 @@
+{
+  "protocol_frozen_at": "2026-10-09T22:36:45.655901+00:00",
+  "parent_commit": "5f91b6f10b458b14cb92f02904c44ac4ef41340b",
+  "status": "exploratory_delayed_revised_static_proxy_not_point_in_time",
+  "source_start": "2022-01",
+  "source_end": "2026-07",
+  "asof": "2026-10-02",
+  "primary_lag_calendar_days": 45,
+  "sensitivity_lag_calendar_days": [
+    60
+  ],
+  "max_age_calendar_days": 100,
+  "revenue_features": [
+    "rev_yoy",
+    "rev_mom",
+    "rev_3m_yoy",
+    "rev_yoy_accel",
+    "log_revenue"
+  ],
+  "feature_transform": "Ratios clipped to [-1,5]; positive current revenue; exact consecutive monthly windows; no missing imputation.",
+  "availability_rule": "First observed market date strictly after month-end + lag calendar days; not a verified publication timestamp.",
+  "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+  "flows": "inputs/institutional_features_2023_2026_asof_20261002.csv.gz",
+  "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "expected_flows_sha256": "364009827cf833b20be08925ebaafc53f0378d6542a6aa4b5aaefcd4a91a3ea8",
+  "commission": 0.001425,
+  "sell_tax": 0.003,
+  "slippage_each_side": 0.005,
+  "ridge_alpha": 1000,
+  "top_fraction": 0.1,
+  "min_pool_size": 100,
+  "evaluation_years": [
+    2024,
+    2025,
+    2026
+  ],
+  "primary_comparison": "price_revenue_minus_price",
+  "secondary_comparison": "all_minus_price_flow",
+  "target": "Stock cost-adjusted t+1 open to t+20 close minus gross 0050 endpoints. Intermediate benchmark suspension does not erase observable endpoints.",
+  "selection": "Common finite price/flow/revenue pool selected before future outcomes. Unknown endpoints retained; aggregate means unavailable if any selected endpoint unknown.",
+  "training": "Expanding from 2023; each previous Dec31 cutoff; exclude label ends after cutoff; finite endpoint targets only.",
+  "uncertainty": {
+    "block_lengths": [
+      10,
+      20,
+      40
+    ],
+    "primary_block": 20,
+    "replicates": 5000,
+    "seed": 20261010
+  },
+  "output_directory": "deliverables/revenue_proxy",
+  "previous_features_archive_sha256": "ed689bd0d304b3f048db20a743cc3f3a207593c4a6a2b5e4f9a07c301c240fa6",
+  "reconstructed_flows_csv_sha256": "7bbb5e026554477694df77a996b0972490ca72a41c93dba86be6a74188cef8a3",
+  "flow_reconstruction_note": "Rebuilt before fitting from cached 2023–2026 sources; all 775404 prior 2023–2025 keys/values match within 1e-12. 18824 additional pre-2026 rows for extended symbol set have all flow features missing."
+}
