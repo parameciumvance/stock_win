@@ -43,12 +43,12 @@ def verify_flow(path, expected_gzip, expected_csv):
         raise ValueError('Frozen flow data checksum mismatch')
 
 
-def evaluate_day(group, fraction):
+def evaluate_day(group, fraction, scores=SCORES):
     n = int(np.ceil(len(group) * fraction))
     row = dict(date=group.date.iloc[0].strftime('%Y-%m-%d'), pool=len(group), top_count=n,
                known_endpoint_pool=int(group.endpoint_target.notna().sum()))
     selections = []
-    for name in SCORES:
+    for name in scores:
         top = group.sort_values([name, 'symbol'], ascending=[False, True]).head(n).copy()
         known = np.isfinite(top.endpoint_target)
         row[name + '_unknown'] = int((~known).sum())
@@ -58,8 +58,10 @@ def evaluate_day(group, fraction):
         top['model'] = name
         top['rank'] = np.arange(1, n+1)
         top['score'] = top[name]
-        selections.append(top[['date', 'symbol', 'model', 'rank', 'score', 'revenue_month',
-                               'proxy_available_date', 'month_end', 'endpoint_target', 'label_window_end']])
+        cols=['date', 'symbol', 'model', 'rank', 'score', 'revenue_month',
+              'proxy_available_date', 'month_end', 'endpoint_target', 'label_window_end']
+        if 'margin_source_date' in top:cols.append('margin_source_date')
+        selections.append(top[cols])
     return row, pd.concat(selections, ignore_index=True)
 
 

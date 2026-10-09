@@ -86,10 +86,17 @@ def acquire(year,asof=None,fetch=False):
     days=[str(d) for d in market_days_from_cache(Path('twse_history/raw'),year,asof)]
     root=Path(f'inputs/margin/raw_{year}')
     frames=[];meta=[]
-    with ThreadPoolExecutor(max_workers=2) as pool:
+    pool=ThreadPoolExecutor(max_workers=2)
+    try:
         for i,(f,m) in enumerate(pool.map(lambda d:cached(root,d,fetch),days),1):
             frames.append(f);meta.append(dict(m,date=days[i-1],rows=len(f)))
             if i%5==0:print(f'year={year} verified={i}/{len(days)} date={days[i-1]}',flush=True)
+    except BaseException:
+        # Do not wait for a whole queued year after the first failed source.
+        pool.shutdown(wait=False,cancel_futures=True)
+        raise
+    else:
+        pool.shutdown(wait=True)
     full=pd.concat(frames,ignore_index=True)
     output=Path('inputs/margin');output.mkdir(exist_ok=True,parents=True)
     path=output/f'margin_twse_{year}.csv.gz'

@@ -19,7 +19,7 @@
     "finance_stopped",
     "short_stopped"
   ],
-  "feature_rule": "Utilization = today/(next-business-day limit+1); window change = (today - first prior balance)/(window mean current balance+1), require all window rows; clip ratios [-1,5]. O/X announced flags; all features shift one market day.",
+  "feature_rule": "Each day (today-prev)/(prev+1) clipped [-1,5], then full 1/5/20 market-day window mean. Utilization=today/(announced next-day limit+1) clipped [0,5]. Known O/X flags; shift all features one market day. Normalizing before rolling avoids mixing pre/post-split unit scales.",
   "primary_comparison": "price_flow_revenue_margin_minus_price_flow_revenue",
   "secondary_comparison": "price_margin_minus_price",
   "revenue_protocol": "configs/revenue_proxy_protocol.json",
@@ -43,5 +43,6 @@
     "replicates": 5000,
     "seed": 20261010
   },
-  "selection": "Same as-of complete feature pool; unknown future endpoints retained; no replacement or zero imputation."
+  "selection": "Same as-of complete feature pool; unknown future endpoints retained; no replacement or zero imputation.",
+  "feature_rule_frozen_at": "2026-10-09T22:59:44.972363+00:00"
 }

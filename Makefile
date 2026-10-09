@@ -60,3 +60,17 @@ revenue-proxy-diagnostics:
 test-revenue-proxy:
 	$(PYTHON) -m unittest test_revenue_proxy -q
 
+.PHONY: test-margin margin-fetch margin-package margin-diagnostics
+
+test-margin:
+	$(PYTHON) -m unittest test_margin -q
+
+margin-fetch:
+	$(PYTHON) -m twse_history.margin --year $(YEAR) $(ASOF_ARGS) --fetch
+
+margin-package:
+	$(PYTHON) package_margin_archive.py --year $(YEAR) $(ASOF_ARGS)
+
+margin-diagnostics:
+	$(PYTHON) audit_margin_increment.py
+
