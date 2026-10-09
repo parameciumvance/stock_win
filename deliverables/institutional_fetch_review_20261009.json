@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "source_commit": "7506c64671067d15b17dc4238e56ab0899635b24",
+  "output_hashes_verified": {
+    "deliverables/institutional_increment_daily_2024.csv": true,
+    "deliverables/institutional_increment_summary_2024.json": true,
+    "deliverables/institutional_ridge_models_2024.json": true
+  },
+  "daily_mean_summary_max_absolute_delta": 3.469446951953614e-17,
+  "dates_verified": 237,
+  "config_matches_saved": true,
+  "train_labels_end_by_cutoff": true,
+  "model_dimensions_and_finite_values_verified": true,
+  "tests_passed": 21,
+  "source_archive_replayed_here": false,
+  "source_archive_required": "deliverables/institutional_twse_2024_source_checkpoint.zip",
+  "twse_probe": "HTTPError: HTTP Error 307: Temporary Redirect; no successful T86 payload",
+  "new_analysis": "paired circular block bootstrap and signal-month breakdown of saved 2024 outputs"
+}

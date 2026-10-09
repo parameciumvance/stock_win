@@ -1,0 +1,206 @@
+{
+  "config": {
+    "daily_input": "deliverables/institutional_increment_daily_2024.csv",
+    "expected_daily_sha256": "f5fa4674ac7635e169d32ad8d357ba2ea3e995b7750b72e0775c895232e6311a",
+    "source_commit": "7506c64671067d15b17dc4238e56ab0899635b24",
+    "expected_dates": 237,
+    "block_lengths": [
+      10,
+      20,
+      40
+    ],
+    "primary_block_length": 20,
+    "replicates": 5000,
+    "seed": 20261009,
+    "output_directory": "deliverables"
+  },
+  "observed_dates": 237,
+  "date_range": [
+    "2024-01-02",
+    "2024-12-24"
+  ],
+  "input_sha256": "f5fa4674ac7635e169d32ad8d357ba2ea3e995b7750b72e0775c895232e6311a",
+  "intervals": {
+    "10": {
+      "price_ridge_vs_0050": {
+        "mean": -0.0459108176514323,
+        "lower_95": -0.06184981751104355,
+        "upper_95": -0.0296455736023639,
+        "interval_includes_zero": false
+      },
+      "price_ridge_vs_pool": {
+        "mean": -0.0016066864114231893,
+        "lower_95": -0.009137704105652109,
+        "upper_95": 0.005670215196266792,
+        "interval_includes_zero": true
+      },
+      "price_flow_ridge_vs_0050": {
+        "mean": -0.04716677356324776,
+        "lower_95": -0.06322143230740443,
+        "upper_95": -0.030633794817891517,
+        "interval_includes_zero": false
+      },
+      "price_flow_ridge_vs_pool": {
+        "mean": -0.0028626423232386536,
+        "lower_95": -0.010640859274393526,
+        "upper_95": 0.0045666308268856835,
+        "interval_includes_zero": true
+      },
+      "vol20_rank_vs_0050": {
+        "mean": -0.04671320786137182,
+        "lower_95": -0.06128183439230612,
+        "upper_95": -0.03216896373318905,
+        "interval_includes_zero": false
+      },
+      "vol20_rank_vs_pool": {
+        "mean": -0.0024090766213627143,
+        "lower_95": -0.013106338409586402,
+        "upper_95": 0.008460686710258455,
+        "interval_includes_zero": true
+      },
+      "flow_minus_price": {
+        "mean": -0.0012559559118154639,
+        "lower_95": -0.0037055071921614693,
+        "upper_95": 0.001344376894735831,
+        "interval_includes_zero": true
+      },
+      "flow_minus_vol20": {
+        "mean": -0.00045356570187594003,
+        "lower_95": -0.012407219984663778,
+        "upper_95": 0.011694265636064615,
+        "interval_includes_zero": true
+      },
+      "flow_minus_price_rank_ic": {
+        "mean": 0.0005138338610157912,
+        "lower_95": -0.005250966833293525,
+        "upper_95": 0.006120716425043986,
+        "interval_includes_zero": true
+      }
+    },
+    "20": {
+      "price_ridge_vs_0050": {
+        "mean": -0.0459108176514323,
+        "lower_95": -0.06552086886688278,
+        "upper_95": -0.02657721006994632,
+        "interval_includes_zero": false
+      },
+      "price_ridge_vs_pool": {
+        "mean": -0.0016066864114231893,
+        "lower_95": -0.01059196443456836,
+        "upper_95": 0.007244330070521126,
+        "interval_includes_zero": true
+      },
+      "price_flow_ridge_vs_0050": {
+        "mean": -0.04716677356324776,
+        "lower_95": -0.06708495463756164,
+        "upper_95": -0.027121082253003404,
+        "interval_includes_zero": false
+      },
+      "price_flow_ridge_vs_pool": {
+        "mean": -0.0028626423232386536,
+        "lower_95": -0.012546016476160812,
+        "upper_95": 0.006624012098042074,
+        "interval_includes_zero": true
+      },
+      "vol20_rank_vs_0050": {
+        "mean": -0.04671320786137182,
+        "lower_95": -0.06273815385212193,
+        "upper_95": -0.030401842163137602,
+        "interval_includes_zero": false
+      },
+      "vol20_rank_vs_pool": {
+        "mean": -0.0024090766213627143,
+        "lower_95": -0.014513772477330126,
+        "upper_95": 0.00986106546885582,
+        "interval_includes_zero": true
+      },
+      "flow_minus_price": {
+        "mean": -0.0012559559118154639,
+        "lower_95": -0.003797526000888593,
+        "upper_95": 0.0016550625673830831,
+        "interval_includes_zero": true
+      },
+      "flow_minus_vol20": {
+        "mean": -0.00045356570187594003,
+        "lower_95": -0.013225117674670092,
+        "upper_95": 0.011568243481104842,
+        "interval_includes_zero": true
+      },
+      "flow_minus_price_rank_ic": {
+        "mean": 0.0005138338610157912,
+        "lower_95": -0.006378220932784979,
+        "upper_95": 0.006852052643531736,
+        "interval_includes_zero": true
+      }
+    },
+    "40": {
+      "price_ridge_vs_0050": {
+        "mean": -0.0459108176514323,
+        "lower_95": -0.06411447861801128,
+        "upper_95": -0.024942039721127438,
+        "interval_includes_zero": false
+      },
+      "price_ridge_vs_pool": {
+        "mean": -0.0016066864114231893,
+        "lower_95": -0.011058593870949913,
+        "upper_95": 0.008529397319332303,
+        "interval_includes_zero": true
+      },
+      "price_flow_ridge_vs_0050": {
+        "mean": -0.04716677356324776,
+        "lower_95": -0.06608229728659264,
+        "upper_95": -0.024955110231468063,
+        "interval_includes_zero": false
+      },
+      "price_flow_ridge_vs_pool": {
+        "mean": -0.0028626423232386536,
+        "lower_95": -0.013117411580004972,
+        "upper_95": 0.008188393682530404,
+        "interval_includes_zero": true
+      },
+      "vol20_rank_vs_0050": {
+        "mean": -0.04671320786137182,
+        "lower_95": -0.06298914041090868,
+        "upper_95": -0.02956814079895206,
+        "interval_includes_zero": false
+      },
+      "vol20_rank_vs_pool": {
+        "mean": -0.0024090766213627143,
+        "lower_95": -0.014767873977836373,
+        "upper_95": 0.010356969331186204,
+        "interval_includes_zero": true
+      },
+      "flow_minus_price": {
+        "mean": -0.0012559559118154639,
+        "lower_95": -0.003539278115394559,
+        "upper_95": 0.0012453013310588553,
+        "interval_includes_zero": true
+      },
+      "flow_minus_vol20": {
+        "mean": -0.00045356570187594003,
+        "lower_95": -0.010595468626808345,
+        "upper_95": 0.009548878998682807,
+        "interval_includes_zero": true
+      },
+      "flow_minus_price_rank_ic": {
+        "mean": 0.0005138338610157912,
+        "lower_95": -0.007086625659998157,
+        "upper_95": 0.007372303288626386,
+        "interval_includes_zero": true
+      }
+    }
+  },
+  "status": "descriptive_exploratory_paired_block_bootstrap",
+  "monthly_flow_improvement_count": 2,
+  "monthly_flow_decline_count": 10,
+  "months_observed": 12,
+  "limitations": [
+    "Saved 2024 history already researched; no new holdout or retrained model.",
+    "Daily equal weighting of overlapping 20-day quote proxies; not annual or portfolio return.",
+    "Circular blocks wrap year-end to year-start; stationarity is an approximation.",
+    "Block lengths 10/20/40 fixed as sensitivity checks; no universally valid dependence correction.",
+    "One year, missing last five 2024 signals, and quote-validity selection limit generalization.",
+    "Intervals describe a resampling assumption, not probability of future profit.",
+    "Raw 2024 archive not available here; this checks published outputs, not source replay."
+  ]
+}

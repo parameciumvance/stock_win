@@ -16,10 +16,16 @@ diagnostics: check-diagnostic-inputs
 .PHONY: test-institutional institutional-diagnostics
 
 test-institutional:
-	$(PYTHON) -m unittest twse_history.test_revenue_pilot twse_history.test_institutional twse_history.test_institutional_features test_institutional_increment -q
+	$(PYTHON) -m unittest twse_history.test_revenue_pilot twse_history.test_institutional twse_history.test_institutional_features test_institutional_increment test_institutional_uncertainty -q
 
 institutional-diagnostics:
 	$(PYTHON) -m twse_history.institutional_features --year 2023 --prices twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz --flows inputs/institutional_twse_2023.csv.gz --output inputs/institutional_features_2023.csv.gz
 	$(PYTHON) -m twse_history.institutional_features --years 2023 2024 --prices twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz --flows inputs/institutional_twse_2023.csv.gz inputs/institutional_twse_2024.csv.gz --output inputs/institutional_features_2023_2024.csv.gz
 	$(PYTHON) audit_institutional_increment.py --config configs/institutional_diagnostic_2023.json
 	$(PYTHON) audit_institutional_increment.py --config configs/institutional_diagnostic_2024.json
+
+
+.PHONY: institutional-uncertainty
+
+institutional-uncertainty:
+	$(PYTHON) audit_institutional_uncertainty.py --config configs/institutional_uncertainty_2024.json

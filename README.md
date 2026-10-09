@@ -68,3 +68,12 @@ python audit_relative_gate_history_v78.py
 ## 下一步
 
 已完成 2015–2026（截至 10/02）上市行情、普通股池與全段共同因子建置，另備妥月營收時點對齊工具。接著須補逐公司原始公告時間，才能測試對次日開盤與固定持有相對報酬的增量價值。事先固定方法，等新的市場期間再評估。2026 年九個換股日的官方盤中零股 CSV 與精確持股現金帳暫列後續工作；每日市場價量也不能證明限價單必然成交。
+
+
+## 2024 法人增量診斷
+
+固定模型結果見 [2024 比較](deliverables/institutional_increment_report_2024.md)；
+接續的 [月度與區塊不確定性](deliverables/institutional_uncertainty_report_2024.md)
+使用同一每日結果，不重新訓練。`make institutional-uncertainty` 可由 repo 內的
+每日 CSV 重算，無需下載新的市場資料。`make test-institutional` 現含 21 項測試。
+原始來源 replay 仍需要 `.gitignore` 排除的本機 2024 source checkpoint ZIP。

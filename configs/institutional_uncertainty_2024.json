@@ -1,0 +1,15 @@
+{
+  "daily_input": "deliverables/institutional_increment_daily_2024.csv",
+  "expected_daily_sha256": "f5fa4674ac7635e169d32ad8d357ba2ea3e995b7750b72e0775c895232e6311a",
+  "source_commit": "7506c64671067d15b17dc4238e56ab0899635b24",
+  "expected_dates": 237,
+  "block_lengths": [
+    10,
+    20,
+    40
+  ],
+  "primary_block_length": 20,
+  "replicates": 5000,
+  "seed": 20261009,
+  "output_directory": "deliverables"
+}
