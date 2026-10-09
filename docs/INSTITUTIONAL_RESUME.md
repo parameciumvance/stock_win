@@ -88,3 +88,31 @@ manifest 成員 hash 均通過。新來源與舊取得統計的差異全為零�
 −4.591%，加入法人為 −4.717%，降低 0.126 個百分點；不支持此次法人增量改善。
 最後五個 2024 訊號日因固定讀取範圍缺完整未來 20 日標籤而未納入。
 來源 ZIP 已存本機 deliverables，依既有 `.gitignore` 不納入 Git。
+
+
+
+## 接收上傳包後及 2025 接續
+
+2024 上傳包已完成雲端來源重跑與模型核對。恢復既有資料可用：
+
+```bash
+python3 resume_institutional.py --bundle ref/institutional_twse_2023_repro_bundle.zip --checkpoint-2024 deliverables/institutional_twse_2024_source_checkpoint.zip --check-only
+make institutional-pool-audit
+```
+
+2025 固定設定沿用相同特徵、Ridge alpha、選股比例與成本，
+訓練只納入標籤於 2024-12-31 結束前已知的 2023–2024 訊號。
+官方日曆須與封存價格的 0050 交易日完全一致；未知法人列不補零。
+2025 已研究過，這仍是探索性歷史比較。
+
+```bash
+python3 resume_institutional.py --year 2025 --check-only
+python3 resume_institutional.py --year 2025 --fetch
+```
+
+只做連線檢查可用 `--year 2025 --probe-only`；使用 2025-01-06 交易日，
+HTTP 狀態、最終 URL、日期及法人加總通過才啟動全年佇列。
+來源包將先寫入 `deliverables/institutional_twse_2025_source_checkpoint.zip`，
+再建 2023–2025 特徵、執行固定配置。此包依賴既有 2023 完整包與 2024 checkpoint，
+不是單獨包含所有價格／前年度來源的完整研究包。
+來源 ZIP 不納入 Git；程式與小型成果由 Git 追蹤。

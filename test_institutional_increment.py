@@ -43,5 +43,22 @@ class IncrementDiagnosticTests(unittest.TestCase):
             expected = (1 - .005) * (1 - .001425 - .003) / ((1 + .005) * (1 + .001425)) - 1
             self.assertTrue(train.target.sub(expected).abs().lt(1e-12).all())
 
+    def test_missing_future_quote_does_not_remove_asof_candidate(self):
+        with tempfile.TemporaryDirectory() as folder:
+            p, f, quotes = self.fixture(Path(folder))
+            missing = quotes.symbol.eq('2330') & quotes.date.eq('2023-09-08')
+            quotes.loc[missing, 'adj_close'] = float('nan')
+            quotes.to_csv(p, index=False)
+            _, test, _, candidates = dataset(p, f, pd.Timestamp('2023-08-31'),
+                .001425, .003, .005, return_candidates=True)
+            signal = candidates[candidates.date.eq('2023-09-01')].iloc[0]
+            self.assertTrue(signal.eligible)
+            self.assertTrue(signal[FLOW_FEATURES].notna().all())
+            self.assertFalse(signal.future_quotes_complete)
+            self.assertTrue(pd.isna(signal.target))
+            self.assertTrue(pd.notna(signal.endpoint_target))
+            self.assertFalse(test.date.eq('2023-09-01').any())
+
 
 if __name__ == '__main__':unittest.main()
+

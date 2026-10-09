@@ -1,0 +1,65 @@
+{
+  "config": {
+    "config": "configs/institutional_diagnostic_2024.json",
+    "models": "deliverables/institutional_ridge_models_2024.json",
+    "expected_model_sha256": "7c0050add230a2e5e4475c1ad3d0c786420e0ab7e658ece32569bf5a73634dc6",
+    "extended_label_read_end": "2025-03-01",
+    "output_directory": "deliverables",
+    "status": "exploratory_pool_selection_audit_no_model_tuning"
+  },
+  "summary": {
+    "extended_labels_only": {
+      "signal_dates": 242,
+      "dates_with_any_label": 242,
+      "asof_price_rows": 169444,
+      "asof_common_rows": 168944,
+      "flow_missing_rows": 500,
+      "future_label_removed_all_dates": 381,
+      "removed_with_observed_endpoints": 281,
+      "future_label_removed_on_observed_dates": 381,
+      "price_ridge": {
+        "dates_with_unknown_top_target": 17,
+        "unknown_top_targets": 18,
+        "missing_top_endpoints": 3,
+        "unconditional_mean_is_identified": false
+      },
+      "price_flow_ridge": {
+        "dates_with_unknown_top_target": 16,
+        "unknown_top_targets": 16,
+        "missing_top_endpoints": 2,
+        "unconditional_mean_is_identified": false
+      }
+    },
+    "original_read_window": {
+      "signal_dates": 242,
+      "dates_with_any_label": 237,
+      "asof_price_rows": 169444,
+      "asof_common_rows": 168944,
+      "flow_missing_rows": 500,
+      "future_label_removed_all_dates": 3571,
+      "removed_with_observed_endpoints": 281,
+      "future_label_removed_on_observed_dates": 380,
+      "price_ridge": {
+        "dates_with_unknown_top_target": 17,
+        "unknown_top_targets": 18,
+        "missing_top_endpoints": 3,
+        "unconditional_mean_is_identified": false
+      },
+      "price_flow_ridge": {
+        "dates_with_unknown_top_target": 16,
+        "unknown_top_targets": 16,
+        "missing_top_endpoints": 2,
+        "unconditional_mean_is_identified": false
+      }
+    }
+  },
+  "features_sha256": "c63f6daeba10dfe046814fec53607015238c1d0ebecdab57206947872addae5b",
+  "model_sha256": "7c0050add230a2e5e4475c1ad3d0c786420e0ab7e658ece32569bf5a73634dc6",
+  "limitations": [
+    "Frozen scores; no retraining or missing-return imputation.",
+    "Asof means are left missing whenever any selected target is unknown.",
+    "Flow-complete pool excludes missing observed source rows and is not the full historical universe.",
+    "Extended labels use later stored quotes for outcomes only, never for predictors.",
+    "Observed targets are adjusted quote proxies, not proved executable returns or NAV."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-09",
+  "source_commit": "8db47d8a665c95cc7badce97d8dc112904b9a6fa",
+  "status": "source_replayed_model_numerically_reproduced",
+  "checkpoint_sha256": "09962d23827ad5be91d3f3ba3424107ab2cf1e3222709d2e2b6b847a9cf1b765",
+  "checkpoint_members": 511,
+  "checkpoint_manifest_files_verified": 509,
+  "checkpoint_crc_verified": true,
+  "normalized_rows_exactly_equal": 241431,
+  "features": {
+    "rows": 498316,
+    "symbols": 1036,
+    "complete_foreign_5d": 449326,
+    "source_precedes_signal": true,
+    "regenerated_gzip_sha256": "c63f6daeba10dfe046814fec53607015238c1d0ebecdab57206947872addae5b",
+    "regenerated_csv_sha256": "0f17a7f5bce4168bb4580176057a664043440992a3637ae6214115e0ca6ea6c6",
+    "published_gzip_sha256": "759207ef31590abf170660fc0c89fabaa148a7b6eb3d4e1060d8bcf13bcae0c3",
+    "note": "Original feature bytes were not supplied; gzip headers and runtime formatting may differ. Counts and downstream numerical results were checked; no feature-byte equality claimed."
+  },
+  "daily_dates_and_pool_exactly_equal": true,
+  "daily_max_abs_difference": {
+    "pool": 0.0,
+    "top_count": 0.0,
+    "pool_net_relative": 0.0,
+    "price_ridge_top_net_relative": 0.0,
+    "price_ridge_rank_ic": 0.0,
+    "price_flow_ridge_top_net_relative": 0.0,
+    "price_flow_ridge_rank_ic": 0.0,
+    "vol20_rank_top_net_relative": 0.0,
+    "vol20_rank_rank_ic": 0.0
+  },
+  "model_max_abs_difference": {
+    "price_ridge_scaler_mean": 0.0,
+    "price_ridge_scaler_scale": 1.734723475976807e-18,
+    "price_ridge_ridge_coefficients": 4.0332320816460765e-17,
+    "price_ridge_ridge_intercept": 0.0,
+    "price_flow_ridge_scaler_mean": 0.0,
+    "price_flow_ridge_scaler_scale": 1.734723475976807e-18,
+    "price_flow_ridge_ridge_coefficients": 4.683753385137379e-17,
+    "price_flow_ridge_ridge_intercept": 0.0
+  },
+  "tolerance": 1e-10,
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.8.0"
+  },
+  "limits": [
+    "Frozen quote proxy on already researched history, no executable NAV claim.",
+    "Published outputs preserved; replay outputs stored separately."
+  ],
+  "pool_audit_frozen_selection_matches_original": true,
+  "tests_passed": 26
+}

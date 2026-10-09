@@ -75,5 +75,8 @@ python audit_relative_gate_history_v78.py
 固定模型結果見 [2024 比較](deliverables/institutional_increment_report_2024.md)；
 接續的 [月度與區塊不確定性](deliverables/institutional_uncertainty_report_2024.md)
 使用同一每日結果，不重新訓練。`make institutional-uncertainty` 可由 repo 內的
-每日 CSV 重算，無需下載新的市場資料。`make test-institutional` 現含 21 項測試。
-原始來源 replay 仍需要 `.gitignore` 排除的本機 2024 source checkpoint ZIP。
+每日 CSV 重算，無需下載新的市場資料。`make test-institutional` 現含 26 項測試。
+2024 原始資料包已收到並完成來源重跑，見 [重跑核對](deliverables/institutional_source_replay_20261009.json)。
+[股票池篩選檢查](deliverables/institutional_pool_audit_report_2024.md)
+可用 `make institutional-pool-audit` 重算；沒有將未知持股結果補零。
+2025 延伸設定已固定；接續命令與資料包依賴見 [接續說明](docs/INSTITUTIONAL_RESUME.md)。

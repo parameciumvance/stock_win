@@ -1,0 +1,8 @@
+{
+  "config": "configs/institutional_diagnostic_2024.json",
+  "models": "deliverables/institutional_ridge_models_2024.json",
+  "expected_model_sha256": "7c0050add230a2e5e4475c1ad3d0c786420e0ab7e658ece32569bf5a73634dc6",
+  "extended_label_read_end": "2025-03-01",
+  "output_directory": "deliverables",
+  "status": "exploratory_pool_selection_audit_no_model_tuning"
+}

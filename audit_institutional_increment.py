@@ -23,12 +23,14 @@ PRICE_FEATURES = ['r1', 'r5', 'r20', 'r60', 'vol20', 'atr14', 'ma5_20',
 FLOW_FEATURES = [r + f'_net_volume_ratio_{w}d' for r in ('foreign', 'trust', 'total') for w in (1, 5, 20)]
 
 
-def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_year=2023, end_year=2023):
+def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_year=2023, end_year=2023,
+            *, return_candidates=False, label_read_end=None):
     pieces = []
     use = ['date', 'symbol', 'open', 'high', 'low', 'close', 'volume', 'turnover_twd',
            'adj_open', 'adj_high', 'adj_low', 'adj_close', 'universe_role']
     for chunk in pd.read_csv(price_path, usecols=use, dtype={'symbol': str}, chunksize=200000):
-        pieces.append(chunk[chunk.date.ge(f'{start_year}-01-01') & chunk.date.le(f'{end_year + 1}-01-31')])
+        pieces.append(chunk[chunk.date.ge(f'{start_year}-01-01') & chunk.date.le(
+            label_read_end or f'{end_year + 1}-01-31')])
     prices = pd.concat(pieces, ignore_index=True)
     prices['date'] = pd.to_datetime(prices.date)
     if prices.duplicated(['date', 'symbol']).any():
@@ -64,6 +66,9 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_
         future_valid = close.shift(-1).iloc[::-1].rolling(20, min_periods=20).count().iloc[::-1].eq(20)
         net = exit_price * (1 - slippage) * (1 - commission - tax) / (entry * (1 + slippage) * (1 + commission)) - 1
         frame['target'] = (net - benchmark_return).where(future_valid & entry.gt(0) & exit_price.gt(0))
+        if return_candidates:
+            frame['future_quotes_complete'] = future_valid
+            frame['endpoint_target'] = (net - benchmark_return).where(entry.gt(0) & exit_price.gt(0))
         frame['label_window_end'] = pd.Series(days, index=days).shift(-20)
         frame['eligible'] = close.rolling(120, min_periods=120).count().eq(120) & g.close.ge(10) & g.volume.gt(0) & turnover20.ge(10000000)
         frame['symbol'] = symbol
@@ -84,8 +89,9 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_
     selected = merged[complete].copy()
     train = selected[selected.date.le(cutoff) & selected.label_window_end.le(cutoff)].copy()
     test = selected[selected.date.gt(cutoff)].copy()
-    return train, test, {'eligible_price_label_rows': int(before_flows.sum()), 'complete_flow_rows': int(complete.sum()),
-                         'flow_complete_fraction': float(complete.sum() / max(1, before_flows.sum()))}
+    result = (train, test, {'eligible_price_label_rows': int(before_flows.sum()), 'complete_flow_rows': int(complete.sum()),
+                           'flow_complete_fraction': float(complete.sum() / max(1, before_flows.sum()))})
+    return result + (merged,) if return_candidates else result
 
 
 def main():
@@ -150,3 +156,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
