@@ -48,6 +48,8 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_
     benchmark_future_valid = benchmark.adj_close.where(benchmark.adj_close.gt(0)).shift(-1).iloc[::-1].rolling(20, min_periods=20).count().iloc[::-1].eq(20)
     benchmark_return = (benchmark_close / benchmark_open - 1).where(
         benchmark_future_valid & benchmark_open.gt(0) & benchmark_close.gt(0))
+    benchmark_endpoint_return = (benchmark_close / benchmark_open - 1).where(
+        benchmark_open.gt(0) & benchmark_close.gt(0))
     output = []
     for symbol, group in prices[prices.universe_role.eq('common_stock')].groupby('symbol'):
         g = group.set_index('date').reindex(days)
@@ -72,7 +74,8 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_
         frame['target'] = (net - benchmark_return).where(future_valid & entry.gt(0) & exit_price.gt(0))
         if return_candidates:
             frame['future_quotes_complete'] = future_valid
-            frame['endpoint_target'] = (net - benchmark_return).where(entry.gt(0) & exit_price.gt(0))
+            frame['endpoint_target'] = (net - benchmark_endpoint_return).where(entry.gt(0) & exit_price.gt(0))
+            frame['benchmark_label_available'] = benchmark_return.notna()
         frame['label_window_end'] = pd.Series(days, index=days).shift(-20)
         frame['eligible'] = close.rolling(120, min_periods=120).count().eq(120) & g.close.ge(10) & g.volume.gt(0) & turnover20.ge(10000000)
         frame['symbol'] = symbol

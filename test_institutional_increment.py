@@ -70,6 +70,7 @@ class IncrementDiagnosticTests(unittest.TestCase):
             self.assertEqual(signal.label_window_end, pd.Timestamp('2023-09-29'))
             self.assertTrue(candidates.date.eq('2023-09-08').any())
             self.assertTrue(pd.isna(signal.target))
+            self.assertTrue(pd.notna(signal.endpoint_target))
 
 
 if __name__ == '__main__':unittest.main()

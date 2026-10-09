@@ -23,7 +23,7 @@ def scores(frame, models):
     return result
 
 
-def audit(candidates, models, config, scope):
+def audit(candidates, models, config, scope, details=None):
     frame = candidates[candidates.date.gt(config['train_cutoff'])].copy()
     frame['asof_price'] = frame.eligible & np.isfinite(frame[PRICE_FEATURES]).all(axis=1)
     frame['asof_common'] = frame.asof_price & np.isfinite(frame[FLOW_FEATURES]).all(axis=1)
@@ -38,6 +38,8 @@ def audit(candidates, models, config, scope):
                'future_label_removed': int((~common.label_available).sum()),
                'removed_with_observed_endpoints': int((~common.label_available & np.isfinite(common.endpoint_target)).sum()),
                'label_valid_pool': int(common.label_available.sum())}
+        if 'benchmark_label_available' in group:
+            row['benchmark_label_available'] = bool(group.benchmark_label_available.iloc[0])
         for name in models:
             top = common.sort_values([name, 'symbol'], ascending=[False, True]).head(count)
             label_valid = common[common.label_available]
@@ -51,6 +53,16 @@ def audit(candidates, models, config, scope):
             row[name + '_asof_top_mean'] = float(top.target.mean()) if len(top) and top.label_available.all() else np.nan
             row[name + '_endpoint_top_mean'] = float(top.endpoint_target.mean()) if len(top) and np.isfinite(top.endpoint_target).all() else np.nan
             row[name + '_future_filtered_top_mean'] = float(old_top.target.mean()) if len(old_top) else np.nan
+            if details is not None:
+                for rank, selected in enumerate(top.itertuples(), 1):
+                    if not selected.label_available:
+                        details.append({'scope': scope, 'date': date.strftime('%Y-%m-%d'),
+                            'model': name, 'symbol': selected.symbol, 'rank': rank,
+                            'score': getattr(selected, name), 'strict_target_available': False,
+                            'endpoint_target': selected.endpoint_target,
+                            'benchmark_label_available': getattr(selected, 'benchmark_label_available', None),
+                            'stock_future_quotes_complete': getattr(selected, 'future_quotes_complete', None),
+                            'label_window_end': str(getattr(selected, 'label_window_end', ''))})
         rows.append(row)
     return pd.DataFrame(rows)
 
@@ -70,12 +82,12 @@ def main():
     if hashlib.sha256(model_bytes).hexdigest() != audit_config['expected_model_sha256']:
         raise ValueError('Frozen model checksum mismatch')
     models = json.loads(model_bytes)['models']
-    results = []
+    results = []; details = []
     for scope, end in [('original_read_window', None), ('extended_labels_only', audit_config['extended_label_read_end'])]:
         _, _, _, candidates = dataset(config['prices'], config['features'], pd.Timestamp(config['train_cutoff']),
             config['commission'], config['sell_tax'], config['slippage_each_side'],
             config['start_year'], config['end_year'], return_candidates=True, label_read_end=end)
-        results.append(audit(candidates, models, config, scope))
+        results.append(audit(candidates, models, config, scope, details))
     daily = pd.concat(results, ignore_index=True)
     summaries = {}
     for scope, group in daily.groupby('scope'):
@@ -96,6 +108,7 @@ def main():
         summaries[scope] = summary
     out = Path(audit_config['output_directory']); out.mkdir(parents=True, exist_ok=True)
     daily.to_csv(out / f'institutional_pool_audit_daily_{study}.csv', index=False)
+    pd.DataFrame(details).to_csv(out / f'institutional_pool_unknown_top_{study}.csv', index=False)
     result = {'config': audit_config, 'summary': summaries,
         'features_sha256': hashlib.sha256(Path(config['features']).read_bytes()).hexdigest(),
         'model_sha256': audit_config['expected_model_sha256'],

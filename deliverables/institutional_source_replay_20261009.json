@@ -52,5 +52,6 @@
   ],
   "pool_audit_frozen_selection_matches_original": true,
   "tests_passed": 27,
-  "market_clock_fix_preserves_2024_daily_outputs": true
+  "market_clock_fix_preserves_2024_daily_outputs": true,
+  "unknown_asof_selected_quote_endpoints_csv": "deliverables/institutional_pool_unknown_top_2024.csv"
 }
