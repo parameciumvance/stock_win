@@ -74,3 +74,13 @@ margin-package:
 margin-diagnostics:
 	$(PYTHON) audit_margin_increment.py
 
+.PHONY: fundamental-tree research-selection-audit
+
+fundamental-tree:
+	$(PYTHON) audit_margin_increment.py --year $(YEAR) --prepare-only
+	$(PYTHON) audit_fundamental_tree.py --year $(YEAR)
+
+research-selection-audit:
+	$(PYTHON) verify_research_selections.py deliverables/margin
+	$(PYTHON) verify_research_selections.py deliverables/fundamental_tree
+

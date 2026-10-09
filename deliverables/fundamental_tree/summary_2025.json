@@ -1,0 +1,375 @@
+{
+  "year": 2025,
+  "train_rows": 225180,
+  "test_rows": 148325,
+  "train_last_label_end": "2024-12-31",
+  "matrix": {
+    "cache": "inputs/margin/common_2023_2025.pkl.gz",
+    "cache_sha256": "ac988b470c91a45e1167bdc6a07479ae85c0fed456de4451d9a966fbecb8cef3",
+    "input_sha256": {
+      "2023": "f45ba109f5121bbcc20c94e0d44f354212e5811f59ce5ad4921328bfe086736c",
+      "2024": "ab0bb25c510a563076c2c7d3f94d7e69d4592300a6af2adf653d2b1b3cc59a53",
+      "2025": "568f142249fb82bf3edc2082ba98014000414f4cf2435014ce3a985eed67a35a",
+      "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+      "flows": "364009827cf833b20be08925ebaafc53f0378d6542a6aa4b5aaefcd4a91a3ea8",
+      "revenue": "f6fd0605f87aa37b0af0fc24bec1ccf6923844a84639900fb3652d66d1a9db45",
+      "credit_features": "b7544d8a1c6140f7ca61158eca94cff17a862d8bd98518a72ca1714072ff6307",
+      "protocol": "28d724712a3543b3b26df997a35039e8077f3542dbeb21ab8ef6885a2ec4511d"
+    },
+    "rows": 386296
+  },
+  "protocol_sha256": "ce8ac4ada85e108a9b5e7cbc7b1d5cf6e2800a9b09c02050ecca721642a7e5c9",
+  "sklearn_version": "1.8.0",
+  "models": {
+    "price_tree": {
+      "path": "deliverables/fundamental_tree/price_tree_2025.joblib",
+      "sha256": "f2909716edea4a59b8b134826ea870b1868be96f3d0ccb4ec5543dfc1b4d501f",
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20"
+      ],
+      "iterations": 200
+    },
+    "all_tree": {
+      "path": "deliverables/fundamental_tree/all_tree_2025.joblib",
+      "sha256": "1ef9f62a41a1aebf818149aad70b47aa1300c1359dbaedf929497e85508e1d86",
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20",
+        "foreign_net_volume_ratio_1d",
+        "foreign_net_volume_ratio_5d",
+        "foreign_net_volume_ratio_20d",
+        "trust_net_volume_ratio_1d",
+        "trust_net_volume_ratio_5d",
+        "trust_net_volume_ratio_20d",
+        "total_net_volume_ratio_1d",
+        "total_net_volume_ratio_5d",
+        "total_net_volume_ratio_20d",
+        "rev_yoy",
+        "rev_mom",
+        "rev_3m_yoy",
+        "rev_yoy_accel",
+        "log_revenue"
+      ],
+      "iterations": 200
+    },
+    "all_margin_tree": {
+      "path": "deliverables/fundamental_tree/all_margin_tree_2025.joblib",
+      "sha256": "997f75b58a20918aa731585bab0fb112aa9f245b91d18b4c79e960739a0ceb40",
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20",
+        "foreign_net_volume_ratio_1d",
+        "foreign_net_volume_ratio_5d",
+        "foreign_net_volume_ratio_20d",
+        "trust_net_volume_ratio_1d",
+        "trust_net_volume_ratio_5d",
+        "trust_net_volume_ratio_20d",
+        "total_net_volume_ratio_1d",
+        "total_net_volume_ratio_5d",
+        "total_net_volume_ratio_20d",
+        "rev_yoy",
+        "rev_mom",
+        "rev_3m_yoy",
+        "rev_yoy_accel",
+        "log_revenue",
+        "finance_utilization",
+        "short_utilization",
+        "finance_balance_change_1d",
+        "finance_balance_change_5d",
+        "finance_balance_change_20d",
+        "short_balance_change_1d",
+        "short_balance_change_5d",
+        "short_balance_change_20d",
+        "finance_stopped",
+        "short_stopped"
+      ],
+      "iterations": 200
+    }
+  },
+  "ridge_daily_replay_exact": true,
+  "primary": {
+    "observed_paired_dates": 207,
+    "excluded_unknown_dates": 36,
+    "mean": -0.0005297432217068578,
+    "intervals": {
+      "10": {
+        "mean": -0.0005297432217068578,
+        "lower_95": -0.00798574757533249,
+        "upper_95": 0.006853911240807272,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": -0.0005297432217068578,
+        "lower_95": -0.010188101266428518,
+        "upper_95": 0.0075364411972688485,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": -0.0005297432217068578,
+        "lower_95": -0.011824167635096179,
+        "upper_95": 0.009209173775790115,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2025-01": {
+        "mean": -0.005083488037784245,
+        "count": 15
+      },
+      "2025-02": {
+        "mean": -0.012235196136679552,
+        "count": 18
+      },
+      "2025-03": {
+        "mean": -0.03816168979577159,
+        "count": 21
+      },
+      "2025-04": {
+        "mean": -0.007684981594468246,
+        "count": 20
+      },
+      "2025-05": {
+        "mean": 0.006590003455226293,
+        "count": 15
+      },
+      "2025-06": {
+        "mean": 0.0017393439409021248,
+        "count": 15
+      },
+      "2025-07": {
+        "mean": -0.004328480050588054,
+        "count": 15
+      },
+      "2025-08": {
+        "mean": 0.013821505592791505,
+        "count": 20
+      },
+      "2025-09": {
+        "mean": -0.002915746626488823,
+        "count": 14
+      },
+      "2025-10": {
+        "mean": 0.015793948475436796,
+        "count": 17
+      },
+      "2025-11": {
+        "mean": 0.019732726352706065,
+        "count": 16
+      },
+      "2025-12": {
+        "mean": 0.012480033654306192,
+        "count": 21
+      }
+    },
+    "months_improved": 6
+  },
+  "secondary_ridge": {
+    "observed_paired_dates": 218,
+    "excluded_unknown_dates": 25,
+    "mean": 0.0013068053404404745,
+    "intervals": {
+      "10": {
+        "mean": 0.0013068053404404745,
+        "lower_95": -0.003704173165544358,
+        "upper_95": 0.006626951659325471,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": 0.0013068053404404745,
+        "lower_95": -0.00462263174673285,
+        "upper_95": 0.007583728340045838,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": 0.0013068053404404745,
+        "lower_95": -0.004443716035183723,
+        "upper_95": 0.00748879732627897,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2025-01": {
+        "mean": -0.010860692358860228,
+        "count": 15
+      },
+      "2025-02": {
+        "mean": -4.11501352345832e-05,
+        "count": 18
+      },
+      "2025-03": {
+        "mean": -0.011556323938973854,
+        "count": 21
+      },
+      "2025-04": {
+        "mean": 0.005483877048379509,
+        "count": 20
+      },
+      "2025-05": {
+        "mean": 0.023857123874089677,
+        "count": 14
+      },
+      "2025-06": {
+        "mean": 0.016106717999360084,
+        "count": 15
+      },
+      "2025-07": {
+        "mean": -0.010675605250839357,
+        "count": 22
+      },
+      "2025-08": {
+        "mean": -0.002079974310013975,
+        "count": 18
+      },
+      "2025-09": {
+        "mean": 0.01756658389250266,
+        "count": 17
+      },
+      "2025-10": {
+        "mean": 0.004165637643673459,
+        "count": 19
+      },
+      "2025-11": {
+        "mean": 0.0011500247094711606,
+        "count": 17
+      },
+      "2025-12": {
+        "mean": -0.005413054491285444,
+        "count": 22
+      }
+    },
+    "months_improved": 6
+  },
+  "secondary_credit": {
+    "observed_paired_dates": 219,
+    "excluded_unknown_dates": 24,
+    "mean": -0.0015527846159807655,
+    "intervals": {
+      "10": {
+        "mean": -0.0015527846159807655,
+        "lower_95": -0.0040862708430352635,
+        "upper_95": 0.001249889930849841,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": -0.0015527846159807655,
+        "lower_95": -0.004506178142671755,
+        "upper_95": 0.0016044460654918177,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": -0.0015527846159807655,
+        "lower_95": -0.004867446964215286,
+        "upper_95": 0.0016342219264173477,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2025-01": {
+        "mean": -0.0015478491902943896,
+        "count": 15
+      },
+      "2025-02": {
+        "mean": -0.0012199835948591212,
+        "count": 18
+      },
+      "2025-03": {
+        "mean": 0.0018581332904662367,
+        "count": 21
+      },
+      "2025-04": {
+        "mean": 0.001212918321910889,
+        "count": 20
+      },
+      "2025-05": {
+        "mean": -0.0028103972081279754,
+        "count": 15
+      },
+      "2025-06": {
+        "mean": -0.009846789839049304,
+        "count": 15
+      },
+      "2025-07": {
+        "mean": -0.007308316980347529,
+        "count": 22
+      },
+      "2025-08": {
+        "mean": -0.00397423867899255,
+        "count": 21
+      },
+      "2025-09": {
+        "mean": -0.0039308048418529844,
+        "count": 20
+      },
+      "2025-10": {
+        "mean": -0.002430496772974047,
+        "count": 13
+      },
+      "2025-11": {
+        "mean": 0.009267962979274517,
+        "count": 17
+      },
+      "2025-12": {
+        "mean": 0.0012997919043767057,
+        "count": 22
+      }
+    },
+    "months_improved": 4
+  },
+  "methods": {
+    "price_tree": {
+      "mean_relative_quote_proxy": -0.03652031244240381,
+      "known_top_dates": 211,
+      "unknown_top_rows": 619,
+      "rank_ic_observed": 0.015871144391989573
+    },
+    "all_tree": {
+      "mean_relative_quote_proxy": -0.03800424562285459,
+      "known_top_dates": 220,
+      "unknown_top_rows": 612,
+      "rank_ic_observed": 0.03719570574436156
+    },
+    "all_margin_tree": {
+      "mean_relative_quote_proxy": -0.03927980397311048,
+      "known_top_dates": 226,
+      "unknown_top_rows": 604,
+      "rank_ic_observed": 0.040085717141722085
+    },
+    "all_margin_ridge": {
+      "mean_relative_quote_proxy": -0.03769568952359799,
+      "known_top_dates": 220,
+      "unknown_top_rows": 611,
+      "rank_ic_observed": -0.006768851736022726
+    },
+    "vol20": {
+      "mean_relative_quote_proxy": -0.029394011487352902,
+      "known_top_dates": 219,
+      "unknown_top_rows": 611,
+      "rank_ic_observed": -0.02851788671308633
+    }
+  }
+}

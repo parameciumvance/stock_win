@@ -100,3 +100,8 @@ make test-revenue-proxy
 ```
 
 新增 8 項代理邊界測試，原有 29 項法人測試仍通過。原始 HTML、月資料、特徵和所有 Top10% 選股明細另行封存；源包核對資料見 `deliverables/revenue_proxy/checkpoint_verification.json`。
+
+## 融資融券與固定梯度樹
+
+免費信用來源、十項前市場日特徵與固定同池比較見 [信用報告](deliverables/margin/report.md)。一組不搜尋參數的非線性比較見 [梯度樹報告](deliverables/fundamental_tree/report.md)。
+來源、共同矩陣、模型及 Top10% 明細的恢復／重跑順序見 [接續说明](docs/FUNDAMENTAL_RESEARCH_RESUME.md)，進度見 [Tasks](docs/RESEARCH_PRIORITIES.md)。

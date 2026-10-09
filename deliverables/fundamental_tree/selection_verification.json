@@ -1,0 +1,29 @@
+{
+  "status": "all_asof_selection_traces_verified",
+  "studies": [
+    {
+      "year": 2024,
+      "rows": 83230,
+      "groups": 1210,
+      "selection_sha256": "cf4b726f7a1acb5000c956d61c2e50b5cced78aecc6469dfa60a93aa20da3b41",
+      "daily_sha256": "6fe285d5d9d380f2e6c9f94c3dd109609a9d7d69cec8ad380dd5b6e6ba667c7d"
+    },
+    {
+      "year": 2025,
+      "rows": 74670,
+      "groups": 1215,
+      "selection_sha256": "008642a62a9a560a10ba993a1c14e601adbe804c110da2b9f3d1ab53a2f233b4",
+      "daily_sha256": "f78b265753b55d9bfd691d6cea5b556a49d4666041e070f1183845f3b7d8208e"
+    }
+  ],
+  "rows": 157900,
+  "checks": [
+    "unique stocks",
+    "contiguous ranks",
+    "top10% size",
+    "revenue lag and asof",
+    "previous-market credit source",
+    "unknown outcomes retained",
+    "daily full-selection means"
+  ]
+}
