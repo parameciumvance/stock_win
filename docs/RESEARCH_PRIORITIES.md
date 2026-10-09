@@ -23,8 +23,8 @@
 - [x] 同池、固定成本與 purged 標籤的 2023 內部 Ridge 增量比較完成；法人將 Top10% 平均相對報價代理由 −1.592% 改善至 −1.403%，只有 17 個訓練訊號日；見 `deliverables/institutional_increment_report_2023.md`。
 - [x] 2024 免費法人 242 日、241,431 筆普通股正規化紀錄與連續 2023–2024 特徵生成完成；見 `deliverables/institutional_acquisition_2024.json`。
 - [x] 2026-10-05 晚間恢復執行環境；由已保存重跑包驗證 506 個來源檔，18 項測試通過，2023 摘要與原結果完全一致，模型係數已匯出。見 `deliverables/institutional_recovery_20261005.json`。
-- [ ] **Blocked：2024 法人輸入缺失且目前執行環境無法直連 TWSE**。平台清理暫存工作區；按名稱搜尋及最近檔案清單仍未找到 2024 檢查點，原寫入結果保持未知。10 秒官方端點測試逾時，未啟動年度下載佇列。需在可連 TWSE 的主機補抓或還原 2024 原始／正規化資料。見 `docs/INSTITUTIONAL_RESUME.md`。
-- [ ] 恢復後採 2023 訓練、2024 比較，處理訓練日不足；`configs/institutional_diagnostic_2024.json` 已先固定，歷史結果不得稱独立留出。
+- [x] 2026-10-09 由 ref 中的 2023 包恢復，補抓 2024 全年並先封存來源；509 個 manifest 成員 hash／CRC 核對通過。見 `deliverables/institutional_recovery_20261009.json`。
+- [x] 固定 2023 訓練、2024 比較完成：237 個有效訊號日，法人 Top 10% 平均相對報價報酬較量價模型降低 0.126 個百分點；歷史結果不是獨立留出。見 `deliverables/institutional_increment_report_2024.md`。
 - [x] 主要分類評估加上「前 10% 命中率 ÷ 當日股票池正例率」和逐年度相對報酬排名相關性。
 - [ ] 暫緩繼續深挖無明顯優勢策略的逐檔公司權益；先用帶成本的還原價代理淘汰研究方向，若有穩定增益再核精確持股與現金帳。
 - [x] v79–v81 診斷加入三份上游大檔的 SHA-256 驗證與 `make diagnostics` 重算入口；缺檔即停止。

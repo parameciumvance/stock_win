@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "status": "completed",
+  "bundle_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "new_acquisition": {
+    "market_days": 242,
+    "raw_selected_security_rows": 289480,
+    "common_flow_rows": 241431,
+    "common_symbols_observed": 1034,
+    "historical_member_rows": 245544,
+    "missing_member_rows": 4113,
+    "mean_daily_coverage": 0.9832586741819093,
+    "min_daily_coverage": 0.958876629889669,
+    "max_daily_coverage": 0.994140625,
+    "duplicate_keys": 0
+  },
+  "previous_statistics_delta": {
+    "market_days": 0,
+    "raw_selected_security_rows": 0,
+    "common_flow_rows": 0,
+    "common_symbols_observed": 0,
+    "historical_member_rows": 0,
+    "missing_member_rows": 0,
+    "mean_daily_coverage": 0.0,
+    "min_daily_coverage": 0.0,
+    "max_daily_coverage": 0.0,
+    "duplicate_keys": 0
+  },
+  "normalized_sha256": "3817c2bee1771804c8c691b9775374cdb99f78c43c2d0e47671eed8455452671",
+  "previous_normalized_sha256": "a296ca2dfdb1bfd1344cca28858211c40194d1451a07dc9caec41618032f9df2",
+  "universe_sha256": "bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942",
+  "source_fetch_utc_range": [
+    "2026-10-09T05:47:07.689758+00:00",
+    "2026-10-09T05:53:50.166791+00:00"
+  ],
+  "normalized_rows_equal_reparsed_raw": true,
+  "source_checkpoint": {
+    "path": "deliverables/institutional_twse_2024_source_checkpoint.zip",
+    "sha256": "09962d23827ad5be91d3f3ba3424107ab2cf1e3222709d2e2b6b847a9cf1b765",
+    "bytes": 19407580,
+    "members": 511,
+    "manifest_members_verified": 509,
+    "crc_verified": true
+  },
+  "features": {
+    "rows": 498316,
+    "symbols": 1036,
+    "complete_foreign_5d": 449326,
+    "sha256": "759207ef31590abf170660fc0c89fabaa148a7b6eb3d4e1060d8bcf13bcae0c3"
+  },
+  "note": "2024 sources freshly fetched; aggregate equality does not establish equality to lost original bytes. Fixed 2024 configuration unchanged. Research quote proxy, not independent holdout or executable NAV.",
+  "runtime": {
+    "python": "3.14.4",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit_learn": "1.9.1"
+  },
+  "verification": {
+    "institutional_tests_passed": 18,
+    "daily_metrics_match_summary": true,
+    "exported_model_dimensions_valid": true,
+    "fixed_configuration_unchanged": true,
+    "train_labels_end_by_cutoff": true,
+    "check_only_passed": true
+  },
+  "outputs_sha256": {
+    "deliverables/institutional_increment_daily_2024.csv": "f5fa4674ac7635e169d32ad8d357ba2ea3e995b7750b72e0775c895232e6311a",
+    "deliverables/institutional_increment_summary_2024.json": "141d1899d6518742d1715545aafaa2e2ece840b9a1fbb36c56e6559882c9c95f",
+    "deliverables/institutional_ridge_models_2024.json": "7c0050add230a2e5e4475c1ad3d0c786420e0ab7e658ece32569bf5a73634dc6"
+  }
+}

@@ -19,7 +19,7 @@
 - [x] 2023 全年 239 日下載與覆蓋檢查完成，完整重跑包已封存。
 - [x] 2023 年內固定成本與共同池的 Ridge 增量完成；見 `deliverables/institutional_increment_report_2023.md`。
 - [x] 2024 全年 242 日、241,431 筆普通股流量與 2023–2024 連續特徵生成成功。
-- [ ] 2024 跨年比較與補充包封存 pending。晚間環境已恢復，但暫存資料經平台清理，且無法直連 TWSE；見 `docs/INSTITUTIONAL_RESUME.md`。
+- [x] 2026-10-09 補抓 2024、先封存來源並完成固定跨年比較；見 `deliverables/institutional_increment_report_2024.md` 與 `deliverables/institutional_recovery_20261009.json`。
 - [ ] 新期間資料與預先固定驗證方案；目前研究年份不可改稱独立留出。
 
 ## 重跑
@@ -57,5 +57,5 @@ python -m twse_history.institutional_features --year 2023 \
 
 2024 下載命令在原年度命令改為 `--year 2024 --cache inputs/institutional_2024 --output inputs/institutional_twse_2024.csv.gz --select-type ALLBUT0999`，沿用完整普通股池和 calendar。網路 timeout／500/502/503/504 最多三次請求，5／10 秒退避；4xx 不自動反覆重試。
 
-還原資料後可執行 `make test-institutional`、`make institutional-diagnostics`，重建特徵和兩份研究比較。2023 包已確認保存；2024 備份狀態未確認，先核對而非盲目重新寫入。2023 模型 coefficients JSON 已重新生成並保存；重跑摘要與原結果一致。2024 仍無模型結果。
+還原資料後可執行 `make test-institutional`、`make institutional-diagnostics`，重建特徵和兩份研究比較。2023 包已確認保存；2024 備份狀態未確認，先核對而非盲目重新寫入。2023 模型 coefficients JSON 已重新生成並保存；重跑摘要與原結果一致。2024 已於 2026-10-09 完成模型；法人 Top 10% 平均相對報價報酬較量價模型降低 0.126 個百分點，未重現 2023 增益。新來源已本機封存，舊平台備份寫入結果仍未知。
 

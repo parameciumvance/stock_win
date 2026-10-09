@@ -1,12 +1,14 @@
 # 2024 法人比較接續方式
 
-目前已重現 2023 結果、完成 18 項測試。2024 的原取得數據和配置已保存，
-但原始／正規化暫存輸入經平台清理；備份請求沒有成功回覆，搜尋和最近清單
-未找到可用檔案，不能宣稱其保存成功或永久不存在。
+2026-10-09 已依本文件完成本機接續：2023 重跑包驗證還原、2024 全年補抓、
+來源先行封存、連續特徵與固定跨年模型均已完成。18 項測試通過。
+結果見 `deliverables/institutional_increment_report_2024.md`，完整性紀錄見
+`deliverables/institutional_recovery_20261009.json`。
 
-目前環境不能直連 TWSE；一次官方端點測試在 10 秒逾時。
-2024 模型沒有完成結果。以下流程在能連 TWSE 的 Python 主機執行，
-例如既有 WSL Ubuntu。沒有實股交易動作，不更改已固定的模型選擇或成本。
+2024 普通股流量 241,431 列，與舊統計一致；此次為重新抓取，不能宣稱還原了
+遺失的原始 bytes。舊平台備份請求的結果仍未確認；本次 ZIP 已保存於本機。
+本機 TWSE 連線已通過，未進行實股交易，未更改固定模型選擇或成本。
+以下保留重跑步驟；本機資料包位於 `ref/institutional_twse_2023_repro_bundle.zip`。
 
 ## 恢復並檢查
 
@@ -57,6 +59,32 @@ python3 resume_institutional.py --fetch
 
 本次已實際驗證：2023 包全體來源 hash／ZIP CRC、18 項邊界測試、
 2023 模型重跑（指標差 0）、接續工具還原／檢查模式與編譯。
-此環境尚未執行成功的 2024 下載分支及跨年模型，維持 pending。
+2026-10-09 本機已成功執行 2024 下載、來源封存及跨年模型；來源核對與結果詳見上述報告。
 所有結果仍是已研究歷史的報價代理，不是獨立留出、可證明成交或實股 NAV。
 
+## 2026-10-09 初次檢查紀錄（提供資料包前）
+
+- 已準備專案 `.venv`（Python 3.14.4、numpy 2.5.3、pandas 3.0.6、scikit-learn 1.9.1）。
+  系統缺少 ensurepip，改用 `uv pip install --python .venv/bin/python numpy pandas scikit-learn` 安裝依賴。
+- `make test-institutional PYTHON=.venv/bin/python`：18 項測試全部通過。
+- 本機取得網路執行權限後，10 秒 T86 樣本請求成功：2024-01-05、
+  `ALLBUT0999`，回應 `stat=OK`、1,154 列；此為連線檢查，尚未完成年度來源驗證。
+- 專案、Linux 家目錄及 Windows 使用者的 Downloads/Desktop/Documents 搜尋未找到
+  指定的 `institutional_twse_2023_repro_bundle.zip`；需要提供該包的路徑或下載連結。
+- `.venv/bin/python resume_institutional.py --check-only` 停在
+  `Restore the verified price input first`。未啟動年度下載或模型程序，2024 結果仍為 pending。
+
+取得原包後，先執行上述 `--bundle ... --check-only` 核對，再執行 `--fetch`。
+既有 ref 資料不能替代指定 hash 的研究輸入；本次未修改固定配置或既有研究結果。
+
+## 2026-10-09 完成紀錄
+
+使用者將原包放入 `ref/` 後，已驗證並還原全部來源，執行 `--fetch` 成功。
+2024 source checkpoint 為 19,407,580 bytes，511 members，CRC 與 509 個
+manifest 成員 hash 均通過。新來源與舊取得統計的差異全為零，逐欄核對
+正規化資料與 raw 重建結果一致；新舊 hash 保留在完整性紀錄中。
+
+固定模型比較 237 個有效訊號日：量價 Top 10% 平均成本後相對報價報酬
+−4.591%，加入法人為 −4.717%，降低 0.126 個百分點；不支持此次法人增量改善。
+最後五個 2024 訊號日因固定讀取範圍缺完整未來 20 日標籤而未納入。
+來源 ZIP 已存本機 deliverables，依既有 `.gitignore` 不納入 Git。

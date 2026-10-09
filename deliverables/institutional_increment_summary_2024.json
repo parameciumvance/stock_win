@@ -1,0 +1,71 @@
+{
+  "config": {
+    "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "features": "inputs/institutional_features_2023_2024.csv.gz",
+    "train_cutoff": "2023-12-29",
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005,
+    "ridge_alpha": 1000,
+    "top_fraction": 0.1,
+    "min_pool_size": 100,
+    "output_directory": "deliverables",
+    "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "start_year": 2023,
+    "end_year": 2024,
+    "study_name": "2024"
+  },
+  "price_features": [
+    "r1",
+    "r5",
+    "r20",
+    "r60",
+    "vol20",
+    "atr14",
+    "ma5_20",
+    "ma20_60",
+    "volume5_20",
+    "log_turnover20"
+  ],
+  "flow_features": [
+    "foreign_net_volume_ratio_1d",
+    "foreign_net_volume_ratio_5d",
+    "foreign_net_volume_ratio_20d",
+    "trust_net_volume_ratio_1d",
+    "trust_net_volume_ratio_5d",
+    "trust_net_volume_ratio_20d",
+    "total_net_volume_ratio_1d",
+    "total_net_volume_ratio_5d",
+    "total_net_volume_ratio_20d"
+  ],
+  "coverage": {
+    "eligible_price_label_rows": 239794,
+    "complete_flow_rows": 239091,
+    "flow_complete_fraction": 0.9970683169720677
+  },
+  "train_rows": 60989,
+  "train_signal_dates": 100,
+  "train_first_signal": "2023-07-11",
+  "train_last_signal": "2023-12-01",
+  "train_last_label_end": "2023-12-29",
+  "test_rows": 165373,
+  "test_dates": 237,
+  "test_first": "2024-01-02",
+  "test_last": "2024-12-24",
+  "daily_mean_metrics": {
+    "pool": 697.7763713080169,
+    "top_count": 70.21940928270043,
+    "pool_net_relative": -0.04430413124000915,
+    "price_ridge_top_net_relative": -0.045910817651432324,
+    "price_ridge_rank_ic": 0.015201988817209671,
+    "price_flow_ridge_top_net_relative": -0.04716677356324779,
+    "price_flow_ridge_rank_ic": 0.01571582267822546,
+    "vol20_rank_top_net_relative": -0.046713207861371855,
+    "vol20_rank_rank_ic": -0.0867741394220423
+  },
+  "status": "exploratory_quote_proxy_already_researched_history_not_fresh_holdout",
+  "input_sha256": {
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "features": "759207ef31590abf170660fc0c89fabaa148a7b6eb3d4e1060d8bcf13bcae0c3"
+  }
+}
