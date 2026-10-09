@@ -87,3 +87,16 @@ python audit_relative_gate_history_v78.py
 2025 source checkpoint 已修復傳送截短並核對保存後 bytes；資料包 SHA-256 與復原參數見接續說明。
 2026 截至 10/02 的來源與四年連續特徵已完成，完整未來窗口缺失保持未知。
 整體結論與限制見 [跨年比較](deliverables/institutional_crossyear_report.md)。
+
+## 月營收延遲代理（2026-10-10）
+
+使用者已採用免費歷史月營收表加固定延遲的探索方案。方法與重跑依賴見 [營收代理說明](docs/REVENUE_PROXY.md)，固定跨年結果見 [研究報告](deliverables/revenue_proxy/report.md)。
+45 日延遲的 2024／2025／2026 營收增量分別 +0.136／+0.550／+0.346 個百分點，三年主區間均涵蓋零，營收模型相對 0050 的成本後平均報價代理仍為負。代理資料可能事後修訂，不升為實盤排名或校準飆股機率。
+
+```bash
+make revenue-proxy-fetch
+make revenue-proxy-diagnostics
+make test-revenue-proxy
+```
+
+新增 8 項代理邊界測試，原有 29 項法人測試仍通過。原始 HTML、月資料、特徵和所有 Top10% 選股明細另行封存；源包核對資料見 `deliverables/revenue_proxy/checkpoint_verification.json`。

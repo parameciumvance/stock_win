@@ -1,0 +1,211 @@
+{
+  "year": 2025,
+  "lag_calendar_days": 60,
+  "train_rows": 226469,
+  "train_signal_dates": 342,
+  "train_last_label_end": "2024-12-31",
+  "asof_price_rows": 151790,
+  "asof_flow_rows": 150912,
+  "common_rows": 148960,
+  "revenue_missing_rows": 1952,
+  "scored_dates": 243,
+  "scored_first": "2025-01-02",
+  "scored_last": "2025-12-31",
+  "input_sha256": {
+    "protocol": "c4fee4bfb10fcbb00e13c9b940ffc4077c1b5bd21eeaf81e4a798a08e1c97a5f",
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "flows": "364009827cf833b20be08925ebaafc53f0378d6542a6aa4b5aaefcd4a91a3ea8",
+    "revenue_features": "f6fd0605f87aa37b0af0fc24bec1ccf6923844a84639900fb3652d66d1a9db45"
+  },
+  "daily_sha256": "0af489852703b477284062a7fa24aca8bd1567bc1f2fa0d004a5c1b570d1f162",
+  "methods": {
+    "price": {
+      "mean_relative_quote_proxy": -0.044971004708467925,
+      "known_top_dates": 227,
+      "unknown_top_rows": 606,
+      "mean_rank_ic_observed": -0.05350189499618179
+    },
+    "price_flow": {
+      "mean_relative_quote_proxy": -0.04403500073594984,
+      "known_top_dates": 229,
+      "unknown_top_rows": 603,
+      "mean_rank_ic_observed": -0.046281190416220475
+    },
+    "price_revenue": {
+      "mean_relative_quote_proxy": -0.0404696870829492,
+      "known_top_dates": 212,
+      "unknown_top_rows": 621,
+      "mean_rank_ic_observed": -0.005471772901092824
+    },
+    "all": {
+      "mean_relative_quote_proxy": -0.039360475931976835,
+      "known_top_dates": 212,
+      "unknown_top_rows": 620,
+      "mean_rank_ic_observed": 0.0009611210019294365
+    },
+    "vol20": {
+      "mean_relative_quote_proxy": -0.029241908171702385,
+      "known_top_dates": 219,
+      "unknown_top_rows": 613,
+      "mean_rank_ic_observed": -0.028529809650726587
+    },
+    "rev_yoy": {
+      "mean_relative_quote_proxy": -0.029714432244986225,
+      "known_top_dates": 230,
+      "unknown_top_rows": 602,
+      "mean_rank_ic_observed": 0.03357488340683132
+    }
+  },
+  "price_revenue_minus_price": {
+    "observed_paired_dates": 211,
+    "excluded_unknown_dates": 32,
+    "mean": 0.0029949026114232803,
+    "intervals": {
+      "10": {
+        "mean": 0.0029949026114232803,
+        "lower_95": -0.004166682249487636,
+        "upper_95": 0.009782195235104466,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": 0.0029949026114232803,
+        "lower_95": -0.0051116976591227,
+        "upper_95": 0.010758989305469483,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": 0.0029949026114232803,
+        "lower_95": -0.003913742403513104,
+        "upper_95": 0.010066718243240999,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2025-01": {
+        "mean": 0.0018661804300636807,
+        "count": 15
+      },
+      "2025-02": {
+        "mean": 0.022963416067544734,
+        "count": 18
+      },
+      "2025-03": {
+        "mean": 0.007582850094509441,
+        "count": 20
+      },
+      "2025-04": {
+        "mean": -0.01067371108583075,
+        "count": 20
+      },
+      "2025-05": {
+        "mean": -0.013408303567597906,
+        "count": 14
+      },
+      "2025-06": {
+        "mean": 0.01972589053975072,
+        "count": 16
+      },
+      "2025-07": {
+        "mean": -0.021724229929164313,
+        "count": 22
+      },
+      "2025-08": {
+        "mean": 0.0074254950931838095,
+        "count": 17
+      },
+      "2025-09": {
+        "mean": 0.0084914551980459,
+        "count": 18
+      },
+      "2025-10": {
+        "mean": 0.023430091012383872,
+        "count": 13
+      },
+      "2025-11": {
+        "mean": 0.013784046025277805,
+        "count": 17
+      },
+      "2025-12": {
+        "mean": -0.010264620991319615,
+        "count": 21
+      }
+    },
+    "months_improved": 8
+  },
+  "all_minus_price_flow": {
+    "observed_paired_dates": 212,
+    "excluded_unknown_dates": 31,
+    "mean": 0.0025115842358460917,
+    "intervals": {
+      "10": {
+        "mean": 0.0025115842358460917,
+        "lower_95": -0.0028328989976888464,
+        "upper_95": 0.007761274273617919,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": 0.0025115842358460917,
+        "lower_95": -0.003308129196608035,
+        "upper_95": 0.008389022127937408,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": 0.0025115842358460917,
+        "lower_95": -0.0027513143649130485,
+        "upper_95": 0.00776656621423607,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2025-01": {
+        "mean": -0.008964867204911664,
+        "count": 15
+      },
+      "2025-02": {
+        "mean": 0.02280004550447494,
+        "count": 18
+      },
+      "2025-03": {
+        "mean": 0.002255816453370466,
+        "count": 20
+      },
+      "2025-04": {
+        "mean": -0.011348007954871253,
+        "count": 20
+      },
+      "2025-05": {
+        "mean": -0.00717215890823569,
+        "count": 14
+      },
+      "2025-06": {
+        "mean": 0.016359705266869563,
+        "count": 16
+      },
+      "2025-07": {
+        "mean": -0.014613167309350169,
+        "count": 22
+      },
+      "2025-08": {
+        "mean": 0.006216974962306461,
+        "count": 17
+      },
+      "2025-09": {
+        "mean": 0.0060754762120061485,
+        "count": 18
+      },
+      "2025-10": {
+        "mean": 0.017925081012353117,
+        "count": 13
+      },
+      "2025-11": {
+        "mean": 0.010831885362103263,
+        "count": 17
+      },
+      "2025-12": {
+        "mean": -0.001531761464457393,
+        "count": 22
+      }
+    },
+    "months_improved": 7
+  }
+}

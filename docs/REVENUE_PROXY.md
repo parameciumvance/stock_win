@@ -25,6 +25,6 @@ make revenue-proxy-diagnostics
 make test-revenue-proxy
 ```
 
-重建 gzip 的時間標記可能改變壓縮檔 hash；研究設定鎖定本輪實際輸入 bytes，並另存解壓 CSV hash 與舊三年重疊資料逐筆檢查。研究來源包將含本輪輸入，避免重建後任意放寬 hash 閘門。
+重建 gzip 的時間標記可能改變壓縮檔 hash；研究設定鎖定本輪實際輸入 bytes，並另存解壓 CSV hash 與舊三年重疊資料逐筆檢查。若重建 gzip bytes 不同，只接受預先固定且完全相同的解壓 CSV hash；不改動 keys、值或驗證設定。來源包保存营收原始檔、正規化與特徵，以及所有選股明細，价格與法人從原有來源包復原。
 
 `--fetch` 僅補缺少的來源，既有 cache 先核 checksum。封存原始快取後可離線執行 `python3 -m twse_history.revenue_proxy` 重建營收表與特徵。完整來源核對見 `deliverables/revenue_proxy/acquisition.json`；比較結果見同目錄 `report.md`。

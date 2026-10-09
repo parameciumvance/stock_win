@@ -48,3 +48,15 @@ institutional-source-audit:
 
 institutional-report:
 	$(PYTHON) make_institutional_report.py --year $(YEAR)
+
+.PHONY: revenue-proxy-fetch revenue-proxy-diagnostics test-revenue-proxy
+
+revenue-proxy-fetch:
+	$(PYTHON) -m twse_history.revenue_proxy --fetch
+
+revenue-proxy-diagnostics:
+	$(PYTHON) audit_revenue_proxy.py
+
+test-revenue-proxy:
+	$(PYTHON) -m unittest test_revenue_proxy -q
+

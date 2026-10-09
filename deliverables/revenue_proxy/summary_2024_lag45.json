@@ -1,0 +1,211 @@
+{
+  "year": 2024,
+  "lag_calendar_days": 45,
+  "train_rows": 60341,
+  "train_signal_dates": 100,
+  "train_last_label_end": "2023-12-29",
+  "asof_price_rows": 169444,
+  "asof_flow_rows": 168944,
+  "common_rows": 166385,
+  "revenue_missing_rows": 2559,
+  "scored_dates": 242,
+  "scored_first": "2024-01-02",
+  "scored_last": "2024-12-31",
+  "input_sha256": {
+    "protocol": "c4fee4bfb10fcbb00e13c9b940ffc4077c1b5bd21eeaf81e4a798a08e1c97a5f",
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "flows": "364009827cf833b20be08925ebaafc53f0378d6542a6aa4b5aaefcd4a91a3ea8",
+    "revenue_features": "f6fd0605f87aa37b0af0fc24bec1ccf6923844a84639900fb3652d66d1a9db45"
+  },
+  "daily_sha256": "102e4743a027d3f0766da2b5f5dbc6223e67339ee69e0faa7108e3ff5ba30eff",
+  "methods": {
+    "price": {
+      "mean_relative_quote_proxy": -0.0465621859420675,
+      "known_top_dates": 239,
+      "unknown_top_rows": 3,
+      "mean_rank_ic_observed": 0.018639001435328387
+    },
+    "price_flow": {
+      "mean_relative_quote_proxy": -0.047422642551303795,
+      "known_top_dates": 239,
+      "unknown_top_rows": 3,
+      "mean_rank_ic_observed": 0.019354045651365254
+    },
+    "price_revenue": {
+      "mean_relative_quote_proxy": -0.04503491316934778,
+      "known_top_dates": 237,
+      "unknown_top_rows": 5,
+      "mean_rank_ic_observed": 0.019819688193810525
+    },
+    "all": {
+      "mean_relative_quote_proxy": -0.045822342020483235,
+      "known_top_dates": 240,
+      "unknown_top_rows": 2,
+      "mean_rank_ic_observed": 0.020382322983057498
+    },
+    "vol20": {
+      "mean_relative_quote_proxy": -0.04593274820591338,
+      "known_top_dates": 235,
+      "unknown_top_rows": 7,
+      "mean_rank_ic_observed": -0.09100183510743778
+    },
+    "rev_yoy": {
+      "mean_relative_quote_proxy": -0.033542544867679484,
+      "known_top_dates": 231,
+      "unknown_top_rows": 13,
+      "mean_rank_ic_observed": 0.026857607833475985
+    }
+  },
+  "price_revenue_minus_price": {
+    "observed_paired_dates": 235,
+    "excluded_unknown_dates": 7,
+    "mean": 0.0013618819109622446,
+    "intervals": {
+      "10": {
+        "mean": 0.0013618819109622446,
+        "lower_95": -0.002734381265866662,
+        "upper_95": 0.005381366378711141,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": 0.0013618819109622446,
+        "lower_95": -0.0032610705553204646,
+        "upper_95": 0.006440737144563918,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": 0.0013618819109622446,
+        "lower_95": -0.0038645678443199652,
+        "upper_95": 0.006939360857648152,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2024-01": {
+        "mean": -0.012712275078349234,
+        "count": 22
+      },
+      "2024-02": {
+        "mean": 0.007373529690933294,
+        "count": 13
+      },
+      "2024-03": {
+        "mean": 0.017729015561567057,
+        "count": 21
+      },
+      "2024-04": {
+        "mean": 0.006151900444479435,
+        "count": 20
+      },
+      "2024-05": {
+        "mean": 0.0009141798939818347,
+        "count": 22
+      },
+      "2024-06": {
+        "mean": 0.011707382902090762,
+        "count": 18
+      },
+      "2024-07": {
+        "mean": 0.001966127590487602,
+        "count": 21
+      },
+      "2024-08": {
+        "mean": -0.006494533091998772,
+        "count": 22
+      },
+      "2024-09": {
+        "mean": 0.010482893672948317,
+        "count": 19
+      },
+      "2024-10": {
+        "mean": -0.006312043649221648,
+        "count": 15
+      },
+      "2024-11": {
+        "mean": -0.0035337324512479036,
+        "count": 20
+      },
+      "2024-12": {
+        "mean": -0.007025654462229778,
+        "count": 22
+      }
+    },
+    "months_improved": 7
+  },
+  "all_minus_price_flow": {
+    "observed_paired_dates": 238,
+    "excluded_unknown_dates": 4,
+    "mean": 0.0018664609219959723,
+    "intervals": {
+      "10": {
+        "mean": 0.0018664609219959723,
+        "lower_95": -0.0017431803431289957,
+        "upper_95": 0.005567021277172381,
+        "interval_includes_zero": true
+      },
+      "20": {
+        "mean": 0.0018664609219959723,
+        "lower_95": -0.002370196381693939,
+        "upper_95": 0.006525311150763979,
+        "interval_includes_zero": true
+      },
+      "40": {
+        "mean": 0.0018664609219959723,
+        "lower_95": -0.0025692928563824124,
+        "upper_95": 0.006909873902203275,
+        "interval_includes_zero": true
+      }
+    },
+    "monthly": {
+      "2024-01": {
+        "mean": -0.004203477743349302,
+        "count": 22
+      },
+      "2024-02": {
+        "mean": 0.004814692490948722,
+        "count": 13
+      },
+      "2024-03": {
+        "mean": 0.017417480783035486,
+        "count": 21
+      },
+      "2024-04": {
+        "mean": 0.00762664268798464,
+        "count": 20
+      },
+      "2024-05": {
+        "mean": -0.0006663258327425299,
+        "count": 22
+      },
+      "2024-06": {
+        "mean": 0.01306817956432712,
+        "count": 19
+      },
+      "2024-07": {
+        "mean": 0.00014652862107804326,
+        "count": 21
+      },
+      "2024-08": {
+        "mean": -0.007851182783704768,
+        "count": 22
+      },
+      "2024-09": {
+        "mean": 0.009098817523226154,
+        "count": 19
+      },
+      "2024-10": {
+        "mean": -0.004009924481870878,
+        "count": 17
+      },
+      "2024-11": {
+        "mean": -0.004036216251532199,
+        "count": 20
+      },
+      "2024-12": {
+        "mean": -0.006007661714495779,
+        "count": 22
+      }
+    },
+    "months_improved": 6
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "frozen_at": "2026-10-09T22:53:21.708694+00:00",
+  "start_year": 2023,
+  "end_year": 2026,
+  "asof": "2026-10-02",
+  "status": "exploratory_credit_increment_already_researched_history",
+  "source": "TWSE MI_MARGN daily complete market report",
+  "availability": "Use previous market-day report only; O/X flags are announced next-business-day conditions, not current-day fills.",
+  "missing": "Missing report rows stay unknown, never infer zero or credit eligibility from absence.",
+  "features": [
+    "finance_utilization",
+    "short_utilization",
+    "finance_balance_change_1d",
+    "finance_balance_change_5d",
+    "finance_balance_change_20d",
+    "short_balance_change_1d",
+    "short_balance_change_5d",
+    "short_balance_change_20d",
+    "finance_stopped",
+    "short_stopped"
+  ],
+  "feature_rule": "Utilization = today/(next-business-day limit+1); window change = (today - first prior balance)/(window mean current balance+1), require all window rows; clip ratios [-1,5]. O/X announced flags; all features shift one market day.",
+  "primary_comparison": "price_flow_revenue_margin_minus_price_flow_revenue",
+  "secondary_comparison": "price_margin_minus_price",
+  "revenue_protocol": "configs/revenue_proxy_protocol.json",
+  "revenue_lag": 45,
+  "ridge_alpha": 1000,
+  "top_fraction": 0.1,
+  "min_pool_size": 100,
+  "years": [
+    2024,
+    2025,
+    2026
+  ],
+  "train": "2023 onwards; prior-year Dec31 cutoff; label ends by cutoff",
+  "uncertainty": {
+    "block_lengths": [
+      10,
+      20,
+      40
+    ],
+    "primary_block": 20,
+    "replicates": 5000,
+    "seed": 20261010
+  },
+  "selection": "Same as-of complete feature pool; unknown future endpoints retained; no replacement or zero imputation."
+}

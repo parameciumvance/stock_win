@@ -1,0 +1,11 @@
+{
+  "path": "deliverables/monthly_revenue_proxy_2022_2026_source_checkpoint.zip",
+  "bytes": 20805051,
+  "sha256": "6014acf9520d578ca6ad0fac475c383d508e3fbd0ebf84ad113fade4d91a9e40",
+  "manifest_files": 228,
+  "zip_members": 230,
+  "crc_verified": true,
+  "all_member_hashes_verified": true,
+  "saved_roundtrip_sha256_verified": true,
+  "saved_roundtrip_all_member_hashes_verified": true
+}

@@ -1,0 +1,10 @@
+{
+  "rows": 992785,
+  "overlap_rows": 775404,
+  "extra_prior_rows": 18824,
+  "extra_flow_rows_all_missing": true,
+  "overlap_frame_equal_tolerance": 1e-12,
+  "sha256": "364009827cf833b20be08925ebaafc53f0378d6542a6aa4b5aaefcd4a91a3ea8",
+  "decompressed_sha256": "7bbb5e026554477694df77a996b0972490ca72a41c93dba86be6a74188cef8a3",
+  "previous_gzip_sha256": "ed689bd0d304b3f048db20a743cc3f3a207593c4a6a2b5e4f9a07c301c240fa6"
+}

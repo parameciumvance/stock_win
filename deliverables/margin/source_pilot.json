@@ -1,0 +1,54 @@
+{
+  "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "records": [
+    {
+      "date": "2023-01-03",
+      "raw_rows": 1102,
+      "historical_common_symbols": 968,
+      "observed_common_rows": 949,
+      "missing_common_rows": 19,
+      "coverage": 0.9803719008264463,
+      "balance_identities_verified": true,
+      "source_sha256": "89e4d870e307c8bd7b278d1cc4a84654e8e8bf4f378943c727c15230fb394bb4",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20230103&selectType=ALL",
+      "flags": [
+        "",
+        "OX"
+      ]
+    },
+    {
+      "date": "2024-01-05",
+      "raw_rows": 1132,
+      "historical_common_symbols": 997,
+      "observed_common_rows": 972,
+      "missing_common_rows": 25,
+      "coverage": 0.9749247743229689,
+      "balance_identities_verified": true,
+      "source_sha256": "7f9fb54c1783516c0a1095270cfb0da72900c0b5aa053d8c119f7ec6ab8391e7",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20240105&selectType=ALL",
+      "flags": [
+        "",
+        "OX",
+        "X"
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "raw_rows": 1245,
+      "historical_common_symbols": 1062,
+      "observed_common_rows": 1032,
+      "missing_common_rows": 30,
+      "coverage": 0.9717514124293786,
+      "balance_identities_verified": true,
+      "source_sha256": "ac6fbf41906dbb5c2ffe849eb3ef5c19c5f6583cef0247fd6d6d218f1021a7c1",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260102&selectType=ALL",
+      "flags": [
+        "",
+        "@",
+        "OX",
+        "X"
+      ]
+    }
+  ],
+  "note": "Next-business-day annotations are announced daily conditions; missing rows are not assumed zero."
+}
