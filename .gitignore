@@ -23,3 +23,4 @@ twse_history/output*/
 .vscode/
 .idea/
 .DS_Store
+ref/
