@@ -45,14 +45,16 @@ def run(year,asof=None):
                  missing_member_rows=int(coverage.credit_present.isna().sum()),
                  daily_coverage_mean=float((daily['count']/daily['size']).mean()),
                  historical_membership_sha256=universe_sha)
-    with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+    pending=target.with_suffix('.pending.zip')
+    with zipfile.ZipFile(pending,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for p in files:z.write(p,str(p))
         z.writestr('SHA256MANIFEST.json',json.dumps(manifest,indent=2)+'\n')
         z.writestr('SOURCE_SUMMARY.json',json.dumps(summary,indent=2)+'\n')
-    with zipfile.ZipFile(target) as z:
+    with zipfile.ZipFile(pending) as z:
         if z.testzip() is not None:raise ValueError('Credit ZIP CRC mismatch')
         for name,h in manifest.items():
             if hashlib.sha256(z.read(name)).hexdigest()!=h:raise ValueError('Credit ZIP member checksum mismatch')
+    pending.replace(target)
     summary.update(path=str(target),bytes=target.stat().st_size,sha256=hashlib.sha256(target.read_bytes()).hexdigest(),
                    manifest_files=len(manifest),zip_members=len(manifest)+2,crc_verified=True)
     p=Path(f'deliverables/margin/checkpoint_{year}.json');p.write_text(json.dumps(summary,indent=2)+'\n')

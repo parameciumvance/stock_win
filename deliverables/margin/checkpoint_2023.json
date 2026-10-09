@@ -1,0 +1,21 @@
+{
+  "year": 2023,
+  "asof": null,
+  "days": 239,
+  "raw_rows": 267092,
+  "raw_reparse_exact": true,
+  "status": "verified_credit_daily_sources_not_original_publication_vintages",
+  "historical_member_rows": 234123,
+  "observed_member_rows": 229753,
+  "missing_member_rows": 4370,
+  "daily_coverage_mean": 0.9813417492320365,
+  "historical_membership_sha256": "bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942",
+  "path": "deliverables/margin_twse_2023_source_checkpoint.zip",
+  "bytes": 15473595,
+  "sha256": "f6525dd645c106ee0ed9d2f3ab29ca7a68e13e2255de3c723a0407daa83279cf",
+  "manifest_files": 503,
+  "zip_members": 505,
+  "crc_verified": true,
+  "saved_roundtrip_verified": true,
+  "repair_note": "Initial saved transfer was truncated and invalid; replaced with atomically published rebuilt archive. Raw source bytes and normalized inputs unchanged."
+}
