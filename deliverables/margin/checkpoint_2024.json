@@ -1,0 +1,20 @@
+{
+  "year": 2024,
+  "asof": null,
+  "days": 242,
+  "raw_rows": 279571,
+  "raw_reparse_exact": true,
+  "status": "verified_credit_daily_sources_not_original_publication_vintages",
+  "historical_member_rows": 245544,
+  "observed_member_rows": 238604,
+  "missing_member_rows": 6940,
+  "daily_coverage_mean": 0.9717471921857369,
+  "historical_membership_sha256": "bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942",
+  "path": "deliverables/margin_twse_2024_source_checkpoint.zip",
+  "bytes": 16420835,
+  "sha256": "1e33a8c26c491d585e488b74b655ffa0c8a61ff0674b483ccd3604fd5289be1d",
+  "manifest_files": 509,
+  "zip_members": 511,
+  "crc_verified": true,
+  "saved_roundtrip_verified": true
+}

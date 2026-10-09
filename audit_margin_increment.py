@@ -1,6 +1,7 @@
 """Frozen as-of credit increment on the observed price/flow/revenue common pool."""
 from __future__ import annotations
 import json
+import argparse
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -14,13 +15,16 @@ from twse_history.revenue_proxy import attach_features,REVENUE_FEATURES,sha
 from twse_history.margin_features import build_features,MARGIN_FEATURES
 
 
-def run():
+def run(years=None):
     config=json.loads(Path('configs/margin_protocol.json').read_text())
+    years=years or config['years']
+    if any(y not in config['years'] for y in years):raise ValueError('Year outside frozen protocol')
+    last_year=max(years)
     base=json.loads(Path(config['revenue_protocol']).read_text())
     if sha(base['prices'])!=base['expected_prices_sha256']:raise ValueError('Frozen price checksum mismatch')
     verify_flow(base['flows'],base['expected_flows_sha256'],base['reconstructed_flows_csv_sha256'])
     frames=[];input_hashes={}
-    for year in range(config['start_year'],config['end_year']+1):
+    for year in range(config['start_year'],last_year+1):
         p=Path(f'inputs/margin/margin_twse_{year}.csv.gz')
         a=json.loads(Path(f'deliverables/margin/acquisition_{year}.json').read_text())
         if sha(p)!=a['normalized_sha256']:raise ValueError('Credit input checksum mismatch')
@@ -32,7 +36,8 @@ def run():
     _,_,_,full=dataset(base['prices'],base['flows'],pd.Timestamp('2025-12-31'),base['commission'],
                       base['sell_tax'],base['slippage_each_side'],2023,2026,return_candidates=True,label_read_end=base['asof'])
     full=full[full.date.le(base['asof'])].copy();days=pd.DatetimeIndex(full.date.unique()).sort_values()
-    if not pd.DatetimeIndex(flows.date.unique()).sort_values().equals(days):raise ValueError('Credit dates differ from market clock')
+    expected_days=days[days.year<=last_year]
+    if not pd.DatetimeIndex(flows.date.unique()).sort_values().equals(expected_days):raise ValueError('Credit dates differ from market clock')
     monthly_path=Path('inputs/revenue_proxy/monthly_features.csv.gz')
     a=json.loads(Path('deliverables/revenue_proxy/acquisition.json').read_text())
     if sha(monthly_path)!=a['features_sha256']:raise ValueError('Revenue input checksum mismatch')
@@ -40,7 +45,7 @@ def run():
     full=attach_features(full,monthly,days,config['revenue_lag'],base['max_age_calendar_days'])
     credit=build_features(flows,days)
     output=Path('deliverables/margin');output.mkdir(exist_ok=True,parents=True)
-    credit_path=Path('inputs/margin/features_2023_2026_asof_20261002.csv.gz')
+    credit_path=Path(f'inputs/margin/features_2023_{last_year}.csv.gz')
     credit.to_csv(credit_path,index=False,compression={'method':'gzip','mtime':0})
     full=full.merge(credit,on=['date','symbol'],how='left',validate='one_to_one')
     existing=full.eligible & np.isfinite(full[PRICE_FEATURES+FLOW_FEATURES+REVENUE_FEATURES]).all(axis=1)
@@ -53,7 +58,7 @@ def run():
     input_hashes.update(prices=sha(base['prices']),flows=sha(base['flows']),revenue=sha(monthly_path),
                         credit_features=sha(credit_path),protocol=sha('configs/margin_protocol.json'))
     summaries=[]
-    for year in config['years']:
+    for year in years:
         cutoff=pd.Timestamp(f'{year-1}-12-31')
         train=common[common.date.le(cutoff)&common.label_window_end.le(cutoff)&np.isfinite(common.endpoint_target)]
         test=common[common.date.dt.year.eq(year)].copy()
@@ -86,7 +91,10 @@ def run():
               unknown_top_rows=int(daily[name+'_unknown'].sum()),rank_ic_observed=float(daily[name+'_rank_ic_observed'].mean()))
         (output/f'summary_{year}.json').write_text(json.dumps(result,indent=2)+'\n');summaries.append(result)
         print(json.dumps(dict(year=year,common_rows=len(test),credit_increment=primary['mean'],primary_interval=primary['intervals']['20'])),flush=True)
-    combined=dict(config=config,summaries=summaries,status='exploratory_quote_proxy_not_independent_holdout')
+    previous=output/'crossyear_summary.json'
+    prior=json.loads(previous.read_text())['summaries'] if previous.exists() else []
+    observed={s['year']:s for s in prior};observed.update({s['year']:s for s in summaries})
+    combined=dict(config=config,summaries=[observed[y] for y in sorted(observed)],status='exploratory_quote_proxy_not_independent_holdout')
     (output/'crossyear_summary.json').write_text(json.dumps(combined,indent=2)+'\n')
     report(combined,output)
 
@@ -111,4 +119,6 @@ def report(x,output):
     (output/'report.md').write_text('\n'.join(lines))
 
 
-if __name__=='__main__':run()
+if __name__=='__main__':
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--year',type=int,choices=[2024,2025,2026])
+    a=p.parse_args();run([a.year] if a.year else None)

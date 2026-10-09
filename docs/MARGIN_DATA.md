@@ -25,6 +25,8 @@ make margin-diagnostics
 make test-margin
 ```
 
+來源完整的單一年度可先執行 `python3 audit_margin_increment.py --year 2024`，依相同固定設計產生年度結果；後續以 `--year 2025`／`--year 2026` 補入同一總表，無須重訓已完成年度。
+
 每年先封存來源再續抓下一年。封存時從原始快取重新解析，逐列核對正規化 CSV，再檢查歷史普通股覆蓋、全部 member hash 與 ZIP CRC。既有快取不重新下載；首次錯誤取消尚未開始的年度請求，避免停止顯示進度後還等待整年排隊。
 
 價格、法人及日曆依 `docs/INSTITUTIONAL_RESUME.md` 恢復；營收依 `docs/REVENUE_PROXY.md` 復原。研究輸出在 `deliverables/margin/`，原始來源在 `inputs/margin/raw_年度/`。

@@ -1,0 +1,44 @@
+[
+  {
+    "study": "2024_lag45",
+    "selection_rows": 100476,
+    "asof_join_verified": true,
+    "all_unknown_retained": true,
+    "daily_means_verified": true
+  },
+  {
+    "study": "2024_lag60",
+    "selection_rows": 100452,
+    "asof_join_verified": true,
+    "all_unknown_retained": true,
+    "daily_means_verified": true
+  },
+  {
+    "study": "2025_lag45",
+    "selection_rows": 90024,
+    "asof_join_verified": true,
+    "all_unknown_retained": true,
+    "daily_means_verified": true
+  },
+  {
+    "study": "2025_lag60",
+    "selection_rows": 90018,
+    "asof_join_verified": true,
+    "all_unknown_retained": true,
+    "daily_means_verified": true
+  },
+  {
+    "study": "2026_lag45",
+    "selection_rows": 74220,
+    "asof_join_verified": true,
+    "all_unknown_retained": true,
+    "daily_means_verified": true
+  },
+  {
+    "study": "2026_lag60",
+    "selection_rows": 74256,
+    "asof_join_verified": true,
+    "all_unknown_retained": true,
+    "daily_means_verified": true
+  }
+]
