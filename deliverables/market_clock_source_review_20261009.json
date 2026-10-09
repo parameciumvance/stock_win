@@ -1,0 +1,21 @@
+{
+  "source_commit": "f36720cdbfaae133384a439816e0243451a8af5a",
+  "type": "static_source_inspection_not_historical_result_replay",
+  "reviewed_files": {
+    "twse_history/research_v4.py": "939265dc9a8f05e3492c61dc9cb95990b252fb583f1efd24ed32090d46c93a19",
+    "twse_history/research_v5.py": "1e56115b9647c0b34352714858ec9bde1b667f9f2f08e2a416f60230d4046c2e",
+    "audit_long_volatility.py": "ec488f76a5b4cf6f6c390952e46c64fd8e860486188af38a565a582daf2d52b4",
+    "audit_relative_return_model_v76.py": "fac1be3a99918f2f2fe14e3ced379db291cf47d11e659f183472d125a0e4d715",
+    "audit_relative_return_tree_v77.py": "c0b90e55158cce3c44c0f08f0a52d088d51d6cb3007a4a370c3064d03344004b",
+    "audit_relative_gate_history_v78.py": "137b2e1240de534d5ec640da6e3e35ad7ece65edb2801dc2293c857fe4840972",
+    "audit_volatility_baseline_v79.py": "77f1051d299b172f7a01fcd15a282021fa638f4cafb5a260de798cb6c0403c09",
+    "audit_entry_barriers_v80.py": "3e448fcfdbe2d8fb74494a9eebcd8600cd4eeff83d3295b14b9d8a5a1dbca5b4",
+    "crossyear_research_2023_2025_v55.py": "432d10bc58d3b19ef4f91fd3d9923aa367b3323dba5d38e6de8707efe2d6ebfa"
+  },
+  "finding": "Reviewed core paths use market date union, provided market calendar, or upstream union-derived outputs; no additional benchmark-date clock bug found in these paths.",
+  "other_limitations": [
+    "research_v4/v5 forward-fill benchmark adjusted close for their older close-to-close proxy; separate convention, not fixed here.",
+    "No claim all legacy scripts or output files were replayed."
+  ],
+  "institutional_fix": "Use market date union and reindex benchmark without filling; preserve missing-label status."
+}

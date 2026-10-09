@@ -36,9 +36,13 @@ def dataset(price_path, features_path, cutoff, commission, tax, slippage, start_
     if prices.duplicated(['date', 'symbol']).any():
         raise ValueError('Duplicate price date/symbol')
     benchmark = prices[prices.symbol.eq('0050')].set_index('date').sort_index()
-    days = pd.DatetimeIndex(benchmark.index)
+    if benchmark.empty or benchmark.index.has_duplicates:
+        raise ValueError('Missing/duplicate benchmark quotes')
+    # A suspended benchmark does not turn ordinary market sessions into holidays.
+    days = pd.DatetimeIndex(prices.date.unique()).sort_values()
     if len(days) < 250 or not days.is_monotonic_increasing or days.has_duplicates:
         raise ValueError('Insufficient/invalid benchmark calendar')
+    benchmark = benchmark.reindex(days)
     benchmark_open = benchmark.adj_open.shift(-1)
     benchmark_close = benchmark.adj_close.shift(-20)
     benchmark_future_valid = benchmark.adj_close.where(benchmark.adj_close.gt(0)).shift(-1).iloc[::-1].rolling(20, min_periods=20).count().iloc[::-1].eq(20)

@@ -126,9 +126,9 @@ def main():
         import pandas as pd
         expected_days = []
         for chunk in pd.read_csv(prices, usecols=['date', 'symbol'], dtype={'symbol': str}, chunksize=200000):
-            expected_days.extend(chunk.loc[chunk.symbol.eq('0050') & chunk.date.str.startswith(str(year)), 'date'].str.replace('-', '').tolist())
-        if market_days_from_cache(CALENDAR_ROOT, year) != sorted(expected_days):
-            raise ValueError("Official year calendar differs from frozen benchmark calendar")
+            expected_days.extend(chunk.loc[chunk.date.str.startswith(str(year)), 'date'].str.replace('-', '').tolist())
+        if market_days_from_cache(CALENDAR_ROOT, year) != sorted(set(expected_days)):
+            raise ValueError("Official year calendar differs from frozen market quote calendar")
         run(sys.executable, "-m", "twse_history.institutional", "--year", str(year),
             "--cache", f"inputs/institutional_{year}", "--universe", str(universe),
             "--output", str(flow_path), "--select-type", "ALLBUT0999", "--fetch")

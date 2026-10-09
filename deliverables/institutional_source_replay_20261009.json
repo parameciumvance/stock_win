@@ -51,5 +51,6 @@
     "Published outputs preserved; replay outputs stored separately."
   ],
   "pool_audit_frozen_selection_matches_original": true,
-  "tests_passed": 26
+  "tests_passed": 27,
+  "market_clock_fix_preserves_2024_daily_outputs": true
 }

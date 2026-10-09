@@ -59,6 +59,18 @@ class IncrementDiagnosticTests(unittest.TestCase):
             self.assertTrue(pd.notna(signal.endpoint_target))
             self.assertFalse(test.date.eq('2023-09-01').any())
 
+    def test_benchmark_suspension_does_not_shorten_market_label_clock(self):
+        with tempfile.TemporaryDirectory() as folder:
+            p, f, quotes = self.fixture(Path(folder))
+            quotes = quotes[~(quotes.symbol.eq('0050') & quotes.date.eq('2023-09-08'))]
+            quotes.to_csv(p, index=False)
+            _, _, _, candidates = dataset(p, f, pd.Timestamp('2023-08-31'),
+                .001425, .003, .005, return_candidates=True)
+            signal = candidates[candidates.date.eq('2023-09-01')].iloc[0]
+            self.assertEqual(signal.label_window_end, pd.Timestamp('2023-09-29'))
+            self.assertTrue(candidates.date.eq('2023-09-08').any())
+            self.assertTrue(pd.isna(signal.target))
+
 
 if __name__ == '__main__':unittest.main()
 
