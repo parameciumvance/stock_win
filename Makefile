@@ -28,9 +28,12 @@ institutional-diagnostics:
 .PHONY: institutional-uncertainty
 
 institutional-uncertainty:
-	$(PYTHON) audit_institutional_uncertainty.py --config configs/institutional_uncertainty_2024.json
+	$(PYTHON) audit_institutional_uncertainty.py --config $(UNCERTAINTY_CONFIG)
+
+UNCERTAINTY_CONFIG ?= configs/institutional_uncertainty_2024.json
+POOL_CONFIG ?= configs/institutional_pool_audit_2024.json
 
 .PHONY: institutional-pool-audit
 
 institutional-pool-audit:
-	$(PYTHON) audit_institutional_pool.py --config configs/institutional_pool_audit_2024.json
+	$(PYTHON) audit_institutional_pool.py --config $(POOL_CONFIG)

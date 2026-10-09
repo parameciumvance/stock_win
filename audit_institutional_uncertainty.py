@@ -79,6 +79,9 @@ def main():
     parser.add_argument("--config", default="configs/institutional_uncertainty_2024.json")
     args = parser.parse_args()
     config = json.loads(Path(args.config).read_text())
+    study = str(config.get('study_name', '2024'))
+    if not study.isdigit():
+        raise ValueError('Study name must be a year')
     daily = load_daily(config)
     metrics = paired_metrics(daily)
     result = {"config": config, "observed_dates": len(daily),
@@ -96,23 +99,25 @@ def main():
     result["monthly_flow_decline_count"] = int(monthly.flow_minus_price.lt(0).sum())
     result["months_observed"] = len(monthly)
     result["limitations"] = [
-        "Saved 2024 history already researched; no new holdout or retrained model.",
+        f"Saved {study} history already researched; no new holdout or retrained model.",
         "Daily equal weighting of overlapping 20-day quote proxies; not annual or portfolio return.",
         "Circular blocks wrap year-end to year-start; stationarity is an approximation.",
         "Block lengths 10/20/40 fixed as sensitivity checks; no universally valid dependence correction.",
-        "One year, missing last five 2024 signals, and quote-validity selection limit generalization.",
+        config.get('coverage_note', 'One year, missing last five 2024 signals, and quote-validity selection limit generalization.'),
         "Intervals describe a resampling assumption, not probability of future profit.",
-        "Raw 2024 archive not available here; this checks published outputs, not source replay.",
+        'Source replay was independently checked; this analysis resamples saved daily results only.'
+            if config.get('source_replay_verified') else 'Raw 2024 archive not available at original analysis time; this checks saved outputs only.',
     ]
     out = Path(config["output_directory"]); out.mkdir(parents=True, exist_ok=True)
-    monthly.to_csv(out / "institutional_increment_monthly_2024.csv")
-    (out / "institutional_uncertainty_2024.json").write_text(json.dumps(result, indent=2) + "\n")
+    monthly.to_csv(out / f"institutional_increment_monthly_{study}.csv")
+    (out / f"institutional_uncertainty_{study}.json").write_text(json.dumps(result, indent=2) + "\n")
     primary = result["intervals"][str(config["primary_block_length"])]
     lines = [
-        "# 2024 法人增量：月度與重疊窗口不確定性",
+        f"# {study} 法人增量：月度與重疊窗口不確定性",
         "",
-        "以已提交的 237 個每日結果進行配對診斷，沒有重新訓練或調整模型。",
-        "法人相對量價的平均差異為負；12 個月份中只有 2 月、7 月改善，其餘 10 月下降。",
+        f"以已保存的 {len(daily)} 個每日結果進行配對診斷，沒有重新訓練或調整模型。",
+        f"法人相對量價的平均差異為 {primary['flow_minus_price']['mean'] * 100:+.3f} 個百分點；"
+        f"{len(monthly)} 個月份中 {result['monthly_flow_improvement_count']} 月改善、{result['monthly_flow_decline_count']} 月下降。",
         "",
         "## 預先固定的分析口徑",
         "",
@@ -148,17 +153,15 @@ def main():
         lines.append(f"| {month} | {int(row.signal_dates)} | {row.flow_minus_price * 100:+.3f} |")
     lines += ["", "## 解讀與下一步", "",
               "區間若涵蓋零，不能以本樣本確認法人增量的方向；點估計為負也不能證明所有法人特徵無效。",
-              "目前沒有支持將這組法人特徵提升為正式排名模型的證據，先維持研究候選。",
-              "下一步先補回已封存的 2024 原始資料包，完成來源重跑，",
-              "再用預先固定設定延伸到下一年度，檢查共同池和缺列造成的選擇偏差。",
-              "2025 也已用於歷史研究，延伸比較仍須標為探索性；實際效果要等新期間驗證。",
+              "本歷史診斷不足以將模型升為正式排名，維持研究候選。",
+              "下一步檢查當時共同池與缺價，再按預先固定設定比較其他年份；實際效果要等新期間驗證。",
               "", "## 限制", "",
               "一個已研究年份與 circular 邊界連接不能涵蓋市場狀態改變；10／20／40 日區塊不是保證充分的相依校正。",
-              "最後五個 2024 訊號未納入，股票未來報價完整性的篩選也可能產生偏差。",
-              "本輪只核對 GitHub 輸出、配置和模型維度；尚未取得本機 ZIP，未宣稱原始資料已重放。",
+              "基準停牌、資料截尾與股票未來報價完整性的篩選會影響可評估期間與股票池。",
+              "來源核對另見對應來源報告；本輪區塊重抽樣不代表重新解析原始資料。",
               "不能把這些差異累加為年度報酬、視為可成交 NAV，或解讀為未來獲利機率。",
               ""]
-    (out / "institutional_uncertainty_report_2024.md").write_text("\n".join(lines))
+    (out / f"institutional_uncertainty_report_{study}.md").write_text("\n".join(lines))
     print(json.dumps({"flow_minus_price_intervals": {
         block: summaries["flow_minus_price"] for block, summaries in result["intervals"].items()},
         "improved_months": result["monthly_flow_improvement_count"],

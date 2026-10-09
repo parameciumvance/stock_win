@@ -7,14 +7,14 @@
 | extended_labels_only | 242 | 242 | 169444 | 500 | 168944 | 381 |
 | original_read_window | 242 | 237 | 169444 | 500 | 168944 | 380 |
 
-只延伸讀取標籤到 2025-03-01 可診斷年底五日；特徵仍截至訊號日，模型係數維持原樣。
+只延伸讀取標籤到 2025-03-01 檢查年底資料截尾；特徵仍截至訊號日，模型係數維持原樣。
 
-| 讀取範圍 | 模型 | 已有標籤日期中，Top 10% 仍有未知結果的日期 | 未知 Top 列 |
-|---|---|---:|---:|
-| extended_labels_only | price_ridge | 17 | 18 |
-| extended_labels_only | price_flow_ridge | 16 | 16 |
-| original_read_window | price_ridge | 17 | 18 |
-| original_read_window | price_flow_ridge | 16 | 16 |
+| 讀取範圍 | 模型 | 已有標籤日期中，Top 10% 仍有未知結果的日期 | 未知 Top 列 | 缺進出場端點 Top 列 |
+|---|---|---:|---:|---:|
+| extended_labels_only | price_ridge | 17 | 18 | 3 |
+| extended_labels_only | price_flow_ridge | 16 | 16 | 2 |
+| original_read_window | price_ridge | 17 | 18 | 3 |
+| original_read_window | price_flow_ridge | 16 | 16 | 2 |
 
 未知結果不補零，也不把剩餘股票的平均冒充整個選股組合。
 原結果先依未來標籤完整性縮小股票池，因此其均值與 rank IC 是條件式診斷。
