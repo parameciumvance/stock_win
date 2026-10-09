@@ -17,11 +17,12 @@ def main():
     parser.add_argument('--year', type=int, required=True)
     parser.add_argument('--cache', required=True)
     parser.add_argument('--calendar-root', default='twse_history/raw')
+    parser.add_argument('--asof', help='Partial-year cutoff YYYY-MM-DD')
     parser.add_argument('--include', nargs='*', default=[])
     parser.add_argument('--output', required=True)
     args = parser.parse_args()
     root = Path(args.cache);calendar_root = Path(args.calendar_root)
-    days = market_days_from_cache(calendar_root, args.year)
+    days = market_days_from_cache(calendar_root, args.year, args.asof)
     files = []
     raw_rows = 0
     for day in days:
@@ -34,7 +35,8 @@ def main():
             raise ValueError('Unexpected source identity')
         raw_rows += len(normalize_t86(json.loads(raw), day))
         files.extend([path, meta_path])
-    for month in range(1, 13):
+    final_month = int(args.asof[5:7]) if args.asof else 12
+    for month in range(1, final_month + 1):
         path = calendar_root / f'calendar_{args.year}{month:02d}.json'
         meta_path = path.with_suffix('.meta.json')
         if hashlib.sha256(path.read_bytes()).hexdigest() != json.loads(meta_path.read_text())['sha256']:
@@ -51,7 +53,7 @@ def main():
         for p in files:z.write(p, str(p))
         z.writestr('SHA256MANIFEST.json', json.dumps(manifest, indent=2) + '\n')
         z.writestr('SOURCE_SUMMARY.json', json.dumps({'year': args.year, 'market_days': len(days),
-                       'raw_rows': raw_rows, 'complete_year': True, 'dates': days}, indent=2) + '\n')
+                       'raw_rows': raw_rows, 'complete_year': not bool(args.asof), 'asof': args.asof, 'dates': days}, indent=2) + '\n')
     with zipfile.ZipFile(out) as z:
         if z.testzip() is not None:raise ValueError('ZIP CRC verification failed')
         for p, expected in manifest.items():
@@ -61,3 +63,4 @@ def main():
 
 
 if __name__ == '__main__':main()
+

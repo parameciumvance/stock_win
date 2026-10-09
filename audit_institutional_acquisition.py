@@ -18,6 +18,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--year', required=True, type=int)
     parser.add_argument('--calendar-root', default='twse_history/raw')
+    parser.add_argument('--asof', help='Partial-year cutoff YYYY-MM-DD')
     parser.add_argument('--cache')
     parser.add_argument('--flows')
     parser.add_argument('--universe', default=UNIVERSE)
@@ -29,8 +30,9 @@ def main():
     flow_path = Path(args.flows or f'inputs/institutional_twse_{year}.csv.gz')
     if hashlib.sha256(Path(args.universe).read_bytes()).hexdigest() != args.expected_universe_sha256:
         raise ValueError('Frozen historical universe checksum mismatch')
-    days = market_days_from_cache(Path(args.calendar_root), year)
-    for month in range(1, 13):
+    days = market_days_from_cache(Path(args.calendar_root), year, args.asof)
+    final_month = int(args.asof[5:7]) if args.asof else 12
+    for month in range(1, final_month + 1):
         calendar = Path(args.calendar_root) / f'calendar_{year}{month:02d}.json'
         meta = json.loads(calendar.with_suffix('.meta.json').read_text())
         expected_url = f'https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK?date={year}{month:02d}01&response=json'
@@ -42,6 +44,8 @@ def main():
             raise ValueError('Universe membership must be boolean')
         members.append(chunk[chunk.date.str.startswith(str(year)) & chunk.is_member][['date', 'symbol']])
     members = pd.concat(members, ignore_index=True)
+    if args.asof:
+        members = members[members.date.le(args.asof)].copy()
     iso_days = [d[:4] + '-' + d[4:6] + '-' + d[6:] for d in days]
     if members.duplicated(['date', 'symbol']).any() or set(members.date) != set(iso_days):
         raise ValueError('Historical universe calendar/keys invalid')
@@ -62,7 +66,7 @@ def main():
     counts = members.groupby('date').size()
     observed = selected.groupby('date').size().reindex(counts.index, fill_value=0)
     coverage = observed / counts
-    result = {'year': year, 'market_days': len(days), 'raw_selected_security_rows': len(raw_frame),
+    result = {'year': year, 'asof': args.asof, 'complete_year': not bool(args.asof), 'market_days': len(days), 'raw_selected_security_rows': len(raw_frame),
         'common_flow_rows': len(selected), 'common_symbols_observed': selected.symbol.nunique(),
         'historical_member_rows': len(members), 'missing_member_rows': len(members) - len(selected),
         'mean_daily_coverage': float(coverage.mean()), 'min_daily_coverage': float(coverage.min()),

@@ -1,0 +1,18 @@
+{
+  "study_name": "2026",
+  "source_commit": "b2c696ac61f5b6ca59308dac35a1bc37b7cc81a6",
+  "daily_input": "deliverables/institutional_increment_daily_2026.csv",
+  "expected_daily_sha256": "2437d8d7853a15f63c710def3be7c46527d41075fae85765e97e4ba881b17108",
+  "expected_dates": 161,
+  "block_lengths": [
+    10,
+    20,
+    40
+  ],
+  "primary_block_length": 20,
+  "replicates": 5000,
+  "seed": 20261009,
+  "output_directory": "deliverables",
+  "source_replay_verified": true,
+  "coverage_note": "Partial 2026 through 2026-10-02; last 20 signal dates have no complete future outcome. Already researched history; no new holdout."
+}

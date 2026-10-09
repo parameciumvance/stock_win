@@ -16,7 +16,7 @@ diagnostics: check-diagnostic-inputs
 .PHONY: test-institutional institutional-diagnostics
 
 test-institutional:
-	$(PYTHON) -m unittest twse_history.test_revenue_pilot twse_history.test_institutional twse_history.test_institutional_features test_institutional_increment test_institutional_uncertainty test_institutional_pool test_institutional_resume -q
+	$(PYTHON) -m unittest twse_history.test_revenue_pilot twse_history.test_institutional twse_history.test_institutional_features test_institutional_increment test_institutional_uncertainty test_institutional_pool test_institutional_resume test_institutional_partial_year -q
 
 institutional-diagnostics:
 	$(PYTHON) -m twse_history.institutional_features --year 2023 --prices twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz --flows inputs/institutional_twse_2023.csv.gz --output inputs/institutional_features_2023.csv.gz
@@ -42,4 +42,9 @@ institutional-pool-audit:
 YEAR ?= 2025
 
 institutional-source-audit:
-	$(PYTHON) audit_institutional_acquisition.py --year $(YEAR)
+	$(PYTHON) audit_institutional_acquisition.py --year $(YEAR) $(ASOF_ARGS)
+
+.PHONY: institutional-report
+
+institutional-report:
+	$(PYTHON) make_institutional_report.py --year $(YEAR)

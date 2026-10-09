@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-10T00:22:42.988771+08:00",
+  "fixed_protocol_commit": "b2c696ac61f5b6ca59308dac35a1bc37b7cc81a6",
+  "year": 2025,
+  "source_checkpoint": {
+    "sha256": "1fe0258d203d1072549dc9cad2eee52589e6b4fb72e9fa12d4d982e35f8cca1b",
+    "bytes": 20344514,
+    "members": 513,
+    "manifest_files_verified": 511,
+    "crc_verified": true,
+    "saved_round_trip_sha256_verified": true,
+    "previous_package_sha256": "6d492e06025c374c70191f772ca9d52049cb5256fba80b1e961c3b1b178f9101",
+    "repair_note": "Initial host transfer truncated the ZIP. Rebuilt from unchanged verified daily sources and normalized input; replaced the same saved file and verified round-trip bytes."
+  },
+  "configuration_matches_fixed": true,
+  "label_purge_passed": true,
+  "daily_metrics_match_summary": true,
+  "output_hashes": {
+    "deliverables/institutional_increment_daily_2025.csv": "b6ca8dea160f39dd5d01e8e59a36d72f8fb65ea7b6d9cc332de0efc7de266893",
+    "deliverables/institutional_increment_summary_2025.json": "58415ce258bcc3e3a071a984078ddd6fc02c108d50b28ee6696cc790328f6deb",
+    "deliverables/institutional_ridge_models_2025.json": "16cba34e81865a09cb77ce42b213923595fa56c0722a46fe7fd63aa51a99e6b1"
+  },
+  "tests_passed": 29,
+  "limits": "Historical quote proxies, conditional complete-label pool, not executable annual NAV or independent holdout."
+}

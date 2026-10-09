@@ -1,0 +1,18 @@
+{
+  "study_name": "2025",
+  "source_commit": "b2c696ac61f5b6ca59308dac35a1bc37b7cc81a6",
+  "daily_input": "deliverables/institutional_increment_daily_2025.csv",
+  "expected_daily_sha256": "b6ca8dea160f39dd5d01e8e59a36d72f8fb65ea7b6d9cc332de0efc7de266893",
+  "expected_dates": 219,
+  "block_lengths": [
+    10,
+    20,
+    40
+  ],
+  "primary_block_length": 20,
+  "replicates": 5000,
+  "seed": 20261009,
+  "output_directory": "deliverables",
+  "source_replay_verified": true,
+  "coverage_note": "2025 calendar uses all market dates; benchmark suspension and future-quote selection remove unavailable labels. Already researched history; no new holdout."
+}

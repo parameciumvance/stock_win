@@ -75,8 +75,15 @@ python audit_relative_gate_history_v78.py
 固定模型結果見 [2024 比較](deliverables/institutional_increment_report_2024.md)；
 接續的 [月度與區塊不確定性](deliverables/institutional_uncertainty_report_2024.md)
 使用同一每日結果，不重新訓練。`make institutional-uncertainty` 可由 repo 內的
-每日 CSV 重算，無需下載新的市場資料。`make test-institutional` 現含 27 項測試。
+每日 CSV 重算，無需下載新的市場資料。`make test-institutional` 現含 29 項測試。
 2024 原始資料包已收到並完成來源重跑，見 [重跑核對](deliverables/institutional_source_replay_20261009.json)。
 [股票池篩選檢查](deliverables/institutional_pool_audit_report_2024.md)
 可用 `make institutional-pool-audit` 重算；沒有將未知持股結果補零。
 2025 延伸設定已固定；接續命令與資料包依賴見 [接續說明](docs/INSTITUTIONAL_RESUME.md)。
+
+
+2025 完整來源与固定年度延伸已完成，見 [2025 報告](deliverables/institutional_increment_report_2025.md)。
+法人增量 +0.096 個百分點，20 日區塊區間仍涵蓋零；兩個 Ridge 的選股代理都落後波動排序。
+2025 source checkpoint 已修復傳送截短並核對保存後 bytes；資料包 SHA-256 與復原參數見接續說明。
+2026 截至 10/02 的來源與四年連續特徵已完成，完整未來窗口缺失保持未知。
+整體結論與限制見 [跨年比較](deliverables/institutional_crossyear_report.md)。

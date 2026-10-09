@@ -1,0 +1,67 @@
+{
+  "config": {
+    "config": "configs/institutional_diagnostic_2025.json",
+    "models": "deliverables/institutional_ridge_models_2025.json",
+    "expected_model_sha256": "16cba34e81865a09cb77ce42b213923595fa56c0722a46fe7fd63aa51a99e6b1",
+    "extended_label_read_end": "2026-03-01",
+    "output_directory": "deliverables",
+    "status": "exploratory_pool_selection_audit_no_model_tuning",
+    "study_name": "2025",
+    "compress_unknown_top": true
+  },
+  "summary": {
+    "extended_labels_only": {
+      "signal_dates": 243,
+      "dates_with_any_label": 219,
+      "asof_price_rows": 151790,
+      "asof_common_rows": 150912,
+      "flow_missing_rows": 878,
+      "future_label_removed_all_dates": 15422,
+      "removed_with_observed_endpoints": 9155,
+      "future_label_removed_on_observed_dates": 683,
+      "price_ridge": {
+        "dates_with_unknown_top_target": 40,
+        "unknown_top_targets": 45,
+        "missing_top_endpoints": 11,
+        "unconditional_mean_is_identified": false
+      },
+      "price_flow_ridge": {
+        "dates_with_unknown_top_target": 46,
+        "unknown_top_targets": 55,
+        "missing_top_endpoints": 8,
+        "unconditional_mean_is_identified": false
+      }
+    },
+    "original_read_window": {
+      "signal_dates": 243,
+      "dates_with_any_label": 219,
+      "asof_price_rows": 151790,
+      "asof_common_rows": 150912,
+      "flow_missing_rows": 878,
+      "future_label_removed_all_dates": 15422,
+      "removed_with_observed_endpoints": 9155,
+      "future_label_removed_on_observed_dates": 683,
+      "price_ridge": {
+        "dates_with_unknown_top_target": 40,
+        "unknown_top_targets": 45,
+        "missing_top_endpoints": 11,
+        "unconditional_mean_is_identified": false
+      },
+      "price_flow_ridge": {
+        "dates_with_unknown_top_target": 46,
+        "unknown_top_targets": 55,
+        "missing_top_endpoints": 8,
+        "unconditional_mean_is_identified": false
+      }
+    }
+  },
+  "features_sha256": "e062c1e1e2811bba72984149cb1c160ff4a3ac586d7f3d37d30eab2d7eed8772",
+  "model_sha256": "16cba34e81865a09cb77ce42b213923595fa56c0722a46fe7fd63aa51a99e6b1",
+  "limitations": [
+    "Frozen scores; no retraining or missing-return imputation.",
+    "Asof means are left missing whenever any selected target is unknown.",
+    "Flow-complete pool excludes missing observed source rows and is not the full historical universe.",
+    "Extended labels use later stored quotes for outcomes only, never for predictors.",
+    "Observed targets are adjusted quote proxies, not proved executable returns or NAV."
+  ]
+}

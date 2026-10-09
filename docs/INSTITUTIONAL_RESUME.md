@@ -123,3 +123,42 @@ HTTP 狀態、最終 URL、日期及法人加總通過才啟動全年佇列。
 0050 重新對齊，缺價不補值；仍依原完整未來報價條件留下可比較標籤。
 這項修正發生在 2025 模型結果產生前，並有停牌邊界測試。
 官方來源：[2025-05-14 證交所新聞稿](https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d696b406fc0196ce27c2e90063.pdf)。
+
+
+來源核對新增 `make institutional-source-audit YEAR=2025`：逐日 source URL、
+HTTP／hash、加總與歷史 membership 均檢查，再將 raw 重建逐欄對照年度 CSV。
+每年原始資料先封存，模型後續失敗時不需重新下載。
+年別診斷可用 `make institutional-uncertainty UNCERTAINTY_CONFIG=configs/institutional_uncertainty_2025.json`
+及 `make institutional-pool-audit POOL_CONFIG=configs/institutional_pool_audit_2025.json`。
+對應年別配置須等固定年度結果寫入後才能核對其 hash。
+
+
+## 2025 完成與資料包復原
+
+完整資料包 20,344,514 bytes；513 個成員、511 個來源檔核對通過。
+SHA-256：`1fe0258d203d1072549dc9cad2eee52589e6b4fb72e9fa12d4d982e35f8cca1b`。
+初次檔案傳送被截短，已從相同 raw/meta/年度 CSV 重建，保存後重新取回核對 bytes 和 CRC；
+舊 6d492e... ZIP hash 保留於完整性紀錄作來源追蹤，不作目前下載包的驗證值。
+原始每日資料、正規化結果與模型輸出未受截短影響。
+
+```bash
+python3 resume_institutional.py --bundle ref/institutional_twse_2023_repro_bundle.zip --checkpoint-2024 deliverables/institutional_twse_2024_source_checkpoint.zip --checkpoint-2025 deliverables/institutional_twse_2025_source_checkpoint.zip --year 2025 --check-only
+python3 resume_institutional.py --year 2025
+```
+
+2026 固定截止日為 2026-10-02，末年日曆只讀到 10 月，日期依 cutoff 過濾；
+原日曆如含後續日期不作模型輸入，資料包標記 partial year。
+
+```bash
+python3 resume_institutional.py --year 2026 --fetch
+```
+
+
+## 2026 截止日包
+
+`institutional_twse_2026_asof_20261002_source_checkpoint.zip` 为 16,748,269 bytes，
+385 個成員／383 個 manifest 檔；hash：
+`ba0584375630defd7df4abadf6163ffc841a68d9ad681c390dcb2b42b7c29209`。
+搭配三份前年度包后可用 `--checkpoint-2026 <此包路径> --year 2026 --check-only` 核對，
+再用 `python3 resume_institutional.py --year 2026` 完全離線重建。
+逐選股缺標籤明細使用 `.csv.gz`，由 Git 追蹤；`pd.read_csv()` 會自動解壓。

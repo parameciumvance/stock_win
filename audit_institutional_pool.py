@@ -108,7 +108,9 @@ def main():
         summaries[scope] = summary
     out = Path(audit_config['output_directory']); out.mkdir(parents=True, exist_ok=True)
     daily.to_csv(out / f'institutional_pool_audit_daily_{study}.csv', index=False)
-    pd.DataFrame(details).to_csv(out / f'institutional_pool_unknown_top_{study}.csv', index=False)
+    detail_path = out / f"institutional_pool_unknown_top_{study}.csv{'.gz' if audit_config.get('compress_unknown_top') else ''}"
+    pd.DataFrame(details).to_csv(detail_path, index=False,
+        compression={'method': 'gzip', 'mtime': 0} if audit_config.get('compress_unknown_top') else None)
     result = {'config': audit_config, 'summary': summaries,
         'features_sha256': hashlib.sha256(Path(config['features']).read_bytes()).hexdigest(),
         'model_sha256': audit_config['expected_model_sha256'],
@@ -124,7 +126,7 @@ def main():
         '|---|---:|---:|---:|---:|---:|---:|']
     for scope, s in summaries.items():
         lines.append(f"| {scope} | {s['signal_dates']} | {s['dates_with_any_label']} | {s['asof_price_rows']} | {s['flow_missing_rows']} | {s['asof_common_rows']} | {s['future_label_removed_on_observed_dates']} |")
-    lines += ['', f"只延伸讀取標籤到 {audit_config['extended_label_read_end']} 檢查年底資料截尾；特徵仍截至訊號日，模型係數維持原樣。", '',
+    lines += ['', audit_config.get('label_read_note', f"只延伸讀取標籤到 {audit_config['extended_label_read_end']} 檢查年底資料截尾；特徵仍截至訊號日，模型係數維持原樣。"), '',
         '| 讀取範圍 | 模型 | 已有標籤日期中，Top 10% 仍有未知結果的日期 | 未知 Top 列 | 缺進出場端點 Top 列 |', '|---|---|---:|---:|---:|']
     for scope, s in summaries.items():
         for name in models:

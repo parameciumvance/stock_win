@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-10-10T01:41:30.671693+08:00",
+  "year": 2026,
+  "asof": "2026-10-02",
+  "partial_year": true,
+  "source_checkpoint": {
+    "sha256": "ba0584375630defd7df4abadf6163ffc841a68d9ad681c390dcb2b42b7c29209",
+    "bytes": 16748269,
+    "members": 385,
+    "manifest_files_verified": 383,
+    "crc_verified": true,
+    "saved_round_trip_sha256_verified": true
+  },
+  "features": {
+    "rows": 992785,
+    "symbols": 1097,
+    "complete_foreign_5d": 879338,
+    "sha256": "ed689bd0d304b3f048db20a743cc3f3a207593c4a6a2b5e4f9a07c301c240fa6"
+  },
+  "configuration_matches_fixed": true,
+  "label_purge_passed": true,
+  "daily_metrics_match_summary": true,
+  "test_dates": 161,
+  "test_range": [
+    "2026-01-02",
+    "2026-09-02"
+  ],
+  "tests_passed": 29,
+  "outputs_sha256": {
+    "deliverables/institutional_increment_daily_2026.csv": "2437d8d7853a15f63c710def3be7c46527d41075fae85765e97e4ba881b17108",
+    "deliverables/institutional_increment_summary_2026.json": "f9281cb79ebb2b133b58fc22073018a4cfba31fd214abb73b9511c5c54df73f7",
+    "deliverables/institutional_ridge_models_2026.json": "3e4a792213607eddd15dc5cc882ab2b6198770df594283c8215b5aa92bc13c4b"
+  },
+  "limits": "Last 20 signal dates lack future outcomes; historical quote proxies and conditional pool, not independent holdout or executable NAV."
+}

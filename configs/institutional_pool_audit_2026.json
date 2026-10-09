@@ -1,0 +1,11 @@
+{
+  "config": "configs/institutional_diagnostic_2026.json",
+  "models": "deliverables/institutional_ridge_models_2026.json",
+  "expected_model_sha256": "3e4a792213607eddd15dc5cc882ab2b6198770df594283c8215b5aa92bc13c4b",
+  "extended_label_read_end": "2026-10-02",
+  "output_directory": "deliverables",
+  "status": "exploratory_pool_selection_audit_no_model_tuning",
+  "study_name": "2026",
+  "compress_unknown_top": true,
+  "label_read_note": "2026 \u539f\u59cb\u5b58\u6a94\u53ea\u5230 10/02\uff1b\u622a\u6b62\u65e5\u524d\u6700\u5f8c 20 \u4e2a\u5e02\u5834\u65e5\u7f3a\u5b8c\u6574\u672a\u4f86\u6a19\u7c64\uff0c\u4e0d\u80fd\u5ef6\u4f38\u6216\u586b\u5165\u5831\u916c\u3002"
+}

@@ -83,9 +83,12 @@ def normalize_t86(payload, expected_date):
     return records
 
 
-def market_days_from_cache(calendar_root, year):
+def market_days_from_cache(calendar_root, year, asof=None):
+    cutoff = date.fromisoformat(asof) if asof else None
+    if cutoff and cutoff.year != year:
+        raise ValueError('As-of cutoff must belong to requested year')
     days = []
-    for month in range(1, 13):
+    for month in range(1, (cutoff.month if cutoff else 12) + 1):
         path = calendar_root / f"calendar_{year}{month:02d}.json"
         payload = json.loads(path.read_text())
         if payload.get("stat") != "OK" or not payload.get("data"):
@@ -95,7 +98,8 @@ def market_days_from_cache(calendar_root, year):
             day = date(yy + 1911, mm, dd)
             if day.year != year or day.month != month:
                 raise ValueError("Wrong month in market calendar")
-            days.append(day.strftime("%Y%m%d"))
+            if not cutoff or day <= cutoff:
+                days.append(day.strftime("%Y%m%d"))
     if len(days) != len(set(days)):
         raise ValueError("Duplicate market dates")
     return sorted(days)
@@ -107,6 +111,7 @@ def main():
     scope.add_argument("--dates", nargs="+")
     scope.add_argument("--year", type=int)
     parser.add_argument("--calendar-root", default="twse_history/raw")
+    parser.add_argument("--asof", help="Partial-year cutoff YYYY-MM-DD")
     parser.add_argument("--cache", default="inputs/institutional_pilot")
     parser.add_argument("--output", default="deliverables/institutional_normalized.csv.gz")
     parser.add_argument("--universe", help="Historical CSV[.gz] with date,symbol,is_member; filter after full source validation")
@@ -117,7 +122,9 @@ def main():
     args = parser.parse_args()
     if args.delay < 1:
         raise ValueError("Keep at least one second between requests per worker")
-    dates = args.dates or market_days_from_cache(Path(args.calendar_root), args.year)
+    if args.asof and args.dates:
+        parser.error('--asof applies only to --year')
+    dates = args.dates or market_days_from_cache(Path(args.calendar_root), args.year, args.asof)
     if len(dates) != len(set(dates)):
         raise ValueError("Duplicate requested dates")
     root = Path(args.cache)
@@ -210,3 +217,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

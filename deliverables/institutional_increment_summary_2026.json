@@ -1,0 +1,72 @@
+{
+  "config": {
+    "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "features": "inputs/institutional_features_2023_2026_asof_20261002.csv.gz",
+    "train_cutoff": "2025-12-31",
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005,
+    "ridge_alpha": 1000,
+    "top_fraction": 0.1,
+    "min_pool_size": 100,
+    "output_directory": "deliverables",
+    "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "start_year": 2023,
+    "end_year": 2026,
+    "study_name": "2026",
+    "asof": "2026-10-02"
+  },
+  "price_features": [
+    "r1",
+    "r5",
+    "r20",
+    "r60",
+    "vol20",
+    "atr14",
+    "ma5_20",
+    "ma20_60",
+    "volume5_20",
+    "log_turnover20"
+  ],
+  "flow_features": [
+    "foreign_net_volume_ratio_1d",
+    "foreign_net_volume_ratio_5d",
+    "foreign_net_volume_ratio_20d",
+    "trust_net_volume_ratio_1d",
+    "trust_net_volume_ratio_5d",
+    "trust_net_volume_ratio_20d",
+    "total_net_volume_ratio_1d",
+    "total_net_volume_ratio_5d",
+    "total_net_volume_ratio_20d"
+  ],
+  "coverage": {
+    "eligible_price_label_rows": 490628,
+    "complete_flow_rows": 488995,
+    "flow_complete_fraction": 0.9966716127086102
+  },
+  "train_rows": 366242,
+  "train_signal_dates": 561,
+  "train_first_signal": "2023-07-11",
+  "train_last_signal": "2025-12-02",
+  "train_last_label_end": "2025-12-31",
+  "test_rows": 111224,
+  "test_dates": 161,
+  "test_first": "2026-01-02",
+  "test_last": "2026-09-02",
+  "daily_mean_metrics": {
+    "pool": 690.8322981366459,
+    "top_count": 69.53416149068323,
+    "pool_net_relative": -0.04525325060106251,
+    "price_ridge_top_net_relative": -0.04032419678382827,
+    "price_ridge_rank_ic": -0.023102426025489425,
+    "price_flow_ridge_top_net_relative": -0.042109162119565766,
+    "price_flow_ridge_rank_ic": 0.0006119264334229674,
+    "vol20_rank_top_net_relative": -0.021443865216986043,
+    "vol20_rank_rank_ic": -0.040733768245022096
+  },
+  "status": "exploratory_quote_proxy_already_researched_history_not_fresh_holdout",
+  "input_sha256": {
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "features": "ed689bd0d304b3f048db20a743cc3f3a207593c4a6a2b5e4f9a07c301c240fa6"
+  }
+}

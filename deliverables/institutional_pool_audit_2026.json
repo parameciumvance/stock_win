@@ -1,0 +1,68 @@
+{
+  "config": {
+    "config": "configs/institutional_diagnostic_2026.json",
+    "models": "deliverables/institutional_ridge_models_2026.json",
+    "expected_model_sha256": "3e4a792213607eddd15dc5cc882ab2b6198770df594283c8215b5aa92bc13c4b",
+    "extended_label_read_end": "2026-10-02",
+    "output_directory": "deliverables",
+    "status": "exploratory_pool_selection_audit_no_model_tuning",
+    "study_name": "2026",
+    "compress_unknown_top": true,
+    "label_read_note": "2026 \u539f\u59cb\u5b58\u6a94\u53ea\u5230 10/02\uff1b\u622a\u6b62\u65e5\u524d\u6700\u5f8c 20 \u4e2a\u5e02\u5834\u65e5\u7f3a\u5b8c\u6574\u672a\u4f86\u6a19\u7c64\uff0c\u4e0d\u80fd\u5ef6\u4f38\u6216\u586b\u5165\u5831\u916c\u3002"
+  },
+  "summary": {
+    "extended_labels_only": {
+      "signal_dates": 181,
+      "dates_with_any_label": 161,
+      "asof_price_rows": 124344,
+      "asof_common_rows": 124253,
+      "flow_missing_rows": 91,
+      "future_label_removed_all_dates": 13029,
+      "removed_with_observed_endpoints": 173,
+      "future_label_removed_on_observed_dates": 258,
+      "price_ridge": {
+        "dates_with_unknown_top_target": 20,
+        "unknown_top_targets": 21,
+        "missing_top_endpoints": 4,
+        "unconditional_mean_is_identified": false
+      },
+      "price_flow_ridge": {
+        "dates_with_unknown_top_target": 32,
+        "unknown_top_targets": 37,
+        "missing_top_endpoints": 9,
+        "unconditional_mean_is_identified": false
+      }
+    },
+    "original_read_window": {
+      "signal_dates": 181,
+      "dates_with_any_label": 161,
+      "asof_price_rows": 124344,
+      "asof_common_rows": 124253,
+      "flow_missing_rows": 91,
+      "future_label_removed_all_dates": 13029,
+      "removed_with_observed_endpoints": 173,
+      "future_label_removed_on_observed_dates": 258,
+      "price_ridge": {
+        "dates_with_unknown_top_target": 20,
+        "unknown_top_targets": 21,
+        "missing_top_endpoints": 4,
+        "unconditional_mean_is_identified": false
+      },
+      "price_flow_ridge": {
+        "dates_with_unknown_top_target": 32,
+        "unknown_top_targets": 37,
+        "missing_top_endpoints": 9,
+        "unconditional_mean_is_identified": false
+      }
+    }
+  },
+  "features_sha256": "ed689bd0d304b3f048db20a743cc3f3a207593c4a6a2b5e4f9a07c301c240fa6",
+  "model_sha256": "3e4a792213607eddd15dc5cc882ab2b6198770df594283c8215b5aa92bc13c4b",
+  "limitations": [
+    "Frozen scores; no retraining or missing-return imputation.",
+    "Asof means are left missing whenever any selected target is unknown.",
+    "Flow-complete pool excludes missing observed source rows and is not the full historical universe.",
+    "Extended labels use later stored quotes for outcomes only, never for predictors.",
+    "Observed targets are adjusted quote proxies, not proved executable returns or NAV."
+  ]
+}

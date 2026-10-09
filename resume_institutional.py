@@ -15,6 +15,8 @@ from twse_history.institutional import market_days_from_cache
 
 BUNDLE_SHA256 = "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94"
 CHECKPOINT_2024_SHA256 = "09962d23827ad5be91d3f3ba3424107ab2cf1e3222709d2e2b6b847a9cf1b765"
+CHECKPOINT_2025_SHA256 = "1fe0258d203d1072549dc9cad2eee52589e6b4fb72e9fa12d4d982e35f8cca1b"
+CHECKPOINT_2026_SHA256 = "ba0584375630defd7df4abadf6163ffc841a68d9ad681c390dcb2b42b7c29209"
 PRICE_ROOT = Path("twse_history/output_multiyear_2023_2026_asof_20261002")
 CALENDAR_ROOT = Path("twse_history/raw")
 
@@ -58,7 +60,7 @@ def restore_bundle(path):
 
 
 def probe(year):
-    day = {2024: '20240105', 2025: '20250106'}[year]
+    day = {2024: '20240105', 2025: '20250106', 2026: '20260105'}[year]
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date={day}&selectType=ALLBUT0999"
     try:
         with urllib.request.urlopen(url, timeout=10) as response:
@@ -79,7 +81,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--bundle", type=Path, help="Verified 2023 reproduction archive")
     parser.add_argument("--checkpoint-2024", type=Path, help="Verified uploaded 2024 source checkpoint")
-    parser.add_argument("--year", type=int, choices=[2024, 2025], default=2024)
+    parser.add_argument("--checkpoint-2025", type=Path, help="Verified saved 2025 source checkpoint")
+    parser.add_argument("--checkpoint-2026", type=Path, help="Verified saved 2026 cutoff source checkpoint")
+    parser.add_argument("--year", type=int, choices=[2024, 2025, 2026], default=2024)
     parser.add_argument("--fetch", action="store_true", help="Fetch missing official annual inputs")
     parser.add_argument("--probe-only", action="store_true", help="One sample request, no yearly queue or model")
     parser.add_argument("--check-only", action="store_true", help="Validate inputs without downloading or fitting")
@@ -87,7 +91,7 @@ def main():
     if args.check_only and args.fetch:
         parser.error("--check-only cannot be combined with --fetch")
     if args.probe_only:
-        if args.fetch or args.check_only or args.bundle or args.checkpoint_2024:
+        if args.fetch or args.check_only or args.bundle or args.checkpoint_2024 or args.checkpoint_2025 or args.checkpoint_2026:
             parser.error("--probe-only is a standalone connectivity check")
         probe(args.year)
         print("TWSE sample verified; no yearly queue started", flush=True)
@@ -96,10 +100,17 @@ def main():
         restore_bundle(args.bundle)
     if args.checkpoint_2024:
         restore_archive(args.checkpoint_2024, CHECKPOINT_2024_SHA256)
+    if args.checkpoint_2025:
+        restore_archive(args.checkpoint_2025, CHECKPOINT_2025_SHA256)
+    if args.checkpoint_2026:
+        restore_archive(args.checkpoint_2026, CHECKPOINT_2026_SHA256)
     year = args.year
     flow_path = Path(f"inputs/institutional_twse_{year}.csv.gz")
     config_path = f"configs/institutional_diagnostic_{year}.json"
     config = json.loads(Path(config_path).read_text())
+    asof = config.get('asof')
+    asof_args = ['--asof', asof] if asof else []
+    final_month = int(asof[5:7]) if asof else 12
     prices = Path(config["prices"])
     if not prices.exists() or hashlib.sha256(prices.read_bytes()).hexdigest() != config["expected_prices_sha256"]:
         raise ValueError("Restore the verified price input first")
@@ -109,7 +120,7 @@ def main():
     prior_flows = [Path(f"inputs/institutional_twse_{y}.csv.gz") for y in range(config.get('start_year', 2023), year)]
     if any(not p.exists() for p in prior_flows):
         raise ValueError("Restore the preceding annual institutional inputs first")
-    missing_calendars = [month for month in range(1, 13)
+    missing_calendars = [month for month in range(1, final_month + 1)
                          if not (CALENDAR_ROOT / f"calendar_{year}{month:02d}.json").exists()]
     if args.check_only:
         print(json.dumps({"price_checksum_verified": True,
@@ -120,29 +131,32 @@ def main():
     if args.fetch:
         # One short probe before starting a year-long request queue.
         probe(year)
-        for month in range(1, 13):
+        for month in range(1, final_month + 1):
             url = f"https://www.twse.com.tw/rwd/zh/afterTrading/FMTQIK?date={year}{month:02d}01&response=json"
             download(url, CALENDAR_ROOT / f"calendar_{year}{month:02d}.json")
         import pandas as pd
         expected_days = []
         for chunk in pd.read_csv(prices, usecols=['date', 'symbol'], dtype={'symbol': str}, chunksize=200000):
-            expected_days.extend(chunk.loc[chunk.date.str.startswith(str(year)), 'date'].str.replace('-', '').tolist())
-        if market_days_from_cache(CALENDAR_ROOT, year) != sorted(set(expected_days)):
+            in_scope = chunk.date.str.startswith(str(year))
+            if asof:
+                in_scope &= chunk.date.le(asof)
+            expected_days.extend(chunk.loc[in_scope, 'date'].str.replace('-', '').tolist())
+        if market_days_from_cache(CALENDAR_ROOT, year, asof) != sorted(set(expected_days)):
             raise ValueError("Official year calendar differs from frozen market quote calendar")
         run(sys.executable, "-m", "twse_history.institutional", "--year", str(year),
             "--cache", f"inputs/institutional_{year}", "--universe", str(universe),
-            "--output", str(flow_path), "--select-type", "ALLBUT0999", "--fetch")
-        run(sys.executable, "audit_institutional_acquisition.py", "--year", str(year))
+            "--output", str(flow_path), "--select-type", "ALLBUT0999", "--fetch", *asof_args)
+        run(sys.executable, "audit_institutional_acquisition.py", "--year", str(year), *asof_args)
         # Save raw and normalized data before feature/model computation.
         run(sys.executable, "package_institutional_archive.py", "--year", str(year),
             "--cache", f"inputs/institutional_{year}", "--include", str(flow_path),
-            "--output", f"deliverables/institutional_twse_{year}_source_checkpoint.zip")
+            "--output", f"deliverables/institutional_twse_{year}{'_asof_' + asof.replace('-', '') if asof else ''}_source_checkpoint.zip", *asof_args)
     if (missing_calendars and not args.fetch) or not flow_path.exists():
         raise ValueError(f"{year} inputs missing. Use --fetch on a host with TWSE access or restore the saved inputs.")
     run(sys.executable, "-m", "twse_history.institutional_features", "--years",
         *[str(y) for y in range(config.get('start_year', 2023), year + 1)],
         "--prices", str(prices), "--flows", *[str(p) for p in prior_flows],
-        str(flow_path), "--output", config["features"])
+        str(flow_path), "--output", config["features"], *asof_args)
     run(sys.executable, "audit_institutional_increment.py", "--config",
         config_path)
 

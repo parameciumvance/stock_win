@@ -69,17 +69,23 @@ def main():
     parser.add_argument("--prices", required=True)
     parser.add_argument("--flows", required=True, nargs="+")
     parser.add_argument("--calendar-root", default="twse_history/raw")
+    parser.add_argument("--asof", help="Partial final year cutoff YYYY-MM-DD")
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
     years = args.years or [args.year]
     if len(set(years)) != len(years) or sorted(years) != list(range(min(years), max(years) + 1)):
         raise ValueError("Need distinct contiguous years")
+    if args.asof and pd.Timestamp(args.asof).year != max(years):
+        raise ValueError('As-of cutoff must belong to final year')
     days = pd.to_datetime([day for year in sorted(years) for day in
-                          market_days_from_cache(Path(args.calendar_root), year)], format="%Y%m%d")
+                          market_days_from_cache(Path(args.calendar_root), year, args.asof if year == max(years) else None)], format="%Y%m%d")
     pieces = []
     for chunk in pd.read_csv(args.prices, usecols=["date", "symbol", "volume", "universe_role"],
                              dtype={"symbol": str}, chunksize=200000):
-        pieces.append(chunk[chunk.date.str[:4].isin([str(y) for y in years]) & chunk.universe_role.eq("common_stock")])
+        in_scope = chunk.date.str[:4].isin([str(y) for y in years]) & chunk.universe_role.eq("common_stock")
+        if args.asof:
+            in_scope &= chunk.date.le(args.asof)
+        pieces.append(chunk[in_scope])
     prices = pd.concat(pieces, ignore_index=True)
     flows = pd.concat([pd.read_csv(path, dtype={"symbol": str}) for path in args.flows], ignore_index=True)
     output = build_features(prices, flows, days)
@@ -91,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

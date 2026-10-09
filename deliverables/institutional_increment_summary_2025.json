@@ -1,0 +1,71 @@
+{
+  "config": {
+    "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "features": "inputs/institutional_features_2023_2025.csv.gz",
+    "train_cutoff": "2024-12-31",
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005,
+    "ridge_alpha": 1000,
+    "top_fraction": 0.1,
+    "min_pool_size": 100,
+    "output_directory": "deliverables",
+    "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "start_year": 2023,
+    "end_year": 2025,
+    "study_name": "2025"
+  },
+  "price_features": [
+    "r1",
+    "r5",
+    "r20",
+    "r60",
+    "vol20",
+    "atr14",
+    "ma5_20",
+    "ma20_60",
+    "volume5_20",
+    "log_turnover20"
+  ],
+  "flow_features": [
+    "foreign_net_volume_ratio_1d",
+    "foreign_net_volume_ratio_5d",
+    "foreign_net_volume_ratio_20d",
+    "trust_net_volume_ratio_1d",
+    "trust_net_volume_ratio_5d",
+    "trust_net_volume_ratio_20d",
+    "total_net_volume_ratio_1d",
+    "total_net_volume_ratio_5d",
+    "total_net_volume_ratio_20d"
+  ],
+  "coverage": {
+    "eligible_price_label_rows": 379327,
+    "complete_flow_rows": 377771,
+    "flow_complete_fraction": 0.9958979982969839
+  },
+  "train_rows": 229415,
+  "train_signal_dates": 342,
+  "train_first_signal": "2023-07-11",
+  "train_last_signal": "2024-12-03",
+  "train_last_label_end": "2024-12-31",
+  "test_rows": 135490,
+  "test_dates": 219,
+  "test_first": "2025-01-02",
+  "test_last": "2025-12-31",
+  "daily_mean_metrics": {
+    "pool": 618.675799086758,
+    "top_count": 62.32420091324201,
+    "pool_net_relative": -0.03663631998663612,
+    "price_ridge_top_net_relative": -0.04097553174563198,
+    "price_ridge_rank_ic": -0.044784836696586734,
+    "price_flow_ridge_top_net_relative": -0.04001255940236762,
+    "price_flow_ridge_rank_ic": -0.04050529059243594,
+    "vol20_rank_top_net_relative": -0.02503268969877431,
+    "vol20_rank_rank_ic": -0.029813014342416084
+  },
+  "status": "exploratory_quote_proxy_already_researched_history_not_fresh_holdout",
+  "input_sha256": {
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "features": "e062c1e1e2811bba72984149cb1c160ff4a3ac586d7f3d37d30eab2d7eed8772"
+  }
+}
