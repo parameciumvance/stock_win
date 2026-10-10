@@ -1,0 +1,80 @@
+{
+  "frozen_at": "2026-10-10T03:19:38.197Z",
+  "parent_commit": "cfe96baf61c1c07ee19f80c700749146652e5db3",
+  "status": "adopted_60_market_day_exploratory_branch_not_fresh_holdout",
+  "asof": "2026-10-02",
+  "years": [
+    2024,
+    2025,
+    2026
+  ],
+  "horizon": 60,
+  "base_revenue_protocol": "configs/revenue_proxy_protocol.json",
+  "revenue_lag": 45,
+  "max_revenue_age": 100,
+  "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+  "flows": "inputs/institutional_features_2023_2026_asof_20261002.csv.gz",
+  "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "expected_flows_csv_sha256": "7bbb5e026554477694df77a996b0972490ca72a41c93dba86be6a74188cef8a3",
+  "commission": 0.001425,
+  "sell_tax": 0.003,
+  "slippage_each_side": 0.005,
+  "ridge_alpha": 1000,
+  "tree_parameters": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "max_depth": 4,
+    "min_samples_leaf": 200,
+    "l2_regularization": 1,
+    "early_stopping": false,
+    "random_state": 20261010
+  },
+  "top_fraction": 0.1,
+  "min_pool_size": 100,
+  "target": "Stock net t+1 adjusted open to t+60 adjusted close minus gross 0050 same endpoints; interior missing quotes do not remove endpoints.",
+  "train": "Expanding from 2023; label ends by previous Dec31 and first scored signal; known training endpoints only.",
+  "selection": "Identical finite asof price/flow/45-day-delayed revenue/previous-day-credit pool. No future outcome filtering before selection; unknown selected endpoints retained.",
+  "score_year": "Year of next-market-day entry. January uses previous-year final close and prior-year purged model.",
+  "models": [
+    "price_ridge",
+    "all_ridge",
+    "price_tree",
+    "all_tree",
+    "vol20",
+    "mom60",
+    "rev_yoy"
+  ],
+  "primary": "all_tree_minus_price_tree",
+  "secondary": [
+    "all_ridge_minus_price_ridge",
+    "all_tree_minus_all_ridge"
+  ],
+  "uncertainty": {
+    "block_lengths": [
+      20,
+      60,
+      80
+    ],
+    "primary_block": 60,
+    "replicates": 5000,
+    "seed": 20261010,
+    "insufficient": "No interval if paired days <= block; never silently shorten block."
+  },
+  "monthly": {
+    "signal": "Previous calendar month final market close; entry on next market day. October2026 included, future outcomes unknown.",
+    "top_n": 15,
+    "label_evaluation": "60-day fixed endpoints overlap; never compound monthly 60-day means.",
+    "portfolio": "Monthly review: retain selected holdings, exit fallen names, buy new names from available cash only. Forecast horizon 60; actual holdings follow monthly ranking. Do not reinvest another complete principal every month.",
+    "capital": 300000,
+    "reserve_twd": 15000,
+    "per_new_name_budget": 19000,
+    "price_buffer": 0.01,
+    "min_fee_per_ticket": 20,
+    "fill_basis": "Explicit hypothetical daily-open quote scenario. No claim of intraday odd-lot fills, actual shares or corporate-action cash ledger.",
+    "missing": "Missing reference/open prevents a hypothetical order; missing sale cancels day order and retains holding; missing held valuation is unknown, no forward fill.",
+    "execution": "Fixed integer sizing at signal close+1%; whole/odd fee tickets split at1000. Hypothetical open*(1+slippage) must meet limit and cash reserve; no replacements. Adjusted units are synthetic reinvested-return units, not actual shares.",
+    "cash": "No leverage or repeated principal. Sale proceeds withheld for a conservative two-market-day settlement proxy; charge minimum fees and sell tax."
+  }
+}
