@@ -1,0 +1,56 @@
+{
+  "status": "all_asof_labels_selections_score_replays_cash_and_tickets_verified",
+  "studies": [
+    {
+      "year": 2024,
+      "studies": [
+        {
+          "kind": "daily",
+          "rows": 116529,
+          "sha256": "81b24597256f072b24563744844f821e34166afa44027cbbde797bd45400ec38"
+        },
+        {
+          "kind": "monthly",
+          "rows": 1260,
+          "sha256": "c452b3d2de2b9624845b98928a32b4305889652d6a7cd2a3245092557e6c3103"
+        }
+      ],
+      "monthly_score_replay": true
+    },
+    {
+      "year": 2025,
+      "studies": [
+        {
+          "kind": "daily",
+          "rows": 104573,
+          "sha256": "818178b696958b8ec21688a3cd9a26867fde6c29ae521d3ec48c10fbd759b597"
+        },
+        {
+          "kind": "monthly",
+          "rows": 1260,
+          "sha256": "0b9431c124b9f344d80ff310e85e1e1039288934189a23bef7e26593fb52bf52"
+        }
+      ],
+      "monthly_score_replay": true
+    },
+    {
+      "year": 2026,
+      "studies": [
+        {
+          "kind": "daily",
+          "rows": 86016,
+          "sha256": "8ebe918608e0955e33a743c4fc47335406cc2f4bb85690e73894b14422b7e062"
+        },
+        {
+          "kind": "monthly",
+          "rows": 1050,
+          "sha256": "d2a7e20b8d06e36db877d94ee5cd531d7d228942a12e098701aa131efbaca91c"
+        }
+      ],
+      "monthly_score_replay": true
+    }
+  ],
+  "selected_rows": 310688,
+  "portfolio_days": 4662,
+  "portfolio_events": 4394
+}

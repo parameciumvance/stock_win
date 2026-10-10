@@ -43,8 +43,10 @@ def verify_flow(path, expected_gzip, expected_csv):
         raise ValueError('Frozen flow data checksum mismatch')
 
 
-def evaluate_day(group, fraction, scores=SCORES):
-    n = int(np.ceil(len(group) * fraction))
+def evaluate_day(group, fraction, scores=SCORES, *, top_count=None):
+    n = int(np.ceil(len(group) * fraction)) if top_count is None else int(top_count)
+    if n < 1 or n > len(group):
+        raise ValueError('Invalid fixed selection count')
     row = dict(date=group.date.iloc[0].strftime('%Y-%m-%d'), pool=len(group), top_count=n,
                known_endpoint_pool=int(group.endpoint_target.notna().sum()))
     selections = []
@@ -224,3 +226,4 @@ if __name__ == '__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--config', default='configs/revenue_proxy_protocol.json')
     run(p.parse_args().config)
+

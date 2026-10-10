@@ -1,0 +1,413 @@
+{
+  "year": 2026,
+  "train_rows": 343832,
+  "train_last_label_end": "2025-12-31",
+  "test_rows": 122039,
+  "scored_dates": 181,
+  "first_signal": "2025-12-31",
+  "last_signal": "2026-10-01",
+  "monthly_signals": 10,
+  "input_sha256": {
+    "prices": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "flow_csv": "7bbb5e026554477694df77a996b0972490ca72a41c93dba86be6a74188cef8a3",
+    "protocol": "995550cbf91a32479335ffb0226b5ca03fb8e32e616a639d8b41e80b8567cacb",
+    "2023": "f45ba109f5121bbcc20c94e0d44f354212e5811f59ce5ad4921328bfe086736c",
+    "2024": "ab0bb25c510a563076c2c7d3f94d7e69d4592300a6af2adf653d2b1b3cc59a53",
+    "2025": "568f142249fb82bf3edc2082ba98014000414f4cf2435014ce3a985eed67a35a",
+    "2026": "991e9142eccf39ace0eda13d6584ba2e4b0e5c3a9949b43c9d5bd9ee339e915a",
+    "revenue": "f6fd0605f87aa37b0af0fc24bec1ccf6923844a84639900fb3652d66d1a9db45"
+  },
+  "matrix_sha256": "a387d47e9f3361f1ed5447e68737d93a3ccbfc680dfb39fe70b17a991cceb62d",
+  "sklearn_version": "1.8.0",
+  "models": {
+    "price_ridge": {
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20"
+      ],
+      "scaler_mean": [
+        0.0005796499753437986,
+        0.003396922006906082,
+        0.017047002535379423,
+        0.054412170944713255,
+        0.022839054971735065,
+        0.03219399781530181,
+        0.004065757027803981,
+        0.012123110984350599,
+        1.0073799398948275,
+        18.579415931848416
+      ],
+      "scaler_scale": [
+        0.025751140654360148,
+        0.05988933939565887,
+        0.12434651374734064,
+        0.22861194938449372,
+        0.011942979318972504,
+        0.015525128056923996,
+        0.05092604740392019,
+        0.07522586070241631,
+        0.5226445667184085,
+        1.6227630723361124
+      ],
+      "coefficients": [
+        6.501593782270358e-05,
+        -0.0015111242173272907,
+        0.0014137854020940426,
+        0.007126169496881905,
+        -0.012607765544823306,
+        0.004625097024315471,
+        -0.002499960220978141,
+        -0.0036987770276095755,
+        -4.530647276381545e-05,
+        0.005936933141420207
+      ],
+      "intercept": -0.0797514234052127
+    },
+    "all_ridge": {
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20",
+        "foreign_net_volume_ratio_1d",
+        "foreign_net_volume_ratio_5d",
+        "foreign_net_volume_ratio_20d",
+        "trust_net_volume_ratio_1d",
+        "trust_net_volume_ratio_5d",
+        "trust_net_volume_ratio_20d",
+        "total_net_volume_ratio_1d",
+        "total_net_volume_ratio_5d",
+        "total_net_volume_ratio_20d",
+        "rev_yoy",
+        "rev_mom",
+        "rev_3m_yoy",
+        "rev_yoy_accel",
+        "log_revenue",
+        "finance_utilization",
+        "short_utilization",
+        "finance_balance_change_1d",
+        "finance_balance_change_5d",
+        "finance_balance_change_20d",
+        "short_balance_change_1d",
+        "short_balance_change_5d",
+        "short_balance_change_20d",
+        "finance_stopped",
+        "short_stopped"
+      ],
+      "scaler_mean": [
+        0.0005796499753437986,
+        0.003396922006906082,
+        0.017047002535379423,
+        0.054412170944713255,
+        0.022839054971735065,
+        0.03219399781530181,
+        0.004065757027803981,
+        0.012123110984350599,
+        1.0073799398948275,
+        18.579415931848416,
+        -0.006516905240008752,
+        -0.006481814212285728,
+        -0.005859511318357196,
+        0.0010312691402729608,
+        0.0010712660694600833,
+        0.0012288137785187415,
+        -0.006110154782527238,
+        -0.006052972492248074,
+        -0.005115850873455016,
+        0.1498703803157817,
+        0.057857966534304646,
+        0.12763184759919619,
+        0.043611444080555326,
+        13.636096404048638,
+        0.1355305149637823,
+        0.017795202160075376,
+        0.0027292948430882526,
+        0.002921016259443961,
+        0.0032403161592466133,
+        0.08945768330703834,
+        0.09021347859136342,
+        0.09096653342461733,
+        0.020611810419041858,
+        0.05250238488564182
+      ],
+      "scaler_scale": [
+        0.025751140654360148,
+        0.05988933939565887,
+        0.12434651374734064,
+        0.22861194938449372,
+        0.011942979318972504,
+        0.015525128056923996,
+        0.05092604740392019,
+        0.07522586070241631,
+        0.5226445667184085,
+        1.6227630723361124,
+        0.23337855441111044,
+        0.13916735721792448,
+        0.09447296392538607,
+        0.08246888669321044,
+        0.06371135870429458,
+        0.04537601483136724,
+        0.23622694289556462,
+        0.13907418464558802,
+        0.09720303944305586,
+        0.6834426404699213,
+        0.47102848229450545,
+        0.6122629379878931,
+        0.5626977891503709,
+        1.768287238387743,
+        0.44532701016166015,
+        0.2559220727908685,
+        0.08357886712717949,
+        0.04122161612582453,
+        0.02312245722658533,
+        0.6464474827608161,
+        0.30599927421561135,
+        0.14678236082188695,
+        0.14208083505628524,
+        0.22303785433634743
+      ],
+      "coefficients": [
+        -9.330639441571377e-05,
+        -0.00157861000983836,
+        0.002052770502454603,
+        0.006873252928008083,
+        -0.010971315647282853,
+        0.0063384004101879315,
+        -0.002970813963051186,
+        -0.0038158054207655875,
+        0.00028452809868264727,
+        0.003402352473748758,
+        0.000227893785371724,
+        0.004268142503604787,
+        0.005509706790986003,
+        -0.0007311824777661407,
+        0.0014805478718459366,
+        0.0032129321385630815,
+        9.636625825717581e-05,
+        -0.0018850839958912122,
+        -0.008309074345347866,
+        -0.0035040509296428647,
+        0.004447422419685846,
+        -0.0005806882455419686,
+        0.00391490648235743,
+        0.0029844940857783287,
+        -0.0023264805767636717,
+        0.002855787257543314,
+        0.00019548531036534382,
+        0.0002802357608912482,
+        0.003873826136165573,
+        -0.0007938166446293729,
+        -0.0009848269989958932,
+        -0.003918967184956696,
+        -0.00024035215996155596,
+        -0.00571021465252366
+      ],
+      "intercept": -0.0797514234052127
+    },
+    "price_tree": {
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20"
+      ],
+      "path": "deliverables/medium_term/price_tree_2026.joblib",
+      "sha256": "95e5576fa98a81d76dcc4d5e2d55413b3ebb6522d4abd6242a4a3c5c74e4c266",
+      "iterations": 200
+    },
+    "all_tree": {
+      "features": [
+        "r1",
+        "r5",
+        "r20",
+        "r60",
+        "vol20",
+        "atr14",
+        "ma5_20",
+        "ma20_60",
+        "volume5_20",
+        "log_turnover20",
+        "foreign_net_volume_ratio_1d",
+        "foreign_net_volume_ratio_5d",
+        "foreign_net_volume_ratio_20d",
+        "trust_net_volume_ratio_1d",
+        "trust_net_volume_ratio_5d",
+        "trust_net_volume_ratio_20d",
+        "total_net_volume_ratio_1d",
+        "total_net_volume_ratio_5d",
+        "total_net_volume_ratio_20d",
+        "rev_yoy",
+        "rev_mom",
+        "rev_3m_yoy",
+        "rev_yoy_accel",
+        "log_revenue",
+        "finance_utilization",
+        "short_utilization",
+        "finance_balance_change_1d",
+        "finance_balance_change_5d",
+        "finance_balance_change_20d",
+        "short_balance_change_1d",
+        "short_balance_change_5d",
+        "short_balance_change_20d",
+        "finance_stopped",
+        "short_stopped"
+      ],
+      "path": "deliverables/medium_term/all_tree_2026.joblib",
+      "sha256": "b6f5ba5d788731500b6efc8e71c9875272519dad5eb2b7343883baf2441039cb",
+      "iterations": 200
+    }
+  },
+  "primary": {
+    "observed_paired_dates": 120,
+    "excluded_unknown_dates": 61,
+    "mean": 0.004808868337285441,
+    "intervals": {
+      "20": {
+        "mean": 0.004808868337285441,
+        "lower_95": -0.025718883243730298,
+        "upper_95": 0.03925305585456052,
+        "interval_includes_zero": true
+      },
+      "60": {
+        "mean": 0.004808868337285441,
+        "lower_95": -0.02995153265881728,
+        "upper_95": 0.03963062938257134,
+        "interval_includes_zero": true
+      },
+      "80": {
+        "mean": 0.004808868337285441,
+        "lower_95": -0.0256782936018134,
+        "upper_95": 0.03476623255824818,
+        "interval_includes_zero": true
+      }
+    }
+  },
+  "secondary_ridge": {
+    "observed_paired_dates": 121,
+    "excluded_unknown_dates": 60,
+    "mean": -0.031229565674853573,
+    "intervals": {
+      "20": {
+        "mean": -0.031229565674853573,
+        "lower_95": -0.05619256733758927,
+        "upper_95": -0.009366866877974594,
+        "interval_includes_zero": false
+      },
+      "60": {
+        "mean": -0.031229565674853573,
+        "lower_95": -0.051387186279114094,
+        "upper_95": -0.011149846495984085,
+        "interval_includes_zero": false
+      },
+      "80": {
+        "mean": -0.031229565674853573,
+        "lower_95": -0.051287688518110296,
+        "upper_95": -0.011157082358999502,
+        "interval_includes_zero": false
+      }
+    }
+  },
+  "secondary_model": {
+    "observed_paired_dates": 121,
+    "excluded_unknown_dates": 60,
+    "mean": 0.059400715659401845,
+    "intervals": {
+      "20": {
+        "mean": 0.059400715659401845,
+        "lower_95": 0.013095853997375992,
+        "upper_95": 0.10672450614151743,
+        "interval_includes_zero": false
+      },
+      "60": {
+        "mean": 0.059400715659401845,
+        "lower_95": 0.0075753183811898914,
+        "upper_95": 0.11069650894081533,
+        "interval_includes_zero": false
+      },
+      "80": {
+        "mean": 0.059400715659401845,
+        "lower_95": 0.014457902238929586,
+        "upper_95": 0.10404494345649491,
+        "interval_includes_zero": false
+      }
+    }
+  },
+  "methods": {
+    "price_ridge": {
+      "mean_relative_60d_proxy": -0.06919482361720601,
+      "known_top_dates": 122,
+      "unknown_selected_rows": 3956,
+      "rank_ic_observed": 0.11033020761322251,
+      "monthly_mean_relative_60d_proxy": -0.05022826796506113,
+      "known_monthly_signals": 7
+    },
+    "all_ridge": {
+      "mean_relative_60d_proxy": -0.1005321829813252,
+      "known_top_dates": 121,
+      "unknown_selected_rows": 3957,
+      "rank_ic_observed": 0.09150058499560082,
+      "monthly_mean_relative_60d_proxy": -0.13263493830239473,
+      "known_monthly_signals": 7
+    },
+    "price_tree": {
+      "mean_relative_60d_proxy": -0.047308583460498405,
+      "known_top_dates": 120,
+      "unknown_selected_rows": 3958,
+      "rank_ic_observed": 0.08566212015586935,
+      "monthly_mean_relative_60d_proxy": -0.04404920212246546,
+      "known_monthly_signals": 7
+    },
+    "all_tree": {
+      "mean_relative_60d_proxy": -0.041580073592890385,
+      "known_top_dates": 122,
+      "unknown_selected_rows": 3956,
+      "rank_ic_observed": 0.09522991877313162,
+      "monthly_mean_relative_60d_proxy": 0.03331793363291348,
+      "known_monthly_signals": 7
+    },
+    "vol20": {
+      "mean_relative_60d_proxy": -0.08136517075183074,
+      "known_top_dates": 119,
+      "unknown_selected_rows": 3959,
+      "rank_ic_observed": -0.028740864694749523,
+      "monthly_mean_relative_60d_proxy": -0.10542911913042115,
+      "known_monthly_signals": 7
+    },
+    "mom60": {
+      "mean_relative_60d_proxy": -0.056324729965733594,
+      "known_top_dates": 121,
+      "unknown_selected_rows": 3957,
+      "rank_ic_observed": 0.040227131938093144,
+      "monthly_mean_relative_60d_proxy": -0.15644164929506782,
+      "known_monthly_signals": 7
+    },
+    "rev_yoy": {
+      "mean_relative_60d_proxy": -0.10291480205037443,
+      "known_top_dates": 114,
+      "unknown_selected_rows": 3964,
+      "rank_ic_observed": 0.10120148186320942,
+      "monthly_mean_relative_60d_proxy": -0.13666045001077134,
+      "known_monthly_signals": 7
+    }
+  }
+}

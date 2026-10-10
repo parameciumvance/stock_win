@@ -105,3 +105,9 @@ make test-revenue-proxy
 
 免費信用來源、十項前市場日特徵與固定同池比較見 [信用報告](deliverables/margin/report.md)。一組不搜尋參數的非線性比較見 [梯度樹報告](deliverables/fundamental_tree/report.md)。
 來源、共同矩陣、模型及 Top10% 明細的恢復／重跑順序見 [接續说明](docs/FUNDAMENTAL_RESEARCH_RESUME.md)，進度見 [Tasks](docs/RESEARCH_PRIORITIES.md)。
+
+
+## 60 日相對報酬／每月 Top15（2026-10-10）
+
+使用者已採用；[模型研究](deliverables/medium_term/report.md)、[月度現金報價代理](deliverables/medium_term/portfolio_report.md)、[結論與下一個決定](deliverables/medium_term/conclusion.md)。原 20 日飆股研究保留。
+方法與重跑順序見 [60 日說明](docs/MEDIUM_TERM_RESEARCH.md)。51 項測試與逐筆選股／分數／現金核對通過；所有年度已研究，不稱新的獨立留出或實際零股 NAV。

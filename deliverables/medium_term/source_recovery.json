@@ -1,0 +1,27 @@
+[
+  {
+    "name": "monthly_revenue_proxy_2022_2026_source_checkpoint.zip",
+    "sha256": "6014acf9520d578ca6ad0fac475c383d508e3fbd0ebf84ad113fade4d91a9e40",
+    "members": 228
+  },
+  {
+    "name": "margin_twse_2023_source_checkpoint.zip",
+    "sha256": "f6525dd645c106ee0ed9d2f3ab29ca7a68e13e2255de3c723a0407daa83279cf",
+    "members": 503
+  },
+  {
+    "name": "margin_twse_2024_source_checkpoint.zip",
+    "sha256": "1e33a8c26c491d585e488b74b655ffa0c8a61ff0674b483ccd3604fd5289be1d",
+    "members": 509
+  },
+  {
+    "name": "margin_twse_2025_source_checkpoint.zip",
+    "sha256": "a9a4058848c9ecb67671425a68525f927d9b2be16d55b958086139ed3771bd5e",
+    "members": 511
+  },
+  {
+    "name": "margin_twse_2026_asof_20261002_source_checkpoint.zip",
+    "sha256": "21c88ace86251552b35f777f274b1c67a99037ec40f39df78f99f392481c3431",
+    "members": 383
+  }
+]

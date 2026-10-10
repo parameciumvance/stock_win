@@ -84,3 +84,24 @@ research-selection-audit:
 	$(PYTHON) verify_research_selections.py deliverables/margin
 	$(PYTHON) verify_research_selections.py deliverables/fundamental_tree
 
+.PHONY: medium-term-prepare medium-term-models medium-term-portfolio medium-term-verify test-medium-term medium-term-package
+
+medium-term-prepare:
+	$(PYTHON) medium_term_research.py --prepare
+
+medium-term-models:
+	$(PYTHON) medium_term_research.py
+
+medium-term-portfolio:
+	$(PYTHON) medium_term_portfolio.py
+
+medium-term-verify:
+	$(PYTHON) verify_medium_term.py
+
+test-medium-term:
+	$(PYTHON) -m unittest test_medium_term -q
+
+medium-term-package:
+	$(PYTHON) package_medium_term.py
+
+
