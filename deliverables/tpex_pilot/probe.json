@@ -1,0 +1,72 @@
+[
+  {
+    "name": "quotes_20230103",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2023/01/03&type=EW&response=json",
+    "fetched_at": "2026-10-10T20:50:19.638840+00:00",
+    "status": 200,
+    "bytes": 128216,
+    "sha256": "467dbfb4449a6ca90159644642bbc4116cc60baab24f94c077b1ba37b3e15c99",
+    "type": "dict",
+    "sample": "{'tables': [{'title': '上櫃股票每日收盤行情(不含定價)', 'date': '112/01/03', 'category': '所有證券(不含權證、牛熊證)', 'totalCount': 907, 'fields': ['代號', '名稱', '收盤 ', '漲跌', '開盤 ', '最高 ', '最低', '成交股數  ', ' 成交金額(元)', ' 成交筆數 ', '最後買價', '最後買量<br>(千股)', '最後賣價', '最後賣量<br>(千股)', '發行股數 ', '次日漲停價 ', '次日跌停價'], 'data': [['00679B', '元大美債20年', '31.00', '-0.08', '31.00', '31.03', '30.97",
+    "keys": [
+      "tables",
+      "date",
+      "flagField",
+      "stat"
+    ]
+  },
+  {
+    "name": "quotes_20240102",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2024/01/02&type=EW&response=json",
+    "fetched_at": "2026-10-10T20:50:19.639534+00:00",
+    "status": 200,
+    "bytes": 130930,
+    "sha256": "e78cec6ab46a0a6f50e2d501cc43141e1ecd93f6b69100eb87fc4b433bd3096e",
+    "type": "dict",
+    "sample": "{'tables': [{'title': '上櫃股票每日收盤行情(不含定價)', 'date': '113/01/02', 'category': '所有證券(不含權證、牛熊證)', 'totalCount': 911, 'fields': ['代號', '名稱', '收盤 ', '漲跌', '開盤 ', '最高 ', '最低', '成交股數  ', ' 成交金額(元)', ' 成交筆數 ', '最後買價', '最後買量<br>(千股)', '最後賣價', '最後賣量<br>(千股)', '發行股數 ', '次日漲停價 ', '次日跌停價'], 'data': [['00679B', '元大美債20年', '30.61', '-0.24', '30.70', '30.70', '30.60",
+    "keys": [
+      "tables",
+      "date",
+      "flagField",
+      "stat"
+    ]
+  },
+  {
+    "name": "quotes_20250102",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2025/01/02&type=EW&response=json",
+    "fetched_at": "2026-10-10T20:50:19.639957+00:00",
+    "status": 200,
+    "bytes": 135704,
+    "sha256": "ec41555bff9e3f07eb693aa2799767366bab521ed2af19864bf5a5c29e9fc964",
+    "type": "dict",
+    "sample": "{'tables': [{'title': '上櫃股票每日收盤行情(不含定價)', 'date': '114/01/02', 'category': '所有證券(不含權證、牛熊證)', 'totalCount': 943, 'fields': ['代號', '名稱', '收盤 ', '漲跌', '開盤 ', '最高 ', '最低', '成交股數  ', ' 成交金額(元)', ' 成交筆數 ', '最後買價', '最後買量<br>(千股)', '最後賣價', '最後賣量<br>(千股)', '發行股數 ', '次日漲停價 ', '次日跌停價'], 'data': [['00679B', '元大美債20年', '28.40', '-0.25', '28.35', '28.41', '28.32",
+    "keys": [
+      "tables",
+      "date",
+      "flagField",
+      "stat"
+    ]
+  },
+  {
+    "name": "latest",
+    "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes",
+    "fetched_at": "2026-10-10T20:50:19.640438+00:00",
+    "status": 200,
+    "bytes": 356959,
+    "sha256": "32b36a57cb91934e099298c7b327c52e3182a53344b1be1aa820d49296eec384",
+    "type": "list",
+    "sample": "[{'Date': '1151008', 'SecuritiesCompanyCode': '00411A', 'CompanyName': '主動統一前沿科技', 'Close': '11.13', 'Change': '-0.10', 'Open': '11.06', 'High': '11.16', 'Low': '11.06', 'TradingShares': '15662000', 'TransactionAmount': '174127460', 'TransactionNumber': '1971', 'LatestBidPrice': '11.12', 'LatesAskPrice': '11.13', 'Capitals': '419576000', 'NextLimit",
+    "keys": []
+  },
+  {
+    "name": "exright",
+    "url": "https://www.tpex.org.tw/openapi/v1/tpex_exright_daily",
+    "fetched_at": "2026-10-10T20:50:19.640920+00:00",
+    "status": 200,
+    "bytes": 662,
+    "sha256": "a6d93a9b5e44b1653ff743080f1e339172feb84c3d84e1628d569be6374ec70f",
+    "type": "list",
+    "sample": "[{'Date': '1151012', 'SecuritiesCompanyCode': '1565', 'CompanyName': '精華', 'ClosePriceBeforeExRightsDiviend': '97.50', 'ExRightsDiviendQuote': '91.70', 'StockDividend': '0.000000', 'CashDividend': '5.800000', 'StockDividendPlusCashDividend': '5.800000', 'ExRightsDiviend': '除息', 'LimitUp': '100.50', 'LimitDown': '82.60', 'OpeningReferencePrice': '91",
+    "keys": []
+  }
+]

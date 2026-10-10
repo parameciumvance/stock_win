@@ -1,0 +1,35 @@
+[
+  {
+    "requested_date": "2023-01-03",
+    "returned_date": "112/01/03",
+    "rows": 907,
+    "priced_rows": 872,
+    "duplicate_codes": 0,
+    "ohlc_errors": 0,
+    "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+    "volume_unit": "shares",
+    "amount_unit": "TWD"
+  },
+  {
+    "requested_date": "2024-01-02",
+    "returned_date": "113/01/02",
+    "rows": 911,
+    "priced_rows": 895,
+    "duplicate_codes": 0,
+    "ohlc_errors": 0,
+    "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+    "volume_unit": "shares",
+    "amount_unit": "TWD"
+  },
+  {
+    "requested_date": "2025-01-02",
+    "returned_date": "114/01/02",
+    "rows": 943,
+    "priced_rows": 929,
+    "duplicate_codes": 0,
+    "ohlc_errors": 0,
+    "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+    "volume_unit": "shares",
+    "amount_unit": "TWD"
+  }
+]
