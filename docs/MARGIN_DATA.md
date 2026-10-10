@@ -34,3 +34,5 @@ make test-margin
 價格、法人及日曆依 `docs/INSTITUTIONAL_RESUME.md` 恢復；營收依 `docs/REVENUE_PROXY.md` 復原。研究輸出在 `deliverables/margin/`，原始來源在 `inputs/margin/raw_年度/`。
 
 本研究不代表獨立留出、年度 NAV 或實盤成交。若四類免費特徵仍不足以帶來穩定的成本後相對優勢，下一個需要決定的事項是是否改變持有期與換股頻率，應先重新固定設計，不能只挑較好的歷史結果。
+
+固定梯度樹的配置、來源／矩陣依賴與逐日 Ridge 重播程序見 `docs/FUNDAMENTAL_RESEARCH_RESUME.md`；完整選股明細可用 `make research-selection-audit` 核對。

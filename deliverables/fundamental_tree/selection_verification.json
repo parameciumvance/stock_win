@@ -14,9 +14,16 @@
       "groups": 1215,
       "selection_sha256": "008642a62a9a560a10ba993a1c14e601adbe804c110da2b9f3d1ab53a2f233b4",
       "daily_sha256": "f78b265753b55d9bfd691d6cea5b556a49d4666041e070f1183845f3b7d8208e"
+    },
+    {
+      "year": 2026,
+      "rows": 61465,
+      "groups": 905,
+      "selection_sha256": "e6910339f06eb1180a4cffde3a3a8d70ec346d547b5f6487bb54669afc9916af",
+      "daily_sha256": "c65eccde68c945f69faa831108249935a078242ab0a7e976a99eb155cefce6b1"
     }
   ],
-  "rows": 157900,
+  "rows": 219365,
   "checks": [
     "unique stocks",
     "contiguous ranks",

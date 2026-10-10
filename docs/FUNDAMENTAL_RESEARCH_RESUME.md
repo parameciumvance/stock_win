@@ -8,7 +8,7 @@
 
 解壓 `monthly_revenue_proxy_2022_2026_source_checkpoint.zip` 到 repo 根目錄，保留其 `inputs/revenue_proxy/` 結構；亦可依 `docs/REVENUE_PROXY.md` 從官方快取重建。該包包含 110 份原始 HTML 與原始月表、延遲代理特徵和營收研究選股明細。
 
-解壓四份 `margin_twse_2023_source_checkpoint.zip` 至 `margin_twse_2026_source_checkpoint.zip` 到 repo 根目錄。每份含 `inputs/margin/raw_年度/`、年度 CSV、日曆快取、來源摘要及 SHA256MANIFEST；2026 截止 10/02。根目錄同名 manifest／SOURCE_SUMMARY 可分別留在年度來源包內，以免互相覆蓋。來源包的資料可重算 `deliverables/margin/acquisition_年度.json`：
+解壓四份 `margin_twse_2023_source_checkpoint.zip` 至 `margin_twse_2026_asof_20261002_source_checkpoint.zip` 到 repo 根目錄。每份含 `inputs/margin/raw_年度/`、年度 CSV、日曆快取、來源摘要及 SHA256MANIFEST；2026 截止 10/02。根目錄同名 manifest／SOURCE_SUMMARY 可分別留在年度來源包內，以免互相覆蓋。來源包的資料可重算 `deliverables/margin/acquisition_年度.json`：
 
 ```bash
 python3 -m twse_history.margin --year 2023

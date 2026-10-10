@@ -1,0 +1,1820 @@
+{
+  "year": 2026,
+  "asof": "2026-10-02",
+  "days": 181,
+  "raw_security_rows": 230054,
+  "normalized_sha256": "991e9142eccf39ace0eda13d6584ba2e4b0e5c3a9949b43c9d5bd9ee339e915a",
+  "sources": [
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260102&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260102&selectType=ALL",
+      "http_status": 200,
+      "bytes": 123692,
+      "sha256": "ac6fbf41906dbb5c2ffe849eb3ef5c19c5f6583cef0247fd6d6d218f1021a7c1",
+      "fetched_at": "2026-10-09T22:49:28.998382+00:00",
+      "date": "20260102",
+      "rows": 1245
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260105&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260105&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f9c0e376087274d6680d2a1000919de817db15f7861def7252ff357fc8b8b749",
+      "bytes": 123896,
+      "fetched_at": "2026-10-09T23:48:27.129970+00:00",
+      "date": "20260105",
+      "rows": 1245
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260106&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260106&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3be4a234655052bd1dbafec7c402bdd617f22effad236b3018aed1d63366576b",
+      "bytes": 123883,
+      "fetched_at": "2026-10-09T23:48:27.108579+00:00",
+      "date": "20260106",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260107&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260107&selectType=ALL",
+      "http_status": 200,
+      "sha256": "349869bb07360abc021d71d8cd60c5aa51d7b4567519f9222e745fba456da14d",
+      "bytes": 124117,
+      "fetched_at": "2026-10-09T23:48:33.509103+00:00",
+      "date": "20260107",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260108&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260108&selectType=ALL",
+      "http_status": 200,
+      "sha256": "bbbc53b2f1a5c417cb52e0d84a79ba0422d2d8be8c42f223702ad63c39ead50e",
+      "bytes": 124049,
+      "fetched_at": "2026-10-09T23:48:33.473865+00:00",
+      "date": "20260108",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260109&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260109&selectType=ALL",
+      "http_status": 200,
+      "sha256": "dea8f4c2785a7822ede927d53f748c09f82cec6094d426a6e2654da9b3f0a5d6",
+      "bytes": 123863,
+      "fetched_at": "2026-10-09T23:48:39.550514+00:00",
+      "date": "20260109",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260112&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260112&selectType=ALL",
+      "http_status": 200,
+      "sha256": "62e96ff9ee250ba4b8196a5d0d6630b79479e8fe18cbcc391ff71086b6bbc5cc",
+      "bytes": 124029,
+      "fetched_at": "2026-10-09T23:48:39.927235+00:00",
+      "date": "20260112",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260113&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260113&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4ef715e5724bbf3517ff2dc4534ef3b446d3de6498f9340fe2bf2cb02db2c98f",
+      "bytes": 124141,
+      "fetched_at": "2026-10-09T23:48:45.750677+00:00",
+      "date": "20260113",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260114&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260114&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6ad475f94c047a209db32f1ba6be5e875adb11b7d985948d767fd41457e49bdb",
+      "bytes": 124279,
+      "fetched_at": "2026-10-09T23:48:45.802608+00:00",
+      "date": "20260114",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260115&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260115&selectType=ALL",
+      "http_status": 200,
+      "sha256": "7697fac72b2b2ca2dcb9c03b8c70e1bd8695f94e6e83c1538a83a679cbe8da68",
+      "bytes": 124127,
+      "fetched_at": "2026-10-09T23:48:51.433559+00:00",
+      "date": "20260115",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260116&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260116&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f53941f406799498a5c872ccd4d9fca0a3f3dd9d34babf331af04af96e5e554e",
+      "bytes": 124422,
+      "fetched_at": "2026-10-09T23:48:51.337435+00:00",
+      "date": "20260116",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260119&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260119&selectType=ALL",
+      "http_status": 200,
+      "sha256": "a493ab288989005be16ec4cda0007e03f1e584aa38388e88e504b1853b21e903",
+      "bytes": 124448,
+      "fetched_at": "2026-10-09T23:48:57.640215+00:00",
+      "date": "20260119",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260120&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260120&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f039a5c386dd1633e64dec1a9de18b717a188d90dc6693278d9f39887394a342",
+      "bytes": 124219,
+      "fetched_at": "2026-10-09T23:48:57.684201+00:00",
+      "date": "20260120",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260121&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260121&selectType=ALL",
+      "http_status": 200,
+      "sha256": "1892affcc2ed684fc32515a28f7c98d6e46062e8ecb5ddf3a986906a8eb125a1",
+      "bytes": 124449,
+      "fetched_at": "2026-10-09T23:49:03.973267+00:00",
+      "date": "20260121",
+      "rows": 1247
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260122&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260122&selectType=ALL",
+      "http_status": 200,
+      "sha256": "91ec132db5e87d4ec28365b265766753dc90ec07e6b9cd46fb06e455528e9a3f",
+      "bytes": 124263,
+      "fetched_at": "2026-10-09T23:49:03.718140+00:00",
+      "date": "20260122",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260123&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260123&selectType=ALL",
+      "http_status": 200,
+      "sha256": "8081055090f6c026e8d3bf4987279313bed73b442bad75eac122a55f32b08d0d",
+      "bytes": 124186,
+      "fetched_at": "2026-10-09T23:49:10.339238+00:00",
+      "date": "20260123",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260126&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260126&selectType=ALL",
+      "http_status": 200,
+      "sha256": "7d9f1292dbb723bd47ef5e9e863e917fe6c718c2a69409b5dc8505edf76f8d3d",
+      "bytes": 124214,
+      "fetched_at": "2026-10-09T23:49:10.392601+00:00",
+      "date": "20260126",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260127&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260127&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c8fe88ffb869eb4628de7a99d96b77729d1378c50a7b64c08a743a909bd93917",
+      "bytes": 124204,
+      "fetched_at": "2026-10-09T23:49:16.756512+00:00",
+      "date": "20260127",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260128&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260128&selectType=ALL",
+      "http_status": 200,
+      "sha256": "31473d2c9169a3217dd38a21f97b2e83a36b3803db16b6ea8300e438fe2bd685",
+      "bytes": 124362,
+      "fetched_at": "2026-10-09T23:49:16.766658+00:00",
+      "date": "20260128",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260129&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260129&selectType=ALL",
+      "http_status": 200,
+      "sha256": "da04f7a3e311cadf7b9d68ee44b27b5c1f1eb88fb3ccf60386dba6f09febdfc1",
+      "bytes": 124377,
+      "fetched_at": "2026-10-09T23:49:23.598513+00:00",
+      "date": "20260129",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260130&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260130&selectType=ALL",
+      "http_status": 200,
+      "sha256": "a5ef69012eed186039fa69a48b7b530f6b925fe0056a8c2a107a484b574e0689",
+      "bytes": 124432,
+      "fetched_at": "2026-10-09T23:49:23.676980+00:00",
+      "date": "20260130",
+      "rows": 1246
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260202&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260202&selectType=ALL",
+      "http_status": 200,
+      "sha256": "888425214503eddea1996f7addaf369032b652df3dd97edabdd9899232d814ef",
+      "bytes": 124381,
+      "fetched_at": "2026-10-09T23:49:29.785452+00:00",
+      "date": "20260202",
+      "rows": 1248
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260203&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260203&selectType=ALL",
+      "http_status": 200,
+      "sha256": "37c95920736ff0c3e009642c14dee3bff492671b134fc2d736ebffa1d129fda2",
+      "bytes": 124082,
+      "fetched_at": "2026-10-09T23:49:29.975830+00:00",
+      "date": "20260203",
+      "rows": 1249
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260204&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260204&selectType=ALL",
+      "http_status": 200,
+      "sha256": "85b66d640e9a8c0545fa0c128f7256b29f84eee2f952c43ba72bb1bd29b58ab1",
+      "bytes": 124011,
+      "fetched_at": "2026-10-09T23:49:36.027230+00:00",
+      "date": "20260204",
+      "rows": 1250
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260205&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260205&selectType=ALL",
+      "http_status": 200,
+      "sha256": "d538c8f615c5afe17eb134da8c14f688ecea002b2aa8ad0441ad5cb2d06c3343",
+      "bytes": 124323,
+      "fetched_at": "2026-10-09T23:49:36.043593+00:00",
+      "date": "20260205",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260206&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260206&selectType=ALL",
+      "http_status": 200,
+      "sha256": "fcd722951c6b3a8122a921ba62d7e4135cd3e6a8847b544a44bb47e56d66198e",
+      "bytes": 124398,
+      "fetched_at": "2026-10-09T23:49:42.713340+00:00",
+      "date": "20260206",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260209&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260209&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e119aa047e041a7a99f15c3f16626d3e75d0211517be3a1bceac96a729aad0f2",
+      "bytes": 124196,
+      "fetched_at": "2026-10-09T23:49:42.762365+00:00",
+      "date": "20260209",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260210&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260210&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f61c36392a53e461759cd3da034c29d8f696d1c3c096ce6e22e202082482bf6d",
+      "bytes": 123997,
+      "fetched_at": "2026-10-09T23:49:50.042286+00:00",
+      "date": "20260210",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260211&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260211&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f9b9896833211c470604b1eeb577429271162df1702eb5fac643cbedc0d57f70",
+      "bytes": 124218,
+      "fetched_at": "2026-10-09T23:49:49.063009+00:00",
+      "date": "20260211",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260223&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260223&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4d5015fe9b68ed0b6bdbf6c22fa3413a8113b0b8d5fac3eb813647d620c251a4",
+      "bytes": 124338,
+      "fetched_at": "2026-10-09T23:49:55.575670+00:00",
+      "date": "20260223",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260224&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260224&selectType=ALL",
+      "http_status": 200,
+      "sha256": "68ce2ddb335fbb471e29aff5d0a5bcb984186f3ddf1f9a95fbe4cbe4d392a80f",
+      "bytes": 124302,
+      "fetched_at": "2026-10-09T23:49:55.636555+00:00",
+      "date": "20260224",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260225&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260225&selectType=ALL",
+      "http_status": 200,
+      "sha256": "777fb24119256e1c34faaa8db47d72c2803131113a5029c590e595d6548317f0",
+      "bytes": 124405,
+      "fetched_at": "2026-10-09T23:50:01.974864+00:00",
+      "date": "20260225",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260226&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260226&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f8b75d595d0331d40172c6b29630a0563e0b5a5a01c0d0a346a679cf9e5baf99",
+      "bytes": 124555,
+      "fetched_at": "2026-10-09T23:50:02.053784+00:00",
+      "date": "20260226",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260302&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260302&selectType=ALL",
+      "http_status": 200,
+      "sha256": "03895928e65a71dab74c2764b5ca6be69727e5999c1a85554f96e7509b44af06",
+      "bytes": 124588,
+      "fetched_at": "2026-10-09T23:50:08.341900+00:00",
+      "date": "20260302",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260303&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260303&selectType=ALL",
+      "http_status": 200,
+      "sha256": "7fdd5ec8fc020d58340977c1fa9383229bf03d1b15ae855009dbe1c372a14193",
+      "bytes": 124774,
+      "fetched_at": "2026-10-09T23:50:08.373996+00:00",
+      "date": "20260303",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260304&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260304&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e6d211fb45866553ad242175cfd1699836926c5f0df7a13a35c04706d4bd5afb",
+      "bytes": 124973,
+      "fetched_at": "2026-10-09T23:50:15.087781+00:00",
+      "date": "20260304",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260305&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260305&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4d70d9ebd262f7e882bd218519de12d6cf6cbe44e8ffdd32b5eab3c0420b2636",
+      "bytes": 124276,
+      "fetched_at": "2026-10-09T23:50:14.758066+00:00",
+      "date": "20260305",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260306&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260306&selectType=ALL",
+      "http_status": 200,
+      "sha256": "093f9851ae96a9173eefa4999891360e2e88d8dec33568a44e4a865402ae84c7",
+      "bytes": 124115,
+      "fetched_at": "2026-10-09T23:50:21.208245+00:00",
+      "date": "20260306",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260309&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260309&selectType=ALL",
+      "http_status": 200,
+      "sha256": "90cb4fd0e039a3328dcb1d024bcec3ce70e7ab6f618caf1cf32a2ae976700ab6",
+      "bytes": 124956,
+      "fetched_at": "2026-10-09T23:50:22.275392+00:00",
+      "date": "20260309",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260310&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260310&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c1c8b0c5543e086a8db5c22a5a7770627ba64fcac89d764c1312ce1a92118b2f",
+      "bytes": 124244,
+      "fetched_at": "2026-10-09T23:50:26.806037+00:00",
+      "date": "20260310",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260311&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260311&selectType=ALL",
+      "http_status": 200,
+      "sha256": "09e4912660ca4f86d6404124b052ec4714fdf495bd38393b79baa5a7c62c5069",
+      "bytes": 124300,
+      "fetched_at": "2026-10-09T23:50:26.971220+00:00",
+      "date": "20260311",
+      "rows": 1251
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260312&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260312&selectType=ALL",
+      "http_status": 200,
+      "sha256": "2f586f7c7905f00bd704c1915caffcf7d5431a0894f46bceb17a5f0cce44b54a",
+      "bytes": 124379,
+      "fetched_at": "2026-10-09T23:50:46.488172+00:00",
+      "date": "20260312",
+      "rows": 1252
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260313&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260313&selectType=ALL",
+      "http_status": 200,
+      "sha256": "22c550402cf3c86c9efb4d4ec5d648ef7035b99966ddd1d92c5908558cafdc51",
+      "bytes": 124373,
+      "fetched_at": "2026-10-09T23:50:45.558677+00:00",
+      "date": "20260313",
+      "rows": 1252
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260316&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260316&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6bdea1addf9e8984fa478da79abb6a89738765896afaf10516ca7ece98ad8a4d",
+      "bytes": 124343,
+      "fetched_at": "2026-10-09T23:50:51.520029+00:00",
+      "date": "20260316",
+      "rows": 1252
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260317&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260317&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ca90394d9c0c75c94465d557ade088a7e10e2fbff5c8197712b73596c0777ff8",
+      "bytes": 124371,
+      "fetched_at": "2026-10-09T23:50:51.990504+00:00",
+      "date": "20260317",
+      "rows": 1252
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260318&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260318&selectType=ALL",
+      "http_status": 200,
+      "sha256": "1d3bc61c3a1fefa320416212461710257437033b76679e4c6f60df182bf04f58",
+      "bytes": 124360,
+      "fetched_at": "2026-10-09T23:50:57.843969+00:00",
+      "date": "20260318",
+      "rows": 1252
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260319&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260319&selectType=ALL",
+      "http_status": 200,
+      "sha256": "0d85fb68f6be4da2ba879ea59066fe89251567778891ec80fe9a13714d88f55d",
+      "bytes": 124607,
+      "fetched_at": "2026-10-09T23:50:57.969731+00:00",
+      "date": "20260319",
+      "rows": 1252
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260320&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260320&selectType=ALL",
+      "http_status": 200,
+      "sha256": "62adcbdf78eac957984d72b9fd3491351b73079ccc48d7fd5f327d642637c97f",
+      "bytes": 124711,
+      "fetched_at": "2026-10-09T23:51:04.521751+00:00",
+      "date": "20260320",
+      "rows": 1253
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260323&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260323&selectType=ALL",
+      "http_status": 200,
+      "sha256": "2ac89cc66164c49dea0e044f197ac4e5d3109fdcb4ad48ca2d6da1a7fccf14c1",
+      "bytes": 124409,
+      "fetched_at": "2026-10-09T23:51:04.134518+00:00",
+      "date": "20260323",
+      "rows": 1253
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260324&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260324&selectType=ALL",
+      "http_status": 200,
+      "sha256": "fd496a4468dee2beda3307b9af78bdb0f5a9279049fffa4900ac7387b333eee1",
+      "bytes": 124013,
+      "fetched_at": "2026-10-09T23:51:09.402273+00:00",
+      "date": "20260324",
+      "rows": 1254
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260325&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260325&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c33ef16db999d4d29eed9487e067bec0a368984b470e214b0096841ea16f3fb9",
+      "bytes": 123740,
+      "fetched_at": "2026-10-09T23:51:09.463519+00:00",
+      "date": "20260325",
+      "rows": 1254
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260326&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260326&selectType=ALL",
+      "http_status": 200,
+      "sha256": "580000569317c71e79b43f0e3c8ae1b36358e8c3e90d1006103d43ece2025495",
+      "bytes": 123893,
+      "fetched_at": "2026-10-09T23:51:15.850565+00:00",
+      "date": "20260326",
+      "rows": 1254
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260327&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260327&selectType=ALL",
+      "http_status": 200,
+      "sha256": "86037daa9d9c6818166cb0a43199fe917f85d422e2c4bfafe0bad303d4a67fe0",
+      "bytes": 124015,
+      "fetched_at": "2026-10-09T23:51:15.599013+00:00",
+      "date": "20260327",
+      "rows": 1255
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260330&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260330&selectType=ALL",
+      "http_status": 200,
+      "sha256": "13d7b3d5992ed5c5c07b3781bddb10f65acc138178fc2b696aa5a330e73c96d2",
+      "bytes": 124108,
+      "fetched_at": "2026-10-09T23:51:23.394145+00:00",
+      "date": "20260330",
+      "rows": 1255
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260331&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260331&selectType=ALL",
+      "http_status": 200,
+      "sha256": "7ebb128bd8356bf44ac22f608642a2e70ceb3fdfec1d89158322c6cd35081910",
+      "bytes": 124557,
+      "fetched_at": "2026-10-09T23:51:22.006697+00:00",
+      "date": "20260331",
+      "rows": 1255
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260401&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260401&selectType=ALL",
+      "http_status": 200,
+      "sha256": "49b240255bdc4f808e96e0f20dc1fcd1c5bc771bab0fe00acc0f500c0ac1d975",
+      "bytes": 124264,
+      "fetched_at": "2026-10-09T23:51:28.696353+00:00",
+      "date": "20260401",
+      "rows": 1256
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260402&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260402&selectType=ALL",
+      "http_status": 200,
+      "sha256": "de2de309d2125b452e7ecdfbce6eaadab9deb1fdbc4e04261fa7f584636afbf0",
+      "bytes": 124359,
+      "fetched_at": "2026-10-09T23:51:28.753370+00:00",
+      "date": "20260402",
+      "rows": 1257
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260407&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260407&selectType=ALL",
+      "http_status": 200,
+      "sha256": "d95024ba3df46e8eab68b335ffffb12710cb96e11dd1ae7413df94b1b1b18662",
+      "bytes": 124009,
+      "fetched_at": "2026-10-09T23:51:35.325502+00:00",
+      "date": "20260407",
+      "rows": 1257
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260408&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260408&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c7cc721383ffbf7a48ee55085cd13a4d6dbcff09a80a1893ad07ec1bf5c22ba0",
+      "bytes": 124659,
+      "fetched_at": "2026-10-09T23:51:35.004342+00:00",
+      "date": "20260408",
+      "rows": 1258
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260409&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260409&selectType=ALL",
+      "http_status": 200,
+      "sha256": "8f3f8415ae784a407c7bd570afa9f3f776b22012f76e7361d2aa3a32b28e058f",
+      "bytes": 124759,
+      "fetched_at": "2026-10-09T23:51:42.367345+00:00",
+      "date": "20260409",
+      "rows": 1259
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260410&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260410&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ea98f5099de2cfef4b0cab3e83973e5265cd9d9abb7a187dd8a422a1fd81e4a9",
+      "bytes": 124934,
+      "fetched_at": "2026-10-09T23:51:41.435098+00:00",
+      "date": "20260410",
+      "rows": 1259
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260413&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260413&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e10731a16ebdaaf31a689aa50441894caa0b6dd79d0505969e30c189a1fb65a7",
+      "bytes": 124984,
+      "fetched_at": "2026-10-09T23:51:47.182538+00:00",
+      "date": "20260413",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260414&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260414&selectType=ALL",
+      "http_status": 200,
+      "sha256": "0f3d63e2a8b47dad91a303d84cf1a512b60e05e2b3eb779fca6242d5b6f22c20",
+      "bytes": 125192,
+      "fetched_at": "2026-10-09T23:51:47.298901+00:00",
+      "date": "20260414",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260415&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260415&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4c22745379b5a29d4dba5ec8b19609913926857e9220af0a733ad0867bb7deab",
+      "bytes": 125170,
+      "fetched_at": "2026-10-09T23:51:51.926991+00:00",
+      "date": "20260415",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260416&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260416&selectType=ALL",
+      "http_status": 200,
+      "sha256": "cc1916680816fbe8503e912eb443db3f9860599c43cfc4ecdb7619a312a3052c",
+      "bytes": 125283,
+      "fetched_at": "2026-10-09T23:51:51.998904+00:00",
+      "date": "20260416",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260417&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260417&selectType=ALL",
+      "http_status": 200,
+      "sha256": "10fa76a7db5830e7982bb4031cc15052522b4208d428204b2b32139b880e9c2f",
+      "bytes": 125323,
+      "fetched_at": "2026-10-09T23:51:57.481187+00:00",
+      "date": "20260417",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260420&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260420&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ffa167ecbb74444c7ac063cbb43ae72c0a9c0106280bc78904b55cf0556d882f",
+      "bytes": 125429,
+      "fetched_at": "2026-10-09T23:51:57.554654+00:00",
+      "date": "20260420",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260421&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260421&selectType=ALL",
+      "http_status": 200,
+      "sha256": "53de2bc1e2ed0ee35c5ae50172f9fefe5019c80bc4187e5e43c33d9fadc57c97",
+      "bytes": 125278,
+      "fetched_at": "2026-10-09T23:52:04.108519+00:00",
+      "date": "20260421",
+      "rows": 1260
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260422&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260422&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3a8d69545f30ed4c456d438769e796f41711a355ad8863a2aea90011b4a199d7",
+      "bytes": 125511,
+      "fetched_at": "2026-10-09T23:52:03.501345+00:00",
+      "date": "20260422",
+      "rows": 1262
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260423&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260423&selectType=ALL",
+      "http_status": 200,
+      "sha256": "fbe722be2d739956534717d33f39f901411d622ed208e56046e85ee2ae21a4ba",
+      "bytes": 126266,
+      "fetched_at": "2026-10-09T23:52:09.747657+00:00",
+      "date": "20260423",
+      "rows": 1263
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260424&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260424&selectType=ALL",
+      "http_status": 200,
+      "sha256": "b8e4c37ea66c90440ea4f7fa324e758389b1709fe2e0bed2eb19efb2f4c41fad",
+      "bytes": 125585,
+      "fetched_at": "2026-10-09T23:52:10.168209+00:00",
+      "date": "20260424",
+      "rows": 1263
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260427&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260427&selectType=ALL",
+      "http_status": 200,
+      "sha256": "1e95e666c99cfc911764236a809ea19d41044edeefb96e66d39f2e3c65b9881f",
+      "bytes": 125647,
+      "fetched_at": "2026-10-09T23:52:15.876422+00:00",
+      "date": "20260427",
+      "rows": 1264
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260428&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260428&selectType=ALL",
+      "http_status": 200,
+      "sha256": "618814acc0520901d7c0d1d8e915eacd3758d45f941f2ce15e3015cf0a5ba8e5",
+      "bytes": 125188,
+      "fetched_at": "2026-10-09T23:52:15.860027+00:00",
+      "date": "20260428",
+      "rows": 1264
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260429&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260429&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e738d183dfa4843b34e0b9cf700cc9c926d9c0e63b9522b11ef273cd4d79815e",
+      "bytes": 125218,
+      "fetched_at": "2026-10-09T23:52:21.738983+00:00",
+      "date": "20260429",
+      "rows": 1264
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260430&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260430&selectType=ALL",
+      "http_status": 200,
+      "sha256": "71d029b48fa41391b45da055a730e6d66d82d9374713410fa01d541337fe5700",
+      "bytes": 125585,
+      "fetched_at": "2026-10-09T23:52:21.838692+00:00",
+      "date": "20260430",
+      "rows": 1265
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260504&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260504&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f3bbef9aaa665797a643bb28a817418b6ab1f702ea6d48882f35315557ca0a13",
+      "bytes": 125875,
+      "fetched_at": "2026-10-09T23:52:28.176963+00:00",
+      "date": "20260504",
+      "rows": 1266
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260505&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260505&selectType=ALL",
+      "http_status": 200,
+      "sha256": "865dacefdb748afe2cc12f6501ea241cb3ff47309f5c09e70171bd2dc32198e1",
+      "bytes": 125675,
+      "fetched_at": "2026-10-09T23:52:28.261270+00:00",
+      "date": "20260505",
+      "rows": 1266
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260506&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260506&selectType=ALL",
+      "http_status": 200,
+      "sha256": "482628778e3785034f47e7f5b7f303614588fe924f277f3b6b12196c7cf3b406",
+      "bytes": 126098,
+      "fetched_at": "2026-10-09T23:52:33.153564+00:00",
+      "date": "20260506",
+      "rows": 1266
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260507&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260507&selectType=ALL",
+      "http_status": 200,
+      "sha256": "8e09cc0232ba7ec69c430de5c0360bd9791700047174ba8ed502ed9630a27ba6",
+      "bytes": 126057,
+      "fetched_at": "2026-10-09T23:52:33.217598+00:00",
+      "date": "20260507",
+      "rows": 1266
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260508&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260508&selectType=ALL",
+      "http_status": 200,
+      "sha256": "aebd55f60a75dd9fc22a9e40d3d495a7f38941958e471bd0eeaa777e5ceedf0f",
+      "bytes": 126168,
+      "fetched_at": "2026-10-09T23:52:40.600981+00:00",
+      "date": "20260508",
+      "rows": 1266
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260511&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260511&selectType=ALL",
+      "http_status": 200,
+      "sha256": "94c315bfaffe56ef27d22b65890fc75d19be2e208c5ad66f6de24638009e6495",
+      "bytes": 126185,
+      "fetched_at": "2026-10-09T23:52:39.625200+00:00",
+      "date": "20260511",
+      "rows": 1267
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260512&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260512&selectType=ALL",
+      "http_status": 200,
+      "sha256": "174daba79333355dc3f71cddf6a2d55f9546da025386826032213fabc64ab829",
+      "bytes": 126374,
+      "fetched_at": "2026-10-09T23:53:08.787842+00:00",
+      "date": "20260512",
+      "rows": 1268
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260513&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260513&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4dc098f4d2cb8640a69ff0518002b7fc412795103c3e77d16f029d6d1a72b4d8",
+      "bytes": 126160,
+      "fetched_at": "2026-10-09T23:53:08.002098+00:00",
+      "date": "20260513",
+      "rows": 1268
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260514&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260514&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4894cda400f087b615569db6e38a93bb03cf19356d58f310bef38d4f9d134808",
+      "bytes": 126369,
+      "fetched_at": "2026-10-09T23:53:14.438782+00:00",
+      "date": "20260514",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260515&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260515&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ae9ac8be010ae74f8925cf7bdc97037bb2afd2db157c931d8488cc71fcb91164",
+      "bytes": 126614,
+      "fetched_at": "2026-10-09T23:53:14.457351+00:00",
+      "date": "20260515",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260518&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260518&selectType=ALL",
+      "http_status": 200,
+      "sha256": "8bfdd0d5a3f3d9575ad11fa1b26659f68d885329d914388b79d7f3b491e2c6e7",
+      "bytes": 126197,
+      "fetched_at": "2026-10-09T23:53:21.152512+00:00",
+      "date": "20260518",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260519&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260519&selectType=ALL",
+      "http_status": 200,
+      "sha256": "455e2e47e21eadc79d07fe0872c5cdc02de1d67fc7e442b1ff67ffe1080c5230",
+      "bytes": 126152,
+      "fetched_at": "2026-10-09T23:53:21.099045+00:00",
+      "date": "20260519",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260520&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260520&selectType=ALL",
+      "http_status": 200,
+      "sha256": "9e01b020171549ec793dcee19061b1f43e1fa0ba53e06f0937c96f2d8b73f628",
+      "bytes": 126006,
+      "fetched_at": "2026-10-09T23:53:27.621148+00:00",
+      "date": "20260520",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260521&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260521&selectType=ALL",
+      "http_status": 200,
+      "sha256": "47226f4892716f03b8ede029e8cce2556fe2dcec677b98c971629bc5020580e7",
+      "bytes": 126324,
+      "fetched_at": "2026-10-09T23:53:27.527836+00:00",
+      "date": "20260521",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260522&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260522&selectType=ALL",
+      "http_status": 200,
+      "sha256": "dcacf7854d07352a67dc36fde08d5f065d795fc49ea59443b75994518160088e",
+      "bytes": 126698,
+      "fetched_at": "2026-10-09T23:53:33.939402+00:00",
+      "date": "20260522",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260525&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260525&selectType=ALL",
+      "http_status": 200,
+      "sha256": "07b4aab84bd0662f241301f372c529ef53c9141bd66b1e7695b3bedcc4344c9a",
+      "bytes": 126938,
+      "fetched_at": "2026-10-09T23:53:33.863147+00:00",
+      "date": "20260525",
+      "rows": 1269
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260526&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260526&selectType=ALL",
+      "http_status": 200,
+      "sha256": "abec9119566784528ae5538a9ccbd0ea4439b6309fb35cfad3d3de3fdd45984c",
+      "bytes": 127018,
+      "fetched_at": "2026-10-09T23:53:40.618618+00:00",
+      "date": "20260526",
+      "rows": 1271
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260527&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260527&selectType=ALL",
+      "http_status": 200,
+      "sha256": "03276eb524747c9cd380913b2e327b1c28228c9beb4690f1a3b6fd54cf6adb3d",
+      "bytes": 126958,
+      "fetched_at": "2026-10-09T23:53:40.684879+00:00",
+      "date": "20260527",
+      "rows": 1271
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260528&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260528&selectType=ALL",
+      "http_status": 200,
+      "sha256": "37742c45f4ddd94b976b8aa5506718c21ff9abeb548847e375d8f1c04e381a1d",
+      "bytes": 126967,
+      "fetched_at": "2026-10-09T23:53:47.001504+00:00",
+      "date": "20260528",
+      "rows": 1271
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260529&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260529&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6b7ebbfa508cae47dae62f738cea12ffbf95890170b896ff12d8dcf55bf4b259",
+      "bytes": 126825,
+      "fetched_at": "2026-10-09T23:53:46.944356+00:00",
+      "date": "20260529",
+      "rows": 1271
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260601&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260601&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ed01c6ba42e9cec35b1a87050c2f3e1100d8bbfc6104ef6cba0bffabf2484a23",
+      "bytes": 127145,
+      "fetched_at": "2026-10-09T23:53:53.007081+00:00",
+      "date": "20260601",
+      "rows": 1271
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260602&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260602&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6b28e7e5dc18ddeb34ba6678ccd179ee5d2d31830cb9c94f9579c56f0020beca",
+      "bytes": 127392,
+      "fetched_at": "2026-10-09T23:53:53.152278+00:00",
+      "date": "20260602",
+      "rows": 1273
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260603&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260603&selectType=ALL",
+      "http_status": 200,
+      "sha256": "10557b2508bdb2101115a49e12144dc3e4258ec5181446c6426dab5014b24a35",
+      "bytes": 127503,
+      "fetched_at": "2026-10-09T23:53:59.516589+00:00",
+      "date": "20260603",
+      "rows": 1273
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260604&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260604&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e8205345558c6daa8b94bc561dd0f1414586e58112c643962ef567c6f7a255d6",
+      "bytes": 127447,
+      "fetched_at": "2026-10-09T23:53:59.418500+00:00",
+      "date": "20260604",
+      "rows": 1273
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260605&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260605&selectType=ALL",
+      "http_status": 200,
+      "sha256": "77b2105015eff39de1142f0f0bacdfdb4e53681e5a21a9be13a3826739d38cdc",
+      "bytes": 127563,
+      "fetched_at": "2026-10-09T23:54:05.496334+00:00",
+      "date": "20260605",
+      "rows": 1273
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260608&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260608&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c65d56059769b5b143a5d95645a8d804f99f5761a2c917a4ade65985773f0a82",
+      "bytes": 127829,
+      "fetched_at": "2026-10-09T23:54:05.931745+00:00",
+      "date": "20260608",
+      "rows": 1276
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260609&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260609&selectType=ALL",
+      "http_status": 200,
+      "sha256": "0563caf2e10e66e07fe37088ddae22dc607c79f4bd0c97a8f970e014d4637c78",
+      "bytes": 127302,
+      "fetched_at": "2026-10-09T23:54:11.707821+00:00",
+      "date": "20260609",
+      "rows": 1276
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260610&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260610&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3d2aa9e003cb0686c34c511f44c1289f57d965c2e7d67a28ec35f9e58ef61e10",
+      "bytes": 127792,
+      "fetched_at": "2026-10-09T23:54:11.757044+00:00",
+      "date": "20260610",
+      "rows": 1277
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260611&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260611&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c5e50412061244291cb1e747302b0c0154e78734a1f81c307eb4eacd15cfaebd",
+      "bytes": 127508,
+      "fetched_at": "2026-10-09T23:54:18.077979+00:00",
+      "date": "20260611",
+      "rows": 1277
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260612&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260612&selectType=ALL",
+      "http_status": 200,
+      "sha256": "19e230194b0dec0cef86d909e4cf68f44118c47c65320fd4b04c447797fa113f",
+      "bytes": 127364,
+      "fetched_at": "2026-10-09T23:54:17.737273+00:00",
+      "date": "20260612",
+      "rows": 1277
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260615&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260615&selectType=ALL",
+      "http_status": 200,
+      "sha256": "be1ec1575fbeb1f18961b4bb8005425c104b939f9e722570a710e92dbe574d13",
+      "bytes": 127427,
+      "fetched_at": "2026-10-09T23:54:23.377086+00:00",
+      "date": "20260615",
+      "rows": 1277
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260616&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260616&selectType=ALL",
+      "http_status": 200,
+      "sha256": "81bdbe80c3df2726b73a776f1a5c2568213604cdcffa5cf1cdac0a1d535afc95",
+      "bytes": 127363,
+      "fetched_at": "2026-10-09T23:54:23.453749+00:00",
+      "date": "20260616",
+      "rows": 1278
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260617&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260617&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3b17dedf1d5023d6f54a93f816595bd39da82522b4ffca17cc4bbe02c6ebe9f6",
+      "bytes": 127275,
+      "fetched_at": "2026-10-09T23:54:30.575723+00:00",
+      "date": "20260617",
+      "rows": 1278
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260618&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260618&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4d2cc22c502ff33c91cbc4069582fe2e15323759bba496772be33c8cd48c1c19",
+      "bytes": 127685,
+      "fetched_at": "2026-10-09T23:54:30.633878+00:00",
+      "date": "20260618",
+      "rows": 1278
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260622&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260622&selectType=ALL",
+      "http_status": 200,
+      "sha256": "03b0751f4030dcba7783f2dd6777231d380aa60ffef8916117aa466e74f1b6dc",
+      "bytes": 127910,
+      "fetched_at": "2026-10-09T23:54:37.088272+00:00",
+      "date": "20260622",
+      "rows": 1278
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260623&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260623&selectType=ALL",
+      "http_status": 200,
+      "sha256": "86304b04b4cf3896495cfa9e1cdbe103038de4abc115576d076890ed96c4fb64",
+      "bytes": 127648,
+      "fetched_at": "2026-10-09T23:54:36.791912+00:00",
+      "date": "20260623",
+      "rows": 1278
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260624&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260624&selectType=ALL",
+      "http_status": 200,
+      "sha256": "a26c2c26c8a8b2dfa15511353cb9ea40a226cc781de65e4647fbe1fb10cdf1b5",
+      "bytes": 127402,
+      "fetched_at": "2026-10-09T23:54:43.504194+00:00",
+      "date": "20260624",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260625&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260625&selectType=ALL",
+      "http_status": 200,
+      "sha256": "582fa8bee4f4011457c577963e5cb8880ce1500be6e06524da3b0de2999d6285",
+      "bytes": 127295,
+      "fetched_at": "2026-10-09T23:54:43.520403+00:00",
+      "date": "20260625",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260626&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260626&selectType=ALL",
+      "http_status": 200,
+      "sha256": "cda70eba649b97c165aa1ba444b6f9cab37376e48454b806d03834b6adcd25ca",
+      "bytes": 127738,
+      "fetched_at": "2026-10-09T23:54:49.986162+00:00",
+      "date": "20260626",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260629&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260629&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f33c5b516e17bf0fada9ac992cee37efd40892b0c0171fdf9e1cbcb1245399dd",
+      "bytes": 127123,
+      "fetched_at": "2026-10-09T23:54:49.933101+00:00",
+      "date": "20260629",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260630&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260630&selectType=ALL",
+      "http_status": 200,
+      "sha256": "eec4888cb2d498637ecfe650b47f507fbdb801acde4c9d582db57eeaec2c2243",
+      "bytes": 127315,
+      "fetched_at": "2026-10-09T23:54:56.327710+00:00",
+      "date": "20260630",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260701&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260701&selectType=ALL",
+      "http_status": 200,
+      "sha256": "7605550ebff0039cd68513a932e2181b279de273eb65184c454efecabb52e597",
+      "bytes": 127547,
+      "fetched_at": "2026-10-09T23:54:56.456373+00:00",
+      "date": "20260701",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260702&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260702&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e536aa99109e2ff0db34b6409eca2765298f395e90836db31abad6143c0886ad",
+      "bytes": 127512,
+      "fetched_at": "2026-10-09T23:55:02.740806+00:00",
+      "date": "20260702",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260703&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260703&selectType=ALL",
+      "http_status": 200,
+      "sha256": "71b9375dfc0d79c691744c10f840582224032e7fe35965cee190952fde918fba",
+      "bytes": 127744,
+      "fetched_at": "2026-10-09T23:55:02.779023+00:00",
+      "date": "20260703",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260706&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260706&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4ae758ad60064c08bc4f23bd527bbe080c77cf3a73aea7e712684293f56a3301",
+      "bytes": 127721,
+      "fetched_at": "2026-10-09T23:55:09.527501+00:00",
+      "date": "20260706",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260707&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260707&selectType=ALL",
+      "http_status": 200,
+      "sha256": "d79ccac14b98d72434d1f0f16410198d1cbf787aad6ec2ddcf4ce440ddeca3f4",
+      "bytes": 127897,
+      "fetched_at": "2026-10-09T23:55:09.308711+00:00",
+      "date": "20260707",
+      "rows": 1279
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260708&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260708&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e1f92ae85eecbe3129e40377bbf46119dd54b8f8026b7000a478f3c2a66fb2cc",
+      "bytes": 127497,
+      "fetched_at": "2026-10-09T23:55:32.194183+00:00",
+      "date": "20260708",
+      "rows": 1281
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260709&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260709&selectType=ALL",
+      "http_status": 200,
+      "sha256": "93c7d25a234f616c3877646750a121f9caf17468eec505cdf225a7d2447548dd",
+      "bytes": 127334,
+      "fetched_at": "2026-10-09T23:55:31.873120+00:00",
+      "date": "20260709",
+      "rows": 1281
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260713&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260713&selectType=ALL",
+      "http_status": 200,
+      "sha256": "bf88613c8bdb21ca7307d605a87d319d4c17d91663be37451854146b1357c7ad",
+      "bytes": 127779,
+      "fetched_at": "2026-10-09T23:55:38.107917+00:00",
+      "date": "20260713",
+      "rows": 1282
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260714&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260714&selectType=ALL",
+      "http_status": 200,
+      "sha256": "19fd65d3e32ba43c0290c16f356f42406de9343c7c0c2b70f66ead6d2a488350",
+      "bytes": 128286,
+      "fetched_at": "2026-10-09T23:55:38.204130+00:00",
+      "date": "20260714",
+      "rows": 1283
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260715&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260715&selectType=ALL",
+      "http_status": 200,
+      "sha256": "72e6375fbf7f45eec2d3973bdee841c03131be27d4ec2b19d4c20827f6bcd48e",
+      "bytes": 127352,
+      "fetched_at": "2026-10-09T23:55:44.466327+00:00",
+      "date": "20260715",
+      "rows": 1283
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260716&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260716&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e83e194f7c9faa08d7537d08ebfcbc088ea9b1b4108650dc5ea053ba03c3a5fa",
+      "bytes": 127459,
+      "fetched_at": "2026-10-09T23:55:44.256963+00:00",
+      "date": "20260716",
+      "rows": 1284
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260717&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260717&selectType=ALL",
+      "http_status": 200,
+      "sha256": "7c9a17b421d6bcd9073ce6bb0df20f06da2290799691506e3d7d1aa9096752b9",
+      "bytes": 128409,
+      "fetched_at": "2026-10-09T23:55:49.841865+00:00",
+      "date": "20260717",
+      "rows": 1284
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260720&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260720&selectType=ALL",
+      "http_status": 200,
+      "sha256": "122cc25d8ab6bd9e71d3cc673a221daefed92e6c891592e4db9db550f8d60c1a",
+      "bytes": 127910,
+      "fetched_at": "2026-10-09T23:55:49.937486+00:00",
+      "date": "20260720",
+      "rows": 1284
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260721&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260721&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4b75253bd10eb9f27929ca1733fcf4e5179b7f5f486a8c96ebb45d65e2c85a7a",
+      "bytes": 127461,
+      "fetched_at": "2026-10-09T23:55:55.408750+00:00",
+      "date": "20260721",
+      "rows": 1284
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260722&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260722&selectType=ALL",
+      "http_status": 200,
+      "sha256": "a8a7978bca2677320dfa859de553b4f62792a0dfec214790eab7b706ddee61d2",
+      "bytes": 127849,
+      "fetched_at": "2026-10-09T23:55:55.521353+00:00",
+      "date": "20260722",
+      "rows": 1287
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260723&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260723&selectType=ALL",
+      "http_status": 200,
+      "sha256": "dce5d840a969a1fe3dbcb6e3260ef7d67b77e519e94953d34f983c2e62c488e0",
+      "bytes": 127630,
+      "fetched_at": "2026-10-09T23:56:00.431599+00:00",
+      "date": "20260723",
+      "rows": 1287
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260724&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260724&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6532aada348ff7037b20ffd4dd1cc1b0fcfc82932ff3297a38759ae96838681f",
+      "bytes": 127732,
+      "fetched_at": "2026-10-09T23:56:00.447740+00:00",
+      "date": "20260724",
+      "rows": 1287
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260727&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260727&selectType=ALL",
+      "http_status": 200,
+      "sha256": "4d5f90965e7395eeb2d19349c52876120468a4ac035c4486ea8960ca620f1c99",
+      "bytes": 127640,
+      "fetched_at": "2026-10-09T23:56:07.018266+00:00",
+      "date": "20260727",
+      "rows": 1287
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260728&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260728&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ecb66399b20d5cf98a183cc4d886a96e24b1fc8f3dc0ab1784bbbd099946ea6f",
+      "bytes": 128362,
+      "fetched_at": "2026-10-09T23:56:07.297781+00:00",
+      "date": "20260728",
+      "rows": 1288
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260729&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260729&selectType=ALL",
+      "http_status": 200,
+      "sha256": "76e19c7e7355703202130ff3edf3ef14595c182664deafabad5f311d46a21e5e",
+      "bytes": 129115,
+      "fetched_at": "2026-10-09T23:56:16.265171+00:00",
+      "date": "20260729",
+      "rows": 1288
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260730&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260730&selectType=ALL",
+      "http_status": 200,
+      "sha256": "f1e549278d3c288a7d46831d7139c368b933316c2ce6f86f2cb1fd234f556c80",
+      "bytes": 128327,
+      "fetched_at": "2026-10-09T23:56:16.306333+00:00",
+      "date": "20260730",
+      "rows": 1288
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260731&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260731&selectType=ALL",
+      "http_status": 200,
+      "sha256": "947574e514f85eb30d4ba63a3372f3fdcb9b1d45fac173ff5e090ad5b10c8c14",
+      "bytes": 128448,
+      "fetched_at": "2026-10-09T23:56:22.518599+00:00",
+      "date": "20260731",
+      "rows": 1291
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260803&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260803&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6ea503fc9ab102312cf1daa7e25694ec791fa7346451eb24624cdf6513d550a8",
+      "bytes": 128171,
+      "fetched_at": "2026-10-09T23:56:23.311184+00:00",
+      "date": "20260803",
+      "rows": 1291
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260804&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260804&selectType=ALL",
+      "http_status": 200,
+      "sha256": "51e64864c2dabea4e4b0b263e44e29f7affcf462d140b6df9049f79b7ad8324a",
+      "bytes": 128213,
+      "fetched_at": "2026-10-09T23:56:30.248259+00:00",
+      "date": "20260804",
+      "rows": 1291
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260805&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260805&selectType=ALL",
+      "http_status": 200,
+      "sha256": "dfced02b840799258e4f34cc385cf828a0d062cdb10732e192594aeecb6648c3",
+      "bytes": 128547,
+      "fetched_at": "2026-10-09T23:56:30.230329+00:00",
+      "date": "20260805",
+      "rows": 1291
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260806&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260806&selectType=ALL",
+      "http_status": 200,
+      "sha256": "fe04ee1e183d4e3d46227535200cd8f588621461bebdf2c3177de54a9e9903e5",
+      "bytes": 128199,
+      "fetched_at": "2026-10-09T23:56:36.539761+00:00",
+      "date": "20260806",
+      "rows": 1291
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260807&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260807&selectType=ALL",
+      "http_status": 200,
+      "sha256": "eec46093c6fac9c826ffeb7f2e356ccfbb4493439ec39131ee4b0e080e262b03",
+      "bytes": 128194,
+      "fetched_at": "2026-10-09T23:56:36.527562+00:00",
+      "date": "20260807",
+      "rows": 1291
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260810&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260810&selectType=ALL",
+      "http_status": 200,
+      "sha256": "d7f8bd98273169d69c67e31993b6ba1c01e632612e666514ed01d45d20ddd09d",
+      "bytes": 128610,
+      "fetched_at": "2026-10-09T23:56:43.918136+00:00",
+      "date": "20260810",
+      "rows": 1292
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260811&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260811&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c78c567488c764eabe25db5635f12eedbd9a08f77044449f2910351bb1d5b528",
+      "bytes": 128443,
+      "fetched_at": "2026-10-09T23:56:43.889276+00:00",
+      "date": "20260811",
+      "rows": 1293
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260812&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260812&selectType=ALL",
+      "http_status": 200,
+      "sha256": "82e1c8295161399d6df25e656c7adbedc1411ca44e24cde21776b510a42df102",
+      "bytes": 128681,
+      "fetched_at": "2026-10-09T23:56:49.613268+00:00",
+      "date": "20260812",
+      "rows": 1294
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260813&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260813&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3f22ce3af65a4ba52296cadb0649902779831771dea79afcc9362d1f48b773da",
+      "bytes": 128734,
+      "fetched_at": "2026-10-09T23:56:49.664064+00:00",
+      "date": "20260813",
+      "rows": 1294
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260814&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260814&selectType=ALL",
+      "http_status": 200,
+      "sha256": "dfb7da9b878ce219c3f4c06ecfcda63a2323c1cb7936e50bd5a6280171a15527",
+      "bytes": 128750,
+      "fetched_at": "2026-10-09T23:56:56.449577+00:00",
+      "date": "20260814",
+      "rows": 1294
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260817&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260817&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3dc0fb5c2727949e24b404e0754f8d86b545615cc4f96c95c2c71de2d76de407",
+      "bytes": 128591,
+      "fetched_at": "2026-10-09T23:56:56.507787+00:00",
+      "date": "20260817",
+      "rows": 1294
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260818&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260818&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e985a7bdb113f67e936e6be3add4ae72b3e358cbcec6cfe014a0bd72f09fdcc7",
+      "bytes": 128541,
+      "fetched_at": "2026-10-09T23:57:01.050776+00:00",
+      "date": "20260818",
+      "rows": 1294
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260819&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260819&selectType=ALL",
+      "http_status": 200,
+      "sha256": "b385abbc2aea1ea8bbdde043e5408103c5547950a08406552943e76152b27f28",
+      "bytes": 128330,
+      "fetched_at": "2026-10-09T23:57:00.981360+00:00",
+      "date": "20260819",
+      "rows": 1294
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260820&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260820&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c90440da3a9d579b536f6f8e19de936bc83f188c8843be480e164337c455913c",
+      "bytes": 128337,
+      "fetched_at": "2026-10-09T23:57:07.569843+00:00",
+      "date": "20260820",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260821&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260821&selectType=ALL",
+      "http_status": 200,
+      "sha256": "99f858cccd261ecd6f4805000464a1be5e77f2add0ada37fb27e12baaaea93d6",
+      "bytes": 128294,
+      "fetched_at": "2026-10-09T23:57:07.754090+00:00",
+      "date": "20260821",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260824&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260824&selectType=ALL",
+      "http_status": 200,
+      "sha256": "ad7f7073f783634277b3ef132e9c841ff7a6bc1dd77208e056337fdee38d3e25",
+      "bytes": 128249,
+      "fetched_at": "2026-10-09T23:57:14.718517+00:00",
+      "date": "20260824",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260825&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260825&selectType=ALL",
+      "http_status": 200,
+      "sha256": "a3404a4f9ce9287f2619dc40f7e3fd224d8edafb5810a394342557a9929bf80a",
+      "bytes": 128385,
+      "fetched_at": "2026-10-09T23:57:14.833615+00:00",
+      "date": "20260825",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260826&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260826&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3fd909c67b90c404fa2f14c1538eeb758d3c8730a5aa52e6be07459537a7521a",
+      "bytes": 128515,
+      "fetched_at": "2026-10-09T23:57:20.871964+00:00",
+      "date": "20260826",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260827&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260827&selectType=ALL",
+      "http_status": 200,
+      "sha256": "eb0eae5e2f9a28cb4f2e2a847ee3960958804dc4dd31a7b4d162168381f8a313",
+      "bytes": 128569,
+      "fetched_at": "2026-10-09T23:57:20.962703+00:00",
+      "date": "20260827",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260828&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260828&selectType=ALL",
+      "http_status": 200,
+      "sha256": "42aac9c1c8d59577b941519006d92d91fe8239e19d7c78b1ee6c79eca11273e1",
+      "bytes": 128525,
+      "fetched_at": "2026-10-09T23:57:26.877446+00:00",
+      "date": "20260828",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260831&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260831&selectType=ALL",
+      "http_status": 200,
+      "sha256": "36d350e8d67acfbbf380500ae7e90ff958f066768bb8a05d1791725924e8e5fb",
+      "bytes": 128395,
+      "fetched_at": "2026-10-09T23:57:26.906416+00:00",
+      "date": "20260831",
+      "rows": 1295
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260901&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260901&selectType=ALL",
+      "http_status": 200,
+      "sha256": "3e81b85246ae040a31ce5a6e48751d11f935365498948de0ec1d4792c66582eb",
+      "bytes": 128787,
+      "fetched_at": "2026-10-09T23:57:33.405975+00:00",
+      "date": "20260901",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260902&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260902&selectType=ALL",
+      "http_status": 200,
+      "sha256": "c1df2c2e44827de7fa2ecf6127fab1eccf38da616177012159cda566993c045e",
+      "bytes": 128625,
+      "fetched_at": "2026-10-09T23:57:33.584739+00:00",
+      "date": "20260902",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260903&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260903&selectType=ALL",
+      "http_status": 200,
+      "sha256": "5f6327c022057045868d3f43b60063e338752bf7af7d18c0f0c981387095ff51",
+      "bytes": 128900,
+      "fetched_at": "2026-10-09T23:58:21.436580+00:00",
+      "date": "20260903",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260904&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260904&selectType=ALL",
+      "http_status": 200,
+      "sha256": "675ef9f102d1dd66a97187d97a9e9ce13005673a4486bba169c23792d0d319d3",
+      "bytes": 128616,
+      "fetched_at": "2026-10-09T23:58:21.397729+00:00",
+      "date": "20260904",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260907&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260907&selectType=ALL",
+      "http_status": 200,
+      "sha256": "e8bc97c705d26577a4e1b1cc60636519c65652400c100d90a6782ba742fd21af",
+      "bytes": 128625,
+      "fetched_at": "2026-10-09T23:58:28.376244+00:00",
+      "date": "20260907",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260908&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260908&selectType=ALL",
+      "http_status": 200,
+      "sha256": "cba697c208c6999f7ca79f3454f64e284a00ccf3fb8770e22b13e569032f73d0",
+      "bytes": 128557,
+      "fetched_at": "2026-10-09T23:58:28.160485+00:00",
+      "date": "20260908",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260909&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260909&selectType=ALL",
+      "http_status": 200,
+      "sha256": "b3ad7c1f8c46595aeb930ef556920604aafdf1defe14015169cd067472194037",
+      "bytes": 128435,
+      "fetched_at": "2026-10-09T23:58:34.604323+00:00",
+      "date": "20260909",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260910&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260910&selectType=ALL",
+      "http_status": 200,
+      "sha256": "16f876e1f684cc46c6e013b206dc18aa818a599b3e14e8ca13a4df7293872446",
+      "bytes": 128393,
+      "fetched_at": "2026-10-09T23:58:34.697243+00:00",
+      "date": "20260910",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260911&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260911&selectType=ALL",
+      "http_status": 200,
+      "sha256": "bb5a230af8ed07cd6e8808126bfcadad75c538d61afda512faf8b4da76b93db8",
+      "bytes": 128704,
+      "fetched_at": "2026-10-09T23:58:40.937387+00:00",
+      "date": "20260911",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260914&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260914&selectType=ALL",
+      "http_status": 200,
+      "sha256": "d30d2338da019615d13c7630c94fe56bbec4823c559b67b6406619d0fa92a170",
+      "bytes": 128447,
+      "fetched_at": "2026-10-09T23:58:41.004121+00:00",
+      "date": "20260914",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260915&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260915&selectType=ALL",
+      "http_status": 200,
+      "sha256": "9383e7f8e09de3f4205730bcff54c0565a233039859dc917604cba93a3ed8a7d",
+      "bytes": 128325,
+      "fetched_at": "2026-10-09T23:58:47.142911+00:00",
+      "date": "20260915",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260916&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260916&selectType=ALL",
+      "http_status": 200,
+      "sha256": "99af0c848a29b0c740a37e590c3eef541d8d04d86e90d165b3961a13c577c2d8",
+      "bytes": 128375,
+      "fetched_at": "2026-10-09T23:58:47.412569+00:00",
+      "date": "20260916",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260917&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260917&selectType=ALL",
+      "http_status": 200,
+      "sha256": "dfbfe9ae61c538ec19a3512ecec5ca29501fcc27e983a24354359a5495fa9667",
+      "bytes": 128741,
+      "fetched_at": "2026-10-09T23:58:54.391177+00:00",
+      "date": "20260917",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260918&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260918&selectType=ALL",
+      "http_status": 200,
+      "sha256": "93fcb7b160be475ab59e4e7ecd9b7a405368855aeed4b1fa686c8017023a0edc",
+      "bytes": 128889,
+      "fetched_at": "2026-10-09T23:58:54.110198+00:00",
+      "date": "20260918",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260921&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260921&selectType=ALL",
+      "http_status": 200,
+      "sha256": "a028a087e2ed3e720a6351001f5059896425539de069a18e97d91e5fa857f909",
+      "bytes": 128841,
+      "fetched_at": "2026-10-09T23:59:00.996278+00:00",
+      "date": "20260921",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260922&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260922&selectType=ALL",
+      "http_status": 200,
+      "sha256": "6235463f6a537fd7b69e2ecc32a606c94856cbf66de1fda39aea8d139012aa03",
+      "bytes": 128967,
+      "fetched_at": "2026-10-09T23:59:01.044367+00:00",
+      "date": "20260922",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260923&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260923&selectType=ALL",
+      "http_status": 200,
+      "sha256": "418bea2ef95b37d27eaffc8b2832fba6209fc987b0abb8fe1fa8b7791fe7c4cf",
+      "bytes": 128641,
+      "fetched_at": "2026-10-09T23:59:07.639238+00:00",
+      "date": "20260923",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260924&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260924&selectType=ALL",
+      "http_status": 200,
+      "sha256": "9aec38683cd7694fdbae06c9242dff3da08168f5c7ce6f9a0843a12fcbad4fb1",
+      "bytes": 128475,
+      "fetched_at": "2026-10-09T23:59:07.757727+00:00",
+      "date": "20260924",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260929&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260929&selectType=ALL",
+      "http_status": 200,
+      "sha256": "5cbcef0dc8edc6cf6b291cb7b4743aed6a4286a5107107c47529c69009b25bee",
+      "bytes": 128492,
+      "fetched_at": "2026-10-09T23:59:15.088882+00:00",
+      "date": "20260929",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260930&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20260930&selectType=ALL",
+      "http_status": 200,
+      "sha256": "bedf7a4b11e09b91c6c0245ab795ba4d6023d23c1636832015bebf29fc8164e9",
+      "bytes": 128794,
+      "fetched_at": "2026-10-09T23:59:15.111520+00:00",
+      "date": "20260930",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261001&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261001&selectType=ALL",
+      "http_status": 200,
+      "sha256": "10d5334335b0db0d8cbd913b4314d8931174b61c02f5c92447f25550bd0cfbb8",
+      "bytes": 128707,
+      "fetched_at": "2026-10-09T23:59:22.217560+00:00",
+      "date": "20261001",
+      "rows": 1297
+    },
+    {
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261002&selectType=ALL",
+      "final_url": "https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date=20261002&selectType=ALL",
+      "http_status": 200,
+      "sha256": "106b1a001dc353487bae12852b76ffad8308ef2a3adc69780ecda40d46a8e589",
+      "bytes": 128849,
+      "fetched_at": "2026-10-09T23:59:22.335000+00:00",
+      "date": "20261002",
+      "rows": 1297
+    }
+  ],
+  "status": "historical_daily_snapshot_not_verified_original_vintage"
+}

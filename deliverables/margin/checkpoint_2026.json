@@ -1,0 +1,20 @@
+{
+  "year": 2026,
+  "asof": "2026-10-02",
+  "days": 181,
+  "raw_rows": 230054,
+  "raw_reparse_exact": true,
+  "status": "verified_credit_daily_sources_not_original_publication_vintages",
+  "historical_member_rows": 194701,
+  "observed_member_rows": 188812,
+  "missing_member_rows": 5889,
+  "daily_coverage_mean": 0.9697449844080053,
+  "historical_membership_sha256": "bc5bfa1c662944a43c76724a372bb7b119ff00d9bc199d7361e9bd91f9727942",
+  "path": "deliverables/margin_twse_2026_asof_20261002_source_checkpoint.zip",
+  "bytes": 13266864,
+  "sha256": "21c88ace86251552b35f777f274b1c67a99037ec40f39df78f99f392481c3431",
+  "manifest_files": 383,
+  "zip_members": 385,
+  "crc_verified": true,
+  "saved_roundtrip_verified": true
+}
