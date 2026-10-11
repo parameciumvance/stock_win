@@ -25,13 +25,12 @@ def main():
         for start in range(1,last_month+1,2):list(ex.map(month,range(start,min(start+2,last_month+1))))
     for name,action in [('excal_history','exDailyQ'),('reduction_history','revivt'),('change_history','pvChgRslt')]:
         dest=root/'raw'/(name+'.json');meta=dest.with_suffix('.json.meta.json')
+        end=cutoff if a.year==cutoff.year else datetime.date(a.year,12,31)
         if dest.exists() and meta.exists():
             body=dest.read_bytes()
             if hashlib.sha256(body).hexdigest()!=json.loads(meta.read_text())['sha256']:raise ValueError('Company-action cache hash mismatch')
             doc=json.loads(body)
-        end=cutoff if a.year==cutoff.year else datetime.date(a.year,12,31)
-        else_fetch=not(dest.exists() and meta.exists())
-        if else_fetch:doc=fetch(f'https://www.tpex.org.tw/www/zh-tw/bulletin/{action}?startDate={a.year}/01/01&endDate={end:%Y/%m/%d}&response=json',dest)
+        else:doc=fetch(f'https://www.tpex.org.tw/www/zh-tw/bulletin/{action}?startDate={a.year}/01/01&endDate={end:%Y/%m/%d}&response=json',dest)
         if doc.get('stat')!='ok' or doc.get('date')!=f'{a.year}0101~{end:%Y%m%d}':raise ValueError('Company-action source unavailable or wrong range')
     subprocess.run([sys.executable,'-u','audit_tpex_calendar.py','--year',str(a.year)],check=True)
     subprocess.run([sys.executable,'-u','finalize_tpex_year.py','--year',str(a.year)],check=True)

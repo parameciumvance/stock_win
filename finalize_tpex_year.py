@@ -59,6 +59,7 @@ def main():
     if rawkeys!=seen or count!=sum(r['rows'] for r in daily):raise ValueError('Annual raw/normalized keys differ')
     pending.replace(out);(root/'calendar_audit.json').write_text(json.dumps(cal,indent=2))
     status={'year':a.year,'verified_market_days':len(expected),'all_security_rows':count,'unique_securities':len(codes),'primary_pool_rows':primary,'confirmed_subset_rows':subset,'ordinary_rule_candidate_rows':primary-subset,'output_sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'status':'annual_raw_quotes_type_policy_and_independent_calendar_verified','not_completed':['adjusted prices','full suspended-security membership master','company-action reference audit','features/model/backtest'],'daily':daily}
+    status.update({'research_asof':cutoff.isoformat(),'coverage_end':min(cutoff,datetime.date(a.year,12,31)).isoformat(),'coverage_type':'partial_year_asof' if last_month<12 else 'full_year'})
     (root/'annual_verification.json').write_text(json.dumps(status,ensure_ascii=False,indent=2))
     files=[x for x in raw.rglob('*') if x.is_file() and not x.name.endswith('.pending')]+list(root.glob('summary_*.json'))+list(root.glob('quotes_with_type_*.csv.gz'))+[root/'calendar_audit.json',root/'annual_verification.json',root/'type_input_hashes.json']+list(root.glob('calendar_check_*.json'))
     manifest={str(x.relative_to(root)):hashlib.sha256(x.read_bytes()).hexdigest() for x in files};mp=root/'SHA256MANIFEST_YEAR.json';mp.write_text(json.dumps(manifest,indent=2))

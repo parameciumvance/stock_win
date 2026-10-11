@@ -1,0 +1,7 @@
+event_date,code,kind,source_file,official_last_close,official_reference,prior_quote_date,prior_quote_close,on_event_close,primary_pool,status
+2025-01-02,00950B,ex_right_dividend,excal_history.json,14.98,14.9,,,14.81,False,missing_prior_quote
+2025-01-02,4109,ex_right_dividend,excal_history.json,22.3,21.58,,,21.2,True,missing_prior_quote
+2025-01-02,5536,ex_right_dividend,excal_history.json,371.5,366.5,,,367.0,True,missing_prior_quote
+2025-07-02,4706,ex_right_dividend,excal_history.json,28.15,27.45,2025-06-30,27.9,,True,last_close_mismatch
+2025-08-26,6103,ex_right_dividend,excal_history.json,42.0,41.81,2025-08-01,42.4,43.25,True,last_close_mismatch
+2025-01-13,2740,capital_reduction,reduction_history.json,21.55,39.18,,,39.0,True,missing_prior_quote

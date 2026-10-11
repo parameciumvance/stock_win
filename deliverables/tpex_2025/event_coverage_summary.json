@@ -1,0 +1,20 @@
+{
+  "year": 2025,
+  "events": 1261,
+  "by_kind": {
+    "ex_right_dividend": 1250,
+    "capital_reduction": 10,
+    "face_value_change": 1
+  },
+  "by_status": {
+    "missing_prior_quote": 4,
+    "last_close_matches": 1255,
+    "last_close_mismatch": 2
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ]
+}
