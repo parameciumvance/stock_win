@@ -1,0 +1,47 @@
+[
+  {
+    "code": "6488",
+    "type": "cash_dividend",
+    "last_trade_date": "2023-01-04",
+    "resume_or_ex_date": "2023-01-05",
+    "last_close": 443.0,
+    "reference_price": 436.5,
+    "share_ratio": 1.0,
+    "cash_per_old_share": 6.5,
+    "quote_proxy_multiplier_from_event": 1.0148911798396334,
+    "resumed_close": 436.0,
+    "suspension_observed": null,
+    "status": "reference_identity_and_quote_bridge_pass",
+    "limitation": "not actual cash payment ledger; selected event pilot only"
+  },
+  {
+    "code": "3085",
+    "type": "capital_reduction",
+    "last_trade_date": "2023-02-01",
+    "resume_or_ex_date": "2023-02-13",
+    "last_close": 11.0,
+    "reference_price": 22.0,
+    "share_ratio": 0.5,
+    "cash_per_old_share": 0.0,
+    "quote_proxy_multiplier_from_event": 0.5,
+    "resumed_close": 22.1,
+    "suspension_observed": true,
+    "status": "reference_identity_and_quote_bridge_pass",
+    "limitation": "not actual cash payment ledger; selected event pilot only"
+  },
+  {
+    "code": "6763",
+    "type": "face_value_change",
+    "last_trade_date": "2024-08-28",
+    "resume_or_ex_date": "2024-09-09",
+    "last_close": 491.0,
+    "reference_price": 49.1,
+    "share_ratio": 10.0,
+    "cash_per_old_share": 0.0,
+    "quote_proxy_multiplier_from_event": 10.0,
+    "resumed_close": 46.6,
+    "suspension_observed": true,
+    "status": "reference_identity_and_quote_bridge_pass",
+    "limitation": "not actual cash payment ledger; selected event pilot only"
+  }
+]
