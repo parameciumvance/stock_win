@@ -1,0 +1,20 @@
+{
+  "year": 2024,
+  "events": 1073,
+  "by_kind": {
+    "ex_right_dividend": 1060,
+    "capital_reduction": 10,
+    "face_value_change": 3
+  },
+  "by_status": {
+    "last_close_matches": 1042,
+    "event_date_outside_market_calendar": 30,
+    "last_close_mismatch": 1
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ]
+}

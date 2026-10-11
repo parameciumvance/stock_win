@@ -43,8 +43,13 @@ def run():
             rows.append({'date':date.isoformat(),'code':code,'historical_name':r[1],'type_evidence':tier,'cfi':cfi,'primary_pool':primary,'confirmed_subset':sensitivity,'open':r[fields.index('開盤')],'high':r[fields.index('最高')],'low':r[fields.index('最低')],'close':r[fields.index('收盤')],'volume_shares':r[fields.index('成交股數')],'amount_twd':r[fields.index('成交金額(元)')]})
         checked.update(count);summary.append(checked);print(date,len(table['data']),count,flush=True)
     out=root/f'quotes_with_type_{month}.csv.gz'
-    with gzip.open(out,'wt',newline='') as f:
+    pending=out.with_suffix('.pending.gz')
+    with gzip.open(pending,'wt',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+    with gzip.open(pending,'rt',newline='') as f:
+        restored=list(csv.DictReader(f))
+    if len(restored)!=len(rows) or any(any(str(source[k])!=actual[k] for k in source) for source,actual in zip(rows,restored)):raise ValueError('Closed monthly output differs from normalized rows')
+    pending.replace(out)
     status={'month':month,'comparison_calendar_days':len(days),'downloaded_validated_days':len(summary),'all_security_rows':len(rows),'primary_rows':sum(r['primary_pool'] for r in rows),'confirmed_subset_rows':sum(r['confirmed_subset'] for r in rows),'policy_sha256':hashlib.sha256(pathlib.Path('configs/tpex_pool_policy.json').read_bytes()).hexdigest(),'output_sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'limitations':['TWSE comparison calendar; TPEx independent official calendar not yet verified','historical quote-present pool; completely absent/suspended securities master pending','raw unadjusted OHLC; not ready for model labels'],'daily':summary}
     (root/f'summary_{month}.json').write_text(json.dumps(status,ensure_ascii=False,indent=2));print('complete',len(days),len(rows),flush=True)
 if __name__=='__main__':run()
