@@ -1,0 +1,82 @@
+{
+  "observed_date": "2026-10-11",
+  "base_commit": "2a43bc18604b1a10a016aed2658294dd9b7b547f",
+  "evidence": [
+    {
+      "kind": "platform_transport",
+      "source": "deliverables/tpex_execution_interruption.md",
+      "error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 25s",
+      "conclusion": "Execution transport failed; source server failure not established"
+    },
+    {
+      "kind": "platform_offline",
+      "source": "deliverables/tpex_events/interruption_20261011.json",
+      "error": "409 Conflict, environment_offline: Environment is not connected",
+      "underlying_cause": "not provided"
+    },
+    {
+      "kind": "truncated_output",
+      "source": "deliverables/tpex_events/interruption_20261011.json",
+      "error": "EOFError: Compressed file ended before the end-of-stream marker was reached",
+      "conclusion": "Incomplete gzip confirmed; exact cause and relationship to platform outage not proven"
+    },
+    {
+      "kind": "workspace_recovery",
+      "conclusion": "Current scratch again had old files and lacked later code/data; restored latest Git blobs with SHA1 verification",
+      "transport_record": "interruption_work/git_restore.json"
+    },
+    {
+      "kind": "workflow",
+      "conclusion": "Premature final/confirmation at stage boundaries caused avoidable conversational stops; corrected in AGENTS.md"
+    },
+    {
+      "kind": "sandbox_pid_mapping",
+      "conclusion": "Sandbox process IDs differed from host /proc IDs; fixed namespace/NSpid resolution; not evidence of prior outage cause"
+    }
+  ],
+  "current_runtime_observation": {
+    "observed_at": "2026-10-11T10:04:33.005796+00:00",
+    "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+    "memory_events": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "memory_current_bytes": "1821106176",
+    "memory_limit_bytes": "8589934592"
+  },
+  "past_oom_conclusion": "Unknown; counters in current environment cannot establish historical OOM",
+  "tests": {
+    "prior_tpex": 45,
+    "flow_resume": 4,
+    "runtime": 10,
+    "total": 59,
+    "passed": true,
+    "scope": "Fixtures, real SIGTERM/SIGKILL, timeout, orphan detection, locks, restart, hash tamper, corrupt gzip, checkpoint gates; no full annual data rerun"
+  },
+  "changes": [
+    "Serial resumable runner",
+    "15-second heartbeat and per-attempt log",
+    "Input/output SHA cache validation",
+    "Timeout and sampled main-process RSS guard",
+    "Exit signal and cgroup snapshots",
+    "Namespace-safe process identity",
+    "Year source lock and atomic raw/meta writes",
+    "Bounded network-only retry",
+    "Missing-meta reacquisition",
+    "Source archive save/readback gate",
+    "Operational continuity instructions"
+  ],
+  "limitations": [
+    "Whole-environment failure also stops the runner; no automatic platform restart",
+    "Local logs/state need persistent saving",
+    "RSS sampling is not a process-tree memory limit",
+    "Checkpoint receipt is an operator record; runner does not upload archives automatically",
+    "Platform root cause remains unknown"
+  ],
+  "model_or_rules_changed": false,
+  "next_step": "Bounded old institutional schema support and fixtures; production runner telemetry at next authorized job; no parameter tuning"
+}

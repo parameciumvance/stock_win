@@ -141,3 +141,16 @@ tpex-sample-health:
 tpex-long-history-probe:
 	$(PYTHON) probe_tpex_long_history.py
 
+
+.PHONY: test-research-runtime research-run research-status
+RESEARCH_PLAN ?= configs/tpex_source_pipeline_2026.json
+RESEARCH_STATE_DIR ?= deliverables/research_run
+
+test-research-runtime:
+	$(PYTHON) -m unittest test_research_pipeline test_tpex_flow_resume -q
+
+research-run:
+	$(PYTHON) research_pipeline.py --plan $(RESEARCH_PLAN) --state-dir $(RESEARCH_STATE_DIR)
+
+research-status:
+	$(PYTHON) research_pipeline.py --plan $(RESEARCH_PLAN) --state-dir $(RESEARCH_STATE_DIR) --status

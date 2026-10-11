@@ -1,0 +1,26 @@
+{
+  "timeout_seconds": 3600,
+  "max_rss_mb": 4096,
+  "stages": [
+    {
+      "id": "institutional_2026",
+      "command": ["{python}", "acquire_tpex_flow_year.py", "--year", "2026"],
+      "inputs": ["acquire_tpex_flow_year.py", "tpex_flow_pilot.py", "research_runtime.py", "deliverables/tpex_2026/calendar_audit.json", "deliverables/tpex_2026/quotes_with_type_2026.csv.gz"],
+      "outputs": ["deliverables/tpex_flow_2026/institutional_tpex_2026.csv.gz", "deliverables/tpex_flow_2026/acquisition.json", "deliverables/tpex_flow_2026/coverage.csv", "deliverables/tpex_flow_2026/raw"],
+      "progress": "deliverables/tpex_flow_2026/download_progress.json"
+    },
+    {
+      "id": "source_replay_and_package_2026",
+      "command": ["{python}", "package_tpex_flow_source.py", "--year", "2026"],
+      "inputs": ["package_tpex_flow_source.py", "tpex_flow_pilot.py", "tpex_event_comparison.py", "deliverables/tpex_flow_2026/acquisition.json", "deliverables/tpex_flow_2026/institutional_tpex_2026.csv.gz", "deliverables/tpex_flow_2026/raw", "deliverables/tpex_flow_2026/coverage.csv", "deliverables/tpex_2026/calendar_audit.json"],
+      "outputs": ["deliverables/tpex_flow_2026/tpex_institutional_source_2026_checkpoint.zip", "deliverables/tpex_flow_2026/source_checkpoint.json", "deliverables/tpex_flow_2026/source_replay.json"]
+    },
+    {
+      "id": "durable_source_checkpoint_2026",
+      "checkpoint": {
+        "archive": "deliverables/tpex_flow_2026/tpex_institutional_source_2026_checkpoint.zip",
+        "receipt": "deliverables/tpex_flow_2026/pipeline_checkpoint_receipt.json"
+      }
+    }
+  ]
+}
