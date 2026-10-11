@@ -1,0 +1,8 @@
+{
+  "timeout_seconds": 3600,
+  "max_rss_mb": 4096,
+  "stages": [
+    {"id":"proxy_tests","command":["{python}","-m","unittest","test_tpex_proxy_features","test_tpex_rule_comparison"],"inputs":["tpex_proxy_features.py","tpex_rule_comparison.py","test_tpex_proxy_features.py","test_tpex_rule_comparison.py"],"outputs":[]},
+    {"id":"proxy_2022","command":["{python}","tpex_proxy_features.py","--start-year","2022","--end-year","2022","--output","deliverables/tpex_features_2022"],"inputs":["tpex_proxy_features.py","configs/tpex_proxy_protocol.json","deliverables/tpex_2022/quotes_with_type_2022.csv.gz","deliverables/tpex_2022/annual_verification.json","deliverables/tpex_2022/calendar_audit.json","deliverables/tpex_2022/event_coverage.json"],"outputs":["deliverables/tpex_features_2022/features_and_gross_labels.csv.gz","deliverables/tpex_features_2022/rule_daily_diagnostics.csv","deliverables/tpex_features_2022/summary.json"]}
+  ]
+}

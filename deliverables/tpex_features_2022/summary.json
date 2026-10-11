@@ -1,0 +1,24 @@
+{
+  "rows": 195840,
+  "market_days": 246,
+  "source_hashes": {
+    "configs/tpex_proxy_protocol.json": "c6f2de76ef12cdacf6631aa6fe7afbab0cec3db25e4a10b9a5502bbdebf5ddb4",
+    "deliverables/tpex_2022/quotes_with_type_2022.csv.gz": "e801bb1f41c649c65a395bddfbc8bcc4b562865e9ef3d269f75db5d053a87642",
+    "deliverables/tpex_2022/event_coverage.json": "3284fbdc9176626d599f2070ae88029bd3143fc234017e4665ee72b4dc891989"
+  },
+  "output_sha256": "bd7ece7bd25905ea8af2f91170cdd6d291bb07bf152e2dc9aa9d7b59604b56cb",
+  "rule_definition": "close > prior 60 market-day maximum close AND volume > 1.5 * prior 20 market-day mean volume; windows exclude today",
+  "gross_labels": "next market-day open to day t+20/t+60 close; missing endpoints/event transitions unknown; no future-result pool filter",
+  "not_completed": [
+    "0050 relative benchmark",
+    "transaction-cost and fill rules",
+    "strategy backtest",
+    "model training",
+    "exact corporate-action cash ledger"
+  ],
+  "limitations": [
+    "official last/reference forward multiplier is a quote proxy, not shareholder total return",
+    "unverified events are not adjusted; crossing windows unknown",
+    "current type evidence is retrospective metadata, not historical announcement snapshot"
+  ]
+}

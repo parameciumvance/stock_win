@@ -1,0 +1,16 @@
+{
+  "rows": 195840,
+  "common_feature_rows": 116580,
+  "first_common_date": "2022-04-11",
+  "last_date": "2022-12-30",
+  "unknown_transition_rows": 5,
+  "unknown_labels": {
+    "20": 24317,
+    "60": 55289
+  },
+  "share_unit_events": 24,
+  "common_rows_crossing_share_unit_20day_window": 0,
+  "fixed_rules": true,
+  "benchmark_2022_available": true,
+  "not_backtest": true
+}

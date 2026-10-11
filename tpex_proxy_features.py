@@ -43,10 +43,11 @@ def features(frame,days,events):
     return out.loc[out['primary_pool'].eq(True)].reset_index(drop=True)
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--end-year',type=int,default=2026);a=p.parse_args()
-    root=pathlib.Path('deliverables/tpex_features');root.mkdir(exist_ok=True);frames=[];dates=[];events=[];hashes={}
+    p=argparse.ArgumentParser();p.add_argument('--start-year',type=int,default=2023);p.add_argument('--end-year',type=int,default=2026);p.add_argument('--output',default='deliverables/tpex_features');a=p.parse_args()
+    if a.start_year>a.end_year:p.error('start-year must not exceed end-year')
+    root=pathlib.Path(a.output);root.mkdir(parents=True,exist_ok=True);frames=[];dates=[];events=[];hashes={}
     protocol=pathlib.Path('configs/tpex_proxy_protocol.json');hashes[str(protocol)]=hashlib.sha256(protocol.read_bytes()).hexdigest()
-    for year in range(2023,a.end_year+1):
+    for year in range(a.start_year,a.end_year+1):
         r=pathlib.Path(f'deliverables/tpex_{year}');q=r/f'quotes_with_type_{year}.csv.gz';e=r/'event_coverage.json'
         h=hashlib.sha256(q.read_bytes()).hexdigest()
         if h!=json.loads((r/'annual_verification.json').read_text())['output_sha256']:raise ValueError('Input quote hash mismatch')

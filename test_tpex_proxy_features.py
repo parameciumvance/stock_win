@@ -28,5 +28,17 @@ class ProxyTest(unittest.TestCase):
     def test_missing_entry_is_unknown_without_dropping_pool_row(self):
         days,f=self.frame([100]*100);f['open']=f['open'].astype(object);f.loc[41,'open']='--';out=features(f,days,[])
         self.assertTrue(out.loc[40,'label_unknown20']);self.assertEqual(len(out),100)
+    def test_year_boundary_warmup_and_unfinished_labels_remain_unknown(self):
+        days,f=self.frame([100]*100);out=features(f,days,[])
+        self.assertTrue(out.loc[:59,'breakout60_volume15'].isna().all())
+        self.assertTrue(out.tail(60)['label_unknown60'].all())
+        self.assertTrue(out.tail(20)['label_unknown20'].all())
+    def test_missing_prior_quote_at_first_day_is_not_adjusted(self):
+        days,f=self.frame([100]*100)
+        factors,unknown=event_clock(days,[self.event(days[0],status='missing_prior_quote')])
+        self.assertEqual(factors[0],1);self.assertEqual(unknown[0],1)
+        out=features(f,days,[self.event(days[0],status='missing_prior_quote')])
+        self.assertTrue(out.loc[0,'unverified_event_transition'])
+        self.assertAlmostEqual(out.loc[61,'mom60'],0)
 
 if __name__=='__main__':unittest.main()

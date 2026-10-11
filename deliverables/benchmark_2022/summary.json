@@ -1,0 +1,20 @@
+{
+  "rows": 246,
+  "sha256": "1f0fd1aab20ac335057d4a0b6299c96a491611c162ab070e462cb2c346aeb920",
+  "events": [
+    {
+      "date": "2022-01-21",
+      "prior_close": 149.1,
+      "cash": 3.2,
+      "proxy_reference": 145.9
+    },
+    {
+      "date": "2022-07-18",
+      "prior_close": 115.5,
+      "cash": 1.8,
+      "proxy_reference": 113.7
+    }
+  ],
+  "method": "forward theoretical cash-dividend proxy prior_close/(prior_close-cash); not official rounded reference or cash ledger",
+  "no_split_evidence": "2022 split audit pending; do not claim complete company-action coverage"
+}

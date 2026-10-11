@@ -1,0 +1,106 @@
+{
+  "timeout_seconds": 3600,
+  "max_rss_mb": 4096,
+  "stages": [
+    {
+      "id": "benchmark_2022_source_replay",
+      "command": [
+        "{python}",
+        "acquire_0050_2022.py"
+      ],
+      "inputs": [
+        "acquire_0050_2022.py",
+        "research_runtime.py",
+        "deliverables/tpex_2022/calendar_audit.json",
+        "deliverables/benchmark_2022/raw"
+      ],
+      "outputs": [
+        "deliverables/benchmark_2022/prices_adjusted_2022.csv.gz",
+        "deliverables/benchmark_2022/summary.json"
+      ]
+    },
+    {
+      "id": "fixed_rule_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "test_tpex_proxy_features",
+        "test_tpex_rule_comparison"
+      ],
+      "inputs": [
+        "tpex_proxy_features.py",
+        "tpex_rule_comparison.py",
+        "test_tpex_proxy_features.py",
+        "test_tpex_rule_comparison.py"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "fixed_rule_comparison_2022",
+      "command": [
+        "{python}",
+        "tpex_rule_comparison.py",
+        "--root",
+        "deliverables/tpex_features_2022",
+        "--benchmark",
+        "deliverables/benchmark_2022/prices_adjusted_2022.csv.gz",
+        "--benchmark-sha256",
+        "1f0fd1aab20ac335057d4a0b6299c96a491611c162ab070e462cb2c346aeb920"
+      ],
+      "inputs": [
+        "tpex_rule_comparison.py",
+        "deliverables/benchmark_2022/prices_adjusted_2022.csv.gz",
+        "deliverables/benchmark_2022/summary.json",
+        "deliverables/tpex_features_2022/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2022/summary.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2022/rule_net_relative_daily.csv",
+        "deliverables/tpex_features_2022/rule_comparison.json",
+        "deliverables/tpex_features_2022/rule_comparison.md"
+      ]
+    },
+    {
+      "id": "uncertainty_2022",
+      "command": [
+        "{python}",
+        "audit_tpex_2022_rule_uncertainty.py"
+      ],
+      "inputs": [
+        "audit_tpex_2022_rule_uncertainty.py",
+        "tpex_ridge_baseline.py",
+        "configs/tpex_ridge_protocol.json",
+        "deliverables/tpex_2022/calendar_audit.json",
+        "deliverables/tpex_features_2022/rule_net_relative_daily.csv"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2022/uncertainty.json",
+        "deliverables/tpex_features_2022/review.md"
+      ]
+    },
+    {
+      "id": "audit_package_2022",
+      "command": [
+        "{python}",
+        "package_tpex_2022_proxy.py"
+      ],
+      "inputs": [
+        "package_tpex_2022_proxy.py",
+        "deliverables/tpex_features_2022/summary.json",
+        "deliverables/tpex_features_2022/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2022/rule_comparison.json",
+        "deliverables/tpex_features_2022/uncertainty.json",
+        "deliverables/tpex_2022/event_coverage.json",
+        "deliverables/benchmark_2022/raw",
+        "deliverables/benchmark_2022/summary.json",
+        "deliverables/benchmark_2022/prices_adjusted_2022.csv.gz"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2022/audit.json",
+        "deliverables/tpex_features_2022/research_checkpoint.json",
+        "deliverables/tpex_features_2022/tpex_rules_2022_research_checkpoint.zip"
+      ]
+    }
+  ]
+}
