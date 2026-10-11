@@ -18,10 +18,11 @@ def main():
  for y in range(2023,year+1):files.extend([Path(f'deliverables/tpex_flow_{y}/institutional_tpex_{y}.csv.gz'),Path(f'deliverables/tpex_flow_{y}/acquisition.json'),Path(f'deliverables/tpex_{y}/calendar_audit.json')])
  files.extend(p for p in events.iterdir() if p.is_file() and f'through_{year}.' in p.name)
  files.extend([Path('deliverables/tpex_revenue/monthly.csv.gz'),Path('deliverables/tpex_revenue/acquisition.json')])
- code_files=['tpex_flow_pilot.py','acquire_tpex_flow_year.py','tpex_event_features.py','tpex_event_comparison.py','audit_tpex_event_comparison.py','summarize_tpex_event_uncertainty.py','configs/tpex_event_rules_protocol.json','requirements_tpex.txt']
+ code_files=['tpex_flow_pilot.py','acquire_tpex_flow_year.py','tpex_event_features.py','tpex_event_comparison.py','audit_tpex_event_comparison.py','summarize_tpex_event_uncertainty.py','make_tpex_event_review.py','package_tpex_event_year.py','configs/tpex_event_rules_protocol.json','requirements_tpex.txt']
  reproduction=events/f'reproduction_environment_through_{year}.json'
  reproduction.write_text(json.dumps(dict(repository='parameciumvance/stock_win',code_commit=a.code_commit,code_sha256={n:hashlib.sha256(Path(n).read_bytes()).hexdigest() for n in code_files}),indent=2)+'\n');files.append(reproduction)
  if not json.loads((events/f'verification_through_{year}.json').read_text())['all_checks_passed']:raise ValueError('Selection audit not passed')
+ files=list(dict.fromkeys(files))
  manifest={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in files};dest=root/f'tpex_flow_events_{year}_checkpoint.zip';temp=dest.with_suffix('.pending.zip')
  with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED,compresslevel=1) as z:
   for p in files:z.write(p,str(p))
