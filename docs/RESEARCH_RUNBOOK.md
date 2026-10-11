@@ -42,3 +42,18 @@ make research-run RESEARCH_PLAN=configs/tpex_long_history_schema_pipeline.json R
 ```
 
 第一次執行包含57項TPEx及10項runtime測試、四日舊／新版法人逐筆重播和全證券行情交集檢查；後續依完整SHA跳過已驗收階段。Git中的fixture是來源回應的壓縮副本，可獨立執行 `python -m unittest test_tpex_flow_legacy -q`。四日結果不代表全年或歷史普通股分類已完成。
+
+
+## 2022全年來源試點
+
+使用者已採用先做2022，再考慮擴八年。入口：
+
+```sh
+make research-run RESEARCH_PLAN=configs/tpex_2022_source_pipeline.json RESEARCH_STATE_DIR=deliverables/tpex_2022_source_run
+```
+
+需先還原凍結的 `deliverables/tpex_pilot/classification/isin.raw`、`isin_listed.raw`、`unknown_single_query.html`。其SHA由年度 `type_input_hashes.json` 固定，不能換成新抓版本。年度行情包包含相同三份分類副本，來源為回溯分類證據，並非當年公告快照。恢復時核對副本SHA再還原到上述位置。
+
+行情先逐月下載；年末逐日重播及TPEx／TWSE日曆相互核對，保存行情ZIP並取回驗證後寫 `deliverables/tpex_2022/pipeline_checkpoint_receipt.json`。再執行同一入口，續抓法人並逐筆重播、保存第二包、取回核對及寫 `deliverables/tpex_flow_2022/pipeline_checkpoint_receipt.json`。最後執行事件前收盤對應與來源缺口報告。正常保存gate不需再次詢問使用者。
+
+部分月份checkpoint只供恢復，不代表全年驗收完成。2022年初缺2021前收盤、完整停牌證券主檔、未解分類、還原價及股東現金帳仍分開列待辦；不因下載完成就開模型調參。
