@@ -1,0 +1,15 @@
+{
+  "year": 2021,
+  "through_month": 6,
+  "days": 116,
+  "rows": 82419,
+  "sha256": "738ac9ec3505b1a52eef95ec9378abdc750f607b65d4f6368449a8b234003ec9",
+  "normalized_sha256": "a5aa00cf7ba30b1167b1613fd5c3f0480b9788503146e228971aa5924a3125e7",
+  "manifest_files": 234,
+  "archive": "deliverables/tpex_flow_2021/tpex_institutional_2021_partial_01_06_checkpoint.zip",
+  "manifest": "deliverables/tpex_flow_2021/partial_01_06_manifest.json",
+  "library_file_id": "libfile_4e38a53a5bc08191a4be5eab9ae20b93",
+  "file_id": "file_000000007aa881fa87897610afb97627",
+  "roundtrip_verified": true,
+  "scope": "partial source only; missing primary rows not inferred as zero; full-year pending"
+}

@@ -1,0 +1,55 @@
+{
+  "reported_on": "2026-10-11",
+  "error": "write_stdin failed: Unified exec process failed: exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 25s",
+  "read_only_probe": "pwd returned no output before agent stopped waiting; no source process was terminated",
+  "cause": "unknown; no evidence establishes exchange blocking, OOM, quota or a session lifetime limit",
+  "source_process_status": "unknown; do not start a duplicate before checking runtime identity and source lock",
+  "last_received_flow_progress": {
+    "year": 2021,
+    "verified_days": 182,
+    "expected_days": 244,
+    "last_verified_date": "2021-10-04",
+    "heartbeat_at": "2026-10-11T14:14:26.866903+00:00"
+  },
+  "durable_flow_partial": {
+    "year": 2021,
+    "through_month": 6,
+    "days": 116,
+    "rows": 82419,
+    "sha256": "738ac9ec3505b1a52eef95ec9378abdc750f607b65d4f6368449a8b234003ec9",
+    "normalized_sha256": "a5aa00cf7ba30b1167b1613fd5c3f0480b9788503146e228971aa5924a3125e7",
+    "manifest_files": 234,
+    "archive": "deliverables/tpex_flow_2021/tpex_institutional_2021_partial_01_06_checkpoint.zip",
+    "manifest": "deliverables/tpex_flow_2021/partial_01_06_manifest.json",
+    "library_file_id": "libfile_4e38a53a5bc08191a4be5eab9ae20b93",
+    "file_id": "file_000000007aa881fa87897610afb97627",
+    "roundtrip_verified": true,
+    "scope": "partial source only; missing primary rows not inferred as zero; full-year pending"
+  },
+  "durable_quote": {
+    "year": 2021,
+    "days": 244,
+    "rows": 219267,
+    "library_file_id": "libfile_92401be0db848191a50bc7258f39e8fa",
+    "file_id": "file_00000000175082309b75f72a81ba214f",
+    "sha256": "df2a862b22dc760f53b5e2912c87c016219afb29bdf86aad0d9526e13fe9ae03",
+    "manifest_files": 573,
+    "roundtrip_verified": true
+  },
+  "durable_crossyear": {
+    "library_file_id": "libfile_233e200bbdcc8191b376796f0b3f258a",
+    "file_id": "file_00000000ad6881f8bae813dae649839c",
+    "sha256": "702b1dbbdc15304e988f81e948677a3cec10f97805299756ed6d39795c0faa39",
+    "manifest_files": 47,
+    "roundtrip_verified": true
+  },
+  "recovery_plan": "configs/tpex_2021_resume_from_saved_quotes.json",
+  "recovery_rules": [
+    "verify remote commit and restore exact archived sources with SHA, CRC and manifest checks",
+    "restore 2021 full quote archive into its year root and write the known saved receipt; do not regenerate frozen annual quotes",
+    "restore institutional partial archive at workspace-relative paths, preserving original raw and meta",
+    "check prior child runtime identity and year source lock; no duplicate if still alive",
+    "run recovery plan with original source state directory; complete remaining institutional acquisition, replay, save/readback gate and readiness",
+    "no new model, no parameter search, no claim of full institutional completion"
+  ]
+}
