@@ -1,0 +1,20 @@
+{
+  "year": 2020,
+  "verified_market_days": 245,
+  "all_security_rows": 216362,
+  "unique_securities": 914,
+  "primary_pool_rows": 189746,
+  "confirmed_subset_rows": 181957,
+  "ordinary_rule_candidate_rows": 7789,
+  "output_sha256": "8a1b838e0a1959952fb2ecae5a312dcbf260090a920567e9f2b20bb7ac971737",
+  "status": "annual_raw_quotes_type_policy_and_independent_calendar_verified",
+  "not_completed": [
+    "adjusted prices",
+    "full suspended-security membership master",
+    "company-action reference audit",
+    "features/model/backtest"
+  ],
+  "research_asof": "2026-10-02",
+  "coverage_end": "2020-12-31",
+  "coverage_type": "full_year"
+}
