@@ -1,0 +1,10 @@
+{
+  "confirmed_security_rows_checked": 2677,
+  "rule_conflicts": [],
+  "preserved_rows": 2761,
+  "original_rows": 2761,
+  "unknown_unique": 40,
+  "ordinary_candidate_unique": 20,
+  "scope": "only three sample dates; not all history",
+  "rule_date": "2020-05-01"
+}
