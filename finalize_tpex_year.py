@@ -6,6 +6,9 @@ from tpex_pool import source_types,classify
 def main():
     p=argparse.ArgumentParser();p.add_argument('--year',type=int,default=2023);a=p.parse_args();root=pathlib.Path(f'deliverables/tpex_{a.year}');raw=root/'raw'
     cal=json.loads((root/'calendar_audit.json').read_text());expected=[d for m in cal['months'] for d in m['dates']]
+    cutoff=datetime.date.fromisoformat(json.loads(pathlib.Path('configs/tpex_pool_policy.json').read_text())['research_asof'])
+    last_month=cutoff.month if a.year==cutoff.year else 12
+    if a.year>cutoff.year or [m['month'] for m in cal['months']]!=list(range(1,last_month+1)) or any(datetime.date.fromisoformat(d)>cutoff for d in expected):raise ValueError('Calendar coverage or cutoff invalid')
     if len(expected)!=len(set(expected)):raise ValueError('Duplicate calendar day')
     summaries=[];count=primary=subset=0;codes=set();daily=[];normalized={}
     type_hashes=json.loads((root/'type_input_hashes.json').read_text())['sources']
@@ -15,7 +18,7 @@ def main():
     out=root/f'quotes_with_type_{a.year}.csv.gz';pending=out.with_suffix('.pending.gz');seen=set();rawkeys=set();fields=None
     with gzip.open(pending,'wt',newline='') as dst:
         writer=None
-        for m in range(1,13):
+        for m in range(1,last_month+1):
             month=f'{a.year}{m:02}';summary=json.loads((root/f'summary_{month}.json').read_text());source=root/f'quotes_with_type_{month}.csv.gz'
             if hashlib.sha256(source.read_bytes()).hexdigest()!=summary['output_sha256']:raise ValueError('Monthly CSV hash mismatch')
             if summary['policy_sha256']!=hashlib.sha256(pathlib.Path('configs/tpex_pool_policy.json').read_bytes()).hexdigest():raise ValueError('Policy drift')
@@ -48,7 +51,8 @@ def main():
             cal['months'][m-1]['quote_month_complete']=True
             cp=json.loads((raw/f'calendar_{month}.json').read_text());comparison=[]
             for r in cp['data']:
-                yy,mm,dd=map(int,r[0].split('/'));comparison.append(datetime.date(yy+1911,mm,dd).isoformat())
+                yy,mm,dd=map(int,r[0].split('/'));day=datetime.date(yy+1911,mm,dd)
+                if day<=cutoff:comparison.append(day.isoformat())
             if comparison!=dates:raise ValueError('TWSE/TPEx calendar mismatch')
             cal['months'][m-1]['twse_comparison_verified']=True
     if [r['requested_date'] for r in daily]!=expected:raise ValueError('Annual date coverage mismatch')
