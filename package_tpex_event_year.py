@@ -16,7 +16,8 @@ def main():
  (events/f'input_checkpoints_through_{year}.json').write_text(json.dumps(pointers,indent=2)+'\n')
  files=sorted(root.glob('raw/*'))+[root/'coverage.csv',root/'source_replay.json']
  for y in range(2023,year+1):files.extend([Path(f'deliverables/tpex_flow_{y}/institutional_tpex_{y}.csv.gz'),Path(f'deliverables/tpex_flow_{y}/acquisition.json'),Path(f'deliverables/tpex_{y}/calendar_audit.json')])
- files.extend(p for p in events.iterdir() if p.is_file() and f'through_{year}.' in p.name)
+ # Only completed research artifacts belong in checkpoints; interrupted staging files do not.
+ files.extend(p for p in events.iterdir() if p.is_file() and f'through_{year}.' in p.name and p.suffix in ['.csv','.gz','.json','.md'])
  files.extend([Path('deliverables/tpex_revenue/monthly.csv.gz'),Path('deliverables/tpex_revenue/acquisition.json')])
  code_files=['tpex_flow_pilot.py','acquire_tpex_flow_year.py','tpex_event_features.py','tpex_event_comparison.py','audit_tpex_event_comparison.py','summarize_tpex_event_uncertainty.py','make_tpex_event_review.py','package_tpex_event_year.py','configs/tpex_event_rules_protocol.json','requirements_tpex.txt']
  reproduction=events/f'reproduction_environment_through_{year}.json'
