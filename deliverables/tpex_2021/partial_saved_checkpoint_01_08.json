@@ -1,0 +1,14 @@
+{
+  "year": 2021,
+  "through_month": 8,
+  "market_days": 160,
+  "quote_rows": 143753,
+  "manifest_files": 356,
+  "sha256": "d8cc0cbbeb55b07eee69585330e0baa73923590b89b1e31e8ee7f22ba40064a8",
+  "scope": "partial completed months only; independent TPEx calendar/action audit pending",
+  "archive": "deliverables/tpex_2021/tpex_quotes_2021_partial_01_08_checkpoint.zip",
+  "manifest": "deliverables/tpex_2021/partial_manifest_01_08.json",
+  "library_file_id": "libfile_1f61357807a08191bc63901f664da52c",
+  "file_id": "file_000000001d948209a91c5204216bb8c3",
+  "roundtrip_verified": true
+}
