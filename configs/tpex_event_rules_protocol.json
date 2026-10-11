@@ -1,0 +1,17 @@
+{
+ "frozen_on":"2026-10-11",
+ "revenue_rule":"raw current-month revenue / same-month-prior-year > prior contiguous month's same ratio; both positive denominators and nonnegative revenue",
+ "revenue_proxy_lags_calendar_days":[45,60],
+ "revenue_available":"first market day strictly after month_end+lag; latest month only; age>100 days unknown",
+ "flow_rule":"each of prior five market days institutional total_net >0; source row absent on any day => unknown; signal-day report excluded",
+ "price_rule":"close > prior60 max close and volume >1.5 * prior20 mean, as frozen earlier",
+ "methods":["revenue_acceleration","institutional_five_days","breakout60_volume15","all_three","vol20","atr20_pct","mom60","ridge"],
+ "common_pool":"finite as-of existing seven price features, price rule, revenue rule, and five-day institutional rule; future labels do not filter pool",
+ "costs":"unchanged existing commission .001425, sell_tax .003, each-side slippage .005",
+ "horizons_market_days":[20,60],
+ "top_fraction_baselines":0.1,
+ "min_common_pool":100,
+ "primary_proxy_lag":45,
+ "no_threshold_search":true,
+ "limitations":"retrospective static monthly snapshots are not strict first-publication PIT; report separate from original models"
+}
