@@ -1,0 +1,28 @@
+{
+  "rows": 580810,
+  "market_days": 729,
+  "source_hashes": {
+    "configs/tpex_proxy_protocol.json": "c6f2de76ef12cdacf6631aa6fe7afbab0cec3db25e4a10b9a5502bbdebf5ddb4",
+    "deliverables/tpex_2021/quotes_with_type_2021.csv.gz": "9eb1ce0e91f80dbca93d20385a5033cdacab61fdf6eb3191594a49fd39fb93cf",
+    "deliverables/tpex_bridge_crossyear_2021/event_coverage.json": "74d02c27452551ed8a1c802d1d01fc61e4e5dab6d26594e7ec807bc8e491f93b",
+    "deliverables/tpex_2022/quotes_with_type_2022.csv.gz": "e801bb1f41c649c65a395bddfbc8bcc4b562865e9ef3d269f75db5d053a87642",
+    "deliverables/tpex_bridge_crossyear_2022/event_coverage.json": "4c5a93641216938c431b81990669e242fc5b77e6a6d56070de834fc49300808c",
+    "deliverables/tpex_2023/quotes_with_type_2023.csv.gz": "95aa5806c05f0ee18a459b00df2144b79c3e6a597aec04a3dea15d4e9fff5cf4",
+    "deliverables/tpex_bridge_crossyear_2023/event_coverage.json": "2c5da9bf0ae3abb71885e692d846a37a9d6551f2c85200e66921ca385dbbd490"
+  },
+  "output_sha256": "eb37c6550a00cd93923731135141b180a29211a4ce4985ab32ea5cbdb8a9d34e",
+  "rule_definition": "close > prior 60 market-day maximum close AND volume > 1.5 * prior 20 market-day mean volume; windows exclude today",
+  "gross_labels": "next market-day open to day t+20/t+60 close; missing endpoints/event transitions unknown; no future-result pool filter",
+  "not_completed": [
+    "0050 relative benchmark",
+    "transaction-cost and fill rules",
+    "strategy backtest",
+    "model training",
+    "exact corporate-action cash ledger"
+  ],
+  "limitations": [
+    "official last/reference forward multiplier is a quote proxy, not shareholder total return",
+    "unverified events are not adjusted; crossing windows unknown",
+    "current type evidence is retrospective metadata, not historical announcement snapshot"
+  ]
+}

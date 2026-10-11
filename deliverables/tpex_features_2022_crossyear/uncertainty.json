@@ -1,0 +1,168 @@
+{
+  "protocol_sha256": "a193697b50000b52a4128648079a2c6dda3167a79fd617c2a00269e6cde315eb",
+  "calendar_positions": 246,
+  "summary": [
+    {
+      "method": "atr20_pct",
+      "horizon": 20,
+      "conditional_mean": -0.015582019760554901,
+      "known_dates": 225,
+      "intervals": {
+        "20": {
+          "lower_95": -0.033869285063717086,
+          "upper_95": 0.003905394679058244,
+          "known": 225,
+          "calendar_positions": 246
+        },
+        "60": {
+          "lower_95": -0.028348010940594654,
+          "upper_95": -0.0018208103234733217,
+          "known": 225,
+          "calendar_positions": 246
+        },
+        "80": {
+          "lower_95": -0.02903009328138563,
+          "upper_95": -0.004086408773446129,
+          "known": 225,
+          "calendar_positions": 246
+        }
+      }
+    },
+    {
+      "method": "atr20_pct",
+      "horizon": 60,
+      "conditional_mean": -0.012288808617571997,
+      "known_dates": 218,
+      "intervals": {
+        "20": {
+          "lower_95": -0.03732849143963368,
+          "upper_95": 0.012888112313092184,
+          "known": 218,
+          "calendar_positions": 246
+        },
+        "60": {
+          "lower_95": -0.04002204801209303,
+          "upper_95": 0.012140177383501725,
+          "known": 218,
+          "calendar_positions": 246
+        },
+        "80": {
+          "lower_95": -0.03649557317735652,
+          "upper_95": 0.008089660931157894,
+          "known": 218,
+          "calendar_positions": 246
+        }
+      }
+    },
+    {
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "conditional_mean": -0.005108236724009608,
+      "known_dates": 231,
+      "intervals": {
+        "20": {
+          "lower_95": -0.02838577186085376,
+          "upper_95": 0.016092159631734982,
+          "known": 231,
+          "calendar_positions": 246
+        },
+        "60": {
+          "lower_95": -0.031080925310035833,
+          "upper_95": 0.01675486173866866,
+          "known": 231,
+          "calendar_positions": 246
+        },
+        "80": {
+          "lower_95": -0.030503865825956742,
+          "upper_95": 0.01424900229439692,
+          "known": 231,
+          "calendar_positions": 246
+        }
+      }
+    },
+    {
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "conditional_mean": 0.04360295161024056,
+      "known_dates": 217,
+      "intervals": {
+        "20": {
+          "lower_95": -0.0012283126740597066,
+          "upper_95": 0.089704907890655,
+          "known": 217,
+          "calendar_positions": 246
+        },
+        "60": {
+          "lower_95": -0.016704886170599804,
+          "upper_95": 0.09839747833398352,
+          "known": 217,
+          "calendar_positions": 246
+        },
+        "80": {
+          "lower_95": -0.02096845485106571,
+          "upper_95": 0.09825612533948362,
+          "known": 217,
+          "calendar_positions": 246
+        }
+      }
+    },
+    {
+      "method": "vol20",
+      "horizon": 20,
+      "conditional_mean": -0.01902647551443913,
+      "known_dates": 213,
+      "intervals": {
+        "20": {
+          "lower_95": -0.03455342031629544,
+          "upper_95": -0.004010871187423629,
+          "known": 213,
+          "calendar_positions": 246
+        },
+        "60": {
+          "lower_95": -0.031926994994614495,
+          "upper_95": -0.005960595821291238,
+          "known": 213,
+          "calendar_positions": 246
+        },
+        "80": {
+          "lower_95": -0.031962981584004464,
+          "upper_95": -0.007607825499532152,
+          "known": 213,
+          "calendar_positions": 246
+        }
+      }
+    },
+    {
+      "method": "vol20",
+      "horizon": 60,
+      "conditional_mean": -0.014736152602459578,
+      "known_dates": 227,
+      "intervals": {
+        "20": {
+          "lower_95": -0.03585237026589898,
+          "upper_95": 0.008933405483123574,
+          "known": 227,
+          "calendar_positions": 246
+        },
+        "60": {
+          "lower_95": -0.03939289940837973,
+          "upper_95": 0.008894209718287749,
+          "known": 227,
+          "calendar_positions": 246
+        },
+        "80": {
+          "lower_95": -0.037961007190188835,
+          "upper_95": 0.004133199931983215,
+          "known": 227,
+          "calendar_positions": 246
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "calendar-position circular bootstrap; unknown windows retained",
+    "conditional known-date means, not full-year portfolio return",
+    "2022 retrospective research, not new holdout",
+    "0050 cash-dividend theoretical proxy; official split audit pending"
+  ]
+}

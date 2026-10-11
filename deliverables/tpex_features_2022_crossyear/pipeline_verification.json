@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "stages": {
+    "quotes_2021_saved": {
+      "status": "complete",
+      "fingerprint": "6ac61ae2c273f712b62455ab14da23698b779399ebb1fdd6490e50e9c577d9c4",
+      "exit_code": null,
+      "exit_signal": null,
+      "elapsed_seconds": null,
+      "peak_observed_rss_bytes": null,
+      "outputs": {
+        "deliverables/tpex_2021/tpex_raw_type_2021_checkpoint.zip": "df2a862b22dc760f53b5e2912c87c016219afb29bdf86aad0d9526e13fe9ae03",
+        "deliverables/tpex_2021/pipeline_checkpoint_receipt.json": "9e2cb8132cf88b30ee88553264156839d6c86750aad96a5dfdc8d592a00de519"
+      }
+    },
+    "bridge_2021": {
+      "status": "complete",
+      "fingerprint": "e9b98ef579c4a6f0a4f17affd6852454236cf4ddd41c501e2937a928564666b2",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.5046186450003916,
+      "peak_observed_rss_bytes": 254955520,
+      "outputs": {
+        "deliverables/tpex_bridge_crossyear_2021/event_coverage.json": "74d02c27452551ed8a1c802d1d01fc61e4e5dab6d26594e7ec807bc8e491f93b",
+        "deliverables/tpex_bridge_crossyear_2021/event_coverage_summary.json": "c8ed671229df371e87ad08c3de4eb3846cf88bc6d0a24cfa53e49601480abefa"
+      }
+    },
+    "bridge_2022": {
+      "status": "complete",
+      "fingerprint": "436fb366d04b1939491233580e032c9d712f508cdb3249a3d4505d6102280c71",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.506046826000329,
+      "peak_observed_rss_bytes": 567943168,
+      "outputs": {
+        "deliverables/tpex_bridge_crossyear_2022/event_coverage.json": "4c5a93641216938c431b81990669e242fc5b77e6a6d56070de834fc49300808c",
+        "deliverables/tpex_bridge_crossyear_2022/event_coverage_summary.json": "ff4b10e0466d2388b7ea71d8631eafaaf72a717ff1dc56046570cd89752ece1c"
+      }
+    },
+    "bridge_2023": {
+      "status": "complete",
+      "fingerprint": "6bc20b9dbea7590a31b3fedd828d27e28ff5fc66bf904f55d52c6d797cb63bc6",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.5062267799999063,
+      "peak_observed_rss_bytes": 571277312,
+      "outputs": {
+        "deliverables/tpex_bridge_crossyear_2023/event_coverage.json": "2c5da9bf0ae3abb71885e692d846a37a9d6551f2c85200e66921ca385dbbd490",
+        "deliverables/tpex_bridge_crossyear_2023/event_coverage_summary.json": "cbfacc1ca6a4b60c004064f5c99538ff14e85bebb635785a164314aa975abaec"
+      }
+    },
+    "features_2021_2023": {
+      "status": "complete",
+      "fingerprint": "c4cee8967d8314a0d585892b9efa7dc6feaa546abdf61ef6e148582691e5bf89",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 58.64887506099967,
+      "peak_observed_rss_bytes": 535678976,
+      "outputs": {
+        "deliverables/tpex_features_2022_crossyear/features_and_gross_labels.csv.gz": "eb37c6550a00cd93923731135141b180a29211a4ce4985ab32ea5cbdb8a9d34e",
+        "deliverables/tpex_features_2022_crossyear/summary.json": "b70e41eef6d5c5f6535e9ef61fe4d2b2a4f432299e7d9d1617189c2047f94cbf",
+        "deliverables/tpex_features_2022_crossyear/rule_daily_diagnostics.csv": "17ead6c033750f52d60c0f23bded51fc95615811fb6cc229c40af78e2eae2010"
+      }
+    },
+    "rules_signal_2022": {
+      "status": "complete",
+      "fingerprint": "3cec0b54fdcb7c1f8fdd421728ac2d3e72b3b2cf6e2031b79110e6d3a0a4b68a",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.512957285000084,
+      "peak_observed_rss_bytes": 411795456,
+      "outputs": {
+        "deliverables/tpex_features_2022_crossyear/rule_comparison.json": "29e119b5c7d25d202b0e6c033d7bdc3062fec62046015d65d6163594096cb04a",
+        "deliverables/tpex_features_2022_crossyear/rule_comparison.md": "11fccd75b92194d94057d869c5a7797c67d35bbb58c5840ab11b7d3489d387ec",
+        "deliverables/tpex_features_2022_crossyear/rule_net_relative_daily.csv": "a6dac78c7019379969f434690b3ace5ec3e580a9526b16ac4fd47b8d09b6382a"
+      }
+    },
+    "uncertainty_signal_2022": {
+      "status": "complete",
+      "fingerprint": "089f244b82c23c5ef8b7d593fbfad44391239cf53d9c255fe9e9f6fb90206791",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.5074665600000117,
+      "peak_observed_rss_bytes": 147070976,
+      "outputs": {
+        "deliverables/tpex_features_2022_crossyear/uncertainty.json": "d79142618a71d18face922a8929aa4b9b7c8cd183b035ab88f4d6c8027704cf9",
+        "deliverables/tpex_features_2022_crossyear/review.md": "e48ec7dbd9a0b04915365beaf3c3351a922b285a2ca72cea7a2e31c97126a784"
+      }
+    },
+    "audit_package_signal_2022": {
+      "status": "complete",
+      "fingerprint": "64b7560712dbe68d66d40822149d79f61eda67c41664af7d7f8a32abfd11ecde",
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 5.516703851999864,
+      "peak_observed_rss_bytes": 406831104,
+      "outputs": {
+        "deliverables/tpex_features_2022_crossyear/audit.json": "d9e7fbf05e5f7a645551258957ac89dc696c98659d815907ff5827c6058dca31",
+        "deliverables/tpex_features_2022_crossyear/research_checkpoint.json": "4691c2a35d2be5c544c90b837418962bb652052eb7416a4bc9f1c99c495f731b",
+        "deliverables/tpex_features_2022_crossyear/tpex_rules_2022_research_checkpoint.zip": "702b1dbbdc15304e988f81e948677a3cec10f97805299756ed6d39795c0faa39"
+      }
+    }
+  },
+  "saved_receipt": {
+    "library_file_id": "libfile_233e200bbdcc8191b376796f0b3f258a",
+    "file_id": "file_00000000ad6881f8bae813dae649839c",
+    "sha256": "702b1dbbdc15304e988f81e948677a3cec10f97805299756ed6d39795c0faa39",
+    "roundtrip_verified": true,
+    "manifest_files": 47
+  }
+}

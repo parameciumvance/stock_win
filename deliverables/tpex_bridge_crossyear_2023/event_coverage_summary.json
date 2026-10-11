@@ -1,0 +1,21 @@
+{
+  "year": 2023,
+  "events": 1029,
+  "by_kind": {
+    "ex_right_dividend": 1014,
+    "capital_reduction": 15
+  },
+  "by_status": {
+    "last_close_matches": 1023,
+    "event_date_outside_market_calendar": 6
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2022/quotes_with_type_2022.csv.gz": "e801bb1f41c649c65a395bddfbc8bcc4b562865e9ef3d269f75db5d053a87642"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "year": 2022,
+  "events": 1020,
+  "by_kind": {
+    "ex_right_dividend": 996,
+    "capital_reduction": 20,
+    "face_value_change": 4
+  },
+  "by_status": {
+    "last_close_matches": 1018,
+    "last_close_mismatch": 2
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2021/quotes_with_type_2021.csv.gz": "9eb1ce0e91f80dbca93d20385a5033cdacab61fdf6eb3191594a49fd39fb93cf"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "feature_sha256": "eb37c6550a00cd93923731135141b180a29211a4ce4985ab32ea5cbdb8a9d34e",
+  "benchmark_prices_sha256": "fc66db9ea8a099abe7d4bb03e3c93cfddaa0a0fb9780bd899387fb3a41a3ac53",
+  "rows": 580810,
+  "market_days": 729,
+  "costs": {
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005
+  },
+  "formula": "(1+gross)*(1-slip)*(1-fee-tax)/((1+slip)*(1+fee))-1 - gross0050",
+  "pool": "same as-of feature-complete pool, >=100 rows; no future-label filter",
+  "summary": [
+    {
+      "signal_year": 2022,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 225,
+      "unknown_selected_rows": 22,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.015582019760554913
+    },
+    {
+      "signal_year": 2022,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 218,
+      "unknown_selected_rows": 29,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.012288808617571999
+    },
+    {
+      "signal_year": 2022,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 231,
+      "unknown_selected_rows": 9,
+      "empty_selection_dates": 6,
+      "mean_net_relative": -0.0051082367240096
+    },
+    {
+      "signal_year": 2022,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 217,
+      "unknown_selected_rows": 24,
+      "empty_selection_dates": 6,
+      "mean_net_relative": 0.04360295161024058
+    },
+    {
+      "signal_year": 2022,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 213,
+      "unknown_selected_rows": 33,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.01902647551443914
+    },
+    {
+      "signal_year": 2022,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 227,
+      "unknown_selected_rows": 19,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.01473615260245959
+    }
+  ],
+  "limitations": [
+    "quote proxy, not fills or shareholder total return",
+    "overlapping horizons, daily means are not portfolio CAGR",
+    "any unknown selected endpoint makes strict date mean unknown; observed-only diagnostic separate",
+    "historical years already researched, not untouched holdout"
+  ]
+}

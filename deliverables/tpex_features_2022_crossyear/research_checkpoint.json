@@ -1,0 +1,7 @@
+{
+  "sha256": "702b1dbbdc15304e988f81e948677a3cec10f97805299756ed6d39795c0faa39",
+  "bytes": 42839105,
+  "manifest_files": 47,
+  "prior_quote_source_receipt": "deliverables/tpex_2022/saved_checkpoint.json",
+  "contains": "derived fixed rules and all new official 0050 raw responses; annual TPEx input restored separately"
+}

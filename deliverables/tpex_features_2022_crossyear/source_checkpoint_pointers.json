@@ -1,0 +1,25 @@
+{
+  "deliverables/tpex_2021/quotes_with_type_2021.csv.gz": {
+    "library_file_id": "libfile_92401be0db848191a50bc7258f39e8fa",
+    "file_id": "file_00000000175082309b75f72a81ba214f",
+    "sha256": "df2a862b22dc760f53b5e2912c87c016219afb29bdf86aad0d9526e13fe9ae03",
+    "roundtrip_verified": true,
+    "manifest_files": 573
+  },
+  "deliverables/tpex_2022/quotes_with_type_2022.csv.gz": {
+    "library_file_id": "libfile_79ad68b014b08191872d2038a7822b2c",
+    "file_id": "file_00000000903882118094b7db47109a11",
+    "sha256": "5b1ff8d6770d5ed207b441a41b29d2f1468b0133a15249557d2156f32f3649ba",
+    "roundtrip_verified": true,
+    "manifest_files": 577,
+    "classification_inputs_match_pins": true
+  },
+  "deliverables/tpex_2023/quotes_with_type_2023.csv.gz": {
+    "sha256": "6f15dec3bcf220cb8cef3e727837123b9760576fb7b233b059b555bff5eeede7",
+    "verified_manifest_files": 560,
+    "zip_members": 561,
+    "library_file_id": "libfile_ed9482701ef08191a42138bbe09cd39d",
+    "file_id": "file_0000000031508206ad39e1b325ade5f2",
+    "roundtrip_verified": true
+  }
+}
