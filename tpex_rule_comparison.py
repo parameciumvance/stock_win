@@ -18,7 +18,7 @@ def strict_mean(values):
     return float(values.mean()) if len(values) and values.notna().all() else np.nan
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--root',default=str(ROOT));parser.add_argument('--benchmark',default='benchmark_restore/prices_adjusted_2023_2026.csv.gz');parser.add_argument('--benchmark-sha256',default=EXPECTED);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--root',default=str(ROOT));parser.add_argument('--benchmark',default='benchmark_restore/prices_adjusted_2023_2026.csv.gz');parser.add_argument('--benchmark-sha256',default=EXPECTED);parser.add_argument('--signal-year',type=int);args=parser.parse_args()
     root=Path(args.root);price=Path(args.benchmark)
     assert hashlib.sha256(price.read_bytes()).hexdigest()==args.benchmark_sha256
     feature=root/'features_and_gross_labels.csv.gz';meta=json.loads((root/'summary.json').read_text())
@@ -32,6 +32,7 @@ def main():
         data[f'relative{w}']=net_quote(data[f'gross_quote_return{w}'])-data.date.map(br)
     rows=[]
     for date,g in data.groupby('date',sort=True):
+        if args.signal_year is not None and date.year!=args.signal_year:continue
         common=g.dropna(subset=['vol20','atr20_pct','breakout60_volume15'])
         if len(common)<100:continue
         for method in ['vol20','atr20_pct','breakout60_volume15']:

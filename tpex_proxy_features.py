@@ -43,16 +43,25 @@ def features(frame,days,events):
     return out.loc[out['primary_pool'].eq(True)].reset_index(drop=True)
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--start-year',type=int,default=2023);p.add_argument('--end-year',type=int,default=2026);p.add_argument('--output',default='deliverables/tpex_features');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--start-year',type=int,default=2023);p.add_argument('--end-year',type=int,default=2026);p.add_argument('--output',default='deliverables/tpex_features');p.add_argument('--event-override',action='append',default=[],help='YEAR=event_coverage.json; preserves original event audit');a=p.parse_args()
     if a.start_year>a.end_year:p.error('start-year must not exceed end-year')
     root=pathlib.Path(a.output);root.mkdir(parents=True,exist_ok=True);frames=[];dates=[];events=[];hashes={}
     protocol=pathlib.Path('configs/tpex_proxy_protocol.json');hashes[str(protocol)]=hashlib.sha256(protocol.read_bytes()).hexdigest()
+    overrides={}
+    for item in a.event_override:
+        year,path=item.split('=',1);year=int(year)
+        if year in overrides or not a.start_year<=year<=a.end_year:p.error('duplicate or out-of-range event override')
+        overrides[year]=pathlib.Path(path)
     for year in range(a.start_year,a.end_year+1):
-        r=pathlib.Path(f'deliverables/tpex_{year}');q=r/f'quotes_with_type_{year}.csv.gz';e=r/'event_coverage.json'
+        r=pathlib.Path(f'deliverables/tpex_{year}');q=r/f'quotes_with_type_{year}.csv.gz';e=overrides.get(year,r/'event_coverage.json')
         h=hashlib.sha256(q.read_bytes()).hexdigest()
         if h!=json.loads((r/'annual_verification.json').read_text())['output_sha256']:raise ValueError('Input quote hash mismatch')
         hashes[str(q)]=h;hashes[str(e)]=hashlib.sha256(e.read_bytes()).hexdigest()
-        frames.append(pd.read_csv(q,dtype={'code':str,'date':str}));events.extend(json.loads(e.read_text())['records'])
+        event_doc=json.loads(e.read_text())
+        if event_doc['summary']['year']!=year or any(not row['event_date'].startswith(f'{year}-') for row in event_doc['records']):raise ValueError('Wrong event source year')
+        for name,expected_hash in event_doc['summary'].get('prior_year_source_hashes',{}).items():
+            if hashlib.sha256(pathlib.Path(name).read_bytes()).hexdigest()!=expected_hash:raise ValueError('Event audit prior-year input drift')
+        frames.append(pd.read_csv(q,dtype={'code':str,'date':str}));events.extend(event_doc['records'])
         dates.extend(d for m in json.loads((r/'calendar_audit.json').read_text())['months'] for d in m['dates'])
     days=pd.DatetimeIndex(sorted(set(dates)));data=pd.concat(frames,ignore_index=True);data['date']=pd.to_datetime(data['date'])
     if data.duplicated(['date','code']).any():raise ValueError('Duplicate input keys')

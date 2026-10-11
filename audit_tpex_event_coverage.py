@@ -9,7 +9,7 @@ def number(s):
     try:return float(str(s).replace(',',''))
     except ValueError:return None
 
-def run(year=2023,include_prior=False):
+def run(year=2023,include_prior=False,output_dir=None):
     root=pathlib.Path(f'deliverables/tpex_{year}')
     cutoff=datetime.date.fromisoformat(json.loads(pathlib.Path('configs/tpex_pool_policy.json').read_text())['research_asof'])
     end=min(cutoff,datetime.date(year,12,31))
@@ -50,9 +50,10 @@ def run(year=2023,include_prior=False):
     import collections
     summary={'year':year,'events':len(records),'by_kind':dict(collections.Counter(r['kind'] for r in records)),'by_status':dict(collections.Counter(r['status'] for r in records)),'scope':'all source events including nonordinary securities; quote bridge only','not_completed':['reference formula and rounding verification','cash ledger','adjusted price construction']}
     summary['prior_year_source_hashes']=dependencies
-    (root/'event_coverage.json').write_text(json.dumps({'summary':summary,'records':records},indent=2))
-    (root/'event_coverage_summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+    output=pathlib.Path(output_dir) if output_dir else root;output.mkdir(parents=True,exist_ok=True)
+    (output/'event_coverage.json').write_text(json.dumps({'summary':summary,'records':records},indent=2))
+    (output/'event_coverage_summary.json').write_text(json.dumps(summary,indent=2)+'\n')
     print(json.dumps(summary))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--year',type=int,default=2023);p.add_argument('--include-prior-year',action='store_true');a=p.parse_args();run(a.year,a.include_prior_year)
+    p=argparse.ArgumentParser();p.add_argument('--year',type=int,default=2023);p.add_argument('--include-prior-year',action='store_true');p.add_argument('--output-dir');a=p.parse_args();run(a.year,a.include_prior_year,a.output_dir)

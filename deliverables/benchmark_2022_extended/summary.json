@@ -1,0 +1,14 @@
+{
+  "rows": 1146,
+  "source_hashes": {
+    "deliverables/benchmark_2022/prices_adjusted_2022.csv.gz": "1f0fd1aab20ac335057d4a0b6299c96a491611c162ab070e462cb2c346aeb920",
+    "benchmark_restore/prices_adjusted_2023_2026.csv.gz": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d"
+  },
+  "continuation_scale": 1.0381111868648965,
+  "sha256": "fc66db9ea8a099abe7d4bb03e3c93cfddaa0a0fb9780bd899387fb3a41a3ac53",
+  "method": "2022 theoretical cash-dividend proxy joined to pinned 2023-2026 forward causal proxy; not backward adjusted",
+  "limitations": [
+    "not cash ledger or fills",
+    "2022 complete corporate-action audit pending"
+  ]
+}
