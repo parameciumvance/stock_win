@@ -31,3 +31,14 @@ make research-run
 更長的下載可在自己的 WSL 或持續運作的主機使用同一 runner，減少對聊天暫存環境的依賴；仍需資料備份與程序監控，不能保證永不中斷。
 
 本環境觀察到沙箱 PID 與主機 `/proc` PID 不同；工具以 PID namespace 與 `NSpid` 對應程序，避免誤判孤兒或讀取別的程序 RSS。這是工具相容性修正，不是先前平台中斷的根因證據。
+
+
+## 長歷史舊格式試點
+
+先將已保存的 `tpex_long_history_availability_checkpoint.zip`（SHA `daf1f8cfba8832d9519ff735265ea5c907be1d2a90091163674125a7c9f2f36e`）還原到 `deliverables/tpex_long_history_probe/`，逐檔SHA與CRC核對後解出原路徑。保存ID及已核對紀錄在同目錄 `pipeline_checkpoint_receipt.json`。然後執行：
+
+```sh
+make research-run RESEARCH_PLAN=configs/tpex_long_history_schema_pipeline.json RESEARCH_STATE_DIR=deliverables/tpex_long_history_schema_run
+```
+
+第一次執行包含57項TPEx及10項runtime測試、四日舊／新版法人逐筆重播和全證券行情交集檢查；後續依完整SHA跳過已驗收階段。Git中的fixture是來源回應的壓縮副本，可獨立執行 `python -m unittest test_tpex_flow_legacy -q`。四日結果不代表全年或歷史普通股分類已完成。

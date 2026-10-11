@@ -1,0 +1,69 @@
+{
+  "timeout_seconds": 120,
+  "max_rss_mb": 1024,
+  "stages": [
+    {
+      "id": "saved_source_verified",
+      "checkpoint": {
+        "archive": "deliverables/tpex_long_history_probe/tpex_long_history_availability_checkpoint.zip",
+        "receipt": "deliverables/tpex_long_history_probe/pipeline_checkpoint_receipt.json"
+      }
+    },
+    {
+      "id": "fixture_and_runtime_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "discover",
+        "-p",
+        "test_tpex*.py",
+        "-q"
+      ],
+      "inputs": [
+        "test_tpex*.py",
+        "tests/fixtures",
+        "tpex_flow_pilot.py",
+        "research_runtime.py",
+        "acquire_tpex_flow_year.py"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "runtime_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "test_research_pipeline",
+        "-q"
+      ],
+      "inputs": [
+        "test_research_pipeline.py",
+        "research_pipeline.py",
+        "research_runtime.py"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "four_day_source_replay",
+      "command": [
+        "{python}",
+        "audit_tpex_long_history_schema.py"
+      ],
+      "inputs": [
+        "audit_tpex_long_history_schema.py",
+        "tpex_flow_pilot.py",
+        "research_runtime.py",
+        "deliverables/tpex_long_history_probe/availability.json",
+        "deliverables/tpex_long_history_probe/raw",
+        "tpex_source_pilot.py"
+      ],
+      "outputs": [
+        "deliverables/tpex_long_history_probe/schema_validation.json",
+        "deliverables/tpex_long_history_probe/schema_validation.md",
+        "deliverables/tpex_long_history_probe/institutional_normalized_*.csv"
+      ]
+    }
+  ]
+}

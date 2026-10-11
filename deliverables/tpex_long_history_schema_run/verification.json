@@ -1,0 +1,181 @@
+{
+  "stages": {
+    "saved_source_verified": {
+      "status": "complete",
+      "fingerprint": "b2e852162ea2ac015dcf0a595572fcfd454c598380f4d9b2162274067bedfb82",
+      "started_at": "2026-10-11T10:14:48.286104+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:14:48.286164+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823191040",
+        "memory_limit_bytes": "8589934592"
+      },
+      "outputs": {
+        "deliverables/tpex_long_history_probe/tpex_long_history_availability_checkpoint.zip": "daf1f8cfba8832d9519ff735265ea5c907be1d2a90091163674125a7c9f2f36e",
+        "deliverables/tpex_long_history_probe/pipeline_checkpoint_receipt.json": "343acf630fe289ad961ef54844e3e362738d7a45c36007a5c325a07cf1c88579"
+      },
+      "finished_at": "2026-10-11T10:14:48.287341+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-11T10:14:48.287394+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823195136",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "fixture_and_runtime_tests": {
+      "status": "complete",
+      "fingerprint": "ea394e92a72ca2c785bba3ae0ae9ec8d2ceb643b0c7ef3f4c1706ad8e7c8955b",
+      "started_at": "2026-10-11T10:14:06.981081+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:14:06.981136+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823113216",
+        "memory_limit_bytes": "8589934592"
+      },
+      "attempt": 1,
+      "log": "deliverables/tpex_long_history_schema_run/logs/fixture_and_runtime_tests.1791713646981438337.log",
+      "peak_observed_rss_bytes": 130715648,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.502948338999886,
+      "outputs": {},
+      "finished_at": "2026-10-11T10:14:08.484913+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-11T10:14:08.485053+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823428608",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "runtime_tests": {
+      "status": "complete",
+      "fingerprint": "40e307c4fc49fe076508b0ab134b2edd12a96b06ef950c7fc0dde6b33a00dcde",
+      "started_at": "2026-10-11T10:14:08.486091+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:14:08.486147+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823424512",
+        "memory_limit_bytes": "8589934592"
+      },
+      "attempt": 1,
+      "log": "deliverables/tpex_long_history_schema_run/logs/runtime_tests.1791713648486381445.log",
+      "peak_observed_rss_bytes": 14999552,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.0026443960000506,
+      "outputs": {},
+      "finished_at": "2026-10-11T10:14:09.489661+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-11T10:14:09.489853+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823518720",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "four_day_source_replay": {
+      "status": "complete",
+      "fingerprint": "4f8e3ce7627ceafa84bc79de70699205531657b8e283ba7d3702c23e19698a53",
+      "started_at": "2026-10-11T10:14:48.291638+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:14:48.291696+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823432704",
+        "memory_limit_bytes": "8589934592"
+      },
+      "attempt": 1,
+      "log": "deliverables/tpex_long_history_schema_run/logs/four_day_source_replay.1791713688292213576.log",
+      "peak_observed_rss_bytes": 1433600,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5022891170001458,
+      "outputs": {
+        "deliverables/tpex_long_history_probe/schema_validation.json": "71986591ad521d8fb1057166289baac4e2695ab1be81c7b8764d2c31095d23b6",
+        "deliverables/tpex_long_history_probe/schema_validation.md": "a24bfef90b1033ee25760ad55d07c8d46d77bdf413b97495645da40f9eb901bc",
+        "deliverables/tpex_long_history_probe/institutional_normalized_2015-01-05.csv": "812b2f820f0560166f5def6ad3ce030459eda3b6459beea52d87426a756fa49d",
+        "deliverables/tpex_long_history_probe/institutional_normalized_2018-01-02.csv": "c76db86701ac05e09ca4bf8384de484c1aa5a7e7e4093b24ce415f7bd76c6a21",
+        "deliverables/tpex_long_history_probe/institutional_normalized_2020-01-02.csv": "a73cd9316fc2b137a7cee900a35c13be77fc8a70aaabd2492e3bfa63605cf0fe",
+        "deliverables/tpex_long_history_probe/institutional_normalized_2022-01-03.csv": "dbf867f7ed6e71ab28da02a96deb34b8060d382ec78ed9c86c09fa7d4b5e639f"
+      },
+      "finished_at": "2026-10-11T10:14:48.795971+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-11T10:14:48.796070+00:00",
+        "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1823559680",
+        "memory_limit_bytes": "8589934592"
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-11T10:14:48.835374+00:00",
+  "runtime_identity": "af45f954793fa5b3b640186b5444bbb2e81b9f5f65a2c4f8004f269ec5eac8f7",
+  "active": {},
+  "heartbeat_at": "2026-10-11T10:14:48.840246+00:00",
+  "current_stage": "four_day_source_replay",
+  "finished_at": "2026-10-11T10:14:48.840236+00:00",
+  "validation_test_count": 67,
+  "second_run_all_stages_verified_skip": true
+}
