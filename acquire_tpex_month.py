@@ -18,7 +18,12 @@ def run():
     pool=json.loads(pathlib.Path('configs/tpex_pool_policy.json').read_text());asof=datetime.date.fromisoformat(pool['research_asof'])
     if datetime.date(args.year,args.month,1)>asof:raise ValueError('Beyond research cutoff')
     root=pathlib.Path(f'deliverables/tpex_{args.year}');raw=root/'raw';raw.mkdir(parents=True,exist_ok=True);month=f'{args.year}{args.month:02}'
-    cp=raw/f'calendar_{month}.json';calendar=fetch('https://www.twse.com.tw/exchangeReport/FMTQIK?response=json&date='+month+'01',cp)
+    cp=raw/f'calendar_{month}.json';cm=cp.with_suffix('.json.meta.json')
+    if cp.exists() and cm.exists():
+        body=cp.read_bytes()
+        if hashlib.sha256(body).hexdigest()!=json.loads(cm.read_text())['sha256']:raise ValueError('Calendar cache hash mismatch')
+        calendar=json.loads(body)
+    else:calendar=fetch('https://www.twse.com.tw/exchangeReport/FMTQIK?response=json&date='+month+'01',cp)
     if calendar.get('stat')!='OK' or not calendar.get('data'):raise ValueError('Calendar unavailable')
     days=[]
     for r in calendar['data']:

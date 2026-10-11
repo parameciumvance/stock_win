@@ -1,5 +1,5 @@
 """Bounded TPEx historical quote pilot. No training or stock classification inference."""
-import argparse, datetime, hashlib, json, pathlib, urllib.request
+import argparse, datetime, hashlib, json, math, pathlib, urllib.request
 
 
 def fetch(url, path):
@@ -33,13 +33,18 @@ def validate_quotes(document, requested):
     for row in rows:
         if len(row) != len(fields):
             raise ValueError('Row width mismatch')
+        for k in ['成交股數', '成交金額(元)']:
+            value=str(row[fields.index(k)]).replace(',', '').strip()
+            if value in ['', '-', '--', '---', 'N/A']:continue
+            value=float(value)
+            if not math.isfinite(value) or value<0:raise ValueError('Invalid volume or transaction amount')
         values = [str(row[fields.index(k)]).replace(',', '') for k in ['收盤', '開盤', '最高', '最低']]
         try:
             c, o, h, l = map(float, values)
         except ValueError:
             # Missing prices remain unknown, never replaced with zero.
             continue
-        if not 0 < l <= min(c, o) <= max(c, o) <= h:
+        if not all(math.isfinite(x) for x in [c,o,h,l]) or not 0 < l <= min(c, o) <= max(c, o) <= h:
             raise ValueError('OHLC inconsistency')
         priced += 1
     return {'requested_date': requested, 'returned_date': expected, 'rows': len(rows), 'priced_rows': priced, 'duplicate_codes': 0, 'ohlc_errors': 0, 'ordinary_classification': 'pending; never use present-day membership to remove historical securities', 'volume_unit': 'shares', 'amount_unit': 'TWD'}
