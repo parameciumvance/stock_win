@@ -1,0 +1,203 @@
+{
+  "type_evidence_counts": [
+    {
+      "type_evidence": "confirmed_nonordinary",
+      "rows": 19502,
+      "codes": 81
+    },
+    {
+      "type_evidence": "confirmed_ordinary",
+      "rows": 190236,
+      "codes": 790
+    },
+    {
+      "type_evidence": "ordinary_stock_rule_candidate",
+      "rows": 5604,
+      "codes": 25
+    },
+    {
+      "type_evidence": "unresolved_nonordinary_type",
+      "rows": 6880,
+      "codes": 32
+    }
+  ],
+  "candidate_security_catalog": [
+    {
+      "code": "1258",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "其祥-KY"
+    },
+    {
+      "code": "3089",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "億杰"
+    },
+    {
+      "code": "3426",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "台興"
+    },
+    {
+      "code": "3642",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-11-16",
+      "observed_days": 214,
+      "name": "駿熠電"
+    },
+    {
+      "code": "4130",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "健亞"
+    },
+    {
+      "code": "4429",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-05-24",
+      "observed_days": 91,
+      "name": "聚紡"
+    },
+    {
+      "code": "4944",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 241,
+      "name": "兆遠"
+    },
+    {
+      "code": "4945",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "陞達科技"
+    },
+    {
+      "code": "4987",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "科誠"
+    },
+    {
+      "code": "5102",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-07-06",
+      "observed_days": 121,
+      "name": "富強"
+    },
+    {
+      "code": "5281",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "大峽谷-KY"
+    },
+    {
+      "code": "5371",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "中光電"
+    },
+    {
+      "code": "5383",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "金利"
+    },
+    {
+      "code": "5820",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-10-31",
+      "observed_days": 202,
+      "name": "日盛金"
+    },
+    {
+      "code": "6247",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "淇譽電"
+    },
+    {
+      "code": "6287",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 239,
+      "name": "元隆"
+    },
+    {
+      "code": "6404",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "通訊-KY"
+    },
+    {
+      "code": "6457",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "紘康"
+    },
+    {
+      "code": "6514",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "芮特-KY"
+    },
+    {
+      "code": "6594",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "展匯科"
+    },
+    {
+      "code": "6747",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "亨泰光"
+    },
+    {
+      "code": "8183",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "精星"
+    },
+    {
+      "code": "8406",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-04-20",
+      "observed_days": 68,
+      "name": "金可-KY"
+    },
+    {
+      "code": "8418",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "捷必勝-KY"
+    },
+    {
+      "code": "8420",
+      "first_observed": "2022-01-03",
+      "last_observed": "2022-12-30",
+      "observed_days": 246,
+      "name": "明揚"
+    }
+  ],
+  "scope": "Observed historical quote dates only; dates are not inferred listing/delisting dates",
+  "frozen_policy": true
+}

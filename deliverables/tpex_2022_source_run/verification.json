@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "finished_at": "2026-10-11T11:14:02.744793+00:00",
+  "tests_passed": 69,
+  "second_run_all_stages_verified_skip": true,
+  "stages": {
+    "quotes_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T10:41:33.640126+00:00",
+      "finished_at": "2026-10-11T10:57:09.362141+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 935.4872976439999,
+      "peak_observed_rss_bytes": 18305024,
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:41:33.640239+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1825185792",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T10:57:09.362335+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1938984960",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "quotes_saved_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T10:57:56.413740+00:00",
+      "finished_at": "2026-10-11T10:57:56.431189+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:57:56.413913+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1975091200",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T10:57:56.431308+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1974956032",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "institutional_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T10:57:56.438416+00:00",
+      "finished_at": "2026-10-11T11:12:22.070042+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 865.3691747750001,
+      "peak_observed_rss_bytes": 177758208,
+      "runtime_before": {
+        "observed_at": "2026-10-11T10:57:56.438565+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "1975091200",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T11:12:22.070165+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2002063360",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "institutional_replay_package_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T11:12:22.101457+00:00",
+      "finished_at": "2026-10-11T11:12:25.706884+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 3.5063298619998022,
+      "peak_observed_rss_bytes": 184590336,
+      "runtime_before": {
+        "observed_at": "2026-10-11T11:12:22.101584+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2002317312",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T11:12:25.707120+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2012196864",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "institutional_saved_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T11:13:45.110088+00:00",
+      "finished_at": "2026-10-11T11:13:45.116670+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-11T11:13:45.110247+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2030006272",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T11:13:45.116749+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2029932544",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "event_quote_bridge_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T11:13:45.123376+00:00",
+      "finished_at": "2026-10-11T11:13:46.130453+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0028891820002173,
+      "peak_observed_rss_bytes": 197341184,
+      "runtime_before": {
+        "observed_at": "2026-10-11T11:13:45.123444+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2029858816",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T11:13:46.130531+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2030268416",
+        "memory_limit_bytes": "8589934592"
+      }
+    },
+    "year_readiness_2022": {
+      "status": "complete",
+      "started_at": "2026-10-11T11:13:46.137593+00:00",
+      "finished_at": "2026-10-11T11:13:47.645343+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 1.5034844759998123,
+      "peak_observed_rss_bytes": 166645760,
+      "runtime_before": {
+        "observed_at": "2026-10-11T11:13:46.137678+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2030452736",
+        "memory_limit_bytes": "8589934592"
+      },
+      "runtime_after": {
+        "observed_at": "2026-10-11T11:13:47.645437+00:00",
+        "runtime_identity": "69f78760fcaeecdf95295833e355831afc13a593ce1ab1a13769bf7329d63291",
+        "memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "memory_current_bytes": "2032799744",
+        "memory_limit_bytes": "8589934592"
+      }
+    }
+  },
+  "quote_checkpoint": {
+    "library_file_id": "libfile_79ad68b014b08191872d2038a7822b2c",
+    "file_id": "file_00000000903882118094b7db47109a11",
+    "sha256": "5b1ff8d6770d5ed207b441a41b29d2f1468b0133a15249557d2156f32f3649ba",
+    "roundtrip_verified": true,
+    "manifest_files": 577,
+    "classification_inputs_match_pins": true
+  },
+  "institutional_checkpoint": {
+    "library_file_id": "libfile_c8e7694d4b148191b4ab1e6737bb8a57",
+    "file_id": "file_000000001b9082119d619aa6a4d5bc40",
+    "sha256": "025db089956169c712b24b48d271b340e8b37112d59beacce7498ba83621705a",
+    "roundtrip_verified": true,
+    "manifest_files": 497
+  },
+  "rule_parameters_changed": false
+}

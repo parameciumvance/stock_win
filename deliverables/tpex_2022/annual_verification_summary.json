@@ -1,0 +1,20 @@
+{
+  "year": 2022,
+  "verified_market_days": 246,
+  "all_security_rows": 222222,
+  "unique_securities": 928,
+  "primary_pool_rows": 195840,
+  "confirmed_subset_rows": 190236,
+  "ordinary_rule_candidate_rows": 5604,
+  "output_sha256": "e801bb1f41c649c65a395bddfbc8bcc4b562865e9ef3d269f75db5d053a87642",
+  "status": "annual_raw_quotes_type_policy_and_independent_calendar_verified",
+  "not_completed": [
+    "adjusted prices",
+    "full suspended-security membership master",
+    "company-action reference audit",
+    "features/model/backtest"
+  ],
+  "research_asof": "2026-10-02",
+  "coverage_end": "2022-12-31",
+  "coverage_type": "full_year"
+}

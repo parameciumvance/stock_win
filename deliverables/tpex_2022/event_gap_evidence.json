@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "event_date": "2022-01-03",
+      "code": "3680",
+      "kind": "ex_right_dividend",
+      "source_file": "excal_history.json",
+      "official_last_close": 324.0,
+      "official_reference": 323.2,
+      "prior_quote_date": null,
+      "prior_quote_close": null,
+      "on_event_close": 334.5,
+      "primary_pool": true,
+      "status": "missing_prior_quote"
+    },
+    {
+      "event_date": "2022-07-14",
+      "code": "6629",
+      "kind": "ex_right_dividend",
+      "source_file": "excal_history.json",
+      "official_last_close": 52.1,
+      "official_reference": 51.1,
+      "prior_quote_date": "2022-07-12",
+      "prior_quote_close": 52.2,
+      "on_event_close": 50.3,
+      "primary_pool": true,
+      "status": "last_close_mismatch",
+      "preceding_market_day_evidence": {
+        "date": "20220713",
+        "close": "----",
+        "volume_shares": "0",
+        "last_bid": "51.10",
+        "last_ask": "52.10",
+        "source": "deliverables/tpex_2022/raw/quotes_20220713.json"
+      },
+      "interpretation": "Preceding day has no trade/close; audit compared the last available traded close. Official reference-price basis remains pending, not automatically corrected."
+    },
+    {
+      "event_date": "2022-08-25",
+      "code": "4905",
+      "kind": "ex_right_dividend",
+      "source_file": "excal_history.json",
+      "official_last_close": 52.1,
+      "official_reference": 50.87,
+      "prior_quote_date": "2022-08-19",
+      "prior_quote_close": 52.2,
+      "on_event_close": null,
+      "primary_pool": true,
+      "status": "last_close_mismatch",
+      "preceding_market_day_evidence": {
+        "date": "20220824",
+        "close": "----",
+        "volume_shares": "0",
+        "last_bid": "51.60",
+        "last_ask": "52.30",
+        "source": "deliverables/tpex_2022/raw/quotes_20220824.json"
+      },
+      "interpretation": "Preceding day has no trade/close; audit compared the last available traded close. Official reference-price basis remains pending, not automatically corrected."
+    },
+    {
+      "event_date": "2022-01-10",
+      "code": "2724",
+      "kind": "capital_reduction",
+      "source_file": "reduction_history.json",
+      "official_last_close": 8.9,
+      "official_reference": 17.8,
+      "prior_quote_date": null,
+      "prior_quote_close": null,
+      "on_event_close": 17.8,
+      "primary_pool": true,
+      "status": "missing_prior_quote"
+    },
+    {
+      "event_date": "2022-01-10",
+      "code": "4131",
+      "kind": "capital_reduction",
+      "source_file": "reduction_history.json",
+      "official_last_close": 6.5,
+      "official_reference": 16.52,
+      "prior_quote_date": null,
+      "prior_quote_close": null,
+      "on_event_close": 16.9,
+      "primary_pool": true,
+      "status": "missing_prior_quote"
+    }
+  ],
+  "scope": "Five unresolved quote bridges; no adjustment factors inferred"
+}

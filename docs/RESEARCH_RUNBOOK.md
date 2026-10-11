@@ -52,7 +52,14 @@ make research-run RESEARCH_PLAN=configs/tpex_long_history_schema_pipeline.json R
 make research-run RESEARCH_PLAN=configs/tpex_2022_source_pipeline.json RESEARCH_STATE_DIR=deliverables/tpex_2022_source_run
 ```
 
-需先還原凍結的 `deliverables/tpex_pilot/classification/isin.raw`、`isin_listed.raw`、`unknown_single_query.html`。其SHA由年度 `type_input_hashes.json` 固定，不能換成新抓版本。年度行情包包含相同三份分類副本，來源為回溯分類證據，並非當年公告快照。恢復時核對副本SHA再還原到上述位置。
+需先還原凍結的 `deliverables/tpex_pilot/classification/isin.raw`、`isin_listed.raw`、`unknown_single_query.html`。其SHA由年度 `type_input_hashes.json` 固定，不能換成新抓版本。 初次取得新年度前，將相同三檔複製到年度資料目錄，供年度包一併保存：
+
+```sh
+mkdir -p deliverables/tpex_2022/classification
+cp deliverables/tpex_pilot/classification/isin.raw deliverables/tpex_pilot/classification/isin_listed.raw deliverables/tpex_pilot/classification/unknown_single_query.html deliverables/tpex_2022/classification/
+```
+
+年度行情包包含相同三份分類副本，來源為回溯分類證據，並非當年公告快照。恢復時核對副本SHA再還原到上述位置。
 
 行情先逐月下載；年末逐日重播及TPEx／TWSE日曆相互核對，保存行情ZIP並取回驗證後寫 `deliverables/tpex_2022/pipeline_checkpoint_receipt.json`。再執行同一入口，續抓法人並逐筆重播、保存第二包、取回核對及寫 `deliverables/tpex_flow_2022/pipeline_checkpoint_receipt.json`。最後執行事件前收盤對應與來源缺口報告。正常保存gate不需再次詢問使用者。
 

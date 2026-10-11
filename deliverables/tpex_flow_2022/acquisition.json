@@ -1,0 +1,14 @@
+{
+  "year": 2022,
+  "date_start": "2022-01-03",
+  "date_end": "2022-12-30",
+  "coverage_type": "full_year",
+  "days": 246,
+  "rows": 180465,
+  "covered_primary_rows": 155945,
+  "primary_rows": 195840,
+  "mean_daily_coverage": 0.7963214591034243,
+  "normalized_sha256": "2e8492d77e482fdb68eafea1a5efded4bf969aa15d2f20e7f21de322ff292a6b",
+  "calendar_sha256": "94202abd8008845b9f4a374e66ef73edcd9e68e44401af534222bda43162fd6c",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}

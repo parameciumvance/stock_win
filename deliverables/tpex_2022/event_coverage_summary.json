@@ -1,0 +1,21 @@
+{
+  "year": 2022,
+  "events": 1020,
+  "by_kind": {
+    "ex_right_dividend": 996,
+    "capital_reduction": 20,
+    "face_value_change": 4
+  },
+  "by_status": {
+    "missing_prior_quote": 3,
+    "last_close_matches": 1015,
+    "last_close_mismatch": 2
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {}
+}
