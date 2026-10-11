@@ -1,0 +1,10 @@
+{
+  "year": 2025,
+  "events": 1261,
+  "last_close_matches": 1259,
+  "last_close_mismatch": 2,
+  "missing_prior_quote": 0,
+  "prior_output_sha256": "f53b8d27c77591020dcd3d31d3bd89e85eebafb05abf6272438bfec090187877",
+  "execution": "completed before executor disconnection",
+  "detail_artifact_status": "repository retained earlier single-year detail; rerun --include-prior-year for crossyear details"
+}

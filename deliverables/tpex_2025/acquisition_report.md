@@ -9,3 +9,5 @@
 仍缺完整停牌歷史主檔、公司行動公式／取整核實及還原價；沒有新增模型或回測績效。本年既有上市市場結果早已查看，不稱獨立留出。
 
 下一步：完成 2026 截至 10/02 的來源與日曆、跨年事件橋接；維持不調參。
+
+追加跨年檢查：以已驗證 2024 輸出 SHA `f53b8d27c77591020dcd3d31d3bd89e85eebafb05abf6272438bfec090187877` 補足四筆缺前收盤後，1,259 筆吻合、2 筆價格疑點保留。原 `event_coverage.json.gz`／`event_exceptions.csv` 是上述單年度六筆例外版本，未覆寫；追加摘要見 `crossyear_event_verification.json`。重跑 `python3 audit_tpex_event_coverage.py --year 2025 --include-prior-year` 產出跨年明細。
