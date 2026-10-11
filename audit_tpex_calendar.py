@@ -1,5 +1,5 @@
 """Independent TPEx monthly date audit; dates never filtered by index-price completeness."""
-import concurrent.futures,datetime,json,pathlib
+import argparse,concurrent.futures,datetime,json,pathlib
 from acquire_tpex_month import fetch
 
 def run(year=2023):
@@ -27,4 +27,6 @@ def run(year=2023):
         return result
     months=list(concurrent.futures.ThreadPoolExecutor(2).map(one,range(1,13)))
     (root/'calendar_audit.json').write_text(json.dumps({'year':year,'tpex_trading_days':sum(m['tpex_days'] for m in months),'date_source':'official TPEx monthly index records; no index-price filtering','months':months},indent=2))
-if __name__=='__main__':run()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--year',type=int,default=2023)
+    args=parser.parse_args();run(args.year)

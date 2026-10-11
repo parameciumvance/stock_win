@@ -1,0 +1,7 @@
+event_date,code,kind,source_file,official_last_close,official_reference,prior_quote_date,prior_quote_close,on_event_close,primary_pool,status
+2023-08-03,1813,ex_right_dividend,excal_history.json,19.6,19.1,2023-08-02,19.6,,,event_date_outside_market_calendar
+2023-08-03,3128,ex_right_dividend,excal_history.json,38.55,37.35,2023-08-02,38.55,,,event_date_outside_market_calendar
+2023-08-03,3306,ex_right_dividend,excal_history.json,47.55,47.05,2023-08-02,47.55,,,event_date_outside_market_calendar
+2023-08-03,4432,ex_right_dividend,excal_history.json,23.85,23.55,2023-08-02,23.85,,,event_date_outside_market_calendar
+2023-08-03,6158,ex_right_dividend,excal_history.json,33.15,32.05,2023-08-02,33.15,,,event_date_outside_market_calendar
+2023-08-03,6417,ex_right_dividend,excal_history.json,123.5,121.3,2023-08-02,123.5,,,event_date_outside_market_calendar

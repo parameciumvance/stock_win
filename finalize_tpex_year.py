@@ -56,7 +56,7 @@ def main():
     pending.replace(out);(root/'calendar_audit.json').write_text(json.dumps(cal,indent=2))
     status={'year':a.year,'verified_market_days':len(expected),'all_security_rows':count,'unique_securities':len(codes),'primary_pool_rows':primary,'confirmed_subset_rows':subset,'ordinary_rule_candidate_rows':primary-subset,'output_sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'status':'annual_raw_quotes_type_policy_and_independent_calendar_verified','not_completed':['adjusted prices','full suspended-security membership master','company-action reference audit','features/model/backtest'],'daily':daily}
     (root/'annual_verification.json').write_text(json.dumps(status,ensure_ascii=False,indent=2))
-    files=[x for x in raw.rglob('*') if x.is_file() and not x.name.endswith('.pending')]+list(root.glob('summary_*.json'))+list(root.glob('quotes_with_type_*.csv.gz'))+[root/'calendar_audit.json',root/'annual_verification.json',root/'calendar_check_202301.json',root/'type_input_hashes.json']
+    files=[x for x in raw.rglob('*') if x.is_file() and not x.name.endswith('.pending')]+list(root.glob('summary_*.json'))+list(root.glob('quotes_with_type_*.csv.gz'))+[root/'calendar_audit.json',root/'annual_verification.json',root/'type_input_hashes.json']+list(root.glob('calendar_check_*.json'))
     manifest={str(x.relative_to(root)):hashlib.sha256(x.read_bytes()).hexdigest() for x in files};mp=root/'SHA256MANIFEST_YEAR.json';mp.write_text(json.dumps(manifest,indent=2))
     archive=root/f'tpex_raw_type_{a.year}_checkpoint.zip';temp=archive.with_suffix('.pending.zip')
     with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED) as z:

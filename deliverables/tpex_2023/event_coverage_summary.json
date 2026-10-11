@@ -1,0 +1,18 @@
+{
+  "year": 2023,
+  "events": 1029,
+  "by_kind": {
+    "ex_right_dividend": 1014,
+    "capital_reduction": 15
+  },
+  "by_status": {
+    "last_close_matches": 1023,
+    "event_date_outside_market_calendar": 6
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ]
+}
