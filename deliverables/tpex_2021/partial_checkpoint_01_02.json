@@ -1,0 +1,11 @@
+{
+  "year": 2021,
+  "through_month": 2,
+  "market_days": 33,
+  "quote_rows": 29529,
+  "manifest_files": 78,
+  "sha256": "fc213b664d5f6cc585c1e8352cc4dab5b3bb65705e6e153bc8e928e5c7d1d77e",
+  "scope": "partial completed months only; independent TPEx calendar/action audit pending",
+  "archive": "deliverables/tpex_2021/tpex_quotes_2021_partial_01_02_checkpoint.zip",
+  "manifest": "deliverables/tpex_2021/partial_manifest_01_02.json"
+}
