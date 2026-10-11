@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-11",
+  "restored_code_commit": "490ac32f83ed3f3a3e53540633984da610155afa",
+  "runtime_recovered": true,
+  "underlying_offline_cause": "not provided",
+  "git_verified_code_and_fixture_files": 47,
+  "tests": {
+    "passed": 45,
+    "failed": 0,
+    "includes_atomic_publication_regressions": true
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "lxml": "6.1.1",
+    "threadpoolctl": "3.6.0"
+  },
+  "restored_archive_sha256": {
+    "tpex_features_rules_ridge_2023_2026_checkpoint.zip": "17b48b2adaae713592245b6cdd5a6e4db146a793c2f54bbc096553700a56b7ac",
+    "tpex_flow_events_2024_checkpoint.zip": "3dfdcdde763409cc9a9998f14ac91f3965463f94de65a7f6c416433ac2cdd4d6",
+    "tpex_revenue_source_checkpoint.zip": "6d582008c5c3cce86fe5079f8fadd2047df467867382394987de220ea14fd9a0",
+    "tpex_raw_type_2026_checkpoint.zip": "74ce3d9cdb6b7ec555cfd29bbad1d2691361d588fbf35a33cd18089141bc81d4"
+  },
+  "restored_archive_member_hashes": "all verified before use",
+  "initial_restored_2024_selection_audit": {
+    "end_year": 2024,
+    "common_rows": 496562,
+    "selection_rows": 957588,
+    "replayed_rows": 957588,
+    "daily_groups": 12756,
+    "all_checks_passed": true,
+    "limitations": "Replays frozen as-of features and proxy outcomes, not original announcement vintage or actual fills"
+  },
+  "source_2025_2026": "reacquiring because previous unsaved scratch files did not survive runtime recovery",
+  "atomic_2024_regeneration": {
+    "summary_exact": true,
+    "paired_intervals_exact": true,
+    "inputs_exact": true,
+    "output_counts": {
+      "daily": 12756,
+      "selection": 957588,
+      "common": 496562
+    },
+    "output_sha256": {
+      "deliverables/tpex_events/daily_through_2024.csv": "dd00006b327d17c172b2b5044f2430185d192265f30dbc5484b624451889896a",
+      "deliverables/tpex_events/selections_through_2024.csv.gz": "3beeee049f7d7561cd9a60ca10f593b4c0004d213f9cf441ea1d9a1e6814ec8d",
+      "deliverables/tpex_events/common_matrix_through_2024.csv.gz": "a19b286a68c7d0b3f17db8f07998177096f4f583bf6847ddf3f5c1b186707e4d"
+    },
+    "selection_audit": {
+      "end_year": 2024,
+      "common_rows": 496562,
+      "selection_rows": 957588,
+      "replayed_rows": 957588,
+      "daily_groups": 12756,
+      "all_checks_passed": true,
+      "limitations": "Replays frozen as-of features and proxy outcomes, not original announcement vintage or actual fills"
+    }
+  }
+}
