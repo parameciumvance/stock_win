@@ -1,0 +1,20 @@
+{
+  "year": 2021,
+  "events": 987,
+  "by_kind": {
+    "ex_right_dividend": 966,
+    "capital_reduction": 21
+  },
+  "by_status": {
+    "last_close_matches": 984,
+    "last_close_mismatch": 2,
+    "missing_prior_quote": 1
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {}
+}
