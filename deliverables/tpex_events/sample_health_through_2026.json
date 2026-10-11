@@ -1,0 +1,525 @@
+{
+  "end_year": 2026,
+  "primary_lag": 45,
+  "input_sha256": {
+    "deliverables/tpex_events/daily_through_2026.csv": "225ccafc79083437f1212f4cd3881223db953b211e6dbad98f118665db01d84b",
+    "deliverables/tpex_events/selections_through_2026.csv.gz": "4ff842425bb3c04d1fcb355035526e16d5753a31e844adb7225983328ea5e900",
+    "deliverables/tpex_events/common_matrix_through_2026.csv.gz": "0a7c8352d892e397d6740988c42966a6bfcd30ff6c49fda7e92862cdf964f4b6"
+  },
+  "missingness": [
+    {
+      "year": 2023,
+      "horizon": 20,
+      "common_rows": 98529,
+      "confirmed_rows": 98529,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 202,
+      "unknown_net_relative": 202,
+      "stock_known_benchmark_unknown": 0
+    },
+    {
+      "year": 2023,
+      "horizon": 60,
+      "common_rows": 98529,
+      "confirmed_rows": 98529,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 416,
+      "unknown_net_relative": 416,
+      "stock_known_benchmark_unknown": 0
+    },
+    {
+      "year": 2024,
+      "horizon": 20,
+      "common_rows": 149788,
+      "confirmed_rows": 149788,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 640,
+      "unknown_net_relative": 640,
+      "stock_known_benchmark_unknown": 0
+    },
+    {
+      "year": 2024,
+      "horizon": 60,
+      "common_rows": 149788,
+      "confirmed_rows": 149788,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 1580,
+      "unknown_net_relative": 1580,
+      "stock_known_benchmark_unknown": 0
+    },
+    {
+      "year": 2025,
+      "horizon": 20,
+      "common_rows": 144607,
+      "confirmed_rows": 144607,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 242,
+      "unknown_net_relative": 6252,
+      "stock_known_benchmark_unknown": 6010
+    },
+    {
+      "year": 2025,
+      "horizon": 60,
+      "common_rows": 144607,
+      "confirmed_rows": 144607,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 345,
+      "unknown_net_relative": 6350,
+      "stock_known_benchmark_unknown": 6005
+    },
+    {
+      "year": 2026,
+      "horizon": 20,
+      "common_rows": 118649,
+      "confirmed_rows": 118649,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 12927,
+      "unknown_net_relative": 12927,
+      "stock_known_benchmark_unknown": 0
+    },
+    {
+      "year": 2026,
+      "horizon": 60,
+      "common_rows": 118649,
+      "confirmed_rows": 118649,
+      "candidate_rows": 0,
+      "unknown_gross_stock": 39594,
+      "unknown_net_relative": 39594,
+      "stock_known_benchmark_unknown": 0
+    }
+  ],
+  "intersection_evidence_tiers": [
+    {
+      "year": 2023,
+      "horizon": 20,
+      "selected_rows": 263,
+      "confirmed_rows": 263,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": -0.02840118195118678
+    },
+    {
+      "year": 2023,
+      "horizon": 60,
+      "selected_rows": 263,
+      "confirmed_rows": 263,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": 0.014590857429679563
+    },
+    {
+      "year": 2024,
+      "horizon": 20,
+      "selected_rows": 299,
+      "confirmed_rows": 299,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": -0.006833969213171605
+    },
+    {
+      "year": 2024,
+      "horizon": 60,
+      "selected_rows": 299,
+      "confirmed_rows": 299,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": 0.014707927559128533
+    },
+    {
+      "year": 2025,
+      "horizon": 20,
+      "selected_rows": 211,
+      "confirmed_rows": 211,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": -0.020498327014050174
+    },
+    {
+      "year": 2025,
+      "horizon": 60,
+      "selected_rows": 211,
+      "confirmed_rows": 211,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": -0.05909628778153287
+    },
+    {
+      "year": 2026,
+      "horizon": 20,
+      "selected_rows": 210,
+      "confirmed_rows": 210,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": 0.0100674555743881
+    },
+    {
+      "year": 2026,
+      "horizon": 60,
+      "selected_rows": 210,
+      "confirmed_rows": 210,
+      "candidate_rows": 0,
+      "confirmed_selected_only_daily_mean": -0.013820262220760264
+    }
+  ],
+  "paired_known_dates": [
+    {
+      "year": 2024,
+      "horizon": 20,
+      "baseline": "vol20",
+      "known_pairs": 137,
+      "intersection_mean": -0.011572357627057446,
+      "baseline_mean": -0.05130201564764201,
+      "difference_mean": 0.03972965802058456,
+      "difference_interval60": {
+        "lower_95": -0.002341258647190985,
+        "upper_95": 0.08607416531887122,
+        "known": 137,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 20,
+      "baseline": "atr20_pct",
+      "known_pairs": 137,
+      "intersection_mean": -0.011572357627057446,
+      "baseline_mean": -0.05306852164378774,
+      "difference_mean": 0.041496164016730286,
+      "difference_interval60": {
+        "lower_95": -0.00448380864622483,
+        "upper_95": 0.08970211135130941,
+        "known": 137,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 20,
+      "baseline": "mom60",
+      "known_pairs": 135,
+      "intersection_mean": -0.012304738415963837,
+      "baseline_mean": -0.037404477031541344,
+      "difference_mean": 0.025099738615577506,
+      "difference_interval60": {
+        "lower_95": -0.008823253061099831,
+        "upper_95": 0.0630787449154875,
+        "known": 135,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 20,
+      "baseline": "ridge",
+      "known_pairs": 133,
+      "intersection_mean": -0.01070508776322244,
+      "baseline_mean": -0.05492506671609037,
+      "difference_mean": 0.044219978952867924,
+      "difference_interval60": {
+        "lower_95": -0.001170065446150604,
+        "upper_95": 0.0949688588717411,
+        "known": 133,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 60,
+      "baseline": "vol20",
+      "known_pairs": 110,
+      "intersection_mean": -0.007457634430873012,
+      "baseline_mean": -0.11104994417826387,
+      "difference_mean": 0.10359230974739086,
+      "difference_interval60": {
+        "lower_95": 0.016409065041189257,
+        "upper_95": 0.19501809582482857,
+        "known": 110,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 60,
+      "baseline": "atr20_pct",
+      "known_pairs": 107,
+      "intersection_mean": -0.007699523276091346,
+      "baseline_mean": -0.11711755887936358,
+      "difference_mean": 0.10941803560327223,
+      "difference_interval60": {
+        "lower_95": 0.023056211238108477,
+        "upper_95": 0.1975504639334183,
+        "known": 107,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 60,
+      "baseline": "mom60",
+      "known_pairs": 99,
+      "intersection_mean": 0.004123288261594344,
+      "baseline_mean": -0.08194352860976872,
+      "difference_mean": 0.08606681687136306,
+      "difference_interval60": {
+        "lower_95": -0.01511826267495234,
+        "upper_95": 0.19184882127831468,
+        "known": 99,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2024,
+      "horizon": 60,
+      "baseline": "ridge",
+      "known_pairs": 87,
+      "intersection_mean": -0.020029012957095364,
+      "baseline_mean": -0.09750065930660755,
+      "difference_mean": 0.0774716463495122,
+      "difference_interval60": {
+        "lower_95": -0.05106394790969459,
+        "upper_95": 0.1701604147806795,
+        "known": 87,
+        "calendar_positions": 242
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 20,
+      "baseline": "vol20",
+      "known_pairs": 105,
+      "intersection_mean": -0.01675923699423413,
+      "baseline_mean": -0.036872403169589556,
+      "difference_mean": 0.020113166175355423,
+      "difference_interval60": {
+        "lower_95": -0.032161439883444894,
+        "upper_95": 0.08351108583267841,
+        "known": 105,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 20,
+      "baseline": "atr20_pct",
+      "known_pairs": 104,
+      "intersection_mean": -0.0175488985120426,
+      "baseline_mean": -0.03522442060596045,
+      "difference_mean": 0.01767552209391784,
+      "difference_interval60": {
+        "lower_95": -0.03606876699597693,
+        "upper_95": 0.08267693433418372,
+        "known": 104,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 20,
+      "baseline": "mom60",
+      "known_pairs": 104,
+      "intersection_mean": -0.019030073522725104,
+      "baseline_mean": -0.029662960508217574,
+      "difference_mean": 0.010632886985492463,
+      "difference_interval60": {
+        "lower_95": -0.03245571654884691,
+        "upper_95": 0.07042642309184274,
+        "known": 104,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 20,
+      "baseline": "ridge",
+      "known_pairs": 104,
+      "intersection_mean": -0.017431120680156127,
+      "baseline_mean": -0.034815928570029776,
+      "difference_mean": 0.017384807889873642,
+      "difference_interval60": {
+        "lower_95": -0.0279289056237289,
+        "upper_95": 0.0779023595778614,
+        "known": 104,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 60,
+      "baseline": "vol20",
+      "known_pairs": 104,
+      "intersection_mean": -0.056257793233462076,
+      "baseline_mean": -0.07290161027920357,
+      "difference_mean": 0.016643817045741485,
+      "difference_interval60": {
+        "lower_95": -0.12906944809241275,
+        "upper_95": 0.15581283199503276,
+        "known": 104,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 60,
+      "baseline": "atr20_pct",
+      "known_pairs": 103,
+      "intersection_mean": -0.04728322696151476,
+      "baseline_mean": -0.07978929610318311,
+      "difference_mean": 0.03250606914166835,
+      "difference_interval60": {
+        "lower_95": -0.10866987968822145,
+        "upper_95": 0.1831111926178308,
+        "known": 103,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 60,
+      "baseline": "mom60",
+      "known_pairs": 106,
+      "intersection_mean": -0.05750439676518416,
+      "baseline_mean": -0.06593993748393333,
+      "difference_mean": 0.008435540718749173,
+      "difference_interval60": {
+        "lower_95": -0.12448964484335245,
+        "upper_95": 0.14786329840680892,
+        "known": 106,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2025,
+      "horizon": 60,
+      "baseline": "ridge",
+      "known_pairs": 96,
+      "intersection_mean": -0.07267534258174567,
+      "baseline_mean": -0.09735549945062816,
+      "difference_mean": 0.024680156868882492,
+      "difference_interval60": {
+        "lower_95": -0.0913951502780464,
+        "upper_95": 0.1417056647169524,
+        "known": 96,
+        "calendar_positions": 243
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 20,
+      "baseline": "vol20",
+      "known_pairs": 99,
+      "intersection_mean": 0.005523934263855913,
+      "baseline_mean": -0.018699679859689938,
+      "difference_mean": 0.02422361412354585,
+      "difference_interval60": {
+        "lower_95": -0.017556314630455445,
+        "upper_95": 0.0690043799193543,
+        "known": 99,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 20,
+      "baseline": "atr20_pct",
+      "known_pairs": 94,
+      "intersection_mean": 0.013935580585236142,
+      "baseline_mean": -0.023048245116069385,
+      "difference_mean": 0.03698382570130553,
+      "difference_interval60": {
+        "lower_95": -0.0020510001647679682,
+        "upper_95": 0.07762515771819958,
+        "known": 94,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 20,
+      "baseline": "mom60",
+      "known_pairs": 104,
+      "intersection_mean": 0.020276304129207327,
+      "baseline_mean": -0.0219785254497774,
+      "difference_mean": 0.04225482957898473,
+      "difference_interval60": {
+        "lower_95": -0.018803712285761734,
+        "upper_95": 0.13014950257766728,
+        "known": 104,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 20,
+      "baseline": "ridge",
+      "known_pairs": 101,
+      "intersection_mean": 0.016085564948213178,
+      "baseline_mean": -0.03784931486763446,
+      "difference_mean": 0.05393487981584763,
+      "difference_interval60": {
+        "lower_95": 0.010773309392742925,
+        "upper_95": 0.10257552588387504,
+        "known": 101,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 60,
+      "baseline": "vol20",
+      "known_pairs": 75,
+      "intersection_mean": -0.002890330541330232,
+      "baseline_mean": -0.051989824017783126,
+      "difference_mean": 0.04909949347645289,
+      "difference_interval60": {
+        "lower_95": -0.03429666687354341,
+        "upper_95": 0.1118244831515884,
+        "known": 75,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 60,
+      "baseline": "atr20_pct",
+      "known_pairs": 80,
+      "intersection_mean": -0.009494279571769173,
+      "baseline_mean": -0.06464251392776729,
+      "difference_mean": 0.055148234355998124,
+      "difference_interval60": {
+        "lower_95": -0.04266293235233616,
+        "upper_95": 0.11524643923623158,
+        "known": 80,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 60,
+      "baseline": "mom60",
+      "known_pairs": 69,
+      "intersection_mean": -0.0035325755184310837,
+      "baseline_mean": -0.04340279463110954,
+      "difference_mean": 0.03987021911267848,
+      "difference_interval60": {
+        "lower_95": -0.05021674254268436,
+        "upper_95": 0.11767360923953753,
+        "known": 69,
+        "calendar_positions": 181
+      }
+    },
+    {
+      "year": 2026,
+      "horizon": 60,
+      "baseline": "ridge",
+      "known_pairs": 67,
+      "intersection_mean": -0.07749800811551932,
+      "baseline_mean": -0.15970621269134716,
+      "difference_mean": 0.08220820457582782,
+      "difference_interval60": {
+        "lower_95": -0.00932903525211839,
+        "upper_95": 0.15536027955002576,
+        "known": 67,
+        "calendar_positions": 181
+      }
+    }
+  ],
+  "limitations": [
+    "diagnostic only; selection rules unchanged",
+    "confirmed selected subset is not a re-ranked confirmed-only portfolio",
+    "different methods have different selected counts and unknown endpoint patterns",
+    "known-date comparisons do not remove nonrandom missingness or constitute portfolio performance"
+  ]
+}

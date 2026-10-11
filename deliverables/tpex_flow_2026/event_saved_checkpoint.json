@@ -1,0 +1,10 @@
+{
+  "library_file_id": "libfile_36dea5e8c1d48191b350d1c221c7d7dc",
+  "file_id": "file_00000000da9481f7a657a7c317beb5aa",
+  "version": 0,
+  "sha256": "21e4eaf93412aa6e58c4ff3abee50c218a6008abd311cf50255ab0d243a95325",
+  "bytes": 158632467,
+  "manifest_files": 390,
+  "roundtrip_verified": true,
+  "scope": "all normalized institutional years and complete-through-year frozen event outputs; feature/benchmark checkpoint separate"
+}

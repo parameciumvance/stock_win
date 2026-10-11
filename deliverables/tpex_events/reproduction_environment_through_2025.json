@@ -1,0 +1,16 @@
+{
+  "repository": "parameciumvance/stock_win",
+  "code_commit": "397f829554f1b42ea4bb1bc42e96cdb7c4c8b145",
+  "code_sha256": {
+    "tpex_flow_pilot.py": "38217a3d11da1d4a60b47835f6de2196f5e745f261584fc2803ca6efae1ecab7",
+    "acquire_tpex_flow_year.py": "7e38c325930c472a35c33f2605816f516a66b46df7af80e62c27df1a78563a91",
+    "tpex_event_features.py": "0b159db57a8d81871334febdacf3e8abb78676275f929f2e29f857ccca625118",
+    "tpex_event_comparison.py": "5da74c39a2da000aaf4ae9b12879ac411358bc753b847d1723b59df4d7cbc426",
+    "audit_tpex_event_comparison.py": "b0a4ef88cb3337a8eb200ec912f96f79d51e7c24be7cbf49fc6d02e7a825f08a",
+    "summarize_tpex_event_uncertainty.py": "f7d4f3eb6ef973f49ff30e39e6096a7a7afc6ebfb405ce9bbb201f39f651ce6a",
+    "make_tpex_event_review.py": "922e04cd6007632936a70f11b950ad587e97255d9f8ebb999c9ac31daaf41dd2",
+    "package_tpex_event_year.py": "87e54ad6852f2ed1df58784717793ee0369dd6d762c85432e077b99789144114",
+    "configs/tpex_event_rules_protocol.json": "221aabd9f277d6379e88e49d8f732a5311eb5c37322247e2989ccf62b825805d",
+    "requirements_tpex.txt": "1168d31525fa3ad5d81bedf1004fad6dea68a3d91db481039baaf15278cd5816"
+  }
+}

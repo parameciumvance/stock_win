@@ -129,3 +129,15 @@ tpex-event-comparison:
 tpex-event-verify:
 	$(PYTHON) audit_tpex_event_comparison.py --end-year $(TPEX_END_YEAR)
 
+.PHONY: tpex-event-report tpex-sample-health tpex-long-history-probe
+
+tpex-event-report:
+	$(PYTHON) summarize_tpex_event_uncertainty.py --end-year $(TPEX_END_YEAR)
+	$(PYTHON) make_tpex_event_review.py --end-year $(TPEX_END_YEAR)
+
+tpex-sample-health:
+	$(PYTHON) audit_tpex_event_sample_health.py --end-year $(TPEX_END_YEAR)
+
+tpex-long-history-probe:
+	$(PYTHON) probe_tpex_long_history.py
+

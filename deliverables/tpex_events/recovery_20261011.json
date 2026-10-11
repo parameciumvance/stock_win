@@ -102,5 +102,57 @@
       "roundtrip_verified": true,
       "scope": "current-year raw institutional snapshots, metadata, calendar, normalized rows and exact source replay; no event performance claim"
     }
-  }
+  },
+  "completed_event_audits": {
+    "2025": {
+      "end_year": 2025,
+      "common_rows": 785737,
+      "selection_rows": 1520838,
+      "replayed_rows": 1520838,
+      "daily_groups": 20532,
+      "all_checks_passed": true,
+      "limitations": "Replays frozen as-of features and proxy outcomes, not original announcement vintage or actual fills"
+    },
+    "2026": {
+      "end_year": 2026,
+      "common_rows": 1023045,
+      "selection_rows": 2002230,
+      "replayed_rows": 2002230,
+      "daily_groups": 26324,
+      "all_checks_passed": true,
+      "limitations": "Replays frozen as-of features and proxy outcomes, not original announcement vintage or actual fills"
+    }
+  },
+  "event_roundtrip_verified": {
+    "2025": {
+      "library_file_id": "libfile_dab38d17d8148191b20a25f167d7a9a1",
+      "file_id": "file_00000000d05081f7931a110da19b26db",
+      "version": 0,
+      "sha256": "fcba39cc1dbe8c294b540dca5baf83a61323b26e21b9a582c1c7aa68ddcd49ea",
+      "bytes": 126708009,
+      "manifest_files": 511,
+      "roundtrip_verified": true,
+      "scope": "all normalized institutional years and complete-through-year frozen event outputs; feature/benchmark checkpoint separate"
+    },
+    "2026": {
+      "library_file_id": "libfile_36dea5e8c1d48191b350d1c221c7d7dc",
+      "file_id": "file_00000000da9481f7a657a7c317beb5aa",
+      "version": 0,
+      "sha256": "21e4eaf93412aa6e58c4ff3abee50c218a6008abd311cf50255ab0d243a95325",
+      "bytes": 158632467,
+      "manifest_files": 390,
+      "roundtrip_verified": true,
+      "scope": "all normalized institutional years and complete-through-year frozen event outputs; feature/benchmark checkpoint separate"
+    }
+  },
+  "sample_health": {
+    "common_pool_candidate_rows": 0,
+    "intersection_candidate_rows": 0,
+    "paired_volatility_analysis_reproduced": true,
+    "output_sha256": {
+      "sample_health_through_2026.json": "82fb275c6d2e7d3de4f2a4f09031df9a036f7d48f80b6e77c4e5c27c69e976d0",
+      "sample_health_through_2026.md": "b2cc096e484c10255059cd9603230aafb62faff1874d8d5a20c01c29c3d87304"
+    }
+  },
+  "final_status": "2025/2026 verified; source and event checkpoints saved and roundtrip verified"
 }

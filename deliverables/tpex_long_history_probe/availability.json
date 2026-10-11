@@ -1,0 +1,287 @@
+{
+  "samples": [
+    {
+      "date": "2015-01-05",
+      "kind": "quotes",
+      "download_ok": true,
+      "source_sha256": "9929887d27c64972782cd3a7c45eb1faa119572dae3de72f197875a42c75de49",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "收盤 ",
+          "漲跌",
+          "開盤 ",
+          "最高 ",
+          "最低",
+          "成交股數  ",
+          " 成交金額(元)",
+          " 成交筆數 ",
+          "最後買價",
+          "最後賣價",
+          "發行股數 ",
+          "次日漲停價 ",
+          "次日跌停價"
+        ]
+      ],
+      "validation": {
+        "requested_date": "2015-01-05",
+        "returned_date": "104/01/05",
+        "rows": 684,
+        "priced_rows": 666,
+        "duplicate_codes": 0,
+        "ohlc_errors": 0,
+        "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+        "volume_unit": "shares",
+        "amount_unit": "TWD"
+      },
+      "current_parser_passed": true
+    },
+    {
+      "date": "2015-01-05",
+      "kind": "institutional",
+      "download_ok": true,
+      "source_sha256": "2d8bc767b7af04c3b908df74c83b83017455efca814f3ea503eabfd278f55834",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "外資及陸資買股數",
+          "外資及陸資賣股數",
+          "外資及陸資淨買股數",
+          "投信買進股數",
+          "投信賣股數",
+          "投信淨買股數",
+          "自營淨買股數",
+          "自營商(自行買賣)買股數",
+          "自營商(自行買賣)賣股數",
+          "自營商(自行買賣)淨買股數",
+          "自營商(避險)買股數",
+          "自營商(避險)賣股數",
+          "自營商(避險)淨買股數",
+          "三大法人買賣超股數"
+        ]
+      ],
+      "current_parser_passed": false,
+      "validation_error": "ValueError: Unexpected institutional schema"
+    },
+    {
+      "date": "2018-01-02",
+      "kind": "quotes",
+      "download_ok": true,
+      "source_sha256": "0772f8bd8dbfc6406986e06e4f7e38ecb9023fce2ce93b234ef6ab6478605572",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "收盤 ",
+          "漲跌",
+          "開盤 ",
+          "最高 ",
+          "最低",
+          "成交股數  ",
+          " 成交金額(元)",
+          " 成交筆數 ",
+          "最後買價",
+          "最後賣價",
+          "發行股數 ",
+          "次日漲停價 ",
+          "次日跌停價"
+        ]
+      ],
+      "validation": {
+        "requested_date": "2018-01-02",
+        "returned_date": "107/01/02",
+        "rows": 752,
+        "priced_rows": 725,
+        "duplicate_codes": 0,
+        "ohlc_errors": 0,
+        "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+        "volume_unit": "shares",
+        "amount_unit": "TWD"
+      },
+      "current_parser_passed": true
+    },
+    {
+      "date": "2018-01-02",
+      "kind": "institutional",
+      "download_ok": true,
+      "source_sha256": "93186c938819273cfb122909c160f2d051ee93d28aada5a3b816d9d4c9e8f020",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "外資及陸資買股數",
+          "外資及陸資賣股數",
+          "外資及陸資淨買股數",
+          "投信買進股數",
+          "投信賣股數",
+          "投信淨買股數",
+          "自營淨買股數",
+          "自營商(自行買賣)買股數",
+          "自營商(自行買賣)賣股數",
+          "自營商(自行買賣)淨買股數",
+          "自營商(避險)買股數",
+          "自營商(避險)賣股數",
+          "自營商(避險)淨買股數",
+          "三大法人買賣超股數"
+        ]
+      ],
+      "current_parser_passed": false,
+      "validation_error": "ValueError: Unexpected institutional schema"
+    },
+    {
+      "date": "2020-01-02",
+      "kind": "quotes",
+      "download_ok": true,
+      "source_sha256": "3d4dd9c1b37ed2c89019950839612a16fd999c62fc8f04e201f9bf7b77746ad8",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "收盤 ",
+          "漲跌",
+          "開盤 ",
+          "最高 ",
+          "最低",
+          "成交股數  ",
+          " 成交金額(元)",
+          " 成交筆數 ",
+          "最後買價",
+          "最後賣價",
+          "發行股數 ",
+          "次日漲停價 ",
+          "次日跌停價"
+        ]
+      ],
+      "validation": {
+        "requested_date": "2020-01-02",
+        "returned_date": "109/01/02",
+        "rows": 876,
+        "priced_rows": 856,
+        "duplicate_codes": 0,
+        "ohlc_errors": 0,
+        "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+        "volume_unit": "shares",
+        "amount_unit": "TWD"
+      },
+      "current_parser_passed": true
+    },
+    {
+      "date": "2020-01-02",
+      "kind": "institutional",
+      "download_ok": true,
+      "source_sha256": "4843c0551d488eec1628f8907785f55be70dc2c03e8c9a5bd951f9c4630bdfdd",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "三大法人買賣超股數合計"
+        ]
+      ],
+      "validation": {
+        "rows": 561
+      },
+      "current_parser_passed": true
+    },
+    {
+      "date": "2022-01-03",
+      "kind": "quotes",
+      "download_ok": true,
+      "source_sha256": "f03ae8c58f25c47da5d0fa7980ad0639bd7e794fcc466c070b22f876e634035f",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "收盤 ",
+          "漲跌",
+          "開盤 ",
+          "最高 ",
+          "最低",
+          "成交股數  ",
+          " 成交金額(元)",
+          " 成交筆數 ",
+          "最後買價",
+          "最後買量<br>(千股)",
+          "最後賣價",
+          "最後賣量<br>(千股)",
+          "發行股數 ",
+          "次日漲停價 ",
+          "次日跌停價"
+        ]
+      ],
+      "validation": {
+        "requested_date": "2022-01-03",
+        "returned_date": "111/01/03",
+        "rows": 896,
+        "priced_rows": 877,
+        "duplicate_codes": 0,
+        "ohlc_errors": 0,
+        "ordinary_classification": "pending; never use present-day membership to remove historical securities",
+        "volume_unit": "shares",
+        "amount_unit": "TWD"
+      },
+      "current_parser_passed": true
+    },
+    {
+      "date": "2022-01-03",
+      "kind": "institutional",
+      "download_ok": true,
+      "source_sha256": "73ce6005f4ad68a4f394bb321805036c9a0340316d39fe3739d6f071aaf87eae",
+      "fields": [
+        [
+          "代號",
+          "名稱",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "買進股數",
+          "賣出股數",
+          "買賣超股數",
+          "三大法人買賣超股數合計"
+        ]
+      ],
+      "validation": {
+        "rows": 764
+      },
+      "current_parser_passed": true
+    }
+  ],
+  "limitation": "Only four historical dates, not complete annual source coverage, historical ordinary-stock membership, or corporate-action replay. Raw snapshots are retained; never classify download/parse failure as a holiday."
+}

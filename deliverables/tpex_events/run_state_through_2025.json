@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "end_year": 2025,
+  "output_sha256": {
+    "deliverables/tpex_events/daily_through_2025.csv": "492a434842388f46c0132fb229bf253904a138b49a052c7d560e9fcee3021bc3",
+    "deliverables/tpex_events/selections_through_2025.csv.gz": "7d3c74a8ea434d383521a6a496eb62804718614190c482f1175fcbd3be13aa6d",
+    "deliverables/tpex_events/common_matrix_through_2025.csv.gz": "c0663bab9a936783c7c3f91c1cf3cf508377ec217bb43d8869143928ee9209de"
+  }
+}

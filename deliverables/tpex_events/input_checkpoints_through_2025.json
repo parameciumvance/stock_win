@@ -1,0 +1,32 @@
+{
+  "price_benchmark": {
+    "roundtrip_verified": true,
+    "sha256": "17b48b2adaae713592245b6cdd5a6e4db146a793c2f54bbc096553700a56b7ac",
+    "manifest_files": 19,
+    "library_file_id": "libfile_81c3b068f5588191b3114b1f63f9dbaf",
+    "file_id": "file_00000000cb3c81f7aa672de5457a46f5"
+  },
+  "monthly_raw": {
+    "roundtrip_verified": true,
+    "sha256": "6d582008c5c3cce86fe5079f8fadd2047df467867382394987de220ea14fd9a0",
+    "manifest_files": 184,
+    "library_file_id": "libfile_1986bcdd82ac81919a7e128262955439",
+    "file_id": "file_000000001b4481f5901b9e4a8b4d545d"
+  },
+  "previous_raw_sources": {
+    "2023": {
+      "roundtrip_verified": true,
+      "sha256": "b75c3b6698810697983398c3dd2ffeb4defcb8415a7687640d12aa81bba23269",
+      "manifest_files": 496,
+      "library_file_id": "libfile_6a549f2c084c8191ae7860a1e7940ed1",
+      "file_id": "file_00000000658c81f5b6ef9136c753d123"
+    },
+    "2024": {
+      "roundtrip_verified": true,
+      "sha256": "3dfdcdde763409cc9a9998f14ac91f3965463f94de65a7f6c416433ac2cdd4d6",
+      "manifest_files": 511,
+      "library_file_id": "libfile_3873cd17bfd88191a07754767e4be152",
+      "file_id": "file_00000000570c81f59a3485b5bbb3d7ec"
+    }
+  }
+}
