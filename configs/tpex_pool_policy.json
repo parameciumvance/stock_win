@@ -1,0 +1,15 @@
+{
+  "policy": "A_official_rule_exploration_with_confirmed_subset",
+  "accepted_on": "2026-10-11",
+  "research_asof": "2026-10-02",
+  "rule_source": "https://www.twse.com.tw/staticFiles/announcement/announcement/1090007509-2.pdf",
+  "rule_approved_on": "2020-05-01",
+  "primary_includes": ["confirmed_ordinary", "ordinary_stock_rule_candidate"],
+  "sensitivity_includes": ["confirmed_ordinary"],
+  "preserve_unknown_rows": true,
+  "do_not_infer": ["CFI", "industry", "listing_date", "announcement_timestamp"],
+  "membership": "historical_daily_quote_presence; full suspended-security master pending",
+  "current_market_membership_filter": false,
+  "source_failure_is_holiday": false,
+  "model_parameter_search": false
+}
