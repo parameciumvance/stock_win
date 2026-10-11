@@ -1,0 +1,21 @@
+{
+  "year": 2021,
+  "events": 987,
+  "by_kind": {
+    "ex_right_dividend": 966,
+    "capital_reduction": 21
+  },
+  "by_status": {
+    "last_close_matches": 985,
+    "last_close_mismatch": 2
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2020/quotes_with_type_2020.csv.gz": "8a1b838e0a1959952fb2ecae5a312dcbf260090a920567e9f2b20bb7ac971737"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-10-11T17:25:36.349206+00:00",
+  "status": "blocked_network",
+  "transport_error": "network approval was cancelled before a decision was returned",
+  "source_error": "urllib.error.URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+  "endpoint_host": "www.tpex.org.tw",
+  "runner_exit_code": 1,
+  "runner_state": "failed",
+  "verified_days_local": 62,
+  "expected_days": 245,
+  "last_verified_date": "2020-04-10",
+  "durable_institutional_days": 56,
+  "durable_institutional_rows": 34157,
+  "durable_institutional_library_file_id": "libfile_bb50bcbea094819194253a73c6591029",
+  "durable_quotes_days": 245,
+  "quotes_library_file_id": "libfile_9443fda6b1008191aece2d970ca52538",
+  "memory_events_before": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0
+  },
+  "memory_events_after": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0
+  },
+  "cause_limit": "Observed proxy tunnel refusal; not evidence TPEx refused the request or previous transport outage cause. No memory OOM counters increased.",
+  "resume_command": "python3 research_pipeline.py --plan configs/tpex_2020_resume_from_saved_quotes.json --state-dir deliverables/tpex_2020_source_run --code-commit <verified remote head>",
+  "next_steps": [
+    "Restore access to www.tpex.org.tw; keep free official sources",
+    "Use verified frozen quote archive; do not regenerate 2020 annual quote gzip",
+    "Resume institutional cache then exact annual replay/package/readback",
+    "Run yearly readiness; preserve missing institutional rows as unknown",
+    "Continue historical expansion with explicit pre-2020 coding evidence; no tuning"
+  ]
+}

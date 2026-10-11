@@ -1,0 +1,20 @@
+{
+  "year": 2020,
+  "events": 965,
+  "by_kind": {
+    "ex_right_dividend": 940,
+    "capital_reduction": 25
+  },
+  "by_status": {
+    "missing_prior_quote": 3,
+    "last_close_matches": 957,
+    "last_close_mismatch": 5
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {}
+}
