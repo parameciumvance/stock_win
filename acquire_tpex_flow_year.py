@@ -10,7 +10,7 @@ def main():
  def get(date):
   path=raw/f'{date}.json';mp=path.with_suffix('.meta.json');url='https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?'+urllib.parse.urlencode(dict(date=date.replace('-','/'),type='Daily',response='json'))
   if path.exists():
-   meta=json.loads(mp.read_text());assert hashlib.sha256(path.read_bytes()).hexdigest()==meta['sha256'];return parse(json.loads(path.read_bytes()),date)
+   meta=json.loads(mp.read_text());assert meta['url']==url and hashlib.sha256(path.read_bytes()).hexdigest()==meta['sha256'];return parse(json.loads(path.read_bytes()),date)
   sample=Path(f'deliverables/tpex_flow_pilot/raw/{date}.json')
   if sample.exists():
    payload=sample.read_bytes();meta=json.loads(sample.with_suffix('.meta.json').read_text());assert hashlib.sha256(payload).hexdigest()==meta['sha256']

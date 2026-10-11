@@ -1,0 +1,11 @@
+{
+  "year": 2023,
+  "days": 239,
+  "rows": 182773,
+  "covered_primary_rows": 160354,
+  "primary_rows": 193327,
+  "mean_daily_coverage": 0.829433963475888,
+  "normalized_sha256": "482755eab07e4fc45edfeb32a4f29738e8bf22c3d45362a659c69f95cd5a374a",
+  "calendar_sha256": "145bb45a14ef54c2dc4e42e4051e4565af799fd3b1d7edbc1e35e114c1e3253d",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}

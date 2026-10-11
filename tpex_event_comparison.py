@@ -40,18 +40,18 @@ def main():
  pd.concat(matrices,ignore_index=True).to_csv(ROOT/f'common_matrix_through_{a.end_year}.csv.gz',index=False,compression={'method':'gzip','mtime':0})
  summaries=[];pairs=[]
  for (year,lag,w,method),g in d.groupby(['year','lag','horizon','method']):
-  v=g.strict_mean;summaries.append(dict(year=int(year),lag=int(lag),horizon=int(w),method=method,dates=len(g),complete_selection_dates=int(v.notna().sum()),empty_selection_dates=int(g.selected.eq(0).sum()),unknown_selected_rows=int(g.unknown_selected.sum()),mean_net_relative=float(v.mean()) if v.notna().any() else None))
+  v=g.strict_mean;summaries.append(dict(year=int(year),lag=int(lag),horizon=int(w),method=method,dates=len(g),mean_selected=float(g.selected.mean()),median_selected=float(g.selected.median()),complete_selection_dates=int(v.notna().sum()),empty_selection_dates=int(g.selected.eq(0).sum()),unknown_selected_rows=int(g.unknown_selected.sum()),mean_net_relative=float(v.mean()) if v.notna().any() else None))
  for (year,lag,w),g in d.groupby(['year','lag','horizon']):
   wide=g.pivot(index='date',columns='method',values='strict_mean').reindex(days[days.year==year].strftime('%Y-%m-%d'))
   for method in ['revenue_acceleration','institutional_five_days','breakout60_volume15','all_three']:
    diff=wide[method]-wide.vol20;pairs.append(dict(year=int(year),lag=int(lag),horizon=int(w),comparison=method+'-minus-vol20',mean=float(diff.mean()) if diff.notna().any() else None,known_pairs=int(diff.notna().sum()),intervals={str(block):intervals(diff,block,5000,20261010) for block in [20,60,80]}))
  result=dict(end_year=a.end_year,input_hashes=hashes,summary=summaries,paired=pairs,limitations=['same as-of feature-complete subset only; institutional coverage lower than price pool','45/60-day retrospective revenue proxy, not original-publication PIT','2023 exploratory rule diagnostics without trained Ridge; 2024-26 reuse previously frozen Ridge coefficients','missing selected endpoints make whole selection unknown','daily overlapping-window means are not portfolio performance'])
  (ROOT/f'summary_through_{a.end_year}.json').write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
- lines=['# 上櫃固定事件規則比較','','45日為主要營收延遲代理；60日敏感度另列JSON。所有方法在同一當時特徵完整子池比較，不按未來結果排除。法人來源日嚴格落後訊號日；缺列不補零。','','| 年 | 期間 | 方法 | 完整已知日／訊號日 | 空選股日 | 未知選中筆 | 平均相對代理 |','|---|---:|---|---:|---:|---:|---:|']
+ lines=['# 上櫃固定事件規則比較','','45日為主要營收延遲代理；60日敏感度另列JSON。所有方法在同一當時特徵完整子池比較，不按未來結果排除。法人來源日嚴格落後訊號日；缺列不補零。','','| 年 | 期間 | 方法 | 完整已知日／訊號日 | 平均檔數 | 空選股日 | 未知選中筆 | 平均相對代理 |','|---|---:|---|---:|---:|---:|---:|---:|']
  for r in summaries:
   if r['lag']!=45:continue
   v=f"{r['mean_net_relative']*100:+.2f}%" if r['mean_net_relative'] is not None else '未知'
-  lines.append(f"| {r['year']} | {r['horizon']} | {r['method']} | {r['complete_selection_dates']}/{r['dates']} | {r['empty_selection_dates']} | {r['unknown_selected_rows']} | {v} |")
+  lines.append(f"| {r['year']} | {r['horizon']} | {r['method']} | {r['complete_selection_dates']}/{r['dates']} | {r['mean_selected']:.2f} | {r['empty_selection_dates']} | {r['unknown_selected_rows']} | {v} |")
  lines+=['','區塊配對結果、完整來源雜湊及未知數見 summary JSON。仍是重疊窗口報價代理、修訂靜態營收；沒有實際成交或嚴格公告PIT。此資料並非新獨立留出。']
  (ROOT/f'report_through_{a.end_year}.md').write_text('\n'.join(lines)+'\n');print(dict(end_year=a.end_year,daily_rows=len(d),common_rows=sum(len(m) for m in matrices)),flush=True)
 if __name__=='__main__':main()
