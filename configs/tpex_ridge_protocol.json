@@ -1,0 +1,16 @@
+{
+ "frozen_on":"2026-10-11",
+ "features":["mom1","mom5","mom20","mom60","vol20","atr20_pct","volume_ratio20"],
+ "ridge_alpha":1000,
+ "horizons":[20,60],
+ "score_years":[2024,2025,2026],
+ "train":"expanding from 2023; signal and label end <= previous December 31; known train targets only",
+ "test_pool":"as-of finite features plus finite breakout rule; no future target filter; >=100 stocks",
+ "methods":["ridge","vol20","atr20_pct","breakout60_volume15"],
+ "top_fraction":0.1,
+ "commission":0.001425,
+ "sell_tax":0.003,
+ "slippage_each_side":0.005,
+ "paired_uncertainty":{"block_lengths":[20,60,80],"replicates":5000,"seed":20261010,"method":"calendar-position circular block bootstrap; missing paired means preserved, nanmean conditional on observed pairs"},
+ "no_parameter_search":true
+}

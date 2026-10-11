@@ -1,0 +1,14 @@
+{
+  "frozen_on": "2026-10-11",
+  "market": "TPEx quote-present policy-A ordinary pool; confirmed subset preserved",
+  "price_basis": "forward official last-close/reference multiplier only for unique same-day verified quote bridges; not actual shareholder return",
+  "unknown_event": "no guessed factor; mask feature and forward-label windows crossing uncertainty; retain as-of stock-pool rows",
+  "momentum_windows": [1, 5, 20, 60],
+  "volatility": "20 log daily returns, sample standard deviation",
+  "atr": "20-market-day mean true range / current quote proxy close",
+  "rule": "today close > preceding 60 market-day maximum close AND today volume > 1.5 * preceding 20 market-day mean volume",
+  "baseline": "same feature-complete as-of pool; top 10 percent by vol20 or ATR with code tie-break",
+  "label": "next market-day open to signal day +20/+60 close; gross quote proxy only; unknown endpoints or unverified future events stay unknown",
+  "deferred": ["0050 relative benchmark", "transaction costs and fills", "model training", "strategy portfolio backtest"],
+  "parameter_search": false
+}

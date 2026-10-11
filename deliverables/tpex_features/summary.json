@@ -1,0 +1,30 @@
+{
+  "rows": 758875,
+  "market_days": 905,
+  "source_hashes": {
+    "configs/tpex_proxy_protocol.json": "c6f2de76ef12cdacf6631aa6fe7afbab0cec3db25e4a10b9a5502bbdebf5ddb4",
+    "deliverables/tpex_2023/quotes_with_type_2023.csv.gz": "95aa5806c05f0ee18a459b00df2144b79c3e6a597aec04a3dea15d4e9fff5cf4",
+    "deliverables/tpex_2023/event_coverage.json": "b954a7fdef79d592c93ee2d9192f2556c578989d11124645174134fd3989bbe9",
+    "deliverables/tpex_2024/quotes_with_type_2024.csv.gz": "f53b8d27c77591020dcd3d31d3bd89e85eebafb05abf6272438bfec090187877",
+    "deliverables/tpex_2024/event_coverage.json": "97d9f19ca7d83a007e2c5d2ed223727268bf21c43e51992fe6ec77ce057490bc",
+    "deliverables/tpex_2025/quotes_with_type_2025.csv.gz": "03bd900c62810c43fc4b22a2a51c17101d1a91cf1e49ee05cac133528543989c",
+    "deliverables/tpex_2025/event_coverage.json": "d233a8e8798b9c282adc087aeb06790e6b9b17c0a4eb6c2dcb4da1bbe27dcb32",
+    "deliverables/tpex_2026/quotes_with_type_2026.csv.gz": "248ce0d564be540b62d2562b057e35ba2425b40f71d6a64b0be33d2e96e479fb",
+    "deliverables/tpex_2026/event_coverage.json": "7e5f53a67fca7b039048c33484aa3fbc96621809a1c653f187ba0dbe567bd3f0"
+  },
+  "output_sha256": "6d09fe5ab4d2f03d406eab8f1252f166ddd3ca69a7a8cf61a98a2e330f245c61",
+  "rule_definition": "close > prior 60 market-day maximum close AND volume > 1.5 * prior 20 market-day mean volume; windows exclude today",
+  "gross_labels": "next market-day open to day t+20/t+60 close; missing endpoints/event transitions unknown; no future-result pool filter",
+  "not_completed": [
+    "0050 relative benchmark",
+    "transaction-cost and fill rules",
+    "strategy backtest",
+    "model training",
+    "exact corporate-action cash ledger"
+  ],
+  "limitations": [
+    "official last/reference forward multiplier is a quote proxy, not shareholder total return",
+    "unverified events are not adjusted; crossing windows unknown",
+    "current type evidence is retrospective metadata, not historical announcement snapshot"
+  ]
+}

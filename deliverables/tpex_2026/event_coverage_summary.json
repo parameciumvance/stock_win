@@ -1,0 +1,23 @@
+{
+  "year": 2026,
+  "events": 1169,
+  "by_kind": {
+    "ex_right_dividend": 1153,
+    "capital_reduction": 11,
+    "face_value_change": 5
+  },
+  "by_status": {
+    "last_close_matches": 1159,
+    "last_close_mismatch": 1,
+    "event_date_outside_market_calendar": 9
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2025/quotes_with_type_2025.csv.gz": "03bd900c62810c43fc4b22a2a51c17101d1a91cf1e49ee05cac133528543989c"
+  }
+}

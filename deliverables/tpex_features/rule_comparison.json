@@ -1,0 +1,261 @@
+{
+  "feature_sha256": "6d09fe5ab4d2f03d406eab8f1252f166ddd3ca69a7a8cf61a98a2e330f245c61",
+  "benchmark_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "rows": 758875,
+  "market_days": 905,
+  "costs": {
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005
+  },
+  "formula": "(1+gross)*(1-slip)*(1-fee-tax)/((1+slip)*(1+fee))-1 - gross0050",
+  "pool": "same as-of feature-complete pool, >=100 rows; no future-label filter",
+  "summary": [
+    {
+      "signal_year": 2023,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 179,
+      "known_complete_selection_dates": 115,
+      "unknown_selected_rows": 98,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.023298168209008686
+    },
+    {
+      "signal_year": 2023,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 179,
+      "known_complete_selection_dates": 48,
+      "unknown_selected_rows": 215,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.06347153327224099
+    },
+    {
+      "signal_year": 2023,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 179,
+      "known_complete_selection_dates": 151,
+      "unknown_selected_rows": 31,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.006059256329301818
+    },
+    {
+      "signal_year": 2023,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 179,
+      "known_complete_selection_dates": 130,
+      "unknown_selected_rows": 56,
+      "empty_selection_dates": 0,
+      "mean_net_relative": 0.015631192305000905
+    },
+    {
+      "signal_year": 2023,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 179,
+      "known_complete_selection_dates": 105,
+      "unknown_selected_rows": 113,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.017517352654716174
+    },
+    {
+      "signal_year": 2023,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 179,
+      "known_complete_selection_dates": 32,
+      "unknown_selected_rows": 249,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.050749621090114626
+    },
+    {
+      "signal_year": 2024,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 242,
+      "known_complete_selection_dates": 171,
+      "unknown_selected_rows": 87,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.06141918251276527
+    },
+    {
+      "signal_year": 2024,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 242,
+      "known_complete_selection_dates": 127,
+      "unknown_selected_rows": 152,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.10392311092291877
+    },
+    {
+      "signal_year": 2024,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 242,
+      "known_complete_selection_dates": 214,
+      "unknown_selected_rows": 45,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.029564867034531515
+    },
+    {
+      "signal_year": 2024,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 242,
+      "known_complete_selection_dates": 185,
+      "unknown_selected_rows": 88,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.05564279589951104
+    },
+    {
+      "signal_year": 2024,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 242,
+      "known_complete_selection_dates": 168,
+      "unknown_selected_rows": 94,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.05982859461078107
+    },
+    {
+      "signal_year": 2024,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 242,
+      "known_complete_selection_dates": 121,
+      "unknown_selected_rows": 178,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.09901440117223227
+    },
+    {
+      "signal_year": 2025,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 243,
+      "known_complete_selection_dates": 192,
+      "unknown_selected_rows": 736,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.03383463244576323
+    },
+    {
+      "signal_year": 2025,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 243,
+      "known_complete_selection_dates": 162,
+      "unknown_selected_rows": 765,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.09952550254480273
+    },
+    {
+      "signal_year": 2025,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 243,
+      "known_complete_selection_dates": 224,
+      "unknown_selected_rows": 128,
+      "empty_selection_dates": 2,
+      "mean_net_relative": -0.029066403606034706
+    },
+    {
+      "signal_year": 2025,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 243,
+      "known_complete_selection_dates": 218,
+      "unknown_selected_rows": 187,
+      "empty_selection_dates": 2,
+      "mean_net_relative": -0.08649916506796423
+    },
+    {
+      "signal_year": 2025,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 243,
+      "known_complete_selection_dates": 204,
+      "unknown_selected_rows": 725,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.035719008201520935
+    },
+    {
+      "signal_year": 2025,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 243,
+      "known_complete_selection_dates": 158,
+      "unknown_selected_rows": 771,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.085267468797394
+    },
+    {
+      "signal_year": 2026,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 181,
+      "known_complete_selection_dates": 123,
+      "unknown_selected_rows": 1443,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.02432763584829686
+    },
+    {
+      "signal_year": 2026,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 181,
+      "known_complete_selection_dates": 97,
+      "unknown_selected_rows": 4369,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.06730217499650054
+    },
+    {
+      "signal_year": 2026,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 181,
+      "known_complete_selection_dates": 147,
+      "unknown_selected_rows": 316,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.0393743666330658
+    },
+    {
+      "signal_year": 2026,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 181,
+      "known_complete_selection_dates": 87,
+      "unknown_selected_rows": 729,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.11207044824718498
+    },
+    {
+      "signal_year": 2026,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 181,
+      "known_complete_selection_dates": 127,
+      "unknown_selected_rows": 1439,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.01855972676997965
+    },
+    {
+      "signal_year": 2026,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 181,
+      "known_complete_selection_dates": 80,
+      "unknown_selected_rows": 4393,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.029392237954002847
+    }
+  ],
+  "limitations": [
+    "quote proxy, not fills or shareholder total return",
+    "overlapping horizons, daily means are not portfolio CAGR",
+    "any unknown selected endpoint makes strict date mean unknown; observed-only diagnostic separate",
+    "2024-2026 already researched, not untouched holdout"
+  ]
+}

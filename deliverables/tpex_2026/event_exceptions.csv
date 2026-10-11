@@ -1,0 +1,11 @@
+event_date,code,kind,source_file,official_last_close,official_reference,prior_quote_date,prior_quote_close,on_event_close,primary_pool,status
+2026-06-25,1259,ex_right_dividend,excal_history.json,57.6,56.4,2026-06-18,58.0,56.4,True,last_close_mismatch
+2026-07-10,3217,ex_right_dividend,excal_history.json,173.5,163.5,2026-07-09,173.5,,,event_date_outside_market_calendar
+2026-07-10,3303,ex_right_dividend,excal_history.json,59.2,56.2,2026-07-09,59.2,,,event_date_outside_market_calendar
+2026-07-10,3467,ex_right_dividend,excal_history.json,58.8,58.3,2026-07-09,58.8,,,event_date_outside_market_calendar
+2026-07-10,3489,ex_right_dividend,excal_history.json,24.2,21.2,2026-07-09,24.2,,,event_date_outside_market_calendar
+2026-07-10,3564,ex_right_dividend,excal_history.json,54.1,53.83,2026-07-09,54.1,,,event_date_outside_market_calendar
+2026-07-10,4711,ex_right_dividend,excal_history.json,17.35,16.85,2026-07-09,17.35,,,event_date_outside_market_calendar
+2026-07-10,6762,ex_right_dividend,excal_history.json,176.5,167.62,2026-07-09,176.5,,,event_date_outside_market_calendar
+2026-07-10,7747,ex_right_dividend,excal_history.json,129.0,114.55,2026-07-09,129.0,,,event_date_outside_market_calendar
+2026-07-10,7811,ex_right_dividend,excal_history.json,80.5,74.83,2026-07-09,80.5,,,event_date_outside_market_calendar
