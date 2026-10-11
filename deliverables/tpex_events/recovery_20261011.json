@@ -57,5 +57,50 @@
       "all_checks_passed": true,
       "limitations": "Replays frozen as-of features and proxy outcomes, not original announcement vintage or actual fills"
     }
+  },
+  "previous_normalized_source_sha256": {
+    "2025": "33a066f7094fdb86da18f6d085e49f192c732a2a96655f8e89f41f6fe93b2aff",
+    "2026": "30297287da655731df24b53489dafd5b462f5d33666148f7396e031d0c665171"
+  },
+  "reacquired_sources": {
+    "2025": {
+      "days": 243,
+      "rows": 204662,
+      "normalized_sha256": "33a066f7094fdb86da18f6d085e49f192c732a2a96655f8e89f41f6fe93b2aff",
+      "normalized_matches_before_interruption": true,
+      "calendar_sha256": "ee664cb50a8756012727a83cdaa77f09d14738d9695bd4772bfb8eb8ed08f647",
+      "calendar_dates_match_frozen_features": true
+    },
+    "2026": {
+      "days": 181,
+      "rows": 164102,
+      "normalized_sha256": "30297287da655731df24b53489dafd5b462f5d33666148f7396e031d0c665171",
+      "normalized_matches_before_interruption": true,
+      "calendar_sha256": "9d269a6a7174715903aeafb6726ebd461e5d895cf638c84a3ebdd77d8ae4345c",
+      "calendar_dates_match_frozen_features": true
+    }
+  },
+  "calendar_2026_note": "Current restored archive and Git calendar bytes agree; previous interrupted acquisition metadata had a different calendar byte hash. Current 181 calendar dates exactly match frozen features; the prior unarchived calendar bytes are unavailable for byte comparison.",
+  "source_roundtrip_verified": {
+    "2025": {
+      "library_file_id": "libfile_6026f9e62cec8191a1695e368267f30b",
+      "file_id": "file_0000000069c081f5832f682e72d4062e",
+      "version": 0,
+      "sha256": "32a040a2b19c2af7e6649de6af8cbd82d0991c4cbfd5f6daf4db62cbc3d045cd",
+      "bytes": 11724255,
+      "manifest_files": 491,
+      "roundtrip_verified": true,
+      "scope": "current-year raw institutional snapshots, metadata, calendar, normalized rows and exact source replay; no event performance claim"
+    },
+    "2026": {
+      "library_file_id": "libfile_559a1642d04481918402503873166127",
+      "file_id": "file_000000009a8881f591d6c7dc3e296adc",
+      "version": 0,
+      "sha256": "4340bb7be569068b81b7eb3dce240e007daaf214ab150b2db61623f27c44df53",
+      "bytes": 9920914,
+      "manifest_files": 367,
+      "roundtrip_verified": true,
+      "scope": "current-year raw institutional snapshots, metadata, calendar, normalized rows and exact source replay; no event performance claim"
+    }
   }
 }

@@ -9,6 +9,6 @@
   "primary_rows": 159902,
   "mean_daily_coverage": 0.8928574713500462,
   "normalized_sha256": "30297287da655731df24b53489dafd5b462f5d33666148f7396e031d0c665171",
-  "calendar_sha256": "ef5ee66f09b1d00f16917a7f138826bfb3b65c87da5068aeda97fb21c41f666b",
+  "calendar_sha256": "9d269a6a7174715903aeafb6726ebd461e5d895cf638c84a3ebdd77d8ae4345c",
   "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
 }

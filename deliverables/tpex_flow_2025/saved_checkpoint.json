@@ -1,0 +1,10 @@
+{
+  "library_file_id": "libfile_6026f9e62cec8191a1695e368267f30b",
+  "file_id": "file_0000000069c081f5832f682e72d4062e",
+  "version": 0,
+  "sha256": "32a040a2b19c2af7e6649de6af8cbd82d0991c4cbfd5f6daf4db62cbc3d045cd",
+  "bytes": 11724255,
+  "manifest_files": 491,
+  "roundtrip_verified": true,
+  "scope": "current-year raw institutional snapshots, metadata, calendar, normalized rows and exact source replay; no event performance claim"
+}
