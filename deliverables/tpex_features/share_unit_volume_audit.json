@@ -1,0 +1,24 @@
+{
+  "feature_sha256": "6d09fe5ab4d2f03d406eab8f1252f166ddd3ca69a7a8cf61a98a2e330f245c61",
+  "events": [
+    {
+      "year": 2023,
+      "share_unit_events": 15
+    },
+    {
+      "year": 2024,
+      "share_unit_events": 13
+    },
+    {
+      "year": 2025,
+      "share_unit_events": 11
+    },
+    {
+      "year": 2026,
+      "share_unit_events": 16
+    }
+  ],
+  "raw_feature_rows_straddling_unit_transition": 1021,
+  "common_pool_rows_straddling_unit_transition": 0,
+  "limitation": "Volume ratio is raw reported shares, not split-adjusted volume; inspect unit-transition windows before changing common-pool requirements"
+}

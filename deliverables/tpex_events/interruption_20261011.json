@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "source_acquisition": {
+    "market_days": 905,
+    "all_security_institutional_rows": 754372,
+    "covered_primary_rows": 660669,
+    "source_normalization_in_process_complete": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "archive_roundtrip_verified": [
+      2023,
+      2024
+    ],
+    "archive_pending": [
+      2025,
+      2026
+    ]
+  },
+  "last_verified_event_comparison_end_year": 2024,
+  "failed_validation": {
+    "year": 2025,
+    "file": "deliverables/tpex_events/common_matrix_through_2025.csv.gz",
+    "error": "EOFError: Compressed file ended before the end-of-stream marker was reached",
+    "audit_exit_code": 1
+  },
+  "runtime": {
+    "status": "offline",
+    "error": "409 Conflict, environment_offline: Environment is not connected",
+    "read_only_probe": "pwd timed out after 30 seconds",
+    "underlying_disconnect_cause": "not provided"
+  },
+  "fix": {
+    "atomic_closed_csv_readback_before_publication": true,
+    "output_sha256_and_completion_marker": true,
+    "reduce_retained_dataframe_copies": true,
+    "model_parameters_changed": false,
+    "new_regression_tests_run": false
+  },
+  "pending": [
+    "Reconnect execution environment",
+    "Run test_tpex_atomic_publish and retained TPEx checks",
+    "Regenerate and replay 2025/2026 event outputs with same protocol",
+    "Archive and roundtrip-verify 2025/2026 raw sources and validated outputs"
+  ],
+  "provisional_2025_results": "not accepted as verified research conclusions",
+  "source_2026_scope": "through 2026-10-02 only; not full year"
+}

@@ -1,0 +1,11 @@
+{
+  "year": 2025,
+  "days": 243,
+  "rows": 204662,
+  "covered_primary_rows": 178379,
+  "primary_rows": 206790,
+  "mean_daily_coverage": 0.8626610482250188,
+  "normalized_sha256": "33a066f7094fdb86da18f6d085e49f192c732a2a96655f8e89f41f6fe93b2aff",
+  "calendar_sha256": "ee664cb50a8756012727a83cdaa77f09d14738d9695bd4772bfb8eb8ed08f647",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}
