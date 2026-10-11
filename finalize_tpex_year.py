@@ -62,6 +62,7 @@ def main():
     status.update({'research_asof':cutoff.isoformat(),'coverage_end':min(cutoff,datetime.date(a.year,12,31)).isoformat(),'coverage_type':'partial_year_asof' if last_month<12 else 'full_year'})
     (root/'annual_verification.json').write_text(json.dumps(status,ensure_ascii=False,indent=2))
     files=[x for x in raw.rglob('*') if x.is_file() and not x.name.endswith('.pending')]+list(root.glob('summary_*.json'))+list(root.glob('quotes_with_type_*.csv.gz'))+[root/'calendar_audit.json',root/'annual_verification.json',root/'type_input_hashes.json']+list(root.glob('calendar_check_*.json'))
+    files.extend(x for x in (root/'classification').glob('*') if x.is_file())
     manifest={str(x.relative_to(root)):hashlib.sha256(x.read_bytes()).hexdigest() for x in files};mp=root/'SHA256MANIFEST_YEAR.json';mp.write_text(json.dumps(manifest,indent=2))
     archive=root/f'tpex_raw_type_{a.year}_checkpoint.zip';temp=archive.with_suffix('.pending.zip')
     with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED) as z:
