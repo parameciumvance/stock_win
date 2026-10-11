@@ -1,0 +1,9 @@
+{
+  "end_year": 2024,
+  "common_rows": 496562,
+  "selection_rows": 957588,
+  "replayed_rows": 957588,
+  "daily_groups": 12756,
+  "all_checks_passed": true,
+  "limitations": "Replays frozen as-of features and proxy outcomes, not original announcement vintage or actual fills"
+}

@@ -1,0 +1,7 @@
+{
+  "bytes": 83661218,
+  "sha256": "3dfdcdde763409cc9a9998f14ac91f3965463f94de65a7f6c416433ac2cdd4d6",
+  "manifest_files": 511,
+  "raw_scope": "only current year; prior raw receipt references retained",
+  "data_scope": "all normalized institutional years and complete-through-year frozen event outputs; feature/benchmark checkpoint separate"
+}

@@ -105,3 +105,27 @@ medium-term-package:
 	$(PYTHON) package_medium_term.py
 
 
+
+.PHONY: test-tpex tpex-fixed-comparison tpex-flow-fetch tpex-revenue-fetch tpex-event-comparison tpex-event-verify
+TPEX_YEAR ?= 2023
+TPEX_END_YEAR ?= 2026
+
+test-tpex:
+	$(PYTHON) -m unittest discover -p 'test_tpex*.py' -q
+
+tpex-fixed-comparison:
+	$(PYTHON) tpex_rule_comparison.py
+	$(PYTHON) tpex_ridge_baseline.py
+
+tpex-flow-fetch:
+	$(PYTHON) acquire_tpex_flow_year.py --year $(TPEX_YEAR)
+
+tpex-revenue-fetch:
+	$(PYTHON) acquire_tpex_revenue.py
+
+tpex-event-comparison:
+	$(PYTHON) tpex_event_comparison.py --end-year $(TPEX_END_YEAR)
+
+tpex-event-verify:
+	$(PYTHON) audit_tpex_event_comparison.py --end-year $(TPEX_END_YEAR)
+

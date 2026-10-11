@@ -12,3 +12,9 @@
 4. `python3 -m unittest test_tpex_proxy_features test_tpex_rule_comparison test_tpex_ridge_baseline` 驗證特徵時點、未知結果、基準停牌日期和區塊缺值。新增上櫃法人及事件特徵测试另列，須先還原原始試點來源。
 
 資料／係數／每日明細已保存；大型檔不入Git。價格源SHA與既有上市60日規格完全一致，未另選對模型有利的基準。所有年度均為研究資料，沒有新獨立留出。
+
+空白資料目錄還原後，規則摘要、Ridge摘要、每日結果及全部排名四份檔案SHA完全一致，見 `clean_restore_replay.json`；此檢核不是重新下載原始來源。固定依賴見 `requirements_tpex.txt`。
+
+下載資料包後，在空白checkout以 `python3 restore_tpex_checkpoint.py ARCHIVE --sha256 EXPECTED_SHA --destination .` 還原固定量價／0050／法人／營收重跑包；年度行情包用 `--destination deliverables/tpex_YYYY`。工具先核對整包及所有manifest檔案，再還原資料，保留Git的程式與配置；遇到不同的既有資料就停止。
+
+`make tpex-fixed-comparison` 重跑規則與固定Ridge；`make tpex-event-comparison TPEX_END_YEAR=2023` 重跑已還原年度的事件規則，`make tpex-event-verify TPEX_END_YEAR=2023` 核對全部選股。`make test-tpex` 目前43項通過，真實来源小型fixture已放repo，測試不需網路。

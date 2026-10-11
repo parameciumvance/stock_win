@@ -1,0 +1,11 @@
+{
+  "year": 2024,
+  "days": 242,
+  "rows": 202835,
+  "covered_primary_rows": 179161,
+  "primary_rows": 198856,
+  "mean_daily_coverage": 0.900972699847769,
+  "normalized_sha256": "6b809e63f664362ac7de45f34bec59f00817dd771c5966032551a5df4f477ff1",
+  "calendar_sha256": "751892a018611602d0aff1f9ce25f0b52eb208c2e87295e0370b2e8d700ef9a3",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}

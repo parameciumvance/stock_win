@@ -1,0 +1,32 @@
+{
+  "status": "empty_data_folder_checkpoint_restore_and_fixed_model_replay_exact",
+  "files": [
+    {
+      "path": "rule_comparison.json",
+      "original_sha256": "510e3bc4c9f9a8a7a3dc51d4023c406092384812607f3bfd20519b6a18ed1807",
+      "replayed_sha256": "510e3bc4c9f9a8a7a3dc51d4023c406092384812607f3bfd20519b6a18ed1807",
+      "identical": true
+    },
+    {
+      "path": "ridge_summary.json",
+      "original_sha256": "9d74fc74cb7d34371fcbcc7326785639b192a8a8ba50c77b9643517da190f38c",
+      "replayed_sha256": "9d74fc74cb7d34371fcbcc7326785639b192a8a8ba50c77b9643517da190f38c",
+      "identical": true
+    },
+    {
+      "path": "ridge_daily.csv",
+      "original_sha256": "a66b4d2eede62a998f6308c5086d1a1d1b5d0599eacd2e16fb0363751cc698b8",
+      "replayed_sha256": "a66b4d2eede62a998f6308c5086d1a1d1b5d0599eacd2e16fb0363751cc698b8",
+      "identical": true
+    },
+    {
+      "path": "ridge_and_rule_selections.csv.gz",
+      "original_sha256": "14b878f272ce097397995f3ca1b089a4d51dbc4d74800fcca9c93a98d88f0dd7",
+      "replayed_sha256": "14b878f272ce097397995f3ca1b089a4d51dbc4d74800fcca9c93a98d88f0dd7",
+      "identical": true
+    }
+  ],
+  "raw_source_refetch": false,
+  "restored_manifest_files": 19,
+  "restored_data_files": 9
+}
