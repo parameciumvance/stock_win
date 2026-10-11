@@ -25,7 +25,11 @@
         "deliverables/tpex_2021/annual_verification.json",
         "deliverables/tpex_2021/raw/excal_history.json",
         "deliverables/tpex_2021/raw/reduction_history.json",
-        "deliverables/tpex_2021/raw/change_history.json"
+        "deliverables/tpex_2021/raw/change_history.json",
+        "configs/tpex_pool_policy.json",
+        "deliverables/tpex_2021/raw/excal_history.json.meta.json",
+        "deliverables/tpex_2021/raw/reduction_history.json.meta.json",
+        "deliverables/tpex_2021/raw/change_history.json.meta.json"
       ],
       "outputs": [
         "deliverables/tpex_bridge_crossyear_2021/event_coverage.json",
@@ -51,7 +55,11 @@
         "deliverables/tpex_2021/annual_verification.json",
         "deliverables/tpex_2022/raw/excal_history.json",
         "deliverables/tpex_2022/raw/reduction_history.json",
-        "deliverables/tpex_2022/raw/change_history.json"
+        "deliverables/tpex_2022/raw/change_history.json",
+        "configs/tpex_pool_policy.json",
+        "deliverables/tpex_2022/raw/excal_history.json.meta.json",
+        "deliverables/tpex_2022/raw/reduction_history.json.meta.json",
+        "deliverables/tpex_2022/raw/change_history.json.meta.json"
       ],
       "outputs": [
         "deliverables/tpex_bridge_crossyear_2022/event_coverage.json",
@@ -78,7 +86,8 @@
         "deliverables/tpex_pilot/history_probe.json",
         "deliverables/tpex_pilot/excal_history.json",
         "deliverables/tpex_pilot/reduction_history.json",
-        "deliverables/tpex_pilot/change_history.json"
+        "deliverables/tpex_pilot/change_history.json",
+        "configs/tpex_pool_policy.json"
       ],
       "outputs": [
         "deliverables/tpex_bridge_crossyear_2023/event_coverage.json",
@@ -169,6 +178,35 @@
       "outputs": [
         "deliverables/tpex_features_2022_crossyear/uncertainty.json",
         "deliverables/tpex_features_2022_crossyear/review.md"
+      ]
+    },
+    {
+      "id": "audit_package_signal_2022",
+      "command": [
+        "{python}",
+        "package_tpex_2022_proxy.py",
+        "--root",
+        "deliverables/tpex_features_2022_crossyear",
+        "--benchmark-root",
+        "deliverables/benchmark_2022_extended"
+      ],
+      "inputs": [
+        "package_tpex_2022_proxy.py",
+        "deliverables/tpex_features_2022_crossyear/summary.json",
+        "deliverables/tpex_features_2022_crossyear/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2022_crossyear/rule_comparison.json",
+        "deliverables/tpex_features_2022_crossyear/uncertainty.json",
+        "deliverables/benchmark_2022_extended/prices_adjusted_2022_2026.csv.gz",
+        "deliverables/benchmark_2022_extended/summary.json",
+        "deliverables/tpex_2021/saved_checkpoint.json",
+        "deliverables/tpex_2022/saved_checkpoint.json",
+        "deliverables/tpex_2023/saved_checkpoint.json",
+        "deliverables/tpex_features_2022/research_saved_checkpoint.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2022_crossyear/audit.json",
+        "deliverables/tpex_features_2022_crossyear/research_checkpoint.json",
+        "deliverables/tpex_features_2022_crossyear/tpex_rules_2022_research_checkpoint.zip"
       ]
     }
   ]

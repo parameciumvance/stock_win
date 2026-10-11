@@ -46,7 +46,7 @@ make research-run RESEARCH_PLAN=configs/tpex_long_history_schema_pipeline.json R
 
 ## 2022全年來源試點
 
-使用者已採用先做2022，再考慮擴八年。入口：
+使用者已採用先做2022試點，再逐年擴2015–2022。入口：
 
 ```sh
 make research-run RESEARCH_PLAN=configs/tpex_2022_source_pipeline.json RESEARCH_STATE_DIR=deliverables/tpex_2022_source_run
@@ -64,3 +64,12 @@ cp deliverables/tpex_pilot/classification/isin.raw deliverables/tpex_pilot/class
 行情先逐月下載；年末逐日重播及TPEx／TWSE日曆相互核對，保存行情ZIP並取回驗證後寫 `deliverables/tpex_2022/pipeline_checkpoint_receipt.json`。再執行同一入口，續抓法人並逐筆重播、保存第二包、取回核對及寫 `deliverables/tpex_flow_2022/pipeline_checkpoint_receipt.json`。最後執行事件前收盤對應與來源缺口報告。正常保存gate不需再次詢問使用者。
 
 部分月份checkpoint只供恢復，不代表全年驗收完成。2022年初缺2021前收盤、完整停牌證券主檔、未解分類、還原價及股東現金帳仍分開列待辦；不因下載完成就開模型調參。
+
+
+## 2021暖機及2022跨年代理
+
+2021來源入口為 `configs/tpex_2021_source_pipeline.json`，需依上述相同方法把凍結分類三檔複製至2021年度根目錄。下載中可用 `python package_tpex_partial_year.py --year 2021 --through-month 8` 封存已完成月份；月份未完成會停止，不能把partial當全年。
+
+2022初步結果在 `deliverables/tpex_features_2022/`，研究資料包與來源恢復指標見 `research_saved_checkpoint.json`。0050採官方行情和兩次現金配息之前向理論代理，完整事件核對仍pending；不能宣稱精確總報酬。
+
+`configs/tpex_2022_crossyear_pipeline.json` 先核對2021完整行情封存gate，再另存2021–2023事件對應、建立跨年特徵並只評估2022訊號。事件原檔與初步結果不覆蓋；0050接續尺度由 `extend_0050_benchmark.py` 依兩個固定來源SHA建立。跨年代理不是新的獨立留出，也不改規則或模型參數。

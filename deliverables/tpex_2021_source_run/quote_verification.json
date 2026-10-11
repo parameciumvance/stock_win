@@ -1,0 +1,57 @@
+{
+  "quote_stage": {
+    "status": "complete",
+    "fingerprint": "e9eb9f61b4c684f0b196109763828e9a07304f69ba3d5492996a5feb08bf1b20",
+    "started_at": "2026-10-11T13:32:51.628161+00:00",
+    "runtime_before": {
+      "observed_at": "2026-10-11T13:32:51.628268+00:00",
+      "runtime_identity": "1e983b5141a959177c996d9a17b1f61aa3a4531680e3d7e3a6888fe3c72074f7",
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "memory_current_bytes": "2293714944",
+      "memory_limit_bytes": "8589934592"
+    },
+    "attempt": 1,
+    "log": "deliverables/tpex_2021_source_run/logs/quotes_2021.1791725571628599456.log",
+    "peak_observed_rss_bytes": 17682432,
+    "elapsed_seconds": 1267.8318970929997,
+    "exit_code": 0,
+    "exit_signal": null,
+    "outputs": {
+      "deliverables/tpex_2021/quotes_with_type_2021.csv.gz": "9eb1ce0e91f80dbca93d20385a5033cdacab61fdf6eb3191594a49fd39fb93cf",
+      "deliverables/tpex_2021/calendar_audit.json": "b444cf67c8497b2a4951475b3aefe31d3fbc7a44c52ec479238b6beb9b3e47f9",
+      "deliverables/tpex_2021/annual_verification.json": "952aa8fd61b0ce5e98e28e4692066f89eef494b9c65d5fb031d006066d27d54b",
+      "deliverables/tpex_2021/checkpoint.json": "b40cb6a24b57e56e8b08e1b400f743f6bef1cdd8c90dde7b989a74129c314d03",
+      "deliverables/tpex_2021/tpex_raw_type_2021_checkpoint.zip": "df2a862b22dc760f53b5e2912c87c016219afb29bdf86aad0d9526e13fe9ae03"
+    },
+    "finished_at": "2026-10-11T13:53:59.841930+00:00",
+    "runtime_after": {
+      "observed_at": "2026-10-11T13:53:59.842212+00:00",
+      "runtime_identity": "1e983b5141a959177c996d9a17b1f61aa3a4531680e3d7e3a6888fe3c72074f7",
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "memory_current_bytes": "2431414272",
+      "memory_limit_bytes": "8589934592"
+    }
+  },
+  "quote_saved_receipt": {
+    "library_file_id": "libfile_92401be0db848191a50bc7258f39e8fa",
+    "file_id": "file_00000000175082309b75f72a81ba214f",
+    "sha256": "df2a862b22dc760f53b5e2912c87c016219afb29bdf86aad0d9526e13fe9ae03",
+    "roundtrip_verified": true,
+    "manifest_files": 573
+  },
+  "scope": "quote source only; institutional pending"
+}

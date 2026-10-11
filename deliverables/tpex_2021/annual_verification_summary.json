@@ -1,0 +1,11 @@
+{
+  "year": 2021,
+  "verified_market_days": 244,
+  "all_security_rows": 219267,
+  "unique_securities": 917,
+  "primary_pool_rows": 191643,
+  "confirmed_subset_rows": 184847,
+  "ordinary_rule_candidate_rows": 6796,
+  "output_sha256": "9eb1ce0e91f80dbca93d20385a5033cdacab61fdf6eb3191594a49fd39fb93cf",
+  "status": "annual_raw_quotes_type_policy_and_independent_calendar_verified"
+}
