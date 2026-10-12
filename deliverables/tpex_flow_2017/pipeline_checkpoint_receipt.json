@@ -1,0 +1,10 @@
+{
+  "year": 2017,
+  "bytes": 4652909,
+  "sha256": "3f5b3032b2e9fb77b0fa059ba15d734fb3ecdff06fe37c97482339d95085c49a",
+  "manifest_files": 497,
+  "scope": "current-year raw institutional snapshots, metadata, calendar, normalized rows and exact source replay; no event performance claim",
+  "library_file_id": "libfile_a15736691dd08191b5acd3173b87b6fc",
+  "file_id": "file_0000000036a08211abfc18cb554df047",
+  "roundtrip_verified": true
+}
