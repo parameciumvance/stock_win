@@ -1,0 +1,14 @@
+{
+  "year": 2016,
+  "through_month": 6,
+  "market_days": 118,
+  "quote_rows": 84682,
+  "manifest_files": 266,
+  "sha256": "b9d28818f35f0d310a992ce0348cba091d5760b3575aaf13b9dc501c47643449",
+  "scope": "partial completed months only; independent TPEx calendar/action audit pending",
+  "archive": "deliverables/tpex_2016/tpex_quotes_2016_partial_01_06_checkpoint.zip",
+  "manifest": "deliverables/tpex_2016/partial_manifest_01_06.json",
+  "library_file_id": "libfile_be70976c2784819194589d365392d370",
+  "file_id": "file_0000000029448209960f52a7fb0c82b6",
+  "roundtrip_verified": true
+}
