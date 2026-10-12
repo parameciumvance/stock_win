@@ -1,0 +1,14 @@
+{
+  "year": 2018,
+  "date_start": "2018-01-02",
+  "date_end": "2018-12-28",
+  "coverage_type": "full_year",
+  "days": 247,
+  "rows": 120532,
+  "covered_primary_rows": 115160,
+  "primary_rows": 186597,
+  "mean_daily_coverage": 0.617419194424164,
+  "normalized_sha256": "b9ec4efcdf8d230b6e238daaff886a448a0ea72dcb9a78a3170b6d50c76cfdb2",
+  "calendar_sha256": "d000c7641be8915ce30f3526dab4972d5ceab32e5dd114b763ed0bab443a3a8f",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}
