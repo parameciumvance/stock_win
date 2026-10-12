@@ -1,0 +1,22 @@
+{
+  "year": 2016,
+  "events": 537,
+  "by_kind": {
+    "ex_right_dividend": 510,
+    "capital_reduction": 27
+  },
+  "by_status": {
+    "last_close_matches": 525,
+    "event_date_outside_market_calendar": 11,
+    "last_close_mismatch": 1
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2015/quotes_with_type_2015.csv.gz": "029e63d825bee84318315ce3d246c212ca02f78bb2fbd1605dde2417b4e67455"
+  }
+}

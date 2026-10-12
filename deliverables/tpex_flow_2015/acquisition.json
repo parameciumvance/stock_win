@@ -1,0 +1,14 @@
+{
+  "year": 2015,
+  "date_start": "2015-01-05",
+  "date_end": "2015-12-31",
+  "coverage_type": "full_year",
+  "days": 244,
+  "rows": 101687,
+  "covered_primary_rows": 101403,
+  "primary_rows": 168789,
+  "mean_daily_coverage": 0.6005976122051885,
+  "normalized_sha256": "5081031a73db5eedc63ca8e64218d70e79fb7e09462db928727d065428395aac",
+  "calendar_sha256": "5f29b95f3a237b16f6386e86df6ed7dd4b1cf332d57352b858b495bf19e3a0b9",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}

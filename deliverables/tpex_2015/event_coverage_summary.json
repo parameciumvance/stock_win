@@ -1,0 +1,19 @@
+{
+  "year": 2015,
+  "events": 529,
+  "by_kind": {
+    "ex_right_dividend": 510,
+    "capital_reduction": 19
+  },
+  "by_status": {
+    "last_close_matches": 524,
+    "event_date_outside_market_calendar": 5
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {}
+}

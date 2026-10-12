@@ -1,0 +1,15 @@
+{
+  "year": 2015,
+  "through_month": 2,
+  "market_days": 33,
+  "quote_rows": 22626,
+  "manifest_files": 80,
+  "sha256": "42d092a28d89ab9f4fe1ce2c76f03ed29bc9eef00a9caf5ab0ba33a71602c6e6",
+  "scope": "partial completed months only; independent TPEx calendar/action audit pending",
+  "archive": "deliverables/tpex_2015/tpex_quotes_2015_partial_01_02_checkpoint.zip",
+  "manifest": "deliverables/tpex_2015/partial_manifest_01_02.json",
+  "bytes": 2351390,
+  "library_file_id": "libfile_8d3fab9657b0819182d64282efc805c6",
+  "file_id": "file_00000000f29082098f1e6f10bc168f26",
+  "roundtrip_verified": true
+}
