@@ -1,0 +1,22 @@
+{
+  "year": 2019,
+  "events": 804,
+  "by_kind": {
+    "ex_right_dividend": 777,
+    "capital_reduction": 26,
+    "face_value_change": 1
+  },
+  "by_status": {
+    "last_close_matches": 796,
+    "event_date_outside_market_calendar": 8
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2018/quotes_with_type_2018.csv.gz": "ac26caedf3ecb6b40fd5c4453498f380584e86336593512818f67fd85bf6c425"
+  }
+}

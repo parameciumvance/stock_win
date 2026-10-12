@@ -1,0 +1,21 @@
+{
+  "year": 2018,
+  "events": 616,
+  "by_kind": {
+    "ex_right_dividend": 587,
+    "capital_reduction": 29
+  },
+  "by_status": {
+    "last_close_matches": 615,
+    "last_close_mismatch": 1
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2017/quotes_with_type_2017.csv.gz": "a42dd5ea1a8b36bcaa053b8aa29e79bdd156f7466f0b1836879842ffda39317b"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "isolated source bridge; no original reports overwritten, no adjusted-price or performance change",
+  "records": [
+    {
+      "year": 2018,
+      "current_status": {
+        "event_date": "2018-01-02",
+        "code": "5383",
+        "kind": "capital_reduction",
+        "source_file": "reduction_history.json",
+        "official_last_close": 10.5,
+        "official_reference": 14.97,
+        "prior_quote_date": "2017-12-20",
+        "prior_quote_close": 10.5,
+        "on_event_close": 14.0,
+        "primary_pool": true,
+        "status": "last_close_matches"
+      },
+      "basis": "prior-year quote context; not necessarily a changed status"
+    },
+    {
+      "year": 2019,
+      "current_status": {
+        "event_date": "2019-01-02",
+        "code": "3520",
+        "kind": "capital_reduction",
+        "source_file": "reduction_history.json",
+        "official_last_close": 5.53,
+        "official_reference": 10.54,
+        "prior_quote_date": "2018-12-20",
+        "prior_quote_close": 5.53,
+        "on_event_close": 10.55,
+        "primary_pool": true,
+        "status": "last_close_matches"
+      },
+      "basis": "prior-year quote context; not necessarily a changed status"
+    },
+    {
+      "year": 2020,
+      "current_status": {
+        "event_date": "2020-01-02",
+        "code": "5324",
+        "kind": "ex_right_dividend",
+        "source_file": "excal_history.json",
+        "official_last_close": 9.8,
+        "official_reference": 9.73,
+        "prior_quote_date": "2019-12-31",
+        "prior_quote_close": 9.8,
+        "on_event_close": 9.71,
+        "primary_pool": true,
+        "status": "last_close_matches"
+      },
+      "basis": "prior-year quote context; not necessarily a changed status"
+    },
+    {
+      "year": 2020,
+      "current_status": {
+        "event_date": "2020-01-13",
+        "code": "3073",
+        "kind": "capital_reduction",
+        "source_file": "reduction_history.json",
+        "official_last_close": 5.2,
+        "official_reference": 9.76,
+        "prior_quote_date": "2019-12-31",
+        "prior_quote_close": 5.2,
+        "on_event_close": 8.83,
+        "primary_pool": true,
+        "status": "last_close_matches"
+      },
+      "basis": "prior-year quote context; not necessarily a changed status"
+    },
+    {
+      "year": 2020,
+      "current_status": {
+        "event_date": "2020-01-13",
+        "code": "3086",
+        "kind": "capital_reduction",
+        "source_file": "reduction_history.json",
+        "official_last_close": 7.06,
+        "official_reference": 32.18,
+        "prior_quote_date": "2019-12-31",
+        "prior_quote_close": 7.06,
+        "on_event_close": 32.2,
+        "primary_pool": true,
+        "status": "last_close_matches"
+      },
+      "basis": "prior-year quote context; not necessarily a changed status"
+    }
+  ]
+}

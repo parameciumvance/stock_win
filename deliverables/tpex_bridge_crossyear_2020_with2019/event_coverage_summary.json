@@ -1,0 +1,21 @@
+{
+  "year": 2020,
+  "events": 965,
+  "by_kind": {
+    "ex_right_dividend": 940,
+    "capital_reduction": 25
+  },
+  "by_status": {
+    "last_close_matches": 960,
+    "last_close_mismatch": 5
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {
+    "deliverables/tpex_2019/quotes_with_type_2019.csv.gz": "0108fc7c8ee58788ca9a7577828f7fe58b5ab3c86dcbfd43e09c7a685f452c07"
+  }
+}
