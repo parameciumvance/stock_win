@@ -1,0 +1,38 @@
+{
+  "rows": 1475339,
+  "market_days": 1958,
+  "source_hashes": {
+    "configs/tpex_proxy_protocol.json": "c6f2de76ef12cdacf6631aa6fe7afbab0cec3db25e4a10b9a5502bbdebf5ddb4",
+    "deliverables/tpex_2015/quotes_with_type_2015.csv.gz": "029e63d825bee84318315ce3d246c212ca02f78bb2fbd1605dde2417b4e67455",
+    "deliverables/tpex_bridge_long_history_2015/event_coverage.json": "9a44b03eb50bee258c37b3769e7de7506ce3a20f21639e0aa4f6947b91dbbe14",
+    "deliverables/tpex_2016/quotes_with_type_2016.csv.gz": "8dcf149d6504ae9e3f524127a65f45bfe074c9ccf438bfa657d98776f9c6a0e1",
+    "deliverables/tpex_bridge_long_history_2016/event_coverage.json": "5a700e83754cd9307228b11e9ec7e1324db5c181363c37b6360e28426f9a2128",
+    "deliverables/tpex_2017/quotes_with_type_2017.csv.gz": "a42dd5ea1a8b36bcaa053b8aa29e79bdd156f7466f0b1836879842ffda39317b",
+    "deliverables/tpex_bridge_long_history_2017/event_coverage.json": "8e9fb89a493437480609a44fa9d1d77c760a5e00048f5fdb70c5a7a03a8bdb2a",
+    "deliverables/tpex_2018/quotes_with_type_2018.csv.gz": "ac26caedf3ecb6b40fd5c4453498f380584e86336593512818f67fd85bf6c425",
+    "deliverables/tpex_bridge_long_history_2018/event_coverage.json": "556b96d64bc8074e97b2de7d2fe7c27d39e11ffd80cc6669d0dd348fe042ed6e",
+    "deliverables/tpex_2019/quotes_with_type_2019.csv.gz": "0108fc7c8ee58788ca9a7577828f7fe58b5ab3c86dcbfd43e09c7a685f452c07",
+    "deliverables/tpex_bridge_long_history_2019/event_coverage.json": "470de1f6ea39da3e8c65383fda94a1b383db70d649fa917b93ac9f4753aa3161",
+    "deliverables/tpex_2020/quotes_with_type_2020.csv.gz": "8a1b838e0a1959952fb2ecae5a312dcbf260090a920567e9f2b20bb7ac971737",
+    "deliverables/tpex_bridge_long_history_2020/event_coverage.json": "7c9df0aab28187059c81cc5d4a29822f2d29ca24b7297b6fbff151994a7eb75d",
+    "deliverables/tpex_2021/quotes_with_type_2021.csv.gz": "9eb1ce0e91f80dbca93d20385a5033cdacab61fdf6eb3191594a49fd39fb93cf",
+    "deliverables/tpex_bridge_long_history_2021/event_coverage.json": "94c853baa587468023274c287ea1f41bfcb1791aae02320277e28a15fb42e754",
+    "deliverables/tpex_2022/quotes_with_type_2022.csv.gz": "e801bb1f41c649c65a395bddfbc8bcc4b562865e9ef3d269f75db5d053a87642",
+    "deliverables/tpex_bridge_long_history_2022/event_coverage.json": "4c5a93641216938c431b81990669e242fc5b77e6a6d56070de834fc49300808c"
+  },
+  "output_sha256": "363f8173cd736cef5e95e8ba58225ea21a00cf5d7fd2a0ef8d2289161def5c13",
+  "rule_definition": "close > prior 60 market-day maximum close AND volume > 1.5 * prior 20 market-day mean volume; windows exclude today",
+  "gross_labels": "next market-day open to day t+20/t+60 close; missing endpoints/event transitions unknown; no future-result pool filter",
+  "not_completed": [
+    "0050 relative benchmark",
+    "transaction-cost and fill rules",
+    "strategy backtest",
+    "model training",
+    "exact corporate-action cash ledger"
+  ],
+  "limitations": [
+    "official last/reference forward multiplier is a quote proxy, not shareholder total return",
+    "unverified events are not adjusted; crossing windows unknown",
+    "current type evidence is retrospective metadata, not historical announcement snapshot"
+  ]
+}

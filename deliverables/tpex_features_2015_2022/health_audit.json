@@ -1,0 +1,28 @@
+{
+  "start_year": 2015,
+  "end_year": 2022,
+  "rows": 1475339,
+  "market_days": 1958,
+  "source_events": 6017,
+  "event_statuses": {
+    "last_close_matches": 5979,
+    "event_date_outside_market_calendar": 24,
+    "last_close_mismatch": 14
+  },
+  "uncertain_event_transitions": 38,
+  "mask_violations": {
+    "mom1": 0,
+    "mom5": 0,
+    "mom20": 0,
+    "mom60": 0,
+    "label20": 0,
+    "label60": 0
+  },
+  "unit_risk_rows": 3910,
+  "unit_risk_common_feature_rows": 0,
+  "unit_risk_breakout_selected": 0,
+  "unknown_labels20": 83701,
+  "unknown_labels60": 120155,
+  "feature_sha256": "363f8173cd736cef5e95e8ba58225ea21a00cf5d7fd2a0ef8d2289161def5c13",
+  "scope": "Source/event/feature health only; no investment performance claim"
+}
