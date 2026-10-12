@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-12T10:30:18.319496+00:00",
+  "remote_commit": "677d82c1f04ac8dde4538d804e39668f01f6a0f8",
+  "verified_code_files": 72,
+  "raw_checkpoint_library_file_id": "libfile_7f3c28b725c88191b79bfa65ee64f0b0",
+  "raw_checkpoint_sha256": "8ccab520888d3f6d1a506a83a3df72c35391178aab94d73f7d161924060bf5ac",
+  "manifest_files_verified": 266,
+  "restored_quote_days": 118,
+  "restored_quote_rows": 90490,
+  "old_source_processes": 0,
+  "tests_passed": 20,
+  "model_rule_parameters_changed": false,
+  "root_cause_of_previous_disconnect": "unknown"
+}
