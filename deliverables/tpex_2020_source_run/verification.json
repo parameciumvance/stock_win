@@ -1,0 +1,18 @@
+{
+  "state_status": "complete",
+  "stages": {
+    "quotes_saved_2020": "complete",
+    "institutional_2020": "complete",
+    "institutional_replay_package_2020": "complete",
+    "institutional_saved_2020": "complete",
+    "event_quote_bridge_2020": "complete",
+    "year_readiness_2020": "complete"
+  },
+  "quotes_annual_sha256": "8a1b838e0a1959952fb2ecae5a312dcbf260090a920567e9f2b20bb7ac971737",
+  "institutional_annual_sha256": "f5db4b8621b9f9c07971d626c9c7fdcb0b575251f634edd7521348adf8a771bc",
+  "source_roundtrip_manifest_files": {
+    "quotes": 575,
+    "institutional": 495
+  },
+  "model_training": false
+}

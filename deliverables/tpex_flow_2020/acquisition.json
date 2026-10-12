@@ -1,0 +1,14 @@
+{
+  "year": 2020,
+  "date_start": "2020-01-02",
+  "date_end": "2020-12-31",
+  "coverage_type": "full_year",
+  "days": 245,
+  "rows": 152352,
+  "covered_primary_rows": 127019,
+  "primary_rows": 189746,
+  "mean_daily_coverage": 0.6694036176581788,
+  "normalized_sha256": "f5db4b8621b9f9c07971d626c9c7fdcb0b575251f634edd7521348adf8a771bc",
+  "calendar_sha256": "dd12fc68587961ccdf79fa241a9adfc5870b1ee88469620269c85bd2f2cf7f40",
+  "limitation": "Absent report row remains unknown; institutional report source day must precede signal day; historical revised snapshot not original publication time"
+}
