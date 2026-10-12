@@ -1,0 +1,34 @@
+{
+  "status": "blocked_HTTP_520",
+  "validated_raw_quote_days": 109,
+  "validated_quote_rows": 80273,
+  "complete_months": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "incomplete_month": 5,
+  "first_missing_date": "2017-05-17",
+  "missing_may_days": 9,
+  "months_not_started": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "annual_calendar_action_audit_complete": false,
+  "runtime_oom_kill": 0,
+  "source_stage_exit_code": 1,
+  "model_rule_parameters_changed": false,
+  "network_root_cause": "unknown",
+  "archive": "deliverables/tpex_2017/tpex_2017_blocked_source_checkpoint.zip",
+  "sha256": "e43a3489ab7e392ac65c2d36a52b68d89d01131c19ecd93554e2a1cea39c09f9",
+  "manifest_files": 247,
+  "library_file_id": "libfile_b69f0d50bd348191971dcf67a1ba54fe",
+  "file_id": "file_0000000089f481fab36d8585de563d95",
+  "roundtrip_verified": true
+}
