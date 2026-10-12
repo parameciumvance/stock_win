@@ -2,8 +2,18 @@
   "earliest_year": 2015,
   "requested_end_year": 2022,
   "rule_evidence": [
-    {"published_on": "2013-12-11", "url": "https://www.twse.com.tw/staticFiles/marketAnnounce/setAnnounce/1021217-1020026025-1.pdf", "meaning": "Four-digit public/listed/OTC stock codes; preferred and other instruments have separate coding conventions."},
-    {"published_on": "2009-11-12", "url": "https://www.twse.com.tw/staticFiles/marketAnnounce/setAnnounce/0980028877.htm", "meaning": "Previously issued ETF/TDR/closed-end fund codes may remain four digits; four digits alone never confirm ordinary stock."}
+    {
+      "url": "https://www.twse.com.tw/staticFiles/marketAnnounce/setAnnounce/1021217-1020026025-1.pdf",
+      "meaning": "Four-digit public/listed/OTC stock codes; preferred and other instruments have separate coding conventions.",
+      "document_date": "2013-12-11",
+      "date_basis": "authority approval date, not webpage publication timestamp"
+    },
+    {
+      "url": "https://www.twse.com.tw/staticFiles/marketAnnounce/setAnnounce/0980028877.htm",
+      "meaning": "Previously issued ETF/TDR/closed-end fund codes may remain four digits; four digits alone never confirm ordinary stock.",
+      "document_date": "2009-11-12",
+      "date_basis": "official announcement document date, not webpage publication timestamp"
+    }
   ],
   "classification_policy": "Keep the accepted confirmed subset plus separately identified ordinary_stock_rule_candidate exploration pool; do not infer CFI or original announcement timestamps.",
   "scope_limit": "Historical quote-present pool, not a complete suspended-security membership master. Frozen retrospective ISIN evidence is not contemporaneous classification."

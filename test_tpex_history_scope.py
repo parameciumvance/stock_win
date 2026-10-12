@@ -10,7 +10,7 @@ class HistoricalScopeTests(unittest.TestCase):
     def test_future_rule_cannot_authorize_past_year(self):
         with tempfile.TemporaryDirectory() as td:
             p=Path(td)/'scope.json';d=json.loads(Path('configs/tpex_history_scope.json').read_text())
-            d['rule_evidence'][0]['published_on']='2020-05-01';p.write_text(json.dumps(d))
+            d['rule_evidence'][0]['document_date']='2020-05-01';p.write_text(json.dumps(d))
             with self.assertRaises(ValueError):validate_source_year(2015,scope_path=p)
 
 if __name__=='__main__':unittest.main()

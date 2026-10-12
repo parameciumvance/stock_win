@@ -11,7 +11,7 @@ def validate_source_year(year, month=1, scope_path=Path('configs/tpex_history_sc
         if year<scope['earliest_year'] or year>scope['requested_end_year']:
             raise ValueError('Outside approved historical source scope')
         evidence=scope.get('rule_evidence',[])
-        if len(evidence)<2 or any(datetime.date.fromisoformat(e['published_on'])>=datetime.date(year,1,1) for e in evidence):
+        if len(evidence)<2 or any(datetime.date.fromisoformat(e['document_date'])>=datetime.date(year,1,1) for e in evidence):
             raise ValueError('Historical coding evidence must precede source year')
     if datetime.date(year,month,1)>cutoff:
         raise ValueError('Beyond research cutoff')
