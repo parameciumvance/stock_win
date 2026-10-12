@@ -2,19 +2,27 @@
 import argparse,csv,datetime,gzip,hashlib,json,pathlib,subprocess,urllib.parse
 from tpex_source_pilot import validate_quotes
 from tpex_pool import source_types,classify
+from tpex_history_scope import validate_source_year
+from research_runtime import exclusive_lock,atomic_bytes,atomic_json
 
-def fetch(url,path):
+def fetch(url,path,validator=None):
     tmp=path.with_suffix('.pending')
     result=subprocess.run(['curl','--max-time','25','--fail','--silent','--show-error',url,'-o',str(tmp)],capture_output=True,text=True,timeout=30)
     if result.returncode:raise RuntimeError(result.stderr[:200])
     body=tmp.read_bytes();document=json.loads(body)
-    tmp.replace(path)
-    path.with_suffix(path.suffix+'.meta.json').write_text(json.dumps({'url':url,'sha256':hashlib.sha256(body).hexdigest(),'bytes':len(body),'fetched_at':datetime.datetime.now(datetime.timezone.utc).isoformat()},indent=2))
+    if validator is not None:validator(document)
+    atomic_bytes(path,body)
+    atomic_json(path.with_suffix(path.suffix+'.meta.json'),{'url':url,'sha256':hashlib.sha256(body).hexdigest(),'bytes':len(body),'fetched_at':datetime.datetime.now(datetime.timezone.utc).isoformat()})
+    tmp.unlink(missing_ok=True)
     return document
 
 def run():
     parser=argparse.ArgumentParser();parser.add_argument('--year',type=int,default=2023);parser.add_argument('--month',type=int,default=1);args=parser.parse_args()
-    if not (2020<=args.year<=2026 and 1<=args.month<=12):raise ValueError('Outside frozen source-rule scope')
+    validate_source_year(args.year,args.month)
+    with exclusive_lock(pathlib.Path(f'deliverables/tpex_{args.year}/quotes_{args.month:02d}.lock')):
+        acquire(args)
+
+def acquire(args):
     pool=json.loads(pathlib.Path('configs/tpex_pool_policy.json').read_text());asof=datetime.date.fromisoformat(pool['research_asof'])
     if datetime.date(args.year,args.month,1)>asof:raise ValueError('Beyond research cutoff')
     root=pathlib.Path(f'deliverables/tpex_{args.year}');raw=root/'raw';raw.mkdir(parents=True,exist_ok=True);month=f'{args.year}{args.month:02}'
@@ -35,7 +43,7 @@ def run():
         meta=f.with_suffix(f.suffix+'.meta.json')
         if f.exists() and meta.exists():
             body=f.read_bytes();assert hashlib.sha256(body).hexdigest()==json.loads(meta.read_text())['sha256'];doc=json.loads(body)
-        else:doc=fetch(u,f)
+        else:doc=fetch(u,f,validator=lambda document:validate_quotes(document,date.isoformat()))
         checked=validate_quotes(doc,date.isoformat());table=doc['tables'][0];fields=[x.strip() for x in table['fields']];count={'confirmed':0,'candidate':0,'unknown':0,'nonordinary':0}
         for r in table['data']:
             code=r[0];tier,cfi=classify(code,known,exact);primary=tier in pool['primary_includes'];sensitivity=tier=='confirmed_ordinary'

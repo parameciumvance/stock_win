@@ -1,12 +1,19 @@
 """Reproducible full-year source pipeline; stop on errors, no model fitting."""
 import argparse,concurrent.futures,hashlib,json,pathlib,subprocess,sys
 from acquire_tpex_month import fetch
+from tpex_history_scope import validate_source_year
+from research_runtime import exclusive_lock
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--year',type=int,required=True);a=p.parse_args()
+    validate_source_year(a.year)
+    with exclusive_lock(pathlib.Path(f'deliverables/tpex_{a.year}/quotes_source.lock')):
+        acquire(a)
+
+def acquire(a):
     import datetime
     cutoff=datetime.date.fromisoformat(json.loads(pathlib.Path('configs/tpex_pool_policy.json').read_text())['research_asof'])
-    if not 2020<=a.year<=cutoff.year:raise ValueError('Outside frozen source scope')
+    validate_source_year(a.year)
     last_month=cutoff.month if a.year==cutoff.year else 12
     root=pathlib.Path(f'deliverables/tpex_{a.year}');root.mkdir(exist_ok=True)
     names=['isin.raw','isin_listed.raw','unknown_single_query.html']
