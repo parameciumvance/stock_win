@@ -1,0 +1,53 @@
+{
+  "observed_at": "2026-10-12T03:11:16.215Z",
+  "status": "blocked_runtime_transport",
+  "error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 25s",
+  "minimum_probe": {
+    "command": "pwd",
+    "result": "no output within bounded wait; stopped waiting on read-only probe"
+  },
+  "source_process_state": "unknown; no duplicate acquisition started; source process not explicitly terminated",
+  "last_observed_stage": "quotes_2018",
+  "completed_sources": {
+    "2019": {
+      "quotes_days": 242,
+      "quotes_rows": 204665,
+      "institutional_rows": 132943
+    },
+    "2020": {
+      "quotes_days": 245,
+      "quotes_rows": 216362,
+      "institutional_rows": 152352
+    }
+  },
+  "last_observed_2018": {
+    "completed_months": "01-08; month-level source/calendar checks only",
+    "completed_month_days": 163,
+    "completed_month_rows": 125532,
+    "last_log_dates": {
+      "10": "2018-10-09",
+      "09": "2018-09-07"
+    },
+    "durably_saved_months": "01-06",
+    "durably_saved_days": 118,
+    "durably_saved_rows": 90490
+  },
+  "checkpoint": {
+    "library_file_id": "libfile_7f3c28b725c88191b79bfa65ee64f0b0",
+    "file_id": "file_000000008138820696a9fedf9917ce3b",
+    "sha256": "8ccab520888d3f6d1a506a83a3df72c35391178aab94d73f7d161924060bf5ac",
+    "manifest_files": 266,
+    "roundtrip_verified": true
+  },
+  "cause": "Unknown. Transport loss is not evidence of source-site denial, OOM, or a fixed platform execution time limit.",
+  "post_failure_resource_probe": "Unavailable; no new memory/process conclusion",
+  "context_request_at": "2026-10-12T09:55:11+08:00",
+  "elapsed_since_request_seconds": 4565,
+  "recovery": [
+    "Confirm remote head, workspace/runtime identity, live source processes and locks before restarting.",
+    "Keep configs/tpex_2018_source_pipeline.json with deliverables/tpex_2018_source_run if the quote acquisition is still incomplete.",
+    "If the annual quote package has completed, save/readback it before using configs/tpex_2018_resume_from_saved_quotes.json.",
+    "If workspace is lost, restore the exact first-half checkpoint and frozen classification sources; no present-day membership substitution.",
+    "Portable WSL procedure is documented in docs/LOCAL_SOURCE_CONTINUATION.md; confirm the Work Mode source job is stopped/completed before a second acquisition."
+  ]
+}
