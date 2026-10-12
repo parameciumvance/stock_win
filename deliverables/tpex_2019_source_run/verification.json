@@ -1,0 +1,19 @@
+{
+  "state_status": "complete",
+  "stages": {
+    "quotes_2019": "complete",
+    "quotes_saved_2019": "complete",
+    "institutional_2019": "complete",
+    "institutional_replay_package_2019": "complete",
+    "institutional_saved_2019": "complete",
+    "event_quote_bridge_2019": "complete",
+    "year_readiness_2019": "complete"
+  },
+  "quotes_annual_sha256": "0108fc7c8ee58788ca9a7577828f7fe58b5ab3c86dcbfd43e09c7a685f452c07",
+  "institutional_annual_sha256": "2e0669333a2956201bd2d83710300bc6ab95e7aee8d6f943c19c8669e2b1c2bf",
+  "source_roundtrip_manifest_files": {
+    "quotes": 571,
+    "institutional": 489
+  },
+  "model_training": false
+}

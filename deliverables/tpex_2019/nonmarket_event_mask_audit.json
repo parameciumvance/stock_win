@@ -1,0 +1,96 @@
+{
+  "year": 2019,
+  "nonmarket_events": 8,
+  "checks_passed": true,
+  "existing_clock_already_masks_next_market_day": true,
+  "no_feature_code_or_performance_change": true,
+  "source_hashes": {
+    "deliverables/tpex_2019/quotes_with_type_2019.csv.gz": "0108fc7c8ee58788ca9a7577828f7fe58b5ab3c86dcbfd43e09c7a685f452c07",
+    "deliverables/tpex_2019/event_coverage.json": "b69be942f52eb106fc244fcc0ab7eeb56240e20352c8aaa2221d4c6274a2bb7c",
+    "deliverables/tpex_2019/calendar_audit.json": "51d0017e6de9b288b15a87982897eb2f051c9b0386ea5a0526d01400cb26650c",
+    "tpex_proxy_features.py": "e7a290735c4e13960f967a4d8e739b61e816898ff6f77eabd309f7bfc24832d8"
+  },
+  "records": [
+    {
+      "code": "3491",
+      "kind": "ex_right_dividend",
+      "scheduled_event_date": "2019-08-09",
+      "unknown_transition_market_date": "2019-08-12",
+      "first_positive_close_quote_after_event": "2019-08-12",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 20,
+      "crossing_quote_rows60": 60
+    },
+    {
+      "code": "4207",
+      "kind": "ex_right_dividend",
+      "scheduled_event_date": "2019-08-09",
+      "unknown_transition_market_date": "2019-08-12",
+      "first_positive_close_quote_after_event": "2019-08-12",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 20,
+      "crossing_quote_rows60": 60
+    },
+    {
+      "code": "6143",
+      "kind": "ex_right_dividend",
+      "scheduled_event_date": "2019-08-09",
+      "unknown_transition_market_date": "2019-08-12",
+      "first_positive_close_quote_after_event": "2019-08-12",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 20,
+      "crossing_quote_rows60": 60
+    },
+    {
+      "code": "8390",
+      "kind": "ex_right_dividend",
+      "scheduled_event_date": "2019-08-09",
+      "unknown_transition_market_date": "2019-08-12",
+      "first_positive_close_quote_after_event": "2019-08-12",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 20,
+      "crossing_quote_rows60": 60
+    },
+    {
+      "code": "6596",
+      "kind": "ex_right_dividend",
+      "scheduled_event_date": "2019-09-30",
+      "unknown_transition_market_date": "2019-10-01",
+      "first_positive_close_quote_after_event": "2019-10-01",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 20,
+      "crossing_quote_rows60": 60
+    },
+    {
+      "code": "8027",
+      "kind": "ex_right_dividend",
+      "scheduled_event_date": "2019-09-30",
+      "unknown_transition_market_date": "2019-10-01",
+      "first_positive_close_quote_after_event": "2019-10-01",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 20,
+      "crossing_quote_rows60": 60
+    },
+    {
+      "code": "6276",
+      "kind": "capital_reduction",
+      "scheduled_event_date": "2019-09-30",
+      "unknown_transition_market_date": "2019-10-01",
+      "first_positive_close_quote_after_event": "2019-10-01",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 13,
+      "crossing_quote_rows60": 53
+    },
+    {
+      "code": "5345",
+      "kind": "capital_reduction",
+      "scheduled_event_date": "2019-09-30",
+      "unknown_transition_market_date": "2019-10-01",
+      "first_positive_close_quote_after_event": "2019-10-01",
+      "source_status_unchanged": "event_date_outside_market_calendar",
+      "crossing_quote_rows20": 14,
+      "crossing_quote_rows60": 54
+    }
+  ],
+  "limit": "Unknown transitions remain unknown; no presumed actual ex-date, cash entitlement or fill price."
+}

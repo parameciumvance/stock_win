@@ -41,4 +41,24 @@ class ProxyTest(unittest.TestCase):
         self.assertTrue(out.loc[0,'unverified_event_transition'])
         self.assertAlmostEqual(out.loc[61,'mom60'],0)
 
+    def test_closed_market_date_is_unknown_on_next_market_day(self):
+        for event_date,calendar in [('2019-08-09',['2019-08-08','2019-08-12','2019-08-13']),('2019-09-30',['2019-09-27','2019-10-01','2019-10-02'])]:
+            days=pd.DatetimeIndex(calendar)
+            for status in ['event_date_outside_market_calendar','last_close_matches']:
+                with self.subTest(event_date=event_date,status=status):
+                    e=self.event(pd.Timestamp(event_date),status=status)
+                    factor,unknown=event_clock(days,[e])
+                    np.testing.assert_array_equal(factor,[1,1,1])
+                    np.testing.assert_array_equal(unknown,[0,1,1])
+
+    def test_nonmarket_unknown_event_masks_crossing_labels(self):
+        days,f=self.frame([100]*65+[80]*65)
+        # The previous calendar date is Sunday; the event is never treated as verified.
+        event_date=days[65]-pd.Timedelta(days=1)
+        out=features(f,days,[self.event(event_date,status='event_date_outside_market_calendar')])
+        self.assertTrue(out.loc[65,'unverified_event_transition'])
+        self.assertTrue(np.isnan(out.loc[65,'mom1']))
+        self.assertTrue(out.loc[60,'label_unknown20'])
+        self.assertAlmostEqual(out.loc[90,'mom20'],0)
+
 if __name__=='__main__':unittest.main()
