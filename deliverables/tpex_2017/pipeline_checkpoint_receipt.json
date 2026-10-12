@@ -1,0 +1,10 @@
+{
+  "archive": "deliverables/tpex_2017/tpex_raw_type_2017_checkpoint.zip",
+  "bytes": 18730899,
+  "sha256": "50ea25d604a649b52cd7c1496610cbc171d04e1fad21a45fef6a2b32be09a107",
+  "manifest_files": 579,
+  "zip_members": 580,
+  "library_file_id": "libfile_9f2c64ead6f08191adfe517fbbd7e5cc",
+  "file_id": "file_00000000f65c8209bc456614fd01f1e0",
+  "roundtrip_verified": true
+}
