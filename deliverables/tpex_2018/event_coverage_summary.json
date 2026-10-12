@@ -1,0 +1,20 @@
+{
+  "year": 2018,
+  "events": 616,
+  "by_kind": {
+    "ex_right_dividend": 587,
+    "capital_reduction": 29
+  },
+  "by_status": {
+    "last_close_matches": 614,
+    "last_close_mismatch": 1,
+    "missing_prior_quote": 1
+  },
+  "scope": "all source events including nonordinary securities; quote bridge only",
+  "not_completed": [
+    "reference formula and rounding verification",
+    "cash ledger",
+    "adjusted price construction"
+  ],
+  "prior_year_source_hashes": {}
+}
