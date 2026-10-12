@@ -1,0 +1,15 @@
+{
+  "year": 2017,
+  "through_month": 6,
+  "days": 118,
+  "rows": 57851,
+  "sha256": "ece3c5680a1de95f5058b27aff92f200eebb93fefbb6c412d63e93798e9c32ff",
+  "normalized_sha256": "25b81da7762382842c89e57959a12cbb23ffd32751fd2e02b1c195d57a04c7e4",
+  "manifest_files": 238,
+  "archive": "deliverables/tpex_flow_2017/tpex_institutional_2017_partial_01_06_checkpoint.zip",
+  "manifest": "deliverables/tpex_flow_2017/partial_01_06_manifest.json",
+  "scope": "partial source only; missing primary rows not inferred as zero; full-year pending",
+  "library_file_id": "libfile_bcfd2582718c8191a1a537984b1b66e2",
+  "file_id": "file_00000000d6c082078c285ae178a5ec96",
+  "roundtrip_verified": true
+}
