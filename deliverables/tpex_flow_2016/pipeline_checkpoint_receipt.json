@@ -1,0 +1,10 @@
+{
+  "archive": "deliverables/tpex_flow_2016/tpex_institutional_source_2016_checkpoint.zip",
+  "bytes": 4264167,
+  "sha256": "5b5811383ccccfa349fa5f9f0147686e4c7ad21c0076845466f70d5330ddb886",
+  "manifest_files": 493,
+  "zip_members": 494,
+  "library_file_id": "libfile_ac0875ea7cd481919f77e5a07711acbb",
+  "file_id": "file_000000006b9082098db5311c3b03fb36",
+  "roundtrip_verified": true
+}
