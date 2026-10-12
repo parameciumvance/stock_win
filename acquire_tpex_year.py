@@ -2,7 +2,7 @@
 import argparse,concurrent.futures,hashlib,json,pathlib,subprocess,sys
 from acquire_tpex_month import fetch
 from tpex_history_scope import validate_source_year
-from research_runtime import exclusive_lock
+from research_runtime import exclusive_lock,atomic_bytes,atomic_json
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--year',type=int,required=True);a=p.parse_args()
@@ -21,7 +21,17 @@ def acquire(a):
     pinned=root/'type_input_hashes.json'
     if pinned.exists():
         if json.loads(pinned.read_text())['sources']!=inputs:raise ValueError('Type evidence drift')
-    else:pinned.write_text(json.dumps({'sources':inputs},indent=2)+'\n')
+    else:atomic_json(pinned,{'sources':inputs})
+    # Capture classification and historical rule snapshots before any month completes.
+    evidence=root/'classification';evidence.mkdir(exist_ok=True)
+    snapshots=[(pathlib.Path('deliverables/tpex_pilot/classification')/n,evidence/n) for n in names]
+    if a.year<2020:
+        snapshots.extend((pathlib.Path('configs')/n,evidence/n) for n in ['tpex_history_scope.json','tpex_pool_policy.json'])
+    for source,dest in snapshots:
+        payload=source.read_bytes()
+        if dest.exists():
+            if dest.read_bytes()!=payload:raise ValueError('Frozen source evidence drift: '+str(dest)+'; use the saved-source recovery plan')
+        else:atomic_bytes(dest,payload)
     def month(m):
         with (root/f'acquire_{m:02}.log').open('a') as log:
             for attempt in range(2):

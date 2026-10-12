@@ -1,0 +1,148 @@
+{
+  "timeout_seconds": 3600,
+  "max_rss_mb": 4096,
+  "stages": [
+    {
+      "id": "quotes_2018",
+      "command": [
+        "{python}",
+        "acquire_tpex_year.py",
+        "--year",
+        "2018"
+      ],
+      "inputs": [
+        "acquire_tpex_year.py",
+        "acquire_tpex_month.py",
+        "audit_tpex_calendar.py",
+        "finalize_tpex_year.py",
+        "tpex_source_pilot.py",
+        "tpex_pool.py",
+        "tpex_classification_pilot.py",
+        "tpex_type_recovery.py",
+        "configs/tpex_pool_policy.json",
+        "deliverables/tpex_pilot/classification/isin.raw",
+        "deliverables/tpex_pilot/classification/isin_listed.raw",
+        "deliverables/tpex_pilot/classification/unknown_single_query.html",
+        "tpex_history_scope.py",
+        "configs/tpex_history_scope.json",
+        "research_runtime.py"
+      ],
+      "outputs": [
+        "deliverables/tpex_2018/quotes_with_type_2018.csv.gz",
+        "deliverables/tpex_2018/calendar_audit.json",
+        "deliverables/tpex_2018/annual_verification.json",
+        "deliverables/tpex_2018/checkpoint.json",
+        "deliverables/tpex_2018/tpex_raw_type_2018_checkpoint.zip"
+      ]
+    },
+    {
+      "id": "quotes_saved_2018",
+      "checkpoint": {
+        "archive": "deliverables/tpex_2018/tpex_raw_type_2018_checkpoint.zip",
+        "receipt": "deliverables/tpex_2018/pipeline_checkpoint_receipt.json"
+      }
+    },
+    {
+      "id": "institutional_2018",
+      "command": [
+        "{python}",
+        "acquire_tpex_flow_year.py",
+        "--year",
+        "2018"
+      ],
+      "inputs": [
+        "acquire_tpex_flow_year.py",
+        "tpex_flow_pilot.py",
+        "research_runtime.py",
+        "deliverables/tpex_2018/calendar_audit.json",
+        "deliverables/tpex_2018/quotes_with_type_2018.csv.gz"
+      ],
+      "outputs": [
+        "deliverables/tpex_flow_2018/institutional_tpex_2018.csv.gz",
+        "deliverables/tpex_flow_2018/acquisition.json",
+        "deliverables/tpex_flow_2018/coverage.csv",
+        "deliverables/tpex_flow_2018/raw"
+      ],
+      "progress": "deliverables/tpex_flow_2018/download_progress.json"
+    },
+    {
+      "id": "institutional_replay_package_2018",
+      "command": [
+        "{python}",
+        "package_tpex_flow_source.py",
+        "--year",
+        "2018"
+      ],
+      "inputs": [
+        "package_tpex_flow_source.py",
+        "tpex_flow_pilot.py",
+        "tpex_event_comparison.py",
+        "deliverables/tpex_2018/calendar_audit.json",
+        "deliverables/tpex_flow_2018/institutional_tpex_2018.csv.gz",
+        "deliverables/tpex_flow_2018/acquisition.json",
+        "deliverables/tpex_flow_2018/coverage.csv",
+        "deliverables/tpex_flow_2018/raw"
+      ],
+      "outputs": [
+        "deliverables/tpex_flow_2018/source_checkpoint.json",
+        "deliverables/tpex_flow_2018/source_replay.json",
+        "deliverables/tpex_flow_2018/tpex_institutional_source_2018_checkpoint.zip"
+      ]
+    },
+    {
+      "id": "institutional_saved_2018",
+      "checkpoint": {
+        "archive": "deliverables/tpex_flow_2018/tpex_institutional_source_2018_checkpoint.zip",
+        "receipt": "deliverables/tpex_flow_2018/pipeline_checkpoint_receipt.json"
+      }
+    },
+    {
+      "id": "event_quote_bridge_2018",
+      "command": [
+        "{python}",
+        "audit_tpex_event_coverage.py",
+        "--year",
+        "2018"
+      ],
+      "inputs": [
+        "audit_tpex_event_coverage.py",
+        "configs/tpex_pool_policy.json",
+        "deliverables/tpex_2018/annual_verification.json",
+        "deliverables/tpex_2018/quotes_with_type_2018.csv.gz",
+        "deliverables/tpex_2018/raw/excal_history.json",
+        "deliverables/tpex_2018/raw/reduction_history.json",
+        "deliverables/tpex_2018/raw/change_history.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_2018/event_coverage.json",
+        "deliverables/tpex_2018/event_coverage_summary.json"
+      ]
+    },
+    {
+      "id": "year_readiness_2018",
+      "command": [
+        "{python}",
+        "audit_tpex_year_readiness.py",
+        "--year",
+        "2018"
+      ],
+      "inputs": [
+        "audit_tpex_year_readiness.py",
+        "research_runtime.py",
+        "deliverables/tpex_2018/annual_verification.json",
+        "deliverables/tpex_2018/calendar_audit.json",
+        "deliverables/tpex_2018/quotes_with_type_2018.csv.gz",
+        "deliverables/tpex_flow_2018/institutional_tpex_2018.csv.gz",
+        "deliverables/tpex_flow_2018/acquisition.json",
+        "deliverables/tpex_2018/event_coverage_summary.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_2018/readiness.json",
+        "deliverables/tpex_2018/readiness.md",
+        "deliverables/tpex_2018/unresolved_type_rows.csv",
+        "deliverables/tpex_2018/candidate_type_rows.csv",
+        "deliverables/tpex_2018/missing_institutional_primary_rows.csv"
+      ]
+    }
+  ]
+}
