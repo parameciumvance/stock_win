@@ -1,0 +1,85 @@
+{
+  "timeout_seconds": 1200,
+  "max_rss_mb": 1024,
+  "stages": [
+    {
+      "id": "source_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "test_tpex_revenue",
+        "test_tpex_revenue_bounds"
+      ],
+      "inputs": [
+        "acquire_tpex_revenue.py",
+        "test_tpex_revenue.py",
+        "test_tpex_revenue_bounds.py",
+        "tests/fixtures/tpex_revenue_202301_0.html.gz"
+      ],
+      "outputs": [
+        "test_tpex_revenue.py",
+        "test_tpex_revenue_bounds.py"
+      ]
+    },
+    {
+      "id": "revenue_2016_202210",
+      "command": [
+        "{python}",
+        "acquire_tpex_revenue.py",
+        "--start-month",
+        "2016-01",
+        "--end-month",
+        "2022-10",
+        "--output",
+        "deliverables/tpex_revenue_2016_202210"
+      ],
+      "inputs": [
+        "acquire_tpex_revenue.py"
+      ],
+      "outputs": [
+        "deliverables/tpex_revenue_2016_202210/monthly.csv.gz",
+        "deliverables/tpex_revenue_2016_202210/acquisition.json",
+        "deliverables/tpex_revenue_2016_202210/raw"
+      ]
+    },
+    {
+      "id": "raw_replay",
+      "command": [
+        "{python}",
+        "audit_tpex_revenue_archive.py",
+        "--root",
+        "deliverables/tpex_revenue_2016_202210"
+      ],
+      "inputs": [
+        "audit_tpex_revenue_archive.py",
+        "acquire_tpex_revenue.py",
+        "deliverables/tpex_revenue_2016_202210/monthly.csv.gz",
+        "deliverables/tpex_revenue_2016_202210/acquisition.json",
+        "deliverables/tpex_revenue_2016_202210/raw"
+      ],
+      "outputs": [
+        "deliverables/tpex_revenue_2016_202210/source_health.json"
+      ]
+    },
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "package_tpex_early_revenue.py"
+      ],
+      "inputs": [
+        "package_tpex_early_revenue.py",
+        "deliverables/tpex_revenue_2015_pilot/raw",
+        "deliverables/tpex_revenue_2015_pilot/monthly.csv.gz",
+        "deliverables/tpex_revenue_2016_202210/source_health.json",
+        "configs/tpex_event_rules_protocol.json",
+        "configs/tpex_early_revenue_extension.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_revenue_2016_202210/tpex_revenue_2014_202210_source_checkpoint.zip",
+        "deliverables/tpex_revenue_2016_202210/source_checkpoint.json"
+      ]
+    }
+  ]
+}

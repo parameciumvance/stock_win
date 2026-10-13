@@ -28,7 +28,12 @@ class BoundsTest(unittest.TestCase):
    args=['acquire_tpex_revenue.py','--start-month','2015-01','--end-month','2015-01','--output',folder]
    with patch.object(sys,'argv',args),patch.object(r,'ROOT',Path(folder)),patch.object(r.urllib.request,'urlopen',side_effect=lambda url,timeout:Response(url)) as fetch,patch.object(r,'parse',side_effect=ValueError('bad source schema')):
     with self.assertRaisesRegex(ValueError,'bad source schema'):r.main()
-   self.assertEqual(fetch.call_count,2)
+   # A failed first future can prevent the second request from starting.
+   # Each started URL must occur once; worker scheduling is not contractual.
+   urls=[call.args[0] for call in fetch.call_args_list]
+   self.assertGreaterEqual(len(urls),1)
+   self.assertLessEqual(len(urls),2)
+   self.assertEqual(len(urls),len(set(urls)))
    self.assertEqual(list((Path(folder)/'raw').glob('*.html')),[])
 
 if __name__=='__main__':unittest.main()

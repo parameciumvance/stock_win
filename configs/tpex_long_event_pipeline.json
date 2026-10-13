@@ -1,0 +1,100 @@
+{
+  "timeout_seconds": 1800,
+  "max_rss_mb": 2048,
+  "stages": [
+    {
+      "id": "revenue_saved_gate",
+      "inputs": [
+        "deliverables/tpex_revenue_2016_202210/source_checkpoint.json"
+      ],
+      "checkpoint": {
+        "archive": "deliverables/tpex_revenue_2016_202210/tpex_revenue_2014_202210_source_checkpoint.zip",
+        "receipt": "deliverables/tpex_revenue_2016_202210/pipeline_checkpoint_receipt.json"
+      }
+    },
+    {
+      "id": "event_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "test_tpex_event_features",
+        "test_tpex_rule_comparison"
+      ],
+      "inputs": [
+        "tpex_event_features.py",
+        "tpex_rule_comparison.py",
+        "test_tpex_event_features.py",
+        "test_tpex_rule_comparison.py"
+      ],
+      "outputs": [
+        "test_tpex_event_features.py",
+        "test_tpex_rule_comparison.py"
+      ]
+    },
+    {
+      "id": "long_events",
+      "command": [
+        "{python}",
+        "tpex_long_event_comparison.py"
+      ],
+      "inputs": [
+        "tpex_long_event_comparison.py",
+        "tpex_event_features.py",
+        "tpex_event_comparison.py",
+        "tpex_rule_comparison.py",
+        "tpex_ridge_baseline.py",
+        "configs/tpex_event_rules_protocol.json",
+        "deliverables/tpex_features_2015_2023/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2015_2023/summary.json",
+        "deliverables/benchmark_long_history/prices_adjusted_2015_2023.csv.gz",
+        "deliverables/benchmark_long_history/summary.json",
+        "deliverables/tpex_flow_20*/institutional_tpex_20*.csv.gz",
+        "deliverables/tpex_flow_20*/acquisition.json",
+        "deliverables/tpex_revenue_2015_pilot/monthly.csv.gz",
+        "deliverables/tpex_revenue_2016_202210/monthly.csv.gz",
+        "deliverables/tpex_revenue/monthly.csv.gz"
+      ],
+      "outputs": [
+        "deliverables/tpex_long_events/daily.csv",
+        "deliverables/tpex_long_events/selections.csv.gz",
+        "deliverables/tpex_long_events/summary.json"
+      ]
+    },
+    {
+      "id": "selection_replay",
+      "command": [
+        "{python}",
+        "verify_tpex_long_event_selections.py"
+      ],
+      "inputs": [
+        "verify_tpex_long_event_selections.py",
+        "deliverables/tpex_long_events/daily.csv",
+        "deliverables/tpex_long_events/selections.csv.gz",
+        "deliverables/tpex_long_events/summary.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_long_events/selection_replay.json"
+      ]
+    },
+    {
+      "id": "absolute_uncertainty",
+      "command": [
+        "{python}",
+        "audit_tpex_long_events.py"
+      ],
+      "inputs": [
+        "audit_tpex_long_events.py",
+        "tpex_ridge_baseline.py",
+        "deliverables/tpex_long_events/daily.csv",
+        "deliverables/tpex_long_events/summary.json",
+        "deliverables/tpex_long_events/selection_replay.json",
+        "deliverables/tpex_20*/calendar_audit.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_long_events/absolute_uncertainty.json",
+        "deliverables/tpex_long_events/report.md"
+      ]
+    }
+  ]
+}

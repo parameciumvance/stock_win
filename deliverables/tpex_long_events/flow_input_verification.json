@@ -1,0 +1,50 @@
+[
+  {
+    "year": 2015,
+    "rows": 101687,
+    "days": 244,
+    "sha256": "5081031a73db5eedc63ca8e64218d70e79fb7e09462db928727d065428395aac"
+  },
+  {
+    "year": 2016,
+    "rows": 113737,
+    "days": 244,
+    "sha256": "47e2f706e9e9b7f1d52cb99ba2f8c3498dea5cdac7a474f045928de2fabb5f87"
+  },
+  {
+    "year": 2017,
+    "rows": 122096,
+    "days": 246,
+    "sha256": "e38b3d317c82013ddbe352e8281fb23a3a4ffe0f6f1f6e57892a57a31d10902d"
+  },
+  {
+    "year": 2018,
+    "rows": 120532,
+    "days": 247,
+    "sha256": "b9ec4efcdf8d230b6e238daaff886a448a0ea72dcb9a78a3170b6d50c76cfdb2"
+  },
+  {
+    "year": 2019,
+    "rows": 132943,
+    "days": 242,
+    "sha256": "2e0669333a2956201bd2d83710300bc6ab95e7aee8d6f943c19c8669e2b1c2bf"
+  },
+  {
+    "year": 2020,
+    "rows": 152352,
+    "days": 245,
+    "sha256": "f5db4b8621b9f9c07971d626c9c7fdcb0b575251f634edd7521348adf8a771bc"
+  },
+  {
+    "year": 2021,
+    "rows": 173896,
+    "days": 244,
+    "sha256": "bb4ea57ffbd1623523e7373b376bf18314b29329ccfb236ae8e98590b71219d1"
+  },
+  {
+    "year": 2022,
+    "rows": 180465,
+    "days": 246,
+    "sha256": "2e8492d77e482fdb68eafea1a5efded4bf969aa15d2f20e7f21de322ff292a6b"
+  }
+]
