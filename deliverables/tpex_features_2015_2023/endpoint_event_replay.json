@@ -1,0 +1,20 @@
+{
+  "raw_event_replay_passed": true,
+  "records": 1029,
+  "feature_relevant_fields": [
+    "kind",
+    "code",
+    "event_date",
+    "status",
+    "official_last_close",
+    "official_reference"
+  ],
+  "differences": 0,
+  "pinned_input_sha256": "ecc55de834490f0e9024944b3232ec05e0b49babd006ea8202d24b072df00626",
+  "raw_replay_sha256": "2c5da9bf0ae3abb71885e692d846a37a9d6551f2c85200e66921ca385dbbd490",
+  "source_hashes": {
+    "excal_history": "a20968667df0b86b1535cd86a1fd42a6f677e6fa66e15e196683e763ff789107",
+    "reduction_history": "a8156ecb7aeaf2f902ce38491730dab95ed896191f3b62c76eb8b1433f5eafef",
+    "change_history": "2a1da60bc94723a82870bd4ce41e9c24aa42c2dc7314d169c76ae1d2ceb0ad2a"
+  }
+}

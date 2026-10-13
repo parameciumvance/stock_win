@@ -1,0 +1,117 @@
+[
+  {
+    "local_name": "quotes_twse_2015.csv.gz",
+    "sha256": "b0459637823135d56d7b1ae7a01f872aed53a25f8ed530c80deae02b21aae2a2",
+    "bytes": 6536312
+  },
+  {
+    "local_name": "twse_raw_2015.zip",
+    "sha256": "30779ce8b92b66e608c370fad3c523f65bbd6a8b8368a1bb44fc1a51fb0eecdc",
+    "bytes": 18220489
+  },
+  {
+    "local_name": "quotes_twse_2016.csv.gz",
+    "sha256": "48e9062691650ec10464205c4d5f4fda6f77bc61ca2a3cf13d484f0169157f14",
+    "bytes": 6715306
+  },
+  {
+    "local_name": "twse_raw_2016.zip",
+    "sha256": "9a233a9e7a52113a525b37047b4bfc732425c3e9bcc7ef10e4ed8a4f01fb8efb",
+    "bytes": 18707341
+  },
+  {
+    "local_name": "quotes_twse_2017.csv.gz",
+    "sha256": "ce4735881147176d544d0545f71fa4598292964b769258404124adbc52eb2066",
+    "bytes": 7210946
+  },
+  {
+    "local_name": "twse_raw_2017.zip",
+    "sha256": "dcef54df0761574cadcc0668c12d948e401eda5a5bbae5617064baf67bd19404",
+    "bytes": 20035286
+  },
+  {
+    "local_name": "quotes_twse_2019.csv.gz",
+    "sha256": "6636a23be750307ab8e9ef5e06342b6897ca8761f60ec8dba983374b6535fa5f",
+    "bytes": 7691226
+  },
+  {
+    "local_name": "twse_raw_2019.zip",
+    "sha256": "6175d78c1aebbc0882b94428a106f6170c6be1806342fee7541a977592be7831",
+    "bytes": 21203779
+  },
+  {
+    "local_name": "quotes_twse_2020.csv.gz",
+    "sha256": "62075fb4042edad0cc471cf98d2951fd82d527c85620b45df43d023aa1e7ffe0",
+    "bytes": 8136802
+  },
+  {
+    "local_name": "twse_raw_2020.zip",
+    "sha256": "495d491d51772865da31558b32a86574dfc054846bb2202b4e8ef291548831e9",
+    "bytes": 22470922
+  },
+  {
+    "local_name": "quotes_twse_2021.csv.gz",
+    "sha256": "e87aba0f8fb910b21b61e1930c779128479cffbc7f59fa060629b4a015cee44f",
+    "bytes": 8384697
+  },
+  {
+    "local_name": "twse_raw_2021.zip",
+    "sha256": "d56aa49624e3802af13c524ec2a2cd547e83c227b70d7fc680b95778a8ddcf1d",
+    "bytes": 23133707
+  },
+  {
+    "local_name": "quotes_twse_2022.csv.gz",
+    "sha256": "33d52c16571779907951aff22fa5c7c96be6d0daf087df92e80025f57a908b4e",
+    "bytes": 8622501
+  },
+  {
+    "local_name": "twse_raw_2022.zip",
+    "sha256": "28d4ba0a629c56ff885b84cb91a0fa08502801bf0267ab171dfab534285890b6",
+    "bytes": 23895743
+  },
+  {
+    "local_name": "quotes_twse_2018.csv.gz",
+    "sha256": "b5739871ca5b639208ae49bb574baf1c68737bdd028abc052d76e1b06e487fc5",
+    "bytes": 7550046
+  },
+  {
+    "local_name": "twse_raw_2018.zip",
+    "sha256": "1bf031179104877b8e8f0b37364a83ae94e73a590c4cbf476133548961947ed2",
+    "bytes": 20924261
+  },
+  {
+    "local_name": "quotes_twse_2023.csv.gz",
+    "sha256": "d71b40cdc0c1d6038ee342b000d36dacd54e34ea48f38afd4e1075a896ddb54e",
+    "bytes": 8662597
+  },
+  {
+    "local_name": "quotes_twse_2024.csv.gz",
+    "sha256": "fef02efcc7056f8726bb8535ae54cfa7ffe61ca29a97f3477345f5ee8a6242bd",
+    "bytes": 9258235
+  },
+  {
+    "local_name": "quotes_twse_2025.csv.gz",
+    "sha256": "856af726fcdad898d5b352854fe494db94965c20994ffc36bf1042d4a45e5386",
+    "bytes": 9828621
+  },
+  {
+    "local_name": "quotes_twse_2026_asof_20261002.csv.gz",
+    "sha256": "37dc6ff9954a07f663cb1a7c84f60c55eb17ace51505870f0dc8df9aaa0e146d",
+    "bytes": 7664501
+  },
+  {
+    "local_name": "twse_raw_2023.zip",
+    "sha256": "e3cc76f8d2124ee587e336134c7bd8c09e8a85ab015ed540fd58d649a6adbf38",
+    "bytes": 23089040
+  },
+  {
+    "local_name": "twse_raw_2026_asof_20261002.zip",
+    "sha256": "76b7a7255a85d333445565c5216af13a2af0d2ddaa2f9dff1a5961c772ac04a6",
+    "bytes": 13172564
+  },
+  {
+    "local_name": "institutional_twse_2023_repro_bundle.zip",
+    "sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+    "bytes": 114495119
+  }
+]

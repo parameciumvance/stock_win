@@ -1,0 +1,103 @@
+{
+  "start_year": 2015,
+  "end_year": 2023,
+  "rows": 2197,
+  "events": 16,
+  "date_start": "2015-01-05",
+  "date_end": "2023-12-29",
+  "sha256": "9361370e60333f10457fa80b673503f335088682f7352a26b6f85c9bfadafc2a",
+  "source_reports": [
+    {
+      "year": 2015,
+      "archive_sha256": "30779ce8b92b66e608c370fad3c523f65bbd6a8b8368a1bb44fc1a51fb0eecdc",
+      "quote_sha256": "b0459637823135d56d7b1ae7a01f872aed53a25f8ed530c80deae02b21aae2a2",
+      "rows": 244,
+      "events": 1,
+      "manifest_files_verified": 680,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2016,
+      "archive_sha256": "9a233a9e7a52113a525b37047b4bfc732425c3e9bcc7ef10e4ed8a4f01fb8efb",
+      "quote_sha256": "48e9062691650ec10464205c4d5f4fda6f77bc61ca2a3cf13d484f0169157f14",
+      "rows": 244,
+      "events": 1,
+      "manifest_files_verified": 676,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2017,
+      "archive_sha256": "dcef54df0761574cadcc0668c12d948e401eda5a5bbae5617064baf67bd19404",
+      "quote_sha256": "ce4735881147176d544d0545f71fa4598292964b769258404124adbc52eb2066",
+      "rows": 246,
+      "events": 2,
+      "manifest_files_verified": 666,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2018,
+      "archive_sha256": "1bf031179104877b8e8f0b37364a83ae94e73a590c4cbf476133548961947ed2",
+      "quote_sha256": "b5739871ca5b639208ae49bb574baf1c68737bdd028abc052d76e1b06e487fc5",
+      "rows": 247,
+      "events": 2,
+      "manifest_files_verified": 654,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2019,
+      "archive_sha256": "6175d78c1aebbc0882b94428a106f6170c6be1806342fee7541a977592be7831",
+      "quote_sha256": "6636a23be750307ab8e9ef5e06342b6897ca8761f60ec8dba983374b6535fa5f",
+      "rows": 242,
+      "events": 2,
+      "manifest_files_verified": 624,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2020,
+      "archive_sha256": "495d491d51772865da31558b32a86574dfc054846bb2202b4e8ef291548831e9",
+      "quote_sha256": "62075fb4042edad0cc471cf98d2951fd82d527c85620b45df43d023aa1e7ffe0",
+      "rows": 245,
+      "events": 2,
+      "manifest_files_verified": 618,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2021,
+      "archive_sha256": "d56aa49624e3802af13c524ec2a2cd547e83c227b70d7fc680b95778a8ddcf1d",
+      "quote_sha256": "e87aba0f8fb910b21b61e1930c779128479cffbc7f59fa060629b4a015cee44f",
+      "rows": 244,
+      "events": 2,
+      "manifest_files_verified": 600,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2022,
+      "archive_sha256": "28d4ba0a629c56ff885b84cb91a0fa08502801bf0267ab171dfab534285890b6",
+      "quote_sha256": "33d52c16571779907951aff22fa5c7c96be6d0daf087df92e80025f57a908b4e",
+      "rows": 246,
+      "events": 2,
+      "manifest_files_verified": 590,
+      "manifest_limit": "full manifest verified"
+    },
+    {
+      "year": 2023,
+      "archive_sha256": "e3cc76f8d2124ee587e336134c7bd8c09e8a85ab015ed540fd58d649a6adbf38",
+      "quote_sha256": "d71b40cdc0c1d6038ee342b000d36dacd54e34ea48f38afd4e1075a896ddb54e",
+      "rows": 239,
+      "events": 2,
+      "manifest_files_verified": 0,
+      "manifest_limit": "2023 archive has no manifest; archive SHA/CRC plus needed quote/action source hashes verified"
+    }
+  ],
+  "event_states": {
+    "matched": 16
+  },
+  "prefix_invariance_passed": true,
+  "calendar_2015_2022_exact": true,
+  "method": "Frozen TWSE build_history.adjust_prices forward official-reference factors, common scale across years; causal columns only",
+  "limitations": [
+    "Proxy is not shareholder cash ledger or execution return",
+    "Historical sources retrieved later; original announcement-time snapshots not established",
+    "2023 used as potential endpoint context, not a new untouched holdout"
+  ]
+}

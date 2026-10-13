@@ -1,0 +1,14 @@
+{
+  "months": 14,
+  "rows": 9746,
+  "source_count": 28,
+  "month_start": "2014-11",
+  "month_end": "2015-12",
+  "source_export_dates_roc": [
+    "115/09/23"
+  ],
+  "duplicate_keys": 0,
+  "original_publication_time_available": false,
+  "evidence": "Static historical revenue tables exported on ROC115/09/23; individual first announcements and revision history absent",
+  "use_boundary": "Only retrospective 45-day-lag proxy research under the previously frozen protocol; not strict historical PIT validation"
+}

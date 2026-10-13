@@ -18,7 +18,8 @@ def strict_mean(values):
     return float(values.mean()) if len(values) and values.notna().all() else np.nan
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--root',default=str(ROOT));parser.add_argument('--benchmark',default='benchmark_restore/prices_adjusted_2023_2026.csv.gz');parser.add_argument('--benchmark-sha256',default=EXPECTED);parser.add_argument('--signal-year',type=int);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--root',default=str(ROOT));parser.add_argument('--benchmark',default='benchmark_restore/prices_adjusted_2023_2026.csv.gz');parser.add_argument('--benchmark-sha256',default=EXPECTED);parser.add_argument('--signal-year',type=int);parser.add_argument('--signal-start-year',type=int);parser.add_argument('--signal-end-year',type=int);args=parser.parse_args()
+    if args.signal_start_year is not None and args.signal_end_year is not None and args.signal_start_year>args.signal_end_year:parser.error('signal-start-year must not exceed signal-end-year')
     root=Path(args.root);price=Path(args.benchmark)
     assert hashlib.sha256(price.read_bytes()).hexdigest()==args.benchmark_sha256
     feature=root/'features_and_gross_labels.csv.gz';meta=json.loads((root/'summary.json').read_text())
@@ -30,14 +31,18 @@ def main():
     for w in [20,60]:
         br=benchmark_labels(b,days,w)
         data[f'relative{w}']=net_quote(data[f'gross_quote_return{w}'])-data.date.map(br)
-    rows=[]
+    rows=[];traces=[]
     for date,g in data.groupby('date',sort=True):
         if args.signal_year is not None and date.year!=args.signal_year:continue
+        if args.signal_start_year is not None and date.year<args.signal_start_year:continue
+        if args.signal_end_year is not None and date.year>args.signal_end_year:continue
         common=g.dropna(subset=['vol20','atr20_pct','breakout60_volume15'])
         if len(common)<100:continue
         for method in ['vol20','atr20_pct','breakout60_volume15']:
             n=int(np.ceil(len(common)*.1))
             chosen=common.sort_values([method,'code'],ascending=[False,True]).head(n) if method!='breakout60_volume15' else common[common[method].eq(1)]
+            trace=chosen[['date','code','confirmed_subset','type_evidence','vol20','atr20_pct','breakout60_volume15','gross_quote_return20','gross_quote_return60','relative20','relative60']].copy()
+            trace['method']=method;trace['selection_rank']=np.arange(1,len(trace)+1);traces.append(trace)
             row=dict(date=date.strftime('%Y-%m-%d'),method=method,common_pool=len(common),selected=len(chosen))
             for w in [20,60]:
                 values=chosen[f'relative{w}'];row[f'unknown{w}']=int(values.isna().sum())
@@ -45,6 +50,7 @@ def main():
                 row[f'observed_only_net_relative{w}']=float(values.mean()) if values.notna().any() else None
             rows.append(row)
     daily=pd.DataFrame(rows);daily.to_csv(root/'rule_net_relative_daily.csv',index=False)
+    pd.concat(traces,ignore_index=True).to_csv(root/'rule_selections.csv.gz',index=False,compression={'method':'gzip','mtime':0})
     summaries=[]
     for (year,method),g in daily.groupby([daily.date.str[:4], 'method']):
         for w in [20,60]:

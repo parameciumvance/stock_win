@@ -1,0 +1,501 @@
+{
+  "feature_sha256": "297bd16bd34b1b066b3ffceb3c711a4436acf487c7047fe20a7fd499aa820622",
+  "benchmark_prices_sha256": "9361370e60333f10457fa80b673503f335088682f7352a26b6f85c9bfadafc2a",
+  "rows": 1668666,
+  "market_days": 2197,
+  "costs": {
+    "commission": 0.001425,
+    "sell_tax": 0.003,
+    "slippage_each_side": 0.005
+  },
+  "formula": "(1+gross)*(1-slip)*(1-fee-tax)/((1+slip)*(1+fee))-1 - gross0050",
+  "pool": "same as-of feature-complete pool, >=100 rows; no future-label filter",
+  "summary": [
+    {
+      "signal_year": 2015,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 184,
+      "known_complete_selection_dates": 83,
+      "unknown_selected_rows": 160,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.035823022277569554
+    },
+    {
+      "signal_year": 2015,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 184,
+      "known_complete_selection_dates": 50,
+      "unknown_selected_rows": 292,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.019613914721852036
+    },
+    {
+      "signal_year": 2015,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 184,
+      "known_complete_selection_dates": 171,
+      "unknown_selected_rows": 8,
+      "empty_selection_dates": 5,
+      "mean_net_relative": -0.010540459648018197
+    },
+    {
+      "signal_year": 2015,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 184,
+      "known_complete_selection_dates": 158,
+      "unknown_selected_rows": 25,
+      "empty_selection_dates": 5,
+      "mean_net_relative": 0.015134544796961616
+    },
+    {
+      "signal_year": 2015,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 184,
+      "known_complete_selection_dates": 88,
+      "unknown_selected_rows": 136,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.03323562531196206
+    },
+    {
+      "signal_year": 2015,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 184,
+      "known_complete_selection_dates": 40,
+      "unknown_selected_rows": 300,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.020588972117272612
+    },
+    {
+      "signal_year": 2016,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 244,
+      "known_complete_selection_dates": 179,
+      "unknown_selected_rows": 71,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.029576835697780163
+    },
+    {
+      "signal_year": 2016,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 244,
+      "known_complete_selection_dates": 125,
+      "unknown_selected_rows": 138,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.05779764295629974
+    },
+    {
+      "signal_year": 2016,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 244,
+      "known_complete_selection_dates": 223,
+      "unknown_selected_rows": 22,
+      "empty_selection_dates": 1,
+      "mean_net_relative": -0.01611779444286277
+    },
+    {
+      "signal_year": 2016,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 244,
+      "known_complete_selection_dates": 201,
+      "unknown_selected_rows": 48,
+      "empty_selection_dates": 1,
+      "mean_net_relative": 0.00656675127368225
+    },
+    {
+      "signal_year": 2016,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 244,
+      "known_complete_selection_dates": 180,
+      "unknown_selected_rows": 85,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.03283253013047292
+    },
+    {
+      "signal_year": 2016,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 244,
+      "known_complete_selection_dates": 116,
+      "unknown_selected_rows": 148,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.05648732137574711
+    },
+    {
+      "signal_year": 2017,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 165,
+      "unknown_selected_rows": 91,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.02874721512001899
+    },
+    {
+      "signal_year": 2017,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 126,
+      "unknown_selected_rows": 162,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.04287151947532717
+    },
+    {
+      "signal_year": 2017,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 219,
+      "unknown_selected_rows": 38,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.005942661138729168
+    },
+    {
+      "signal_year": 2017,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 208,
+      "unknown_selected_rows": 43,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.02106772566847035
+    },
+    {
+      "signal_year": 2017,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 158,
+      "unknown_selected_rows": 105,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.03158595243079934
+    },
+    {
+      "signal_year": 2017,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 112,
+      "unknown_selected_rows": 182,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.04582278842508176
+    },
+    {
+      "signal_year": 2018,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 247,
+      "known_complete_selection_dates": 150,
+      "unknown_selected_rows": 107,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.05550520282428096
+    },
+    {
+      "signal_year": 2018,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 247,
+      "known_complete_selection_dates": 115,
+      "unknown_selected_rows": 164,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.03440841201471016
+    },
+    {
+      "signal_year": 2018,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 247,
+      "known_complete_selection_dates": 226,
+      "unknown_selected_rows": 14,
+      "empty_selection_dates": 9,
+      "mean_net_relative": -0.005843418465860568
+    },
+    {
+      "signal_year": 2018,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 247,
+      "known_complete_selection_dates": 216,
+      "unknown_selected_rows": 22,
+      "empty_selection_dates": 9,
+      "mean_net_relative": -0.0017052463707788591
+    },
+    {
+      "signal_year": 2018,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 247,
+      "known_complete_selection_dates": 147,
+      "unknown_selected_rows": 110,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.054630447647955646
+    },
+    {
+      "signal_year": 2018,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 247,
+      "known_complete_selection_dates": 125,
+      "unknown_selected_rows": 155,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.031988628950367734
+    },
+    {
+      "signal_year": 2019,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 242,
+      "known_complete_selection_dates": 150,
+      "unknown_selected_rows": 132,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.02425645914441597
+    },
+    {
+      "signal_year": 2019,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 242,
+      "known_complete_selection_dates": 123,
+      "unknown_selected_rows": 175,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.06290750209544238
+    },
+    {
+      "signal_year": 2019,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 242,
+      "known_complete_selection_dates": 208,
+      "unknown_selected_rows": 39,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.022571082417547936
+    },
+    {
+      "signal_year": 2019,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 242,
+      "known_complete_selection_dates": 180,
+      "unknown_selected_rows": 70,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.03395154117044325
+    },
+    {
+      "signal_year": 2019,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 242,
+      "known_complete_selection_dates": 145,
+      "unknown_selected_rows": 138,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.028954120719682026
+    },
+    {
+      "signal_year": 2019,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 242,
+      "known_complete_selection_dates": 109,
+      "unknown_selected_rows": 202,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.06841244846960692
+    },
+    {
+      "signal_year": 2020,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 245,
+      "known_complete_selection_dates": 152,
+      "unknown_selected_rows": 120,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.026498306803644355
+    },
+    {
+      "signal_year": 2020,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 245,
+      "known_complete_selection_dates": 103,
+      "unknown_selected_rows": 189,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.05044553476356225
+    },
+    {
+      "signal_year": 2020,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 245,
+      "known_complete_selection_dates": 230,
+      "unknown_selected_rows": 8,
+      "empty_selection_dates": 7,
+      "mean_net_relative": -0.0071391730122210085
+    },
+    {
+      "signal_year": 2020,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 245,
+      "known_complete_selection_dates": 204,
+      "unknown_selected_rows": 42,
+      "empty_selection_dates": 7,
+      "mean_net_relative": 0.056139172033370544
+    },
+    {
+      "signal_year": 2020,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 245,
+      "known_complete_selection_dates": 154,
+      "unknown_selected_rows": 122,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.028945454262829566
+    },
+    {
+      "signal_year": 2020,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 245,
+      "known_complete_selection_dates": 99,
+      "unknown_selected_rows": 203,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.022671707895128852
+    },
+    {
+      "signal_year": 2021,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 244,
+      "known_complete_selection_dates": 198,
+      "unknown_selected_rows": 48,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.0030458986322043306
+    },
+    {
+      "signal_year": 2021,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 244,
+      "known_complete_selection_dates": 155,
+      "unknown_selected_rows": 111,
+      "empty_selection_dates": 0,
+      "mean_net_relative": 0.027444182103103034
+    },
+    {
+      "signal_year": 2021,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 244,
+      "known_complete_selection_dates": 231,
+      "unknown_selected_rows": 13,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.002979991856990472
+    },
+    {
+      "signal_year": 2021,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 244,
+      "known_complete_selection_dates": 210,
+      "unknown_selected_rows": 36,
+      "empty_selection_dates": 0,
+      "mean_net_relative": 0.006859461464349932
+    },
+    {
+      "signal_year": 2021,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 244,
+      "known_complete_selection_dates": 174,
+      "unknown_selected_rows": 74,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.0018895365545383337
+    },
+    {
+      "signal_year": 2021,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 244,
+      "known_complete_selection_dates": 135,
+      "unknown_selected_rows": 131,
+      "empty_selection_dates": 0,
+      "mean_net_relative": 0.03533695328917053
+    },
+    {
+      "signal_year": 2022,
+      "method": "atr20_pct",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 225,
+      "unknown_selected_rows": 22,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.015573528194326005
+    },
+    {
+      "signal_year": 2022,
+      "method": "atr20_pct",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 218,
+      "unknown_selected_rows": 29,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.012248659525850587
+    },
+    {
+      "signal_year": 2022,
+      "method": "breakout60_volume15",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 231,
+      "unknown_selected_rows": 9,
+      "empty_selection_dates": 6,
+      "mean_net_relative": -0.005098099293037189
+    },
+    {
+      "signal_year": 2022,
+      "method": "breakout60_volume15",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 217,
+      "unknown_selected_rows": 24,
+      "empty_selection_dates": 6,
+      "mean_net_relative": 0.0435949125870686
+    },
+    {
+      "signal_year": 2022,
+      "method": "vol20",
+      "horizon": 20,
+      "dates": 246,
+      "known_complete_selection_dates": 213,
+      "unknown_selected_rows": 33,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.019026475514444613
+    },
+    {
+      "signal_year": 2022,
+      "method": "vol20",
+      "horizon": 60,
+      "dates": 246,
+      "known_complete_selection_dates": 227,
+      "unknown_selected_rows": 19,
+      "empty_selection_dates": 0,
+      "mean_net_relative": -0.01473615260242139
+    }
+  ],
+  "limitations": [
+    "quote proxy, not fills or shareholder total return",
+    "overlapping horizons, daily means are not portfolio CAGR",
+    "any unknown selected endpoint makes strict date mean unknown; observed-only diagnostic separate",
+    "historical years already researched, not untouched holdout"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "timeout_seconds": 3600,
+  "max_rss_mb": 4096,
+  "stages": [
+    {
+      "id": "benchmark_saved",
+      "checkpoint": {
+        "archive": "deliverables/benchmark_long_history/benchmark_0050_2015_2023_source_checkpoint.zip",
+        "receipt": "deliverables/benchmark_long_history/pipeline_checkpoint_receipt.json"
+      }
+    },
+    {
+      "id": "quotes_2023_saved",
+      "checkpoint": {
+        "archive": "deliverables/tpex_2023/tpex_raw_type_2023_checkpoint.zip",
+        "receipt": "deliverables/tpex_2023/pipeline_checkpoint_receipt.json"
+      }
+    },
+    {
+      "id": "events_2023_context",
+      "command": [
+        "{python}",
+        "recheck_tpex_2023_endpoint_events.py"
+      ],
+      "inputs": [
+        "recheck_tpex_2023_endpoint_events.py",
+        "deliverables/tpex_2023/event_coverage.json",
+        "deliverables/tpex_2022/quotes_with_type_2022.csv.gz",
+        "deliverables/tpex_2023/quotes_with_type_2023.csv.gz"
+      ],
+      "outputs": [
+        "deliverables/tpex_bridge_long_history_2023/event_coverage.json",
+        "deliverables/tpex_bridge_long_history_2023/event_coverage_summary.json"
+      ]
+    },
+    {
+      "id": "raw_2023_event_replay",
+      "command": [
+        "{python}",
+        "verify_tpex_endpoint_raw_replay.py"
+      ],
+      "inputs": [
+        "verify_tpex_endpoint_raw_replay.py",
+        "audit_tpex_event_coverage.py",
+        "deliverables/tpex_pilot/history_probe.json",
+        "deliverables/tpex_pilot/excal_history.json",
+        "deliverables/tpex_pilot/reduction_history.json",
+        "deliverables/tpex_pilot/change_history.json",
+        "deliverables/tpex_bridge_long_history_2023/event_coverage.json",
+        "deliverables/tpex_2022/quotes_with_type_2022.csv.gz",
+        "deliverables/tpex_2023/quotes_with_type_2023.csv.gz"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2015_2023/endpoint_event_replay.json",
+        "deliverables/tpex_bridge_long_history_2023_replay/event_coverage.json"
+      ]
+    },
+    {
+      "id": "extended_features",
+      "command": [
+        "{python}",
+        "tpex_proxy_features.py",
+        "--start-year",
+        "2015",
+        "--end-year",
+        "2023",
+        "--output",
+        "deliverables/tpex_features_2015_2023",
+        "--event-override",
+        "2015=deliverables/tpex_bridge_long_history_2015/event_coverage.json",
+        "--event-override",
+        "2016=deliverables/tpex_bridge_long_history_2016/event_coverage.json",
+        "--event-override",
+        "2017=deliverables/tpex_bridge_long_history_2017/event_coverage.json",
+        "--event-override",
+        "2018=deliverables/tpex_bridge_long_history_2018/event_coverage.json",
+        "--event-override",
+        "2019=deliverables/tpex_bridge_long_history_2019/event_coverage.json",
+        "--event-override",
+        "2020=deliverables/tpex_bridge_long_history_2020/event_coverage.json",
+        "--event-override",
+        "2021=deliverables/tpex_bridge_long_history_2021/event_coverage.json",
+        "--event-override",
+        "2022=deliverables/tpex_bridge_long_history_2022/event_coverage.json",
+        "--event-override",
+        "2023=deliverables/tpex_bridge_long_history_2023/event_coverage.json"
+      ],
+      "inputs": [
+        "tpex_proxy_features.py",
+        "configs/tpex_proxy_protocol.json",
+        "deliverables/tpex_2015/quotes_with_type_2015.csv.gz",
+        "deliverables/tpex_2015/annual_verification.json",
+        "deliverables/tpex_2015/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2015/event_coverage.json",
+        "deliverables/tpex_2016/quotes_with_type_2016.csv.gz",
+        "deliverables/tpex_2016/annual_verification.json",
+        "deliverables/tpex_2016/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2016/event_coverage.json",
+        "deliverables/tpex_2017/quotes_with_type_2017.csv.gz",
+        "deliverables/tpex_2017/annual_verification.json",
+        "deliverables/tpex_2017/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2017/event_coverage.json",
+        "deliverables/tpex_2018/quotes_with_type_2018.csv.gz",
+        "deliverables/tpex_2018/annual_verification.json",
+        "deliverables/tpex_2018/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2018/event_coverage.json",
+        "deliverables/tpex_2019/quotes_with_type_2019.csv.gz",
+        "deliverables/tpex_2019/annual_verification.json",
+        "deliverables/tpex_2019/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2019/event_coverage.json",
+        "deliverables/tpex_2020/quotes_with_type_2020.csv.gz",
+        "deliverables/tpex_2020/annual_verification.json",
+        "deliverables/tpex_2020/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2020/event_coverage.json",
+        "deliverables/tpex_2021/quotes_with_type_2021.csv.gz",
+        "deliverables/tpex_2021/annual_verification.json",
+        "deliverables/tpex_2021/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2021/event_coverage.json",
+        "deliverables/tpex_2022/quotes_with_type_2022.csv.gz",
+        "deliverables/tpex_2022/annual_verification.json",
+        "deliverables/tpex_2022/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2022/event_coverage.json",
+        "deliverables/tpex_2023/quotes_with_type_2023.csv.gz",
+        "deliverables/tpex_2023/annual_verification.json",
+        "deliverables/tpex_2023/calendar_audit.json",
+        "deliverables/tpex_bridge_long_history_2023/event_coverage.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2015_2023/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2015_2023/rule_daily_diagnostics.csv",
+        "deliverables/tpex_features_2015_2023/summary.json"
+      ]
+    },
+    {
+      "id": "extended_health",
+      "command": [
+        "{python}",
+        "audit_tpex_proxy_source_health.py",
+        "--start-year",
+        "2015",
+        "--end-year",
+        "2023",
+        "--root",
+        "deliverables/tpex_features_2015_2023"
+      ],
+      "inputs": [
+        "audit_tpex_proxy_source_health.py",
+        "deliverables/tpex_features_2015_2023/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2015_2023/summary.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2015_2023/health_audit.json"
+      ]
+    },
+    {
+      "id": "cost_rule_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "test_tpex_rule_comparison"
+      ],
+      "inputs": [
+        "tpex_rule_comparison.py",
+        "test_tpex_rule_comparison.py"
+      ],
+      "outputs": [
+        "test_tpex_rule_comparison.py"
+      ]
+    },
+    {
+      "id": "fixed_relative_comparison",
+      "command": [
+        "{python}",
+        "tpex_rule_comparison.py",
+        "--root",
+        "deliverables/tpex_features_2015_2023",
+        "--benchmark",
+        "deliverables/benchmark_long_history/prices_adjusted_2015_2023.csv.gz",
+        "--benchmark-sha256",
+        "9361370e60333f10457fa80b673503f335088682f7352a26b6f85c9bfadafc2a",
+        "--signal-start-year",
+        "2015",
+        "--signal-end-year",
+        "2022"
+      ],
+      "inputs": [
+        "tpex_rule_comparison.py",
+        "configs/tpex_ridge_protocol.json",
+        "deliverables/benchmark_long_history/prices_adjusted_2015_2023.csv.gz",
+        "deliverables/tpex_features_2015_2023/features_and_gross_labels.csv.gz",
+        "deliverables/tpex_features_2015_2023/summary.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2015_2023/rule_net_relative_daily.csv",
+        "deliverables/tpex_features_2015_2023/rule_comparison.json",
+        "deliverables/tpex_features_2015_2023/rule_comparison.md",
+        "deliverables/tpex_features_2015_2023/rule_selections.csv.gz"
+      ]
+    },
+    {
+      "id": "frozen_block_intervals",
+      "command": [
+        "{python}",
+        "audit_tpex_long_rule_uncertainty.py",
+        "--root",
+        "deliverables/tpex_features_2015_2023"
+      ],
+      "inputs": [
+        "audit_tpex_long_rule_uncertainty.py",
+        "tpex_ridge_baseline.py",
+        "configs/tpex_ridge_protocol.json",
+        "deliverables/tpex_features_2015_2023/rule_net_relative_daily.csv",
+        "deliverables/tpex_features_2015_2023/endpoint_event_replay.json"
+      ],
+      "outputs": [
+        "deliverables/tpex_features_2015_2023/long_uncertainty.json",
+        "deliverables/tpex_features_2015_2023/long_review.md"
+      ]
+    }
+  ]
+}

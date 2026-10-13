@@ -1,0 +1,47 @@
+{
+  "timeout_seconds": 1200,
+  "max_rss_mb": 1024,
+  "stages": [
+    {
+      "id": "revenue_source_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "test_tpex_revenue",
+        "test_tpex_revenue_bounds"
+      ],
+      "inputs": [
+        "acquire_tpex_revenue.py",
+        "test_tpex_revenue.py",
+        "tests/fixtures/tpex_revenue_202301_0.html.gz",
+        "test_tpex_revenue_bounds.py"
+      ],
+      "outputs": [
+        "test_tpex_revenue.py",
+        "test_tpex_revenue_bounds.py"
+      ]
+    },
+    {
+      "id": "early_revenue_pilot",
+      "command": [
+        "{python}",
+        "acquire_tpex_revenue.py",
+        "--start-month",
+        "2014-11",
+        "--end-month",
+        "2015-12",
+        "--output",
+        "deliverables/tpex_revenue_2015_pilot"
+      ],
+      "inputs": [
+        "acquire_tpex_revenue.py"
+      ],
+      "outputs": [
+        "deliverables/tpex_revenue_2015_pilot/monthly.csv.gz",
+        "deliverables/tpex_revenue_2015_pilot/acquisition.json",
+        "deliverables/tpex_revenue_2015_pilot/raw"
+      ]
+    }
+  ]
+}

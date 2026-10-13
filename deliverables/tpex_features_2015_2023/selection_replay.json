@@ -1,0 +1,18 @@
+{
+  "selection_rows": 265851,
+  "daily_method_rows": 5694,
+  "strict_values_checked": 11388,
+  "maximum_absolute_replay_difference": 4.440892098500626e-16,
+  "unknown_outcomes_retained": true,
+  "signal_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "cost_parameters_unchanged": true
+}
