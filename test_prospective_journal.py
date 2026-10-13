@@ -31,7 +31,7 @@ class JournalTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'requires prior snapshots'): seal(self.root, 'signal', '2026-10-14', p, now=self.now)
     def test_future_snapshot(self):
         seal(self.root, 'snapshot', 'late', {}, now=self.now.replace(hour=17))
-        p = self.payload(); p.update(status='complete', snapshot_records=['late'])
+        p = self.payload(); p.update(status='complete', snapshot_records=['late'], source_status='raw_replay_verified', selection_manifest_sha256='b'*64)
         with self.assertRaisesRegex(ValueError, 'after signal'): seal(self.root, 'signal', '2026-10-14', p, now=self.now)
     def test_cutoff_and_unsafe_key(self):
         with self.assertRaises(ValueError): seal(self.root, 'signal', 'early', self.payload(), now=self.now.replace(hour=14))
