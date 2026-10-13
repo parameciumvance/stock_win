@@ -34,6 +34,10 @@ def seal(root, kind, key, payload, *, now=None):
             raise ValueError('Protocol digest required')
         if payload['status'] == 'complete' and not payload.get('snapshot_records'):
             raise ValueError('Complete signal requires prior snapshots')
+        if payload['status'] == 'complete' and payload.get('source_status') != 'raw_replay_verified':
+            raise ValueError('Complete signal requires raw-source replay gate')
+        if payload['status'] == 'complete' and (not payload.get('selection_manifest_sha256') or len(payload['selection_manifest_sha256']) != 64):
+            raise ValueError('Complete signal requires selection manifest digest')
         for ref in payload.get('snapshot_records', []):
             if not ref or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in ref):
                 raise ValueError('Unsafe snapshot reference')
