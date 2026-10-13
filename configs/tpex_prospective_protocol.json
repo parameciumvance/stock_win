@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "status": "preregistered_not_running",
+  "frozen_on_local_date": "2026-10-13",
+  "timezone": "Asia/Taipei",
+  "earliest_signal_date": "2026-10-14",
+  "historical_reference_commit": "c4c8b551232aab0c37d10e43917fcda7e3395657",
+  "frozen_source_git_blobs": {
+    "configs/tpex_event_rules_protocol.json": "8a61f522b6ccc471f3d6c4b85d6ebb4aa2b425a0",
+    "tpex_long_event_comparison.py": "9970a0eed83cf8ddb68e2377801a71df186b75c4",
+    "tpex_event_features.py": "c7abd5dfa2a03ebd22c208c982f9521e0c0799ee",
+    "tpex_proxy_features.py": "e0fa1065f4202acfbc754774b12d201a1a745f2d",
+    "tpex_rule_comparison.py": "f62949ddcbd2532abc69fc28e6434402f5873b40",
+    "tpex_pool.py": "8a5d59f93f014501e84b0c2d7f907b2e23a05945",
+    "configs/tpex_pool_policy.json": "fd8f54c16495c645a34abe3b691346f1c224e854",
+    "configs/tpex_proxy_protocol.json": "e4c4bdf99c27dfce34025a7f9122d63a0accf54c"
+  },
+  "methods": [
+    "revenue_acceleration",
+    "institutional_five_days",
+    "breakout60_volume15",
+    "all_three",
+    "vol20",
+    "atr20_pct",
+    "mom60"
+  ],
+  "excluded_method": "ridge: no early-year frozen coefficients; no new fitting",
+  "primary": {
+    "revenue_proxy_lag_calendar_days": 45,
+    "horizon_market_days": 60
+  },
+  "secondary": {
+    "revenue_proxy_lag_calendar_days": 60,
+    "horizon_market_days": 20
+  },
+  "evaluation": {
+    "signal_market_days": 252,
+    "clock": "official TPEx open market days beginning first complete prospectively recorded signal date; insufficient-pool days retained",
+    "finalize": "only after last signal's 60-market-day endpoint; missing prices remain unknown",
+    "interim": "source quality and completeness only; no outcome-driven thresholds or stopping",
+    "blocks_market_days": [
+      20,
+      60,
+      80
+    ],
+    "bootstrap_repetitions": 5000,
+    "bootstrap_seed": 20261010,
+    "no_best_method_selection": true
+  },
+  "recording": {
+    "must_freeze_before_entry": true,
+    "entry": "existing next-market-day opening quote proxy; never same-day execution",
+    "timestamp_timezone_required": true,
+    "raw_source_sha256_required": true,
+    "signal_manifest_sha256_required": true,
+    "allow_overwrite": false,
+    "late_input": "retain as late/missing; no backdated signal or patched historical ranking",
+    "revenue": "retain first observed static snapshot and all later versions separately; proxy availability additionally requires observation before signal cutoff",
+    "publication_pit": "not established by observation; never populate published_at from export date",
+    "missing_daily_signal": "retain gap; cannot reconstruct an authentic prospective decision afterward",
+    "reconstruction": "separate diagnostic only; not original prospective record"
+  },
+  "reporting": {
+    "empty_selection": "NA outcome, retain calendar position and count",
+    "unknown_selected": "whole selected daily mean unknown, no zero fill",
+    "pool": "as-of complete features only; future endpoints never filter universe",
+    "baseline": "same frozen 0050 proxy; ETF transaction cost excluded as in historical method, disclose asymmetry",
+    "output": "overlapping conditional quote means; not NAV, annual portfolio return or execution",
+    "required": [
+      "market-day count",
+      "common-pool coverage",
+      "empty selections",
+      "unknown endpoints",
+      "late/missing inputs",
+      "per-method mean and block intervals",
+      "paired same-date contrasts",
+      "actual record completeness"
+    ]
+  },
+  "activation_gates": [
+    "verify frozen source Git blobs and exact cost/label implementation",
+    "recover hash-verified warmup input and official market calendar",
+    "implement append-only snapshot/signal journal and validate time/version boundaries",
+    "acquire and validate current raw sources; archive and retrieve-verify before downstream evaluation",
+    "freeze first eligible day's complete manifest before entry; no retroactive activation"
+  ],
+  "authorization": {
+    "real_orders": false,
+    "scheduled_automation": false
+  },
+  "limitations": [
+    "Historical revenue remains revised static proxy; prospective observation cannot repair old announcement history",
+    "252 market days and 60-day maturation are newly fixed study design, not evidence of predictive advantage",
+    "Preregistration alone is not a running acquisition service"
+  ]
+}
