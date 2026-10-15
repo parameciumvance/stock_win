@@ -7,8 +7,42 @@ from pathlib import Path
 import shutil
 import subprocess
 import zipfile
+from zoneinfo import ZoneInfo
 
 from research_runtime import atomic_bytes, atomic_json, exclusive_lock, sha256, utcnow
+
+TPEX_EVENTS = [('excal', 'exDailyQ'), ('reduction', 'revivt'), ('change', 'pvChgRslt')]
+BENCHMARK_EVENTS = [('exrights', 'exRight/TWT49U'), ('reduction', 'reducation/TWTAUU'),
+                    ('par_change', 'change/TWTB8U'), ('split', 'split/TWTCAU')]
+
+
+def warmup_months(date):
+    end = dt.date.fromisoformat(date)
+    serial = end.year * 12 + end.month - 1
+    return [f'{n//12}-{n%12+1:02}' for n in range(serial - 4, serial + 1)]
+
+
+def annual_sources(first_date, signal_date):
+    """Require every event year crossed by the warmup, keeping legacy current-year keys."""
+    first = dt.date.fromisoformat(first_date)
+    end = dt.date.fromisoformat(signal_date)
+    if first > end:
+        raise ValueError('Warmup begins after signal date')
+    sources = []
+    for year in range(first.year, end.year + 1):
+        cutoff = min(end, dt.date(year, 12, 31))
+        suffix = '' if year == end.year else f'{year}_'
+        for kind, route in TPEX_EVENTS:
+            key = f'event_{suffix}{kind}.json'
+            url = f'https://www.tpex.org.tw/www/zh-tw/bulletin/{route}?startDate={year}/01/01&endDate={cutoff:%Y/%m/%d}&response=json'
+            sources.append(dict(key=key, url=url, market='tpex', kind=kind, year=year,
+                                cutoff=cutoff.isoformat()))
+        for kind, route in BENCHMARK_EVENTS:
+            key = f'benchmark_event_{suffix}{kind}.json'
+            url = f'https://www.twse.com.tw/rwd/zh/{route}?startDate={year}0101&endDate={cutoff:%Y%m%d}&response=json'
+            sources.append(dict(key=key, url=url, market='twse', kind=kind, year=year,
+                                cutoff=cutoff.isoformat()))
+    return sources
 
 
 def fetch(root, key, url):
@@ -53,14 +87,10 @@ def calendar_days(raw, month, cutoff):
 def acquire(root, date):
     # Four full months plus current month cover >60 sessions and both revenue lags.
     end = dt.date.fromisoformat(date)
-    months = []
-    for offset in range(4, -1, -1):
-        serial = end.year * 12 + end.month - 1 - offset
-        months.append(f'{serial//12}-{serial%12+1:02}')
-    if months[0][:4] != date[:4]:
-        raise ValueError('Cross-year warmup requires prior-year event acquisition; unsupported, fail closed')
+    months = warmup_months(date)
     if any((root / 'journal' / 'signal').glob('*.json')):
         raise ValueError('Sealed run cannot reacquire or replace sources; use a new version directory')
+    source_cutoff(date)
     with exclusive_lock(root / 'acquisition.lock'):
         def batch(requests):
             with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
@@ -77,13 +107,22 @@ def acquire(root, date):
             yy, mm = map(int,m.split('-'))
             for kind in (0,1):
                 requests.append((f'revenue_{m}_{kind}.html', f'https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_{yy-1911}_{mm}_{kind}.html'))
-        for key, route in [('excal','exDailyQ'),('reduction','revivt'),('change','pvChgRslt')]:
-            requests.append((f'event_{key}.json',f'https://www.tpex.org.tw/www/zh-tw/bulletin/{route}?startDate={end.year}/01/01&endDate={date.replace("-", "/")}&response=json'))
-        for key, route in [('exrights','exRight/TWT49U'),('reduction','reducation/TWTAUU'),('par_change','change/TWTB8U'),('split','split/TWTCAU')]:
-            requests.append((f'benchmark_event_{key}.json',f'https://www.twse.com.tw/rwd/zh/{route}?startDate={end.year}0101&endDate={date.replace("-", "")}&response=json'))
-        requests += [('holiday_2026.json', f'https://www.tpex.org.tw/www/zh-tw/bulletin/tradingDate?date={end.year}&response=json'), ('isin_otc.html','https://isin.twse.com.tw/isin/C_public.jsp?strMode=4'),('isin_listed.html','https://isin.twse.com.tw/isin/C_public.jsp?strMode=2')]
+        requests += [(s['key'], s['url']) for s in annual_sources(days[0], date)]
+        # A December signal may enter in January; require both official schedules.
+        holiday_years = [end.year, end.year + 1] if end.month == 12 else [end.year]
+        requests += [(f'holiday_{year}.json', f'https://www.tpex.org.tw/www/zh-tw/bulletin/tradingDate?date={year}&response=json') for year in holiday_years]
+        requests += [('isin_otc.html','https://isin.twse.com.tw/isin/C_public.jsp?strMode=4'),('isin_listed.html','https://isin.twse.com.tw/isin/C_public.jsp?strMode=2')]
         batch(requests)
         atomic_json(root/'acquisition.json',dict(signal_date=date, calendar_days=days, requests=[key for key,_ in requests], source_status='acquired_not_replayed', observed_at=utcnow()))
+
+
+def source_cutoff(date, *, now=None):
+    now = now or dt.datetime.now(ZoneInfo('Asia/Taipei'))
+    if now.tzinfo is None:
+        raise ValueError('Timezone-aware source clock required')
+    local = now.astimezone(ZoneInfo('Asia/Taipei'))
+    if date != local.date().isoformat() or local.hour < 15:
+        raise ValueError('Acquire only the current signal day after 15:00 Taipei')
 
 
 def verify_archive(path, expected):

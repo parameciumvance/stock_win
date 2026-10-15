@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-15T23:42:39.426260+00:00",
+  "signal_date": "2026-10-15",
+  "sealed_at": "2026-10-15T21:52:43.477026+08:00",
+  "sealed_code_commit": "fabd6bdebe58cb1d8891daad27da8c687d3c91a9",
+  "protocol_sha256": "d1ab6f2d7d9ae6f35a8993e76de39e94edcb00309eb7f6ef3fd7279c0c300603",
+  "frozen_blobs": {
+    "configs/tpex_event_rules_protocol.json": "8a61f522b6ccc471f3d6c4b85d6ebb4aa2b425a0",
+    "tpex_long_event_comparison.py": "9970a0eed83cf8ddb68e2377801a71df186b75c4",
+    "tpex_event_features.py": "c7abd5dfa2a03ebd22c208c982f9521e0c0799ee",
+    "tpex_proxy_features.py": "e0fa1065f4202acfbc754774b12d201a1a745f2d",
+    "tpex_rule_comparison.py": "f62949ddcbd2532abc69fc28e6434402f5873b40",
+    "tpex_pool.py": "8a5d59f93f014501e84b0c2d7f907b2e23a05945",
+    "configs/tpex_pool_policy.json": "fd8f54c16495c645a34abe3b691346f1c224e854",
+    "configs/tpex_proxy_protocol.json": "e4c4bdf99c27dfce34025a7f9122d63a0accf54c"
+  },
+  "source_archive_sha256": "966cb2a6f0c10e876dc6c510a9a0bc71119c07325d1e3f3c534be5b4cdaf492c",
+  "original_manifest_sha256": "64dd525896b1e61043594953146ed7a53cc4dc3e6a1d13a196b11a8c5b64f95e",
+  "original_files_verified_unchanged": 277,
+  "matrices_replayed": [
+    "45",
+    "60"
+  ],
+  "same_pool": 622,
+  "all_selections_identical": true,
+  "benchmark_identical": true,
+  "current_code_sha256": {
+    "prospective_sources.py": "81540452571825130259a757bd5c01730178664d09ccd5ac894f1286ea435372",
+    "prospective_replay.py": "0574eebca59e63fdf43811f19ba6c52e8b13e08810e4aca520f806d726f7efff",
+    "verify_prospective_archive.py": "06b0a2f601eb4249acc0029abd1acce40da59e8d84e46cdb8ddc933f1c40478d"
+  }
+}

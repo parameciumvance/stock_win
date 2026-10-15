@@ -1,0 +1,83 @@
+{
+  "stages": [
+    {
+      "id": "tests",
+      "command": [
+        "{python}",
+        "-c",
+        "import io, sys, unittest\nfrom research_runtime import atomic_json,sha256,utcnow\nmodules = ['test_prospective_crossyear', 'test_prospective_replay', 'test_prospective_journal', 'test_prospective_selection', 'test_tpex_event_features', 'test_tpex_proxy_features', 'test_tpex_pilot', 'test_tpex_pool', 'test_tpex_revenue', 'test_tpex_numeric_sources', 'test_tpex_flow_pilot', 'test_tpex_flow_legacy', 'test_research_pipeline']\npaths = ['prospective_sources.py', 'prospective_replay.py', 'prospective_journal.py', 'prospective_selection.py', 'prospective_finalize.py', 'prepare_prospective_run.py', 'verify_prospective_archive.py', 'test_prospective_crossyear.py', 'test_prospective_replay.py', 'test_prospective_journal.py', 'test_prospective_selection.py', 'test_tpex_event_features.py', 'test_tpex_proxy_features.py', 'test_tpex_pilot.py', 'test_tpex_pool.py', 'test_tpex_revenue.py', 'test_tpex_numeric_sources.py', 'test_tpex_flow_pilot.py', 'test_tpex_flow_legacy.py', 'test_research_pipeline.py']\nstream=io.StringIO()\nresult=unittest.TextTestRunner(stream=stream,verbosity=2).run(unittest.defaultTestLoader.loadTestsFromNames(modules))\natomic_json('deliverables/prospective_continuation_20261016/tests.json',dict(tests_run=result.testsRun,failures=len(result.failures),errors=len(result.errors),passed=result.wasSuccessful(),observed_at=utcnow(),output=stream.getvalue(),source_sha256={p:sha256(p) for p in paths}))\nprint(stream.getvalue())\nsys.exit(0 if result.wasSuccessful() else 1)\n"
+      ],
+      "inputs": [
+        "prospective_sources.py",
+        "prospective_replay.py",
+        "prospective_journal.py",
+        "prospective_selection.py",
+        "prospective_finalize.py",
+        "prepare_prospective_run.py",
+        "verify_prospective_archive.py",
+        "test_prospective_crossyear.py",
+        "test_prospective_replay.py",
+        "test_prospective_journal.py",
+        "test_prospective_selection.py",
+        "test_tpex_event_features.py",
+        "test_tpex_proxy_features.py",
+        "test_tpex_pilot.py",
+        "test_tpex_pool.py",
+        "test_tpex_revenue.py",
+        "test_tpex_numeric_sources.py",
+        "test_tpex_flow_pilot.py",
+        "test_tpex_flow_legacy.py",
+        "test_research_pipeline.py"
+      ],
+      "outputs": [
+        "deliverables/prospective_continuation_20261016/tests.json"
+      ],
+      "timeout_seconds": 120
+    },
+    {
+      "id": "sealed_regression",
+      "command": [
+        "{python}",
+        "verify_prospective_archive.py",
+        "--root",
+        "inputs/prospective/20261015",
+        "--out",
+        "deliverables/prospective_continuation_20261016",
+        "--sealed-code-commit",
+        "fabd6bdebe58cb1d8891daad27da8c687d3c91a9"
+      ],
+      "inputs": [
+        "verify_prospective_archive.py",
+        "prospective_sources.py",
+        "prospective_replay.py",
+        "inputs/prospective/20261015/sources.retrieved.zip",
+        "inputs/prospective/20261015/signal_bundle.retrieved.zip",
+        "inputs/prospective/20261015/selection_manifest.json",
+        "configs/tpex_prospective_protocol.json",
+        "prospective_journal.py",
+        "prospective_selection.py",
+        "prospective_finalize.py",
+        "prepare_prospective_run.py",
+        "configs/tpex_event_rules_protocol.json",
+        "tpex_long_event_comparison.py",
+        "tpex_event_features.py",
+        "tpex_proxy_features.py",
+        "tpex_rule_comparison.py",
+        "tpex_pool.py",
+        "configs/tpex_pool_policy.json",
+        "configs/tpex_proxy_protocol.json",
+        "tpex_source_pilot.py",
+        "tpex_classification_pilot.py",
+        "tpex_flow_pilot.py",
+        "acquire_tpex_revenue.py",
+        "audit_tpex_event_coverage.py",
+        "twse_history/build_history.py",
+        "twse_history/fetch_history.py"
+      ],
+      "outputs": [
+        "deliverables/prospective_continuation_20261016/sealed_regression.json"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

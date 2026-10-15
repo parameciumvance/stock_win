@@ -1,0 +1,46 @@
+{
+  "stages": [
+    {
+      "id": "acquire",
+      "command": [
+        "{python}",
+        "prospective_sources.py",
+        "acquire",
+        "--root",
+        "inputs/prospective/20261016",
+        "--date",
+        "2026-10-16"
+      ],
+      "inputs": [
+        "prospective_sources.py"
+      ],
+      "outputs": [
+        "inputs/prospective/20261016/acquisition.json",
+        "inputs/prospective/20261016/raw"
+      ],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "archive",
+      "command": [
+        "{python}",
+        "prospective_sources.py",
+        "archive",
+        "--root",
+        "inputs/prospective/20261016",
+        "--date",
+        "2026-10-16"
+      ],
+      "inputs": [
+        "prospective_sources.py",
+        "inputs/prospective/20261016/acquisition.json",
+        "inputs/prospective/20261016/raw"
+      ],
+      "outputs": [
+        "inputs/prospective/20261016/sources.zip",
+        "inputs/prospective/20261016/checkpoint.json"
+      ],
+      "timeout_seconds": 120
+    }
+  ]
+}

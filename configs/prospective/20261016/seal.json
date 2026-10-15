@@ -1,0 +1,29 @@
+{
+  "stages": [
+    {
+      "id": "seal_and_archive",
+      "command": [
+        "{python}",
+        "prospective_finalize.py",
+        "--root",
+        "inputs/prospective/20261016"
+      ],
+      "inputs": [
+        "prospective_finalize.py",
+        "prospective_journal.py",
+        "prospective_replay.py",
+        "inputs/prospective/20261016/selection_manifest.json",
+        "inputs/prospective/20261016/matrix_45.csv",
+        "inputs/prospective/20261016/matrix_60.csv",
+        "inputs/prospective/20261016/benchmark.csv",
+        "inputs/prospective/20261016/sources.retrieved.zip"
+      ],
+      "outputs": [
+        "inputs/prospective/20261016/journal/signal/2026-10-16.json",
+        "inputs/prospective/20261016/signal_checkpoint.json",
+        "inputs/prospective/20261016/signal_bundle.zip"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

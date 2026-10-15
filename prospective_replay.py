@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 from lxml import html
 
-from prospective_sources import verify_archive, calendar_days
+from prospective_sources import verify_archive, calendar_days, annual_sources
 from prospective_selection import FEATURES, RULES, METHODS, REQUIRED, select
 from prospective_journal import TZ
 from research_runtime import atomic_json, sha256, utcnow
@@ -30,7 +30,7 @@ from tpex_proxy_features import features
 from tpex_flow_pilot import parse as parse_flow
 from acquire_tpex_revenue import parse as parse_revenue
 from audit_tpex_event_coverage import event_date, number
-from twse_history.build_history import load_actions, adjust_prices, audit_events
+from twse_history.build_history import load_actions, load_table, adjust_prices, audit_events
 
 
 def frozen():
@@ -63,9 +63,9 @@ def independent_selection(frame, date):
     return result
 
 
-def next_entry(raw, date):
+def closed_days(raw, year):
     doc=json.loads(raw)
-    if doc.get('stat')!='ok' or doc.get('endDate')!=date[:4]+'0101' or not doc.get('data',{}).get('html'):
+    if doc.get('stat')!='ok' or doc.get('endDate')!=f'{year}0101' or not doc.get('data',{}).get('html'):
         raise ValueError('Official holiday schedule unavailable')
     # Every table row retains the source description; only explicit closed days excluded.
     text=html.fromstring(doc['data']['html'])
@@ -74,17 +74,107 @@ def next_entry(raw, date):
         cells=[' '.join(x.text_content().split()) for x in tr.xpath('./td|./th')]
         if not cells:continue
         line=' '.join(cells)
-        if '開始交易' in line or '最後交易' in line:continue
+        if '開始交易' in line:
+            continue
+        if '最後交易' in line:
+            # Stock settlement-only days follow its last trading day. Bond-system
+            # schedules may close earlier and must not close the stock market.
+            if '股票交易系統' not in line or '市場無交易' not in cells[-1]:
+                continue
+            line = cells[-1]
         for month,day in re.findall(r'(\d{1,2})月\s*(\d{1,2})日',line):
-            closed.add(dt.date(int(date[:4]),int(month),int(day)))
-    if len(closed)<10 or str(int(date[:4])-1911) not in ' '.join(text.itertext()):
+            closed.add(dt.date(year,int(month),int(day)))
+    if len(closed)<10 or str(year-1911) not in ' '.join(text.itertext()):
         raise ValueError('Unrecognized holiday year/schema')
+    return closed
+
+
+def next_entry(raw, date, next_year_raw=None):
+    year = int(date[:4])
+    schedules = {year: closed_days(raw, year)}
     day=dt.date.fromisoformat(date)+dt.timedelta(days=1)
-    while day.weekday()>=5 or day in closed:day+=dt.timedelta(days=1)
+    while True:
+        if day.year not in schedules:
+            if day.year != year + 1 or next_year_raw is None:
+                raise ValueError('Next-year official holiday schedule required')
+            schedules[day.year] = closed_days(next_year_raw, day.year)
+        if day.weekday()<5 and day not in schedules[day.year]:
+            break
+        day+=dt.timedelta(days=1)
     return dt.datetime.combine(day,dt.time(9),TZ).isoformat()
 
 
-def rebuild(root):
+def annual_event_document(raw, spec):
+    """A missing year or a response ignoring its requested interval is fatal."""
+    key = 'raw/' + spec['key']
+    if key not in raw or key + '.meta.json' not in raw:
+        raise ValueError('Missing annual event source: ' + spec['key'])
+    meta = json.loads(raw[key + '.meta.json'])
+    if meta['url'] != spec['url'] or hashlib.sha256(raw[key]).hexdigest() != meta['sha256']:
+        raise ValueError('Annual event source URL/hash differs')
+    doc = json.loads(raw[key])
+    if str(doc.get('stat', '')).lower() != 'ok':
+        raise ValueError('Annual event source unavailable')
+    if spec['market'] == 'tpex':
+        expected = f'{spec["year"]}0101~{spec["cutoff"].replace("-", "")}'
+        if doc.get('date') != expected or not isinstance(doc.get('tables'), list) or not doc['tables']:
+            raise ValueError('Event source range differs')
+        headers = dict(excal=['除權息日期','代號','名稱','除權息前收盤價','除權息參考價'],
+                       reduction=['恢復買賣日期','股票代號','名稱','最後交易日之收盤價格','減資恢復買賣開始日參考價格'],
+                       change=['恢復買賣日期','證券代號','證券名稱','最後交易日之收盤價格','恢復買賣開始參考價'])
+        for table in doc['tables']:
+            if table.get('fields', [])[:5] != headers[spec['kind']]:
+                raise ValueError('Event source schema differs')
+            rows = table['data']
+            if len(rows) != table['totalCount']:
+                raise ValueError('Incomplete event table')
+            for row in rows:
+                if len(row) != len(table['fields']) or len(row) < 5:
+                    raise ValueError('Event source row/schema differs')
+                day = event_date(row[0])
+                if not f'{spec["year"]}-01-01' <= day <= spec['cutoff']:
+                    raise ValueError('Event outside requested year/range')
+    return doc
+
+
+def benchmark_actions(raw, specs, scratch, clock, signal_date):
+    """Load every warmup year on one scale, including years with no events."""
+    frames = []
+    date_columns = dict(exrights='資料日期', reduction='恢復買賣日期',
+                        par_change='恢復買賣日期', split='恢復買賣日期')
+    required_columns = dict(
+        exrights=['股票代號','股票名稱','除權息前收盤價','除權息參考價'],
+        reduction=['股票代號','名稱','停止買賣前收盤價格','恢復買賣參考價'],
+        par_change=['股票代號','名稱','停止買賣前收盤價格','恢復買賣參考價'],
+        split=['ETF代號','名稱','停止買賣前收盤價格','恢復買賣參考價'])
+    for year in sorted({s['year'] for s in specs if s['market'] == 'twse'}):
+        has_rows = False
+        for spec in (s for s in specs if s['market'] == 'twse' and s['year'] == year):
+            doc = annual_event_document(raw, spec)
+            key = 'raw/' + spec['key']
+            target = scratch/f'{spec["kind"]}_{year}.json'
+            target.write_bytes(raw[key])
+            meta = json.loads(raw[key+'.meta.json']);meta['fetched_at']=meta['observed_at']
+            atomic_json(target.with_suffix('.meta.json'),meta)
+            column = date_columns[spec['kind']]
+            required = [column] + required_columns[spec['kind']]
+            if not set(required).issubset(doc.get('fields', [])) or not isinstance(doc.get('data'), list):
+                raise ValueError('Benchmark event schema differs')
+            table = load_table(target, column, year)
+            if len(table) and table[column].gt(pd.Timestamp(spec['cutoff'])).any():
+                raise ValueError('Benchmark event outside requested range')
+            has_rows |= len(table) > 0
+        if has_rows:
+            frames.append(load_actions(scratch, year, pd.Timestamp(signal_date)))
+    if not frames:
+        return pd.DataFrame(dict(symbol=pd.Series(dtype='str'),
+                                 effective_date=pd.Series(dtype='datetime64[ns]'),
+                                 adjustment_factor=pd.Series(dtype='float64')))
+    actions = pd.concat(frames, ignore_index=True)
+    return actions.loc[actions.symbol.eq('0050') & actions.effective_date.ge(clock[0])]
+
+
+def rebuild(root, *, scratch_root=None):
     protocol=frozen()
     receipt=json.loads((root/'checkpoint.json').read_text())
     if receipt.get('roundtrip_verified') is not True:raise ValueError('Source roundtrip missing')
@@ -123,9 +213,9 @@ def rebuild(root):
             for dest,src in [('open','開盤'),('high','最高'),('low','最低'),('close','收盤'),('volume_shares','成交股數')]:q[dest]=number(r[src])
             quotes.append(q)
     q=pd.DataFrame(quotes);lookup={(r['date'],r['code']):r for r in quotes};events=[]
-    for kind in ('excal','reduction','change'):
-        doc=json.loads(raw[f'raw/event_{kind}.json'])
-        if doc.get('stat')!='ok' or doc.get('date')!=f'{date[:4]}0101~{date.replace("-", "")}':raise ValueError('Event source range differs')
+    specs = annual_sources(days[0], date)
+    for spec in (s for s in specs if s['market'] == 'tpex'):
+        doc=annual_event_document(raw, spec)
         for table in doc['tables']:
             if len(table['data'])!=table['totalCount']:raise ValueError('Incomplete event table')
             for row in table['data']:
@@ -166,18 +256,20 @@ def rebuild(root):
     benchmark=pd.DataFrame(b).sort_values('date')
     if benchmark.date.duplicated().any() or not set(benchmark.date).issubset(set(clock)):raise ValueError('Benchmark duplicate/non-market date')
     if not np.isfinite(benchmark[['open','high','low','close']]).all().all():raise ValueError('Invalid benchmark price')
-    scratch=root/'benchmark_replay';scratch.mkdir(exist_ok=True)
-    for kind in ('exrights','reduction','par_change','split'):
-        key=f'raw/benchmark_event_{kind}.json';target=scratch/f'{kind}_{date[:4]}.json';target.write_bytes(raw[key]);meta=json.loads(raw[key+'.meta.json']);meta['fetched_at']=meta['observed_at'];atomic_json(target.with_suffix('.meta.json'),meta)
-    actions=load_actions(scratch,int(date[:4]),pd.Timestamp(date));actions=actions.loc[actions.symbol.eq('0050') & actions.effective_date.ge(clock[0])]
+    scratch=Path(scratch_root) if scratch_root is not None else root/'benchmark_replay'
+    scratch.mkdir(parents=True,exist_ok=True)
+    actions=benchmark_actions(raw, specs, scratch, clock, date)
     adjusted=adjust_prices(benchmark,actions,pd.Timestamp(date));audit=audit_events(adjusted,actions)
     if len(audit) and not audit.audit_state.eq('matched').all():raise ValueError('Benchmark event mismatch')
-    entry=next_entry(raw['raw/holiday_2026.json'],date)
+    entry=next_entry(raw[f'raw/holiday_{date[:4]}.json'],date,
+                     raw.get(f'raw/holiday_{int(date[:4])+1}.json'))
     summary=dict(signal_date=date,price_start=days[0],price_end=days[-1],market_days=len(days),prior_market_days=len(days)-1,quote_rows=len(q),flow_dates=days[-6:-1],revenue_months=sorted(monthly.month.unique()),benchmark_rows=len(benchmark),benchmark_missing_dates=sorted(set(days)-set(benchmark.date.dt.strftime('%Y-%m-%d'))),event_rows=len(events),unknown_event_rows=sum(e['status']!='last_close_matches' for e in events),source_last_observed_at=max(observed).isoformat(),entry_at=entry,archive_sha256=receipt['sha256'],protocol_sha256=sha256('configs/tpex_prospective_protocol.json'))
     return matrices,summary,adjusted
 
 
 def generate(root):
+    if any((root/'journal'/'signal').glob('*.json')):
+        raise ValueError('Sealed run cannot replace derived evidence')
     matrices,summary,benchmark=rebuild(root)
     for lag,frame in matrices.items():frame.to_csv(root/f'matrix_{lag}.csv',index=False,float_format='%.17g')
     benchmark.to_csv(root/'benchmark.csv',index=False,float_format='%.17g')
@@ -185,6 +277,8 @@ def generate(root):
 
 
 def replay(root):
+    if any((root/'journal'/'signal').glob('*.json')):
+        raise ValueError('Sealed run cannot replace selection manifest')
     matrices,summary,benchmark=rebuild(root)
     if summary!=json.loads((root/'feature_summary.json').read_text()):raise ValueError('Feature source summary differs')
     results={};matrix_hashes={}

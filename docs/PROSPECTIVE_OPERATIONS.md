@@ -20,4 +20,24 @@
 
 最後另封存包含原始包、兩份矩陣、0050、manifest及journal的訊號重跑包，備份取回後再驗 SHA／CRC／全部成員。小型 receipt、manifest及訊號記錄可提交 Git；本地路徑是稽核定位，不是可跨機自動恢復的承諾。移機須先恢復原檔與 hash，再記錄明確的路徑重定位；不能修改原封存紀錄。
 
-目前已驗證的是2026年同年度暖機；跨年暖機尚需同時取得前一年事件，本版遇到跨年要求會明確拒絕，不能忽略前一年事件繼續產生訊號。未啟動定時服務，沒有實際訂單。若錯過當日封存，另記缺口，不能把事後診斷當作前瞻觀測。
+跨年暖機會取得窗口所跨每一年度的TPEx三類及TWSE四類事件，前一年查詢至12/31、訊號年查詢至當日，任何年度缺檔、錯年、範圍或格式不符均拒絕。0050公司行動在同一序列跨年累積；全年確定無事件須有成功且格式完整的空來源，不能以錯誤回應代替。12月版本另取得翌年開休市表，跨年進場若缺翌年日曆即拒絕。2026-10-16新增跨年fixture與10/15封存來源回歸核對；尚未取得未來2027年真實每日來源，fixture不算新前瞻訊號。未啟動定時服務，沒有實際訂單。若錯過當日封存，另記缺口，不能把事後診斷當作前瞻觀測。
+
+## 每日設定與封存來源稽核
+
+建立新日期設定（只寫plan，不下載、不排程、不產生訊號）：
+
+```bash
+.venv/bin/python prepare_prospective_run.py --date 2026-10-16
+```
+
+10/16設定已建立，不要重複建立。當日15:00臺北時間後，依序執行：
+
+```bash
+.venv/bin/python research_pipeline.py --plan configs/prospective/20261016/source.json --state-dir inputs/prospective/20261016/pipeline
+.venv/bin/python research_pipeline.py --plan configs/prospective/20261016/replay.json --state-dir inputs/prospective/20261016/replay_pipeline
+.venv/bin/python research_pipeline.py --plan configs/prospective/20261016/seal.json --state-dir inputs/prospective/20261016/seal_pipeline
+```
+
+來源入口現已拒絕非當日或15:00以前的取得要求。15:00仍只是最低門檻，實際來源、日期、暖機、重播與封存必須全部通過。週末或休市日會在官方市場日曆關卡被拒絕。
+
+更新程式後，使用`verify_prospective_archive.py`稽核舊訊號：從Git還原其manifest記錄的舊程式SHA，核對來源包及備份，再以目前程式重播比較矩陣、名單與0050。稽核報告另存，舊manifest／訊號及其程式版本記錄不修改。封存目錄的features與replay寫入入口均拒絕覆寫；不要直接對舊訊號目錄重跑產生器。

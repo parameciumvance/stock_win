@@ -1,0 +1,69 @@
+{
+  "stages": {
+    "sealed_regression": {
+      "status": "complete",
+      "fingerprint": "43381b7ce9c9c5f1651e1b0823c55e9fbb7139529d6ca32d7b8d0a056930b9ed",
+      "started_at": "2026-10-15T23:42:22.148282+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-15T23:42:22.148487+00:00",
+        "runtime_identity": "fcb2100a47e699e4af5a028e8da6100fb93ebfffd2729c34b06541549b283a80",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/prospective/continuation_20261016/pipeline/logs/sealed_regression.1792107742152670406.log",
+      "peak_observed_rss_bytes": 285700096,
+      "elapsed_seconds": 17.53237829101272,
+      "exit_code": 0,
+      "exit_signal": null,
+      "outputs": {
+        "deliverables/prospective_continuation_20261016/sealed_regression.json": "5e9830917b626fb45cb808916e037613865c4d351127242a99a18132db381b7b"
+      },
+      "finished_at": "2026-10-15T23:42:39.693640+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-15T23:42:39.693827+00:00",
+        "runtime_identity": "fcb2100a47e699e4af5a028e8da6100fb93ebfffd2729c34b06541549b283a80",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "tests": {
+      "status": "complete",
+      "fingerprint": "6b8400f22bd69ff07d7c0cb33f4344d1ab22a3e9b13b16bbdfca4df27dc68106",
+      "started_at": "2026-10-15T23:42:20.106979+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-15T23:42:20.107154+00:00",
+        "runtime_identity": "fcb2100a47e699e4af5a028e8da6100fb93ebfffd2729c34b06541549b283a80",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/prospective/continuation_20261016/pipeline/logs/tests.1792107740111176167.log",
+      "peak_observed_rss_bytes": 104677376,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.0088883719872683,
+      "outputs": {
+        "deliverables/prospective_continuation_20261016/tests.json": "bf3850ce3bb3aa1b3ce483f572ded57c12b942e0bd963e64e71c692f75f86ab2"
+      },
+      "finished_at": "2026-10-15T23:42:22.129003+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-15T23:42:22.129185+00:00",
+        "runtime_identity": "fcb2100a47e699e4af5a028e8da6100fb93ebfffd2729c34b06541549b283a80",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-15T23:42:20.098786+00:00",
+  "runtime_identity": "fcb2100a47e699e4af5a028e8da6100fb93ebfffd2729c34b06541549b283a80",
+  "active": {},
+  "heartbeat_at": "2026-10-15T23:42:39.707501+00:00",
+  "current_stage": "sealed_regression",
+  "finished_at": "2026-10-15T23:42:39.707464+00:00"
+}

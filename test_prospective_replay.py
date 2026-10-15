@@ -38,11 +38,10 @@ class ReplayTests(unittest.TestCase):
                     z.writestr('manifest.json',json.dumps(manifest))
                 with self.assertRaises(ValueError):verify_archive(path,hashlib.sha256(path.read_bytes()).hexdigest())
 
-    def test_sealed_sources_and_unsupported_crossyear_fail_closed(self):
+    def test_sealed_sources_fail_closed(self):
         from prospective_sources import acquire, archive
         with tempfile.TemporaryDirectory() as d:
             root=Path(d)
-            with self.assertRaisesRegex(ValueError,'Cross-year'):acquire(root,'2027-01-15')
             (root/'journal/signal').mkdir(parents=True)
             (root/'journal/signal/2026-10-15.json').write_text('{}')
             with self.assertRaisesRegex(ValueError,'Sealed run'):acquire(root,'2026-10-15')
@@ -65,7 +64,6 @@ class ReplayTests(unittest.TestCase):
     def test_holiday_schedule_fails_closed(self):
         with self.assertRaises(ValueError):next_entry('{"stat":"ok","data":{"html":"115年"}}'.encode(),'2026-10-15')
 
-if __name__=='__main__':unittest.main()
 
 class LiveGateTests(unittest.TestCase):
     def test_manifest_tamper_rejected(self):
@@ -89,3 +87,6 @@ class LiveGateTests(unittest.TestCase):
                 payload=dict(selection_manifest_sha256=digest,replay_root=d,signal_date=signal,protocol_sha256='b'*64)
                 with patch('prospective_replay.rebuild',return_value=({},summary,pd.DataFrame())):
                     with self.assertRaisesRegex(ValueError,error):validate_live_payload(root,payload,now)
+
+
+if __name__=='__main__':unittest.main()

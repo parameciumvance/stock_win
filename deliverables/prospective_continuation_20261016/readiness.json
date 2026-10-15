@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-15T23:43:16.172380+00:00",
+  "remote_base_commit": "fabd6bdebe58cb1d8891daad27da8c687d3c91a9",
+  "worktree_initially_clean": true,
+  "signal_date": "2026-10-16",
+  "status": "awaiting_source_cutoff",
+  "source_not_before": "2026-10-16T15:00:00+08:00",
+  "plans": "configs/prospective/20261016",
+  "sealed_signal_count": 1,
+  "latest_sealed_signal": "2026-10-15",
+  "new_signal_produced": false,
+  "scheduled_service": false,
+  "external_credentials_required": false
+}
