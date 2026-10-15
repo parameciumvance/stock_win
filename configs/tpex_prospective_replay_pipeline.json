@@ -1,0 +1,87 @@
+{
+  "stages": [
+    {
+      "id": "features",
+      "command": [
+        "{python}",
+        "prospective_replay.py",
+        "features",
+        "--root",
+        "inputs/prospective/20261015"
+      ],
+      "inputs": [
+        "prospective_replay.py",
+        "prospective_sources.py",
+        "prospective_selection.py",
+        "configs/tpex_prospective_protocol.json",
+        "inputs/prospective/20261015/sources.retrieved.zip",
+        "inputs/prospective/20261015/checkpoint.json",
+        "prospective_journal.py",
+        "tpex_source_pilot.py",
+        "tpex_classification_pilot.py",
+        "tpex_flow_pilot.py",
+        "acquire_tpex_revenue.py",
+        "audit_tpex_event_coverage.py",
+        "twse_history/build_history.py",
+        "twse_history/fetch_history.py",
+        "configs/tpex_event_rules_protocol.json",
+        "tpex_long_event_comparison.py",
+        "tpex_event_features.py",
+        "tpex_proxy_features.py",
+        "tpex_rule_comparison.py",
+        "tpex_pool.py",
+        "configs/tpex_pool_policy.json",
+        "configs/tpex_proxy_protocol.json"
+      ],
+      "outputs": [
+        "inputs/prospective/20261015/matrix_45.csv",
+        "inputs/prospective/20261015/matrix_60.csv",
+        "inputs/prospective/20261015/feature_summary.json",
+        "inputs/prospective/20261015/benchmark.csv"
+      ],
+      "timeout_seconds": 300
+    },
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "prospective_replay.py",
+        "replay",
+        "--root",
+        "inputs/prospective/20261015"
+      ],
+      "inputs": [
+        "prospective_replay.py",
+        "prospective_sources.py",
+        "prospective_selection.py",
+        "configs/tpex_prospective_protocol.json",
+        "inputs/prospective/20261015/sources.retrieved.zip",
+        "inputs/prospective/20261015/checkpoint.json",
+        "inputs/prospective/20261015/matrix_45.csv",
+        "inputs/prospective/20261015/matrix_60.csv",
+        "inputs/prospective/20261015/feature_summary.json",
+        "inputs/prospective/20261015/benchmark.csv",
+        "prospective_journal.py",
+        "tpex_source_pilot.py",
+        "tpex_classification_pilot.py",
+        "tpex_flow_pilot.py",
+        "acquire_tpex_revenue.py",
+        "audit_tpex_event_coverage.py",
+        "twse_history/build_history.py",
+        "twse_history/fetch_history.py",
+        "configs/tpex_event_rules_protocol.json",
+        "tpex_long_event_comparison.py",
+        "tpex_event_features.py",
+        "tpex_proxy_features.py",
+        "tpex_rule_comparison.py",
+        "tpex_pool.py",
+        "configs/tpex_pool_policy.json",
+        "configs/tpex_proxy_protocol.json"
+      ],
+      "outputs": [
+        "inputs/prospective/20261015/selection_manifest.json"
+      ],
+      "timeout_seconds": 300
+    }
+  ]
+}

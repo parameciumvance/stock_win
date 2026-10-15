@@ -1,0 +1,29 @@
+{
+  "signal_date": "2026-10-15",
+  "price_start": "2026-06-01",
+  "price_end": "2026-10-15",
+  "market_days": 94,
+  "prior_market_days": 93,
+  "quote_rows": 95124,
+  "flow_dates": [
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14"
+  ],
+  "revenue_months": [
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "benchmark_rows": 94,
+  "benchmark_missing_dates": [],
+  "event_rows": 803,
+  "unknown_event_rows": 13,
+  "source_last_observed_at": "2026-10-15T13:44:56.880694+00:00",
+  "entry_at": "2026-10-16T09:00:00+08:00",
+  "archive_sha256": "966cb2a6f0c10e876dc6c510a9a0bc71119c07325d1e3f3c534be5b4cdaf492c",
+  "protocol_sha256": "d1ab6f2d7d9ae6f35a8993e76de39e94edcb00309eb7f6ef3fd7279c0c300603"
+}

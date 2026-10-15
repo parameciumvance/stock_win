@@ -1,0 +1,1018 @@
+[
+  {
+    "file": "benchmark_2026-06.json",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260601&stockNo=0050",
+    "request_started_at": "2026-10-15T13:41:38.387553+00:00",
+    "observed_at": "2026-10-15T13:41:38.574627+00:00",
+    "sha256": "8a1116eec7561544266735111b4cc20d3558eb3d7b4564528bc75ff0aefc3431",
+    "size_bytes": 2990
+  },
+  {
+    "file": "benchmark_2026-07.json",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260701&stockNo=0050",
+    "request_started_at": "2026-10-15T13:41:38.579239+00:00",
+    "observed_at": "2026-10-15T13:41:38.716889+00:00",
+    "sha256": "97006d0b71358317601fa9dfe646c34c0d6b2decc49e9afb82dfbd2aa932fc8d",
+    "size_bytes": 3071
+  },
+  {
+    "file": "benchmark_2026-08.json",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260801&stockNo=0050",
+    "request_started_at": "2026-10-15T13:41:38.722759+00:00",
+    "observed_at": "2026-10-15T13:41:38.855274+00:00",
+    "sha256": "4e176ace7a80a09e7f145e61cb6f81b59d0f4cc9146fa5cf0107fc02556357b1",
+    "size_bytes": 2962
+  },
+  {
+    "file": "benchmark_2026-09.json",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20260901&stockNo=0050",
+    "request_started_at": "2026-10-15T13:41:38.862732+00:00",
+    "observed_at": "2026-10-15T13:41:38.999906+00:00",
+    "sha256": "bf757d6c5bdc5b4b1d8f659e697aa482b025dde1d5aa8bb0e9947882c2212470",
+    "size_bytes": 2865
+  },
+  {
+    "file": "benchmark_2026-10.json",
+    "url": "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20261001&stockNo=0050",
+    "request_started_at": "2026-10-15T13:41:39.007129+00:00",
+    "observed_at": "2026-10-15T13:41:39.143487+00:00",
+    "sha256": "931110fbed7bcb25eb8e2c4f39a405266be716e5a4cb5dbafac29d025f20e81f",
+    "size_bytes": 1871
+  },
+  {
+    "file": "benchmark_event_exrights.json",
+    "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49U?startDate=20260101&endDate=20261015&response=json",
+    "request_started_at": "2026-10-15T13:41:48.773942+00:00",
+    "observed_at": "2026-10-15T13:41:49.038292+00:00",
+    "sha256": "4c298b1e8259802e9f78a87c59ce0dff074422444438898d628ee849eb592d50",
+    "size_bytes": 262534
+  },
+  {
+    "file": "benchmark_event_par_change.json",
+    "url": "https://www.twse.com.tw/rwd/zh/change/TWTB8U?startDate=20260101&endDate=20261015&response=json",
+    "request_started_at": "2026-10-15T13:41:49.045021+00:00",
+    "observed_at": "2026-10-15T13:41:49.196113+00:00",
+    "sha256": "d37142b8e2457845dc051c651d2726171465c64d2e741e4694052b5d103766bb",
+    "size_bytes": 688
+  },
+  {
+    "file": "benchmark_event_reduction.json",
+    "url": "https://www.twse.com.tw/rwd/zh/reducation/TWTAUU?startDate=20260101&endDate=20261015&response=json",
+    "request_started_at": "2026-10-15T13:41:48.807762+00:00",
+    "observed_at": "2026-10-15T13:41:49.125369+00:00",
+    "sha256": "0a7b4e46cf403dc397fc1b375f6c50248de2df6d970bbf5eea1c6231baa4cbfb",
+    "size_bytes": 2522
+  },
+  {
+    "file": "benchmark_event_split.json",
+    "url": "https://www.twse.com.tw/rwd/zh/split/TWTCAU?startDate=20260101&endDate=20261015&response=json",
+    "request_started_at": "2026-10-15T13:41:49.132003+00:00",
+    "observed_at": "2026-10-15T13:41:49.275837+00:00",
+    "sha256": "9ef60651ec22cbedb49814c977564de1ce8d033968d893cf559d9760180820de",
+    "size_bytes": 939
+  },
+  {
+    "file": "calendar_2026-06.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/indexInfo/inx?date=2026/06/01&response=json",
+    "request_started_at": "2026-10-15T13:41:05.830609+00:00",
+    "observed_at": "2026-10-15T13:41:06.929248+00:00",
+    "sha256": "87b4370423257e009587bc750c655a1cc0d48692a0194e9722b8b4823bf7f092",
+    "size_bytes": 1444
+  },
+  {
+    "file": "calendar_2026-07.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/indexInfo/inx?date=2026/07/01&response=json",
+    "request_started_at": "2026-10-15T13:41:05.830509+00:00",
+    "observed_at": "2026-10-15T13:41:06.929711+00:00",
+    "sha256": "3e4d47ada9f1c8eb63979e3cfc2219d296180f3e570c419b31301dbf5fabbd36",
+    "size_bytes": 1506
+  },
+  {
+    "file": "calendar_2026-08.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/indexInfo/inx?date=2026/08/01&response=json",
+    "request_started_at": "2026-10-15T13:41:06.936471+00:00",
+    "observed_at": "2026-10-15T13:41:08.188044+00:00",
+    "sha256": "eea6ad178456af3cdf843be0075c3becc38827f754dc8a22881a31e4faef81d8",
+    "size_bytes": 1438
+  },
+  {
+    "file": "calendar_2026-09.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/indexInfo/inx?date=2026/09/01&response=json",
+    "request_started_at": "2026-10-15T13:41:06.937195+00:00",
+    "observed_at": "2026-10-15T13:41:08.187633+00:00",
+    "sha256": "832c6acf0421dba84c12ff5e8ebe9642d428ba70ab1cad240ffe3dc1f3ba5d39",
+    "size_bytes": 1384
+  },
+  {
+    "file": "calendar_2026-10.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/indexInfo/inx?date=2026/10/01&response=json",
+    "request_started_at": "2026-10-15T13:41:08.199251+00:00",
+    "observed_at": "2026-10-15T13:41:09.144224+00:00",
+    "sha256": "a06884ad1c34a754122daa86fdb892f2e3a729ed3efffe6daa2137b517b40699",
+    "size_bytes": 796
+  },
+  {
+    "file": "event_change.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/bulletin/pvChgRslt?startDate=2026/01/01&endDate=2026/10/15&response=json",
+    "request_started_at": "2026-10-15T13:41:48.605605+00:00",
+    "observed_at": "2026-10-15T13:41:48.801598+00:00",
+    "sha256": "1d1adb5fe8e90399af948b8deb8e7d5d51e9d872512857b2dc131b4d7b9ec3c8",
+    "size_bytes": 3051
+  },
+  {
+    "file": "event_excal.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/bulletin/exDailyQ?startDate=2026/01/01&endDate=2026/10/15&response=json",
+    "request_started_at": "2026-10-15T13:41:47.555578+00:00",
+    "observed_at": "2026-10-15T13:41:48.216958+00:00",
+    "sha256": "13c97047b2512eafd4ebd73545a83135cfbd03e36d017c25ccf78e03a9abf852",
+    "size_bytes": 237778
+  },
+  {
+    "file": "event_reduction.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/bulletin/revivt?startDate=2026/01/01&endDate=2026/10/15&response=json",
+    "request_started_at": "2026-10-15T13:41:48.223329+00:00",
+    "observed_at": "2026-10-15T13:41:48.766414+00:00",
+    "sha256": "f3d16e344824dee5e57c2af75dc7fe957367fbc989df8f0e6cccda6e3621714d",
+    "size_bytes": 10384
+  },
+  {
+    "file": "flow_2026-10-07.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026/10/07&type=Daily&response=json",
+    "request_started_at": "2026-10-15T13:41:36.445071+00:00",
+    "observed_at": "2026-10-15T13:41:37.409516+00:00",
+    "sha256": "2c8936ac23533b5958e522e9a7f773aebb6cd105cabc754ef5f3b4dce34dc44b",
+    "size_bytes": 144861
+  },
+  {
+    "file": "flow_2026-10-08.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026/10/08&type=Daily&response=json",
+    "request_started_at": "2026-10-15T13:41:36.745588+00:00",
+    "observed_at": "2026-10-15T13:41:37.572726+00:00",
+    "sha256": "4aa11bb83820f1ae4523837b3fe95283a1d1b9aa47febd9ab6e11e82c60fdb29",
+    "size_bytes": 143385
+  },
+  {
+    "file": "flow_2026-10-12.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026/10/12&type=Daily&response=json",
+    "request_started_at": "2026-10-15T13:41:37.421773+00:00",
+    "observed_at": "2026-10-15T13:41:38.251253+00:00",
+    "sha256": "05bc2696cd46c913d30d986feddde6bbc61952de7c6910d00dd4eb89fdf40a61",
+    "size_bytes": 146768
+  },
+  {
+    "file": "flow_2026-10-13.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026/10/13&type=Daily&response=json",
+    "request_started_at": "2026-10-15T13:41:37.580623+00:00",
+    "observed_at": "2026-10-15T13:41:38.383984+00:00",
+    "sha256": "44678b8116f8fe040bf075c38cc6e13231a0e58bbd77664595fd3345f732303f",
+    "size_bytes": 145971
+  },
+  {
+    "file": "flow_2026-10-14.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/insti/dailyTrade?date=2026/10/14&type=Daily&response=json",
+    "request_started_at": "2026-10-15T13:41:38.258239+00:00",
+    "observed_at": "2026-10-15T13:41:39.043822+00:00",
+    "sha256": "7069d20e119941148d73dee43c03b0d4e8c70ada895c0c07809926c9edaf5297",
+    "size_bytes": 143590
+  },
+  {
+    "file": "holiday_2026.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/bulletin/tradingDate?date=2026&response=json",
+    "request_started_at": "2026-10-15T13:44:56.697335+00:00",
+    "observed_at": "2026-10-15T13:44:56.880694+00:00",
+    "sha256": "c5cea6bd3a10bc7cd3e577d9ad78e600ae7d64508a1bc9b09be32fb396d0dc41",
+    "size_bytes": 8792
+  },
+  {
+    "file": "isin_listed.html",
+    "url": "https://isin.twse.com.tw/isin/C_public.jsp?strMode=2",
+    "request_started_at": "2026-10-15T13:42:29.254056+00:00",
+    "observed_at": "2026-10-15T13:43:13.518754+00:00",
+    "sha256": "c5a0c30b88a30fd07da8f5e66943e59f126fd2aee0849625f7068d1af2227762",
+    "size_bytes": 9321609
+  },
+  {
+    "file": "isin_otc.html",
+    "url": "https://isin.twse.com.tw/isin/C_public.jsp?strMode=4",
+    "request_started_at": "2026-10-15T13:41:49.202162+00:00",
+    "observed_at": "2026-10-15T13:42:10.597311+00:00",
+    "sha256": "529a188bfd993b6d47e357fd9e416cb80318be256bf8e1c4b27eabdfbd28b060",
+    "size_bytes": 3099635
+  },
+  {
+    "file": "quote_2026-06-01.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/01&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:09.150767+00:00",
+    "observed_at": "2026-10-15T13:41:12.100718+00:00",
+    "sha256": "dda473aa38353978ae8f6b10dc6eebb41ebda1a896aef1ba79559ee8c60bcfc9",
+    "size_bytes": 147825
+  },
+  {
+    "file": "quote_2026-06-02.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/02&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:09.151515+00:00",
+    "observed_at": "2026-10-15T13:41:12.411379+00:00",
+    "sha256": "cb2006071279406a500bd6afb5c37900fa16aedddd6fa5cfc1298e1eadddf078",
+    "size_bytes": 147599
+  },
+  {
+    "file": "quote_2026-06-03.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/03&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:12.110126+00:00",
+    "observed_at": "2026-10-15T13:41:14.755924+00:00",
+    "sha256": "970f628f6b8a8b7af446d4181a9fb757b21985857752eb2521ba96c682843bab",
+    "size_bytes": 147935
+  },
+  {
+    "file": "quote_2026-06-04.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/04&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:12.424180+00:00",
+    "observed_at": "2026-10-15T13:41:15.711434+00:00",
+    "sha256": "904608344cfa86b8d98065302fd0917d86afb786457562614afe1a17f0aea5ff",
+    "size_bytes": 147373
+  },
+  {
+    "file": "quote_2026-06-05.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/05&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:14.769019+00:00",
+    "observed_at": "2026-10-15T13:41:17.602299+00:00",
+    "sha256": "e4d7951374a502c987b321ae8a3126a02e1020d6b4beaab9d422e5a18b977c39",
+    "size_bytes": 147496
+  },
+  {
+    "file": "quote_2026-06-08.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/08&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:15.720002+00:00",
+    "observed_at": "2026-10-15T13:41:18.517943+00:00",
+    "sha256": "fa11bc28d0d842381f7c47eef59a5851c3aec15b85414310c001eb3804777032",
+    "size_bytes": 147206
+  },
+  {
+    "file": "quote_2026-06-09.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/09&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:17.611508+00:00",
+    "observed_at": "2026-10-15T13:41:18.050899+00:00",
+    "sha256": "0e3e53253f3f193558f34f463fec3a9057a8de25b0fdfe1fef7de39f00ee9ba1",
+    "size_bytes": 147053
+  },
+  {
+    "file": "quote_2026-06-10.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/10&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:18.063109+00:00",
+    "observed_at": "2026-10-15T13:41:18.356301+00:00",
+    "sha256": "69df96c033989d498341e25d1f9fed475c611051cf964dbdefb76e55d9750e9d",
+    "size_bytes": 147463
+  },
+  {
+    "file": "quote_2026-06-11.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/11&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:18.363219+00:00",
+    "observed_at": "2026-10-15T13:41:18.696322+00:00",
+    "sha256": "d6e81059e0b9ead2eddd18815d9db858069bcf247b584161c602573921746084",
+    "size_bytes": 146867
+  },
+  {
+    "file": "quote_2026-06-12.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/12&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:18.521406+00:00",
+    "observed_at": "2026-10-15T13:41:18.874369+00:00",
+    "sha256": "293065e352465ab026658d6c9abf5d13702233d64846842098022509337f4881",
+    "size_bytes": 146763
+  },
+  {
+    "file": "quote_2026-06-15.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/15&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:18.702013+00:00",
+    "observed_at": "2026-10-15T13:41:19.024062+00:00",
+    "sha256": "d8be218280860cf164500f256eff56f45c524b946bbc33cfb2d047cfce357f69",
+    "size_bytes": 147070
+  },
+  {
+    "file": "quote_2026-06-16.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/16&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:18.881117+00:00",
+    "observed_at": "2026-10-15T13:41:19.432324+00:00",
+    "sha256": "1b18b29eabbaa01cdb447c2dd9df6fd3341a0fd8fcb94c411ef10b822b19680f",
+    "size_bytes": 146988
+  },
+  {
+    "file": "quote_2026-06-17.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/17&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:19.030918+00:00",
+    "observed_at": "2026-10-15T13:41:20.098526+00:00",
+    "sha256": "5ecdf4a7230bb610a4da81e93262926b6baea65573e0c7205979a1b53802ad0b",
+    "size_bytes": 146755
+  },
+  {
+    "file": "quote_2026-06-18.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/18&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:19.437315+00:00",
+    "observed_at": "2026-10-15T13:41:19.746567+00:00",
+    "sha256": "4c0138b1e8042e111587fa0228ec3bfd9326f14aeb9fd2b0277d5ae5b21ebe93",
+    "size_bytes": 147375
+  },
+  {
+    "file": "quote_2026-06-22.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/22&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:19.752780+00:00",
+    "observed_at": "2026-10-15T13:41:20.086784+00:00",
+    "sha256": "948594604dcff6f23f4178be9da23ad90c9499e63ddb72a189b279e335c97798",
+    "size_bytes": 147832
+  },
+  {
+    "file": "quote_2026-06-23.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/23&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:20.095010+00:00",
+    "observed_at": "2026-10-15T13:41:20.556234+00:00",
+    "sha256": "6287c9cd4fef41dd23e1218f949f1203c8c60f60b8f3e4e9ab038811ba1bc326",
+    "size_bytes": 147320
+  },
+  {
+    "file": "quote_2026-06-24.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/24&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:20.103964+00:00",
+    "observed_at": "2026-10-15T13:41:20.539099+00:00",
+    "sha256": "40fdc97fc0e11bd9089cfd6f78385f8a5015c3641a67a4a3a02c7d826c484c08",
+    "size_bytes": 146835
+  },
+  {
+    "file": "quote_2026-06-25.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/25&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:20.548544+00:00",
+    "observed_at": "2026-10-15T13:41:21.215336+00:00",
+    "sha256": "91c7639dfe9328446f7c288bed02e93d589dd694b514cab651a7257db36a068d",
+    "size_bytes": 147252
+  },
+  {
+    "file": "quote_2026-06-26.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/26&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:20.565317+00:00",
+    "observed_at": "2026-10-15T13:41:21.116676+00:00",
+    "sha256": "d7fa8d8ff2671ef66593d26c5c83668693c8028900df488d54e07dc6aad86d1e",
+    "size_bytes": 147541
+  },
+  {
+    "file": "quote_2026-06-29.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/29&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:21.122854+00:00",
+    "observed_at": "2026-10-15T13:41:21.868175+00:00",
+    "sha256": "ac825b6fa0b4a198e8875e6f9750f3c99715c60592502e6664de379974364a68",
+    "size_bytes": 146666
+  },
+  {
+    "file": "quote_2026-06-30.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/06/30&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:21.222580+00:00",
+    "observed_at": "2026-10-15T13:41:22.052316+00:00",
+    "sha256": "41425b371a267801fdba0ccdc23b024387fa485063c0b24ce5c017a1214e0f1a",
+    "size_bytes": 147020
+  },
+  {
+    "file": "quote_2026-07-01.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/01&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:21.874543+00:00",
+    "observed_at": "2026-10-15T13:41:22.417033+00:00",
+    "sha256": "3086951db862884c7a4dd56136afee761aae7c4054e91cccaa7c449cb824a5bf",
+    "size_bytes": 147274
+  },
+  {
+    "file": "quote_2026-07-02.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/02&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:22.058269+00:00",
+    "observed_at": "2026-10-15T13:41:22.486464+00:00",
+    "sha256": "19accdbb88361a195fb390ce38fb96ca19242bf01bfa89449752b35d0e1af863",
+    "size_bytes": 146940
+  },
+  {
+    "file": "quote_2026-07-03.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/03&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:22.420657+00:00",
+    "observed_at": "2026-10-15T13:41:22.700971+00:00",
+    "sha256": "e44b8969dfd9439e718809714cec0ac68bc04a6fd8f9a897fd39980aaca01d34",
+    "size_bytes": 147553
+  },
+  {
+    "file": "quote_2026-07-06.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/06&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:22.493696+00:00",
+    "observed_at": "2026-10-15T13:41:22.791582+00:00",
+    "sha256": "d1aaa57597bafd57b831194b379a683c5a4561e718f42ff670a0ddddf56318f3",
+    "size_bytes": 147614
+  },
+  {
+    "file": "quote_2026-07-07.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/07&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:22.706985+00:00",
+    "observed_at": "2026-10-15T13:41:23.088838+00:00",
+    "sha256": "6c91531a8fbc0d8f1aca054dcd1397ca00afdbbda04c1ac5ea8a8c4fbc3c34ef",
+    "size_bytes": 147519
+  },
+  {
+    "file": "quote_2026-07-08.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/08&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:22.799074+00:00",
+    "observed_at": "2026-10-15T13:41:23.195177+00:00",
+    "sha256": "f2f0aa92d29086fb62070e80e870b99b77e5ea9fa1e42dacb835ab567d292920",
+    "size_bytes": 146868
+  },
+  {
+    "file": "quote_2026-07-09.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/09&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:23.096433+00:00",
+    "observed_at": "2026-10-15T13:41:23.502739+00:00",
+    "sha256": "dd2c4d9e8fb63d2b061117a4564e463f9a91b58f5dad9adb81467aece61cb509",
+    "size_bytes": 146881
+  },
+  {
+    "file": "quote_2026-07-13.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/13&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:23.200390+00:00",
+    "observed_at": "2026-10-15T13:41:23.604885+00:00",
+    "sha256": "772298d6697d8f292ef8c0be6bb0c3b25d04078e5ae566164f850515146d0e72",
+    "size_bytes": 147283
+  },
+  {
+    "file": "quote_2026-07-14.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/14&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:23.511678+00:00",
+    "observed_at": "2026-10-15T13:41:24.989978+00:00",
+    "sha256": "f4d8aa89647be38dd22e95d0fe9855d8dcd1858dae012d92ce0d245674c96a92",
+    "size_bytes": 147318
+  },
+  {
+    "file": "quote_2026-07-15.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/15&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:23.612978+00:00",
+    "observed_at": "2026-10-15T13:41:24.122848+00:00",
+    "sha256": "dc4548722fe2fe1ae07b042c8df750b4d4b34b37a001b18187507c425cca7ba3",
+    "size_bytes": 146595
+  },
+  {
+    "file": "quote_2026-07-16.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/16&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:24.129176+00:00",
+    "observed_at": "2026-10-15T13:41:24.669737+00:00",
+    "sha256": "84f98dac2cc270bc1ec7a2682ecdb5ceb401d4b269858a4c8ca9882a345ccb32",
+    "size_bytes": 146465
+  },
+  {
+    "file": "quote_2026-07-17.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/17&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:24.673178+00:00",
+    "observed_at": "2026-10-15T13:41:25.140084+00:00",
+    "sha256": "94e4c836fcd21e676613d6a41f2769066ba209d0fff31bd6ba31b23a05b21e5c",
+    "size_bytes": 147340
+  },
+  {
+    "file": "quote_2026-07-20.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/20&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:24.998829+00:00",
+    "observed_at": "2026-10-15T13:41:25.530175+00:00",
+    "sha256": "9bbdd521a0f9fe0d57ad2af99849223a179719c5c7175eb4df3907e07b51db37",
+    "size_bytes": 146573
+  },
+  {
+    "file": "quote_2026-07-21.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/21&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:25.145487+00:00",
+    "observed_at": "2026-10-15T13:41:25.556043+00:00",
+    "sha256": "56ca349b19a108e189264eb45a3c24886d4eb822f805ed09a400cbfb51b7fbcd",
+    "size_bytes": 146182
+  },
+  {
+    "file": "quote_2026-07-22.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/22&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:25.536981+00:00",
+    "observed_at": "2026-10-15T13:41:25.920774+00:00",
+    "sha256": "17fc4b3d53f1b5bc1ab4fd9713c0b01bdd9b18fe0b3d32777f9c43b7b8142979",
+    "size_bytes": 146326
+  },
+  {
+    "file": "quote_2026-07-23.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/23&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:25.561543+00:00",
+    "observed_at": "2026-10-15T13:41:26.034732+00:00",
+    "sha256": "d9d47cd18e1f3f606f0af8648658292a9966a79f8ffa25eb1c82195ecc7b3845",
+    "size_bytes": 145922
+  },
+  {
+    "file": "quote_2026-07-24.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/24&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:25.930761+00:00",
+    "observed_at": "2026-10-15T13:41:26.379184+00:00",
+    "sha256": "115be31858d31de53ded4cc82628d53928f583341c74e7c51f6ed861ca6c1008",
+    "size_bytes": 145913
+  },
+  {
+    "file": "quote_2026-07-27.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/27&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:26.040102+00:00",
+    "observed_at": "2026-10-15T13:41:26.400562+00:00",
+    "sha256": "757d14ef40a3f42f44cd7ffaee7be782cc367b7e2cf76fc6c7bb684bf362a1ba",
+    "size_bytes": 145537
+  },
+  {
+    "file": "quote_2026-07-28.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/28&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:26.384895+00:00",
+    "observed_at": "2026-10-15T13:41:26.790315+00:00",
+    "sha256": "cc300d980d8f315ef7c6afd34b9184386662037168c9965f736a1f8f15ed1938",
+    "size_bytes": 146379
+  },
+  {
+    "file": "quote_2026-07-29.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/29&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:26.405525+00:00",
+    "observed_at": "2026-10-15T13:41:26.758671+00:00",
+    "sha256": "4f8d6e440ca6be1da025ff07c410169248df6000dd742911dd3b4bd5bd60517f",
+    "size_bytes": 147078
+  },
+  {
+    "file": "quote_2026-07-30.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/30&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:26.762371+00:00",
+    "observed_at": "2026-10-15T13:41:27.093931+00:00",
+    "sha256": "c212cd1af6c40e4a8ebf4a5110f0703beae730972be2bd752ab5925f0d04d79c",
+    "size_bytes": 145837
+  },
+  {
+    "file": "quote_2026-07-31.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/07/31&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:26.795124+00:00",
+    "observed_at": "2026-10-15T13:41:27.145912+00:00",
+    "sha256": "daeebd6de7692d5f09c35c2517eee5c4fbc9dcdfa334a779328776f06a15f438",
+    "size_bytes": 145830
+  },
+  {
+    "file": "quote_2026-08-03.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/03&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:27.100191+00:00",
+    "observed_at": "2026-10-15T13:41:27.486332+00:00",
+    "sha256": "95bc57304a5d3572e9f19378558c8f0f9fe1d09171facc3b213291a7314ec692",
+    "size_bytes": 145499
+  },
+  {
+    "file": "quote_2026-08-04.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/04&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:27.150619+00:00",
+    "observed_at": "2026-10-15T13:41:27.508974+00:00",
+    "sha256": "049c4a4d7a20da74c628e27fdf50a74c2c80c45f7aaa3e7cf97a773e9e0ec0d1",
+    "size_bytes": 145414
+  },
+  {
+    "file": "quote_2026-08-05.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/05&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:27.492943+00:00",
+    "observed_at": "2026-10-15T13:41:27.879317+00:00",
+    "sha256": "babc51d0348cb9f50cf9409d89e199139811e4895f8f6e144cc62fe42eaa0719",
+    "size_bytes": 146173
+  },
+  {
+    "file": "quote_2026-08-06.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/06&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:27.513545+00:00",
+    "observed_at": "2026-10-15T13:41:27.880770+00:00",
+    "sha256": "ff99cb88c8e92aca7b7de72f65ac97c3dd1e4f1b1db66cc9611e53d7c0e8c6d6",
+    "size_bytes": 145785
+  },
+  {
+    "file": "quote_2026-08-07.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/07&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:27.886489+00:00",
+    "observed_at": "2026-10-15T13:41:28.289629+00:00",
+    "sha256": "b8400596776976212a8f9aab1de841d3af49d52e61cbc1f49d760cd5d82eca81",
+    "size_bytes": 145825
+  },
+  {
+    "file": "quote_2026-08-10.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/10&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:27.888028+00:00",
+    "observed_at": "2026-10-15T13:41:28.254636+00:00",
+    "sha256": "51792d83ee5410e3e800690997b98670501a5398acf0190a608a1a20c70ef43a",
+    "size_bytes": 146540
+  },
+  {
+    "file": "quote_2026-08-11.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/11&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:28.260458+00:00",
+    "observed_at": "2026-10-15T13:41:28.682699+00:00",
+    "sha256": "a19f4349138f54141c7e02712a4e82e140648d38ab726a80d2317cd7f3d89289",
+    "size_bytes": 146302
+  },
+  {
+    "file": "quote_2026-08-12.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/12&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:28.301927+00:00",
+    "observed_at": "2026-10-15T13:41:28.673624+00:00",
+    "sha256": "50b3c172f3d0b29b807f9574846c3f15b926d1ea04aa2f9f742487f7c7bb8c62",
+    "size_bytes": 146323
+  },
+  {
+    "file": "quote_2026-08-13.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/13&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:28.687337+00:00",
+    "observed_at": "2026-10-15T13:41:29.060165+00:00",
+    "sha256": "561c6b0a58b192420d8b94cce2a38006c6748b6315a4e57bbd8f3bce7d50162d",
+    "size_bytes": 146572
+  },
+  {
+    "file": "quote_2026-08-14.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/14&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:28.694573+00:00",
+    "observed_at": "2026-10-15T13:41:29.092329+00:00",
+    "sha256": "0683c4c7c8a7a7fa57778b1e9e6c1649c00a55ab567653577650dea7bb5ba196",
+    "size_bytes": 146420
+  },
+  {
+    "file": "quote_2026-08-17.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/17&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:29.071007+00:00",
+    "observed_at": "2026-10-15T13:41:29.378947+00:00",
+    "sha256": "205d4c8b53636f33d317e7757b819f49c75d465bb06d17f60592d55f17ad68c1",
+    "size_bytes": 146180
+  },
+  {
+    "file": "quote_2026-08-18.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/18&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:29.101259+00:00",
+    "observed_at": "2026-10-15T13:41:29.454780+00:00",
+    "sha256": "4037715879ae9afa2441a2ddae6ff1cab444e09e945ccb3b5ab0c6e59cefadde",
+    "size_bytes": 146008
+  },
+  {
+    "file": "quote_2026-08-19.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/19&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:29.384837+00:00",
+    "observed_at": "2026-10-15T13:41:29.682125+00:00",
+    "sha256": "f0ff4f061a4c81d9e6d63666dbd4a4e67698ff1fc1d5d9141d7b241e1ee79925",
+    "size_bytes": 145542
+  },
+  {
+    "file": "quote_2026-08-20.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/20&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:29.459716+00:00",
+    "observed_at": "2026-10-15T13:41:29.768827+00:00",
+    "sha256": "bb53d130b1a4d7118db0002ba8aceda3f60d7c5d4e8259abe40f5d50a269c87f",
+    "size_bytes": 145592
+  },
+  {
+    "file": "quote_2026-08-21.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/21&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:29.688762+00:00",
+    "observed_at": "2026-10-15T13:41:30.078649+00:00",
+    "sha256": "1493c6ae64569d75faba8e07b19a69f11456581cb4bbf2bc19ebcec52af7b55e",
+    "size_bytes": 145677
+  },
+  {
+    "file": "quote_2026-08-24.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/24&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:29.773749+00:00",
+    "observed_at": "2026-10-15T13:41:30.222571+00:00",
+    "sha256": "a45aea6bf171f23256b8c8d7e9f700e310411c38ea3d9ce415592092f80135f1",
+    "size_bytes": 145354
+  },
+  {
+    "file": "quote_2026-08-25.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/25&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:30.084331+00:00",
+    "observed_at": "2026-10-15T13:41:30.436291+00:00",
+    "sha256": "258e3e1269ee78f110b51846a82cb77e27bdfe6aafe16a408ba197f2e538255f",
+    "size_bytes": 145341
+  },
+  {
+    "file": "quote_2026-08-26.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/26&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:30.230938+00:00",
+    "observed_at": "2026-10-15T13:41:30.605569+00:00",
+    "sha256": "ddc7deaedf8e7ac11417189667da269583b63b7f44eb1c35610dc8fa0bfffd9d",
+    "size_bytes": 146256
+  },
+  {
+    "file": "quote_2026-08-27.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/27&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:30.444107+00:00",
+    "observed_at": "2026-10-15T13:41:31.199227+00:00",
+    "sha256": "4d8e329b14af43e7452894543ca215ab68dba4b1a0308fbf3948e3c8775355e8",
+    "size_bytes": 146303
+  },
+  {
+    "file": "quote_2026-08-28.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/28&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:30.611117+00:00",
+    "observed_at": "2026-10-15T13:41:30.975179+00:00",
+    "sha256": "f89ae7834c1f374e28253870597c5e3b35c240e3d1a1c0113d58f16a9fafe279",
+    "size_bytes": 146586
+  },
+  {
+    "file": "quote_2026-08-31.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/08/31&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:30.987711+00:00",
+    "observed_at": "2026-10-15T13:41:31.311378+00:00",
+    "sha256": "d1f3937735996f4da94c479f445e0415edffb5217d0645ab5ad2eb2902e50148",
+    "size_bytes": 146094
+  },
+  {
+    "file": "quote_2026-09-01.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/01&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:31.205517+00:00",
+    "observed_at": "2026-10-15T13:41:31.563305+00:00",
+    "sha256": "5117775bf3e30892170d614a5091b1503d4d6728f8edc2a166ac4ed8a2b1b7f7",
+    "size_bytes": 146329
+  },
+  {
+    "file": "quote_2026-09-02.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/02&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:31.318379+00:00",
+    "observed_at": "2026-10-15T13:41:31.656245+00:00",
+    "sha256": "7f5ae8e97eff54461bbcf0b0b7c4d48785a3a91887b1f6d129d60bf4630dd3ec",
+    "size_bytes": 145873
+  },
+  {
+    "file": "quote_2026-09-03.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/03&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:31.567005+00:00",
+    "observed_at": "2026-10-15T13:41:31.860524+00:00",
+    "sha256": "034a9d13fdc69032ecf2d41b7df2646bc293fda1c590ad37c20439957e66ecf3",
+    "size_bytes": 146231
+  },
+  {
+    "file": "quote_2026-09-04.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/04&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:31.660561+00:00",
+    "observed_at": "2026-10-15T13:41:31.975374+00:00",
+    "sha256": "1a050c8b20980ec2fef25405705dea40af21cdc4066d0716f6d16f8b9eea2075",
+    "size_bytes": 145991
+  },
+  {
+    "file": "quote_2026-09-07.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/07&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:31.866373+00:00",
+    "observed_at": "2026-10-15T13:41:32.170073+00:00",
+    "sha256": "55ba08961e8ba11f0e2c070c302b662ad59ae8cce15075b3d11ae5fe07324b30",
+    "size_bytes": 146402
+  },
+  {
+    "file": "quote_2026-09-08.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/08&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:31.981443+00:00",
+    "observed_at": "2026-10-15T13:41:32.304010+00:00",
+    "sha256": "781ca65a9ccbdfb084c483639ca6c36b2d5f8f8e395f81f4d5df777bb6c7b48d",
+    "size_bytes": 146172
+  },
+  {
+    "file": "quote_2026-09-09.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/09&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:32.176544+00:00",
+    "observed_at": "2026-10-15T13:41:32.479941+00:00",
+    "sha256": "9750a2606046de472c5115b5fb5e501db0e148a6c47ac6c470113b3f56d076d2",
+    "size_bytes": 146230
+  },
+  {
+    "file": "quote_2026-09-10.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/10&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:32.311505+00:00",
+    "observed_at": "2026-10-15T13:41:32.662880+00:00",
+    "sha256": "980fa0c92b98819877642f1810fb4d04cf1b25cbdededb5449521f55c16140ef",
+    "size_bytes": 145743
+  },
+  {
+    "file": "quote_2026-09-11.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/11&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:32.483912+00:00",
+    "observed_at": "2026-10-15T13:41:32.810983+00:00",
+    "sha256": "d043651f603b16a11188cbf3dbd1eade29a461a6eb8cda3d232c7e5159907bdc",
+    "size_bytes": 145941
+  },
+  {
+    "file": "quote_2026-09-14.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/14&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:32.667614+00:00",
+    "observed_at": "2026-10-15T13:41:33.024654+00:00",
+    "sha256": "d0f58acbe81f1652c99f915e2534d45ffbbd850509154d287012b0aa85033cc3",
+    "size_bytes": 145713
+  },
+  {
+    "file": "quote_2026-09-15.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/15&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:32.816561+00:00",
+    "observed_at": "2026-10-15T13:41:33.120404+00:00",
+    "sha256": "6bd9e2169ffe45ee87edf4d22625d4593770207ebecc112cdc9fb0b0ea659f9d",
+    "size_bytes": 145816
+  },
+  {
+    "file": "quote_2026-09-16.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/16&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:33.028761+00:00",
+    "observed_at": "2026-10-15T13:41:33.342603+00:00",
+    "sha256": "86c97cb88569309c79a8b6e98037b3c7da9e24069119288a3228018632335b33",
+    "size_bytes": 145963
+  },
+  {
+    "file": "quote_2026-09-17.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/17&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:33.126088+00:00",
+    "observed_at": "2026-10-15T13:41:33.496647+00:00",
+    "sha256": "63be241cd5de8b539a31b4f8653dbb252e07d3ce142766dadf761fbfd2e0096f",
+    "size_bytes": 146161
+  },
+  {
+    "file": "quote_2026-09-18.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/18&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:33.352193+00:00",
+    "observed_at": "2026-10-15T13:41:33.738332+00:00",
+    "sha256": "2eae9b5185bfde35ddb63ed6ed4d331f3a97a195229394a693db54ddc9739e62",
+    "size_bytes": 146419
+  },
+  {
+    "file": "quote_2026-09-21.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/21&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:33.500614+00:00",
+    "observed_at": "2026-10-15T13:41:33.840708+00:00",
+    "sha256": "fbc76bb1984392223617a102a1fbc0364f7eee43d5e07cf2c618832b88b60178",
+    "size_bytes": 146834
+  },
+  {
+    "file": "quote_2026-09-22.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/22&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:33.747118+00:00",
+    "observed_at": "2026-10-15T13:41:34.070304+00:00",
+    "sha256": "1a5abeb41332c5e92ea42ea4919edef5f6360fca26856e98c59bcdae758371f3",
+    "size_bytes": 147100
+  },
+  {
+    "file": "quote_2026-09-23.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/23&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:33.845958+00:00",
+    "observed_at": "2026-10-15T13:41:34.129531+00:00",
+    "sha256": "b8ae6d5b8f628bc8b48eebb17da5a46405597104ddfcfa1d8bbd39429d054ac6",
+    "size_bytes": 146466
+  },
+  {
+    "file": "quote_2026-09-24.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/24&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:34.076952+00:00",
+    "observed_at": "2026-10-15T13:41:34.498999+00:00",
+    "sha256": "3940409c1a12d2a5ce907f1de550e890ae9023d15303ec021592a2fd7f9511a1",
+    "size_bytes": 146341
+  },
+  {
+    "file": "quote_2026-09-29.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/29&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:34.134284+00:00",
+    "observed_at": "2026-10-15T13:41:34.488184+00:00",
+    "sha256": "17975275325a4f61f11c452cee426e4333970bd76bb87c406a6849f127fa55e9",
+    "size_bytes": 146545
+  },
+  {
+    "file": "quote_2026-09-30.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/09/30&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:34.496165+00:00",
+    "observed_at": "2026-10-15T13:41:34.900392+00:00",
+    "sha256": "ee80854bd773c12237953e3a700fc762b4b88c52de09f9ffa6027ee67a16a311",
+    "size_bytes": 146680
+  },
+  {
+    "file": "quote_2026-10-01.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/01&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:34.503345+00:00",
+    "observed_at": "2026-10-15T13:41:34.875217+00:00",
+    "sha256": "1412cb4ad9229bd9e5cd436a3d42c74308d959d8e07fb26de27e8e9a208bf014",
+    "size_bytes": 146297
+  },
+  {
+    "file": "quote_2026-10-02.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/02&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:34.882410+00:00",
+    "observed_at": "2026-10-15T13:41:35.202709+00:00",
+    "sha256": "66f4f12ce4df816e36882a2a2ca7baf6325dee6a85f74c1e40d322dd49c49dc1",
+    "size_bytes": 146719
+  },
+  {
+    "file": "quote_2026-10-05.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/05&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:34.907235+00:00",
+    "observed_at": "2026-10-15T13:41:35.205097+00:00",
+    "sha256": "24413a4dde2bd6cf6cce54dc4902081b1d11b099ef57b49fdbd85de0bebb4f77",
+    "size_bytes": 146905
+  },
+  {
+    "file": "quote_2026-10-06.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/06&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:35.211618+00:00",
+    "observed_at": "2026-10-15T13:41:35.498229+00:00",
+    "sha256": "d4ed6191899ba2cccfae0b08b1bc9a9947d3496f31b1553fc94fae4c6d369ee4",
+    "size_bytes": 146663
+  },
+  {
+    "file": "quote_2026-10-07.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/07&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:35.212620+00:00",
+    "observed_at": "2026-10-15T13:41:35.531321+00:00",
+    "sha256": "f72080b620c8577cda65809b08c63a6715d6b30a369529957dc9cff809c045bd",
+    "size_bytes": 146438
+  },
+  {
+    "file": "quote_2026-10-08.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/08&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:35.511270+00:00",
+    "observed_at": "2026-10-15T13:41:35.919344+00:00",
+    "sha256": "6e5d6327693665bfaf4fa79de905a120bc0841c7914a99e2fd116e113f39ca25",
+    "size_bytes": 146264
+  },
+  {
+    "file": "quote_2026-10-12.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/12&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:35.540632+00:00",
+    "observed_at": "2026-10-15T13:41:35.881628+00:00",
+    "sha256": "b1b91e825838dbed168e7610a4e2bf09f1c2b8629171648007b799f40f19929e",
+    "size_bytes": 146679
+  },
+  {
+    "file": "quote_2026-10-13.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/13&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:35.885514+00:00",
+    "observed_at": "2026-10-15T13:41:36.298941+00:00",
+    "sha256": "849447a3570e4ade3f571a51113a048dd60dbee56669537a63227248ceda0863",
+    "size_bytes": 146621
+  },
+  {
+    "file": "quote_2026-10-14.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/14&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:35.924185+00:00",
+    "observed_at": "2026-10-15T13:41:36.437497+00:00",
+    "sha256": "9b2439e691582f8dfa24c9362602062daabbc11a1e858132c038a183ebc1d4a9",
+    "size_bytes": 146252
+  },
+  {
+    "file": "quote_2026-10-15.json",
+    "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?date=2026/10/15&type=EW&response=json",
+    "request_started_at": "2026-10-15T13:41:36.302471+00:00",
+    "observed_at": "2026-10-15T13:41:36.738989+00:00",
+    "sha256": "5f135b18ebd0629a81586abe1acf2496bca9653b84f36ea7e65c2829153ce09c",
+    "size_bytes": 146763
+  },
+  {
+    "file": "revenue_2026-06_0.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_6_0.html",
+    "request_started_at": "2026-10-15T13:41:39.048594+00:00",
+    "observed_at": "2026-10-15T13:41:41.257760+00:00",
+    "sha256": "430d5d86441e88dd15a2f8d3f3a9d3e6fc5035486d8124cb3f4960fff1abcd31",
+    "size_bytes": 394106
+  },
+  {
+    "file": "revenue_2026-06_1.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_6_1.html",
+    "request_started_at": "2026-10-15T13:41:39.147922+00:00",
+    "observed_at": "2026-10-15T13:41:39.431941+00:00",
+    "sha256": "fa7bfc5286b7688556c822e24a323727000e8ef9c154a64d57998997c82b4251",
+    "size_bytes": 45870
+  },
+  {
+    "file": "revenue_2026-07_0.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_7_0.html",
+    "request_started_at": "2026-10-15T13:41:39.437762+00:00",
+    "observed_at": "2026-10-15T13:41:42.447213+00:00",
+    "sha256": "16c3701efad8bc844383d3b910a4134059c39b8730d1844c5ee62208f8bfa526",
+    "size_bytes": 394568
+  },
+  {
+    "file": "revenue_2026-07_1.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_7_1.html",
+    "request_started_at": "2026-10-15T13:41:41.267178+00:00",
+    "observed_at": "2026-10-15T13:41:41.624424+00:00",
+    "sha256": "22ee136957a519b9d92152b9fe3f89df58cebde20ba272c13ba0d87bb07420f2",
+    "size_bytes": 45900
+  },
+  {
+    "file": "revenue_2026-08_0.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_8_0.html",
+    "request_started_at": "2026-10-15T13:41:41.629887+00:00",
+    "observed_at": "2026-10-15T13:41:47.113280+00:00",
+    "sha256": "b390abe2eec5988cc9b8a3bfaff36867a6fa9cdbf4669edcb632aca411d248d8",
+    "size_bytes": 395224
+  },
+  {
+    "file": "revenue_2026-08_1.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_8_1.html",
+    "request_started_at": "2026-10-15T13:41:42.453899+00:00",
+    "observed_at": "2026-10-15T13:41:42.762287+00:00",
+    "sha256": "0feb0d9119f694edb233baaebf21e68e10bd1eec9db8d9fd84bdafb72b14e815",
+    "size_bytes": 45962
+  },
+  {
+    "file": "revenue_2026-09_0.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_0.html",
+    "request_started_at": "2026-10-15T13:41:42.766569+00:00",
+    "observed_at": "2026-10-15T13:41:48.596825+00:00",
+    "sha256": "f1d1c1f2ec65e2cb9d9373587579972c3c7d3f68b33ce047e3d5c79572ddbd09",
+    "size_bytes": 394930
+  },
+  {
+    "file": "revenue_2026-09_1.html",
+    "url": "https://mopsov.twse.com.tw/nas/t21/otc/t21sc03_115_9_1.html",
+    "request_started_at": "2026-10-15T13:41:47.120612+00:00",
+    "observed_at": "2026-10-15T13:41:47.549650+00:00",
+    "sha256": "48ad3ee8b4ca212d5544dc5c6ac2e12e0c85a6a49724d6c4f2c380520aaf7ea9",
+    "size_bytes": 45897
+  }
+]

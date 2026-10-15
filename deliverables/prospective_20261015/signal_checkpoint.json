@@ -1,0 +1,12 @@
+{
+  "storage_kind": "local_persistent_copy",
+  "sha256": "a7bda9c8c2f3d340e8e17ef93a8d2bf10927d50791f0f604de533e3eeb2bd2ac",
+  "backup_path": "/home/vance/dev_home/projects/stock_win/inputs/prospective/backups/20261015/signal_bundle.zip",
+  "retrieved_path": "/home/vance/dev_home/projects/stock_win/inputs/prospective/20261015/signal_bundle.retrieved.zip",
+  "roundtrip_verified": true,
+  "manifest_files": 10,
+  "verified_at": "2026-10-15T13:52:43.628990+00:00",
+  "signal_record_sha256": "38886ceb20f483fea023f4a218ff696c463539244526ff79cf56ec7128d4a90c",
+  "selection_manifest_sha256": "64dd525896b1e61043594953146ed7a53cc4dc3e6a1d13a196b11a8c5b64f95e",
+  "limitation": "Same-filesystem backup; no off-host disaster recovery"
+}

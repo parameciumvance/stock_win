@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-10-15T13:50:21.314474+00:00",
+  "workspace": "/home/vance/dev_home/projects/stock_win",
+  "base_remote_main": "79e2d5ded3e65cb84bbe8ffae9caba4385cf1908",
+  "initial_worktree_clean": true,
+  "frozen_blobs_verified": {
+    "configs/tpex_event_rules_protocol.json": "8a61f522b6ccc471f3d6c4b85d6ebb4aa2b425a0",
+    "tpex_long_event_comparison.py": "9970a0eed83cf8ddb68e2377801a71df186b75c4",
+    "tpex_event_features.py": "c7abd5dfa2a03ebd22c208c982f9521e0c0799ee",
+    "tpex_proxy_features.py": "e0fa1065f4202acfbc754774b12d201a1a745f2d",
+    "tpex_rule_comparison.py": "f62949ddcbd2532abc69fc28e6434402f5873b40",
+    "tpex_pool.py": "8a5d59f93f014501e84b0c2d7f907b2e23a05945",
+    "configs/tpex_pool_policy.json": "fd8f54c16495c645a34abe3b691346f1c224e854",
+    "configs/tpex_proxy_protocol.json": "e4c4bdf99c27dfce34025a7f9122d63a0accf54c"
+  },
+  "protocol_sha256": "d1ab6f2d7d9ae6f35a8993e76de39e94edcb00309eb7f6ef3fd7279c0c300603",
+  "local_inventory": {
+    "inputs_bytes_approx": "472 MB before new acquisition",
+    "ref_bytes_approx": "1.2 GB",
+    "tpex_historical_archive_present": false,
+    "rolling_root": "inputs/prospective/20261015"
+  },
+  "transport_observations": [
+    "Sandbox curl exit 6: could not resolve www.tpex.org.tw; escalated direct request succeeded",
+    "ISIN listed curl exit 28: 25 second timeout, 2919293 bytes received; bounded 60 second retry succeeded",
+    "TPEx holiday date=2026/01/01 curl exit 56 TLS unexpected EOF; official year-form date=2026 succeeded"
+  ],
+  "gap_records": [
+    {
+      "signal_date": "2026-10-14",
+      "status": "missed_not_backfilled",
+      "recorded_at": "2026-10-15T13:50:21.314600+00:00",
+      "reason": "No sealed record or source observation from that signal day available at recovery"
+    }
+  ]
+}

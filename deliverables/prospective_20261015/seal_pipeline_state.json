@@ -1,0 +1,42 @@
+{
+  "stages": {
+    "seal_and_archive": {
+      "status": "complete",
+      "fingerprint": "e3d9ce2a4fa2896faae2ad7c6b348d77fde76d4e0fc6539c33928949454fabcb",
+      "started_at": "2026-10-15T13:52:31.433921+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-15T13:52:31.434007+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/prospective/20261015/seal_pipeline/logs/seal_and_archive.1792072351436855301.log",
+      "peak_observed_rss_bytes": 285163520,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 12.513686375052202,
+      "outputs": {
+        "inputs/prospective/20261015/journal/signal/2026-10-15.json": "38886ceb20f483fea023f4a218ff696c463539244526ff79cf56ec7128d4a90c",
+        "inputs/prospective/20261015/signal_checkpoint.json": "8098a782b79ccfb26462dcc70dcace039ee3f4ac4cb959ab352490b99f5218e0",
+        "inputs/prospective/20261015/signal_bundle.zip": "a7bda9c8c2f3d340e8e17ef93a8d2bf10927d50791f0f604de533e3eeb2bd2ac"
+      },
+      "finished_at": "2026-10-15T13:52:43.974830+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-15T13:52:43.974963+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-15T13:52:31.424179+00:00",
+  "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+  "active": {},
+  "heartbeat_at": "2026-10-15T13:52:43.979009+00:00",
+  "current_stage": "seal_and_archive",
+  "finished_at": "2026-10-15T13:52:43.979001+00:00"
+}

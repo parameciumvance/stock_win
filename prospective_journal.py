@@ -12,6 +12,7 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 def seal(root, kind, key, payload, *, now=None):
+    explicit_clock = now is not None
     now = now or datetime.now(TZ)
     if now.tzinfo is None:
         raise ValueError('Timezone-aware clock required')
@@ -44,6 +45,13 @@ def seal(root, kind, key, payload, *, now=None):
             record = verify(Path(root) / 'snapshot' / (ref + '.json'))
             if datetime.fromisoformat(record['observed_at']) > now:
                 raise ValueError('Snapshot observed after signal')
+    if kind == 'signal' and payload['status'] == 'complete':
+        from prospective_replay import validate_live_payload
+        validate_live_payload(root, payload, now)
+        if not explicit_clock:
+            now = datetime.now(TZ)
+            if now.date() != signal_date or now >= datetime.fromisoformat(payload['entry_at']):
+                raise ValueError('Replay completed after signal/entry deadline')
     record = {'kind': kind, 'key': key, 'observed_at': now.isoformat(), 'payload': payload}
     encoded = json.dumps(record, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode()
     envelope = {'record': record, 'record_sha256': sha(encoded)}

@@ -1,0 +1,11 @@
+{
+  "storage_kind": "local_persistent_copy",
+  "archive": "/home/vance/dev_home/projects/stock_win/inputs/prospective/20261015/sources.zip",
+  "backup_path": "/home/vance/dev_home/projects/stock_win/inputs/prospective/backups/20261015/sources.zip",
+  "retrieved_path": "/home/vance/dev_home/projects/stock_win/inputs/prospective/20261015/sources.retrieved.zip",
+  "sha256": "966cb2a6f0c10e876dc6c510a9a0bc71119c07325d1e3f3c534be5b4cdaf492c",
+  "roundtrip_verified": true,
+  "manifest_files": 255,
+  "verified_at": "2026-10-15T13:51:21.780941+00:00",
+  "limitation": "Local backup on same filesystem; not off-host disaster recovery"
+}

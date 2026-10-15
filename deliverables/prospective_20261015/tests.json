@@ -1,0 +1,43 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_prospective_replay",
+    "test_prospective_journal",
+    "test_prospective_selection",
+    "test_tpex_event_features",
+    "test_tpex_proxy_features",
+    "test_tpex_pilot",
+    "test_tpex_pool",
+    "test_tpex_revenue",
+    "test_tpex_numeric_sources",
+    "test_tpex_flow_pilot",
+    "test_tpex_flow_legacy",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 73 tests in 0.671s\n\nOK\n",
+  "observed_at": "2026-10-15T13:52:09.355372+00:00",
+  "source_hashes": {
+    "test_prospective_replay.py": "80ddb99abf5299c9cfd73773850b4ac139a5fc724f8517c52af1153e76d367be",
+    "test_prospective_journal.py": "50311e086c419d95dc3cc43d82da364bfa569b13d9dfa5bb7d730568d69c9ca4",
+    "test_prospective_selection.py": "87dea5e1a5e7aab3a7c8a8d69446c8d08b677e0c3e1a376688c60fd288112123",
+    "test_tpex_event_features.py": "45f81afd80f0f4760884859294a5c169f979d38c9928186d0526eb2257ceb791",
+    "test_tpex_proxy_features.py": "77e664ce0b927305b1df61ad92c36f9d50545d1795ee11589d03f10065fea848",
+    "test_tpex_pilot.py": "9150fb7a21df6cd100875e026e95049287510add011445baa42c0c09844c6539",
+    "test_tpex_pool.py": "91e267c3b97e7997036d7439aff2c686cebf7a4248ea83b3d59e6ef03542518a",
+    "test_tpex_revenue.py": "42d5cf0325c98633b48938312e61744e2eb870696fca06dbca5eaf52405fed29",
+    "test_tpex_numeric_sources.py": "85ac66d45e0c258f33a7caa83a92eda05bb71eab6e778d5e8123c93946208c01",
+    "test_tpex_flow_pilot.py": "52d246b65d737142d126c619d3e89a352eec87e352b010d90dccdfa1ae0c3fd7",
+    "test_tpex_flow_legacy.py": "f45cfb1c202614093e9dea08267e47c5f26c1d6dddebb49143e00a3fd95f428f",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b",
+    "prospective_sources.py": "abb9e1a47d75d40617f33e5c5c6788fa0aebcba658da10f77d35d8e805008486",
+    "prospective_replay.py": "e3671f5e7b3feebc99c4de676ebd3d36e71529a793fc83851089ccf462743f39",
+    "prospective_finalize.py": "142415c326150ab08e424fd4dbb9c2e6802fb715f23abaeba0cc0247357a3a7c",
+    "prospective_journal.py": "fc457ed6026599adea35e083857148a2ce87c0563870dc078f5bb04d0126daa1",
+    "prospective_selection.py": "cc99a810271895d725a5b827c7a4479d41c5fd17cbb0da2b5d9fa2d227f40fa3"
+  }
+}

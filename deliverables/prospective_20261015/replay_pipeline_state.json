@@ -1,0 +1,73 @@
+{
+  "stages": {
+    "features": {
+      "status": "complete",
+      "fingerprint": "fb1d68dbf8cda56b6a0081404979c714672ef00e68751ab842c636216da3cdd2",
+      "started_at": "2026-10-15T13:51:37.959702+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-15T13:51:37.959814+00:00",
+        "runtime_identity": "81caf91896a6a932aab923383f92f48b0a6aef6101ffb5fe5334ca55dba06838",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/prospective/20261015/replay_pipeline/logs/features.1792072297964987289.log",
+      "peak_observed_rss_bytes": 286625792,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 12.0153278040234,
+      "outputs": {
+        "inputs/prospective/20261015/matrix_45.csv": "dc6e65751bd9bc265eccb0373643cec9ffff2e7b4203f3fe823038f7420724b3",
+        "inputs/prospective/20261015/matrix_60.csv": "a4cbc87aae8cdd56a55a882238d76b0554bd93341bd9d2d592051b811607f524",
+        "inputs/prospective/20261015/feature_summary.json": "da5cd4f8bc8daddc9b7e024adc0833adf100e436f7c949cb3e5429f12a642ce6",
+        "inputs/prospective/20261015/benchmark.csv": "5adb5b235b32f1a9bfbd6947bade50139b0ffb7e7be019eff3d8f74e408f6cd9"
+      },
+      "finished_at": "2026-10-15T13:51:49.986532+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-15T13:51:49.986641+00:00",
+        "runtime_identity": "81caf91896a6a932aab923383f92f48b0a6aef6101ffb5fe5334ca55dba06838",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "replay": {
+      "status": "complete",
+      "fingerprint": "183e840698d1b19b7aa6ccdc4919afcce8374d3735c4d90635f9d602b31a9a9d",
+      "started_at": "2026-10-15T13:51:49.997303+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-15T13:51:49.997412+00:00",
+        "runtime_identity": "81caf91896a6a932aab923383f92f48b0a6aef6101ffb5fe5334ca55dba06838",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/prospective/20261015/replay_pipeline/logs/replay.1792072310000039945.log",
+      "peak_observed_rss_bytes": 286244864,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 11.513079954020213,
+      "outputs": {
+        "inputs/prospective/20261015/selection_manifest.json": "64dd525896b1e61043594953146ed7a53cc4dc3e6a1d13a196b11a8c5b64f95e"
+      },
+      "finished_at": "2026-10-15T13:52:01.520143+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-15T13:52:01.520224+00:00",
+        "runtime_identity": "81caf91896a6a932aab923383f92f48b0a6aef6101ffb5fe5334ca55dba06838",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-15T13:51:37.949672+00:00",
+  "runtime_identity": "81caf91896a6a932aab923383f92f48b0a6aef6101ffb5fe5334ca55dba06838",
+  "active": {},
+  "heartbeat_at": "2026-10-15T13:52:01.522646+00:00",
+  "current_stage": "replay",
+  "message": "RuntimeError: Child failed; inspect inputs/prospective/20261015/replay_pipeline/logs/features.1792071908789039977.log",
+  "finished_at": "2026-10-15T13:52:01.522639+00:00"
+}

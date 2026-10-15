@@ -1,4 +1,6 @@
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import tempfile
 import unittest
 from pathlib import Path
@@ -49,7 +51,7 @@ class SelectionTests(unittest.TestCase):
     def test_missing_raw_snapshot_is_rejected(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)
-            seal(root, 'snapshot', 's1', {'raw_sha256': '0'*64})
+            seal(root, 'snapshot', 's1', {'raw_sha256': '0'*64}, now=datetime(2026, 10, 14, 16, tzinfo=ZoneInfo('Asia/Taipei')))
             with self.assertRaises(FileNotFoundError): validate_snapshot_refs(root, ['s1'], '2026-10-14')
 
 
