@@ -1,0 +1,83 @@
+{
+  "stages": [
+    {
+      "id": "probe_inventory",
+      "command": [
+        "{python}",
+        "operating_source_pilot.py",
+        "inventory"
+      ],
+      "inputs": [
+        "operating_source_pilot.py",
+        "configs/research_reassessment_20261016.json",
+        "inputs/operating_pilot_20261016/errors",
+        "inputs/operating_pilot_20261016/raw"
+      ],
+      "outputs": [
+        "inputs/operating_pilot_20261016/acquisition.json",
+        "deliverables/operating_pilot_20261016/source_ledger.csv",
+        "deliverables/operating_pilot_20261016/transport_inventory.json"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "probe_checkpoint",
+      "command": [
+        "{python}",
+        "operating_source_pilot.py",
+        "checkpoint"
+      ],
+      "inputs": [
+        "operating_source_pilot.py",
+        "inputs/operating_pilot_20261016/acquisition.json",
+        "deliverables/operating_pilot_20261016/source_ledger.csv",
+        "deliverables/operating_pilot_20261016/transport_inventory.json",
+        "inputs/operating_pilot_20261016/errors",
+        "inputs/operating_pilot_20261016/raw"
+      ],
+      "outputs": [
+        "deliverables/operating_pilot_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/source_probe_checkpoint.zip"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "parse_archived_sample",
+      "command": [
+        "{python}",
+        "operating_source_pilot.py",
+        "parse_sample"
+      ],
+      "inputs": [
+        "operating_source_pilot.py",
+        "requirements_operating_pilot.txt",
+        "deliverables/operating_pilot_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/source_probe_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_pilot_20261016/extracted_sample.json"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "source_gate_report",
+      "command": [
+        "{python}",
+        "operating_source_pilot.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_source_pilot.py",
+        "deliverables/operating_pilot_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/acquisition.json",
+        "deliverables/operating_pilot_20261016/source_ledger.csv",
+        "deliverables/operating_pilot_20261016/extracted_sample.json"
+      ],
+      "outputs": [
+        "deliverables/operating_pilot_20261016/summary.json",
+        "deliverables/operating_pilot_20261016/report.md"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

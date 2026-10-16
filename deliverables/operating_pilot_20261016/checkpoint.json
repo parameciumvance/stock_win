@@ -1,0 +1,11 @@
+{
+  "sha256": "1cd22d40b1e373e75f8e02f1ed073d6a0763cd79c55f867691b635a45b6ee3e3",
+  "manifest_files": 16,
+  "backup_path": "inputs/backups/operating_pilot_20261016/source_probe_checkpoint.zip",
+  "retrieved_path": "inputs/operating_pilot_20261016/source_probe_checkpoint.retrieved.zip",
+  "roundtrip_verified": true,
+  "crc_verified": true,
+  "verified_at": "2026-10-16T00:24:26.103380+00:00",
+  "content": "Transport errors, saved UMC quarterly PDF versions and metadata, config and incomplete source ledger",
+  "storage": "local persistent copy; same filesystem"
+}

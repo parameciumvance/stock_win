@@ -1,0 +1,41 @@
+{
+  "status": "source_pilot_blocked",
+  "observed_at": "2026-10-16T00:24:25.556878+00:00",
+  "config_sha256": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+  "official_source_successes": 1,
+  "successful_source_routes": 2,
+  "recorded_failed_requests": 8,
+  "required_quarters": 24,
+  "source_rows_ready": 0,
+  "can_fit_model": false,
+  "source_gate": "closed",
+  "additional_network_retries": false,
+  "checkpoint_sha256": "1cd22d40b1e373e75f8e02f1ed073d6a0763cd79c55f867691b635a45b6ee3e3",
+  "numeric_sample": {
+    "issuer": "2303",
+    "quarter": "2024Q4",
+    "gross_margin_pct": 30.4,
+    "eps_twd": 0.68,
+    "revenue_twd_billions": 60.39,
+    "visible_release_date": "2025-01-21",
+    "accounting_basis": "TIFRS consolidated as described in the release",
+    "source_sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+    "source_url": "https://event-prod.zucast.com/attach/9ab58db49e24edb587d9623a01dd303d/51016/UMC24Q4_report.pdf",
+    "source_observed_at": "2026-10-16T00:17:21.237095+00:00",
+    "official_source_url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_report.pdf",
+    "official_observed_at": "2026-10-16T00:23:15.248465+00:00",
+    "official_pdf_matches_saved_cdn": true,
+    "source_page": 1,
+    "document_pages": 13,
+    "sec_accepted_at": null,
+    "taiwan_first_published_at": null,
+    "version_evidence": "issuer_linked_pdf_not_full_revision_history",
+    "ready_for_model": false
+  },
+  "request_to_continue": "Provide original issuer quarterly earnings release/report plus its SEC 6-K document and acceptance-time index. Start with 2024Q4 for 2330 and 2303; UMC issuer PDF already saved; verify time/version routes before collecting remaining issuer-quarters.",
+  "limitations": [
+    "No Taiwan first-publication timestamps inferred",
+    "Search identifies official routes; only actual saved source bodies enter raw evidence",
+    "No financial forecasts, trained model, stock signals or return claims produced"
+  ]
+}

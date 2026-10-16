@@ -1,0 +1,106 @@
+{
+  "status": "completed_bounded_attribution",
+  "observed_at": "2026-10-16T00:20:29.243716+00:00",
+  "scope": "TWSE institutional 20-day study, 2024-2026 through 2026-10-02; TPEx full common matrices absent locally",
+  "config_sha256": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+  "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "summary": [
+    {
+      "year": 2024,
+      "method": "price_ridge",
+      "dates": 237,
+      "net_selected_minus_0050": -0.0459108176514323,
+      "gross_selection_minus_pool": -0.0016323697883307122,
+      "gross_pool_minus_0050": -0.028439892401175358,
+      "selected_cost_drag": 0.01583855546192623,
+      "max_identity_error": 1.3877787807814457e-17
+    },
+    {
+      "year": 2024,
+      "method": "price_flow_ridge",
+      "dates": 237,
+      "net_selected_minus_0050": -0.04716677356324776,
+      "gross_selection_minus_pool": -0.0029084025420445395,
+      "gross_pool_minus_0050": -0.028439892401175358,
+      "selected_cost_drag": 0.015818478620027866,
+      "max_identity_error": 1.3877787807814457e-17
+    },
+    {
+      "year": 2024,
+      "method": "vol20_rank",
+      "dates": 237,
+      "net_selected_minus_0050": -0.04671320786137182,
+      "gross_selection_minus_pool": -0.0024475864527932004,
+      "gross_pool_minus_0050": -0.028439892401175358,
+      "selected_cost_drag": 0.015825729007403262,
+      "max_identity_error": 1.3877787807814457e-17
+    },
+    {
+      "year": 2025,
+      "method": "price_ridge",
+      "dates": 219,
+      "net_selected_minus_0050": -0.04097553174563196,
+      "gross_selection_minus_pool": -0.004408575394796542,
+      "gross_pool_minus_0050": -0.02073186477714356,
+      "selected_cost_drag": 0.01583509157369186,
+      "max_identity_error": 1.3877787807814457e-17
+    },
+    {
+      "year": 2025,
+      "method": "price_flow_ridge",
+      "dates": 219,
+      "net_selected_minus_0050": -0.04001255940236761,
+      "gross_selection_minus_pool": -0.0034302096421725565,
+      "gross_pool_minus_0050": -0.02073186477714356,
+      "selected_cost_drag": 0.015850484983051492,
+      "max_identity_error": 1.3877787807814457e-17
+    },
+    {
+      "year": 2025,
+      "method": "vol20_rank",
+      "dates": 219,
+      "net_selected_minus_0050": -0.025032689698774303,
+      "gross_selection_minus_pool": 0.011789117890209009,
+      "gross_pool_minus_0050": -0.02073186477714356,
+      "selected_cost_drag": 0.01608994281183975,
+      "max_identity_error": 2.7755575615628914e-17
+    },
+    {
+      "year": 2026,
+      "method": "price_ridge",
+      "dates": 161,
+      "net_selected_minus_0050": -0.04032419678382825,
+      "gross_selection_minus_pool": 0.0050078462599196455,
+      "gross_pool_minus_0050": -0.02908167281986757,
+      "selected_cost_drag": 0.016250370223880328,
+      "max_identity_error": 2.7755575615628914e-17
+    },
+    {
+      "year": 2026,
+      "method": "price_flow_ridge",
+      "dates": 161,
+      "net_selected_minus_0050": -0.042109162119565745,
+      "gross_selection_minus_pool": 0.0031943477037860136,
+      "gross_pool_minus_0050": -0.02908167281986757,
+      "selected_cost_drag": 0.01622183700348419,
+      "max_identity_error": 2.7755575615628914e-17
+    },
+    {
+      "year": 2026,
+      "method": "vol20_rank",
+      "dates": 161,
+      "net_selected_minus_0050": -0.021443865216986033,
+      "gross_selection_minus_pool": 0.02418998573919745,
+      "gross_pool_minus_0050": -0.02908167281986757,
+      "selected_cost_drag": 0.01655217813631592,
+      "max_identity_error": 2.7755575615628914e-17
+    }
+  ],
+  "limitations": [
+    "Conditional on the original study future-complete pool, not a newly reconstructed as-of universe",
+    "Equal daily and equal selected-stock weights; overlapping 20-day quote windows are not portfolio NAV",
+    "Benchmark ETF costs remain excluded as frozen; cost drag is a return-dependent accounting term",
+    "Only TWSE institutional study restored; TPEx common matrices and stock selections unavailable locally; no substituted data",
+    "No refitting or threshold search; descriptive identity is not causal identification"
+  ]
+}

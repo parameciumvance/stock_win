@@ -1,0 +1,69 @@
+{
+  "stages": [
+    {
+      "id": "frozen_source_restore",
+      "command": [
+        "{python}",
+        "research_reassessment.py",
+        "restore"
+      ],
+      "inputs": [
+        "research_reassessment.py",
+        "configs/research_reassessment_20261016.json",
+        "ref/institutional_twse_2023_repro_bundle.zip"
+      ],
+      "outputs": [
+        "deliverables/reassessment_20261016/source_receipt.json",
+        "inputs/reassessment_20261016/prices.csv.gz"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "attribution",
+      "command": [
+        "{python}",
+        "research_reassessment.py",
+        "attribution"
+      ],
+      "inputs": [
+        "research_reassessment.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/reassessment_20261016/source_receipt.json",
+        "inputs/reassessment_20261016/prices.csv.gz",
+        "deliverables/institutional_increment_daily_2024.csv",
+        "deliverables/institutional_increment_summary_2024.json",
+        "deliverables/institutional_increment_daily_2025.csv",
+        "deliverables/institutional_increment_summary_2025.json",
+        "deliverables/institutional_increment_daily_2026.csv",
+        "deliverables/institutional_increment_summary_2026.json"
+      ],
+      "outputs": [
+        "deliverables/reassessment_20261016/summary.json",
+        "deliverables/reassessment_20261016/daily_attribution.csv",
+        "deliverables/reassessment_20261016/report.md"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "focused_tests",
+      "command": [
+        "{python}",
+        "-c",
+        "import io, sys, unittest, importlib.metadata\nfrom research_runtime import atomic_json,sha256,utcnow\nmodules=['test_research_reassessment','test_research_pipeline']\npaths=['research_reassessment.py','operating_source_pilot.py','test_research_reassessment.py','configs/research_reassessment_20261016.json','requirements_operating_pilot.txt']\nstream=io.StringIO()\nr=unittest.TextTestRunner(stream=stream,verbosity=2).run(unittest.defaultTestLoader.loadTestsFromNames(modules))\natomic_json('deliverables/reassessment_20261016/tests.json',dict(tests_run=r.testsRun,passed=r.wasSuccessful(),output=stream.getvalue(),observed_at=utcnow(),source_sha256={p:sha256(p) for p in paths},versions={p:importlib.metadata.version(p) for p in ['pandas','numpy','pypdf','cryptography','cffi','pycparser']}))\nprint(stream.getvalue())\nsys.exit(0 if r.wasSuccessful() else 1)\n"
+      ],
+      "inputs": [
+        "research_reassessment.py",
+        "operating_source_pilot.py",
+        "test_research_reassessment.py",
+        "test_research_pipeline.py",
+        "research_pipeline.py",
+        "configs/research_reassessment_20261016.json",
+        "requirements_operating_pilot.txt"
+      ],
+      "outputs": [
+        "deliverables/reassessment_20261016/tests.json"
+      ],
+      "timeout_seconds": 120
+    }
+  ]
+}

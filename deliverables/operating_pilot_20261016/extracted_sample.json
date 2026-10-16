@@ -1,0 +1,21 @@
+{
+  "issuer": "2303",
+  "quarter": "2024Q4",
+  "gross_margin_pct": 30.4,
+  "eps_twd": 0.68,
+  "revenue_twd_billions": 60.39,
+  "visible_release_date": "2025-01-21",
+  "accounting_basis": "TIFRS consolidated as described in the release",
+  "source_sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+  "source_url": "https://event-prod.zucast.com/attach/9ab58db49e24edb587d9623a01dd303d/51016/UMC24Q4_report.pdf",
+  "source_observed_at": "2026-10-16T00:17:21.237095+00:00",
+  "official_source_url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_report.pdf",
+  "official_observed_at": "2026-10-16T00:23:15.248465+00:00",
+  "official_pdf_matches_saved_cdn": true,
+  "source_page": 1,
+  "document_pages": 13,
+  "sec_accepted_at": null,
+  "taiwan_first_published_at": null,
+  "version_evidence": "issuer_linked_pdf_not_full_revision_history",
+  "ready_for_model": false
+}

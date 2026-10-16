@@ -1,0 +1,88 @@
+{
+  "records": [
+    {
+      "path": "inputs/operating_pilot_20261016/errors/sec_tsmc_2024Q4.html.2026-10-16T001403.094899+0000.json",
+      "sha256": "86346769d42f46744f7a609b9cbd1e9d9713cb80c2284492345fce218b4a25f0",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/a4q24e_withguidancexfinal.htm",
+      "observed_at": "2026-10-16T00:14:03.378753+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/tsmc_2024Q4.html.2026-10-16T001403.094732+0000.json",
+      "sha256": "114b2f231f848cf3e475a553b302653899da6656d82296e0c01b022b2101bbe0",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2024/q4",
+      "observed_at": "2026-10-16T00:14:04.049685+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/tsmc_2024Q4_release.pdf.2026-10-16T001433.150992+0000.json",
+      "sha256": "104a154df58303a012bde90fa4917547089b87c600786d90251d430ed61b0226",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/cc4e1dec3474f69109d5455fbf8939c3e3cd5a71/4Q24EarningsRelease.pdf",
+      "observed_at": "2026-10-16T00:14:33.280692+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/tsmc_2025Q3_press.html.2026-10-16T001456.771595+0000.json",
+      "sha256": "2f0b95f0e9a61439fcc903418dc92c96807d6a657f1d803611aa9193993c80a2",
+      "url": "https://pr.tsmc.com/english/news/3264",
+      "observed_at": "2026-10-16T00:14:56.962831+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/tsmc_news_archive.html.2026-10-16T001456.771864+0000.json",
+      "sha256": "cc94d0b20357e0603fa0aa0e432e30dbbcbd6a2834543a1606f242777d616c77",
+      "url": "https://pr.tsmc.com/english/news-archives",
+      "observed_at": "2026-10-16T00:14:56.953245+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/tsmc_submissions.json.2026-10-16T001219.542757+0000.json",
+      "sha256": "73ad46928de6a23f2a5717f9706a29c14a8a8685e1681cbad0424e993f9fdc96",
+      "url": "https://data.sec.gov/submissions/CIK0001046179.json",
+      "observed_at": "2026-10-16T00:12:20.247525+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/umc_2024Q4.html.2026-10-16T001433.150513+0000.json",
+      "sha256": "dd28d27d98a3c56c3227e796f0eabf15f076521e7fa191f80468992a77995fcd",
+      "url": "https://www.umc.com/en/Download/quarterly_results/QuarterlyResultsDetail/2024/2024Q4",
+      "observed_at": "2026-10-16T00:14:33.399982+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "path": "inputs/operating_pilot_20261016/errors/umc_submissions.json.2026-10-16T001219.542317+0000.json",
+      "sha256": "5d7ef96813fd27fc23161a0864c4a83076f028bafff4d670e432497aadf28c47",
+      "url": "https://data.sec.gov/submissions/CIK0001033767.json",
+      "observed_at": "2026-10-16T00:12:20.246194+00:00",
+      "exit_code": 22,
+      "stderr": "curl: (22) The requested URL returned error: 403\n"
+    }
+  ],
+  "successful_documents": [
+    {
+      "file": "inputs/operating_pilot_20261016/raw/umc_2024Q4_official.pdf",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_report.pdf",
+      "request_started_at": "2026-10-16T00:23:13.341206+00:00",
+      "observed_at": "2026-10-16T00:23:15.248465+00:00",
+      "sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+      "size_bytes": 446725
+    },
+    {
+      "file": "inputs/operating_pilot_20261016/raw/umc_2024Q4_report.pdf",
+      "url": "https://event-prod.zucast.com/attach/9ab58db49e24edb587d9623a01dd303d/51016/UMC24Q4_report.pdf",
+      "request_started_at": "2026-10-16T00:17:19.300454+00:00",
+      "observed_at": "2026-10-16T00:17:21.237095+00:00",
+      "sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+      "size_bytes": 446725
+    }
+  ],
+  "recorded_at": "2026-10-16T00:24:25.551979+00:00",
+  "user_agent_retry": "A separate direct SEC submissions retry using project-identifying User-Agent also returned curl exit22 HTTP403; exact request time was not retained, so no historical request timestamp is invented"
+}

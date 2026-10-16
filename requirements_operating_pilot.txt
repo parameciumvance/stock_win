@@ -1,0 +1,3 @@
+# Additional PDF parser for the bounded operating-source pilot
+pypdf==6.12.0
+cryptography==46.0.3

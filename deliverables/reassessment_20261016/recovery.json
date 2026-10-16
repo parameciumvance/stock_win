@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-16T00:22:20.282939+00:00",
+  "workspace": "/home/vance/dev_home/projects/stock_win",
+  "base_commit": "1c7bc166cd27db00c60b524b06dcd6f51556925a",
+  "initial_worktree_clean": true,
+  "seven_rule_daily": "stopped",
+  "attribution_scope": "Exact frozen TWSE institutional study 2024-2026, 20-day returns",
+  "tpex_attribution_status": "not_run_missing_exact_full_common_matrices",
+  "operating_status": "one_original_UMC_document_obtained_no_quarter_ready_for_fitting",
+  "next_dependency": "Original 2330 2024Q4 release and SEC 6-K/version-time evidence for 2330 and 2303 2024Q4; initial source-route check only"
+}

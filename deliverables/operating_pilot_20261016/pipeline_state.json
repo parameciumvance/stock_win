@@ -1,0 +1,132 @@
+{
+  "stages": {
+    "probe_inventory": {
+      "status": "complete",
+      "fingerprint": "8fd761f5b462d38cab1d5097348b18deb47b21e8c50ac195a0fd133fcc9a958a",
+      "started_at": "2026-10-16T00:24:25.317316+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:24:25.317382+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/pipeline/logs/probe_inventory.1792110265319574408.log",
+      "peak_observed_rss_bytes": 7847936,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5038526999996975,
+      "outputs": {
+        "inputs/operating_pilot_20261016/acquisition.json": "5b2f98b042370a0e54a5f03f4da907c3fe4c0f85dfb72c0b9ac3dca749b215c6",
+        "deliverables/operating_pilot_20261016/source_ledger.csv": "389a160e2b67d287669c935ba734538c32e21809c2597dd361b10995672dc532",
+        "deliverables/operating_pilot_20261016/transport_inventory.json": "2a3016349860bda3189b78d29b4ac7bb09e78bab5d17d9b32c7734a672cc400d"
+      },
+      "finished_at": "2026-10-16T00:24:25.829015+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:24:25.829094+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "probe_checkpoint": {
+      "status": "complete",
+      "fingerprint": "8da983ada8395e5532c4aa9c5d1f5df2a06cfa868355cc4c01c4e4749dfa6244",
+      "started_at": "2026-10-16T00:24:25.844997+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:24:25.845205+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/pipeline/logs/probe_checkpoint.1792110265848595881.log",
+      "peak_observed_rss_bytes": 8015872,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5045255700242706,
+      "outputs": {
+        "deliverables/operating_pilot_20261016/checkpoint.json": "e24fea8748a8e8399ba3520cf47bc9364c96cca22638e1e216e038fd259f7bf9",
+        "inputs/operating_pilot_20261016/source_probe_checkpoint.zip": "1cd22d40b1e373e75f8e02f1ed073d6a0763cd79c55f867691b635a45b6ee3e3"
+      },
+      "finished_at": "2026-10-16T00:24:26.366393+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:24:26.366499+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "source_gate_report": {
+      "status": "complete",
+      "fingerprint": "415ba35cf67cbd18e4e2e440683d10f18badab344716e2cf77ace01fb0483dd2",
+      "started_at": "2026-10-16T00:24:26.885972+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:24:26.886074+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/pipeline/logs/source_gate_report.1792110266888749420.log",
+      "peak_observed_rss_bytes": 6836224,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5035328940139152,
+      "outputs": {
+        "deliverables/operating_pilot_20261016/summary.json": "1f76db27b1be8f20af230d4afe2563fb229d3e5ca329af4a843ae5c85110b4ba",
+        "deliverables/operating_pilot_20261016/report.md": "c624f78b6d1bc96f8abb8f37ca5ab86e5144790675629a2a39675482ff80045c"
+      },
+      "finished_at": "2026-10-16T00:24:27.398495+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:24:27.398589+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "parse_archived_sample": {
+      "status": "complete",
+      "fingerprint": "85cda3f23cc73c075079b285edc76aa0c258f554c1bcebb672ea775111cb9cba",
+      "started_at": "2026-10-16T00:24:26.369687+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:24:26.369756+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/pipeline/logs/parse_archived_sample.1792110266372337861.log",
+      "peak_observed_rss_bytes": 6877184,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.504326197959017,
+      "outputs": {
+        "deliverables/operating_pilot_20261016/extracted_sample.json": "735aa07c8a74fdfab77804ef38da9c95f9654c0354cd2c2ca24cccc4c1afac87"
+      },
+      "finished_at": "2026-10-16T00:24:26.882963+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:24:26.883090+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-16T00:24:25.311936+00:00",
+  "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+  "active": {},
+  "heartbeat_at": "2026-10-16T00:24:27.401459+00:00",
+  "current_stage": "source_gate_report",
+  "message": "RuntimeError: Child failed; inspect inputs/operating_pilot_20261016/pipeline/logs/source_gate_report.1792109790522031945.log",
+  "finished_at": "2026-10-16T00:24:27.401450+00:00"
+}

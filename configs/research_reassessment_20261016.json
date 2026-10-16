@@ -1,0 +1,60 @@
+{
+  "frozen_at": "2026-10-16T00:12:47.545771+00:00",
+  "base_commit": "1c7bc166cd27db00c60b524b06dcd6f51556925a",
+  "status": "bounded_exploration_not_live_signals",
+  "attribution": {
+    "scope": "TWSE institutional 20-day study, 2024-2026 through 2026-10-02; TPEx full common matrices absent locally",
+    "archive": "ref/institutional_twse_2023_repro_bundle.zip",
+    "archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+    "price_member": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "methods": [
+      "price_ridge",
+      "price_flow_ridge",
+      "vol20_rank"
+    ],
+    "horizon": 20,
+    "weights": "equal stock weights inside day, equal weights across the same complete days",
+    "identity": "net_selected_minus_0050 = gross_selected_minus_gross_pool + gross_pool_minus_0050 - selected_cost_drag",
+    "inputs": {
+      "deliverables/institutional_increment_daily_2024.csv": "f5fa4674ac7635e169d32ad8d357ba2ea3e995b7750b72e0775c895232e6311a",
+      "deliverables/institutional_increment_summary_2024.json": "141d1899d6518742d1715545aafaa2e2ece840b9a1fbb36c56e6559882c9c95f",
+      "deliverables/institutional_increment_daily_2025.csv": "b6ca8dea160f39dd5d01e8e59a36d72f8fb65ea7b6d9cc332de0efc7de266893",
+      "deliverables/institutional_increment_summary_2025.json": "58415ce258bcc3e3a071a984078ddd6fc02c108d50b28ee6696cc790328f6deb",
+      "deliverables/institutional_increment_daily_2026.csv": "2437d8d7853a15f63c710def3be7c46527d41075fae85765e97e4ba881b17108",
+      "deliverables/institutional_increment_summary_2026.json": "f9281cb79ebb2b133b58fc22073018a4cfba31fd214abb73b9511c5c54df73f7"
+    }
+  },
+  "operating_pilot": {
+    "issuers": [
+      {
+        "code": "2330",
+        "name": "TSMC",
+        "cik": "0001046179"
+      },
+      {
+        "code": "2303",
+        "name": "UMC",
+        "cik": "0001033767"
+      }
+    ],
+    "selection_reason": "two Taiwan pure-play foundries with public quarterly earnings releases and US SEC filing routes; availability cohort, not representative stock universe",
+    "quarters": "2023Q1 through 2025Q4 inclusive, all 12 consecutive quarters each",
+    "target": "next-quarter consolidated gross margin percent; EPS/revenue only secondary extraction checks",
+    "baselines": [
+      "previous_quarter_gross_margin",
+      "same_quarter_previous_year_gross_margin",
+      "management_guidance_if_numeric_comparable"
+    ],
+    "evaluation": "2024Q1 through 2025Q4: up to 8 paired forecast targets per issuer; no fitted ML on this tiny pilot",
+    "source_gate": "require exact issuer/version, numeric and accounting-basis consistency, verifiable historical document and timestamp route; no website observation timestamp substituted for historical publication",
+    "failure_gate": "missing or ambiguous source/time/version stays a gap; do not fit stock-return model; report source feasibility instead",
+    "claims": "SEC acceptance is not Taiwan first disclosure; dated issuer PDF is not proof of full revision history; no trading returns or alpha inferred"
+  },
+  "seven_rule_daily_plan": "stopped_by_user_no_resume"
+}

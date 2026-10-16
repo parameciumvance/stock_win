@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-16T00:20:27.289210+00:00",
+  "source_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "manifest_files": 506,
+  "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "backup_path": "inputs/reassessment_20261016/backup/original_bundle.zip",
+  "retrieved_path": "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+  "roundtrip_verified": true,
+  "crc_verified": true,
+  "daily_inputs": {
+    "deliverables/institutional_increment_daily_2024.csv": "f5fa4674ac7635e169d32ad8d357ba2ea3e995b7750b72e0775c895232e6311a",
+    "deliverables/institutional_increment_summary_2024.json": "141d1899d6518742d1715545aafaa2e2ece840b9a1fbb36c56e6559882c9c95f",
+    "deliverables/institutional_increment_daily_2025.csv": "b6ca8dea160f39dd5d01e8e59a36d72f8fb65ea7b6d9cc332de0efc7de266893",
+    "deliverables/institutional_increment_summary_2025.json": "58415ce258bcc3e3a071a984078ddd6fc02c108d50b28ee6696cc790328f6deb",
+    "deliverables/institutional_increment_daily_2026.csv": "2437d8d7853a15f63c710def3be7c46527d41075fae85765e97e4ba881b17108",
+    "deliverables/institutional_increment_summary_2026.json": "f9281cb79ebb2b133b58fc22073018a4cfba31fd214abb73b9511c5c54df73f7"
+  },
+  "storage": "local persistent backup; same filesystem, no off-host disaster recovery"
+}

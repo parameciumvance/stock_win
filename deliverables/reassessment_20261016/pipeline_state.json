@@ -1,0 +1,101 @@
+{
+  "stages": {
+    "frozen_source_restore": {
+      "status": "complete",
+      "fingerprint": "c36c0d983bc7e0d09cdd7f2a8602bc58a54a8877ff4636cba72598954e5a83e0",
+      "started_at": "2026-10-16T00:20:23.638846+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:20:23.639054+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/reassessment_20261016/pipeline/logs/frozen_source_restore.1792110023642915493.log",
+      "peak_observed_rss_bytes": 147554304,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.008945231966209,
+      "outputs": {
+        "deliverables/reassessment_20261016/source_receipt.json": "f8ca588ba31da840fa9f4a5ceac57556b879770a74e3679db4a40c28e087671c",
+        "inputs/reassessment_20261016/prices.csv.gz": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d"
+      },
+      "finished_at": "2026-10-16T00:20:27.994715+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:20:27.994876+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "attribution": {
+      "status": "complete",
+      "fingerprint": "24ceddd4ec165a3900753bade216468faa23403c856d5390744dbfa53e27c373",
+      "started_at": "2026-10-16T00:20:28.012920+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:20:28.013037+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/reassessment_20261016/pipeline/logs/attribution.1792110028015994039.log",
+      "peak_observed_rss_bytes": 117817344,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.5144417310366407,
+      "outputs": {
+        "deliverables/reassessment_20261016/summary.json": "a6a078de8491b0acd08ae524197027e35a2bceb4e5cb00e2e548750005fdc94f",
+        "deliverables/reassessment_20261016/daily_attribution.csv": "0149cf9d8ae4280c3de5bc947613e913c42fbfbc47376d7b05f71f6a7be35a0b",
+        "deliverables/reassessment_20261016/report.md": "9aa8ce34df642c449b1edc79a982f19b2d33929036d65eead565e9d064482a76"
+      },
+      "finished_at": "2026-10-16T00:20:29.534047+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:20:29.534128+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "focused_tests": {
+      "status": "complete",
+      "fingerprint": "99b3b2f596a5cd1de526cd22be7071dc00b7ad0ea3b6ddb34daeed7dfa8e586e",
+      "started_at": "2026-10-16T00:24:27.894223+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T00:24:27.894324+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/reassessment_20261016/pipeline/logs/focused_tests.1792110267899197330.log",
+      "peak_observed_rss_bytes": 78757888,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.0042898410465568,
+      "outputs": {
+        "deliverables/reassessment_20261016/tests.json": "f9058810cee995c7b06661c09cd111ccdb4cecea27189b2f67461586ded2520e"
+      },
+      "finished_at": "2026-10-16T00:24:28.909658+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T00:24:28.909745+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-16T00:24:27.448892+00:00",
+  "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+  "active": {},
+  "heartbeat_at": "2026-10-16T00:24:28.912829+00:00",
+  "current_stage": "focused_tests",
+  "finished_at": "2026-10-16T00:24:28.912822+00:00"
+}
