@@ -2,7 +2,10 @@
   "signal_date": "2026-10-16",
   "run_root": "inputs/prospective/20261016",
   "prepared_at": "2026-10-15T23:40:41.912310+00:00",
-  "status": "plans_only_awaiting_source_cutoff",
+  "status": "cancelled_by_user",
   "source_not_before": "2026-10-16T15:00:00+08:00",
-  "scheduled_service": false
+  "scheduled_service": false,
+  "cancelled_at": "2026-10-16T08:07:16.818371+08:00",
+  "decision": "docs/RESEARCH_DIRECTION_20261016.md",
+  "execute": false
 }
