@@ -1,3 +1,7 @@
+# 2026-10-16 Desktop Commander續作
+
+裝置已上線並確認可存取本專案。本輪8個公開來源請求均HTTP403，未取得新SEC原文；兩家公司2024Q4原始PDF已統一重播到24季ledger，台積電下一季財測區間另保留不可使用標記。跨WSL／Windows NTFS的原始包備份取回、SHA／manifest／CRC通過，28項相關測試通過。完整時點／版本關卡仍未過，不建模、不擴大下載。見[本輪報告](../deliverables/operating_remote_20261016/report.md)、[測試紀錄](../deliverables/operating_remote_20261016/tests.json)。七規則每日計畫繼續停止。
+
 # 2026-10-16 新方向採納與本輪結果
 
 使用者已採納有限失敗歸因＋營運預測來源試點。上市法人20日研究的同日選股／股票池／成本拆解完成；營運試點已透過Windows本機通道補得台積電2024Q4原文，連同聯電共兩份原始公告；新文件封存取回與PDF重播通過，SEC四個本機請求仍403，完整時點關卡未過，尚未訓練新模型。23項相關測試通過，見[Windows來源恢復](../deliverables/operating_windows_recovery_20261016/report.md)。詳見[新方向試點](OPERATING_PREDICTION_PILOT.md)。七規則每日計畫維持停止。

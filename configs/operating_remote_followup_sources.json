@@ -1,0 +1,9 @@
+{
+  "output_directory": "inputs/operating_pilot_20261016/remote_followup_20261016",
+  "requests": [
+    {"filename": "tsmc_complete_submission.body", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004.txt"},
+    {"filename": "sec_20250121_master.body", "url": "https://www.sec.gov/Archives/edgar/daily-index/2025/QTR1/master.20250121.idx"},
+    {"filename": "tsmc_2024Q4_page.body", "url": "https://investor.tsmc.com/english/quarterly-results/2024/q4"},
+    {"filename": "umc_2024Q4_page.body", "url": "https://www.umc.com/en/Download/quarterly_results/QuarterlyResultsDetail/2024/2024Q4"}
+  ]
+}

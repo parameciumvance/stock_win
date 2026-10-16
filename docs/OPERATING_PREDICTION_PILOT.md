@@ -14,6 +14,24 @@
 
 第一目標是下一季合併毛利率，先與上一季、去年同季及可比管理層財測比較。資料完整時最多僅16組共同預測目標，這個規模只驗證來源與簡單基準，不訓練高維價格模型。若原始版本／時間不齊，就停在來源關卡，不以現在靜態表替代。此次沒有訓練新模型或計算預測勝率。
 
+## Desktop Commander已上線：目前結果
+
+已用上線裝置執行兩批、每批兩個worker的公開來源取得，8個實際HTTP請求皆403。既有七個ref ZIP未找到符合SEC／2024Q4命名的原文。沒有因新增操作權限而跳過來源／時間關卡。
+
+兩家公司2024Q4原始PDF已重新由取回包解析，統一[24季ledger](../deliverables/operating_remote_20261016/source_ledger.csv)；台積電2025Q1毛利率財測57%～59%已抽出但不可用於評估。兩份原文、22季原文缺口，24季全部缺完整時點／版本。未訓練模型、計算誤差或恢復七規則每日計畫。
+
+原始包另備份至Windows使用者專用的 `C:\Users\user\stock_win_research_backups\` 後取回WSL；整包SHA／manifest／CRC通過。同一電腦不同檔案系統，不是離機備份。28項相關測試通過。詳見[Remote續作報告](../deliverables/operating_remote_20261016/report.md)、[checkpoint](../deliverables/operating_remote_20261016/checkpoint.json)及[測試紀錄](../deliverables/operating_remote_20261016/tests.json)。
+
+真正外部依賴仍是SEC原始申報與歷史接受時間；盈餘附件EX-99.1不是6-K主文件。先兩組確認格式及時點，不擴大下載其餘22季。若一般瀏覽器可下載，[台積電2024Q4完整SEC申報](https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004.txt)可先存到預設Downloads，再由Desktop Commander匯入；不需再傳既有兩份PDF、不需帳密。完整`.txt`取得後仍須驗證CIK、accession、主文件與附件、接受時間及可見財務值，不能預先宣稱通過。
+
+重播（不重試來源）：
+
+```bash
+.venv/bin/python research_pipeline.py --plan configs/operating_remote_pipeline.json --state-dir inputs/operating_pilot_20261016/remote_pipeline
+```
+
+若恢復時缺Windows取回receipt，pipeline會停在needs_restore；先確認package SHA，再用上線裝置執行 `operating_remote_backup.mjs` 完成備份取回，再續跑，無需使用者重新批准。
+
 ## Windows本機通道恢復（同日後續）
 
 使用者授權操作電腦後，已從WSL呼叫Windows內建curl取得台積電2024Q4官方PDF（178,679 bytes，SHA `3a2e2a2b10eaf67fb16f0f57edca44dc57ac472c2f24664abec5fe7c4d6ceb9a`）。新原文另包封存、備份取回、SHA／CRC／manifest及PDF解析通過；台積電與聯電2024Q4原文皆已取得，22季仍缺原文，全部24季仍未通過時點／版本關卡。Windows的兩家公司submissions及台積電6-K原文／索引仍HTTP403。23項相關測試通過。

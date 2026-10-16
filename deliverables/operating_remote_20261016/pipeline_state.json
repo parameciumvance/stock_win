@@ -1,0 +1,104 @@
+{
+  "stages": {
+    "package": {
+      "status": "complete",
+      "fingerprint": "8f3051bda8a6da94dbae127174a77fc4d0c07142f578da634d444254deda59bc",
+      "started_at": "2026-10-16T14:49:20.200781+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T14:49:20.200910+00:00",
+        "runtime_identity": "66314c26abec52bfe6f9f72c7583032e14bf7b914d82e94bbbd34f3052217f84",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/remote_pipeline/logs/package.1792162160204280102.log",
+      "peak_observed_rss_bytes": 7434240,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5052003170130774,
+      "outputs": {
+        "deliverables/operating_remote_20261016/package.json": "956e361a599438f544645c26e549982a00a2aaad552be8d6ab590266f6099b83",
+        "inputs/operating_pilot_20261016/remote_checkpoint.zip": "ba52dcca0bfee310170d780bbaadf9bc7606b02378839083deb345570802a286"
+      },
+      "finished_at": "2026-10-16T14:49:20.718139+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T14:49:20.718333+00:00",
+        "runtime_identity": "66314c26abec52bfe6f9f72c7583032e14bf7b914d82e94bbbd34f3052217f84",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "765412999c6066ef983a1791cc448e781f3e27bf3d22229851a7ebc7317e0413",
+      "started_at": "2026-10-16T14:50:01.082213+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T14:50:01.082341+00:00",
+        "runtime_identity": "d57639d02541a9174f02c100ecfa3715842bde23d30d4ba7f9d4b92d4b1e41c5",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/remote_pipeline/logs/audit.1792162201085705343.log",
+      "peak_observed_rss_bytes": 64819200,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.0073144719935954,
+      "outputs": {
+        "deliverables/operating_remote_20261016/source_ledger.csv": "17b90eba775dbfc53172166c7c54d8bf454ba0101f9c8b3b4cbefffd1ced6b5f",
+        "deliverables/operating_remote_20261016/extracted_samples.json": "ba07f5069be8820801c2d46dc93b1a531c6a709af563b79d783f7d6d50707a59",
+        "deliverables/operating_remote_20261016/transport_inventory.json": "9511523b787a52c01dda1ec4173e97195658d5d77aaa60894bf3e4cd91bac5ac",
+        "deliverables/operating_remote_20261016/checkpoint.json": "97c7c6ab05a48c403cbce437c71ff0427b6c592d5a93b279f19ae7740ac5ad86"
+      },
+      "finished_at": "2026-10-16T14:50:02.099820+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T14:50:02.099948+00:00",
+        "runtime_identity": "d57639d02541a9174f02c100ecfa3715842bde23d30d4ba7f9d4b92d4b1e41c5",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "a1d82d4ece3bdbe85d251e2e8397e887e6937a419efdf13c0826b9c269a0397f",
+      "started_at": "2026-10-16T14:50:02.103609+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T14:50:02.103683+00:00",
+        "runtime_identity": "d57639d02541a9174f02c100ecfa3715842bde23d30d4ba7f9d4b92d4b1e41c5",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/remote_pipeline/logs/report.1792162202106696562.log",
+      "peak_observed_rss_bytes": 7385088,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5037802689475939,
+      "outputs": {
+        "deliverables/operating_remote_20261016/summary.json": "d4b961ceb63c1fa043bb3564a2434ecc4fc0b13abad8b3709fb84121a6cac0f0",
+        "deliverables/operating_remote_20261016/report.md": "e9fe1e15b490b7d57bc78111273dd17aae69462ac7c7fed6b59c801c060d7157"
+      },
+      "finished_at": "2026-10-16T14:50:02.617668+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T14:50:02.617833+00:00",
+        "runtime_identity": "d57639d02541a9174f02c100ecfa3715842bde23d30d4ba7f9d4b92d4b1e41c5",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-16T14:50:01.065849+00:00",
+  "runtime_identity": "d57639d02541a9174f02c100ecfa3715842bde23d30d4ba7f9d4b92d4b1e41c5",
+  "active": {},
+  "heartbeat_at": "2026-10-16T14:50:02.620566+00:00",
+  "current_stage": "report",
+  "message": "Missing input/output: inputs/operating_pilot_20261016/remote_transfer_receipt.json",
+  "finished_at": "2026-10-16T14:50:02.620558+00:00"
+}

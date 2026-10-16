@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-10-16T14:50:27.040483+00:00",
+  "prior_archive_sha256": "a628724817e3c02de5161e2b8af6e7f9f08dbc7cf0e132730d6263cc1f52a48b",
+  "current_archive_sha256": "ba52dcca0bfee310170d780bbaadf9bc7606b02378839083deb345570802a286",
+  "manifest_files": 28,
+  "all_payload_member_hashes_unchanged": true,
+  "old_manifest_zip_timestamp": [
+    2026,
+    10,
+    16,
+    22,
+    45,
+    10
+  ],
+  "new_manifest_zip_timestamp": [
+    1980,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "prior_retrieved_archive_preserved_at": "inputs/operating_pilot_20261016/transfer_history/a628724817e3c02de5161e2b8af6e7f9f08dbc7cf0e132730d6263cc1f52a48b/remote_checkpoint.retrieved.zip",
+  "reason": "Use deterministic ZIP manifest timestamp so equivalent packages retain SHA; normalize derived ledger to LF; raw research inputs unchanged",
+  "stale_transfer_receipt_guard_rejected": true,
+  "recovery": "Preserved prior retrieved archive and receipt; rebuilt package with deterministic manifest timestamp; performed Windows backup and retrieval again; current pipeline complete"
+}

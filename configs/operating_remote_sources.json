@@ -1,0 +1,9 @@
+{
+  "output_directory": "inputs/operating_pilot_20261016/remote_probe_20261016",
+  "requests": [
+    {"filename": "tsmc_submissions.body", "url": "https://data.sec.gov/submissions/CIK0001046179.json"},
+    {"filename": "umc_submissions.body", "url": "https://data.sec.gov/submissions/CIK0001033767.json"},
+    {"filename": "tsmc_6k_index.body", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004-index.html"},
+    {"filename": "tsmc_6k.body", "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/a4q24e_withguidancexfinal.htm"}
+  ]
+}

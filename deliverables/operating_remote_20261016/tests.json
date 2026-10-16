@@ -1,0 +1,24 @@
+{
+  "tests_run": 28,
+  "passed": true,
+  "output": "----------------------------------------------------------------------\nRan 28 tests in 0.516s\n\nOK\n",
+  "observed_at": "2026-10-16T14:50:49.772623+00:00",
+  "source_sha256": {
+    "operating_remote_audit.py": "f83f88fba739c24c90bc28fc147e11ab9047a2921d4ae8af3a79deede6df4bcb",
+    "operating_remote_sources.mjs": "8ef0cf51dbec0c14aa76ba57cbddee2a09a4434732baeaadf40b7d3c79061768",
+    "operating_remote_backup.mjs": "8265c0b152854ce3da247d0a780060d0e1189536a1d1735f598afa668a6f1646",
+    "test_operating_remote_audit.py": "a8212b318a765ce4c9d8eeb73933c2611cb3c0ebfb3d9884c5992c2641dae556",
+    "configs/operating_remote_pipeline.json": "a6716e81290fae8396592c186672dcba6827550748282c65b4c3d35723f398fc",
+    "configs/operating_remote_sources.json": "bc86c2abc6ddbfe16c9ba19b7f72e0d04806c8429c67d1dd35befc30e10a9fb5",
+    "configs/operating_remote_followup_sources.json": "7095a7b6693b55311a21b64affbc350665f9af6698d5849d12d9876d9e72d39e",
+    "configs/research_reassessment_20261016.json": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+    "requirements_operating_pilot.txt": "0b19b56aeeeab9eee9fc08c7bfd6491cd9dec678b8a438ba42c452b3bb06ce2d"
+  },
+  "command": ".venv/bin/python -m unittest test_operating_remote_audit test_operating_windows_recovery test_research_reassessment test_research_pipeline -q",
+  "new_checks": [
+    "HTTP403 retained only as transport evidence",
+    "Tampered bytes and invalid request clocks rejected",
+    "Management guidance keeps target quarter and closed time gate",
+    "Repackaging original sources across wall-clock changes keeps identical package SHA"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "stages": [
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "operating_remote_audit.py",
+        "package"
+      ],
+      "inputs": [
+        "operating_remote_audit.py",
+        "configs/research_reassessment_20261016.json",
+        "operating_remote_sources.mjs",
+        "operating_remote_backup.mjs",
+        "configs/operating_remote_sources.json",
+        "configs/operating_remote_followup_sources.json",
+        "inputs/operating_pilot_20261016/remote_probe_20261016",
+        "inputs/operating_pilot_20261016/remote_followup_20261016",
+        "deliverables/operating_pilot_20261016/checkpoint.json",
+        "deliverables/operating_windows_recovery_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/source_probe_checkpoint.retrieved.zip",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/windows_recovery.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_remote_20261016/package.json",
+        "inputs/operating_pilot_20261016/remote_checkpoint.zip"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "operating_remote_audit.py",
+        "audit"
+      ],
+      "inputs": [
+        "operating_remote_audit.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_remote_20261016/package.json",
+        "inputs/operating_pilot_20261016/remote_transfer_receipt.json",
+        "inputs/operating_pilot_20261016/remote_checkpoint.retrieved.zip",
+        "operating_source_pilot.py",
+        "operating_windows_recovery.py",
+        "requirements_operating_pilot.txt"
+      ],
+      "outputs": [
+        "deliverables/operating_remote_20261016/source_ledger.csv",
+        "deliverables/operating_remote_20261016/extracted_samples.json",
+        "deliverables/operating_remote_20261016/transport_inventory.json",
+        "deliverables/operating_remote_20261016/checkpoint.json"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_remote_audit.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_remote_audit.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_remote_20261016/source_ledger.csv",
+        "deliverables/operating_remote_20261016/checkpoint.json",
+        "deliverables/operating_remote_20261016/transport_inventory.json"
+      ],
+      "outputs": [
+        "deliverables/operating_remote_20261016/summary.json",
+        "deliverables/operating_remote_20261016/report.md"
+      ],
+      "timeout_seconds": 40
+    }
+  ]
+}

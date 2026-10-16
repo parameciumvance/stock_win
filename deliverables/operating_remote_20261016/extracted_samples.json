@@ -1,0 +1,33 @@
+{
+  "issuer_samples": {
+    "2303": {
+      "issuer": "2303",
+      "quarter": "2024Q4",
+      "gross_margin_pct": 30.4,
+      "eps_twd": 0.68,
+      "revenue_twd_billions": 60.39,
+      "visible_release_date": "2025-01-21",
+      "accounting_basis": "TIFRS consolidated as described in the release",
+      "source_sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+      "source_url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_report.pdf",
+      "source_page": 1
+    },
+    "2330": {
+      "gross_margin_pct": 59.0,
+      "revenue_twd_billions": 868.46,
+      "eps_twd": 14.45,
+      "accounting_basis": "TIFRS consolidated",
+      "source_sha256": "3a2e2a2b10eaf67fb16f0f57edca44dc57ac472c2f24664abec5fe7c4d6ceb9a",
+      "source_url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/cc4e1dec3474f69109d5455fbf8939c3e3cd5a71/4Q24EarningsRelease.pdf",
+      "source_page": 1
+    }
+  },
+  "tsmc_guidance": {
+    "target_quarter": "2025Q1",
+    "gross_margin_lower_pct": 57.0,
+    "gross_margin_upper_pct": 59.0,
+    "timing_verified": false,
+    "ready_for_evaluation": false
+  },
+  "timing_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "blocked_on_original_sec_and_historical_timing",
+  "connected_device": "LAPTOP-HQTVA3O0",
+  "remote_operational": true,
+  "windows_remote_requests": 8,
+  "http_counts": {
+    "403": 8
+  },
+  "issuer_quarters": 24,
+  "numeric_original_documents": 2,
+  "missing_original_quarters": 22,
+  "timing_verified_quarters": 0,
+  "models_fitted": 0,
+  "evaluation_rows": 0,
+  "checkpoint_sha256": "ba52dcca0bfee310170d780bbaadf9bc7606b02378839083deb345570802a286",
+  "seven_rule_daily_plan": "stopped_by_user_no_resume",
+  "required_external_input": "Original SEC complete submissions (.txt) or index + primary 6-K + earnings exhibits + submissions acceptance index for 2330 and 2303, 2024Q4. The issuer PDFs are already available. Keep source URL and original bytes."
+}

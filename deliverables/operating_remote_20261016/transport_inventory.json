@@ -1,0 +1,93 @@
+{
+  "observations": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001033767.json",
+      "http_status": 403,
+      "sha256": "f0c57e2fd6b8907adc202f816e3eaceaace4261086e726c7081f81d0b2402446",
+      "size_bytes": 4817,
+      "request_started_at": "2026-10-16T14:40:25.077Z",
+      "observed_at": "2026-10-16T14:40:26.799Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001046179.json",
+      "http_status": 403,
+      "sha256": "d676e76b7aba0c72cd40957436ec858992d1d0eb3078750ca3059e5b76d676d1",
+      "size_bytes": 4817,
+      "request_started_at": "2026-10-16T14:40:25.033Z",
+      "observed_at": "2026-10-16T14:40:26.806Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004-index.html",
+      "http_status": 403,
+      "sha256": "b3cafc67729a157a9978a170dd62bbb9683a46f8d84e5becbe225a9c7a338887",
+      "size_bytes": 4818,
+      "request_started_at": "2026-10-16T14:40:26.803Z",
+      "observed_at": "2026-10-16T14:40:27.153Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/a4q24e_withguidancexfinal.htm",
+      "http_status": 403,
+      "sha256": "3a22a8c91cd752be93589e9403af269d0e86bcb685b3aa881e381b984d27b328",
+      "size_bytes": 4818,
+      "request_started_at": "2026-10-16T14:40:26.810Z",
+      "observed_at": "2026-10-16T14:40:27.159Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2025/QTR1/master.20250121.idx",
+      "http_status": 403,
+      "sha256": "8943171d76999c15e2c82f795cda6cfe810730c00ad71ea4b750eeab598e3a09",
+      "size_bytes": 4818,
+      "request_started_at": "2026-10-16T14:41:35.822Z",
+      "observed_at": "2026-10-16T14:41:36.019Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004.txt",
+      "http_status": 403,
+      "sha256": "1a4370cc49aa7971e602912f020f0cd192392dea33a11e43f0f7f79460e3d253",
+      "size_bytes": 4818,
+      "request_started_at": "2026-10-16T14:41:35.789Z",
+      "observed_at": "2026-10-16T14:41:36.024Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://www.umc.com/en/Download/quarterly_results/QuarterlyResultsDetail/2024/2024Q4",
+      "http_status": 403,
+      "sha256": "c982d5a9ffb777c3e310c495821f061d875cce68e9bed587b5c0be22e668d7e7",
+      "size_bytes": 5839,
+      "request_started_at": "2026-10-16T14:41:36.026Z",
+      "observed_at": "2026-10-16T14:41:36.164Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    },
+    {
+      "url": "https://investor.tsmc.com/english/quarterly-results/2024/q4",
+      "http_status": 403,
+      "sha256": "d2c3b5ea41b8d18b499d8f5ed170508cc21126898523bc0cb4349d9feb13a4fe",
+      "size_bytes": 5717,
+      "request_started_at": "2026-10-16T14:41:36.021Z",
+      "observed_at": "2026-10-16T14:41:36.903Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "valid_source_response": false
+    }
+  ],
+  "windows_transfer": {
+    "sha256": "ba52dcca0bfee310170d780bbaadf9bc7606b02378839083deb345570802a286",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\operating_remote_20261016_ba52dcca0bfee310170d780bbaadf9bc7606b02378839083deb345570802a286.zip",
+    "retrieved_path": "\\\\wsl.localhost\\Ubuntu-26.04\\home\\vance\\dev_home\\projects\\stock_win\\inputs\\operating_pilot_20261016\\remote_checkpoint.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-16T14:49:25.197Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Dedicated Windows user-profile directory; same computer, no off-device backup claim"
+  }
+}
