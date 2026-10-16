@@ -1,0 +1,12 @@
+{
+  "issuer": "2330",
+  "cik": "0001046179",
+  "quarter": "2024Q4",
+  "accession": "0001046179-25-000004",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004.txt",
+  "source_sha256": "40054c6fe44dda30cc030be4463b7a7566045cafe06dee56c889aad2fd7ab4c1",
+  "source_filename": "0001046179-25-000004.txt",
+  "release_exhibit_filename": "a4q24e_withguidancexfinal.htm",
+  "release_exhibit_type": "EX-99.1",
+  "frozen_protocol_sha256": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b"
+}

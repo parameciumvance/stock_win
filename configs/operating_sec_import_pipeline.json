@@ -1,0 +1,78 @@
+{
+  "stages": [
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "operating_sec_import.py",
+        "package"
+      ],
+      "inputs": [
+        "operating_sec_import.py",
+        "configs/operating_sec_import_20261016.json",
+        "configs/research_reassessment_20261016.json",
+        "inputs/operating_pilot_20261016/sec_import_20261016/0001046179-25-000004.txt",
+        "inputs/operating_pilot_20261016/sec_import_20261016/import.json",
+        "deliverables/operating_remote_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/remote_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_sec_import_20261016/package.json",
+        "inputs/operating_pilot_20261016/sec_import_20261016/source_checkpoint.zip"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "operating_sec_import.py",
+        "audit"
+      ],
+      "inputs": [
+        "operating_sec_import.py",
+        "configs/operating_sec_import_20261016.json",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_sec_import_20261016/package.json",
+        "inputs/operating_pilot_20261016/sec_import_20261016/transfer.json",
+        "inputs/operating_pilot_20261016/sec_import_20261016/source_checkpoint.retrieved.zip",
+        "requirements_operating_pilot.txt",
+        "sec_submission.py",
+        "twse_history/revenue_pilot.py",
+        "operating_windows_recovery.py",
+        "operating_remote_audit.py",
+        "deliverables/operating_sec_import_20261016/index_observation.json",
+        "deliverables/operating_remote_20261016/source_ledger.csv",
+        "deliverables/operating_remote_20261016/pipeline_state.json"
+      ],
+      "outputs": [
+        "deliverables/operating_sec_import_20261016/sec_evidence.json",
+        "deliverables/operating_sec_import_20261016/source_ledger.csv"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_sec_import.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_sec_import.py",
+        "configs/operating_sec_import_20261016.json",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_sec_import_20261016/sec_evidence.json",
+        "deliverables/operating_sec_import_20261016/source_ledger.csv",
+        "deliverables/operating_sec_import_20261016/package.json",
+        "inputs/operating_pilot_20261016/sec_import_20261016/transfer.json"
+      ],
+      "outputs": [
+        "deliverables/operating_sec_import_20261016/summary.json",
+        "deliverables/operating_sec_import_20261016/report.md",
+        "deliverables/operating_sec_import_20261016/checkpoint.json"
+      ],
+      "timeout_seconds": 40
+    }
+  ]
+}

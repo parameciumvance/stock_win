@@ -1,3 +1,9 @@
+# 2026-10-16 台積電完整SEC申報匯入
+
+使用者提供的2024Q4完整SEC申報已原樣匯入、Windows備份取回及SHA／manifest／CRC驗證通過。CIK、accession、19個文件、6-K主文件與EX-99.1附件結構通過；接受時間2025-01-16 06:13:35美東（台北19:13:35）與官方索引解析觀察一致。SEC附件與既有官方PDF的三個財務欄位及下一季毛利率財測區間全部一致。35項相關測試通過，見[匯入報告](../deliverables/operating_sec_import_20261016/report.md)、[測試](../deliverables/operating_sec_import_20261016/tests.json)。
+
+目前兩個公司季有原文，其中一季新增SEC版本／標頭時間證據；22季原文及23季SEC證據仍缺。台灣首次公開／傳播時點與完整修訂歷程沒有宣稱通過，全部ready_for_model=False、無新模型或績效。下一份需要聯電2024Q4完整SEC申報；七規則每日計畫維持停止。
+
 # 2026-10-16 Desktop Commander續作
 
 裝置已上線並確認可存取本專案。本輪8個公開來源請求均HTTP403，未取得新SEC原文；兩家公司2024Q4原始PDF已統一重播到24季ledger，台積電下一季財測區間另保留不可使用標記。跨WSL／Windows NTFS的原始包備份取回、SHA／manifest／CRC通過，28項相關測試通過。完整時點／版本關卡仍未過，不建模、不擴大下載。見[本輪報告](../deliverables/operating_remote_20261016/report.md)、[測試紀錄](../deliverables/operating_remote_20261016/tests.json)。七規則每日計畫繼續停止。

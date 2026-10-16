@@ -1,0 +1,29 @@
+{
+  "tests_run": 35,
+  "passed": true,
+  "output": "----------------------------------------------------------------------\nRan 35 tests in 0.487s\n\nOK\n",
+  "command": ".venv/bin/python -m unittest test_sec_submission test_operating_remote_audit test_operating_windows_recovery test_research_reassessment test_research_pipeline -q",
+  "recorded_at": "2026-10-16T15:03:53.204165+00:00",
+  "source_sha256": {
+    "sec_submission.py": "9ae531832a7638db24ed6cc6d1254ee10274e78c5293418cb88cdaabb5b410f8",
+    "operating_sec_import.py": "bb6bb80962f5699e5604a83c3d5da5e5bc2e6a2b72e292065de8b446ee1f9e78",
+    "research_archive_transfer.mjs": "b62eed76677e479ef266e5af08bd83c2953ea3e329357fc83f638ae43b7cb612",
+    "test_sec_submission.py": "c8227ee29a4e53e3d38d42cd44d48909334e479d51853cdc5985c7177f329af8",
+    "configs/operating_sec_import_20261016.json": "dc6130f3a96029c3fdacff3fd01b83e157d29a62721842563522b4204dd2ecfd",
+    "configs/operating_sec_import_pipeline.json": "88b7fdbbe8821c0849ab694bbf5878d55f145e93fc707f7e8e2a61d30ac8fb4b",
+    "configs/research_reassessment_20261016.json": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+    "requirements_operating_pilot.txt": "0b19b56aeeeab9eee9fc08c7bfd6491cd9dec678b8a438ba42c452b3bb06ce2d",
+    "operating_windows_recovery.py": "aab883d6a48527de6775a0029b6faeb39adf6323050675f1b18f1e4307eb030e",
+    "operating_remote_audit.py": "f83f88fba739c24c90bc28fc147e11ab9047a2921d4ae8af3a79deede6df4bcb",
+    "twse_history/revenue_pilot.py": "7906b12555b336b4d97aaf746d8f9c67d0bb34461146d3a7903d4212ba424faf"
+  },
+  "new_checks": [
+    "Distinct primary filing and earnings exhibit",
+    "Winter/summer Eastern -> UTC/Taipei conversion",
+    "Ambiguous and nonexistent DST clocks fail closed",
+    "Wrong CIK/accession/quarter and amended form rejected",
+    "Missing/duplicate/unsafe document structures rejected",
+    "Truncated or HTTP error downloads rejected",
+    "Duplicate header clock and inconsistent dates rejected"
+  ]
+}

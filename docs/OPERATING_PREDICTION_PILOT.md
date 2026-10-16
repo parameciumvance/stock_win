@@ -14,6 +14,24 @@
 
 第一目標是下一季合併毛利率，先與上一季、去年同季及可比管理層財測比較。資料完整時最多僅16組共同預測目標，這個規模只驗證來源與簡單基準，不訓練高維價格模型。若原始版本／時間不齊，就停在來源關卡，不以現在靜態表替代。此次沒有訓練新模型或計算預測勝率。
 
+## 台積電完整SEC申報已匯入：最新進度
+
+使用者提供的 `0001046179-25-000004.txt`（1,535,419 bytes，SHA `40054c6fe44dda30cc030be4463b7a7566045cafe06dee56c889aad2fd7ab4c1`）已原樣保存、打包、Windows備份取回及SHA／manifest／CRC驗證。下載檔的Zone.Identifier HostUrl吻合SEC URL；沒有虛構HTTP headers，也不將它描述為SEC數位簽章。
+
+SEC標頭與19個文件結構、6-K主文件對EX-99.1的引用均核對通過。接受時間2025-01-16 06:13:35美東，換算台北19:13:35，與官方索引解析觀察相符；索引不是原始HTML、submissions JSON尚未取得。SEC附件與官方PDF獨立解析的毛利率59.0%、EPS14.45元、營收868.46十億元及2025Q1毛利率財測57%～59%完全一致。35項相關測試通過。
+
+兩家公司2024Q4原文已有，其中台積電新增一份完整SEC版本與標頭接受時間證據；其餘22季原文、23季SEC證據仍缺。完整時點／修訂歷程未通過，全部24列仍不可建模；沒有把SEC接受時間當成台灣首次公告或公開傳播時間。最新[來源ledger](../deliverables/operating_sec_import_20261016/source_ledger.csv)、[報告](../deliverables/operating_sec_import_20261016/report.md)、[checkpoint](../deliverables/operating_sec_import_20261016/checkpoint.json)、[測試](../deliverables/operating_sec_import_20261016/tests.json)。以下為先前快照。
+
+下一個來源依賴是聯電2024Q4完整SEC申報。若尚未知道accession，可先將[聯電SEC submissions索引](https://data.sec.gov/submissions/CIK0001033767.json)下載到Downloads，由工具定位2025-01-21對應申報，避免猜測accession或拿錯季。台積電已取得的PDF及完整申報均不需重傳。仍維持先兩組來源路徑核驗，不擴大下載22季。
+
+重播：
+
+```bash
+.venv/bin/python research_pipeline.py --plan configs/operating_sec_import_pipeline.json --state-dir inputs/operating_pilot_20261016/sec_import_pipeline
+```
+
+若恢復時缺transfer receipt，在確認package SHA後，用上線裝置執行 `research_archive_transfer.mjs deliverables/operating_sec_import_20261016/package.json` 完成Windows備份取回再續跑。原文在inputs／Windows研究備份資料夾，Git只保存程式、配置與小型收據。
+
 ## Desktop Commander已上線：目前結果
 
 已用上線裝置執行兩批、每批兩個worker的公開來源取得，8個實際HTTP請求皆403。既有七個ref ZIP未找到符合SEC／2024Q4命名的原文。沒有因新增操作權限而跳過來源／時間關卡。

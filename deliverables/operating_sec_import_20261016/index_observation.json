@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-16T14:59:28.936406+00:00",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004-index.htm",
+  "representation": "Manually transcribed fields from web tool parsed official index; not original HTTP bytes",
+  "raw_http_response_available": false,
+  "accession": "0001046179-25-000004",
+  "cik": "0001046179",
+  "form": "6-K",
+  "accepted_as_displayed": "2025-01-16 06:13:35",
+  "document_count": 19,
+  "period_of_report": "2024-12-31",
+  "primary_filename": "tsm-20250116x6k.htm",
+  "exhibit_filename": "a4q24e_withguidancexfinal.htm",
+  "complete_submission_size_bytes": 1535419
+}

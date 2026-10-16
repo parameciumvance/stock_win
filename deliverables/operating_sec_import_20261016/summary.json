@@ -1,0 +1,15 @@
+{
+  "status": "tsmc_sec_snapshot_verified_full_pilot_gate_pending",
+  "numeric_original_quarters": 2,
+  "sec_snapshot_header_clock_verified_quarters": 1,
+  "missing_original_quarters": 22,
+  "missing_sec_snapshot_quarters": 23,
+  "full_timing_revision_gate_verified_quarters": 0,
+  "models_fitted": 0,
+  "evaluation_rows": 0,
+  "sec_accepted_at": "2025-01-16T19:13:35+08:00",
+  "source_sha256": "40054c6fe44dda30cc030be4463b7a7566045cafe06dee56c889aad2fd7ab4c1",
+  "checkpoint_sha256": "51eb9e2014a663d94ac2d6dba942009609483b01b3f5a6f800dd3f9b3ff8a8ae",
+  "seven_rule_daily_plan": "stopped_by_user_no_resume",
+  "next_external_dependency": "UMC 2024Q4 original complete SEC submission; independent publication/revision coverage still pending"
+}

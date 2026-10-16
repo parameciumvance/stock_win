@@ -1,0 +1,204 @@
+{
+  "cik": "0001046179",
+  "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+  "accession": "0001046179-25-000004",
+  "form": "6-K",
+  "quarter": "2024Q4",
+  "period_of_report": "20241231",
+  "filed_date": "20250116",
+  "acceptance": {
+    "raw": "20250116061335",
+    "timezone": "America/New_York",
+    "eastern": "2025-01-16T06:13:35-05:00",
+    "utc": "2025-01-16T11:13:35+00:00",
+    "taipei": "2025-01-16T19:13:35+08:00"
+  },
+  "document_count": 19,
+  "primary_filename": "tsm-20250116x6k.htm",
+  "source_sha256": "40054c6fe44dda30cc030be4463b7a7566045cafe06dee56c889aad2fd7ab4c1",
+  "source_size_bytes": 1535419,
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004.txt",
+  "import_observed_at": "2026-10-16T14:54:15.9581536+00:00",
+  "download_zone_host_matches": true,
+  "source_http_headers_available": false,
+  "source_origin": "User-provided browser download; Zone.Identifier HostUrl matches expected SEC URL, not a cryptographic SEC signature",
+  "documents": [
+    {
+      "filename": "tsm-20250116x6k.htm",
+      "sequence": 1,
+      "type": "6-K",
+      "payload_sha256": "c74dafe49dc1eee474d246ab290058d3cb5146e363ffe4a503b6ae5248e6e5fb",
+      "payload_size_bytes": 19803
+    },
+    {
+      "filename": "a4q24e_withguidancexfinal.htm",
+      "sequence": 2,
+      "type": "EX-99.1",
+      "payload_sha256": "80c6236e24671f9ed012ff53d94de13477bad56f081ecc3a4534cea8a9b0c9e7",
+      "payload_size_bytes": 28686
+    },
+    {
+      "filename": "a4q24presentatione.htm",
+      "sequence": 3,
+      "type": "EX-99.2",
+      "payload_sha256": "a742fa42577c3866f136874977831dbd784e795a09a5991b938b32141e1b4eef",
+      "payload_size_bytes": 11424
+    },
+    {
+      "filename": "a4q24presentatione001.jpg",
+      "sequence": 4,
+      "type": "GRAPHIC",
+      "payload_sha256": "e77e856c390cac08cfc8cf722b773e659d62fa9f4d241888ba6849b1e6935d58",
+      "payload_size_bytes": 77113
+    },
+    {
+      "filename": "a4q24presentatione002.jpg",
+      "sequence": 5,
+      "type": "GRAPHIC",
+      "payload_sha256": "299e8968f87ea2830910346659508213d38d379c8418f25011cb714b0235f9ba",
+      "payload_size_bytes": 72342
+    },
+    {
+      "filename": "a4q24presentatione003.jpg",
+      "sequence": 6,
+      "type": "GRAPHIC",
+      "payload_sha256": "8450765535743ba0d985167d912b3c724fe250b11b3abad8ea6d04f03c84027b",
+      "payload_size_bytes": 165983
+    },
+    {
+      "filename": "a4q24presentatione004.jpg",
+      "sequence": 7,
+      "type": "GRAPHIC",
+      "payload_sha256": "fc58b4590a56b9631a785a51289380b370e02a5ad02d7bd8e22bc7a17d70dd32",
+      "payload_size_bytes": 148726
+    },
+    {
+      "filename": "a4q24presentatione005.jpg",
+      "sequence": 8,
+      "type": "GRAPHIC",
+      "payload_sha256": "20d0c27a3d4c41fefb3436c71edddc3bd5ca3072d9d1c4d5f3bd6ab19a0b16b6",
+      "payload_size_bytes": 104283
+    },
+    {
+      "filename": "a4q24presentatione006.jpg",
+      "sequence": 9,
+      "type": "GRAPHIC",
+      "payload_sha256": "625bdeea49a0fd5c89a66e97b92bfa9a01136546ad8a40423ed85f0173acc59e",
+      "payload_size_bytes": 101391
+    },
+    {
+      "filename": "a4q24presentatione007.jpg",
+      "sequence": 10,
+      "type": "GRAPHIC",
+      "payload_sha256": "689b0508da8e29bb8a78492c27a44876121ffd055dbb7e0ae937a7f95cad5470",
+      "payload_size_bytes": 80033
+    },
+    {
+      "filename": "a4q24presentatione008.jpg",
+      "sequence": 11,
+      "type": "GRAPHIC",
+      "payload_sha256": "450f9ae214ed7d035dd7d8a725f185ee2eaaccb338387765d999c74a1fce8681",
+      "payload_size_bytes": 79333
+    },
+    {
+      "filename": "a4q24presentatione009.jpg",
+      "sequence": 12,
+      "type": "GRAPHIC",
+      "payload_sha256": "278e64db9f78636d843466d55e3f3b45e534f3f8c0ec1202d5acf6c3fa80b124",
+      "payload_size_bytes": 137639
+    },
+    {
+      "filename": "a4q24presentatione010.jpg",
+      "sequence": 13,
+      "type": "GRAPHIC",
+      "payload_sha256": "32664fb29bfa173cb23ca2c2fcb881943c0365a85b45f299f2a605edd07aee94",
+      "payload_size_bytes": 91271
+    },
+    {
+      "filename": "a4q24presentatione011.jpg",
+      "sequence": 14,
+      "type": "GRAPHIC",
+      "payload_sha256": "c3bbd08ec688223da6796e49fc04351726b077db18f8c86494a25f739049fb71",
+      "payload_size_bytes": 107240
+    },
+    {
+      "filename": "a4q24presentatione012.jpg",
+      "sequence": 15,
+      "type": "GRAPHIC",
+      "payload_sha256": "bb4625f8af4c25e1ea9351ebd728857e7ee703c16e8a578c5824d2ad743cd431",
+      "payload_size_bytes": 95261
+    },
+    {
+      "filename": "a4q24presentatione013.jpg",
+      "sequence": 16,
+      "type": "GRAPHIC",
+      "payload_sha256": "192591a9a3d2b106b1ce1a3dbbc043ff72685b43e9c7d67b9d152e3fc01c8e4e",
+      "payload_size_bytes": 132649
+    },
+    {
+      "filename": "a4q24presentatione014.jpg",
+      "sequence": 17,
+      "type": "GRAPHIC",
+      "payload_sha256": "eba9fcfaef72c9deb598edcbda077fb520ab425aadaeced3f19e945a7bb4a9b3",
+      "payload_size_bytes": 64356
+    },
+    {
+      "filename": "image_0.jpg",
+      "sequence": 18,
+      "type": "GRAPHIC",
+      "payload_sha256": "d5527b6622a5c9887a163f4d74b58804eef5ff12ca6b4934b15127c5e07ef072",
+      "payload_size_bytes": 4495
+    },
+    {
+      "filename": "image_1.jpg",
+      "sequence": 19,
+      "type": "GRAPHIC",
+      "payload_sha256": "2ef0b4d33812ced45c5e0c3e4c7f7f3ba70b1ca7b7fb829c7e041550309d9633",
+      "payload_size_bytes": 10341
+    }
+  ],
+  "exhibit_financial_values": {
+    "gross_margin_pct": 59.0,
+    "revenue_twd_billions": 868.46,
+    "eps_twd": 14.45,
+    "accounting_basis": "TIFRS consolidated"
+  },
+  "issuer_pdf_sha256": "3a2e2a2b10eaf67fb16f0f57edca44dc57ac472c2f24664abec5fe7c4d6ceb9a",
+  "issuer_pdf_financial_values": {
+    "gross_margin_pct": 59.0,
+    "revenue_twd_billions": 868.46,
+    "eps_twd": 14.45,
+    "accounting_basis": "TIFRS consolidated"
+  },
+  "financial_reconciliation_passed": true,
+  "management_guidance": {
+    "target_quarter": "2025Q1",
+    "gross_margin_lower_pct": 57.0,
+    "gross_margin_upper_pct": 59.0,
+    "timing_verified": false,
+    "ready_for_evaluation": false
+  },
+  "parsed_index_corroboration": {
+    "recorded_at": "2026-10-16T14:59:28.936406+00:00",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617925000004/0001046179-25-000004-index.htm",
+    "representation": "Manually transcribed fields from web tool parsed official index; not original HTTP bytes",
+    "raw_http_response_available": false,
+    "accession": "0001046179-25-000004",
+    "cik": "0001046179",
+    "form": "6-K",
+    "accepted_as_displayed": "2025-01-16 06:13:35",
+    "document_count": 19,
+    "period_of_report": "2024-12-31",
+    "primary_filename": "tsm-20250116x6k.htm",
+    "exhibit_filename": "a4q24e_withguidancexfinal.htm",
+    "complete_submission_size_bytes": 1535419
+  },
+  "sec_snapshot_and_header_clock_verified": true,
+  "independent_index_raw_response_available": false,
+  "submissions_json_crosscheck_available": false,
+  "taiwan_first_published_at": null,
+  "public_dissemination_timestamp": null,
+  "complete_revision_history_verified": false,
+  "ready_for_model": false,
+  "checkpoint_sha256": "51eb9e2014a663d94ac2d6dba942009609483b01b3f5a6f800dd3f9b3ff8a8ae"
+}

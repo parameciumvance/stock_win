@@ -1,0 +1,13 @@
+{
+  "archive": "inputs/operating_pilot_20261016/sec_import_20261016/source_checkpoint.zip",
+  "sha256": "51eb9e2014a663d94ac2d6dba942009609483b01b3f5a6f800dd3f9b3ff8a8ae",
+  "manifest_files": 6,
+  "created_at": "2026-10-16T15:00:47.603300+00:00",
+  "retrieved": "inputs/operating_pilot_20261016/sec_import_20261016/source_checkpoint.retrieved.zip",
+  "transfer_receipt": "inputs/operating_pilot_20261016/sec_import_20261016/transfer.json",
+  "backup_label": "operating_sec_import_20261016",
+  "backup_path": "C:\\Users\\user\\stock_win_research_backups\\operating_sec_import_20261016_51eb9e2014a663d94ac2d6dba942009609483b01b3f5a6f800dd3f9b3ff8a8ae.zip",
+  "roundtrip_verified": true,
+  "crc_verified": true,
+  "verified_at": "2026-10-16T15:00:48.588165+00:00"
+}
