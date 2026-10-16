@@ -1,0 +1,101 @@
+{
+  "stages": {
+    "checkpoint": {
+      "status": "complete",
+      "fingerprint": "58f941c3edf0a89e3a7591c1dc40b5b35265a49d3e117c5ad841fc787d11494b",
+      "started_at": "2026-10-16T12:27:15.455816+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T12:27:15.455915+00:00",
+        "runtime_identity": "b11bf8206b42048f8745ee7918a81e02aade7d6d9a9c898e1209fcf7b1fff896",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/windows_recovery_pipeline/logs/checkpoint.1792153635458214270.log",
+      "peak_observed_rss_bytes": 7114752,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5031747629982419,
+      "outputs": {
+        "deliverables/operating_windows_recovery_20261016/checkpoint.json": "a740dabc9cc023901e193bb5b4232805c86939a6bab111287f9f0f08bd88a18c",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/windows_recovery.zip": "0bf208b20ce67ee0741e725dca79069f2cf7d6a94bb5a723bce0ab328972d284"
+      },
+      "finished_at": "2026-10-16T12:27:15.966098+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T12:27:15.966184+00:00",
+        "runtime_identity": "b11bf8206b42048f8745ee7918a81e02aade7d6d9a9c898e1209fcf7b1fff896",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "replay": {
+      "status": "complete",
+      "fingerprint": "d6d09401db65bc583765a525ba394b7837a8a5abba3078f2f5d55672f3afdd16",
+      "started_at": "2026-10-16T12:27:15.969343+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T12:27:15.969427+00:00",
+        "runtime_identity": "b11bf8206b42048f8745ee7918a81e02aade7d6d9a9c898e1209fcf7b1fff896",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/windows_recovery_pipeline/logs/replay.1792153635971530790.log",
+      "peak_observed_rss_bytes": 8351744,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5050256889662705,
+      "outputs": {
+        "deliverables/operating_windows_recovery_20261016/replay.json": "6ca55e855729fad21e30d4e65739ceaea4d79be28013db56ec43bc3b4e491b42"
+      },
+      "finished_at": "2026-10-16T12:27:16.481778+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T12:27:16.481863+00:00",
+        "runtime_identity": "b11bf8206b42048f8745ee7918a81e02aade7d6d9a9c898e1209fcf7b1fff896",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "571990d37fd9c7c3b7d1928ff41ca00fb110729d8d4d8deab8379493ade3c112",
+      "started_at": "2026-10-16T12:27:16.485224+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T12:27:16.485347+00:00",
+        "runtime_identity": "b11bf8206b42048f8745ee7918a81e02aade7d6d9a9c898e1209fcf7b1fff896",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/windows_recovery_pipeline/logs/report.1792153636487736020.log",
+      "peak_observed_rss_bytes": 7385088,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5050331150414422,
+      "outputs": {
+        "deliverables/operating_windows_recovery_20261016/summary.json": "8ba30742f6430e612c5647a9c31bbf2ae25cf760516c6853d05160acf358e57e",
+        "deliverables/operating_windows_recovery_20261016/report.md": "a0a47fec59daa7c86dfbf7020d11dcc90c6c2db3423b396322e158488a89c427"
+      },
+      "finished_at": "2026-10-16T12:27:16.997120+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T12:27:16.997204+00:00",
+        "runtime_identity": "b11bf8206b42048f8745ee7918a81e02aade7d6d9a9c898e1209fcf7b1fff896",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-16T12:28:00.823294+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-16T12:28:00.839283+00:00",
+  "current_stage": "report",
+  "message": "RuntimeError: Child failed; inspect inputs/operating_pilot_20261016/windows_recovery_pipeline/logs/replay.1792153603029085973.log",
+  "finished_at": "2026-10-16T12:28:00.839265+00:00"
+}

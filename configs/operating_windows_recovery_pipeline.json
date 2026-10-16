@@ -1,0 +1,65 @@
+{
+  "stages": [
+    {
+      "id": "checkpoint",
+      "command": [
+        "{python}",
+        "operating_windows_recovery.py",
+        "checkpoint"
+      ],
+      "inputs": [
+        "operating_windows_recovery.py",
+        "configs/research_reassessment_20261016.json",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/curl",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/sec_archive",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/fetch.ps1",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/run.py",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/run_curl.py",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/fetch_sec_archive.py",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/results.json"
+      ],
+      "outputs": [
+        "deliverables/operating_windows_recovery_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/windows_recovery.zip"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "operating_windows_recovery.py",
+        "replay"
+      ],
+      "inputs": [
+        "operating_windows_recovery.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_windows_recovery_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/windows_probe_20261016/windows_recovery.retrieved.zip",
+        "requirements_operating_pilot.txt"
+      ],
+      "outputs": [
+        "deliverables/operating_windows_recovery_20261016/replay.json"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_windows_recovery.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_windows_recovery.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_windows_recovery_20261016/replay.json"
+      ],
+      "outputs": [
+        "deliverables/operating_windows_recovery_20261016/summary.json",
+        "deliverables/operating_windows_recovery_20261016/report.md"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

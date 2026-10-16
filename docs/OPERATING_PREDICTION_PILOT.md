@@ -14,7 +14,13 @@
 
 第一目標是下一季合併毛利率，先與上一季、去年同季及可比管理層財測比較。資料完整時最多僅16組共同預測目標，這個規模只驗證來源與簡單基準，不訓練高維價格模型。若原始版本／時間不齊，就停在來源關卡，不以現在靜態表替代。此次沒有訓練新模型或計算預測勝率。
 
-## 目前外部依賴
+## Windows本機通道恢復（同日後續）
+
+使用者授權操作電腦後，已從WSL呼叫Windows內建curl取得台積電2024Q4官方PDF（178,679 bytes，SHA `3a2e2a2b10eaf67fb16f0f57edca44dc57ac472c2f24664abec5fe7c4d6ceb9a`）。新原文另包封存、備份取回、SHA／CRC／manifest及PDF解析通過；台積電與聯電2024Q4原文皆已取得，22季仍缺原文，全部24季仍未通過時點／版本關卡。Windows的兩家公司submissions及台積電6-K原文／索引仍HTTP403。23項相關測試通過。
+
+目前可直接執行Windows命令，無需使用者提供帳密；Desktop Commander裝置離線，尚未建立桌面GUI通道。詳細證據與連線說明見[本機恢復報告](../deliverables/operating_windows_recovery_20261016/report.md)。以下保留先前觀察與來源，缺口以本段及新報告為準。
+
+## 先前外部依賴快照
 
 8個具體官方路徑請求回HTTP403，含SEC submissions、6-K原文、兩家公司IR頁、台積電PDF與新聞稿；明示User-Agent的SEC重試亦403，未留精確時刻者不補造。聯電2024Q4季報的官網直接PDF及備援CDN均成功下載，兩者bytes及SHA完全一致：
 
@@ -38,3 +44,11 @@ uv pip install --python .venv/bin/python -r requirements_operating_pilot.txt
 ```
 
 兩份plan驗收現有觀察及凍結輸入，不自動重試被拒來源或啟動每日服務。相關19項測試、程式與套件版本見`deliverables/reassessment_20261016/tests.json`。本地備份同檔案系統，大檔不提交Git。完整試點報告見[來源試點](../deliverables/operating_pilot_20261016/report.md)。
+
+Windows原文封存與解析重播：
+
+```bash
+.venv/bin/python research_pipeline.py --plan configs/operating_windows_recovery_pipeline.json --state-dir inputs/operating_pilot_20261016/windows_recovery_pipeline
+```
+
+此plan只核驗已保存的Windows傳輸觀察，無網路下載或每日服務。
