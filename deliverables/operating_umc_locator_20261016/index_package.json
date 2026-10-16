@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.zip",
+  "sha256": "daa856517fbf2759d33890c25cbd0bd5dc36ef8bb8dd6ec631193103f39e44e3",
+  "manifest_files": 3,
+  "created_at": "2026-10-16T15:13:49.428488+00:00",
+  "retrieved": "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.retrieved.zip",
+  "transfer_receipt": "inputs/operating_pilot_20261016/umc_index_20261016/index_transfer.json",
+  "backup_label": "operating_umc_index_20261016"
+}

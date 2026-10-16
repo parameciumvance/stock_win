@@ -1,0 +1,26 @@
+{
+  "tests_run": 42,
+  "passed": true,
+  "output": "----------------------------------------------------------------------\nRan 42 tests in 0.489s\n\nOK\n",
+  "command": ".venv/bin/python -m unittest test_sec_submissions_index test_sec_submission test_operating_remote_audit test_operating_windows_recovery test_research_reassessment test_research_pipeline -q",
+  "recorded_at": "2026-10-16T15:15:39.749567+00:00",
+  "source_sha256": {
+    "sec_submissions_index.py": "e12f1928cd7483eb4d52f68b329b0ab31225a835d510d0dd84d94a1ae1f3aab6",
+    "operating_umc_locator.py": "f17bb155d0bdbc15e27764a645705c2a2e33610de407add60c027dd8d91aa441",
+    "test_sec_submissions_index.py": "e9166b970e7f705b83e7fa9bfd678e4314eb4359baaf41693804d1a59bb28837",
+    "configs/operating_umc_locator_pipeline.json": "0e7729fa54283c776c24f55a2ec3585b847e2aaf0feaaa151c7c371145e7ae18",
+    "configs/research_reassessment_20261016.json": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+    "operating_remote_sources.mjs": "8ef0cf51dbec0c14aa76ba57cbddee2a09a4434732baeaadf40b7d3c79061768",
+    "research_archive_transfer.mjs": "b62eed76677e479ef266e5af08bd83c2953ea3e329357fc83f638ae43b7cb612"
+  },
+  "new_checks": [
+    "Event reportDate is not assumed to be financial quarter-end",
+    "Submissions clock remains unverified and unconverted",
+    "Wrong issuer/company and malformed root rejected",
+    "Misaligned arrays and duplicate accessions rejected",
+    "Unsafe URL components and naive clocks rejected",
+    "Missing recent target preserves archived index coverage",
+    "Duplicate JSON keys rejected",
+    "Repackaging with changed filesystem time preserves archive bytes and package receipt"
+  ]
+}

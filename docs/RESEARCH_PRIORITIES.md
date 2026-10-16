@@ -1,3 +1,9 @@
+# 2026-10-16 聯電SEC索引已驗收
+
+使用者提供的聯電submissions JSON已原樣匯入、封存、Windows備份取回、SHA／manifest／CRC驗證通過。738列recent陣列定位2025-01-21唯一6-K候選 `0000950170-25-006966`；它仍是候選，財務季度及JSON接受時間尚未由SGML原文核驗。兩個worker對完整申報與索引各請求一次，實際均HTTP403，錯誤回應亦封存取回。42項相關測試通過，見[聯電索引報告](../deliverables/operating_umc_locator_20261016/report.md)、[測試](../deliverables/operating_umc_locator_20261016/tests.json)。
+
+下一份明確依賴：[聯電候選完整申報原文](https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966.txt)。已有的JSON、兩家公司PDF與台積電完整申報不需重傳。模型、績效評估及七規則每日計畫均未啟動；先前原文／時間驗收結果維持。
+
 # 2026-10-16 台積電完整SEC申報匯入
 
 使用者提供的2024Q4完整SEC申報已原樣匯入、Windows備份取回及SHA／manifest／CRC驗證通過。CIK、accession、19個文件、6-K主文件與EX-99.1附件結構通過；接受時間2025-01-16 06:13:35美東（台北19:13:35）與官方索引解析觀察一致。SEC附件與既有官方PDF的三個財務欄位及下一季毛利率財測區間全部一致。35項相關測試通過，見[匯入報告](../deliverables/operating_sec_import_20261016/report.md)、[測試](../deliverables/operating_sec_import_20261016/tests.json)。

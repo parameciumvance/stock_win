@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "filename": "candidate_0_complete.body",
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966.txt",
+      "http_status": 403,
+      "sha256": "bacefec6151e0008b2cbda2f9f2fd634d9276cac26018fb95579ae09194d4e3b",
+      "size_bytes": 4818,
+      "request_started_at": "2026-10-16T15:11:45.077Z",
+      "observed_at": "2026-10-16T15:11:45.955Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch"
+    },
+    {
+      "filename": "candidate_0_index.body",
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index.htm",
+      "http_status": 403,
+      "sha256": "cf4bb9b332e9d9e386f7555b9a816ce1fc0fbd0d738d314e0f2afe0aae79f8cf",
+      "size_bytes": 4818,
+      "request_started_at": "2026-10-16T15:11:45.107Z",
+      "observed_at": "2026-10-16T15:11:45.965Z",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch"
+    }
+  ]
+}

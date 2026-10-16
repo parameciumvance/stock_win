@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-16T15:13:49.319666+00:00",
+  "reason": "Stale receipt gate rejected package metadata churn; preserve earlier backups, make archive member timestamps and identical package receipts stable, redo both transfers. No source requests repeated.",
+  "previous": [
+    {
+      "tag": "index",
+      "sha256": "ee50d18ba4cc8db84307cb2cd8342416fb95e36c8b5d062a353ec3f150c13df8",
+      "retrieved": "inputs/operating_pilot_20261016/umc_index_20261016/transfer_history/index/ee50d18ba4cc8db84307cb2cd8342416fb95e36c8b5d062a353ec3f150c13df8/index_checkpoint.retrieved.zip",
+      "current_sha256": "daa856517fbf2759d33890c25cbd0bd5dc36ef8bb8dd6ec631193103f39e44e3"
+    },
+    {
+      "tag": "probe",
+      "sha256": "ca097fdeeaddf2d5a2350536508d1b95c46e67bee0d2895e20567dd3c99e2f83",
+      "retrieved": "inputs/operating_pilot_20261016/umc_index_20261016/transfer_history/probe/ca097fdeeaddf2d5a2350536508d1b95c46e67bee0d2895e20567dd3c99e2f83/probe_checkpoint.retrieved.zip",
+      "current_sha256": "c43adec854375cfbbe12d13aa09b218caa8a008cd8b51d0fc3ee1368c6b4f88f"
+    }
+  ],
+  "original_and_http_response_bytes_unchanged": true,
+  "source_network_requests_not_repeated": true,
+  "recovery": "Preserved prior archives and receipts; stabilize all ZIP member mtimes and same-payload receipt creation time; redo Windows transfers; current pipeline complete"
+}

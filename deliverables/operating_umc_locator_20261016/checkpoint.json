@@ -1,0 +1,13 @@
+{
+  "archive": "inputs/operating_pilot_20261016/umc_index_20261016/probe_checkpoint.zip",
+  "sha256": "c43adec854375cfbbe12d13aa09b218caa8a008cd8b51d0fc3ee1368c6b4f88f",
+  "manifest_files": 10,
+  "created_at": "2026-10-16T15:14:07.119827+00:00",
+  "retrieved": "inputs/operating_pilot_20261016/umc_index_20261016/probe_checkpoint.retrieved.zip",
+  "transfer_receipt": "inputs/operating_pilot_20261016/umc_index_20261016/probe_transfer.json",
+  "backup_label": "operating_umc_probe_20261016",
+  "backup_path": "C:\\Users\\user\\stock_win_research_backups\\operating_umc_probe_20261016_c43adec854375cfbbe12d13aa09b218caa8a008cd8b51d0fc3ee1368c6b4f88f.zip",
+  "roundtrip_verified": true,
+  "crc_verified": true,
+  "verified_at": "2026-10-16T15:14:12.337840+00:00"
+}

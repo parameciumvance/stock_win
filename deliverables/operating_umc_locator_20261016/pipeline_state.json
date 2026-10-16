@@ -1,0 +1,134 @@
+{
+  "stages": {
+    "package_index": {
+      "status": "complete",
+      "fingerprint": "5136213bae6466bf2c4eada4b3b6f2a4dea1e2783629eaa3a123099edf4d4d7e",
+      "started_at": "2026-10-16T15:13:49.375800+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T15:13:49.375869+00:00",
+        "runtime_identity": "cf0857a7bd8f7c503b7e1d620048636899fc8bf66be3a6a0ee7166113f33d351",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_locator_pipeline/logs/package_index.1792163629378267924.log",
+      "peak_observed_rss_bytes": 7602176,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5038834289880469,
+      "outputs": {
+        "deliverables/operating_umc_locator_20261016/index_package.json": "8bbf863da17a00a1a51b1d9cd022532d0878b478e9de1c72e3714be2717d4887",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.zip": "daa856517fbf2759d33890c25cbd0bd5dc36ef8bb8dd6ec631193103f39e44e3"
+      },
+      "finished_at": "2026-10-16T15:13:49.889822+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T15:13:49.889894+00:00",
+        "runtime_identity": "cf0857a7bd8f7c503b7e1d620048636899fc8bf66be3a6a0ee7166113f33d351",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "locate": {
+      "status": "complete",
+      "fingerprint": "ebc211080388805594e85d767d0ac73ab8ad66149842f465d8ad7cddd75da1f6",
+      "started_at": "2026-10-16T15:14:06.554425+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T15:14:06.554498+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_locator_pipeline/logs/locate.1792163646557299486.log",
+      "peak_observed_rss_bytes": 7282688,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5040318060200661,
+      "outputs": {
+        "deliverables/operating_umc_locator_20261016/candidates.json": "e6bbb6cad251205fcf3e8dcc913f68459b6cfe56eb18cb091e22b3d9f6e560cd",
+        "inputs/operating_pilot_20261016/umc_index_20261016/candidate_requests.json": "cfab5a65119f56ae08daf1b1e53906adff2118ea2ab5863af2ea68bb089fb23e"
+      },
+      "finished_at": "2026-10-16T15:14:07.068398+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T15:14:07.068477+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "package_probe": {
+      "status": "complete",
+      "fingerprint": "10a8f3033e2aa9a97d370c2318806a91024e4f536f0262117435f9bb5c377092",
+      "started_at": "2026-10-16T15:14:07.072059+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T15:14:07.072121+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_locator_pipeline/logs/package_probe.1792163647075439731.log",
+      "peak_observed_rss_bytes": 7417856,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5041555540519767,
+      "outputs": {
+        "deliverables/operating_umc_locator_20261016/probe_package.json": "2e676e6f0305438e37a8a6f46f674de2b199008c16a6ba032d062bb2ba8f245b",
+        "inputs/operating_pilot_20261016/umc_index_20261016/probe_checkpoint.zip": "c43adec854375cfbbe12d13aa09b218caa8a008cd8b51d0fc3ee1368c6b4f88f"
+      },
+      "finished_at": "2026-10-16T15:14:07.591509+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T15:14:07.591698+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "6dc33ab22c2022ca65f4031ff831b03aed91fe50c902559c85cc0e99c6320521",
+      "started_at": "2026-10-16T15:14:12.293548+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T15:14:12.293640+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_locator_pipeline/logs/report.1792163652296713828.log",
+      "peak_observed_rss_bytes": 8081408,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5052769820322283,
+      "outputs": {
+        "deliverables/operating_umc_locator_20261016/transport_inventory.json": "e0c7c1e44a6fa3c0610dea2b897d3b53a1b85842ca2e326564e5fa4593049128",
+        "deliverables/operating_umc_locator_20261016/checkpoint.json": "4bc73d64a85865bde1187b40a164e8dc823ec1e0c0098191c4c1fd7f8c5b6916",
+        "deliverables/operating_umc_locator_20261016/summary.json": "b06027a973c57a003ce51163c85212ca76e86be13e7fcb65b441d0900b866a09",
+        "deliverables/operating_umc_locator_20261016/report.md": "dadd4845bf4e87dbfec54159f925e96d43df766e9eeeb14ff9781f70ca4c6000"
+      },
+      "finished_at": "2026-10-16T15:14:12.810397+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T15:14:12.810480+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-16T15:14:12.286829+00:00",
+  "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+  "active": {},
+  "heartbeat_at": "2026-10-16T15:14:12.813548+00:00",
+  "current_stage": "report",
+  "message": "Missing input/output: inputs/operating_pilot_20261016/umc_index_20261016/probe_transfer.json",
+  "finished_at": "2026-10-16T15:14:12.813530+00:00"
+}

@@ -1,0 +1,93 @@
+{
+  "stages": [
+    {
+      "id": "package_index",
+      "command": [
+        "{python}",
+        "operating_umc_locator.py",
+        "package_index"
+      ],
+      "inputs": [
+        "operating_umc_locator.py",
+        "sec_submissions_index.py",
+        "configs/research_reassessment_20261016.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/CIK0001033767.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/import.json"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_locator_20261016/index_package.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.zip"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "locate",
+      "command": [
+        "{python}",
+        "operating_umc_locator.py",
+        "locate"
+      ],
+      "inputs": [
+        "operating_umc_locator.py",
+        "sec_submissions_index.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_umc_locator_20261016/index_package.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_transfer.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_locator_20261016/candidates.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/candidate_requests.json"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "package_probe",
+      "command": [
+        "{python}",
+        "operating_umc_locator.py",
+        "package_probe"
+      ],
+      "inputs": [
+        "operating_umc_locator.py",
+        "sec_submissions_index.py",
+        "configs/research_reassessment_20261016.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/candidate_probe/results.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/candidate_probe",
+        "inputs/operating_pilot_20261016/umc_index_20261016/candidate_requests.json",
+        "deliverables/operating_umc_locator_20261016/candidates.json",
+        "deliverables/operating_umc_locator_20261016/index_package.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_transfer.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_locator_20261016/probe_package.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/probe_checkpoint.zip"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_umc_locator.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_umc_locator.py",
+        "sec_submissions_index.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_umc_locator_20261016/probe_package.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/probe_transfer.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/probe_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_locator_20261016/transport_inventory.json",
+        "deliverables/operating_umc_locator_20261016/checkpoint.json",
+        "deliverables/operating_umc_locator_20261016/summary.json",
+        "deliverables/operating_umc_locator_20261016/report.md"
+      ],
+      "timeout_seconds": 40
+    }
+  ]
+}

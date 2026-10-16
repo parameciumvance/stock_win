@@ -14,6 +14,22 @@
 
 第一目標是下一季合併毛利率，先與上一季、去年同季及可比管理層財測比較。資料完整時最多僅16組共同預測目標，這個規模只驗證來源與簡單基準，不訓練高維價格模型。若原始版本／時間不齊，就停在來源關卡，不以現在靜態表替代。此次沒有訓練新模型或計算預測勝率。
 
+## 聯電submissions索引已驗收：最新進度
+
+使用者提供的 `CIK0001033767.json`（119,674 bytes，SHA `c63c1f0e8187cf01dcd59d0aabd1e676f073e117023e30cadd94016016d50a7c`）已原樣保存，先封存與Windows備份取回再解析。CIK／名稱、738列陣列對齊、accession唯一性及下載HostUrl核對通過。42項相關測試通過。
+
+2025-01-21只有一份6-K候選：`0000950170-25-006966`，主文件`6k_on_01212025.htm`。它的reportDate為事件日2025-01-21，不因此否定為2024Q4盈餘公告，也不直接當作已驗證財務季度。JSON接受時間原文保留，沒有直接當作已核實UTC／台北時間。
+
+Desktop Commander以兩個worker對[完整申報](https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966.txt)與索引各試一次，均HTTP403；回應原文、headers、時間及hash另行封存、Windows備份取回通過。下一份只需要這份候選完整`.txt`，由一般瀏覽器存到Downloads後提供路徑即可，既有JSON與已取得原文不需重傳。實際季度、文件結構、財務值及接受時間待原文核對。
+
+來源範圍仍是兩家公司2024Q4數值原文，其中台積電有完整SEC版本與標頭時鐘證據，未新增可建模列、未計算誤差或恢復每日七規則。最新[報告](../deliverables/operating_umc_locator_20261016/report.md)、[候選](../deliverables/operating_umc_locator_20261016/candidates.json)、[checkpoint](../deliverables/operating_umc_locator_20261016/checkpoint.json)及[測試](../deliverables/operating_umc_locator_20261016/tests.json)。以下為先前快照。
+
+```bash
+.venv/bin/python research_pipeline.py --plan configs/operating_umc_locator_pipeline.json --state-dir inputs/operating_pilot_20261016/umc_locator_pipeline
+```
+
+缺少取回收據時，以Desktop Commander執行 `research_archive_transfer.mjs deliverables/operating_umc_locator_20261016/index_package.json` 或 `probe_package.json`，完成對應原始包備份取回後續跑；此恢復流程不要求重新批准，也不自動重試HTTP來源。
+
 ## 台積電完整SEC申報已匯入：最新進度
 
 使用者提供的 `0001046179-25-000004.txt`（1,535,419 bytes，SHA `40054c6fe44dda30cc030be4463b7a7566045cafe06dee56c889aad2fd7ab4c1`）已原樣保存、打包、Windows備份取回及SHA／manifest／CRC驗證。下載檔的Zone.Identifier HostUrl吻合SEC URL；沒有虛構HTTP headers，也不將它描述為SEC數位簽章。
