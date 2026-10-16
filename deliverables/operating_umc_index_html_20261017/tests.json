@@ -1,0 +1,38 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_sec_filing_index",
+    "test_umc_sec_evidence",
+    "test_sec_submissions_index",
+    "test_sec_submission",
+    "test_operating_remote_audit",
+    "test_operating_windows_recovery",
+    "test_research_reassessment",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "tests_run": 64,
+  "passed": true,
+  "returncode": 0,
+  "started_at": "2026-10-16T23:13:30.622006+00:00",
+  "finished_at": "2026-10-16T23:13:31.991316+00:00",
+  "output": "----------------------------------------------------------------------\nRan 64 tests in 0.830s\n\nOK\n",
+  "test_file_sha256": {
+    "test_sec_filing_index.py": "c47907e179e794a22dfe0d3b8f2e03edd8be9385fb6c223bae8089f8f26e1ed9",
+    "test_umc_sec_evidence.py": "20b58142e68ea0bf556a63ee6657b75b9b81b5972b253eeb3016b37e0fe0ccbd",
+    "test_sec_submissions_index.py": "e9166b970e7f705b83e7fa9bfd678e4314eb4359baaf41693804d1a59bb28837",
+    "test_sec_submission.py": "4d0a1e44b3df0ee3389d44b4dfede4085b42c2b955324778f9ee085cc8749e45",
+    "test_operating_remote_audit.py": "a8212b318a765ce4c9d8eeb73933c2611cb3c0ebfb3d9884c5992c2641dae556",
+    "test_operating_windows_recovery.py": "f998325cc5fb9b27d8ec2a76b0a81248f5373a211e9fd49dc60982c095496d09",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "sec_filing_index.py": "fd3a5e8ca4a8bd18ccb0abc8dca8fe5f08bfa2f414e014eb3218e1e762ef9dcc",
+    "operating_sec_index_import.py": "86efa387d800cda3da5640c2a3cc8460123cd567f8ee9224bcac59d150f8aeea",
+    "configs/operating_sec_index_import_pipeline.json": "0a0a0237471031521acfb55c1bbe1a108415156972aeb336472819bc10daafd0"
+  },
+  "pipeline_verification": "All stages completed; second replay verified all input/output hashes and skipped all three stages."
+}

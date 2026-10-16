@@ -1,0 +1,13 @@
+{
+  "archive": "inputs/operating_pilot_20261016/umc_index_html_20261017/source_checkpoint.zip",
+  "sha256": "8ca0ddcddce81b7ca8e749399aa0feac3854f0457c6ee37d0ef3483463f897da",
+  "manifest_files": 8,
+  "created_at": "2026-10-16T23:10:02.185932+00:00",
+  "retrieved": "inputs/operating_pilot_20261016/umc_index_html_20261017/source_checkpoint.retrieved.zip",
+  "transfer_receipt": "inputs/operating_pilot_20261016/umc_index_html_20261017/transfer.json",
+  "backup_label": "operating_umc_index_html_20261017",
+  "backup_path": "C:\\Users\\user\\stock_win_research_backups\\operating_umc_index_html_20261017_8ca0ddcddce81b7ca8e749399aa0feac3854f0457c6ee37d0ef3483463f897da.zip",
+  "roundtrip_verified": true,
+  "crc_verified": true,
+  "verified_at": "2026-10-16T23:13:17.496516+00:00"
+}

@@ -14,6 +14,12 @@
 
 第一目標是下一季合併毛利率，先與上一季、去年同季及可比管理層財測比較。資料完整時最多僅16組共同預測目標，這個規模只驗證來源與簡單基準，不訓練高維價格模型。若原始版本／時間不齊，就停在來源關卡，不以現在靜態表替代。此次沒有訓練新模型或計算預測勝率。
 
+## 2026-10-17 聯電索引HTML核驗完成
+
+使用者另存的官方申報索引HTML已原樣保存、Windows備份取回並通過SHA／manifest／CRC。Accepted 2025-01-21 06:03:58與完整SGML相符，新的ledger明示採用兩者佐證的SEC接受錨點：UTC11:03:58、台北19:03:58。JSON原值16:03:58Z及18000秒差異原樣保留；不宣稱三來源一致或已查明根因。舊衝突快照與凍結協定未修改。
+
+兩家公司2024Q4各有PDF／完整SEC數值與接受時鐘佐證；其餘22季原文仍缺。歷史公開／台灣首次公告與版本涵蓋關卡仍未過，全部24列不可建模，七規則每日計畫維持停止。64項相關測試通過。見[最新報告](../deliverables/operating_umc_index_html_20261017/report.md)、[最新ledger](../deliverables/operating_umc_index_html_20261017/source_ledger.csv)、[具體待辦及外部缺口](../deliverables/operating_umc_index_html_20261017/next_tasks.json)。以下保留先前狀態快照。
+
 ## 兩組SEC原文與數值核對完成，聯電接受時鐘待解
 
 聯電`0000950170-25-006966.txt`（55,016 bytes，SHA `2c394aa58212c2edcc581bac96d91c76e6cb8082383f4a8ca178180fccd19ddd`）已原樣保存、封存、Windows備份取回及SHA／manifest／CRC驗證。CIK、accession、3個文件及6-K主文件／EX-99均核對通過。SEC標頭事件日是2025-01-21，財務季度由附件與官方PDF確認為2024Q4；沒有把事件日當季度末。

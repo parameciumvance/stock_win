@@ -1,0 +1,104 @@
+{
+  "stages": {
+    "package": {
+      "status": "complete",
+      "fingerprint": "3f22fe117fb01efbee22bdfb428dc3f887f969581dbb8795217471c181af884f",
+      "started_at": "2026-10-16T23:13:16.307049+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T23:13:16.307220+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_index_html_pipeline/logs/package.1792192396311502035.log",
+      "peak_observed_rss_bytes": 7573504,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5054336540051736,
+      "outputs": {
+        "deliverables/operating_umc_index_html_20261017/package.json": "c3c49a663ba20fa903b667acae35e6c68f23e3e032e410300cbf8308e5714a83",
+        "inputs/operating_pilot_20261016/umc_index_html_20261017/source_checkpoint.zip": "8ca0ddcddce81b7ca8e749399aa0feac3854f0457c6ee37d0ef3483463f897da"
+      },
+      "finished_at": "2026-10-16T23:13:16.835215+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T23:13:16.835530+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "99fd96a2021a7f265d5f05a98e5fb6184cd9459f8eebd678f3bcec7675d1a41b",
+      "started_at": "2026-10-16T23:13:16.844971+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T23:13:16.845166+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_index_html_pipeline/logs/audit.1792192396850135313.log",
+      "peak_observed_rss_bytes": 6344704,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5070415920345113,
+      "outputs": {
+        "deliverables/operating_umc_index_html_20261017/index_evidence.json": "c6d61307a377146059067b58a0ca87ff7f7e2148de71b4bc552ac3047a3d78a3",
+        "deliverables/operating_umc_index_html_20261017/source_ledger.csv": "ea954f48eeb50e15fcacc1d9eab96461474682aef70a7e8600acbcc7ab895101"
+      },
+      "finished_at": "2026-10-16T23:13:17.366858+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T23:13:17.367069+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "a2de67d5ebd8f0720b62c34ecb93b7a46f1874045774824a630de18bb426d250",
+      "started_at": "2026-10-16T23:13:17.377561+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-16T23:13:17.377897+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/umc_index_html_pipeline/logs/report.1792192397383814280.log",
+      "peak_observed_rss_bytes": 6864896,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5096961130038835,
+      "outputs": {
+        "deliverables/operating_umc_index_html_20261017/checkpoint.json": "b613cd9aa2e802a2170ae8a47a584e89c7b7af15e33f5fb52e3a8376edb10f98",
+        "deliverables/operating_umc_index_html_20261017/summary.json": "7f2fa5739cf0e14ae398a645061dd2af0e26f5a9b4ab002a1fb992a85de7fb68",
+        "deliverables/operating_umc_index_html_20261017/next_tasks.json": "27464ec89bf0710fbdceea7ea07b59f43ab90d76bc94e55a054bfe95b1f29ba9",
+        "deliverables/operating_umc_index_html_20261017/report.md": "9352710fe2c97752d8606867f53fcda9645094c77d377a35c3cc3f367cbf364c"
+      },
+      "finished_at": "2026-10-16T23:13:17.901231+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-16T23:13:17.901412+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-16T23:13:18.085967+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-16T23:13:18.105085+00:00",
+  "current_stage": "report",
+  "message": "RuntimeError: Child failed; inspect inputs/operating_pilot_20261016/umc_index_html_pipeline/logs/audit.1792192303942568674.log",
+  "finished_at": "2026-10-16T23:13:18.105057+00:00"
+}

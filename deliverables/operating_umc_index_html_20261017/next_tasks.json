@@ -1,0 +1,18 @@
+{
+  "completed": [
+    "UMC saved index origin, issuer/accession/documents/size verified",
+    "SGML/index Accepted clocks corroborated",
+    "JSON discrepancy retained"
+  ],
+  "blocked": [
+    {
+      "task": "Establish historical public availability and version coverage for the two source pilots",
+      "evidence_available": "Original issuer PDFs, complete SEC snapshots, acceptance-clock anchors; only one preserved earnings version per issuer-quarter",
+      "missing": "Historical dissemination/first-release timing evidence and amendment/version coverage; an Accepted timestamp alone does not supply either",
+      "action": "Obtain authoritative historical release metadata/version listing for the existing 2024Q4 releases before scaling acquisition",
+      "needs_credentials": false
+    }
+  ],
+  "conditional_next": "Only after two-issuer source gate passes, acquire remaining 22 quarters under frozen scope; then replay previous-quarter/prior-year/comparable-guidance baselines",
+  "no_new_download_request_for_existing_files": true
+}

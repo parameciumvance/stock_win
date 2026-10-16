@@ -1,0 +1,14 @@
+{
+  "status": "sgml_index_corroborated_json_conflict",
+  "issuer_quarters_with_numeric_original": 2,
+  "issuer_quarters_with_complete_sec_snapshot": 2,
+  "sec_header_clock_corroborated_quarters": 2,
+  "sec_json_clock_conflict_quarters": 1,
+  "missing_original_quarters": 22,
+  "full_timing_revision_gate_verified_quarters": 0,
+  "models_fitted": 0,
+  "evaluation_rows": 0,
+  "ready_for_model": false,
+  "seven_rule_daily_plan": "stopped_by_user_no_resume",
+  "checkpoint_sha256": "8ca0ddcddce81b7ca8e749399aa0feac3854f0457c6ee37d0ef3483463f897da"
+}
