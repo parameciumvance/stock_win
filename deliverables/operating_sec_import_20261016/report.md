@@ -1,5 +1,7 @@
 # 台積電2024Q4完整SEC申報匯入
 
+> 此為台積電驗收快照；聯電完整申報亦已取得，數值核對通過但接受時鐘與JSON相差5小時，見[最新進度](../operating_umc_sec_import_20261016/report.md)。
+
 使用者指定Windows下載檔`0001046179-25-000004.txt`，透過Desktop Commander原樣複製至專案，Windows來源與WSL匯入SHA一致。檔案1,535,419 bytes，SHA256 `40054c6fe44dda30cc030be4463b7a7566045cafe06dee56c889aad2fd7ab4c1`。下載檔Zone.Identifier的HostUrl吻合先前提供的SEC完整申報URL；這是來源鏈證據，不是SEC數位簽章，也沒有虛構原始HTTP headers或下載時刻。
 
 先保存原文與匯入metadata，再連同既有原始包、來源設定與凍結研究協定打包，複製至Windows研究備份目錄後取回WSL。整包SHA／manifest／CRC通過，checkpoint SHA `51eb9e2014a663d94ac2d6dba942009609483b01b3f5a6f800dd3f9b3ff8a8ae`。同一電腦的跨檔案系統備份，不宣稱離機備份。

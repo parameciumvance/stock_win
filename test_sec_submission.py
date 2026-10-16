@@ -46,6 +46,16 @@ class SubmissionTests(unittest.TestCase):
         self.assertEqual(result['documents'][1]['type'],'EX-99.1')
         self.assertEqual(result['documents'][0]['payload'],b'<html>primary fixture</html>\n')
 
+    def test_event_date_is_explicit_and_quarter_still_needs_exhibit(self):
+        event=fixture().replace(b'20241231',b'20250121').replace(b'20250116',b'20250121')
+        with self.assertRaises(ValueError):self.parse(event)
+        result=self.parse(event,report_event_date='2025-01-21')
+        self.assertEqual(result['period_of_report'],'20250121')
+        self.assertEqual(result['report_period_kind'],'filing_event_date')
+        self.assertTrue(result['quarter_match_requires_exhibit'])
+        with self.assertRaises(ValueError):self.parse(event,report_event_date='2025-01-22')
+        with self.assertRaises(ValueError):self.parse(event,quarter='2025Q1',report_event_date='2025-01-21')
+
     def test_winter_summer_timezone_conversion(self):
         winter=acceptance_clock('20250116061335');summer=acceptance_clock('20250716061335')
         self.assertEqual(winter['utc'],'2025-01-16T11:13:35+00:00')

@@ -14,6 +14,24 @@
 
 第一目標是下一季合併毛利率，先與上一季、去年同季及可比管理層財測比較。資料完整時最多僅16組共同預測目標，這個規模只驗證來源與簡單基準，不訓練高維價格模型。若原始版本／時間不齊，就停在來源關卡，不以現在靜態表替代。此次沒有訓練新模型或計算預測勝率。
 
+## 兩組SEC原文與數值核對完成，聯電接受時鐘待解
+
+聯電`0000950170-25-006966.txt`（55,016 bytes，SHA `2c394aa58212c2edcc581bac96d91c76e6cb8082383f4a8ca178180fccd19ddd`）已原樣保存、封存、Windows備份取回及SHA／manifest／CRC驗證。CIK、accession、3個文件及6-K主文件／EX-99均核對通過。SEC標頭事件日是2025-01-21，財務季度由附件與官方PDF確認為2024Q4；沒有把事件日當季度末。
+
+SEC與PDF第1頁的合併毛利率30.4%、EPS0.68元、營收60.39十億元一致。SEC節錄未明示TIFRS，會計準則證據保留在官方PDF，不補造SEC文字。SEC與PDF第11頁的2025Q1財測均為「考慮0121地震影響後高於25%」，保留條件及嚴格下界，point_forecast=null。48項相關測試通過，且新增事件日支援後完整台積電重播的證據／ledger hash均不變。
+
+**目前具體衝突**：SGML接受欄位原值`20250121060358`，美東06:03:58換算UTC11:03:58、台北19:03:58；已封存JSON同accession原值`2025-01-21T16:03:58.000Z`，兩者相差18000秒。聯電canonical `sec_accepted_at`維持空白；未選擇較早／較晚時間、未修正來源、未推測SEC根因。
+
+需要[這份官方申報索引](https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index.htm)HTML Accepted欄位或SEC權威解釋再核對。本輪web工具無法取得索引，未推測HTTP狀態；先前直接403仍是先前紀錄。若瀏覽器能讀，另存該索引HTML到Downloads即可，兩份完整申報、聯電JSON及既有PDF都不需重傳。
+
+目前兩家公司2024Q4均有原始PDF及完整SEC版本；一組時鐘有官方索引解析佐證、一組明確衝突，全部24列仍不可建模。不擴大22季下載、不計算預測誤差或恢復每日計畫。最新[報告](../deliverables/operating_umc_sec_import_20261016/report.md)、[統一ledger](../deliverables/operating_umc_sec_import_20261016/source_ledger.csv)、[時鐘對照](../deliverables/operating_umc_sec_import_20261016/clock_reconciliation.json)、[checkpoint](../deliverables/operating_umc_sec_import_20261016/checkpoint.json)、[測試](../deliverables/operating_umc_sec_import_20261016/tests.json)。以下為先前快照。
+
+```bash
+.venv/bin/python research_pipeline.py --plan configs/operating_umc_sec_import_pipeline.json --state-dir inputs/operating_pilot_20261016/umc_sec_import_pipeline
+```
+
+缺取回收據時，用已上線裝置執行 `research_archive_transfer.mjs deliverables/operating_umc_sec_import_20261016/package.json`，完成備份取回後續跑。原文保留於inputs及Windows研究備份目錄，沒有提交Git。
+
 ## 聯電submissions索引已驗收：最新進度
 
 使用者提供的 `CIK0001033767.json`（119,674 bytes，SHA `c63c1f0e8187cf01dcd59d0aabd1e676f073e117023e30cadd94016016d50a7c`）已原樣保存，先封存與Windows備份取回再解析。CIK／名稱、738列陣列對齊、accession唯一性及下載HostUrl核對通過。42項相關測試通過。

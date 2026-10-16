@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-16T15:35:18.702701+00:00",
+  "dependency": "Independent official UMC Accepted field / authoritative SEC clock explanation",
+  "required_url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index.htm",
+  "web_tool_observations": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/umc-ex99.htm",
+      "result": "Tool reported inaccessible/internal error; source response body unavailable",
+      "http_status": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index.html",
+      "result": "Tool reported inaccessible/internal error; source response body unavailable",
+      "http_status": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/",
+      "result": "Tool reported inaccessible/internal error; source response body unavailable",
+      "http_status": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index-headers.html",
+      "result": "Tool reported inaccessible/internal error; source response body unavailable",
+      "http_status": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index.htm",
+      "result": "Tool reported inaccessible/internal error; source response body unavailable",
+      "http_status": null
+    }
+  ],
+  "request_timestamps_retained": false,
+  "notes": "Record creation timestamp only; no precise request time or HTTP status invented. Earlier direct HTTP403 observations remain in prior checkpoint. No source data or clock was repaired."
+}

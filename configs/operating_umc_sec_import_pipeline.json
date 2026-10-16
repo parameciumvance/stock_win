@@ -1,0 +1,80 @@
+{
+  "stages": [
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "operating_umc_sec_import.py",
+        "package"
+      ],
+      "inputs": [
+        "operating_umc_sec_import.py",
+        "configs/research_reassessment_20261016.json",
+        "inputs/operating_pilot_20261016/umc_sec_import_20261016/0000950170-25-006966.txt",
+        "inputs/operating_pilot_20261016/umc_sec_import_20261016/import.json",
+        "deliverables/operating_umc_locator_20261016/index_package.json",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.retrieved.zip",
+        "deliverables/operating_pilot_20261016/checkpoint.json",
+        "inputs/operating_pilot_20261016/source_probe_checkpoint.retrieved.zip",
+        "deliverables/operating_sec_import_20261016/pipeline_state.json",
+        "deliverables/operating_sec_import_20261016/source_ledger.csv",
+        "deliverables/operating_sec_import_20261016/sec_evidence.json"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_sec_import_20261016/package.json",
+        "inputs/operating_pilot_20261016/umc_sec_import_20261016/source_checkpoint.zip"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "operating_umc_sec_import.py",
+        "audit"
+      ],
+      "inputs": [
+        "operating_umc_sec_import.py",
+        "configs/research_reassessment_20261016.json",
+        "sec_submission.py",
+        "sec_submissions_index.py",
+        "operating_source_pilot.py",
+        "requirements_operating_pilot.txt",
+        "deliverables/operating_umc_sec_import_20261016/package.json",
+        "inputs/operating_pilot_20261016/umc_sec_import_20261016/transfer.json",
+        "inputs/operating_pilot_20261016/umc_sec_import_20261016/source_checkpoint.retrieved.zip",
+        "umc_sec_evidence.py",
+        "twse_history/revenue_pilot.py"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_sec_import_20261016/sec_evidence.json",
+        "deliverables/operating_umc_sec_import_20261016/source_ledger.csv",
+        "deliverables/operating_umc_sec_import_20261016/clock_reconciliation.json"
+      ],
+      "timeout_seconds": 40
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_umc_sec_import.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_umc_sec_import.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_umc_sec_import_20261016/package.json",
+        "deliverables/operating_umc_sec_import_20261016/sec_evidence.json",
+        "deliverables/operating_umc_sec_import_20261016/clock_reconciliation.json",
+        "deliverables/operating_umc_sec_import_20261016/source_ledger.csv",
+        "inputs/operating_pilot_20261016/umc_sec_import_20261016/transfer.json"
+      ],
+      "outputs": [
+        "deliverables/operating_umc_sec_import_20261016/checkpoint.json",
+        "deliverables/operating_umc_sec_import_20261016/summary.json",
+        "deliverables/operating_umc_sec_import_20261016/report.md"
+      ],
+      "timeout_seconds": 40
+    }
+  ]
+}

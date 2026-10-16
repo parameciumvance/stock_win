@@ -1,0 +1,14 @@
+{
+  "status": "conflict",
+  "matches": false,
+  "delta_seconds_json_minus_sgml": 18000.0,
+  "sgml_raw": "20250121060358",
+  "sgml_eastern_interpretation": "2025-01-21T06:03:58-05:00",
+  "sgml_utc_interpretation": "2025-01-21T11:03:58+00:00",
+  "sgml_taipei_interpretation": "2025-01-21T19:03:58+08:00",
+  "json_as_reported": "2025-01-21T16:03:58.000Z",
+  "json_claimed_utc": "2025-01-21T16:03:58+00:00",
+  "canonical_sec_accepted_at": null,
+  "public_dissemination_at": null,
+  "policy": "Compare preserved values without repairing either source; a match alone does not establish public dissemination or first Taiwan disclosure"
+}

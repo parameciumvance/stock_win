@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/operating_pilot_20261016/umc_sec_import_20261016/source_checkpoint.zip",
+  "sha256": "1212cb60713b62dce6cbe56f6ce2118d196d78091ba20d92bf10435613227850",
+  "manifest_files": 9,
+  "created_at": "2026-10-16T15:27:54.240802+00:00",
+  "retrieved": "inputs/operating_pilot_20261016/umc_sec_import_20261016/source_checkpoint.retrieved.zip",
+  "transfer_receipt": "inputs/operating_pilot_20261016/umc_sec_import_20261016/transfer.json",
+  "backup_label": "operating_umc_sec_import_20261016"
+}

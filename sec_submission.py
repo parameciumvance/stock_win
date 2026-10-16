@@ -19,7 +19,7 @@ def acceptance_clock(value):
                 utc=utc.isoformat(),taipei=utc.astimezone(ZoneInfo('Asia/Taipei')).isoformat())
 
 
-def parse_submission(body,*,cik,accession,quarter):
+def parse_submission(body,*,cik,accession,quarter,report_event_date=None):
     if not body.startswith(b'<SEC-DOCUMENT>') or not body.rstrip().endswith(b'</SEC-DOCUMENT>'):
         raise ValueError('Expected complete SEC submission, not HTML, an exhibit, or truncated download')
     text=body.decode('utf-8')
@@ -39,6 +39,10 @@ def parse_submission(body,*,cik,accession,quarter):
     if not re.fullmatch(r'\d{4}Q[1-4]',quarter):raise ValueError('Invalid expected quarter')
     year=int(quarter[:4]);month=int(quarter[-1])*3
     expected=f'{year:04d}{month:02d}{calendar.monthrange(year,month)[1]:02d}'
+    if report_event_date is not None:
+        event=datetime.strptime(report_event_date,'%Y-%m-%d').date()
+        if event<datetime.strptime(expected,'%Y%m%d').date():raise ValueError('Event date precedes expected financial quarter end')
+        expected=event.strftime('%Y%m%d')
     if period!=expected:raise ValueError('SEC report period does not match expected quarter')
     clock=acceptance_clock(one(r'^<ACCEPTANCE-DATETIME>(\d{14})[ \t]*$'))
     filed=one(r'^FILED AS OF DATE:\s*(\d{8})')
@@ -69,5 +73,8 @@ def parse_submission(body,*,cik,accession,quarter):
         raise ValueError('Duplicate filenames or document sequences')
     primary=[d for d in docs if d['type']=='6-K' and d['sequence']==1]
     if len(primary)!=1 or sum(d['type']=='6-K' for d in docs)!=1:raise ValueError('Missing/ambiguous primary 6-K')
-    return dict(cik=cik,company=company,accession=accession,form='6-K',quarter=quarter,period_of_report=period,
+    result=dict(cik=cik,company=company,accession=accession,form='6-K',quarter=quarter,period_of_report=period,
                 filed_date=filed,acceptance=clock,document_count=count,primary_filename=primary[0]['filename'],documents=docs)
+    if report_event_date is not None:
+        result.update(report_period_kind='filing_event_date',quarter_match_requires_exhibit=True)
+    return result

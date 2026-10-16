@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-10-16T15:33:50.130502+00:00",
+  "default_quarter_end_behavior_unchanged": true,
+  "prior_derived_file_hashes": {
+    "deliverables/operating_sec_import_20261016/sec_evidence.json": "df8550cf8aaf4f05ced94708c7b174d242b14dde3fec0acb48a1bfeda0b76cd4",
+    "deliverables/operating_sec_import_20261016/source_ledger.csv": "d66756ab6a3fe12f24f4b5f825adcd7a9cabcce80d363dddffad2591849a83b3"
+  },
+  "replayed_file_hashes": {
+    "deliverables/operating_sec_import_20261016/sec_evidence.json": "df8550cf8aaf4f05ced94708c7b174d242b14dde3fec0acb48a1bfeda0b76cd4",
+    "deliverables/operating_sec_import_20261016/source_ledger.csv": "d66756ab6a3fe12f24f4b5f825adcd7a9cabcce80d363dddffad2591849a83b3"
+  },
+  "pipeline_status": "complete",
+  "note": "Replayed TSMC from unchanged archived sources after adding explicit UMC event-date support; original TSMC evidence/ledger bytes unchanged"
+}

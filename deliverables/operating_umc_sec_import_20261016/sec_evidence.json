@@ -1,0 +1,117 @@
+{
+  "cik": "0001033767",
+  "company": "UNITED MICROELECTRONICS CORP",
+  "accession": "0000950170-25-006966",
+  "form": "6-K",
+  "quarter": "2024Q4",
+  "period_of_report": "20250121",
+  "filed_date": "20250121",
+  "acceptance": {
+    "raw": "20250121060358",
+    "timezone": "America/New_York",
+    "eastern": "2025-01-21T06:03:58-05:00",
+    "utc": "2025-01-21T11:03:58+00:00",
+    "taipei": "2025-01-21T19:03:58+08:00"
+  },
+  "document_count": 3,
+  "primary_filename": "6k_on_01212025.htm",
+  "report_period_kind": "filing_event_date",
+  "quarter_match_requires_exhibit": true,
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966.txt",
+  "source_sha256": "2c394aa58212c2edcc581bac96d91c76e6cb8082383f4a8ca178180fccd19ddd",
+  "source_size_bytes": 55016,
+  "source_origin": "User browser download; Zone.Identifier HostUrl and imported hash verified, not a SEC digital signature",
+  "source_http_headers_available": false,
+  "source_import_observed_at": "2026-10-16T15:26:32.9440412+00:00",
+  "index_source_sha256": "c63c1f0e8187cf01dcd59d0aabd1e676f073e117023e30cadd94016016d50a7c",
+  "index_candidate": {
+    "accession": "0000950170-25-006966",
+    "filing_date": "2025-01-21",
+    "report_date_as_reported": "2025-01-21",
+    "form": "6-K",
+    "primary_document": "6k_on_01212025.htm",
+    "acceptanceDateTime_as_reported": "2025-01-21T16:03:58.000Z",
+    "acceptance_clock_verified": false,
+    "earnings_quarter_verified": false,
+    "complete_submission_url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966.txt",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/0000950170-25-006966-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/1033767/000095017025006966/6k_on_01212025.htm"
+  },
+  "documents": [
+    {
+      "filename": "6k_on_01212025.htm",
+      "sequence": 1,
+      "type": "6-K",
+      "payload_sha256": "bb0e1582bbaedda83affc8a085a4e0446d8ef66eac294b7ae57f5486183c4c3e",
+      "payload_size_bytes": 24671
+    },
+    {
+      "filename": "umc-ex99.htm",
+      "sequence": 2,
+      "type": "EX-99",
+      "payload_sha256": "7717e6de0b9257ee59e1a4b729ebcc484a0ad6f64bc4d9ba098a7282f99c5d5e",
+      "payload_size_bytes": 19840
+    },
+    {
+      "filename": "img239034952_0.jpg",
+      "sequence": 3,
+      "type": "GRAPHIC",
+      "payload_sha256": "54c5127de056e6f87ad35e32df338f948a21fab3ad4646ff251a524dbafa889c",
+      "payload_size_bytes": 9133
+    }
+  ],
+  "financial_quarter_verified_from_exhibit": true,
+  "exhibit_financial_values": {
+    "issuer": "2303",
+    "quarter": "2024Q4",
+    "visible_release_date": "2025-01-21",
+    "gross_margin_pct": 30.4,
+    "eps_twd": 0.68,
+    "revenue_twd_billions": 60.39,
+    "consolidated_basis_explicit": true,
+    "accounting_standard_explicit": null
+  },
+  "pdf_financial_values": {
+    "issuer": "2303",
+    "quarter": "2024Q4",
+    "gross_margin_pct": 30.4,
+    "eps_twd": 0.68,
+    "revenue_twd_billions": 60.39,
+    "visible_release_date": "2025-01-21",
+    "accounting_basis": "TIFRS consolidated as described in the release"
+  },
+  "pdf_sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+  "pdf_source_page": 1,
+  "numeric_reconciliation_passed": true,
+  "guidance": {
+    "target_quarter": "2025Q1",
+    "operator": ">",
+    "threshold_pct": 25.0,
+    "condition": "with 0121 earthquake impact",
+    "point_forecast": null,
+    "ready_for_evaluation": false
+  },
+  "guidance_pdf_source_page": 11,
+  "guidance_reconciliation_passed": true,
+  "clock_reconciliation": {
+    "status": "conflict",
+    "matches": false,
+    "delta_seconds_json_minus_sgml": 18000.0,
+    "sgml_raw": "20250121060358",
+    "sgml_eastern_interpretation": "2025-01-21T06:03:58-05:00",
+    "sgml_utc_interpretation": "2025-01-21T11:03:58+00:00",
+    "sgml_taipei_interpretation": "2025-01-21T19:03:58+08:00",
+    "json_as_reported": "2025-01-21T16:03:58.000Z",
+    "json_claimed_utc": "2025-01-21T16:03:58+00:00",
+    "canonical_sec_accepted_at": null,
+    "public_dissemination_at": null,
+    "policy": "Compare preserved values without repairing either source; a match alone does not establish public dissemination or first Taiwan disclosure"
+  },
+  "sec_snapshot_verified": true,
+  "sec_accepted_time_corroborated": false,
+  "taiwan_first_published_at": null,
+  "public_dissemination_at": null,
+  "complete_revision_history_verified": false,
+  "ready_for_model": false,
+  "checkpoint_sha256": "1212cb60713b62dce6cbe56f6ce2118d196d78091ba20d92bf10435613227850"
+}

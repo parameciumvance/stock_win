@@ -1,0 +1,15 @@
+{
+  "status": "both_issuer_sec_snapshots_reconciled_umc_clock_conflict",
+  "issuer_quarters_with_numeric_original": 2,
+  "issuer_quarters_with_complete_sec_snapshot": 2,
+  "sec_header_clock_corroborated_quarters": 1,
+  "sec_clock_conflict_quarters": 1,
+  "missing_original_quarters": 22,
+  "full_timing_revision_gate_verified_quarters": 0,
+  "models_fitted": 0,
+  "evaluation_rows": 0,
+  "ready_for_model": false,
+  "checkpoint_sha256": "1212cb60713b62dce6cbe56f6ce2118d196d78091ba20d92bf10435613227850",
+  "seven_rule_daily_plan": "stopped_by_user_no_resume",
+  "next_external_dependency": "Original UMC filing index HTML Accepted field or authoritative SEC clarification to resolve the preserved five-hour SGML/JSON conflict"
+}

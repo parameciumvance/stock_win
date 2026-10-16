@@ -1,0 +1,30 @@
+{
+  "tests_run": 48,
+  "passed": true,
+  "output": "----------------------------------------------------------------------\nRan 48 tests in 0.493s\n\nOK\n",
+  "command": ".venv/bin/python -m unittest test_umc_sec_evidence test_sec_submissions_index test_sec_submission test_operating_remote_audit test_operating_windows_recovery test_research_reassessment test_research_pipeline -q",
+  "recorded_at": "2026-10-16T15:35:18.695710+00:00",
+  "source_sha256": {
+    "operating_umc_sec_import.py": "f6bc209b5e723d9cf2de78a3a93edf968d604f5026b61d18d65ba24110aa5d3e",
+    "umc_sec_evidence.py": "5c4de2a408fbefa6b187ea2d876ec2908410cae0216af8795548c66363de409f",
+    "sec_submission.py": "24055e6207de85c352596af6f0c23e86843ff93de3091c8fd1fd3eede530f569",
+    "test_umc_sec_evidence.py": "20b58142e68ea0bf556a63ee6657b75b9b81b5972b253eeb3016b37e0fe0ccbd",
+    "test_sec_submission.py": "4d0a1e44b3df0ee3389d44b4dfede4085b42c2b955324778f9ee085cc8749e45",
+    "configs/operating_umc_sec_import_pipeline.json": "7909d10a27c28fdf16cfcbc9becd759aa716fe274997a48592ea18179ad4efb6",
+    "configs/research_reassessment_20261016.json": "b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+    "research_archive_transfer.mjs": "b62eed76677e479ef266e5af08bd83c2953ea3e329357fc83f638ae43b7cb612",
+    "operating_source_pilot.py": "aa38252547b3aa575cfd55ca6a5e9976afc3d130ffda5b2b07df0f6b377ca45a",
+    "sec_submissions_index.py": "e12f1928cd7483eb4d52f68b329b0ab31225a835d510d0dd84d94a1ae1f3aab6",
+    "twse_history/revenue_pilot.py": "7906b12555b336b4d97aaf746d8f9c67d0bb34461146d3a7903d4212ba424faf",
+    "requirements_operating_pilot.txt": "0b19b56aeeeab9eee9fc08c7bfd6491cd9dec678b8a438ba42c452b3bb06ce2d"
+  },
+  "new_checks": [
+    "Explicit SEC event-date headers keep quarter validation in the earnings exhibit",
+    "Default TSMC quarter-end behavior remains strict",
+    "Missing accounting standard is not invented",
+    "UMC financial currency/units/identity and conflicting values checked",
+    "Conditional strict guidance lower bound is not turned into point forecast",
+    "Five-hour SGML/JSON conflict retains both originals and no canonical clock",
+    "Even matching clocks do not prove dissemination"
+  ]
+}

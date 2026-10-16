@@ -1,3 +1,9 @@
+# 2026-10-16 聯電完整SEC申報已取得：發現時鐘衝突
+
+使用者提供的聯電完整申報已原樣匯入、封存、Windows備份取回及SHA／manifest／CRC驗證通過。3個文件、主文件與EX-99、實際財務季度及PDF數值一致；2025Q1財測「帶地震條件、高於25%」保留嚴格下界，不當點預測。48項相關測試通過；新增事件日支援後，台積電原始重播結果hash不變。見[最新報告](../deliverables/operating_umc_sec_import_20261016/report.md)、[時鐘對照](../deliverables/operating_umc_sec_import_20261016/clock_reconciliation.json)、[測試](../deliverables/operating_umc_sec_import_20261016/tests.json)。
+
+聯電SGML標頭依美東換算UTC2025-01-21 11:03:58，JSON同accession宣稱16:03:58Z，相差18000秒；保留兩值、canonical接受時間空白，不猜根因或自動修正。下一個確切依賴是此申報的官方索引HTML Accepted欄位或權威說明，不需重傳兩份完整申報／JSON／PDF。兩家公司2024Q4數值及SEC快照皆已取得，22季原文仍缺；完整時間／版本關卡未過，不擴大下載、建模、績效評估或恢復七規則每日計畫。
+
 # 2026-10-16 聯電SEC索引已驗收
 
 使用者提供的聯電submissions JSON已原樣匯入、封存、Windows備份取回、SHA／manifest／CRC驗證通過。738列recent陣列定位2025-01-21唯一6-K候選 `0000950170-25-006966`；它仍是候選，財務季度及JSON接受時間尚未由SGML原文核驗。兩個worker對完整申報與索引各請求一次，實際均HTTP403，錯誤回應亦封存取回。42項相關測試通過，見[聯電索引報告](../deliverables/operating_umc_locator_20261016/report.md)、[測試](../deliverables/operating_umc_locator_20261016/tests.json)。
