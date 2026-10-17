@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-17T00:16:45.094152+00:00",
+  "representation": "Manual research notes from parsed web results; secondary locators, not official original bytes",
+  "locators": [
+    {
+      "issuer": "2330",
+      "quarter": "2024Q4",
+      "republisher_url": "https://news.cnyes.com/news/print/5839133",
+      "title_as_reported": "\u53f0\u7a4d\u516c\u53f82024\u5e74\u7b2c\u56db\u5b63\u6bcf\u80a1\u76c8\u9918\u65b0\u53f0\u5e6314.45\u5143",
+      "speech_date_as_reported": "2025/01/16",
+      "speech_time_as_reported": "15:40:39",
+      "official_original_obtained": false,
+      "verified_publication_at": null
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2024Q4",
+      "republisher_url": "https://news.cnyes.com/news/print/5843049",
+      "title_as_reported": "\u672c\u516c\u53f82024\u5e74\u7b2c\u56db\u5b63\u8ca1\u52d9\u5831\u544a",
+      "speech_date_as_reported": "2025/01/21",
+      "speech_time_as_reported": "17:00:11",
+      "official_original_obtained": false,
+      "verified_publication_at": null
+    }
+  ],
+  "official_entry_observation": {
+    "url": "https://mops.twse.com.tw/mops/web/t05st01",
+    "transport": "web tool",
+    "redirected_to": "https://mops.twse.com.tw/mops/error/error.html",
+    "origin_http_status": null
+  },
+  "api_entry_observation": {
+    "url": "https://mops.twse.com.tw/mops/api/t05st01",
+    "transport": "web tool",
+    "error": "URL is not accessible via this tool",
+    "origin_http_status": null
+  },
+  "policy": "Use only to locate official originals. Republished speaking times are not verified first public times. No model promotion."
+}

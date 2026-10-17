@@ -1,0 +1,17 @@
+{
+  "additional_original_pdfs": 2,
+  "additional_issuer_quarters_with_financial_original": 0,
+  "issuer_quarters_with_financial_original": 2,
+  "missing_original_quarters": 22,
+  "requests": 6,
+  "http_200": 2,
+  "http_403": 3,
+  "timeouts": 1,
+  "umc_window_candidate_count": 11,
+  "umc_explicit_amendment_candidate_count": 0,
+  "umc_later_same_period_candidates": 2,
+  "ready_for_model": false,
+  "models_fitted": 0,
+  "evaluation_rows": 0,
+  "checkpoint_sha256": "309a2d14b4be17d41755b3806c2825b84f186867f9c6eccfd3d2bff54e227d40"
+}

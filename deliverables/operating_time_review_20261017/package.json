@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/operating_pilot_20261016/time_sources_20261017/source_checkpoint.zip",
+  "sha256": "309a2d14b4be17d41755b3806c2825b84f186867f9c6eccfd3d2bff54e227d40",
+  "manifest_files": 27,
+  "created_at": "2026-10-17T00:14:45.393045+00:00",
+  "retrieved": "inputs/operating_pilot_20261016/time_sources_20261017/source_checkpoint.retrieved.zip",
+  "transfer_receipt": "inputs/operating_pilot_20261016/time_sources_20261017/transfer.json",
+  "backup_label": "operating_time_review_20261017"
+}

@@ -1,0 +1,9 @@
+{
+  "output_directory": "inputs/operating_pilot_20261016/time_sources_20261017/probe",
+  "requests": [
+    {"filename":"tsmc_release.html","url":"https://pr.cld.tsmc.com/english/news/3201"},
+    {"filename":"umc_distribution.html","url":"https://www.businesswire.com/news/home/20250121293936/en/UMC-Reports-Fourth-Quarter-2024-Results"},
+    {"filename":"sec_pds_spec.pdf","url":"https://www.sec.gov/info/edgar/specifications/pds-dissemination-spec030314.pdf"},
+    {"filename":"umc_later_financials.txt","url":"https://www.sec.gov/Archives/edgar/data/1033767/000129281425000981/0001292814-25-000981.txt"}
+  ]
+}

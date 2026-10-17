@@ -1,0 +1,87 @@
+{
+  "stages": [
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "operating_time_review.py",
+        "package"
+      ],
+      "inputs": [
+        "operating_time_review.py",
+        "configs/research_reassessment_20261016.json",
+        "configs/operating_time_sources_20261017.json",
+        "configs/operating_time_pdf_sources_20261017.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/probe",
+        "inputs/operating_pilot_20261016/time_sources_20261017/curl",
+        "inputs/operating_pilot_20261016/time_sources_20261017/web_observations.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/acquire_pdfs.py",
+        "deliverables/operating_umc_index_html_20261017/checkpoint.json",
+        "deliverables/operating_umc_index_html_20261017/pipeline_state.json",
+        "deliverables/operating_umc_index_html_20261017/source_ledger.csv",
+        "deliverables/operating_sec_import_20261016/package.json",
+        "deliverables/operating_umc_locator_20261016/index_package.json",
+        "inputs/operating_pilot_20261016/umc_index_html_20261017/source_checkpoint.retrieved.zip",
+        "inputs/operating_pilot_20261016/sec_import_20261016/source_checkpoint.retrieved.zip",
+        "inputs/operating_pilot_20261016/umc_index_20261016/index_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_time_review_20261017/package.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/source_checkpoint.zip"
+      ],
+      "timeout_seconds": 45
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "operating_time_review.py",
+        "audit"
+      ],
+      "inputs": [
+        "operating_time_review.py",
+        "configs/research_reassessment_20261016.json",
+        "operating_version_review.py",
+        "sec_submissions_index.py",
+        "operating_windows_recovery.py",
+        "requirements_operating_pilot.txt",
+        "deliverables/operating_time_review_20261017/package.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/transfer.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/source_checkpoint.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/operating_time_review_20261017/umc_version_candidates.json",
+        "deliverables/operating_time_review_20261017/source_review.json",
+        "deliverables/operating_time_review_20261017/transport_inventory.json",
+        "deliverables/operating_time_review_20261017/source_ledger.csv"
+      ],
+      "timeout_seconds": 45
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_time_review.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_time_review.py",
+        "configs/research_reassessment_20261016.json",
+        "deliverables/operating_time_review_20261017/package.json",
+        "deliverables/operating_time_review_20261017/umc_version_candidates.json",
+        "deliverables/operating_time_review_20261017/source_review.json",
+        "deliverables/operating_time_review_20261017/transport_inventory.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/transfer.json",
+        "inputs/operating_pilot_20261016/time_sources_20261017/source_checkpoint.retrieved.zip",
+        "deliverables/operating_time_review_20261017/publication_locators.json"
+      ],
+      "outputs": [
+        "deliverables/operating_time_review_20261017/checkpoint.json",
+        "deliverables/operating_time_review_20261017/next_tasks.json",
+        "deliverables/operating_time_review_20261017/summary.json",
+        "deliverables/operating_time_review_20261017/report.md"
+      ],
+      "timeout_seconds": 45
+    }
+  ]
+}

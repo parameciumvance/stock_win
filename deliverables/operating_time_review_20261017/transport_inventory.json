@@ -1,0 +1,78 @@
+{
+  "records": [
+    {
+      "filename": "tsmc_release.html",
+      "url": "https://pr.cld.tsmc.com/english/news/3201",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "http_status": 403,
+      "error": null,
+      "request_started_at": "2026-10-17T00:11:43.180Z",
+      "observed_at": "2026-10-17T00:11:43.366Z",
+      "sha256": "e5f31bb8341b271594a8a4fa38df2bfef03ea1fb4c4aa6320a99fa88b7dc1773",
+      "size_bytes": 4543
+    },
+    {
+      "filename": "sec_pds_spec.pdf",
+      "url": "https://www.sec.gov/info/edgar/specifications/pds-dissemination-spec030314.pdf",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "http_status": 403,
+      "error": null,
+      "request_started_at": "2026-10-17T00:11:43.369Z",
+      "observed_at": "2026-10-17T00:11:46.399Z",
+      "sha256": "58866607345b08cd17bc7c20fc35925f936d2f78b8942b8803f7770edaa54c25",
+      "size_bytes": 1924
+    },
+    {
+      "filename": "umc_later_financials.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000129281425000981/0001292814-25-000981.txt",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "http_status": 403,
+      "error": null,
+      "request_started_at": "2026-10-17T00:11:46.402Z",
+      "observed_at": "2026-10-17T00:11:46.647Z",
+      "sha256": "ff9c7566562c9e11937602cba04fb5a28ecc18fdb7e903910ce06c6a5c09d2ed",
+      "size_bytes": 4818
+    },
+    {
+      "filename": "umc_distribution.html",
+      "url": "https://www.businesswire.com/news/home/20250121293936/en/UMC-Reports-Fourth-Quarter-2024-Results",
+      "transport": "Desktop Commander Remote / Windows Node v24.21.0 fetch",
+      "http_status": null,
+      "error": {
+        "name": "TimeoutError",
+        "message": "The operation was aborted due to timeout",
+        "cause": null
+      },
+      "request_started_at": "2026-10-17T00:11:43.218Z",
+      "observed_at": "2026-10-17T00:12:08.221Z",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "filename": "umc_conference.pdf",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_conference_call.pdf",
+      "transport": "Windows curl.exe",
+      "http_status": 200,
+      "error": null,
+      "request_started_at": "2026-10-17T00:12:51.664350+00:00",
+      "observed_at": "2026-10-17T00:12:52.923602+00:00",
+      "sha256": "12c9ca781054920dce59df95052ba4ba8a72009b88df55c994bc9e08147795d0",
+      "size_bytes": 76263
+    },
+    {
+      "filename": "tsmc_without_guidance.pdf",
+      "url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2025-01/4403102dcea6b02abaf1bd9778ea69e0ec6b4ab0/4Q24EarningsRelease_WoG.pdf",
+      "transport": "Windows curl.exe",
+      "http_status": 200,
+      "error": null,
+      "request_started_at": "2026-10-17T00:12:51.664746+00:00",
+      "observed_at": "2026-10-17T00:12:53.075257+00:00",
+      "sha256": "b442b7ca42fa2e90b5560665ffe64b03f025b1b264c201f905f5e0eb1ab8e97e",
+      "size_bytes": 163244
+    }
+  ],
+  "requests": 6,
+  "http_200": 2,
+  "http_403": 3,
+  "timeouts": 1
+}

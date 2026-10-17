@@ -1,0 +1,81 @@
+{
+  "status": "source_feasibility_gate_still_blocked",
+  "completed": [
+    "archived two additional official PDFs and six transport observations",
+    "replayed TSMC same-quarter alternate representation",
+    "inventoried ordinary filings as well as /A forms"
+  ],
+  "blockers": [
+    {
+      "task": "Obtain official originals for the two announcements located by secondary republications",
+      "locators": [
+        {
+          "issuer": "2330",
+          "quarter": "2024Q4",
+          "republisher_url": "https://news.cnyes.com/news/print/5839133",
+          "title_as_reported": "\u53f0\u7a4d\u516c\u53f82024\u5e74\u7b2c\u56db\u5b63\u6bcf\u80a1\u76c8\u9918\u65b0\u53f0\u5e6314.45\u5143",
+          "speech_date_as_reported": "2025/01/16",
+          "speech_time_as_reported": "15:40:39",
+          "official_original_obtained": false,
+          "verified_publication_at": null
+        },
+        {
+          "issuer": "2303",
+          "quarter": "2024Q4",
+          "republisher_url": "https://news.cnyes.com/news/print/5843049",
+          "title_as_reported": "\u672c\u516c\u53f82024\u5e74\u7b2c\u56db\u5b63\u8ca1\u52d9\u5831\u544a",
+          "speech_date_as_reported": "2025/01/21",
+          "speech_time_as_reported": "17:00:11",
+          "official_original_obtained": false,
+          "verified_publication_at": null
+        }
+      ],
+      "available": false
+    },
+    {
+      "task": "Review UMC later same-period filing; do not call it a correction before checking contents",
+      "candidates": [
+        {
+          "accession": "0001292814-25-000981",
+          "filing_date": "2025-03-20",
+          "report_date_as_reported": "2024-12-31",
+          "form": "6-K",
+          "primary_document": "umcfs4q24_6k.htm",
+          "acceptance_as_reported": "2025-03-20T14:03:57.000Z",
+          "relation": "same_period_end_later_filing_candidate",
+          "complete_submission_url": "https://www.sec.gov/Archives/edgar/data/1033767/000129281425000981/0001292814-25-000981.txt",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1033767/000129281425000981/0001292814-25-000981-index.html",
+          "financial_quarter_not_inferred_from_index": true,
+          "original_availability_not_inferred_from_index": true
+        },
+        {
+          "accession": "0001193125-25-092142",
+          "filing_date": "2025-04-24",
+          "report_date_as_reported": "2024-12-31",
+          "form": "20-F",
+          "primary_document": "d846836d20f.htm",
+          "acceptance_as_reported": "2025-04-24T14:10:32.000Z",
+          "relation": "same_period_end_later_filing_candidate",
+          "complete_submission_url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312525092142/0001193125-25-092142.txt",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312525092142/0001193125-25-092142-index.html",
+          "financial_quarter_not_inferred_from_index": true,
+          "original_availability_not_inferred_from_index": true
+        }
+      ],
+      "available": false
+    },
+    {
+      "task": "Obtain document-specific public-time or authoritative release metadata and scoped version evidence for both pilot quarters",
+      "available": false,
+      "not_satisfied_by": [
+        "SEC acceptance",
+        "scheduled conference",
+        "file/PDF creation time",
+        "usual dissemination duration"
+      ]
+    }
+  ],
+  "next_if_sources_available": "Compare exact versions and availability; only then scale the fixed 24-quarter cohort",
+  "no_existing_file_reupload_needed": true,
+  "seven_rule_daily_plan": "stopped_by_user_no_resume"
+}

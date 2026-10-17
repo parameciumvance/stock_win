@@ -1,0 +1,57 @@
+{
+  "umc_conference": {
+    "pages": 1,
+    "sha256": "12c9ca781054920dce59df95052ba4ba8a72009b88df55c994bc9e08147795d0",
+    "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_conference_call.pdf"
+  },
+  "tsmc_additional_pdf": {
+    "pages": 2,
+    "sha256": "b442b7ca42fa2e90b5560665ffe64b03f025b1b264c201f905f5e0eb1ab8e97e",
+    "url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2025-01/4403102dcea6b02abaf1bd9778ea69e0ec6b4ab0/4Q24EarningsRelease_WoG.pdf",
+    "financial_values": {
+      "gross_margin_pct": 59.0,
+      "revenue_twd_billions": 868.46,
+      "eps_twd": 14.45,
+      "accounting_basis": "TIFRS consolidated"
+    },
+    "financial_values_match": true,
+    "guidance_phrase_present": false,
+    "distinct_representation_not_proven_revision_order": true
+  },
+  "time_evidence": [
+    {
+      "kind": "conference_schedule",
+      "as_reported": "2025-01-21 17:00 Asia/Taipei",
+      "source_url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_conference_call.pdf",
+      "raw_obtained": true,
+      "classification": "scheduled_event_only",
+      "public_dissemination_at": null,
+      "taiwan_first_published_at": null,
+      "ready_for_model": false
+    },
+    {
+      "kind": "issuer_date",
+      "as_reported": "2025-01-16",
+      "source_url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2025-01/4403102dcea6b02abaf1bd9778ea69e0ec6b4ab0/4Q24EarningsRelease_WoG.pdf",
+      "raw_obtained": true,
+      "classification": "date_only",
+      "public_dissemination_at": null,
+      "taiwan_first_published_at": null,
+      "ready_for_model": false
+    },
+    {
+      "kind": "usual_process_duration",
+      "as_reported": "Usually no longer than two minutes; not a guaranteed bound",
+      "source_url": "https://www.sec.gov/info/edgar/specifications/pds-dissemination-spec030314.pdf",
+      "raw_obtained": false,
+      "classification": "not_a_per_document_time_bound",
+      "public_dissemination_at": null,
+      "taiwan_first_published_at": null,
+      "ready_for_model": false
+    }
+  ],
+  "full_revision_history_verified": false,
+  "public_dissemination_at": null,
+  "taiwan_first_published_at": null,
+  "ready_for_model": false
+}

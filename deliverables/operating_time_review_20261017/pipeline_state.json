@@ -1,0 +1,106 @@
+{
+  "stages": {
+    "package": {
+      "status": "complete",
+      "fingerprint": "89d71f3168e8b7a172af84297fa5a5d5b4e149ec2e821a62e606b314322c31c8",
+      "started_at": "2026-10-17T00:17:30.278068+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-17T00:17:30.278200+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/time_review_pipeline/logs/package.1792196250281649938.log",
+      "peak_observed_rss_bytes": 7614464,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5042579759610817,
+      "outputs": {
+        "deliverables/operating_time_review_20261017/package.json": "5fcc884b789d390b4ccd100a4c52360368747cef4062b924c01ff7a0b0f1b305",
+        "inputs/operating_pilot_20261016/time_sources_20261017/source_checkpoint.zip": "309a2d14b4be17d41755b3806c2825b84f186867f9c6eccfd3d2bff54e227d40"
+      },
+      "finished_at": "2026-10-17T00:17:30.799551+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-17T00:17:30.799714+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "aab6ce2160a2acb2c6c1f24f80095974f30bc36da5c14b6bc6bb556cc7dd815c",
+      "started_at": "2026-10-17T00:17:30.809507+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-17T00:17:30.809799+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/time_review_pipeline/logs/audit.1792196250812519037.log",
+      "peak_observed_rss_bytes": 7987200,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5048256490263157,
+      "outputs": {
+        "deliverables/operating_time_review_20261017/umc_version_candidates.json": "2691c0842b81f99d8155da9ed93273142c52d3fcbc007bb8fc72833bdcf9fb0d",
+        "deliverables/operating_time_review_20261017/source_review.json": "8252a9abf52ef352cfd81202de2e3006d77e1ee366a1d65e27665dbc7c271cb0",
+        "deliverables/operating_time_review_20261017/transport_inventory.json": "381687bb5d2d25829bf65796eca2e47898d76d33c80b63d1aaeed5ecd7fc41f1",
+        "deliverables/operating_time_review_20261017/source_ledger.csv": "492a68c8f0f8ddf3f6c479e750d66b7085b990d3458d78c1d72cc4401859817f"
+      },
+      "finished_at": "2026-10-17T00:17:31.321753+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-17T00:17:31.321815+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "e6f42a007317813b313c87c4b215e19248287c2284b26911f8c29bfacd15d38a",
+      "started_at": "2026-10-17T00:17:31.326658+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-17T00:17:31.326774+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_pilot_20261016/time_review_pipeline/logs/report.1792196251329528465.log",
+      "peak_observed_rss_bytes": 7581696,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5044324779883027,
+      "outputs": {
+        "deliverables/operating_time_review_20261017/checkpoint.json": "4f279884ca24ef2e28afe550e455eda1399c4d1a5096f9dce24d8a3d7da50837",
+        "deliverables/operating_time_review_20261017/next_tasks.json": "471dcad809064f8b4391b608da1a3963b1279cc9c88ab7b29e1878163b642e65",
+        "deliverables/operating_time_review_20261017/summary.json": "a0bea6d5aaf264a6e34f81b2567393a7fc83918425ad551e4de07ce8c35fb34c",
+        "deliverables/operating_time_review_20261017/report.md": "8e429b2be7f88b247aa970f73a6e192e3ec89172c32c962db481ab3af00a3456"
+      },
+      "finished_at": "2026-10-17T00:17:31.837154+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-17T00:17:31.837227+00:00",
+        "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-17T00:17:31.884594+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-17T00:17:31.903149+00:00",
+  "current_stage": "report",
+  "message": "RuntimeError: Child failed; inspect inputs/operating_pilot_20261016/time_review_pipeline/logs/audit.1792196093084520165.log",
+  "finished_at": "2026-10-17T00:17:31.903122+00:00"
+}

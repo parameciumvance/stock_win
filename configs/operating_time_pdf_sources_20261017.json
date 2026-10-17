@@ -1,0 +1,13 @@
+{
+  "output_directory": "inputs/operating_pilot_20261016/time_sources_20261017/curl",
+  "requests": [
+    {
+      "filename": "umc_conference.pdf",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_conference_call.pdf"
+    },
+    {
+      "filename": "tsmc_without_guidance.pdf",
+      "url": "https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/qr/phase4_reports/2025-01/4403102dcea6b02abaf1bd9778ea69e0ec6b4ab0/4Q24EarningsRelease_WoG.pdf"
+    }
+  ]
+}
