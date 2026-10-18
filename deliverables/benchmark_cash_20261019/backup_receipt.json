@@ -1,0 +1,9 @@
+{
+  "sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+  "backup_path": "C:\\Users\\user\\stock_win_research_backups\\benchmark_cash_20261019_sources_260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e.zip",
+  "retrieved_path": "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+  "roundtrip_verified": true,
+  "verified_at": "2026-10-18T23:41:34.331Z",
+  "transport": "Desktop Commander Remote / Windows Node file copy",
+  "storage": "Windows user backup and WSL retrieval; same computer"
+}

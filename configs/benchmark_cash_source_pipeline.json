@@ -1,0 +1,48 @@
+{
+  "stages": [
+    {
+      "id": "acquire",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/benchmark_cash_sources_20261019.json"
+      ],
+      "inputs": [
+        "bounded_public_sources.py",
+        "configs/benchmark_cash_sources_20261019.json",
+        "configs/benchmark_cash_protocol_20261019.json",
+        "research_runtime.py"
+      ],
+      "outputs": [
+        "inputs/benchmark_cash_20261019/raw/results.json"
+      ],
+      "timeout_seconds": 100
+    },
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "benchmark_cash_run.py",
+        "package"
+      ],
+      "inputs": [
+        "benchmark_cash_run.py",
+        "source_checkpoint.py",
+        "configs/benchmark_cash_sources_20261019.json",
+        "configs/benchmark_cash_protocol_20261019.json",
+        "inputs/benchmark_cash_20261019/raw",
+        "research_runtime.py",
+        "cash_benchmark.py",
+        "prospective_sources.py",
+        "twse_history/physical_ledger_v9.py",
+        "twse_history/research_cash_v6.py",
+        "research_reassessment.py"
+      ],
+      "outputs": [
+        "inputs/benchmark_cash_20261019/sources.zip",
+        "deliverables/benchmark_cash_20261019/sources_package.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

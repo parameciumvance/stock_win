@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "calendar_days": 1094,
+  "claims": 6,
+  "max_field_absolute_error": 8.881784197001252e-16,
+  "max_money_error_twd": 0.0,
+  "max_nav_ratio_error": 8.881784197001252e-16,
+  "method": "Decimal direct held-units times per-unit amount; independent paid-to-date/receivable sums",
+  "summary_sha256": "7d162995cc506d08a8b61c8aa255b2aa5fed8fdce36b1029ebc48461ac1b01a7"
+}

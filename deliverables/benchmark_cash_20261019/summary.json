@@ -1,0 +1,19 @@
+{
+  "status": "gross_physical_accounting_only",
+  "initial_quote_cost": 109600.0,
+  "calendar_days": 1094,
+  "market_sessions": 724,
+  "stale_market_sessions": 5,
+  "ending_units": 4000.0,
+  "settled_gross_cash": 12640.0,
+  "unpaid_gross_receivable": 0.0,
+  "ending_gross_wealth": 275040.0,
+  "gross_physical_change": 1.5094890510948904,
+  "frozen_adjusted_quote_change": 1.608274763394161,
+  "difference_pp": -9.878571229927058,
+  "input_sha256": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+  "daily_sha256": "b62bc2bbc4379dd6c2e8749f74c355ee19526e843517ded5f232e2eaca151c23",
+  "claims_sha256": "883b5d4abb7f4e76abe87497a0a4311bf46030f852eb3a92240791dd08534094",
+  "protocol_sha256": "189d057ad998796c4d18c7d64ed9d7c8e92ca82930f7c8fa42c82a7b3cc7abba",
+  "profit_edge_proven": false
+}

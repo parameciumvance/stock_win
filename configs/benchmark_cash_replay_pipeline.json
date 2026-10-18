@@ -1,0 +1,124 @@
+{
+  "stages": [
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "benchmark_cash_run.py",
+        "replay"
+      ],
+      "inputs": [
+        "benchmark_cash_run.py",
+        "cash_benchmark.py",
+        "twse_history/physical_ledger_v9.py",
+        "research_runtime.py",
+        "configs/benchmark_cash_protocol_20261019.json",
+        "deliverables/benchmark_cash_20261019/protocol_freeze.json",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_reassessment.py",
+        "configs/benchmark_cash_sources_20261019.json",
+        "deliverables/benchmark_cash_20261019/sources_package.json",
+        "inputs/benchmark_cash_20261019/sources_transfer.json",
+        "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+        "twse_history/research_cash_v6.py"
+      ],
+      "outputs": [
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "ledger",
+      "command": [
+        "{python}",
+        "benchmark_cash_run.py",
+        "ledger"
+      ],
+      "inputs": [
+        "benchmark_cash_run.py",
+        "cash_benchmark.py",
+        "twse_history/physical_ledger_v9.py",
+        "research_runtime.py",
+        "configs/benchmark_cash_protocol_20261019.json",
+        "deliverables/benchmark_cash_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/research_cash_v6.py",
+        "research_reassessment.py"
+      ],
+      "outputs": [
+        "deliverables/benchmark_cash_20261019/daily.csv.gz",
+        "deliverables/benchmark_cash_20261019/claims.json",
+        "deliverables/benchmark_cash_20261019/summary.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "benchmark_cash_run.py",
+        "audit"
+      ],
+      "inputs": [
+        "benchmark_cash_run.py",
+        "cash_benchmark.py",
+        "twse_history/physical_ledger_v9.py",
+        "research_runtime.py",
+        "configs/benchmark_cash_protocol_20261019.json",
+        "deliverables/benchmark_cash_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz",
+        "deliverables/benchmark_cash_20261019/daily.csv.gz",
+        "deliverables/benchmark_cash_20261019/claims.json",
+        "deliverables/benchmark_cash_20261019/summary.json",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/research_cash_v6.py",
+        "research_reassessment.py"
+      ],
+      "outputs": [
+        "deliverables/benchmark_cash_20261019/independent_audit.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "benchmark_cash_run.py",
+        "report"
+      ],
+      "inputs": [
+        "benchmark_cash_run.py",
+        "cash_benchmark.py",
+        "twse_history/physical_ledger_v9.py",
+        "research_runtime.py",
+        "configs/benchmark_cash_protocol_20261019.json",
+        "deliverables/benchmark_cash_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "deliverables/benchmark_cash_20261019/claims.json",
+        "deliverables/benchmark_cash_20261019/summary.json",
+        "deliverables/benchmark_cash_20261019/independent_audit.json",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/research_cash_v6.py",
+        "research_reassessment.py"
+      ],
+      "outputs": [
+        "deliverables/benchmark_cash_20261019/report.md",
+        "deliverables/benchmark_cash_20261019/next_tasks.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    }
+  ]
+}

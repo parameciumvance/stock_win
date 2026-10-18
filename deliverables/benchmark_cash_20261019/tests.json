@@ -1,0 +1,41 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_cash_benchmark",
+    "twse_history.test_physical_ledger_v9",
+    "test_operating_snapshot.AcquisitionCheckpointTests",
+    "test_research_reassessment.AttributionTests",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "tests_run": 35,
+  "passed": true,
+  "returncode": 0,
+  "started_at": "2026-10-18T23:47:37.233644+00:00",
+  "finished_at": "2026-10-18T23:47:38.737162+00:00",
+  "output": "----------------------------------------------------------------------\nRan 35 tests in 0.916s\n\nOK\n",
+  "test_file_sha256": {
+    "test_cash_benchmark.py": "aa44586944357df797452d737df941e55eeaf6bd39b1408b60b2f2ff753da845",
+    "twse_history/test_physical_ledger_v9.py": "7cd1632c48a9e4cefe549971eefc142055782e47746fd51ad41a4d1cc1985780",
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "cash_benchmark.py": "0b941add9037066459308ecf034abb44cd3006d82eafe888f9c16a55f27bcc44",
+    "benchmark_cash_run.py": "908f6aa2ff821c9398045aef2e634dec6bcaaae194f41e514edf916de8883622",
+    "twse_history/physical_ledger_v9.py": "8f8403dda1987e790839a9990f9a4700811fc1f056a6d0d5378a6fd4330515f2",
+    "twse_history/research_cash_v6.py": "cfacfed8f3a1d667ef57960382e06c03855582d2aa6c7ed5a268150e2a86f991",
+    "configs/benchmark_cash_source_pipeline.json": "53b7011c17fd3c7d04ba852a2474e33382733896a8662744a69d5120d401ec3e",
+    "configs/benchmark_cash_replay_pipeline.json": "3f15efc98aa92a6eb94a6265344910e73af0c8e60f74e19352185cc7e18bdfad",
+    "configs/benchmark_cash_protocol_20261019.json": "189d057ad998796c4d18c7d64ed9d7c8e92ca82930f7c8fa42c82a7b3cc7abba"
+  },
+  "resolved_observations": [
+    "Prefix-invariance test initially exposed int/float dtype difference in paid_today; normalized payment values to float.",
+    "Initial strict split-factor check rejected 12-significant-digit frozen CSV rounding (observed ratio error -1.8487433806058107e-11). Replaced with propagated half-step rounding bound for existing serialization, kept official exact share ratio 4, added tamper regression."
+  ],
+  "transport_observations": "Four declared official raw requests, all HTTP200; cached replays did not issue new HTTP; no user downloads or fallback route.",
+  "pipeline_replay": "Two source and four replay stages complete, all six subsequently hash-verified and skipped."
+}

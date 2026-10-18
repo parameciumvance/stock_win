@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/benchmark_cash_20261019/sources.zip",
+  "sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+  "manifest_files": 15,
+  "created_at": "2026-10-18T23:40:55.565156+00:00",
+  "retrieved": "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+  "transfer_receipt": "inputs/benchmark_cash_20261019/sources_transfer.json",
+  "backup_label": "benchmark_cash_20261019_sources"
+}

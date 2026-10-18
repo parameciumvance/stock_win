@@ -1,0 +1,147 @@
+{
+  "status": "passed_for_realized_gross_accounting",
+  "sources": [
+    {
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2023&startDate=2023&stkNo=0050",
+      "source_sha256": "63410889e172e18a070759c3c81405df818cfd7fa081ce070d6121c10a56d50d",
+      "filename": "dividends_2023.html",
+      "http_status": 200
+    },
+    {
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2024&startDate=2024&stkNo=0050",
+      "source_sha256": "f88ff6a303fd4a897b18912c4ac483f50fc46113a88c7334aabdec7964f68e1c",
+      "filename": "dividends_2024.html",
+      "http_status": 200
+    },
+    {
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2025&startDate=2025&stkNo=0050",
+      "source_sha256": "cb789e590c0e74d7ed572503ab54ab6fd93d127066c16c92912c82d6ab8d037d",
+      "filename": "dividends_2025.html",
+      "http_status": 200
+    },
+    {
+      "source_url": "https://www.twse.com.tw/zh/ETFortune/announcement?company=A00005&date=20250617&fund=0050&seq=1&type=other",
+      "source_sha256": "f4de1fb6598ec234b38e34dcbd45d2ec753c93aafaee68e8c8dccb2525216521",
+      "filename": "split_2025.html",
+      "http_status": 200
+    }
+  ],
+  "distributions": [
+    {
+      "ex_date": "2023-01-30",
+      "payment_date": "2023-03-07",
+      "cash_per_unit": 2.6,
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2023&startDate=2023&stkNo=0050",
+      "source_sha256": "63410889e172e18a070759c3c81405df818cfd7fa081ce070d6121c10a56d50d"
+    },
+    {
+      "ex_date": "2023-07-18",
+      "payment_date": "2023-08-11",
+      "cash_per_unit": 1.9,
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2023&startDate=2023&stkNo=0050",
+      "source_sha256": "63410889e172e18a070759c3c81405df818cfd7fa081ce070d6121c10a56d50d"
+    },
+    {
+      "ex_date": "2024-01-17",
+      "payment_date": "2024-02-21",
+      "cash_per_unit": 3.0,
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2024&startDate=2024&stkNo=0050",
+      "source_sha256": "f88ff6a303fd4a897b18912c4ac483f50fc46113a88c7334aabdec7964f68e1c"
+    },
+    {
+      "ex_date": "2024-07-16",
+      "payment_date": "2024-08-09",
+      "cash_per_unit": 1.0,
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2024&startDate=2024&stkNo=0050",
+      "source_sha256": "f88ff6a303fd4a897b18912c4ac483f50fc46113a88c7334aabdec7964f68e1c"
+    },
+    {
+      "ex_date": "2025-01-17",
+      "payment_date": "2025-02-20",
+      "cash_per_unit": 2.7,
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2025&startDate=2025&stkNo=0050",
+      "source_sha256": "cb789e590c0e74d7ed572503ab54ab6fd93d127066c16c92912c82d6ab8d037d"
+    },
+    {
+      "ex_date": "2025-07-21",
+      "payment_date": "2025-08-08",
+      "cash_per_unit": 0.36,
+      "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2025&startDate=2025&stkNo=0050",
+      "source_sha256": "cb789e590c0e74d7ed572503ab54ab6fd93d127066c16c92912c82d6ab8d037d"
+    }
+  ],
+  "split": {
+    "date": "2025-06-18",
+    "ratio": 4,
+    "halt_dates": [
+      "2025-06-11",
+      "2025-06-12",
+      "2025-06-13",
+      "2025-06-14",
+      "2025-06-15",
+      "2025-06-16",
+      "2025-06-17"
+    ],
+    "source_url": "https://www.twse.com.tw/zh/ETFortune/announcement?company=A00005&date=20250617&fund=0050&seq=1&type=other",
+    "source_sha256": "f4de1fb6598ec234b38e34dcbd45d2ec753c93aafaee68e8c8dccb2525216521"
+  },
+  "action_checks": [
+    {
+      "ex_date": "2023-01-30",
+      "official_cash_per_unit": 2.6,
+      "reference_implied_cash_per_unit": 2.599999999907077
+    },
+    {
+      "ex_date": "2023-07-18",
+      "official_cash_per_unit": 1.9,
+      "reference_implied_cash_per_unit": 1.9000000004250825
+    },
+    {
+      "ex_date": "2024-01-17",
+      "official_cash_per_unit": 3.0,
+      "reference_implied_cash_per_unit": 2.9999999991979664
+    },
+    {
+      "ex_date": "2024-07-16",
+      "official_cash_per_unit": 1.0,
+      "reference_implied_cash_per_unit": 1.0000000001433575
+    },
+    {
+      "ex_date": "2025-01-17",
+      "official_cash_per_unit": 2.7,
+      "reference_implied_cash_per_unit": 2.700000001431391
+    },
+    {
+      "ex_date": "2025-07-21",
+      "official_cash_per_unit": 0.36,
+      "reference_implied_cash_per_unit": 0.3600000000502626
+    }
+  ],
+  "market_sessions": 724,
+  "raw_quote_sessions": 719,
+  "calendar_basis": "Observed dates in exact frozen multi-security panel, not a newly acquired independent official calendar",
+  "stale_market_dates": [
+    "2025-06-11",
+    "2025-06-12",
+    "2025-06-13",
+    "2025-06-16",
+    "2025-06-17"
+  ],
+  "frozen_price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "extracted_market_sha256": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+  "archive_sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "factor_precision": "Frozen build_history.py writes %.12g; product checks use propagated half-step bounds for those rounded inputs. Official share ratio remains exactly 4.",
+  "historical_pit_verified": false,
+  "actual_broker_credits_verified": false,
+  "backup": {
+    "sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\benchmark_cash_20261019_sources_260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e.zip",
+    "retrieved_path": "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-18T23:41:34.331Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  }
+}

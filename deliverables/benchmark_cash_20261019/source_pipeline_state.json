@@ -1,0 +1,70 @@
+{
+  "stages": {
+    "acquire": {
+      "status": "complete",
+      "fingerprint": "3db17812f0d331bede2524357afbcbf563e355f66755d4edfac7c9b77ae5b521",
+      "started_at": "2026-10-18T23:46:31.675479+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T23:46:31.675721+00:00",
+        "runtime_identity": "479d0b6a663d1f102f74d8b89ddd15e976a68527fdf9f63d310faf9c81ef9082",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/benchmark_cash_20261019/source_pipeline/logs/acquire.1792367191681889039.log",
+      "peak_observed_rss_bytes": 9154560,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5110108180087991,
+      "outputs": {
+        "inputs/benchmark_cash_20261019/raw/results.json": "48a764fbaba7e4d25da5998c0123b2a0441bd0b71451fce3b06eee2b20c2dfcd"
+      },
+      "finished_at": "2026-10-18T23:46:32.203427+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T23:46:32.203620+00:00",
+        "runtime_identity": "479d0b6a663d1f102f74d8b89ddd15e976a68527fdf9f63d310faf9c81ef9082",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "b13215a1d9f5364ee915e106e3b9c179f33e030c869b53eb0153994720bbbf7d",
+      "started_at": "2026-10-18T23:47:14.493463+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T23:47:14.493601+00:00",
+        "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/benchmark_cash_20261019/source_pipeline/logs/package.1792367234497767370.log",
+      "peak_observed_rss_bytes": 8781824,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5108766360208392,
+      "outputs": {
+        "inputs/benchmark_cash_20261019/sources.zip": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+        "deliverables/benchmark_cash_20261019/sources_package.json": "5eabcfe4f67b72d7bf844f06b3206769bfac90609adc778d9cc3dd04fc59601e"
+      },
+      "finished_at": "2026-10-18T23:47:15.018826+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T23:47:15.019019+00:00",
+        "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T23:47:36.921962+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-18T23:47:36.934808+00:00",
+  "current_stage": "package",
+  "finished_at": "2026-10-18T23:47:36.934782+00:00"
+}
