@@ -1,0 +1,8 @@
+{
+  "status": "close_fixed_rule_no_tuning",
+  "parameter_search": false,
+  "manual_daily_validation": false,
+  "seven_rule_daily_plan": "stopped",
+  "external_data_requests": [],
+  "next_decision": "Choose a goal and economic mechanism before any separately frozen new study; do not tune this failed rule"
+}

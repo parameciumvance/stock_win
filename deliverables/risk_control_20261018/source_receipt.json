@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-18T14:15:20.421521+00:00",
+  "archives": {
+    "source_archive": {
+      "path": "ref/institutional_twse_2023_repro_bundle.zip",
+      "sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+      "manifest_files": 506
+    },
+    "backup_archive": {
+      "path": "inputs/reassessment_20261016/backup/original_bundle.zip",
+      "sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+      "manifest_files": 506
+    },
+    "retrieved_archive": {
+      "path": "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+      "sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+      "manifest_files": 506
+    }
+  },
+  "source_price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "extracted_market_sha256": "93cd540b0a3088f1a78776af98df0f6afd8f7ecdf41fe89d2b8c3e6221521362",
+  "calendar_days": 905,
+  "quoted_days": 900,
+  "missing_dates": [
+    "2025-06-11",
+    "2025-06-12",
+    "2025-06-13",
+    "2025-06-16",
+    "2025-06-17"
+  ],
+  "date_start": "2023-01-03",
+  "date_end": "2026-10-02",
+  "calendar_basis": "All dates in the exact frozen multi-security panel; not a newly acquired official calendar",
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "new_downloads": 0,
+  "raw_archives_retransmitted": 0,
+  "storage": "Existing persistent local original/backup/retrieved copies, same filesystem; no off-host guarantee",
+  "limitation": "Quote proxy only; frozen adjusted factors not independently rebuilt from original actions in this round"
+}

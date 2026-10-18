@@ -1,0 +1,27 @@
+{
+  "status": "verified_replay_complete_research_gate_failed",
+  "created_at": "2026-10-18T14:16:00.288754+00:00",
+  "protocol_freeze_commit": "f2ba83f1dfb1244c31a2029af03b8110feac2541",
+  "files": {
+    "configs/risk_control_protocol_20261018.json": "c9e70c29cb072642f203010be1b1e8160eb4c83f57c4709754a78975b2b9bb47",
+    "configs/risk_control_pipeline.json": "f6412ffc164c5f850e6485f071407d18708c3a2688e2d871c36ed88c0246ed89",
+    "risk_control.py": "6e12997322921ca29592a6527413b958f945cf504e5ac31106ceb4b7cc392bfc",
+    "test_risk_control.py": "564d9caf01759e898aa2f42eb53e87429f6cd666260a0d45992affa0738b1fcc",
+    "inputs/risk_control_20261018/market.csv.gz": "93cd540b0a3088f1a78776af98df0f6afd8f7ecdf41fe89d2b8c3e6221521362",
+    "deliverables/risk_control_20261018/daily.csv.gz": "bc10cbe831b5bee91926e06b399725742f876b999278ea5ca3021b4684bfb702",
+    "deliverables/risk_control_20261018/decisions.csv": "1bf1f16bdf15da2101a2e60d011e20619fe20910fc6d8bbaa3799d3e42864576",
+    "deliverables/risk_control_20261018/independent_audit.json": "bafbb66cbe3860c21b6dc02eb963ba9d75df4b86ec43e3f6bcff4d13dfab78a8",
+    "deliverables/risk_control_20261018/next_tasks.json": "7657a24faa82f63b22bde6708c04156dc860f7abb16fd2cb4a140523344cd599",
+    "deliverables/risk_control_20261018/pipeline_state.json": "08dfd1607b092147f39f9524f5b8848c071db218fc5b65bb8f789aba3a317cac",
+    "deliverables/risk_control_20261018/protocol_freeze.json": "b36bf93901beaf922582b39aa33acab38c3019a5890d38a7cfcaa3500e3889f5",
+    "deliverables/risk_control_20261018/report.md": "2d25d75a908d8e7b1d7ee1b14554a04bf663fa6342e996efd35ba651b938a618",
+    "deliverables/risk_control_20261018/source_receipt.json": "a18a170a50b2fcd3e605e2a1d41d8fc903efe890122de12f1260912094106601",
+    "deliverables/risk_control_20261018/summary.json": "2cbe851834601e893fcadda601c7f24df730521f6c11891c2ed9a8487441b9ca",
+    "deliverables/risk_control_20261018/tests.json": "3fd3e3ea356b6540a084bfce7cd4bd8206e076cf903caa61387c4afbbd308ca5"
+  },
+  "raw_checkpoint_reused": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "new_raw_downloads": 0,
+  "raw_retransmissions": 0,
+  "restore": "Restore the three original frozen archive copies at source_receipt paths if missing; then run research_pipeline with configs/risk_control_pipeline.json. Never substitute newer quotes.",
+  "storage": "WSL persistent inputs and prior local original/backup/retrieved archive copies. No new off-host recovery guarantee."
+}

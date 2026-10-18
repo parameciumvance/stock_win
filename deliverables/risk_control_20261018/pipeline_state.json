@@ -1,0 +1,131 @@
+{
+  "stages": {
+    "verify_inputs": {
+      "status": "complete",
+      "fingerprint": "b51e3d2a348bbf0ef36d55098c120c94b0fcf9b4aeba6c6aae176cbfed31b1a5",
+      "started_at": "2026-10-18T14:15:14.243956+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:15:14.244147+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/risk_control_20261018/pipeline/logs/verify_inputs.1792332914249396336.log",
+      "peak_observed_rss_bytes": 177414144,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 6.508979394973721,
+      "outputs": {
+        "inputs/risk_control_20261018/market.csv.gz": "93cd540b0a3088f1a78776af98df0f6afd8f7ecdf41fe89d2b8c3e6221521362",
+        "deliverables/risk_control_20261018/source_receipt.json": "a18a170a50b2fcd3e605e2a1d41d8fc903efe890122de12f1260912094106601"
+      },
+      "finished_at": "2026-10-18T14:15:20.764791+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:15:20.764871+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "run": {
+      "status": "complete",
+      "fingerprint": "6f59221079e3c416ec903f1a1d5e0c1cfdd733bc668ed0fec9f86da5e8ee80e8",
+      "started_at": "2026-10-18T14:15:20.767431+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:15:20.767491+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/risk_control_20261018/pipeline/logs/run.1792332920770359195.log",
+      "peak_observed_rss_bytes": 8085504,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5044438659679145,
+      "outputs": {
+        "deliverables/risk_control_20261018/daily.csv.gz": "bc10cbe831b5bee91926e06b399725742f876b999278ea5ca3021b4684bfb702",
+        "deliverables/risk_control_20261018/decisions.csv": "1bf1f16bdf15da2101a2e60d011e20619fe20910fc6d8bbaa3799d3e42864576",
+        "deliverables/risk_control_20261018/summary.json": "2cbe851834601e893fcadda601c7f24df730521f6c11891c2ed9a8487441b9ca"
+      },
+      "finished_at": "2026-10-18T14:15:21.281566+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:15:21.281673+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "8a8cf9062f173be1d350e7f8d7a962ab88e01b9b4f9da6ff2411101842841bc8",
+      "started_at": "2026-10-18T14:15:21.284630+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:15:21.284699+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/risk_control_20261018/pipeline/logs/audit.1792332921286709949.log",
+      "peak_observed_rss_bytes": 84258816,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.0044741080491804,
+      "outputs": {
+        "deliverables/risk_control_20261018/independent_audit.json": "bafbb66cbe3860c21b6dc02eb963ba9d75df4b86ec43e3f6bcff4d13dfab78a8"
+      },
+      "finished_at": "2026-10-18T14:15:22.297786+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:15:22.297915+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "1f4d3f68b23574adc49fddbc829015546430bf27ea62479472daa0733ffd3957",
+      "started_at": "2026-10-18T14:15:22.301361+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:15:22.301436+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/risk_control_20261018/pipeline/logs/report.1792332922303807054.log",
+      "peak_observed_rss_bytes": 7733248,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5044377680169418,
+      "outputs": {
+        "deliverables/risk_control_20261018/report.md": "2d25d75a908d8e7b1d7ee1b14554a04bf663fa6342e996efd35ba651b938a618",
+        "deliverables/risk_control_20261018/next_tasks.json": "7657a24faa82f63b22bde6708c04156dc860f7abb16fd2cb4a140523344cd599"
+      },
+      "finished_at": "2026-10-18T14:15:22.814423+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:15:22.814514+00:00",
+        "runtime_identity": "f659172fdd631659a706e3ae0eec959b01a2f9007c621173a45de30cace0f7e4",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T14:15:37.850554+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-18T14:15:37.971360+00:00",
+  "current_stage": "report",
+  "finished_at": "2026-10-18T14:15:37.971342+00:00"
+}

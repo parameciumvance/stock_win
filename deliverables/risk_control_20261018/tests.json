@@ -1,0 +1,29 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_risk_control",
+    "test_research_reassessment",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "started_at": "2026-10-18T14:15:59.315278+00:00",
+  "finished_at": "2026-10-18T14:16:00.282566+00:00",
+  "tests_run": 42,
+  "passed": true,
+  "returncode": 0,
+  "output": "----------------------------------------------------------------------\nRan 42 tests in 0.700s\n\nOK\n",
+  "test_file_sha256": {
+    "test_risk_control.py": "564d9caf01759e898aa2f42eb53e87429f6cd666260a0d45992affa0738b1fcc",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "risk_control.py": "6e12997322921ca29592a6527413b958f945cf504e5ac31106ceb4b7cc392bfc",
+    "configs/risk_control_pipeline.json": "f6412ffc164c5f850e6485f071407d18708c3a2688e2d871c36ed88c0246ed89",
+    "configs/risk_control_protocol_20261018.json": "c9e70c29cb072642f203010be1b1e8160eb4c83f57c4709754a78975b2b9bb47"
+  },
+  "pipeline_replay": "All four stages passed; subsequent execution hash-verified and skipped all four",
+  "scope": "23 new tests plus shared archive/pipeline regressions; independent Decimal 5328-row ledger, 8 aggregate groups and calendar returns verified; tampered NAV, summary and gates rejected"
+}

@@ -1,0 +1,323 @@
+{
+  "status": "exploratory_proxy_only",
+  "protocol_sha256": "c9e70c29cb072642f203010be1b1e8160eb4c83f57c4709754a78975b2b9bb47",
+  "calibration": {
+    "calibration_vol": 0.142828062233327,
+    "static_weight": 0.7001425240695197,
+    "calibration_returns": 238
+  },
+  "summary": [
+    {
+      "method": "dynamic",
+      "cost_rate": 0.001,
+      "total_return": 0.9341302367410083,
+      "cagr": 0.28351219698735175,
+      "annualized_vol": 0.12336219727619722,
+      "mean_over_vol": 2.0858754708307514,
+      "max_drawdown": -0.15166913404135318,
+      "cumulative_traded_initial_nav_units": 8.002413293204839,
+      "cost_initial_nav_units": 0.008002413293204839,
+      "mean_exposure": 0.48948913398065586,
+      "ending_exposure": 0.5806916547517802,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.001,
+      "total_return": 1.4767270657582605,
+      "cagr": 0.4094022995146698,
+      "annualized_vol": 0.18695787459432214,
+      "mean_over_vol": 1.9301265410082384,
+      "max_drawdown": -0.19850845235626158,
+      "cumulative_traded_initial_nav_units": 1.3545376851963775,
+      "cost_initial_nav_units": 0.0013545376851963773,
+      "mean_exposure": 0.7045709322878606,
+      "ending_exposure": 0.7012610259912397,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.001,
+      "total_return": 2.561496433834905,
+      "cagr": 0.6170588144952063,
+      "annualized_vol": 0.26850078605138544,
+      "mean_over_vol": 1.9257056880595176,
+      "max_drawdown": -0.27484989809704974,
+      "cumulative_traded_initial_nav_units": 0.9990009990009991,
+      "cost_initial_nav_units": 0.0009990009990009992,
+      "mean_exposure": 1.0,
+      "ending_exposure": 1.0,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.001,
+      "total_return": 0.0,
+      "cagr": 0.0,
+      "annualized_vol": 0.0,
+      "mean_over_vol": null,
+      "max_drawdown": 0.0,
+      "cumulative_traded_initial_nav_units": 0.0,
+      "cost_initial_nav_units": 0.0,
+      "mean_exposure": 0.0,
+      "ending_exposure": 0.0,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": 0.002,
+      "total_return": 0.9221582967452429,
+      "cagr": 0.2805002823980085,
+      "annualized_vol": 0.12340790956371284,
+      "mean_over_vol": 2.0660936214121173,
+      "max_drawdown": -0.1519122688695379,
+      "cumulative_traded_initial_nav_units": 7.974973088753201,
+      "cost_initial_nav_units": 0.015949946177506398,
+      "mean_exposure": 0.48948913398065586,
+      "ending_exposure": 0.5806916547517802,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.002,
+      "total_return": 1.4740307857076576,
+      "cagr": 0.4088215415875083,
+      "annualized_vol": 0.18696381074557808,
+      "mean_over_vol": 1.9278638203070884,
+      "max_drawdown": -0.19852646976070243,
+      "cumulative_traded_initial_nav_units": 1.3537596104123732,
+      "cost_initial_nav_units": 0.0027075192208247468,
+      "mean_exposure": 0.7045709322878606,
+      "ending_exposure": 0.7012610259912397,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.002,
+      "total_return": 2.5579420461763864,
+      "cagr": 0.6164479861642989,
+      "annualized_vol": 0.2685129688330315,
+      "mean_over_vol": 1.924220624208197,
+      "max_drawdown": -0.27484989809704985,
+      "cumulative_traded_initial_nav_units": 0.998003992015968,
+      "cost_initial_nav_units": 0.001996007984031936,
+      "mean_exposure": 1.0,
+      "ending_exposure": 1.0,
+      "days": 666,
+      "missing_valuations": 5
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.002,
+      "total_return": 0.0,
+      "cagr": 0.0,
+      "annualized_vol": 0.0,
+      "mean_over_vol": null,
+      "max_drawdown": 0.0,
+      "cumulative_traded_initial_nav_units": 0.0,
+      "cost_initial_nav_units": 0.0,
+      "mean_exposure": 0.0,
+      "ending_exposure": 0.0,
+      "days": 666,
+      "missing_valuations": 5
+    }
+  ],
+  "calendar_subperiods": [
+    {
+      "method": "dynamic",
+      "cost_rate": 0.001,
+      "year": 2024,
+      "return_": 0.247634004394248,
+      "days": 242
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": 0.001,
+      "year": 2025,
+      "return_": 0.2082034974518503,
+      "days": 243
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": 0.001,
+      "year": 2026,
+      "return_": 0.28309384851039,
+      "days": 181
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.001,
+      "year": 2024,
+      "return_": 0.3220738649593804,
+      "days": 242
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.001,
+      "year": 2025,
+      "return_": 0.25166687711433733,
+      "days": 243
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.001,
+      "year": 2026,
+      "return_": 0.4966962496728182,
+      "days": 181
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.001,
+      "year": 2024,
+      "return_": 0.483312343909563,
+      "days": 242
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.001,
+      "year": 2025,
+      "return_": 0.368588755858376,
+      "days": 243
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.001,
+      "year": 2026,
+      "return_": 0.7543932000703715,
+      "days": 181
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.001,
+      "year": 2024,
+      "return_": 0.0,
+      "days": 242
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.001,
+      "year": 2025,
+      "return_": 0.0,
+      "days": 243
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.001,
+      "year": 2026,
+      "return_": 0.0,
+      "days": 181
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": 0.002,
+      "year": 2024,
+      "return_": 0.24416585590509188,
+      "days": 242
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": 0.002,
+      "year": 2025,
+      "return_": 0.20574987990437554,
+      "days": 243
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": 0.002,
+      "year": 2026,
+      "return_": 0.2813083151201099,
+      "days": 181
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.002,
+      "year": 2024,
+      "return_": 0.3210376288679291,
+      "days": 242
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.002,
+      "year": 2025,
+      "return_": 0.25150891273820575,
+      "days": 243
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": 0.002,
+      "year": 2026,
+      "return_": 0.49642847723678574,
+      "days": 181
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.002,
+      "year": 2024,
+      "return_": 0.4818319922689345,
+      "days": 242
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.002,
+      "year": 2025,
+      "return_": 0.3685887558583749,
+      "days": 243
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": 0.002,
+      "year": 2026,
+      "return_": 0.7543932000703684,
+      "days": 181
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.002,
+      "year": 2024,
+      "return_": 0.0,
+      "days": 242
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.002,
+      "year": 2025,
+      "return_": 0.0,
+      "days": 243
+    },
+    {
+      "method": "cash",
+      "cost_rate": 0.002,
+      "year": 2026,
+      "return_": 0.0,
+      "days": 181
+    }
+  ],
+  "gates": [
+    {
+      "cost_rate": 0.001,
+      "higher_cagr": false,
+      "no_larger_drawdown": true,
+      "higher_mean_over_vol": true,
+      "at_least_two_year_wins": false,
+      "year_wins": 0
+    },
+    {
+      "cost_rate": 0.002,
+      "higher_cagr": false,
+      "no_larger_drawdown": true,
+      "higher_mean_over_vol": true,
+      "at_least_two_year_wins": false,
+      "year_wins": 0
+    }
+  ],
+  "go_gate_passed": false,
+  "decision": "close_fixed_rule_no_tuning",
+  "input_sha256": "93cd540b0a3088f1a78776af98df0f6afd8f7ecdf41fe89d2b8c3e6221521362",
+  "daily_sha256": "bc10cbe831b5bee91926e06b399725742f876b999278ea5ca3021b4684bfb702"
+}

@@ -1,0 +1,99 @@
+{
+  "stages": [
+    {
+      "id": "verify_inputs",
+      "command": [
+        "{python}",
+        "risk_control.py",
+        "verify_inputs"
+      ],
+      "inputs": [
+        "risk_control.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/risk_control_protocol_20261018.json",
+        "deliverables/risk_control_20261018/protocol_freeze.json",
+        "ref/institutional_twse_2023_repro_bundle.zip",
+        "inputs/reassessment_20261016/backup/original_bundle.zip",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+      ],
+      "outputs": [
+        "inputs/risk_control_20261018/market.csv.gz",
+        "deliverables/risk_control_20261018/source_receipt.json"
+      ],
+      "timeout_seconds": 120,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "run",
+      "command": [
+        "{python}",
+        "risk_control.py",
+        "run"
+      ],
+      "inputs": [
+        "risk_control.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/risk_control_protocol_20261018.json",
+        "deliverables/risk_control_20261018/protocol_freeze.json",
+        "inputs/risk_control_20261018/market.csv.gz",
+        "deliverables/risk_control_20261018/source_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/risk_control_20261018/daily.csv.gz",
+        "deliverables/risk_control_20261018/decisions.csv",
+        "deliverables/risk_control_20261018/summary.json"
+      ],
+      "timeout_seconds": 120,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "risk_control.py",
+        "audit"
+      ],
+      "inputs": [
+        "risk_control.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/risk_control_protocol_20261018.json",
+        "deliverables/risk_control_20261018/protocol_freeze.json",
+        "inputs/risk_control_20261018/market.csv.gz",
+        "deliverables/risk_control_20261018/daily.csv.gz",
+        "deliverables/risk_control_20261018/summary.json"
+      ],
+      "outputs": [
+        "deliverables/risk_control_20261018/independent_audit.json"
+      ],
+      "timeout_seconds": 120,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "risk_control.py",
+        "report"
+      ],
+      "inputs": [
+        "risk_control.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/risk_control_protocol_20261018.json",
+        "deliverables/risk_control_20261018/protocol_freeze.json",
+        "deliverables/risk_control_20261018/summary.json",
+        "deliverables/risk_control_20261018/independent_audit.json",
+        "deliverables/risk_control_20261018/source_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/risk_control_20261018/report.md",
+        "deliverables/risk_control_20261018/next_tasks.json"
+      ],
+      "timeout_seconds": 120,
+      "max_rss_mb": 1024
+    }
+  ]
+}

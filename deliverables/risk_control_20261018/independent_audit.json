@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "method": "stdlib sample stdev; Decimal 40-digit self-financing bisection",
+  "rows": 5328,
+  "max_absolute_error": 1.7763568394002505e-15,
+  "calibration_vol": 0.142828062233327,
+  "static_weight": 0.7001425240695197,
+  "aggregate_groups_verified": 8,
+  "summary_sha256": "2cbe851834601e893fcadda601c7f24df730521f6c11891c2ed9a8487441b9ca",
+  "protocol_sha256": "c9e70c29cb072642f203010be1b1e8160eb4c83f57c4709754a78975b2b9bb47",
+  "daily_sha256": "bc10cbe831b5bee91926e06b399725742f876b999278ea5ca3021b4684bfb702"
+}
