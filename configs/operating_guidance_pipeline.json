@@ -1,0 +1,118 @@
+{
+  "stages": [
+    {
+      "id": "verify_inputs",
+      "command": [
+        "{python}",
+        "operating_guidance_run.py",
+        "verify_inputs"
+      ],
+      "inputs": [
+        "operating_guidance_run.py",
+        "operating_guidance.py",
+        "operating_snapshot_sources.py",
+        "source_checkpoint.py",
+        "operating_snapshot.py",
+        "configs/operating_guidance_protocol_20261018.json",
+        "configs/operating_snapshot_protocol_20261018.json",
+        "deliverables/operating_replan_20261018/panel.csv",
+        "deliverables/operating_replan_20261018/arithmetic_errors.csv",
+        "deliverables/operating_replan_20261018/arithmetic_summary.json",
+        "deliverables/operating_replan_20261018/source_inventory.json",
+        "deliverables/operating_replan_20261018/pipeline_state.json",
+        "deliverables/operating_replan_20261018/final_package.json",
+        "inputs/operating_replan_20261018/final.retrieved.zip",
+        "inputs/operating_replan_20261018/final_transfer.json"
+      ],
+      "outputs": [
+        "deliverables/operating_guidance_20261018/inputs_receipt.json"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "operating_guidance_run.py",
+        "replay"
+      ],
+      "inputs": [
+        "operating_guidance_run.py",
+        "operating_guidance.py",
+        "operating_snapshot_sources.py",
+        "source_checkpoint.py",
+        "operating_snapshot.py",
+        "configs/operating_guidance_protocol_20261018.json",
+        "configs/operating_snapshot_protocol_20261018.json",
+        "deliverables/operating_replan_20261018/panel.csv",
+        "deliverables/operating_replan_20261018/arithmetic_errors.csv",
+        "deliverables/operating_replan_20261018/arithmetic_summary.json",
+        "deliverables/operating_replan_20261018/source_inventory.json",
+        "deliverables/operating_replan_20261018/pipeline_state.json",
+        "deliverables/operating_replan_20261018/final_package.json",
+        "inputs/operating_replan_20261018/final.retrieved.zip",
+        "inputs/operating_replan_20261018/final_transfer.json",
+        "deliverables/operating_guidance_20261018/inputs_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/operating_guidance_20261018/guidance_records.json",
+        "deliverables/operating_guidance_20261018/source_replay_checks.json"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "compare",
+      "command": [
+        "{python}",
+        "operating_guidance_run.py",
+        "compare"
+      ],
+      "inputs": [
+        "operating_guidance_run.py",
+        "operating_guidance.py",
+        "operating_snapshot_sources.py",
+        "source_checkpoint.py",
+        "operating_snapshot.py",
+        "configs/operating_guidance_protocol_20261018.json",
+        "configs/operating_snapshot_protocol_20261018.json",
+        "deliverables/operating_replan_20261018/panel.csv",
+        "deliverables/operating_guidance_20261018/guidance_records.json"
+      ],
+      "outputs": [
+        "deliverables/operating_guidance_20261018/comparison.csv",
+        "deliverables/operating_guidance_20261018/summary.json"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "operating_guidance_run.py",
+        "report"
+      ],
+      "inputs": [
+        "operating_guidance_run.py",
+        "operating_guidance.py",
+        "operating_snapshot_sources.py",
+        "source_checkpoint.py",
+        "operating_snapshot.py",
+        "configs/operating_guidance_protocol_20261018.json",
+        "configs/operating_snapshot_protocol_20261018.json",
+        "deliverables/operating_replan_20261018/panel.csv",
+        "deliverables/operating_guidance_20261018/guidance_records.json",
+        "deliverables/operating_guidance_20261018/summary.json",
+        "deliverables/operating_guidance_20261018/comparison.csv",
+        "deliverables/operating_guidance_20261018/source_replay_checks.json",
+        "deliverables/operating_guidance_20261018/inputs_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/operating_guidance_20261018/report.md",
+        "deliverables/operating_guidance_20261018/review.html",
+        "deliverables/operating_guidance_20261018/next_tasks.json",
+        "deliverables/operating_guidance_20261018/pilot_decision.json"
+      ],
+      "timeout_seconds": 60
+    }
+  ]
+}

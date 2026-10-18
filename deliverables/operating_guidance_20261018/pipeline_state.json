@@ -1,0 +1,132 @@
+{
+  "stages": {
+    "verify_inputs": {
+      "status": "complete",
+      "fingerprint": "0dfba0aeae05961a76b909fa913aef6f41f8762c6fe72132763f84a039ccfb2d",
+      "started_at": "2026-10-18T01:57:49.869901+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:57:49.870036+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_guidance_20261018/pipeline/logs/verify_inputs.1792288669872947065.log",
+      "peak_observed_rss_bytes": 10973184,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5106976999668404,
+      "outputs": {
+        "deliverables/operating_guidance_20261018/inputs_receipt.json": "86865d3a379293e9de0ca821f52c3dbca99d67f670a921e4dadba70bf1fd35e3"
+      },
+      "finished_at": "2026-10-18T01:57:50.388734+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:57:50.388829+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "replay": {
+      "status": "complete",
+      "fingerprint": "453f2d15c4fcf24a6316fc98a07da3d4469be56407db93a031398d2e32e34ad7",
+      "started_at": "2026-10-18T01:57:50.395582+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:57:50.395699+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_guidance_20261018/pipeline/logs/replay.1792288670397923960.log",
+      "peak_observed_rss_bytes": 77770752,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.0064979959861375,
+      "outputs": {
+        "deliverables/operating_guidance_20261018/guidance_records.json": "8fc3be408d1c717e6bd027a9852729f2a5eef6a62a8f15d94d4e14a863d22fe5",
+        "deliverables/operating_guidance_20261018/source_replay_checks.json": "6aa2ca563fa74a773268d91dbc4de1d5db26815331e3423563b9fe541cedf890"
+      },
+      "finished_at": "2026-10-18T01:57:54.408378+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:57:54.408466+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "compare": {
+      "status": "complete",
+      "fingerprint": "6170ea698ab4efcbee0c3d4309c87fa86fe631f5806c7657d4cfeaf15864ca2b",
+      "started_at": "2026-10-18T01:57:54.411169+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:57:54.411233+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_guidance_20261018/pipeline/logs/compare.1792288674413617889.log",
+      "peak_observed_rss_bytes": 7131136,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.503575780952815,
+      "outputs": {
+        "deliverables/operating_guidance_20261018/comparison.csv": "a92c4ad26497908560caae3f3f08be7e6539070d943133e12e1b7759e2da28fc",
+        "deliverables/operating_guidance_20261018/summary.json": "5de524815c4efbf612163f79a80465cc6db4f38cc0f48b035fa4704c9e57c3d0"
+      },
+      "finished_at": "2026-10-18T01:57:54.922954+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:57:54.923047+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "239439f8401d2bb63be09cabcc7e4ab769e0b51dabcd0be4dba225fedd93a618",
+      "started_at": "2026-10-18T01:57:54.931194+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:57:54.931363+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_guidance_20261018/pipeline/logs/report.1792288674933908461.log",
+      "peak_observed_rss_bytes": 9551872,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5073945809854195,
+      "outputs": {
+        "deliverables/operating_guidance_20261018/report.md": "5df37ea08f8d59a2e0566add5f1c60de3ddcd737e8e6b8dd8147999e3e911d04",
+        "deliverables/operating_guidance_20261018/review.html": "340546fe5195a6d96ba8da81a9b3e8e4f89e7e726a516f97f9c0f28f1c614cb0",
+        "deliverables/operating_guidance_20261018/next_tasks.json": "be2644a6501b0c17ce83cf0d12dcdb5b813f1bf709dfe00938a3afed8528fb13",
+        "deliverables/operating_guidance_20261018/pilot_decision.json": "d22a6f9ccc900a189a022ce09623e2c5eb674d18a537d183873f1bbb059a2c3e"
+      },
+      "finished_at": "2026-10-18T01:57:55.447458+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:57:55.447531+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T01:57:55.498694+00:00",
+  "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+  "active": {},
+  "heartbeat_at": "2026-10-18T01:57:55.515640+00:00",
+  "current_stage": "report",
+  "finished_at": "2026-10-18T01:57:55.515622+00:00"
+}

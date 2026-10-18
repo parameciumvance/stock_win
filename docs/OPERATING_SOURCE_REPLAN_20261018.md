@@ -1,3 +1,5 @@
+> 同日續作完成：[財測原句／實際值核對](../deliverables/operating_guidance_20261018/report.md)及[離線核對頁](../deliverables/operating_guidance_20261018/review.html)。100項相關測試通過；固定來源試點以資料工具用途收束，未升級預測／股票模型，見[投入決定](../deliverables/operating_guidance_20261018/pilot_decision.json)。
+
 # 2026-10-18 來源方案替換：取消反覆手動補件
 
 使用者要求嘗試解除阻礙；無法解除就說明原因並換方案，不進入反覆人工下載。本決定取代先前各輪報告中的「請另存某檔再提供路徑」待辦；舊報告、資料、協定及hash保留作歷程，不能視為仍待使用者處理的工作。

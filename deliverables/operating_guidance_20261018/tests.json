@@ -1,0 +1,47 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_operating_guidance",
+    "test_operating_snapshot",
+    "test_operating_version_review",
+    "test_sec_filing_index",
+    "test_umc_sec_evidence",
+    "test_sec_submissions_index",
+    "test_sec_submission",
+    "test_operating_remote_audit",
+    "test_operating_windows_recovery",
+    "test_research_reassessment",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "tests_run": 100,
+  "passed": true,
+  "returncode": 0,
+  "started_at": "2026-10-18T01:58:42.688211+00:00",
+  "finished_at": "2026-10-18T01:58:43.537809+00:00",
+  "output": "----------------------------------------------------------------------\nRan 100 tests in 0.531s\n\nOK\n",
+  "test_file_sha256": {
+    "test_operating_guidance.py": "d64884ad0d580018819498b8738b66217ca66aedc77750d6bea5bd17faffaa32",
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_operating_version_review.py": "5c494e521c75c07abaaa59ddf866fe3219b5de131c57aa914e27ebde1be884cf",
+    "test_sec_filing_index.py": "c47907e179e794a22dfe0d3b8f2e03edd8be9385fb6c223bae8089f8f26e1ed9",
+    "test_umc_sec_evidence.py": "20b58142e68ea0bf556a63ee6657b75b9b81b5972b253eeb3016b37e0fe0ccbd",
+    "test_sec_submissions_index.py": "e9166b970e7f705b83e7fa9bfd678e4314eb4359baaf41693804d1a59bb28837",
+    "test_sec_submission.py": "4d0a1e44b3df0ee3389d44b4dfede4085b42c2b955324778f9ee085cc8749e45",
+    "test_operating_remote_audit.py": "a8212b318a765ce4c9d8eeb73933c2611cb3c0ebfb3d9884c5992c2641dae556",
+    "test_operating_windows_recovery.py": "f998325cc5fb9b27d8ec2a76b0a81248f5373a211e9fd49dc60982c095496d09",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "operating_guidance.py": "11980de4b8ea3d0b62a46a3c87855c9958e82861dbe09231c2b5273680fa3f7c",
+    "operating_guidance_run.py": "c232cf5a860be4200ea4d7fe749e36f64eb9bf8b6884888119b38dd499d078e2",
+    "operating_snapshot_sources.py": "cca4bb7819c4ebb757abd7e5c252cca00dbf25cb7f38d74e08fedc3c1595c2d8",
+    "configs/operating_guidance_protocol_20261018.json": "03f4d65db73ab4ad0a9c6bce2d34cbbba5a22b5ac94b96a947f782dd596e2ef1",
+    "configs/operating_guidance_pipeline.json": "3b8ae573dfc2de447dbaf9176def09f1a36b583d63e98871596ad72c1211767b"
+  },
+  "pipeline_replay": "All 4 stages passed; repeated run verified hashes and skipped all stages. No new HTTP or raw archive copies.",
+  "independent_checks": "16-row CSV decimal recomputation, no zero-filling unscored guidance, inline JavaScript syntax and 16 source-page links verified; no visual browser test."
+}

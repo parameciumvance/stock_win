@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-10-18T01:58:42.685377+00:00",
+  "comparison_rows": 16,
+  "finite_intervals": 8,
+  "unscored_rows_preserved": 8,
+  "independent_decimal_recomputation": {
+    "contained": 4,
+    "above": 4,
+    "below": 0,
+    "mean_outside_distance_pp": "0.725"
+  },
+  "conditional_bound_not_promoted": true,
+  "html_rows": 16,
+  "html_source_page_links": 16,
+  "automatic_remote_resources": 0,
+  "javascript_syntax_returncode": 0,
+  "browser_visual_interaction_tested": false,
+  "passed": true
+}

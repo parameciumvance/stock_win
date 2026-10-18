@@ -1,0 +1,13 @@
+{
+  "decision": "Complete the bounded operating-data/source pilot for research-tool use; do not promote it to a stock model",
+  "basis": [
+    "Both issuers fixed 12-quarter numeric/source replay completed",
+    "All 16 target-quarter guidance comparisons retained",
+    "One issuer provides eight numeric intervals; the other provides no eight comparable finite intervals",
+    "Exact historical information sets and independent forecast skill remain unverified"
+  ],
+  "next_action": "Retain the automated extraction and source-review tool. Do not keep extending this cohort, retrying blocked sources, or requesting user downloads to claim predictive advantage.",
+  "models_to_fit_under_this_pilot": 0,
+  "manual_validation_plan_to_start": false,
+  "original_seven_rule_plan": "stopped_by_user_no_resume"
+}

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "issuer": "2330",
+      "requested_targets": 8,
+      "finite_intervals": 8,
+      "unscored_targets": 0,
+      "contained": 4,
+      "above": 4,
+      "below": 0,
+      "realized_containment_fraction": 0.5,
+      "mean_outside_distance_pp": 0.725,
+      "mean_printed_width_pp": 2.0
+    },
+    {
+      "issuer": "2303",
+      "requested_targets": 8,
+      "finite_intervals": 0,
+      "unscored_targets": 8,
+      "contained": 0,
+      "above": 0,
+      "below": 0,
+      "realized_containment_fraction": null,
+      "mean_outside_distance_pp": null,
+      "mean_printed_width_pp": null
+    }
+  ],
+  "total_requested_targets": 16,
+  "first_publication_verified": false,
+  "condition_realization_verified": false,
+  "point_mae_comparison_valid": false,
+  "forecast_skill_established": false,
+  "ready_for_historical_model": false,
+  "models_fitted": 0,
+  "manual_download_requests": 0,
+  "origin_documents": 24,
+  "origin_guidance_unavailable": 1,
+  "conditions_note": "Realized values compared with stated intervals; FX/other assumptions not verified; not a test of conditional forecast skill",
+  "metrics_note": "Outside-interval distance is not point MAE; interval width reduces distance mechanically",
+  "raw_checkpoint_sha256": "bd38f5709f53893241f4adb73e45da006a78e6b1850f56022a43ebbeb744a78d",
+  "guidance_protocol_sha256": "03f4d65db73ab4ad0a9c6bce2d34cbbba5a22b5ac94b96a947f782dd596e2ef1"
+}
