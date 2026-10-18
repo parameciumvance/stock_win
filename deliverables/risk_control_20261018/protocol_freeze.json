@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-10-18T14:10:08.814715+00:00",
+  "protocol": "configs/risk_control_protocol_20261018.json",
+  "sha256": "c9e70c29cb072642f203010be1b1e8160eb4c83f57c4709754a78975b2b9bb47",
+  "strategy_results_examined_before_freeze": false,
+  "prior_research_years_reused": true,
+  "new_raw_downloads": 0
+}
