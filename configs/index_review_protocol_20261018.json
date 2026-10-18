@@ -1,0 +1,54 @@
+{
+  "status": "frozen_bounded_event_mechanism_exploration",
+  "base_commit": "094a4bc4b392e74bafc32c224249a743fcbb212b",
+  "frozen_at": "2026-10-18T14:46:30.521505+00:00",
+  "hypothesis": "Index-related forced sales may cause temporary pressure in deletions, followed by reversal. This is a hypothesis, not a causal claim.",
+  "scope": "All four 2024 Taiwan 50 scheduled reviews, all additions/deletions; reserves and other indices excluded",
+  "reviews": [
+    {
+      "quarter": "2024Q1",
+      "url": "https://taiwanindex.com.tw/news/294"
+    },
+    {
+      "quarter": "2024Q2",
+      "url": "https://taiwanindex.com.tw/news/303"
+    },
+    {
+      "quarter": "2024Q3",
+      "url": "https://taiwanindex.com.tw/news/320"
+    },
+    {
+      "quarter": "2024Q4",
+      "url": "https://taiwanindex.com.tw/news/337"
+    }
+  ],
+  "source_policy": "Save exact current issuer HTML, HTTP metadata, archive and verified Windows backup/readback before price diagnostics. Displayed historical timestamp is a source claim, not first-publication or revision-history proof.",
+  "source_gate": "All four scoped sections parse unambiguously, date order valid, balanced additions/deletions, no duplicate or cross-index/reserve contamination; gaps retained, no replacement events.",
+  "historical_pit_gate": "Not established by current pages; always false in this pilot. No valid historical signals, causality, alpha or prospective performance claims.",
+  "primary_cohort": "All Taiwan 50 deletions; additions are a prespecified descriptive comparison, never a pool to select the winning side.",
+  "entry": "Second market session on or after the declared effective-from date, at proxy open; never publication-day close or implementation auction. This additional session delay does not repair unknown revision history.",
+  "horizon_market_sessions": 20,
+  "exit": "Close of the 20th market session including entry; full market clock, no compression/drop of missing quotes.",
+  "one_way_hypothetical_costs": [
+    0.0025,
+    0.005
+  ],
+  "primary_one_way_cost": 0.005,
+  "benchmark": "0050 over identical entry/exit market dates, same hypothetical proportional cost each side. Quote endpoints only, no portfolio NAV or annualization.",
+  "cost_formula": "(exit / entry) * (1-c)/(1+c) - 1",
+  "price_archive": "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+  "price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "price_member": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+  "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "sample_status": "2024 prices used in older research, not untouched holdout. Four review clusters cannot establish reproducible excess return.",
+  "continuation_gate": "Source/endpoint coverage complete, at least 3 of 4 quarter deletion cohort mean net-relative quote changes >0 and pooled deletion median >0 at primary cost. If failed, close without tuning; if passed, only a separately frozen independent-event proposal, never daily validation.",
+  "hard_limits": {
+    "years": 1,
+    "scheduled_reviews": 4,
+    "new_public_requests": 4,
+    "models_to_fit": 0,
+    "parameter_searches": 0,
+    "manual_download_requests": 0,
+    "daily_validation": false
+  }
+}

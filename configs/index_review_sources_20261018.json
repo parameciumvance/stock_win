@@ -1,0 +1,24 @@
+{
+  "output_directory": "inputs/index_review_20261018/raw",
+  "allowed_hosts": [
+    "taiwanindex.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "2024Q1.html",
+      "url": "https://taiwanindex.com.tw/news/294"
+    },
+    {
+      "filename": "2024Q2.html",
+      "url": "https://taiwanindex.com.tw/news/303"
+    },
+    {
+      "filename": "2024Q3.html",
+      "url": "https://taiwanindex.com.tw/news/320"
+    },
+    {
+      "filename": "2024Q4.html",
+      "url": "https://taiwanindex.com.tw/news/337"
+    }
+  ]
+}
