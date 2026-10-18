@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-10-18T01:38:16.566842+00:00",
+  "numeric_rows": 24,
+  "all_24_snapshot_rows_keep_historical_readiness_false": true,
+  "frozen_2024Q4_regression": [
+    {
+      "issuer": "2330",
+      "quarter": "2024Q4",
+      "source_sha256": "3a2e2a2b10eaf67fb16f0f57edca44dc57ac472c2f24664abec5fe7c4d6ceb9a",
+      "three_values_match": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2024Q4",
+      "source_sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+      "three_values_match": true
+    }
+  ],
+  "independent_csv_mae_checks": 4,
+  "passed": true
+}

@@ -1,0 +1,353 @@
+{
+  "stages": {
+    "package_probe": {
+      "status": "complete",
+      "fingerprint": "2881f0778b650b294b5ae11733c5857a0c15d5deac02e9117a7600340ae48786",
+      "started_at": "2026-10-18T01:37:12.380503+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:12.380645+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/package_probe.1792287432383167868.log",
+      "peak_observed_rss_bytes": 7942144,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5054038460366428,
+      "outputs": {
+        "deliverables/operating_replan_20261018/probe_package.json": "aea8f442f2b0ba751e623b698bc89f25538f08594be36b067ff153f69f432889",
+        "inputs/operating_replan_20261018/probe.zip": "d486adfb14e748cd713e5d8dd2f23a2a38d0f9396a766542c2bfa21dedcd4b06"
+      },
+      "finished_at": "2026-10-18T01:37:12.899600+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:12.899687+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "package_pages": {
+      "status": "complete",
+      "fingerprint": "db3b8ec84a0c4ad84002c56d5e3f840764fe47f948c40376e3e440bb7b2a2ecc",
+      "started_at": "2026-10-18T01:37:12.911406+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:12.911527+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/package_pages.1792287432914839790.log",
+      "peak_observed_rss_bytes": 7913472,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5042963019805029,
+      "outputs": {
+        "deliverables/operating_replan_20261018/pages_package.json": "225b4bbdfc3435081c25a21581977b38cba7772a5cc007495bab49cd1887478e",
+        "inputs/operating_replan_20261018/pages.zip": "391ccc22fc309f028b514ed271fb19f1de949f551a1fd4511da02f75a82182b7"
+      },
+      "finished_at": "2026-10-18T01:37:13.426523+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:13.426620+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "discover": {
+      "status": "complete",
+      "fingerprint": "b9e8491a76857d9cf3c85e4fcc70cae4c2c4fcb37d82338ef5e37e34b0121728",
+      "started_at": "2026-10-18T01:37:13.431511+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:13.431598+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/discover.1792287433434595569.log",
+      "peak_observed_rss_bytes": 7368704,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5032648020423949,
+      "outputs": {
+        "inputs/operating_replan_20261018/selected_sources.json": "9fd807070711be76293e234b3001439211bc59675a62e2bc5164cfffe57fa81b",
+        "inputs/operating_replan_20261018/pdf_requests.json": "b22196cfc9ba5c24519baf70cba2f4db72dc7f28f3d399e7ee9f1ce640b0c8a3"
+      },
+      "finished_at": "2026-10-18T01:37:13.942965+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:13.943040+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "acquire_pdf": {
+      "status": "complete",
+      "fingerprint": "fa2a34bf0a2cdd3bbbaaa2d5437dd6224fc2813e977eb3bbc1a90b3341a23af4",
+      "started_at": "2026-10-18T01:37:13.947445+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:13.947609+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/acquire_pdf.1792287433951853891.log",
+      "peak_observed_rss_bytes": 8015872,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5044948509894311,
+      "outputs": {
+        "inputs/operating_replan_20261018/pdf/results.json": "76045cd4c73c5bc69e24a6d31cbc36de168cfbd940244651beb8d6d0cebd2de8",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q1.pdf": "c4784b608b9cba99a4d88bdb9d7bfb27b4f4c07e805c4cc5063dab10ca89924e",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q1.pdf.headers": "419bad0b095245154f15b79532f7e497c600940547973c0b9f4fccb49038edd8",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q1.pdf.meta.json": "e7d86ae190b6706d3c6d35b404dddb949da66cc4b47841d3340b9314c7651f14",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q2.pdf": "3dc6e5e825b34ca9c10a116b3906ad470ebb789b1fbde4fe0d1c4c86dd1c3d11",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q2.pdf.headers": "dd02fa7991cb18fcc82e1b243fbca60ae8c16155027ed785dd5691820e1df044",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q2.pdf.meta.json": "50bb77d8d1422138798ee7e5dec74049373e60dc202ddf0e8fd987a073faf289",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q3.pdf": "f83884e81d4944e3e239d8d9776818251fc96c309a8b097f588284c551c5725d",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q3.pdf.headers": "bdf54794cfd46eb345433692141abc95f3cf684234e12b8f733676249f604cc8",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q3.pdf.meta.json": "591363a6546cb99ac7d12a36e7f68f030b3fa850ad02fb59b2ef2ab8834fb04f",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q4.pdf": "1108970d365089f19a2d5bff228569b61c643ae0159b44bae5a10305d19bf5c8",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q4.pdf.headers": "e55d119c22620a4cb602f775781610347a72e63caea0afa1ad37a2396ea99950",
+        "inputs/operating_replan_20261018/pdf/tsmc_2023Q4.pdf.meta.json": "e1647cedddd6986152ac80aae662dc7dcafb13b9526232779cc30f79c0d99ab5",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q1.pdf": "734d1dc0fc14593b65aaaaee310b7b2636bd45a2acfd0d685d661386bb8d3a4a",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q1.pdf.headers": "fca67adbb0c9fdef62f25dc0db979eccb7b8cb6ee22c0b2401b53d100e6c3c25",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q1.pdf.meta.json": "bf45c768ccd2b8f0c868b6ad0383de07c80d4ff48a903d6f1511c87ae8f17a29",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q2.pdf": "84df9a6bb10278e70e4289f703dcdfcc8609b24ccebcfb42f0831da87f7d7134",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q2.pdf.headers": "0c7e0b7acdba79993479fae258dca106e2153144237d5d08539e7afb92e7f49a",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q2.pdf.meta.json": "9375af6311ebcf440c493916f74010d423d836f12400bf54bcc137111dc5c4b0",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q3.pdf": "0056cf0bb2d4e28f837c0216542512ac598e4592cd282fcb6a5b73e2a25bae42",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q3.pdf.headers": "8552f202f02b5a70f546ec4eb11e2b4b2ba1154ec884f6d0658ec355fba91e93",
+        "inputs/operating_replan_20261018/pdf/tsmc_2024Q3.pdf.meta.json": "a498902b90d8dc0d174f302aab9142018204328e8c5614ff835e33df6d970400",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q1.pdf": "355254c5ab7af0d5a3d19f1371d94195a7401a555ec19fc977b9b7c875a3d651",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q1.pdf.headers": "02af028b18cfa6be5deddb5aaa38a720798af3c32dca07178a2c9d72292fe157",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q1.pdf.meta.json": "7af90c00d9d3547bfe40856ba4e6991be96a35c728a51e9ffc163b43b65cb1ca",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q2.pdf": "14b24d4f735363fff90ef8d50611864d0dc000edfd74489994569b7428e78d40",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q2.pdf.headers": "4d9247613c4b6902a3d6ebc3373490475cda25ccfe5ce3da416daee9ee942606",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q2.pdf.meta.json": "19357448e062496eea159d8bf255f4dc3df7535058695a40daab79acb18c9622",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q3.pdf": "70bd2764e78e7b88a314272e1d4644fc5f4b67dfd6977a6a1465c8e42f5ccf88",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q3.pdf.headers": "e4c8bbea1a68f7425e210a4eac35c5fca2b003001cffeac194d5c96cf90eb186",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q3.pdf.meta.json": "4153ea23fb1db883d67963b36833310b6416cb0583901cbc978eda533af3bdb9",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q4.pdf": "d14b67a858ffa01e6d16d64f81230d4fedfc7815b3a572b5e5feb0b2f2a2fbd9",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q4.pdf.headers": "4de3121a05e971d6008490bf56fcf7ff3433f02c67079298ce8d0084341b59e8",
+        "inputs/operating_replan_20261018/pdf/tsmc_2025Q4.pdf.meta.json": "0c0fde92c3b829916775da7d2d2b0807b2abadd2c7b86b12d8f26ec5dba94544",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q1.pdf": "aa172451f1d2a81015d10969e0d0e241fbb017b998e32eb1001eabacd0911043",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q1.pdf.headers": "603a85d0fa404f104e807d256b403ec6d1d8c322a3acb6dac77a80e3303abd95",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q1.pdf.meta.json": "01dd887fd89599002f66e0d71a719d4c990c28efeadd8e2c74e11fb0cc5358a8",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q2.pdf": "5c66b4f6871a7253c3ca47d842bdaa318e15f37507b7c6f0bdccf40f56fb853a",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q2.pdf.headers": "4e01201efdb8939b5522ac30c8fc72209f965215653c6da7f3e9ae32afdc7812",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q2.pdf.meta.json": "51f1ff90dd709f307742fe5bfc22e138d4bc613c540bbf72f3f2973916786c03",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q3.pdf": "e9f9981c06a1d93173ec690eb3f6cfb5df697c2ee6a41e158f4524e931d94a14",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q3.pdf.headers": "f7d19a8d87b07dbcd78f6ed9eccf83812a3b9d0a0847d464a6d9a2a6f7c1b4f2",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q3.pdf.meta.json": "21cedcc5e2a9fda1cfc7a3a0a9c20213984f97f4a7b3f1e973663fa28c75c5df",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q4.pdf": "7d8792286e73c0564451128e94c9ad7dc240a2e7fa67fea048f05e78390b63e5",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q4.pdf.headers": "cdd4b981cf94138673e51da991ec0ab0740c17df8f60091a0279de0c158b7f48",
+        "inputs/operating_replan_20261018/pdf/umc_2023Q4.pdf.meta.json": "bdebaae94edfecc597a137239943f3c9d3e0883cd1f9e6aa45a32d7fb1aadb1c",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q1.pdf": "95c8f023c67d89b2040d27c0e1b48778ade1d65732c144878bc6b3c253caa768",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q1.pdf.headers": "35436f38ffbfbbba8e755e25b44744c5a98b8940546a6ecddf8ccff0dfcb9fce",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q1.pdf.meta.json": "836fdcdec86fd7ef22b5f9da949070be8a4be9cf5cff4d624b1ed80e6fc40e8d",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q2.pdf": "ebbdd0af1beb12b3b47fa155d977112ceb950c8996b675518486218308a07f88",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q2.pdf.headers": "8b43eeec868995a944e52272d33f5fd5581a850a2e7b259d46aebf3d0bfef868",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q2.pdf.meta.json": "32abd885e4e31b4bd58e35f04646d9655ba44feb09ddee6ac54c652bd2bb06ef",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q3.pdf": "4513df9ff90be98ad71ecd8d910a3dd396abc53295e98e2d297283bbe28edec1",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q3.pdf.headers": "22e058875162d55bbdd7f9e6e025df185ec299598103963c41a30ce2e89526e6",
+        "inputs/operating_replan_20261018/pdf/umc_2024Q3.pdf.meta.json": "b2ba4fb89324591b7ecfca43c909e38a7b256abaa19cdf4a64c9a1f18ca958d7",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q1.pdf": "ce32f4da26aa03c113f47e56b01fe00f02c679c463f5e26aae36265c132f5b28",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q1.pdf.headers": "ff882d355d2ea0e1571bf0d75866a460f016b26ff5bd32fcfe634752eef9d5a5",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q1.pdf.meta.json": "3dfb3cbf8c73972b8af06b4d7b7f83a84ceecb51488199476fe433a05d395ca7",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q2.pdf": "1663656ca1e0bf1df1556c3417d3d92c701cb9d8eb886accdd830042517c9e70",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q2.pdf.headers": "a3c2972c49ac0e5b702446cf9302b71a75fce40aa02fd8abf38c34b7e5e27521",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q2.pdf.meta.json": "32f632517fd395e598fbeabd4944d8227cd2c045315043edae1b0cce494cb0a0",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q3.pdf": "5cb06045497ae489be09ba136b3dc25b7a90a5241b4c7d337b6cf133fbd8298e",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q3.pdf.headers": "d0798d908b55a215cb25e7ed4ccf65d5cb012096003c785981485133530fadd2",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q3.pdf.meta.json": "4e6a10bf4dba17d19768c9f6cfbe41cce24fb856967105b5b130c7d564a4e07a",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q4.pdf": "f073538f637e15a287a5403efcf6f5651be099b7ba97c86ebdb54fe42e46f6eb",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q4.pdf.headers": "7bad78cb7c14a7dd5837012c4be704fbf29b34390fd9485916fd7042feeee26b",
+        "inputs/operating_replan_20261018/pdf/umc_2025Q4.pdf.meta.json": "59cf9192780d2ba6e27d5ce1fcb0076eac41dddf99ac8705d506c02883d14df5"
+      },
+      "finished_at": "2026-10-18T01:37:14.467562+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:14.467641+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "package_pdf": {
+      "status": "complete",
+      "fingerprint": "1d66cbd625aaa1033dd101dd61f72b7098632863eea8cdcf491512a444742f8d",
+      "started_at": "2026-10-18T01:37:14.480728+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:14.480870+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/package_pdf.1792287434483891328.log",
+      "peak_observed_rss_bytes": 7061504,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.50414414802799,
+      "outputs": {
+        "deliverables/operating_replan_20261018/pdf_package.json": "918b319a940565de10cb054949c81d596c1495c71b8713de898f456ff8c3b6a7",
+        "inputs/operating_replan_20261018/pdf.zip": "a4255b13d5d7b2bca948d7fa41e73186c64e928e16c58ec4b226db9bd8a2022b"
+      },
+      "finished_at": "2026-10-18T01:37:15.025851+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:15.026030+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "9fb7a6423ae5cd0887a122943f139298c6aa56ebfd7613c5c1a2557e14eb1116",
+      "started_at": "2026-10-18T01:37:16.106994+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:16.107126+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/audit.1792287436111237027.log",
+      "peak_observed_rss_bytes": 79360000,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.007275284966454,
+      "outputs": {
+        "deliverables/operating_replan_20261018/panel.csv": "7c59138fe6bb5d79196766f2048abb6bc90a4d4c9a19222dc102b3c6c12ba6df",
+        "deliverables/operating_replan_20261018/arithmetic_errors.csv": "bda8f22c8d8c2c8e9da4a915a66a1d68d1dcf8cf0655b716de5dc9f3b1ad2e66",
+        "deliverables/operating_replan_20261018/arithmetic_summary.json": "a5f4c07ba326beeb503ccfa652c16794b00b0bb85f33fb5d8b6e8a4c25b796b4",
+        "deliverables/operating_replan_20261018/source_inventory.json": "ce4069341b475c47efa8f879ecc180b408ca0e2d93b377b2c020d9328ebc7495",
+        "deliverables/operating_replan_20261018/blocker_diagnosis.json": "01f365900a9adfc95b9ec6a39c8178e410a6f3356e04b0831409646edc4e406d"
+      },
+      "finished_at": "2026-10-18T01:37:20.125248+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:20.125328+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "acquire_fallback": {
+      "status": "complete",
+      "fingerprint": "a6fea50506538eac07129de36d5fc14ac86b18229f6cd068bdd066cfe0cc74cf",
+      "started_at": "2026-10-18T01:37:15.031207+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:15.031369+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/acquire_fallback.1792287435034312059.log",
+      "peak_observed_rss_bytes": 7589888,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.503933213010896,
+      "outputs": {
+        "inputs/operating_replan_20261018/fallback/results.json": "103c361081b7c6d381c60c5cc45b2f06a8d7dd29696614e6555a7ad11b46adee",
+        "inputs/operating_replan_20261018/fallback/tsmc_2023Q2_management.pdf": "86026d4aff0b8d6087b2a163bc38b038a6a79630c5056e93e6bc90aff4aafb3f",
+        "inputs/operating_replan_20261018/fallback/tsmc_2023Q2_management.pdf.headers": "fc88dc0eeb1c3c547c514d027f1015e17f5daf8847b86d2566db95ebb04e7612",
+        "inputs/operating_replan_20261018/fallback/tsmc_2023Q2_management.pdf.meta.json": "87a52b66e1688c6e20f0e9dbd80c20d77f6d692a136e2d072cd79dc3a41ec979"
+      },
+      "finished_at": "2026-10-18T01:37:15.545311+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:15.545415+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "package_final": {
+      "status": "complete",
+      "fingerprint": "7a3c554ad6773774d554e2b58775c1b7257193673d73fdbc25534249191a7845",
+      "started_at": "2026-10-18T01:37:15.560917+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:15.561088+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/package_final.1792287435564222342.log",
+      "peak_observed_rss_bytes": 7434240,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5036542370216921,
+      "outputs": {
+        "inputs/operating_replan_20261018/final.zip": "bd38f5709f53893241f4adb73e45da006a78e6b1850f56022a43ebbeb744a78d",
+        "deliverables/operating_replan_20261018/final_package.json": "f62cffc92e3b4d35e04a73a572d0c1a54129e268b34d68c2c3d67f60daff6146"
+      },
+      "finished_at": "2026-10-18T01:37:16.094837+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:16.094934+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "3685ca72b5ba9e9a0e616ad02b1f5dfabacf59deaa49809374679362eeb45357",
+      "started_at": "2026-10-18T01:37:20.134542+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T01:37:20.134695+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/operating_replan_20261018/pipeline/logs/report.1792287440138366482.log",
+      "peak_observed_rss_bytes": 7192576,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5031430650269613,
+      "outputs": {
+        "deliverables/operating_replan_20261018/report.md": "a65b14b160f9465de390a155464499aa4111d5e17395af13ef0047898db34fed",
+        "deliverables/operating_replan_20261018/checkpoint.json": "4a9b7453e9607b9a8112e26bd58b2734d6c51c0f5f97bf35c10f889760bb37aa",
+        "deliverables/operating_replan_20261018/next_tasks.json": "b38271e31f9cefcd9bb44633d82253d419fe808fc7f0a6f00e7d57a4131bff3f"
+      },
+      "finished_at": "2026-10-18T01:37:20.646688+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T01:37:20.646764+00:00",
+        "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T01:37:20.695629+00:00",
+  "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+  "active": {},
+  "heartbeat_at": "2026-10-18T01:37:20.780804+00:00",
+  "current_stage": "report",
+  "message": "RuntimeError: Child failed; inspect inputs/operating_replan_20261018/pipeline/logs/audit.1792287253145529340.log",
+  "finished_at": "2026-10-18T01:37:20.780783+00:00"
+}

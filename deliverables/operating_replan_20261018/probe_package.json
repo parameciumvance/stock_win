@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/operating_replan_20261018/probe.zip",
+  "sha256": "d486adfb14e748cd713e5d8dd2f23a2a38d0f9396a766542c2bfa21dedcd4b06",
+  "manifest_files": 16,
+  "created_at": "2026-10-18T01:29:19.756497+00:00",
+  "retrieved": "inputs/operating_replan_20261018/probe.retrieved.zip",
+  "transfer_receipt": "inputs/operating_replan_20261018/probe_transfer.json",
+  "backup_label": "operating_replan_20261018_probe"
+}

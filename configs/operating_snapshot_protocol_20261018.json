@@ -1,0 +1,22 @@
+{
+  "decision_date_taipei":"2026-10-18",
+  "authorized_change":"User requested solving acquisition blockers or switching approach without repeated manual downloads",
+  "status":"separate_current_vintage_source_feasibility_experiment",
+  "original_protocol":"configs/research_reassessment_20261016.json",
+  "original_protocol_sha256":"b939e4271b1e3eca3757d8968a335b9f8902d0a870fbf33fd4b855d25942092b",
+  "original_strict_time_gate":"not_passed_not_relaxed",
+  "issuers":["2330","2303"],
+  "quarters":["2023Q1","2023Q2","2023Q3","2023Q4","2024Q1","2024Q2","2024Q3","2024Q4","2025Q1","2025Q2","2025Q3","2025Q4"],
+  "target":"consolidated gross margin percent",
+  "secondary_checks":["EPS TWD","consolidated revenue TWD billions"],
+  "source_policy":"Download issuer earnings PDFs from official quarter pages or official URL patterns; validate issuer/quarter/date/TIFRS/consolidation, archive before numeric replay. Known frozen 2024Q4 PDFs reused from hash-verified receipts; other documents remain separate as-retrieved snapshots.",
+  "document_budget":"One request per selected official URL; two workers; 30 second request bound; no repeated browser-download requests to user",
+  "evaluation_quarters":["2024Q1","2024Q2","2024Q3","2024Q4","2025Q1","2025Q2","2025Q3","2025Q4"],
+  "arithmetic_baselines":["previous_quarter","same_quarter_previous_year"],
+  "metrics":["mean_absolute_error_percentage_points","median_absolute_error_percentage_points"],
+  "management_guidance":"Report exact stated numeric interval or lower bound and conditions separately; no midpoint invented; no point-MAE for non-point guidance",
+  "missing_policy":"Preserve all 24 requested issuer-quarters. Do not choose a different cohort or fill missing quarters. Paired errors use both baselines and target on identical rows; require 8 targets per issuer for a complete result.",
+  "claims":"Retrospective arithmetic and extraction feasibility using as-retrieved documents; not PIT validation, investable forecast accuracy, holdout performance, or alpha. Printed release dates/SEC acceptance are not certified first publication. No models fitted or trades/signals generated.",
+  "stop_policy":"If this official batch cannot produce a coherent complete panel, report source feasibility failure and stop this attempt without manual-file dependency. No retry loop or parameter search.",
+  "seven_rule_daily_plan":"stopped_by_user_no_resume"
+}

@@ -1,0 +1,46 @@
+{
+  "actual_requests": [
+    {
+      "filename": "mops_2330.html",
+      "url": "https://mops.twse.com.tw/mops/web/ajax_t05st01",
+      "http_status": 200,
+      "size_bytes": 800,
+      "semantic_security_denial": true,
+      "usable_original": false,
+      "sha256": "66f5b532eb389aeb779b60c92e6a03de105d273f9814d3ac37cc89caf72ab870"
+    },
+    {
+      "filename": "mops_2303.html",
+      "url": "https://mops.twse.com.tw/mops/web/ajax_t05st01",
+      "http_status": 200,
+      "size_bytes": 800,
+      "semantic_security_denial": true,
+      "usable_original": false,
+      "sha256": "39235b18f7fec9cc5180e1b3807569b169e9f28d7d64c1e1fe673807c053bf5e"
+    },
+    {
+      "filename": "umc_later.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1033767/000129281425000981/0001292814-25-000981.txt",
+      "http_status": 403,
+      "size_bytes": 4818,
+      "semantic_security_denial": false,
+      "usable_original": false,
+      "sha256": "7a1fe3e30fe413e14e02f0ab6a986c0cf6bcb2ed61db26c41641ab024d2a5a67"
+    },
+    {
+      "filename": "tsmc_discovery.html",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2023/q1",
+      "http_status": 200,
+      "size_bytes": 205502,
+      "semantic_security_denial": false,
+      "usable_original": true,
+      "sha256": "30a6041ade97c1e6f07d4293dd705310efab5fc1b89ecb52ab676b214608f375"
+    }
+  ],
+  "origin_root_cause": "Not established; do not infer account/IP/browser-session causes from status codes",
+  "method_problem": "A low-cost quarterly source pilot became coupled to exact first disclosure/full revision reconstruction and repeated manual-file requests before testing extraction coverage.",
+  "strict_pit_route": "Stopped this acquisition attempt, gate remains unpassed",
+  "replacement": "Automated official as-retrieved quarterly snapshots plus explicitly retrospective arithmetic; never re-label as strict PIT",
+  "manual_download_requests": 0,
+  "seven_rule_daily_plan": "stopped_by_user_no_resume"
+}

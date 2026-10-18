@@ -1,0 +1,246 @@
+{
+  "records": [
+    {
+      "issuer": "2303",
+      "quarter": "2023Q1",
+      "sha256": "aa172451f1d2a81015d10969e0d0e241fbb017b998e32eb1001eabacd0911043",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2023/Q1_2023/UMC23Q1_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2023Q1",
+      "sha256": "c4784b608b9cba99a4d88bdb9d7bfb27b4f4c07e805c4cc5063dab10ca89924e",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2023-04/765324723cf228ac306b87854f31fef5ebc9cd68/1Q23EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2023Q2",
+      "sha256": "5c66b4f6871a7253c3ca47d842bdaa318e15f37507b7c6f0bdccf40f56fb853a",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2023/Q2_2023/UMC23Q2_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2023Q2",
+      "sha256": "86026d4aff0b8d6087b2a163bc38b038a6a79630c5056e93e6bc90aff4aafb3f",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2023-07/d0aea5e175f63c90dcd121adcd38da8b520537ef/2Q23ManagementReport.pdf",
+      "pages": 6,
+      "parsed": true,
+      "source_kind": "management_report_fallback",
+      "accounting_standard_explicit": false
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2023Q3",
+      "sha256": "e9f9981c06a1d93173ec690eb3f6cfb5df697c2ee6a41e158f4524e931d94a14",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2023/Q3_2023/UMC23Q3_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2023Q3",
+      "sha256": "f83884e81d4944e3e239d8d9776818251fc96c309a8b097f588284c551c5725d",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2023-10/fec9688d56fc0c61b747de9a224a8a15c47bdf20/3Q23EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2023Q4",
+      "sha256": "7d8792286e73c0564451128e94c9ad7dc240a2e7fa67fea048f05e78390b63e5",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2023/Q4_2023/UMC23Q4_report.pdf",
+      "pages": 13,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2023Q4",
+      "sha256": "1108970d365089f19a2d5bff228569b61c643ae0159b44bae5a10305d19bf5c8",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-01/b65d7a92d8dc9da3f66817946d941401fa4b2cda/4Q23EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2024Q1",
+      "sha256": "95c8f023c67d89b2040d27c0e1b48778ade1d65732c144878bc6b3c253caa768",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q1_2024/UMC24Q1_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2024Q1",
+      "sha256": "734d1dc0fc14593b65aaaaee310b7b2636bd45a2acfd0d685d661386bb8d3a4a",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-04/e19914dd320b6386af51d5ed27fa5c51af9c441e/1Q24EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2024Q2",
+      "sha256": "ebbdd0af1beb12b3b47fa155d977112ceb950c8996b675518486218308a07f88",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q2_2024/UMC24Q2_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2024Q2",
+      "sha256": "84df9a6bb10278e70e4289f703dcdfcc8609b24ccebcfb42f0831da87f7d7134",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-07/a152eded224aa1b83fdf342ed71d4c42af013915/2Q24EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2024Q3",
+      "sha256": "4513df9ff90be98ad71ecd8d910a3dd396abc53295e98e2d297283bbe28edec1",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q3_2024/UMC24Q3_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2024Q3",
+      "sha256": "0056cf0bb2d4e28f837c0216542512ac598e4592cd282fcb6a5b73e2a25bae42",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-10/d00bfb55ffe01e36f56863f975e88d827f9943e8/3Q24EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2024Q4",
+      "sha256": "3a2e2a2b10eaf67fb16f0f57edca44dc57ac472c2f24664abec5fe7c4d6ceb9a",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/cc4e1dec3474f69109d5455fbf8939c3e3cd5a71/4Q24EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "frozen_reuse",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2024Q4",
+      "sha256": "64b73d8838d932aeb3c4d3f145953fdbc0236cf9341e46998ddd37b478ececec",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2024/Q4_2024/UMC24Q4_report.pdf",
+      "pages": 13,
+      "parsed": true,
+      "source_kind": "frozen_reuse",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2025Q1",
+      "sha256": "ce32f4da26aa03c113f47e56b01fe00f02c679c463f5e26aae36265c132f5b28",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2025/Q1_2025/UMC25Q1_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2025Q1",
+      "sha256": "355254c5ab7af0d5a3d19f1371d94195a7401a555ec19fc977b9b7c875a3d651",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-04/6580235c47b7b8f1056b071faa44d958c2c3ba04/1Q25EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2025Q2",
+      "sha256": "1663656ca1e0bf1df1556c3417d3d92c701cb9d8eb886accdd830042517c9e70",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2025/Q2_2025/UMC25Q2_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2025Q2",
+      "sha256": "14b24d4f735363fff90ef8d50611864d0dc000edfd74489994569b7428e78d40",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-07/d9d294ed46ca22c560a17eb060373bc35f2d464a/2Q25EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2025Q3",
+      "sha256": "5cb06045497ae489be09ba136b3dc25b7a90a5241b4c7d337b6cf133fbd8298e",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2025/Q3_2025/UMC25Q3_report.pdf",
+      "pages": 12,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2025Q3",
+      "sha256": "70bd2764e78e7b88a314272e1d4644fc5f4b67dfd6977a6a1465c8e42f5ccf88",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-10/ff1cf977182dad2178b6d158e61d375ac98ff517/3Q25EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2303",
+      "quarter": "2025Q4",
+      "sha256": "f073538f637e15a287a5403efcf6f5651be099b7ba97c86ebdb54fe42e46f6eb",
+      "url": "https://www.umc.com/upload/media/08_Investors/Financials/Quarterly_Results/Quarterly_2020-2029_English_pdf/2025/Q4_2025/UMC25Q4_report.pdf",
+      "pages": 13,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    },
+    {
+      "issuer": "2330",
+      "quarter": "2025Q4",
+      "sha256": "d14b67a858ffa01e6d16d64f81230d4fedfc7815b3a572b5e5feb0b2f2a2fbd9",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/3e49621566a3ca53bdf8aee2586929b666c17fd6/4Q25EarningsRelease.pdf",
+      "pages": 2,
+      "parsed": true,
+      "source_kind": "download",
+      "accounting_standard_explicit": true
+    }
+  ],
+  "gaps": [],
+  "current_vintage_only": true
+}

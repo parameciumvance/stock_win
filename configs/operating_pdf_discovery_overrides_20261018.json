@@ -1,0 +1,9 @@
+{
+ "2024Q2": {
+   "page_url":"https://investor.tsmc.com/english/quarterly-results/2024/q2",
+   "pdf_url":"https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-07/a152eded224aa1b83fdf342ed71d4c42af013915/2Q24EarningsRelease.pdf",
+   "method":"web tool parsed official page Earnings Release link, then opened official PDF; URL discovery only, not original HTML or financial-value input",
+   "observation_date_taipei":"2026-10-18",
+   "reason":"Windows curl page request returned HTTP403; do not retry that URL or ask user to download"
+ }
+}

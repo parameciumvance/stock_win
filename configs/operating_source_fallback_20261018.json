@@ -1,0 +1,11 @@
+{
+  "issuer": "2330",
+  "quarter": "2023Q2",
+  "source_kind": "official_quarterly_management_report",
+  "source_discovery": "raw tsmc_2023Q2.html in verified pages checkpoint; Management Report link",
+  "reason": "Selected earnings PDF returned HTTP403; use a different official same-quarter report, without retrying denied URL",
+  "scope": "One alternate document for this single failed PDF; otherwise preserve missing row and stop without manual downloads",
+  "metrics_or_cohort_changed": false,
+  "decision_before_any_arithmetic_results": true,
+  "first_public_time_inferred": false
+}

@@ -1,0 +1,46 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_operating_snapshot",
+    "test_operating_version_review",
+    "test_sec_filing_index",
+    "test_umc_sec_evidence",
+    "test_sec_submissions_index",
+    "test_sec_submission",
+    "test_operating_remote_audit",
+    "test_operating_windows_recovery",
+    "test_research_reassessment",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "tests_run": 87,
+  "passed": true,
+  "returncode": 0,
+  "started_at": "2026-10-18T01:38:16.569751+00:00",
+  "finished_at": "2026-10-18T01:38:17.690951+00:00",
+  "output": "----------------------------------------------------------------------\nRan 87 tests in 0.550s\n\nOK\n",
+  "test_file_sha256": {
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_operating_version_review.py": "5c494e521c75c07abaaa59ddf866fe3219b5de131c57aa914e27ebde1be884cf",
+    "test_sec_filing_index.py": "c47907e179e794a22dfe0d3b8f2e03edd8be9385fb6c223bae8089f8f26e1ed9",
+    "test_umc_sec_evidence.py": "20b58142e68ea0bf556a63ee6657b75b9b81b5972b253eeb3016b37e0fe0ccbd",
+    "test_sec_submissions_index.py": "e9166b970e7f705b83e7fa9bfd678e4314eb4359baaf41693804d1a59bb28837",
+    "test_sec_submission.py": "4d0a1e44b3df0ee3389d44b4dfede4085b42c2b955324778f9ee085cc8749e45",
+    "test_operating_remote_audit.py": "a8212b318a765ce4c9d8eeb73933c2611cb3c0ebfb3d9884c5992c2641dae556",
+    "test_operating_windows_recovery.py": "f998325cc5fb9b27d8ec2a76b0a81248f5373a211e9fd49dc60982c095496d09",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "bounded_public_sources.py": "de394375536b941e0e668dcf83ddc96165b2cc2abb7d4da6bd59dab313c81ad4",
+    "source_checkpoint.py": "004bb788735329ee9ca15468284857c403a16145e9de7308a3a93098e832356a",
+    "operating_snapshot.py": "ac12ccf6e31eefd053b78a3c522f537eea8fb290a15402becf7b287d90459a3e",
+    "operating_snapshot_run.py": "14c1d6cea5f504a9ea9c59e4173803ab9253051004479cde10d207e994b8433c",
+    "configs/operating_snapshot_pipeline.json": "13e67c3f4d25433e78bd59783f4e7b99661e6fd0b2af403c586c0da2af86f78b",
+    "configs/operating_snapshot_protocol_20261018.json": "05ab2445ac9ff35be9f63640bf8399384903135b83325f81ec629119fb9fb5b7"
+  },
+  "pipeline_replay": "All 9 stages passed; second execution verified hashes and skipped every stage without new HTTP requests.",
+  "additional_checks": "Frozen 2024Q4 exact PDF hashes/six financial values unchanged; independent CSV recomputation of all four MAEs passed."
+}

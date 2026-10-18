@@ -1,0 +1,48 @@
+{
+  "label": "Retrospective as-retrieved arithmetic; not PIT forecast validation",
+  "results": [
+    {
+      "issuer": "2330",
+      "method": "previous_quarter",
+      "paired_targets": 8,
+      "expected_targets": 8,
+      "complete": true,
+      "mae_pp": 1.2624999999999993,
+      "median_ae_pp": 0.5500000000000007
+    },
+    {
+      "issuer": "2330",
+      "method": "same_quarter_previous_year",
+      "paired_targets": 8,
+      "expected_targets": 8,
+      "complete": true,
+      "mae_pp": 3.7124999999999986,
+      "median_ae_pp": 3.3999999999999986
+    },
+    {
+      "issuer": "2303",
+      "method": "previous_quarter",
+      "paired_targets": 8,
+      "expected_targets": 8,
+      "complete": true,
+      "mae_pp": 2.287500000000001,
+      "median_ae_pp": 1.75
+    },
+    {
+      "issuer": "2303",
+      "method": "same_quarter_previous_year",
+      "paired_targets": 8,
+      "expected_targets": 8,
+      "complete": true,
+      "mae_pp": 3.0625,
+      "median_ae_pp": 3.049999999999999
+    }
+  ],
+  "accounting_standard_unstated_rows": 1,
+  "models_fitted": 0,
+  "ready_for_historical_model": false,
+  "quarter_rows": 24,
+  "numeric_rows": 24,
+  "full_source_gate_passed": false,
+  "checkpoint_sha256": "bd38f5709f53893241f4adb73e45da006a78e6b1850f56022a43ebbeb744a78d"
+}

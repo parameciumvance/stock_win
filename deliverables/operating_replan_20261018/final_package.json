@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/operating_replan_20261018/final.zip",
+  "sha256": "bd38f5709f53893241f4adb73e45da006a78e6b1850f56022a43ebbeb744a78d",
+  "manifest_files": 10,
+  "created_at": "2026-10-18T01:31:56.434834+00:00",
+  "retrieved": "inputs/operating_replan_20261018/final.retrieved.zip",
+  "transfer_receipt": "inputs/operating_replan_20261018/final_transfer.json",
+  "backup_label": "operating_replan_20261018_final"
+}

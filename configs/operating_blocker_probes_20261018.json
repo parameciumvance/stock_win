@@ -1,0 +1,10 @@
+{
+  "output_directory":"inputs/operating_replan_20261018/probe",
+  "allowed_hosts":["mops.twse.com.tw","www.sec.gov","investor.tsmc.com"],
+  "requests":[
+    {"filename":"mops_2330.html","url":"https://mops.twse.com.tw/mops/web/ajax_t05st01","method":"POST","data":"encodeURIComponent=1&step=1&firstin=1&TYPEK=all&co_id=2330&year=114&month=01"},
+    {"filename":"mops_2303.html","url":"https://mops.twse.com.tw/mops/web/ajax_t05st01","method":"POST","data":"encodeURIComponent=1&step=1&firstin=1&TYPEK=all&co_id=2303&year=114&month=01"},
+    {"filename":"umc_later.txt","url":"https://www.sec.gov/Archives/edgar/data/1033767/000129281425000981/0001292814-25-000981.txt"},
+    {"filename":"tsmc_discovery.html","url":"https://investor.tsmc.com/english/quarterly-results/2023/q1"}
+  ]
+}
