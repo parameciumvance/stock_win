@@ -1,0 +1,29 @@
+{
+  "status": "replay_verified_exploration_gate_failed",
+  "observed_at": "2026-10-18T14:54:49.261503+00:00",
+  "protocol_freeze_commit": "a5a99b7d1378fd7f218fd493a2725374e49adef9",
+  "files": {
+    "index_review.py": "17e642ce733e5e12a33e77e7ab613ac98324f08550dc25c92bf25718cb6bcbbb",
+    "test_index_review.py": "2993d5cb96bbdb6bf351e6de017788946d1d526a143e6aa94b877ca40d3be488",
+    "configs/index_review_protocol_20261018.json": "7fa92171479ef621fbf9f55339a3c9bae9b5f3002672c3d44d0e591f52581a93",
+    "configs/index_review_sources_20261018.json": "af3ef5e2c48012724153320991288c6e9f3e37e9732bb4570b771bc21617879c",
+    "configs/index_review_source_pipeline.json": "99cafd3218386377b8dbbc7425a02c12a79038782a792bf9ffb1a04f40c5b7cf",
+    "configs/index_review_replay_pipeline.json": "9c79e489a008e626c4a4865c56862651b0a8664a80899b62d1f4b531aac6c690",
+    "docs/research_decision_registry.json": "9b9735b8c463e8d1a2d795dd7001458a656bb77ed7be2c64825bec8d733fd7e7",
+    "deliverables/index_review_20261018/backup_receipt.json": "d12df9bb9b40b7bd204b5fad9be81fd0cf883e8e2f3451dad11d87426e53ca64",
+    "deliverables/index_review_20261018/diagnostic.json": "dd6f2cb8064938fa874c87b8b7d762c380d2ff23b2cee58f8eea65b4c05192d2",
+    "deliverables/index_review_20261018/independent_audit.json": "54a779a09d01ee6182e29636e53e8789db3beea14bfa3eb1e6ffaf40a51986e6",
+    "deliverables/index_review_20261018/next_tasks.json": "d230aec4d371cb7bc096fbd5ca1f9c59408ebbeba1c26de7da85e063c6f2942a",
+    "deliverables/index_review_20261018/protocol_freeze.json": "f223966f65bc3a080eacd0238706aaed9da8ef69cc96c97a8a76ac6cc3cf4545",
+    "deliverables/index_review_20261018/replay_pipeline_state.json": "b6145d438a0310a5fafa3683593057160d7a3dba6e0f2619bdbd427dc4a983fb",
+    "deliverables/index_review_20261018/report.md": "23a4369492b7a6ef86a076c0c79aa2d5be13e77dee1a720674f3a63f219b3661",
+    "deliverables/index_review_20261018/source_ledger.json": "77ab39b34db48e2f5d100d57081e44c12b023527f0b57844f8be5d6c2fe424ba",
+    "deliverables/index_review_20261018/source_pipeline_state.json": "4ed49dc690062475163a80ce0e498923f9d5934cf46e6351b0c3cbdc4d968d7b",
+    "deliverables/index_review_20261018/sources_package.json": "212d4b909f383ed751e4a7b1258edf97b2921e41f7b04edc9b8046c064037682",
+    "deliverables/index_review_20261018/tests.json": "cafdf9e56a6f5772c407fd8915bbf8d4d592ea375a53d67d84774e667a445118"
+  },
+  "source_archive_sha256": "f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e",
+  "frozen_price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "restore": "Verify Windows backup and retrieve sources.retrieved.zip using sources_package.json; restore exact frozen price bundle if absent; then replay source and analysis pipeline plans. Never replace historical sources or prices silently.",
+  "storage": "WSL persistent inputs plus verified Windows NTFS backup and WSL retrieved source archive, same computer; not offsite disaster recovery."
+}

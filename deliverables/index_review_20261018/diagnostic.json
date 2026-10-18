@@ -1,0 +1,267 @@
+{
+  "status": "exploratory_quote_changes_only",
+  "protocol_sha256": "7fa92171479ef621fbf9f55339a3c9bae9b5f3002672c3d44d0e591f52581a93",
+  "rows": [
+    {
+      "quarter": "2024Q1",
+      "action": "add",
+      "name": "\u4e16\u82af-KY",
+      "symbol": "3661",
+      "entry_date": "2024-03-19",
+      "exit_date": "2024-04-17",
+      "implementation_close": "2024-03-15",
+      "source_sha256": "56b2122585142ae04fc1eca969638c624d3ab5d539eadfc8d8c6a1463ef902f9",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 3714.41898244,
+      "exit_proxy": 2915.24087932,
+      "benchmark_entry_proxy": 162.854956372,
+      "benchmark_exit_proxy": 167.101500215,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.21907005152799675,
+          "benchmark_net_quote_change": 0.020958035160941968,
+          "relative_quote_change": -0.2400280866889387
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.22296501255480272,
+          "benchmark_net_quote_change": 0.015865911642389596,
+          "relative_quote_change": -0.23883092419719232
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q1",
+      "action": "delete",
+      "name": "\u8c50\u6cf0",
+      "symbol": "9910",
+      "entry_date": "2024-03-19",
+      "exit_date": "2024-04-17",
+      "implementation_close": "2024-03-15",
+      "source_sha256": "56b2122585142ae04fc1eca969638c624d3ab5d539eadfc8d8c6a1463ef902f9",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 191.184693822,
+      "exit_proxy": 183.049174936,
+      "benchmark_entry_proxy": 162.854956372,
+      "benchmark_exit_proxy": 167.101500215,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.04732848729218586,
+          "benchmark_net_quote_change": 0.020958035160941968,
+          "relative_quote_change": -0.06828652245312783
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.05208002540467016,
+          "benchmark_net_quote_change": 0.015865911642389596,
+          "relative_quote_change": -0.06794593704705976
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q2",
+      "action": "add",
+      "name": "\u5947\u92d0",
+      "symbol": "3017",
+      "entry_date": "2024-06-25",
+      "exit_date": "2024-07-22",
+      "implementation_close": "2024-06-21",
+      "source_sha256": "2572ebf4797381dfb55e7fe6f6a6907764c92e7e6b4208114b3e881b446e41a8",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 727.208471334,
+      "exit_proxy": 652.121882356,
+      "benchmark_entry_proxy": 193.16466305,
+      "benchmark_exit_proxy": 192.817881861,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.10772573516715667,
+          "benchmark_net_quote_change": -0.006773839296763673,
+          "relative_quote_change": -0.100951895870393
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.11217603636708606,
+          "benchmark_net_quote_change": -0.011727647502368432,
+          "relative_quote_change": -0.10044838886471763
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q2",
+      "action": "delete",
+      "name": "\u5f70\u9280",
+      "symbol": "2801",
+      "entry_date": "2024-06-25",
+      "exit_date": "2024-07-22",
+      "implementation_close": "2024-06-21",
+      "source_sha256": "2572ebf4797381dfb55e7fe6f6a6907764c92e7e6b4208114b3e881b446e41a8",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 19.5422535211,
+      "exit_proxy": 19.5950704225,
+      "benchmark_entry_proxy": 193.16466305,
+      "benchmark_exit_proxy": 192.817881861,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.002298308283772199,
+          "benchmark_net_quote_change": -0.006773839296763673,
+          "relative_quote_change": 0.004475531012991474
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.007274438618146695,
+          "benchmark_net_quote_change": -0.011727647502368432,
+          "relative_quote_change": 0.004453208884221738
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q3",
+      "action": "add",
+      "name": "\u85e5\u83ef\u85e5",
+      "symbol": "6446",
+      "entry_date": "2024-09-24",
+      "exit_date": "2024-10-24",
+      "implementation_close": "2024-09-20",
+      "source_sha256": "506bea96316f062dd19714aa46883bfcf037e8fa847a88dd780954397a47af93",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 685.0,
+      "exit_proxy": 642.0,
+      "benchmark_entry_proxy": 195.485533796,
+      "benchmark_exit_proxy": 207.863438774,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.06744816790141417,
+          "benchmark_net_quote_change": 0.05801544174320439,
+          "relative_quote_change": -0.12546360964461856
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.07209935722845617,
+          "benchmark_net_quote_change": 0.0527384909495876,
+          "relative_quote_change": -0.12483784817804378
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q3",
+      "action": "delete",
+      "name": "\u5357\u4e9e\u79d1",
+      "symbol": "2408",
+      "entry_date": "2024-09-24",
+      "exit_date": "2024-10-24",
+      "implementation_close": "2024-09-20",
+      "source_sha256": "506bea96316f062dd19714aa46883bfcf037e8fa847a88dd780954397a47af93",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 47.485289834,
+      "exit_proxy": 44.2371103991,
+      "benchmark_entry_proxy": 195.485533796,
+      "benchmark_exit_proxy": 207.863438774,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.07305027333947312,
+          "benchmark_net_quote_change": 0.05801544174320439,
+          "relative_quote_change": -0.1310657150826775
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.07767352164262165,
+          "benchmark_net_quote_change": 0.0527384909495876,
+          "relative_quote_change": -0.13041201259220925
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q4",
+      "action": "add",
+      "name": "\u967d\u660e",
+      "symbol": "2609",
+      "entry_date": "2024-12-24",
+      "exit_date": "2025-01-21",
+      "implementation_close": "2024-12-20",
+      "source_sha256": "769e56375a3cd0484884b0e21050cfbaa0cb2c850dc05e1517658ee0cfd9e426",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 114.439480978,
+      "exit_proxy": 97.0562686775,
+      "benchmark_entry_proxy": 211.811563638,
+      "benchmark_exit_proxy": 214.955446407,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": -0.15612866567796335,
+          "benchmark_net_quote_change": 0.00978126851931349,
+          "relative_quote_change": -0.16590993419727684
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": -0.1603375527429992,
+          "benchmark_net_quote_change": 0.004744890167865945,
+          "relative_quote_change": -0.16508244291086516
+        }
+      ]
+    },
+    {
+      "quarter": "2024Q4",
+      "action": "delete",
+      "name": "\u4e9e\u5fb7\u5ba2-KY",
+      "symbol": "1590",
+      "entry_date": "2024-12-24",
+      "exit_date": "2025-01-21",
+      "implementation_close": "2024-12-20",
+      "source_sha256": "769e56375a3cd0484884b0e21050cfbaa0cb2c850dc05e1517658ee0cfd9e426",
+      "historical_pit_verified": false,
+      "status": "ok",
+      "entry_proxy": 848.284947815,
+      "exit_proxy": 910.354578143,
+      "benchmark_entry_proxy": 211.811563638,
+      "benchmark_exit_proxy": 214.955446407,
+      "scenarios": [
+        {
+          "one_way_cost": 0.0025,
+          "net_quote_change": 0.06781825923005957,
+          "benchmark_net_quote_change": 0.00978126851931349,
+          "relative_quote_change": 0.058036990710746084
+        },
+        {
+          "one_way_cost": 0.005,
+          "net_quote_change": 0.06249241596902122,
+          "benchmark_net_quote_change": 0.004744890167865945,
+          "relative_quote_change": 0.057747525801155275
+        }
+      ]
+    }
+  ],
+  "endpoints_complete": true,
+  "primary_deletion_quarter_means": {
+    "2024Q1": -0.06794593704705976,
+    "2024Q2": 0.004453208884221738,
+    "2024Q3": -0.13041201259220925,
+    "2024Q4": 0.057747525801155275
+  },
+  "primary_deletion_median": -0.03174636408141901,
+  "continuation_gate_passed": false,
+  "historical_pit_gate_passed": false,
+  "decision": "close_fixed_pilot_no_tuning",
+  "price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "price_member_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "limitations": [
+    "Current pages do not establish original historical versions or first public time",
+    "Only four review clusters; correlated names not independent trials",
+    "Market-adjusted comparisons do not control industry, size, momentum or concurrent news",
+    "Forward-reference adjusted quotes are not cash-account total returns or executable fills",
+    "Matched hypothetical costs cancel in relative comparisons up to common scale; not investor-specific edge",
+    "No annualization or portfolio NAV; no missing-event replacement"
+  ]
+}

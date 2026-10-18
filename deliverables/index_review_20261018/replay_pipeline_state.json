@@ -1,0 +1,129 @@
+{
+  "stages": {
+    "replay": {
+      "status": "complete",
+      "fingerprint": "881ba7f216977b3e29a1bbab4ad1e138c53c2c5123171c655d0e6664d338429a",
+      "started_at": "2026-10-18T14:53:03.179588+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:53:03.179692+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/index_review_20261018/replay_pipeline/logs/replay.1792335183183376114.log",
+      "peak_observed_rss_bytes": 7663616,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5043220510124229,
+      "outputs": {
+        "deliverables/index_review_20261018/source_ledger.json": "77ab39b34db48e2f5d100d57081e44c12b023527f0b57844f8be5d6c2fe424ba"
+      },
+      "finished_at": "2026-10-18T14:53:03.693177+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:53:03.693265+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "diagnose": {
+      "status": "complete",
+      "fingerprint": "158f206ff11a0965c7505669a1101845ea95fb31ebd2c24a8695e8b56997da36",
+      "started_at": "2026-10-18T14:53:03.780917+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:53:03.781125+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/index_review_20261018/replay_pipeline/logs/diagnose.1792335183785467949.log",
+      "peak_observed_rss_bytes": 175697920,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 3.50948771397816,
+      "outputs": {
+        "deliverables/index_review_20261018/diagnostic.json": "dd6f2cb8064938fa874c87b8b7d762c380d2ff23b2cee58f8eea65b4c05192d2"
+      },
+      "finished_at": "2026-10-18T14:53:07.301674+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:53:07.301769+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "4c61edee7b2fc22005e4098f7c88998edfcd64f8fc5fb95585a49d0041b8a0e9",
+      "started_at": "2026-10-18T14:53:07.342416+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:53:07.342599+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/index_review_20261018/replay_pipeline/logs/audit.1792335187346025852.log",
+      "peak_observed_rss_bytes": 175992832,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 3.506058490020223,
+      "outputs": {
+        "deliverables/index_review_20261018/independent_audit.json": "54a779a09d01ee6182e29636e53e8789db3beea14bfa3eb1e6ffaf40a51986e6"
+      },
+      "finished_at": "2026-10-18T14:53:10.856104+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:53:10.856179+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "f9b19554df1195020c82b70ea6a8ddcf877440a891db1b4276bebaab1a03e0ad",
+      "started_at": "2026-10-18T14:53:10.858726+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:53:10.858772+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/index_review_20261018/replay_pipeline/logs/report.1792335190861571391.log",
+      "peak_observed_rss_bytes": 8175616,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5048790259752423,
+      "outputs": {
+        "deliverables/index_review_20261018/report.md": "23a4369492b7a6ef86a076c0c79aa2d5be13e77dee1a720674f3a63f219b3661",
+        "deliverables/index_review_20261018/next_tasks.json": "d230aec4d371cb7bc096fbd5ca1f9c59408ebbeba1c26de7da85e063c6f2942a"
+      },
+      "finished_at": "2026-10-18T14:53:11.372054+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:53:11.372129+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T14:53:57.593598+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-18T14:53:57.672728+00:00",
+  "current_stage": "report",
+  "message": "RuntimeError: Child failed; inspect inputs/index_review_20261018/replay_pipeline/logs/diagnose.1792335084633913640.log",
+  "finished_at": "2026-10-18T14:53:57.672709+00:00"
+}

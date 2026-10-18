@@ -1,0 +1,106 @@
+{
+  "stages": [
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "index_review.py",
+        "replay"
+      ],
+      "inputs": [
+        "index_review.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "configs/index_review_protocol_20261018.json",
+        "configs/index_review_sources_20261018.json",
+        "deliverables/index_review_20261018/protocol_freeze.json",
+        "deliverables/index_review_20261018/sources_package.json",
+        "inputs/index_review_20261018/sources_transfer.json",
+        "inputs/index_review_20261018/sources.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/index_review_20261018/source_ledger.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "diagnose",
+      "command": [
+        "{python}",
+        "index_review.py",
+        "diagnose"
+      ],
+      "inputs": [
+        "index_review.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "configs/index_review_protocol_20261018.json",
+        "configs/index_review_sources_20261018.json",
+        "deliverables/index_review_20261018/protocol_freeze.json",
+        "deliverables/index_review_20261018/source_ledger.json",
+        "research_reassessment.py",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/index_review_20261018/diagnostic.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "index_review.py",
+        "audit"
+      ],
+      "inputs": [
+        "index_review.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "configs/index_review_protocol_20261018.json",
+        "configs/index_review_sources_20261018.json",
+        "deliverables/index_review_20261018/protocol_freeze.json",
+        "deliverables/index_review_20261018/source_ledger.json",
+        "deliverables/index_review_20261018/diagnostic.json",
+        "research_reassessment.py",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/index_review_20261018/independent_audit.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "index_review.py",
+        "report"
+      ],
+      "inputs": [
+        "index_review.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "configs/index_review_protocol_20261018.json",
+        "configs/index_review_sources_20261018.json",
+        "deliverables/index_review_20261018/protocol_freeze.json",
+        "deliverables/index_review_20261018/source_ledger.json",
+        "deliverables/index_review_20261018/diagnostic.json",
+        "deliverables/index_review_20261018/independent_audit.json"
+      ],
+      "outputs": [
+        "deliverables/index_review_20261018/report.md",
+        "deliverables/index_review_20261018/next_tasks.json"
+      ],
+      "timeout_seconds": 90,
+      "max_rss_mb": 1024
+    }
+  ]
+}

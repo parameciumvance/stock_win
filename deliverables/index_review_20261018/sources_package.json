@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/index_review_20261018/sources.zip",
+  "sha256": "f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e",
+  "manifest_files": 15,
+  "created_at": "2026-10-18T14:49:20.900590+00:00",
+  "retrieved": "inputs/index_review_20261018/sources.retrieved.zip",
+  "transfer_receipt": "inputs/index_review_20261018/sources_transfer.json",
+  "backup_label": "index_review_20261018_sources"
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": "f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e",
+  "backup_path": "C:\\Users\\user\\stock_win_research_backups\\index_review_20261018_sources_f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e.zip",
+  "retrieved_path": "inputs/index_review_20261018/sources.retrieved.zip",
+  "roundtrip_verified": true,
+  "verified_at": "2026-10-18T14:49:58.777Z",
+  "transport": "Desktop Commander Remote / Windows Node file copy",
+  "storage": "Windows user backup and WSL retrieval; same computer"
+}

@@ -1,0 +1,135 @@
+{
+  "records": [
+    {
+      "quarter": "2024Q1",
+      "displayed_publication": "2024-03-01 16:59:00",
+      "publication_timezone": "not explicitly established by page; no conversion claimed",
+      "implementation_close": "2024-03-15",
+      "effective_from": "2024-03-18",
+      "changes": [
+        {
+          "action": "add",
+          "name": "\u4e16\u82af-KY",
+          "symbol": "3661"
+        },
+        {
+          "action": "delete",
+          "name": "\u8c50\u6cf0",
+          "symbol": "9910"
+        }
+      ],
+      "historical_pit_verified": false,
+      "revision_history_verified": false,
+      "source_url": "https://taiwanindex.com.tw/news/294",
+      "source_sha256": "56b2122585142ae04fc1eca969638c624d3ab5d539eadfc8d8c6a1463ef902f9",
+      "retrieved_at": "2026-10-18T14:49:19.170236+00:00"
+    },
+    {
+      "quarter": "2024Q2",
+      "displayed_publication": "2024-06-07 16:59:00",
+      "publication_timezone": "not explicitly established by page; no conversion claimed",
+      "implementation_close": "2024-06-21",
+      "effective_from": "2024-06-24",
+      "changes": [
+        {
+          "action": "add",
+          "name": "\u5947\u92d0",
+          "symbol": "3017"
+        },
+        {
+          "action": "delete",
+          "name": "\u5f70\u9280",
+          "symbol": "2801"
+        }
+      ],
+      "historical_pit_verified": false,
+      "revision_history_verified": false,
+      "source_url": "https://taiwanindex.com.tw/news/303",
+      "source_sha256": "2572ebf4797381dfb55e7fe6f6a6907764c92e7e6b4208114b3e881b446e41a8",
+      "retrieved_at": "2026-10-18T14:49:19.221055+00:00"
+    },
+    {
+      "quarter": "2024Q3",
+      "displayed_publication": "2024-09-06 16:51:00",
+      "publication_timezone": "not explicitly established by page; no conversion claimed",
+      "implementation_close": "2024-09-20",
+      "effective_from": "2024-09-23",
+      "changes": [
+        {
+          "action": "add",
+          "name": "\u85e5\u83ef\u85e5",
+          "symbol": "6446"
+        },
+        {
+          "action": "delete",
+          "name": "\u5357\u4e9e\u79d1",
+          "symbol": "2408"
+        }
+      ],
+      "historical_pit_verified": false,
+      "revision_history_verified": false,
+      "source_url": "https://taiwanindex.com.tw/news/320",
+      "source_sha256": "506bea96316f062dd19714aa46883bfcf037e8fa847a88dd780954397a47af93",
+      "retrieved_at": "2026-10-18T14:49:20.115147+00:00"
+    },
+    {
+      "quarter": "2024Q4",
+      "displayed_publication": "2024-12-06 17:01:00",
+      "publication_timezone": "not explicitly established by page; no conversion claimed",
+      "implementation_close": "2024-12-20",
+      "effective_from": "2024-12-23",
+      "changes": [
+        {
+          "action": "add",
+          "name": "\u967d\u660e",
+          "symbol": "2609"
+        },
+        {
+          "action": "delete",
+          "name": "\u4e9e\u5fb7\u5ba2-KY",
+          "symbol": "1590"
+        }
+      ],
+      "historical_pit_verified": false,
+      "revision_history_verified": false,
+      "source_url": "https://taiwanindex.com.tw/news/337",
+      "source_sha256": "769e56375a3cd0484884b0e21050cfbaa0cb2c850dc05e1517658ee0cfd9e426",
+      "retrieved_at": "2026-10-18T14:49:20.290526+00:00"
+    }
+  ],
+  "gaps": [],
+  "current_vintage_source_gate_passed": true,
+  "historical_pit_gate_passed": false,
+  "first_publication_proven": false,
+  "original_versions_proven": false,
+  "archive_sha256": "f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e",
+  "backup_path": "C:\\Users\\user\\stock_win_research_backups\\index_review_20261018_sources_f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e.zip",
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "actual_transport": [
+    {
+      "quarter": "2024Q1",
+      "status": 200,
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100 238.5k   0 238.5k   0      0 205.9k      0           00:01              0\r100 238.5k   0 238.5k   0      0 205.9k      0           00:01              0\r100 238.5k   0 238.5k   0      0 205.9k      0           00:01              0\r\n"
+    },
+    {
+      "quarter": "2024Q2",
+      "status": 200,
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100 158.9k   0 158.9k   0      0 131.2k      0           00:01              0\r100 158.9k   0 158.9k   0      0 131.2k      0           00:01              0\r100 158.9k   0 158.9k   0      0 131.2k      0           00:01              0\r\n"
+    },
+    {
+      "quarter": "2024Q3",
+      "status": 200,
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100 241.6k   0 241.6k   0      0 274.1k      0                              0\r100 241.6k   0 241.6k   0      0 274.1k      0                              0\r100 241.6k   0 241.6k   0      0 274.1k      0                              0\r\n"
+    },
+    {
+      "quarter": "2024Q4",
+      "status": 200,
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100 242.2k   0 242.2k   0      0 238.1k      0           00:01              0\r100 242.2k   0 242.2k   0      0 238.1k      0           00:01              0\r100 242.2k   0 242.2k   0      0 238.0k      0           00:01              0\r\n"
+    }
+  ]
+}

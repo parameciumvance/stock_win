@@ -1,0 +1,11 @@
+{
+  "status": "close_fixed_pilot_no_tuning",
+  "historical_pit_passed": false,
+  "fitted_models": 0,
+  "parameter_searches": 0,
+  "manual_download_requests": [],
+  "daily_validation": false,
+  "live_signals": false,
+  "seven_rule_daily_plan": "stopped",
+  "next_decision": "Close fixed mechanism pilot; no retuning or reversal to a winning subgroup"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "events": 8,
+  "scenarios": 16,
+  "max_absolute_error": 2.498001805406602e-16,
+  "method": "Independent Decimal quote-change arithmetic and full-cohort identity",
+  "quote_provenance_verified": true,
+  "market_calendar_endpoints_verified": true,
+  "decision_gate_verified": true,
+  "diagnostic_sha256": "dd6f2cb8064938fa874c87b8b7d762c380d2ff23b2cee58f8eea65b4c05192d2"
+}

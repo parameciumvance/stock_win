@@ -1,0 +1,36 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_index_review",
+    "test_operating_snapshot.AcquisitionCheckpointTests",
+    "test_research_reassessment.AttributionTests",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "started_at": "2026-10-18T14:54:48.374067+00:00",
+  "finished_at": "2026-10-18T14:54:49.245792+00:00",
+  "tests_run": 42,
+  "passed": true,
+  "returncode": 0,
+  "output": "----------------------------------------------------------------------\nRan 42 tests in 0.557s\n\nOK\n",
+  "test_file_sha256": {
+    "test_index_review.py": "2993d5cb96bbdb6bf351e6de017788946d1d526a143e6aa94b877ca40d3be488",
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "index_review.py": "17e642ce733e5e12a33e77e7ab613ac98324f08550dc25c92bf25718cb6bcbbb",
+    "configs/index_review_source_pipeline.json": "99cafd3218386377b8dbbc7425a02c12a79038782a792bf9ffb1a04f40c5b7cf",
+    "configs/index_review_replay_pipeline.json": "9c79e489a008e626c4a4865c56862651b0a8664a80899b62d1f4b531aac6c690",
+    "configs/index_review_protocol_20261018.json": "7fa92171479ef621fbf9f55339a3c9bae9b5f3002672c3d44d0e591f52581a93"
+  },
+  "pipeline_replay": "Two source and four replay stages completed; subsequent run hash-verified and skipped all six; no extra HTTP requests",
+  "resolved_issues": [
+    "First diagnose run failed to serialize numpy bool; normalized quote arithmetic to Python float and added regression.",
+    "Stricter gap-schema check required updating false-gap test fixture to clear scenarios; complete suite rerun passed."
+  ],
+  "transport_observation": "All four declared raw requests HTTP200; no acquisition retries or manual downloads."
+}

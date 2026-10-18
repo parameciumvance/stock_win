@@ -1,0 +1,43 @@
+{
+  "stages": [
+    {
+      "id": "acquire",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/index_review_sources_20261018.json"
+      ],
+      "inputs": [
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "configs/index_review_sources_20261018.json",
+        "configs/index_review_protocol_20261018.json"
+      ],
+      "outputs": [
+        "inputs/index_review_20261018/raw/results.json"
+      ],
+      "timeout_seconds": 100
+    },
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "index_review.py",
+        "package"
+      ],
+      "inputs": [
+        "index_review.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "configs/index_review_sources_20261018.json",
+        "configs/index_review_protocol_20261018.json",
+        "inputs/index_review_20261018/raw"
+      ],
+      "outputs": [
+        "inputs/index_review_20261018/sources.zip",
+        "deliverables/index_review_20261018/sources_package.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

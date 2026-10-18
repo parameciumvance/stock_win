@@ -1,0 +1,70 @@
+{
+  "stages": {
+    "acquire": {
+      "status": "complete",
+      "fingerprint": "3c3467e711398654ce341941e80e6a531f88607825137ef70d31760c1f6f2c2d",
+      "started_at": "2026-10-18T14:49:17.899129+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:49:17.899197+00:00",
+        "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/index_review_20261018/source_pipeline/logs/acquire.1792334957902458916.log",
+      "peak_observed_rss_bytes": 24272896,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.505997453001328,
+      "outputs": {
+        "inputs/index_review_20261018/raw/results.json": "89e205cb36a9c99a4dc141bb872f2c48a46247d315fe81d3c809f2ded794e40f"
+      },
+      "finished_at": "2026-10-18T14:49:20.415811+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:49:20.415884+00:00",
+        "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "package": {
+      "status": "complete",
+      "fingerprint": "8356fec1983b87bfe4292536adf13694db2dea2fd3f3d10d2bd301fcbefcd46e",
+      "started_at": "2026-10-18T14:53:02.605982+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T14:53:02.606058+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/index_review_20261018/source_pipeline/logs/package.1792335182608468756.log",
+      "peak_observed_rss_bytes": 6856704,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5031070969998837,
+      "outputs": {
+        "inputs/index_review_20261018/sources.zip": "f81ce2ea04ed1fe3c1f6ec8fc9919bb078f91d64bd5586825dbfda00c607c38e",
+        "deliverables/index_review_20261018/sources_package.json": "212d4b909f383ed751e4a7b1258edf97b2921e41f7b04edc9b8046c064037682"
+      },
+      "finished_at": "2026-10-18T14:53:03.119389+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T14:53:03.119496+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T14:53:57.542220+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-18T14:53:57.551729+00:00",
+  "current_stage": "package",
+  "finished_at": "2026-10-18T14:53:57.551713+00:00"
+}

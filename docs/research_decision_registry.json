@@ -1,0 +1,58 @@
+{
+  "status": "no_strategy_currently_qualified_for_manual_daily_validation",
+  "not_a_complete_trial_count": true,
+  "multiple_testing_note": "Old project includes many explored features and years. This registry tracks major decisions, not every past attempted specification; none of the reused years is a fresh holdout.",
+  "records": [
+    {
+      "id": "seven_rules",
+      "status": "stopped_by_user",
+      "scope": "\u4e03\u689d\u56fa\u5b9a\u4e0a\u6ac3\u898f\u5247\u8207252\u65e5\u4eba\u5de5\u524d\u77bb\u8a08\u756b",
+      "evidence": "docs/RESEARCH_DIRECTION_20261016.md",
+      "decision": "\u4fdd\u7559\u6b77\u53f2\u820710/15\u5c01\u5b58\uff0c\u672a\u5b8c\u6210252\u65e5\u7814\u7a76\uff1b\u4e0d\u81ea\u52d5\u6062\u5fa9",
+      "profit_edge_proven": false
+    },
+    {
+      "id": "institutional_attribution",
+      "status": "completed_descriptive",
+      "scope": "\u539f\u4e0a\u5e02\u6cd5\u4eba20\u65e5\u7814\u7a76\u540c\u6c60\uff0f\u9078\u80a1\uff0f\u6210\u672c\u62c6\u89e3",
+      "evidence": "deliverables/reassessment_20261016/report.md",
+      "decision": "\u4e00\u6b21\u6027\u6b78\u56e0\u5b8c\u6210\uff1b\u672a\u8b58\u5225\u56e0\u679c\uff0c\u4e0d\u518d\u5ef6\u4f38\u540c\u4e00\u6b78\u56e0",
+      "profit_edge_proven": false
+    },
+    {
+      "id": "operating_snapshot_guidance",
+      "status": "closed_as_data_tool_pilot",
+      "scope": "TSMC\uff0fUMC 2023Q1\uff5e2025Q4\u56fa\u5b9a24\u5b63\u4f86\u6e90\u8207\u8ca1\u6e2c\u6838\u5c0d",
+      "evidence": "deliverables/operating_guidance_20261018/pilot_decision.json",
+      "decision": "\u4fdd\u7559\u64f7\u53d6\u6838\u5c0d\u5de5\u5177\uff1b\u4e0d\u64f4\u5927\u540c\u6279\u4e0b\u8f09\u6216\u64ec\u5408\u80a1\u7968\u6a21\u578b",
+      "profit_edge_proven": false
+    },
+    {
+      "id": "risk_control",
+      "status": "failed_predeclared_resource_gate",
+      "scope": "0050\uff0f\u73fe\u91d1\u56fa\u5b9a\u6ce2\u52d5\u76ee\u6a19\u898f\u5247",
+      "protocol": "configs/risk_control_protocol_20261018.json",
+      "evidence": "deliverables/risk_control_20261018/summary.json",
+      "decision": "\u4f4e\u56de\u843d\u8207\u7565\u9ad8\u5e73\u5747\uff0f\u6ce2\u52d5\u672a\u9054\u539f\u6295\u5165\u76ee\u6a19\uff1b\u4e0d\u8abf\u53c3\u3002\u672c\u7d50\u8ad6\u4e0d\u5426\u5b9a\u5176\u4ed6\u98a8\u96aa\u63a7\u5236",
+      "profit_edge_proven": false
+    },
+    {
+      "id": "index_review_deletions",
+      "status": "failed_predeclared_resource_gate",
+      "scope": "2024\u56db\u6b21\u81fa\u706350\u5be9\u6838\u3001\u51688\u7b46\u7d0d\u5165\uff0f\u522a\u9664\uff0c\u4e3b\u5047\u8aaa\u70ba\u522a\u9664\u5f8c\u53cd\u8f49",
+      "protocol": "configs/index_review_protocol_20261018.json",
+      "evidence": "deliverables/index_review_20261018/diagnostic.json",
+      "decision": "\u522a\u9664\u7d442\uff0f4\u5b63\u76f8\u5c0d\u70ba\u6b63\u3001\u4e2d\u4f4d\u6578\u8ca03.17pp\uff1b\u4f86\u6e90\u64f7\u53d6\u901a\u904e\u4f46\u6b77\u53f2PIT\u672a\u904e\uff0c\u4e0d\u63db\u5929\u6578\u6216\u53cd\u5411\u6311\u7d44",
+      "profit_edge_proven": false
+    }
+  ],
+  "next_proposal_requirements": [
+    "\u5148\u8aaa\u660e\u76f8\u5c0d\u65e2\u6709\u7814\u7a76\u65b0\u589e\u7684\u7d93\u6fdf\u6a5f\u5236\u8207\u53ef\u53cd\u99c1\u9810\u6e2c",
+    "\u5148\u8b49\u660e\u81ea\u52d5\u53d6\u5f97\u8207\u53ef\u7a3d\u6838\u6642\u9593\uff0f\u7248\u672c\u8def\u7dda\uff0c\u7121\u4eba\u5de5\u9010\u6a94\u4e0b\u8f09\u4f9d\u8cf4",
+    "\u5148\u51cd\u7d50\u6a23\u672c\u3001\u7aef\u9ede\u3001\u6210\u672c\u3001\u6bd4\u8f03\u7d44\u8207\u8cc7\u6e90\u505c\u6b62\u689d\u4ef6",
+    "\u5148\u754c\u5b9a\u7368\u7acb\u4e8b\u4ef6\uff0f\u8cc7\u6599\uff0c\u4e0d\u628a\u820a\u5e74\u4efd\u6216\u9ad8\u5ea6\u76f8\u95dc\u80a1\u7968\u7576\u65b0\u6a23\u672c",
+    "\u5931\u6557\u5f8c\u4fdd\u7559\u539f\u5354\u5b9a\uff0c\u4e0d\u81ea\u52d5\u6539\u53c3\u6578\u3001\u53cd\u5411\u6216\u6062\u5fa9\u6bcf\u65e5\u9a57\u8b49"
+  ],
+  "trade_authorized": false,
+  "manual_daily_validation": false
+}
