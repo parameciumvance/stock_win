@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-19T00:22:53.349588+00:00",
+  "purpose": "Source-only milestone; no verified historical PIT or return evidence",
+  "files": {
+    "configs/tender_cohort_inspect_pipeline.json": "0aad2b04bef2ca57929673e87f66f102fa43954ceb3e1adb73a68184d78c8e9d",
+    "configs/tender_cohort_protocol_20261019.json": "087495f03263b1f6bd2d1fde58fb399decfc906d3608943ccc80d11291642614",
+    "configs/tender_cohort_source_pipeline.json": "e149f4e8066147179b9a9b4d3ee4f1be5f62d8b6bfaa7f731427aba53bcdfdd8",
+    "configs/tender_cohort_sources_20261019.json": "97311148e6503a3f1fcadba94698f181ba4c6b2e50b369ba5165eef935031d7c",
+    "configs/tender_preflight_audit_pipeline.json": "df1c19c11249e30aedd0e1f9513cc13d2df5bf85ca8d2272c697daf925cc7401",
+    "configs/tender_preflight_followup_inspect_pipeline.json": "6a7c35f5d92465c2f3643f349e39663062d5013e903d04a3b169b6f5b27bf2fe",
+    "configs/tender_preflight_followup_pipeline.json": "99e29af62cec37fc1196c65b6e6f973a2c84d0a359fdb67263a7d33ad1645499",
+    "configs/tender_preflight_followups_20261019.json": "3ad91602057ba6849d780719edddc52bbb624cd17d8d385fd231e8d921f82dcb",
+    "configs/tender_preflight_inspect_pipeline.json": "a89a0861c6668eb146c51aa66895a687ccc3d741ddfaa33fb8c95e49be14ea81",
+    "configs/tender_preflight_protocol_20261019.json": "df7b8134a2281482d5297817e776fa2ab122e46bbd7c0c84e3b951b81f25e39b",
+    "configs/tender_preflight_source_pipeline.json": "ecb3dd0ae4b9af1f1151abc7e9100adad22bf906d43d2810efeaf0ef95bfc225",
+    "configs/tender_preflight_sources_20261019.json": "a8694c0fe8a07c87e6a0e58a584f39a6c349f1331ce9f258d906ba70a2327ad2",
+    "deliverables/tender_preflight_20261019/case_ledger.json": "b92bd7cc83157336a5867ae77dfa918161d85a9349aa5484be900c8eb69eef66",
+    "deliverables/tender_preflight_20261019/cohort_freeze.json": "9551a203a3edd4ab77dd487fbd526e98301d23e7c7b9af567dbb6c90d0b26483",
+    "deliverables/tender_preflight_20261019/cohort_package.json": "87f33efc3b9a5ec3f977583437ffb341abc78a55e59fd31fe029b485031de56e",
+    "deliverables/tender_preflight_20261019/cohort_source_receipt.json": "f04aa93e297a4edfcc2b4b4cf188757766cfdb338512cd66c9c706200e527937",
+    "deliverables/tender_preflight_20261019/decision.json": "419b3bb6fe019b83b5fc4fe3b3523086248f1ab57d93bb0e58106a3be00d1781",
+    "deliverables/tender_preflight_20261019/followups_package.json": "bdc329e9c20f33033052438816d7440c64b83112ee7ac921897d7a0ef5b1af36",
+    "deliverables/tender_preflight_20261019/followups_source_receipt.json": "16fd714f295904ccbd8c3aaf7c46de73c1a8efb38b5e203e7123f16bfa48d7b7",
+    "deliverables/tender_preflight_20261019/index_cases.json": "16b9ddaaa1b3e75e56f87333ce03984f35a3609d86b6fec51115b16debfd61c1",
+    "deliverables/tender_preflight_20261019/next_tasks.json": "34c99c479750e29b5c0ece1a393a20f43eefdad6a86be4e8ac49c8bc3f92bb78",
+    "deliverables/tender_preflight_20261019/protocol_freeze.json": "2ceee371d62973d2e28445cda144ab6a39e02dd003b9a4fca3a2141e83f22057",
+    "deliverables/tender_preflight_20261019/recovery_receipt.json": "adb5c02e6b3578b19a61234ddca9668b800451797cc8cb9169bc2a98ac4e61d9",
+    "deliverables/tender_preflight_20261019/replay_checks.json": "11040b97de676152d7750c314612517f329637154db6817abb14df12747976fd",
+    "deliverables/tender_preflight_20261019/report.md": "dcacba5130dcc48f3fa6a79717dd686c6084328b275f4bbad36d191688ce4896",
+    "deliverables/tender_preflight_20261019/source_receipt.json": "317701a5f6f3c3171ec87ac49db0ba052fc676fb20187243998821e476a1a08b",
+    "deliverables/tender_preflight_20261019/sources_package.json": "2758d0bc4ce30d68eb707e7864c2e8d21b5f30035a8061a67bdb448c1f97c68d",
+    "deliverables/tender_preflight_20261019/tests.json": "d23c6de5385c0da588addab28ee17f14676bc03b2095579fe09b3079b8e30a0c",
+    "tender_preflight.py": "e79d780c577d99d29deb344053de91641bdac607da28014b812c5b866484fcb9",
+    "test_tender_preflight.py": "9ee4d7e851f3270193b128b90d7383ddb9fd11216ea3f8f778198d4aa4b7d633"
+  },
+  "raw_archives": {
+    "sources": "249e6d2a11026a62a15e817f49fd7c8bde3a9f16155eccdcffb791d21382c133",
+    "followups": "27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9",
+    "cohort": "084674ebc25982696a062f52ee5fe9e5a6b88f9a9a792a22cbe90efad544b010"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stages": [
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "tender_preflight.py",
+        "audit"
+      ],
+      "inputs": [
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_preflight_protocol_20261019.json",
+        "configs/tender_cohort_protocol_20261019.json",
+        "configs/tender_cohort_sources_20261019.json",
+        "deliverables/tender_preflight_20261019/protocol_freeze.json",
+        "deliverables/tender_preflight_20261019/cohort_freeze.json",
+        "inputs/tender_preflight_20261019/followups/mops_2024.html",
+        "inputs/tender_preflight_20261019/cohort.retrieved.zip",
+        "inputs/tender_preflight_20261019/cohort_transfer.json",
+        "deliverables/tender_preflight_20261019/cohort_package.json",
+        "inputs/tender_preflight_20261019/sources.retrieved.zip",
+        "inputs/tender_preflight_20261019/sources_transfer.json",
+        "inputs/tender_preflight_20261019/followups.retrieved.zip",
+        "inputs/tender_preflight_20261019/followups_transfer.json",
+        "deliverables/tender_preflight_20261019/sources_package.json",
+        "deliverables/tender_preflight_20261019/followups_package.json",
+        "deliverables/tender_preflight_20261019/source_receipt.json",
+        "deliverables/tender_preflight_20261019/followups_source_receipt.json",
+        "deliverables/tender_preflight_20261019/cohort_source_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/tender_preflight_20261019/case_ledger.json",
+        "deliverables/tender_preflight_20261019/decision.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

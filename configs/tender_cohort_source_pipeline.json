@@ -1,0 +1,56 @@
+{
+  "stages": [
+    {
+      "id": "acquire",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/tender_cohort_sources_20261019.json"
+      ],
+      "inputs": [
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_preflight_protocol_20261019.json",
+        "configs/tender_cohort_protocol_20261019.json",
+        "configs/tender_cohort_sources_20261019.json",
+        "deliverables/tender_preflight_20261019/protocol_freeze.json",
+        "deliverables/tender_preflight_20261019/cohort_freeze.json",
+        "inputs/tender_preflight_20261019/followups/mops_2024.html",
+        "bounded_public_sources.py"
+      ],
+      "outputs": [
+        "inputs/tender_preflight_20261019/cohort_raw/results.json"
+      ],
+      "timeout_seconds": 240
+    },
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "tender_preflight.py",
+        "package",
+        "--cohort"
+      ],
+      "inputs": [
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_preflight_protocol_20261019.json",
+        "configs/tender_cohort_protocol_20261019.json",
+        "configs/tender_cohort_sources_20261019.json",
+        "deliverables/tender_preflight_20261019/protocol_freeze.json",
+        "deliverables/tender_preflight_20261019/cohort_freeze.json",
+        "inputs/tender_preflight_20261019/followups/mops_2024.html",
+        "inputs/tender_preflight_20261019/cohort_raw"
+      ],
+      "outputs": [
+        "inputs/tender_preflight_20261019/cohort.zip",
+        "deliverables/tender_preflight_20261019/cohort_package.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

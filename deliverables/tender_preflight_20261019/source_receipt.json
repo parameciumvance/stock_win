@@ -1,0 +1,90 @@
+{
+  "archive_sha256": "249e6d2a11026a62a15e817f49fd7c8bde3a9f16155eccdcffb791d21382c133",
+  "manifest_files": 21,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "249e6d2a11026a62a15e817f49fd7c8bde3a9f16155eccdcffb791d21382c133",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\tender_preflight_20261019_sources_249e6d2a11026a62a15e817f49fd7c8bde3a9f16155eccdcffb791d21382c133.zip",
+    "retrieved_path": "inputs/tender_preflight_20261019/sources.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T00:15:02.818Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "filename": "mops_index.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t162sb02",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "f373cdfe496f83a6cf3d442b9e7115218aef3ac61cd14aaf469917969b146dfa",
+      "size_bytes": 72608,
+      "request_started_at": "2026-10-19T00:14:45.400582+00:00",
+      "observed_at": "2026-10-19T00:14:45.780076+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100  72608   0  72608   0      0 271.5k      0                              0\r100  72608   0  72608   0      0 271.3k      0                              0\r100  72608   0  72608   0      0 271.1k      0                              0\r\n",
+      "error": null
+    },
+    {
+      "filename": "tdcc.csv",
+      "url": "https://opendata.tdcc.com.tw/getOD.ashx?id=1-14",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "e0efefe6d1f13104eec0f3e12f7d5a2ec0de4d41a01d7d82659ebd08e94a4c4d",
+      "size_bytes": 97,
+      "request_started_at": "2026-10-19T00:14:45.394150+00:00",
+      "observed_at": "2026-10-19T00:14:45.948582+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100     97 100     97   0      0    221      0                              0\r100     97 100     97   0      0    221      0                              0\r100     97 100     97   0      0    221      0                              0\r\n",
+      "error": null
+    },
+    {
+      "filename": "yuanta_index.html",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/Index?CategoryId=S000000603",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "79278acc8186403c73c988be12fcaf0b8982cc3cacfc9361cea46ad4c8e275b7",
+      "size_bytes": 202868,
+      "request_started_at": "2026-10-19T00:14:45.791468+00:00",
+      "observed_at": "2026-10-19T00:14:46.557874+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100 198.1k 100 198.1k   0      0 306.9k      0                              0\r100 198.1k 100 198.1k   0      0 306.8k      0                              0\r100 198.1k 100 198.1k   0      0 306.8k      0                              0\r\n",
+      "error": null
+    },
+    {
+      "filename": "allocation_rule.html",
+      "url": "https://twse-regulation.twse.com.tw/TW/law/DOC01.aspx?FLCODE=FL007245&FLNO=23",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "edf923d19dc610c5fd0421069fe50534f72f24c0ddc567dd00f4c2ffb5cb1779",
+      "size_bytes": 9123,
+      "request_started_at": "2026-10-19T00:14:45.966293+00:00",
+      "observed_at": "2026-10-19T00:14:46.505837+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100   9123 100   9123   0      0  21177      0                              0\r100   9123 100   9123   0      0  21172      0                              0\r100   9123 100   9123   0      0  21168      0                              0\r\n",
+      "error": null
+    },
+    {
+      "filename": "example_6938_terms.pdf",
+      "url": "https://static.yuanta.com.tw/staticFile/eyuanta/resourcesFile/282acd03-99d6-4e66-9910-13905b6589cb.pdf",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "5603838115abfd564bb330b87b9876419bfbf2547d113ae790b1ce93e338df2f",
+      "size_bytes": 371016,
+      "request_started_at": "2026-10-19T00:14:46.513329+00:00",
+      "observed_at": "2026-10-19T00:14:47.122064+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100 362.3k 100 362.3k   0      0 705.4k      0                              0\r100 362.3k 100 362.3k   0      0 705.2k      0                              0\r100 362.3k 100 362.3k   0      0 705.2k      0                              0\r\n",
+      "error": null
+    },
+    {
+      "filename": "tdcc_api.html",
+      "url": "https://openapi.tdcc.com.tw/tdcc-opendata-api-docs",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "929ad9c5a570fd19c3dd535821a584be1461391ebf6f176e56794bc6831fe34a",
+      "size_bytes": 66918,
+      "request_started_at": "2026-10-19T00:14:46.565786+00:00",
+      "observed_at": "2026-10-19T00:14:47.452900+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100  66918 100  66918   0      0  83939      0                              0\r100  66918 100  66918   0      0  83877      0                              0\r100  66918 100  66918   0      0  83852      0                              0\r\n",
+      "error": null
+    }
+  ],
+  "meaning": "Byte preservation only; complete historical cohort and PIT are not implied"
+}

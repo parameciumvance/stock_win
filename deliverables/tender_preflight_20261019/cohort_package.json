@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/tender_preflight_20261019/cohort.zip",
+  "sha256": "084674ebc25982696a062f52ee5fe9e5a6b88f9a9a792a22cbe90efad544b010",
+  "manifest_files": 43,
+  "created_at": "2026-10-19T00:17:04.118017+00:00",
+  "retrieved": "inputs/tender_preflight_20261019/cohort.retrieved.zip",
+  "transfer_receipt": "inputs/tender_preflight_20261019/cohort_transfer.json",
+  "backup_label": "tender_preflight_20261019_cohort"
+}

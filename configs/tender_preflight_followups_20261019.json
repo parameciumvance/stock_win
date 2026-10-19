@@ -1,0 +1,23 @@
+{
+  "output_directory": "inputs/tender_preflight_20261019/followups",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "discovered_from": {
+    "path": "inputs/tender_preflight_20261019/raw/mops_index.html",
+    "sha256": "f373cdfe496f83a6cf3d442b9e7115218aef3ac61cd14aaf469917969b146dfa",
+    "evidence": "form1 action /mops/web/ajax_t162sb02, step=1 firstin=ture off=1 year (ROC); navigation links t162sb03"
+  },
+  "requests": [
+    {
+      "filename": "mops_2024.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb02",
+      "method": "POST",
+      "data": "step=1&firstin=ture&off=1&year=113"
+    },
+    {
+      "filename": "mops_filings_index.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t162sb03"
+    }
+  ]
+}

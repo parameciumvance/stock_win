@@ -1,0 +1,28 @@
+{
+  "stages": [
+    {
+      "id": "inspect",
+      "command": [
+        "{python}",
+        "tender_preflight.py",
+        "inspect"
+      ],
+      "inputs": [
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_preflight_protocol_20261019.json",
+        "configs/tender_preflight_sources_20261019.json",
+        "deliverables/tender_preflight_20261019/protocol_freeze.json",
+        "inputs/tender_preflight_20261019/sources.retrieved.zip",
+        "inputs/tender_preflight_20261019/sources_transfer.json",
+        "deliverables/tender_preflight_20261019/sources_package.json"
+      ],
+      "outputs": [
+        "deliverables/tender_preflight_20261019/source_receipt.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

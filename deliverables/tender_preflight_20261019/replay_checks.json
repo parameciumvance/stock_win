@@ -1,0 +1,358 @@
+{
+  "finished_at": "2026-10-19T00:21:04.315248+00:00",
+  "passes": 2,
+  "second_pass_all_hash_skips": true,
+  "stage_count": 10,
+  "checks": [
+    {
+      "plan": "configs/tender_preflight_source_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/source_run/state.json",
+      "state_sha256": "e71bd7c357d31e17a2b1e442550b8cf1c2a2786591a95b811ceff367a2281e4d",
+      "replay_stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "7ed5143940cf03c5700bf9a8a37c6e93043d2e78f5a188d12a6682a7519735d8",
+          "started_at": "2026-10-19T00:20:57.435747+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:20:57.435876+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/source_run/logs/acquire.1792369257439453880.log",
+          "peak_observed_rss_bytes": 7135232,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5055482210009359,
+          "outputs": {
+            "inputs/tender_preflight_20261019/raw/results.json": "6349beccceffbfa655e9410fc3f565052597468632a15169bff1546f4513727b"
+          },
+          "finished_at": "2026-10-19T00:20:57.953209+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:20:57.953522+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "f79d881445913a7043d6f7284cbdc4573a8877234d13dcb32368bfb0a671b849",
+          "started_at": "2026-10-19T00:20:57.960569+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:20:57.960696+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/source_run/logs/package.1792369257965123968.log",
+          "peak_observed_rss_bytes": 5230592,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5052070979727432,
+          "outputs": {
+            "inputs/tender_preflight_20261019/sources.zip": "249e6d2a11026a62a15e817f49fd7c8bde3a9f16155eccdcffb791d21382c133",
+            "deliverables/tender_preflight_20261019/sources_package.json": "2758d0bc4ce30d68eb707e7864c2e8d21b5f30035a8061a67bdb448c1f97c68d"
+          },
+          "finished_at": "2026-10-19T00:20:58.492248+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:20:58.492433+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_preflight_inspect_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/inspect_run/state.json",
+      "state_sha256": "d91e5ae7532b2bc44c317ae31df7c723b07e6fc5274240fd53450c4523fb71b8",
+      "replay_stdout": "verified skip: inspect",
+      "stages": {
+        "inspect": {
+          "status": "complete",
+          "fingerprint": "4c8958f24e0ecda05a1697784f299e3759cdca93458f9ef6120d7ea57383dff6",
+          "started_at": "2026-10-19T00:20:58.587963+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:20:58.588037+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/inspect_run/logs/inspect.1792369258592250410.log",
+          "peak_observed_rss_bytes": 7471104,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.505989643977955,
+          "outputs": {
+            "deliverables/tender_preflight_20261019/source_receipt.json": "317701a5f6f3c3171ec87ac49db0ba052fc676fb20187243998821e476a1a08b"
+          },
+          "finished_at": "2026-10-19T00:20:59.110275+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:20:59.110516+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_preflight_followup_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/followup_run/state.json",
+      "state_sha256": "45a53eec2ab91df0858dede18322b5957a4cfb02b7b52294542131ec36f9b4bc",
+      "replay_stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "65ea6391babbd38cec93e0cdee844ff93dd56cf6ec34ac2ceb9d35d0ea368825",
+          "started_at": "2026-10-19T00:20:59.228488+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:20:59.228680+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/followup_run/logs/acquire.1792369259233626448.log",
+          "peak_observed_rss_bytes": 5480448,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5058625029632822,
+          "outputs": {
+            "inputs/tender_preflight_20261019/followups/results.json": "9308370a5e85fa8b989ecdb13f9436dd358e63911908e46ad2c57cdb6548d3ac"
+          },
+          "finished_at": "2026-10-19T00:20:59.752272+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:20:59.752444+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "9edcd83dbe1bc26ed2fe0dfdae832b319d90e062b50f29e7a82e92e1a68300d9",
+          "started_at": "2026-10-19T00:20:59.761372+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:20:59.761520+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/followup_run/logs/package.1792369259765385704.log",
+          "peak_observed_rss_bytes": 8609792,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5088793040486053,
+          "outputs": {
+            "inputs/tender_preflight_20261019/followups.zip": "27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9",
+            "deliverables/tender_preflight_20261019/followups_package.json": "bdc329e9c20f33033052438816d7440c64b83112ee7ac921897d7a0ef5b1af36"
+          },
+          "finished_at": "2026-10-19T00:21:00.288731+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:21:00.289017+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_preflight_followup_inspect_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/followup_inspect_run/state.json",
+      "state_sha256": "dd50acf29b58e4cc345e2551959fd2e1b674f70ea6216e2525a14c48d3b1950f",
+      "replay_stdout": "verified skip: inspect",
+      "stages": {
+        "inspect": {
+          "status": "complete",
+          "fingerprint": "7e5dec77f0830b25c9648b96300b25026b93d667c1646b5b354c93ce65c41fe4",
+          "started_at": "2026-10-19T00:21:00.426600+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:21:00.426751+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/followup_inspect_run/logs/inspect.1792369260431261599.log",
+          "peak_observed_rss_bytes": 7561216,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5088158120051958,
+          "outputs": {
+            "deliverables/tender_preflight_20261019/followups_source_receipt.json": "16fd714f295904ccbd8c3aaf7c46de73c1a8efb38b5e203e7123f16bfa48d7b7"
+          },
+          "finished_at": "2026-10-19T00:21:00.955496+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:21:00.955734+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_cohort_source_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/cohort_run/state.json",
+      "state_sha256": "ea4d1a4e1a18205a0249d9c8bbc88deba6aaa5d51df3eb8bcfaa29961b983c28",
+      "replay_stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "08db9538237a646ededfe86e84d8c7b86d326ab1c898917f9b019f7c74e193b7",
+          "started_at": "2026-10-19T00:21:01.070277+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:21:01.070412+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/cohort_run/logs/acquire.1792369261075834311.log",
+          "peak_observed_rss_bytes": 4587520,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5054780559730716,
+          "outputs": {
+            "inputs/tender_preflight_20261019/cohort_raw/results.json": "dc2084d0f7a190d6948723ebcfc3eb7e0cdf4e309e0eeea58f1a2ac64b52b075"
+          },
+          "finished_at": "2026-10-19T00:21:01.595739+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:21:01.595954+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "681525ce09ec80bcefdf1f87f2a9876454436876a0b7b34f7ee5aadfde69bb44",
+          "started_at": "2026-10-19T00:21:01.604407+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:21:01.604549+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/cohort_run/logs/package.1792369261611323641.log",
+          "peak_observed_rss_bytes": 7241728,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5082687420072034,
+          "outputs": {
+            "inputs/tender_preflight_20261019/cohort.zip": "084674ebc25982696a062f52ee5fe9e5a6b88f9a9a792a22cbe90efad544b010",
+            "deliverables/tender_preflight_20261019/cohort_package.json": "87f33efc3b9a5ec3f977583437ffb341abc78a55e59fd31fe029b485031de56e"
+          },
+          "finished_at": "2026-10-19T00:21:02.147874+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:21:02.148163+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_cohort_inspect_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/cohort_inspect_run/state.json",
+      "state_sha256": "1b3c28a717340c7845ae210fb6ff51a5c63aafb012081892438323960932a406",
+      "replay_stdout": "verified skip: inspect",
+      "stages": {
+        "inspect": {
+          "status": "complete",
+          "fingerprint": "d3d72932d95deece59c103abd9772a721076ce81d0d9b92a7c12719f52bde375",
+          "started_at": "2026-10-19T00:21:02.272512+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:21:02.272631+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/cohort_inspect_run/logs/inspect.1792369262280802342.log",
+          "peak_observed_rss_bytes": 8400896,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5089962939964607,
+          "outputs": {
+            "deliverables/tender_preflight_20261019/cohort_source_receipt.json": "f04aa93e297a4edfcc2b4b4cf188757766cfdb338512cd66c9c706200e527937"
+          },
+          "finished_at": "2026-10-19T00:21:02.806766+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:21:02.807115+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_preflight_audit_pipeline.json",
+      "state": "inputs/tender_preflight_20261019/audit_run/state.json",
+      "state_sha256": "ee4a639ea9bedc620d7c6c379f948434968e217442a6a649b3202968ad2a25f2",
+      "replay_stdout": "verified skip: audit",
+      "stages": {
+        "audit": {
+          "status": "complete",
+          "fingerprint": "e45981e2ceae99d0e9974f16dcb83e0418b390eb31a5b1f9c995a7f035364179",
+          "started_at": "2026-10-19T00:21:02.974806+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:21:02.975025+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_preflight_20261019/audit_run/logs/audit.1792369262986315500.log",
+          "peak_observed_rss_bytes": 10764288,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5151150519959629,
+          "outputs": {
+            "deliverables/tender_preflight_20261019/case_ledger.json": "b92bd7cc83157336a5867ae77dfa918161d85a9349aa5484be900c8eb69eef66",
+            "deliverables/tender_preflight_20261019/decision.json": "419b3bb6fe019b83b5fc4fe3b3523086248f1ab57d93bb0e58106a3be00d1781"
+          },
+          "finished_at": "2026-10-19T00:21:03.518793+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:21:03.518942+00:00",
+            "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ]
+}

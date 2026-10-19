@@ -1,0 +1,24 @@
+{
+  "status": "bounded_source_preflight_closed_no_returns",
+  "completed": [
+    "21 public source responses archived, backed up and read back",
+    "12 current official2024-start cases matched across same-system indexes",
+    "103 bidder-side document/announcement pointers retained; failures and revisions retained",
+    "27 tests and10 pipeline stage hash replay checks"
+  ],
+  "research_gate": "not_passed",
+  "no_manual_daily_validation": true,
+  "no_user_supplement_required": true,
+  "unresolved": [
+    "6938 success/zero actual-share conflict",
+    "Date filters returned an out-of-range row; query coverage not certified",
+    "Original filing/amendment/expiry bodies and historical public availability",
+    "Independent cohort/proposal/withdrawal and filing/commencement boundary reconciliation"
+  ],
+  "conditional_next": "A new bounded original-document audit on pinned12-case/version list; no return calculation until data gate plus a separate economic study protocol pass",
+  "unchanged": [
+    "all legacy frozen strategy parameters and inputs",
+    "seven-rule daily plan remains stopped"
+  ],
+  "current_external_credentials_blocker": null
+}

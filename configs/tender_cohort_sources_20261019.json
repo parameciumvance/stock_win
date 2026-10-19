@@ -1,0 +1,86 @@
+{
+  "output_directory": "inputs/tender_preflight_20261019/cohort_raw",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "filings_2024_2025.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb03",
+      "method": "POST",
+      "data": "step=1&firstin=ture&off=1&start_YM=11301&end_YM=11412&achieved=&cert_type="
+    },
+    {
+      "filename": "case_2945.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=2945&year=113"
+    },
+    {
+      "filename": "case_3040.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=3040&year=113"
+    },
+    {
+      "filename": "case_3666.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=3666&year=113"
+    },
+    {
+      "filename": "case_4127.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=4127&year=113"
+    },
+    {
+      "filename": "case_4735.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=4735&year=113"
+    },
+    {
+      "filename": "case_6588.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=6588&year=113"
+    },
+    {
+      "filename": "case_6844.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=6844&year=113"
+    },
+    {
+      "filename": "case_6897.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=6897&year=113"
+    },
+    {
+      "filename": "case_6938.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=6938&year=113"
+    },
+    {
+      "filename": "case_7555.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=7555&year=113"
+    },
+    {
+      "filename": "case_8435.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=8435&year=113"
+    },
+    {
+      "filename": "case_8477.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "id=&key=&TYPEK=&step=1&firstin=1&co_id=8477&year=113"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "output_directory": "inputs/tender_preflight_20261019/raw",
+  "allowed_hosts": ["mopsov.twse.com.tw", "opendata.tdcc.com.tw", "www.yuanta.com.tw", "static.yuanta.com.tw", "twse-regulation.twse.com.tw", "openapi.tdcc.com.tw"],
+  "requests": [
+    {"filename": "mops_index.html", "url": "https://mopsov.twse.com.tw/mops/web/t162sb02"},
+    {"filename": "tdcc.csv", "url": "https://opendata.tdcc.com.tw/getOD.ashx?id=1-14"},
+    {"filename": "yuanta_index.html", "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/Index?CategoryId=S000000603"},
+    {"filename": "allocation_rule.html", "url": "https://twse-regulation.twse.com.tw/TW/law/DOC01.aspx?FLCODE=FL007245&FLNO=23"},
+    {"filename": "example_6938_terms.pdf", "url": "https://static.yuanta.com.tw/staticFile/eyuanta/resourcesFile/282acd03-99d6-4e66-9910-13905b6589cb.pdf"},
+    {"filename": "tdcc_api.html", "url": "https://openapi.tdcc.com.tw/tdcc-opendata-api-docs"}
+  ]
+}

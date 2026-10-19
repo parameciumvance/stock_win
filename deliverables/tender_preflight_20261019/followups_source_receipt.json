@@ -1,0 +1,42 @@
+{
+  "archive_sha256": "27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9",
+  "manifest_files": 9,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\tender_preflight_20261019_followups_27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9.zip",
+    "retrieved_path": "inputs/tender_preflight_20261019/followups.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T00:15:53.806Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "filename": "mops_2024.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb02",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "9b3d6e9ff5320336a106e043629fdb6ad3e4ef61323f629fbb886d059e0dd461",
+      "size_bytes": 7919,
+      "request_started_at": "2026-10-19T00:15:41.775783+00:00",
+      "observed_at": "2026-10-19T00:15:42.095198+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100   7953   0   7919 100     34  35446    152                              0\r100   7953   0   7919 100     34  35418    152                              0\r100   7953   0   7919 100     34  35386    151                              0\r\n",
+      "error": null
+    },
+    {
+      "filename": "mops_filings_index.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t162sb03",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "0fce3f87073b08074d0537c9747aeb5d542ac1e513df2370afccb02ff0682fe5",
+      "size_bytes": 76746,
+      "request_started_at": "2026-10-19T00:15:41.781056+00:00",
+      "observed_at": "2026-10-19T00:15:42.148195+00:00",
+      "transport_stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r  0      0   0      0   0      0      0      0                              0\r100  76746   0  76746   0      0 274.3k      0                              0\r100  76746   0  76746   0      0 274.1k      0                              0\r100  76746   0  76746   0      0 273.9k      0                              0\r\n",
+      "error": null
+    }
+  ],
+  "meaning": "Byte preservation only; complete historical cohort and PIT are not implied"
+}

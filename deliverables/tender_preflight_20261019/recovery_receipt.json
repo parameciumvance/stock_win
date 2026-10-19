@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-19T00:22:53.342563+00:00",
+  "base_remote_main": "820a2c2f1fba8fc201c2940f87d2175afcc9f1a6",
+  "legacy_checkpoints": [
+    {
+      "checkpoint": "deliverables/benchmark_windows_20261019/checkpoint.json",
+      "sha256": "4362a081bb7e91290932e5ff896593adcc2b01f13438f7eeb3ebf316968ff83a",
+      "verified_files": 15
+    },
+    {
+      "checkpoint": "deliverables/benchmark_cash_20261019/checkpoint.json",
+      "sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+      "verified_files": 23
+    }
+  ],
+  "legacy_raw_sources_replaced": false
+}

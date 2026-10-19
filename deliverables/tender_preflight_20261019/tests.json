@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/home/vance/dev_home/projects/stock_win/.venv/bin/python",
+    "-m",
+    "unittest",
+    "test_tender_preflight",
+    "test_operating_snapshot.AcquisitionCheckpointTests",
+    "test_research_pipeline",
+    "-v"
+  ],
+  "exit_code": 0,
+  "tests_run": 27,
+  "passed": true,
+  "elapsed_seconds": 0.8358286449802108,
+  "log_sha256": "be54e498e3090aca46e76a8e2328b877c0acac77c4b8f7a657a178e0ec783ad8",
+  "finished_at": "2026-10-19T00:20:57.356572+00:00",
+  "input_sha256": {
+    "tender_preflight.py": "e79d780c577d99d29deb344053de91641bdac607da28014b812c5b866484fcb9",
+    "test_tender_preflight.py": "9ee4d7e851f3270193b128b90d7383ddb9fd11216ea3f8f778198d4aa4b7d633",
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  }
+}

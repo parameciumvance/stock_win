@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/tender_preflight_20261019/followups.zip",
+  "sha256": "27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9",
+  "manifest_files": 9,
+  "created_at": "2026-10-19T00:15:42.311358+00:00",
+  "retrieved": "inputs/tender_preflight_20261019/followups.retrieved.zip",
+  "transfer_receipt": "inputs/tender_preflight_20261019/followups_transfer.json",
+  "backup_label": "tender_preflight_20261019_followups"
+}

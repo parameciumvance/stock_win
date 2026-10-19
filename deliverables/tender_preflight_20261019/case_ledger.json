@@ -1,0 +1,1819 @@
+{
+  "cases": [
+    {
+      "sequence": 1,
+      "bidder": "\u4f59\u7f8e\u73b2",
+      "target": "\u4e09\u5546\u5bb6\u8cfc",
+      "symbol": "2945",
+      "filed_roc": "113/02/27",
+      "filing": {
+        "sequence": 4,
+        "symbol": "2945",
+        "reported_fields": {
+          "\u5e8f\u865f": "4",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/02/29",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/03/19",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4f59\u7f8e\u73b2",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u4e09\u5546\u5bb6\u8cfc\u80a1\u4efd\u6709\u9650\u516c\u53f8(2945)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u53f0\u65b0\u7d9c\u5408\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 32.5 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "16,875,000\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "12,825,000\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "13,222,640\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-02-29",
+        "end": "2024-03-19",
+        "max_shares": 16875000,
+        "min_shares": 12825000,
+        "reported_actual_shares": 13222640,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "b59caac425ff3c9cac207283f0f059f36ecaf397c5b93725cd7dbad0bf31336a",
+      "documents": [
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_000815_2945_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-02-27T13:33:37+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_000815_2945_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-02-27T13:34:38+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u4fee\u6b63)1",
+          "filename": "202400_000815_2945_B2e_1.pdf",
+          "reported_timestamp_taipei": "2024-03-07T13:32:39+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_000815_2945_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-02-27T13:35:36+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_000815_2945_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-02-27T13:36:20+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-02-27T14:57:09+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-02-27T14:57:25+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-02-29T15:49:38+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f59\u7f8e\u73b2",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-19T15:52:43+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 2,
+      "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+      "target": "\u9060\u898b",
+      "symbol": "3040",
+      "filed_roc": "113/12/04",
+      "filing": {
+        "sequence": 10,
+        "symbol": "3040",
+        "reported_fields": {
+          "\u5e8f\u865f": "10",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/12/05",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/12/24",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u9060\u898b\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(3040)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 49.00 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001 \u9280\u884c\u878d\u8cc7\u3001\u80a1\u6771\u501f\u6b3e",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "23,940,000\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "22,050,000\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "23,940,000\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-12-05",
+        "end": "2024-12-24",
+        "max_shares": 23940000,
+        "min_shares": 22050000,
+        "reported_actual_shares": 23940000,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "af22cb62d1d226b95ed1ae7587515eaea591b6f1f84cb298cfea9b0c57445126",
+      "documents": [
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3040_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-12-04T07:47:39+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3040_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-12-04T07:49:09+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3040_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-12-04T07:50:06+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3040_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-12-04T07:51:07+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-04T07:55:57+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-04T07:56:56+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-24T16:26:58+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u5f8c\uff0c\u61c9\u8ce3\u6709\u50f9\u8b49\u5238\u6578\u91cf\u8d85\u904e\u9810\u5b9a\u6536\u8cfc\u6700\u9ad8\u6578\u91cf\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-24T16:28:06+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u7f85\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-24T16:30:51+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 3,
+      "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+      "target": "\u5149\u8000",
+      "symbol": "3666",
+      "filed_roc": "113/03/28",
+      "filing": {
+        "sequence": 6,
+        "symbol": "3666",
+        "reported_fields": {
+          "\u5e8f\u865f": "6",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/03/29",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/04/17",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8,\u4f73\u5cfb\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8,\u9cf3\u51f0\u9152\u5e97\u80a1\u4efd\u6709\u9650\u516c\u53f8,\u5143\u7fd4\u570b\u969b\u958b\u767c\u6709\u9650\u516c\u53f8,\u9673\u5efa\u5bcc",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u5149\u8000\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(3666)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 19.71 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001 \u9280\u884c\u878d\u8cc7\u3001\u80a1\u6771\u501f\u6b3e",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "24,366,016\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "22,247,232\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "22,830,835\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-03-29",
+        "end": "2024-04-17",
+        "max_shares": 24366016,
+        "min_shares": 22247232,
+        "reported_actual_shares": 22830835,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "a221518551f7ee2aaede90ffd07e01334a9fdb10c495401c9d9aefe9659b354d",
+      "documents": [
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3666_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-03-28T13:31:21+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3666_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-03-28T13:32:32+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3666_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-03-28T13:33:16+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_3666_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-03-28T13:33:53+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-28T13:34:34+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-28T13:35:23+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-29T17:34:49+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5143\u5fb7\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e94\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-04-17T16:10:48+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 4,
+      "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+      "target": "\u5929\u826f",
+      "symbol": "4127",
+      "filed_roc": "113/03/15",
+      "filing": {
+        "sequence": 5,
+        "symbol": "4127",
+        "reported_fields": {
+          "\u5e8f\u865f": "5",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/03/21",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/04/23",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u81fa\u5317\u4f5c\u60f3\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u5929\u826f\u751f\u7269\u79d1\u6280\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8(4127)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u7fa4\u76ca\u91d1\u9f0e\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 16.8 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001\u79c1\u4eba\u501f\u6b3e",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "16,016,000\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "11,440,000\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "12,661,258\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-03-21",
+        "end": "2024-04-23",
+        "max_shares": 16016000,
+        "min_shares": 11440000,
+        "reported_actual_shares": 12661258,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "d221fdc036a37a5db66dd3061415c535e4126beb0a5c868ff1fa79dc21181dd3",
+      "documents": [
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6005_4127_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-03-15T15:59:35+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6005_4127_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-03-15T16:01:31+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u4fee\u6b63)1",
+          "filename": "202400_6005_4127_B2e_1.pdf",
+          "reported_timestamp_taipei": "2024-03-21T15:00:11+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_6005_4127_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-03-15T16:02:50+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_6005_4127_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-03-15T16:04:41+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u81fa\u5317\u4f5c\u60f3\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-15T16:12:48+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u81fa\u5317\u4f5c\u60f3\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-21T16:12:30+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u81fa\u5317\u4f5c\u60f3\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-04-23T16:07:26+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u9f0e\u7950\u5065\u5eb7\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u81fa\u5317\u4f5c\u60f3\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-04-25T15:58:05+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 5,
+      "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u8c6a\u5c55",
+      "symbol": "4735",
+      "filed_roc": "113/01/08",
+      "filing": {
+        "sequence": 1,
+        "symbol": "4735",
+        "reported_fields": {
+          "\u5e8f\u865f": "1",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/01/09",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/01/29",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u8c6a\u5c55\u91ab\u7642\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(4735)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5143\u5927\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 42 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "7,353,752\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,838,438\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "2,363,175\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u4e0d\u9069\u7528",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-01-09",
+        "end": "2024-01-29",
+        "max_shares": 7353752,
+        "min_shares": 1838438,
+        "reported_actual_shares": 2363175,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "2891fa935afbbec7fb416a6588501135cbaf45696b142a1b23135e0d963a19dd",
+      "documents": [
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_2070_4735_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-01-08T14:32:27+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_2070_4735_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-01-08T14:33:15+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_2070_4735_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-01-08T14:25:38+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)2",
+          "filename": "202400_2070_4735_B2m_2.pdf",
+          "reported_timestamp_taipei": "2024-01-08T14:18:42+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-01-08T12:02:27+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-01-10T15:27:31+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-01-29T11:28:40+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u6e5b\u5149\u5b78\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-01-30T00:26:05+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 6,
+      "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+      "target": "\u6771\u5178\u5149\u96fb",
+      "symbol": "6588",
+      "filed_roc": "113/04/26",
+      "filing": {
+        "sequence": 7,
+        "symbol": "6588",
+        "reported_fields": {
+          "\u5e8f\u865f": "7",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/04/29",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/05/27",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u4e16\u8c50\u4e00\u865f\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u946b\u797a\u591a\u5a92\u9ad4\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u5bf6\u5d34\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u6771\u5178\u5149\u96fb\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(6588)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5146\u8c50\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 30 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "9,500,000\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,336,000\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "0\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u5931\u6557",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\uff0c\u61c9\u8ce3\u80a1\u6578\u672a\u9054\u6700\u4f4e\u6536\u8cfc\u6578\u91cf"
+        },
+        "reported_outcome": "\u5931\u6557",
+        "source_issues": [],
+        "start": "2024-04-29",
+        "end": "2024-05-27",
+        "max_shares": 9500000,
+        "min_shares": 1336000,
+        "reported_actual_shares": 0,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "4b413f0335dbc1624d7a9ebb1545308f5903dc055b936013df5ffe9dd78917d0",
+      "documents": [
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_000700_6588_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-04-26T10:29:00+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u4fee\u6b63)1",
+          "filename": "202400_000700_6588_B2b_1.pdf",
+          "reported_timestamp_taipei": "2024-05-20T14:04:10+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_000700_6588_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-04-26T10:30:01+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u4fee\u6b63)1",
+          "filename": "202400_000700_6588_B2e_1.pdf",
+          "reported_timestamp_taipei": "2024-05-20T14:15:42+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_000700_6588_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-04-26T10:30:54+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_000700_6588_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-04-26T10:32:20+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-04-25T19:07:17+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u751f\u8c50\u8cc7\u672c\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u56db\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-05-27T16:03:38+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 7,
+      "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u8afe\u8c9d\u5152",
+      "symbol": "6844",
+      "filed_roc": "113/09/24",
+      "filing": {
+        "sequence": 9,
+        "symbol": "6844",
+        "reported_fields": {
+          "\u5e8f\u865f": "9",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/09/25",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/11/13",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u5e022352)",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u8afe\u8c9d\u5152\u5bf6\u8c9d\u80a1\u4efd\u6709\u9650\u516c\u53f8(6844)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u53f0\u65b0\u7d9c\u5408\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 175 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "5,220,000\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,872,000\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "5,220,000\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-09-25",
+        "end": "2024-11-13",
+        "max_shares": 5220000,
+        "min_shares": 1872000,
+        "reported_actual_shares": 5220000,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "4d1d86ff6d3aaa9421f727129eb718bf5c0c61188ad3124d7bfa963d0cb5091e",
+      "documents": [
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_2352_6844_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-09-24T15:05:29+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_2352_6844_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-09-24T15:07:09+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_2352_6844_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-09-24T15:08:55+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_2352_6844_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-09-24T15:10:01+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-09-24T15:15:33+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-11-11T17:56:19+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u5f8c\uff0c\u61c9\u8ce3\u6709\u50f9\u8b49\u5238\u6578\u91cf\u8d85\u904e\u9810\u5b9a\u6536\u8cfc\u6700\u9ad8\u6578\u91cf\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-11-11T17:57:33+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-11-13T18:21:55+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u4f73\u4e16\u9054\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-11-14T17:48:36+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 8,
+      "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u6975\u4e0a\u6559\u80b2",
+      "symbol": "6897",
+      "filed_roc": "113/12/19",
+      "filing": {
+        "sequence": 12,
+        "symbol": "6897",
+        "reported_fields": {
+          "\u5e8f\u865f": "12",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/12/20",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/01/08",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u6975\u4e0a\u6559\u80b2\u8aee\u8a62\u80a1\u4efd\u6709\u9650\u516c\u53f8(6897)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 39.64 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001 \u9280\u884c\u878d\u8cc7",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "5,260,395\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "5,260,395\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "5,260,395\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-12-20",
+        "end": "2025-01-08",
+        "max_shares": 5260395,
+        "min_shares": 5260395,
+        "reported_actual_shares": 5260395,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "76972e3732e765940dfbd47f7974978de719b868ecaa3747fc89dcec2d0b5772",
+      "documents": [
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_6897_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-12-19T07:42:02+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_6897_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-12-19T07:44:36+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_6897_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-12-19T07:45:24+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_6026_6897_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-12-19T07:46:09+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-19T07:47:31+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-19T07:48:17+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-02T16:31:59+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-08T17:12:11+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u5f0b\u679c\u6587\u5316\u4e8b\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-09T16:34:16+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 9,
+      "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u85cd\u65b0\u8cc7\u8a0a",
+      "symbol": "6938",
+      "filed_roc": "113/07/15",
+      "filing": {
+        "sequence": 8,
+        "symbol": "6938",
+        "reported_fields": {
+          "\u5e8f\u865f": "8",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/07/16",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/08/05",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8 (\u4e0a\u5e026214)",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u85cd\u65b0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8(6938)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5143\u5927\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 72 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "2,500,000\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,900,000\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "0\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-07-16",
+        "end": "2024-08-05",
+        "max_shares": 2500000,
+        "min_shares": 1900000,
+        "reported_actual_shares": 0,
+        "quantity_conflict": true
+      },
+      "document_index_sha256": "6b7edd9c01fc8ed678c3d18d326da5acb98b70d3386cf0f1706a212ee658247e",
+      "documents": [
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6214_6938_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-07-15T13:43:10+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6214_6938_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-07-15T13:47:04+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_6214_6938_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-07-15T13:48:06+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_6214_6938_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-07-15T13:49:37+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-07-15T10:58:57+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-07-15T13:59:43+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-07-18T16:49:21+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7cbe\u8aa0\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-08-06T00:10:38+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 10,
+      "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u7f8e\u840c",
+      "symbol": "7555",
+      "filed_roc": "113/12/15",
+      "filing": {
+        "sequence": 11,
+        "symbol": "7555",
+        "reported_fields": {
+          "\u5e8f\u865f": "11",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/12/17",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/01/17",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u9824\u8f1d\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u662f",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u7f8e\u840c\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(7555)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u6c38\u8c50\u91d1\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 66.5 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001 \u9280\u884c\u878d\u8cc7",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "7,081,134\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "2,360,378\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "7,081,134\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-12-17",
+        "end": "2025-01-17",
+        "max_shares": 7081134,
+        "min_shares": 2360378,
+        "reported_actual_shares": 7081134,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "f0b94b96670576c664cf7058feba5632812f554b0d33c569eb889e88ecbb985d",
+      "documents": [
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_0009A0_7555_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-12-15T14:12:53+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_0009A0_7555_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-12-15T14:14:05+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_0009A0_7555_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-12-15T14:15:09+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_0009A0_7555_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-12-15T14:15:54+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8/\u9824\u8f1d\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-12-15T15:33:10+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-07T16:08:18+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-17T16:32:13+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u5f8c\uff0c\u61c9\u8ce3\u6709\u50f9\u8b49\u5238\u6578\u91cf\u8d85\u904e\u9810\u5b9a\u6536\u8cfc\u6700\u9ad8\u6578\u91cf\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-17T16:33:22+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u76db\u5be6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u7b49\u4e8c\u4eba",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2025-01-21T13:14:10+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 11,
+      "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u9245\u9081",
+      "symbol": "8435",
+      "filed_roc": "113/02/19",
+      "filing": {
+        "sequence": 3,
+        "symbol": "8435",
+        "reported_fields": {
+          "\u5e8f\u865f": "3",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/02/20",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/03/20",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac34729)",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u53f0\u7063\u9245\u9081\u80a1\u4efd\u6709\u9650\u516c\u53f8(8435)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5143\u5927\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 72 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "9,510,135\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,585,023\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "3,768,151\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-02-20",
+        "end": "2024-03-20",
+        "max_shares": 9510135,
+        "min_shares": 1585023,
+        "reported_actual_shares": 3768151,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "92efae49393f57c24a8494c3bfb5e5ed75ba92a85f5e074a745e0066f956e64c",
+      "documents": [
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_4729_8435_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-02-19T14:32:48+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_4729_8435_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-02-19T14:34:32+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_4729_8435_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-02-19T14:36:04+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_4729_8435_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-02-19T14:37:15+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-02-19T14:21:43+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-21T00:02:45+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u7192\u8302\u5149\u5b78\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-22T11:34:23+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "4729",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-05T12:05:06+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    },
+    {
+      "sequence": 12,
+      "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "target": "\u5275\u696d\u5bb6",
+      "symbol": "8477",
+      "filed_roc": "113/02/06",
+      "filing": {
+        "sequence": 2,
+        "symbol": "8477",
+        "reported_fields": {
+          "\u5e8f\u865f": "2",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "113/02/07",
+          "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "113/03/27",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u5275\u696d\u5bb6\u5144\u5f1f\u80a1\u4efd\u6709\u9650\u516c\u53f8(8477)",
+          "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5b8f\u9060\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+          "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 16.65 \u5143",
+          "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+          "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+          "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "20,875,703\u80a1",
+          "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "8,698,206\u80a1",
+          "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "16,686,658\u80a1",
+          "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+          "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+          "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+        },
+        "reported_outcome": "\u6210\u529f",
+        "source_issues": [],
+        "start": "2024-02-07",
+        "end": "2024-03-27",
+        "max_shares": 20875703,
+        "min_shares": 8698206,
+        "reported_actual_shares": 16686658,
+        "quantity_conflict": false
+      },
+      "document_index_sha256": "1390166811c03ef1f0b647bc8e492f4e1bfa334153ca22a83f8566ab576c4a6a",
+      "documents": [
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u7533\u5831\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6015_8477_B2a_1.pdf",
+          "reported_timestamp_taipei": "2024-02-06T13:38:53+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u65b0\u7533\u5831)1",
+          "filename": "202400_6015_8477_B2d_1.pdf",
+          "reported_timestamp_taipei": "2024-02-06T13:41:59+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8(\u4fee\u6b63)1",
+          "filename": "202400_6015_8477_B2e_1.pdf",
+          "reported_timestamp_taipei": "2024-02-15T16:31:19+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u6cd5\u5f8b\u610f\u898b(\u65b0\u7533\u5831)1",
+          "filename": "202400_6015_8477_B2g_1.pdf",
+          "reported_timestamp_taipei": "2024-02-06T13:43:37+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4e4b\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u8b49\u660e(\u65b0\u7533\u5831)1",
+          "filename": "202400_6015_8477_B2m_1.pdf",
+          "reported_timestamp_taipei": "2024-02-06T13:44:26+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u65bc\u516c\u958b\u6536\u8cfc\u65e5\u524d\u516c\u544a\u4e8b\u9805(\u975e\u5c6c\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u8005\u9069\u7528)",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-02-06T17:14:29+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u6536\u8cfc\u5c0d\u50f9\u5df2\u532f\u5165\u516c\u958b\u6536\u8cfc\u5c08\u6236\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-02-06T17:15:01+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u689d\u4ef6\u6210\u5c31\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-06T16:32:32+08:00",
+          "original_bytes_verified": false
+        },
+        {
+          "bidder": "\u68ee\u555f\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+          "title": "\u516c\u958b\u6536\u8cfc\u4eba\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\u516c\u544a\u4e8b\u9805",
+          "filename": null,
+          "reported_timestamp_taipei": "2024-03-27T16:06:07+08:00",
+          "original_bytes_verified": false
+        }
+      ],
+      "historical_pit_verified": false,
+      "eligible_for_returns": false,
+      "filing_year_matches_start_year": true
+    }
+  ],
+  "other_start_year_rows": [
+    {
+      "sequence": 13,
+      "symbol": "1817",
+      "reported_fields": {
+        "\u5e8f\u865f": "13",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/02/10",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/03/05",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4e16\u8c50\u87ba\u7d72\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac32065)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u51f1\u6492\u885b\u6d74\u80a1\u4efd\u6709\u9650\u516c\u53f8(1817)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5146\u8c50\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 51 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001 \u9280\u884c\u878d\u8cc7",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "14,520,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "3,630,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "9,873,784\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-02-10",
+      "end": "2025-03-05",
+      "max_shares": 14520000,
+      "min_shares": 3630000,
+      "reported_actual_shares": 9873784,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 14,
+      "symbol": "5277",
+      "reported_fields": {
+        "\u5e8f\u865f": "14",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/02/24",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/03/25",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5a01\u90a6\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u8473\u5929\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(5277)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u51f1\u57fa\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 9 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "31,521,840\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "3,403,100\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "16,510,009\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u662f",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-02-24",
+      "end": "2025-03-25",
+      "max_shares": 31521840,
+      "min_shares": 3403100,
+      "reported_actual_shares": 16510009,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 15,
+      "symbol": "9946",
+      "reported_fields": {
+        "\u5e8f\u865f": "15",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/02/27",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/03/19",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5168\u5fc3\u6295\u8cc7\u63a7\u80a1\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u4e09\u767c\u5730\u7522\u80a1\u4efd\u6709\u9650\u516c\u53f8(9946)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5146\u8c50\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 25 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "65,311,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "16,328,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "64,333,653\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-02-27",
+      "end": "2025-03-19",
+      "max_shares": 65311000,
+      "min_shares": 16328000,
+      "reported_actual_shares": 64333653,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 16,
+      "symbol": "2468",
+      "reported_fields": {
+        "\u5e8f\u865f": "16",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/03/05",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/04/23",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5927\u806f\u5927\u63a7\u80a1\u80a1\u4efd\u6709\u9650\u516c\u53f8(3702)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u83ef\u7d93\u8cc7\u8a0a\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8(2468)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u51f1\u57fa\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 25 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "35,681,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "33,340,281\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "33,348,481\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-03-05",
+      "end": "2025-04-23",
+      "max_shares": 35681000,
+      "min_shares": 33340281,
+      "reported_actual_shares": 33348481,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 17,
+      "symbol": "6904",
+      "reported_fields": {
+        "\u5e8f\u865f": "17",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/03/12",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/03/31",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5fa9\u76db\u61c9\u7528\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u5e026670)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u4f2f\u946b\u5de5\u5177\u80a1\u4efd\u6709\u9650\u516c\u53f8(6904)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 157 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "9,435,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "9,435,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "9,435,000\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-03-12",
+      "end": "2025-03-31",
+      "max_shares": 9435000,
+      "min_shares": 9435000,
+      "reported_actual_shares": 9435000,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 18,
+      "symbol": "1516",
+      "reported_fields": {
+        "\u5e8f\u865f": "18",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/05/08",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/06/06",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5927\u548c\u6295\u8cc7\u6709\u9650\u516c\u53f8",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u5ddd\u98db\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8(1516)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5eb7\u548c\u7d9c\u5408\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 18 \u5143\uff0c\u5176\u5f8c\u63d0\u9ad8\u70ba\u6bcf\u80a1\u65b0\u53f0\u5e6322\u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u80a1\u6771\u501f\u6b3e",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "3,600,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "2,001,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "0\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u5931\u6557",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\uff0c\u61c9\u8ce3\u80a1\u6578\u672a\u9054\u6700\u4f4e\u6536\u8cfc\u6578\u91cf"
+      },
+      "reported_outcome": "\u5931\u6557",
+      "source_issues": [],
+      "start": "2025-05-08",
+      "end": "2025-06-06",
+      "max_shares": 3600000,
+      "min_shares": 2001000,
+      "reported_actual_shares": 0,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 19,
+      "symbol": "6287",
+      "reported_fields": {
+        "\u5e8f\u865f": "19",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/05/15",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/06/24",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u53f0\u7063\u798f\u96f7\u96fb\u5b50\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u5143\u9686\u96fb\u5b50\u80a1\u4efd\u6709\u9650\u516c\u53f8(6287)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u51f1\u57fa\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 9 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "15,059,958\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,214,510\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "6,386,129\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u662f",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-05-15",
+      "end": "2025-06-24",
+      "max_shares": 15059958,
+      "min_shares": 1214510,
+      "reported_actual_shares": 6386129,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 20,
+      "symbol": "3205",
+      "reported_fields": {
+        "\u5e8f\u865f": "20",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/06/18",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/07/07",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u9032\u6eff\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u9032\u5bcc\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001\u74bd\u5bcc\u6295\u8cc7\u80a1\u4efd\u6709\u9650\u516c\u53f8\u3001 \u694a\u6e05\u5b97\u53ca\u9b4f\u78a7\u7d20",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u4f70\u7814\u751f\u5316\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(3205)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5146\u8c50\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 40 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "8,000,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "5,000,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "5,401,454\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-06-18",
+      "end": "2025-07-07",
+      "max_shares": 8000000,
+      "min_shares": 5000000,
+      "reported_actual_shares": 5401454,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 21,
+      "symbol": "6418",
+      "reported_fields": {
+        "\u5e8f\u865f": "21",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/08/15",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/09/03",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4e0a\u66dc\u5efa\u8a2d\u958b\u767c\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u5e021316)\u3001\u4e16\u7d00\u6c11\u751f\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac35314)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u8a60\u6607\u96fb\u5b50\u80a1\u4efd\u6709\u9650\u516c\u53f8(6418)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u5146\u8c50\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 25 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "12,000,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "10,057,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "10,057,313\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-08-15",
+      "end": "2025-09-03",
+      "max_shares": 12000000,
+      "min_shares": 10057000,
+      "reported_actual_shares": 10057313,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 22,
+      "symbol": "6138",
+      "reported_fields": {
+        "\u5e8f\u865f": "22",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/09/12",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/10/01",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u570b\u5de8\u80a1\u4efd\u6709\u9650\u516c\u53f8(2327)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u8302\u9054\u96fb\u5b50\u80a1\u4efd\u6709\u9650\u516c\u53f8(6138)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u51f1\u57fa\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 229.8 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u5c65\u7d04\u4fdd\u8b49",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "21,277,245\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "3,733,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "15,996,837\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-09-12",
+      "end": "2025-10-01",
+      "max_shares": 21277245,
+      "min_shares": 3733000,
+      "reported_actual_shares": 15996837,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 23,
+      "symbol": "4130",
+      "reported_fields": {
+        "\u5e8f\u865f": "23",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/09/17",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/10/07",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5065\u55ac\u4fe1\u5143\u91ab\u85e5\u751f\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac34114)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u5065\u4e9e\u751f\u7269\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(4130)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u51f1\u57fa\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 24 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "34,466,260\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "17,233,130\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "4,578,348\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u5931\u6557",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "\u516c\u958b\u6536\u8cfc\u671f\u9593\u5c46\u6eff\uff0c\u61c9\u8ce3\u80a1\u6578\u672a\u9054\u6700\u4f4e\u6536\u8cfc\u6578\u91cf"
+      },
+      "reported_outcome": "\u5931\u6557",
+      "source_issues": [],
+      "start": "2025-09-17",
+      "end": "2025-10-07",
+      "max_shares": 34466260,
+      "min_shares": 17233130,
+      "reported_actual_shares": 4578348,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 24,
+      "symbol": "1570",
+      "reported_fields": {
+        "\u5e8f\u865f": "24",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/10/01",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/10/21",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u5a01\u525b\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac33260)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u529b\u80af\u5be6\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8(1570)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 32 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "36,000,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "18,000,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "20,817,484\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-10-01",
+      "end": "2025-10-21",
+      "max_shares": 36000000,
+      "min_shares": 18000000,
+      "reported_actual_shares": 20817484,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 25,
+      "symbol": "6764",
+      "reported_fields": {
+        "\u5e8f\u865f": "25",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/10/16",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/11/04",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4e09\u8c9d\u5fb7\u6578\u4f4d\u6587\u5275\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u4e9e\u6d32\u6559\u80b2\u5e73\u53f0\u80a1\u4efd\u6709\u9650\u516c\u53f8(6764)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 30 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1\u3001 \u9280\u884c\u878d\u8cc7",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "14,249,968\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "1,910,174\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "13,169,061\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u662f",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-10-16",
+      "end": "2025-11-04",
+      "max_shares": 14249968,
+      "min_shares": 1910174,
+      "reported_actual_shares": 13169061,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 26,
+      "symbol": "8047",
+      "reported_fields": {
+        "\u5e8f\u865f": "26",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/10/16",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/11/04",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4e16\u7d00\u6c11\u751f\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac35314)\u3001\u4fe1\u7acb\u5316\u5b78\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac34303)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u661f\u96f2\u96fb\u8166\u80a1\u4efd\u6709\u9650\u516c\u53f8(8047)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u53f0\u65b0\u7d9c\u5408\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 16 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "24,999,806\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "16,400,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "16,634,316\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-10-16",
+      "end": "2025-11-04",
+      "max_shares": 24999806,
+      "min_shares": 16400000,
+      "reported_actual_shares": 16634316,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 27,
+      "symbol": "6624",
+      "reported_fields": {
+        "\u5e8f\u865f": "27",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/12/10",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/12/29",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u4e16\u7d00\u6c11\u751f\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac35314)\u3001\u6590\u6210\u958b\u767c\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8(\u4e0a\u6ac33313)",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u842c\u5e74\u6e05\u74b0\u5883\u5de5\u7a0b\u80a1\u4efd\u6709\u9650\u516c\u53f8(6624)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u53f0\u65b0\u7d9c\u5408\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 33.525 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "13,572,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "9,396,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "11,616,399\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-12-10",
+      "end": "2025-12-29",
+      "max_shares": 13572000,
+      "min_shares": 9396000,
+      "reported_actual_shares": 11616399,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 28,
+      "symbol": "6624",
+      "reported_fields": {
+        "\u5e8f\u865f": "28",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "114/12/10",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "114/12/29",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "5314\u30013313",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u662f",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u842c\u5e74\u6e05\u74b0\u5883\u5de5\u7a0b\u80a1\u4efd\u6709\u9650\u516c\u53f8(6624)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u53f0\u65b0\u7d9c\u5408\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 33.525 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "13,572,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "9,396,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "11,616,399\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [],
+      "start": "2025-12-10",
+      "end": "2025-12-29",
+      "max_shares": 13572000,
+      "min_shares": 9396000,
+      "reported_actual_shares": 11616399,
+      "quantity_conflict": false
+    },
+    {
+      "sequence": 29,
+      "symbol": "6806",
+      "reported_fields": {
+        "\u5e8f\u865f": "29",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u8d77\u65e5": "115/08/18",
+        "\u516c\u958b\u6536\u8cfc\u671f\u9593\u672b\u65e5": "15/09/07",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u540d\u7a31\u6216\u59d3\u540d": "\u80e1\u6b63\u6770",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u79c1\u52df\u57fa\u91d1": "\u5426",
+        "\u516c\u958b\u6536\u8cfc\u4eba\u6216\u5176\u80a1\u6771(\u542b\u6700\u7d42\u63a7\u80a1\u80a1\u6771)\u662f\u5426\u70ba\u88ab\u6536\u8cfc\u516c\u53f8\u4e4b\u7ba1\u7406\u968e\u5c64": "\u5426",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u540d\u7a31\u53ca\u4ee3\u865f": "\u68ee\u5d34\u80fd\u6e90\u80a1\u4efd\u6709\u9650\u516c\u53f8(6806)",
+        "\u53d7\u59d4\u4efb\u6a5f\u69cb\u540d\u7a31": "\u798f\u90a6\u8b49\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u6536\u8cfc\u6a19\u7684": "\u666e\u901a\u80a1",
+        "\u6536\u8cfc\u5c0d\u50f9": "\u6bcf\u80a1\u65b0\u53f0\u5e63 0.05 \u5143",
+        "\u8cc7\u91d1\u4f86\u6e90": "\u516c\u958b\u6536\u8cfc\u4eba\u81ea\u6709\u8cc7\u91d1",
+        "\u5177\u5c65\u884c\u652f\u4ed8\u6536\u8cfc\u5c0d\u50f9\u80fd\u529b\u4e4b\u8b49\u660e\u985e\u578b": "\u78ba\u8a8d\u66f8",
+        "\u9810\u5b9a\u6700\u9ad8\u6536\u8cfc\u6578\u91cf": "200,000,000\u80a1",
+        "\u9810\u5b9a\u6700\u4f4e\u6536\u8cfc\u6578\u91cf": "140,000,000\u80a1",
+        "\u5be6\u969b\u6536\u8cfc\u6578\u91cf": "140,793,762\u80a1",
+        "\u88ab\u6536\u8cfc\u516c\u53f8\u65bc\u6536\u8cfc\u5f8c\u662f\u5426\u7d42\u6b62\u4e0a\u5e02\u3001\u4e0a\u6ac3\u6216\u8208\u6ac3": "\u4e0d\u9069\u7528",
+        "\u516c\u958b\u6536\u8cfc\u6210\u529f\u6216\u5931\u6557": "\u6210\u529f",
+        "\u516c\u958b\u6536\u8cfc\u5931\u6557\u4e4b\u539f\u56e0": "NA"
+      },
+      "reported_outcome": "\u6210\u529f",
+      "source_issues": [
+        "invalid_end_date"
+      ],
+      "start": "2026-08-18",
+      "end": null,
+      "max_shares": 200000000,
+      "min_shares": 140000000,
+      "reported_actual_shares": 140793762,
+      "quantity_conflict": false
+    }
+  ],
+  "archive_sha256": {
+    "sources": "249e6d2a11026a62a15e817f49fd7c8bde3a9f16155eccdcffb791d21382c133",
+    "followups": "27dcef1f05c471748828b91feb92096f37f7c3fb8a1dd6ddfabbd3ce63e212b9",
+    "cohort": "084674ebc25982696a062f52ee5fe9e5a6b88f9a9a792a22cbe90efad544b010"
+  },
+  "scope": "Current official 2024-start indexes reconcile; neither historical snapshots nor withdrawn/pre-commencement proposals proven complete"
+}

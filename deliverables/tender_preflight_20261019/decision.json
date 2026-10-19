@@ -1,0 +1,56 @@
+{
+  "status": "source_access_feasible_research_gate_not_passed",
+  "index_rows": 12,
+  "broad_filing_rows": 29,
+  "other_start_year_rows": 17,
+  "broad_query_returned_out_of_range_rows": true,
+  "broad_query_filter_semantics_verified": false,
+  "outside_reference_year_source_issues": [
+    {
+      "sequence": 29,
+      "symbol": "6806",
+      "issues": [
+        "invalid_end_date"
+      ]
+    }
+  ],
+  "start_2024_cohort_reconciled": true,
+  "independent_provider_reconciliation": false,
+  "index_same_official_system": true,
+  "reported_successes": 11,
+  "reported_failures": 1,
+  "failed_symbols": [
+    "6588"
+  ],
+  "unresolved_quantity_conflict_symbols": [
+    "6938"
+  ],
+  "amendments_by_symbol": {
+    "2945": 1,
+    "3040": 0,
+    "3666": 0,
+    "4127": 1,
+    "4735": 0,
+    "6588": 2,
+    "6844": 0,
+    "6897": 0,
+    "6938": 0,
+    "7555": 0,
+    "8435": 0,
+    "8477": 1
+  },
+  "case_document_index_entries": 103,
+  "crossyear_end_symbols": [
+    "6897",
+    "7555"
+  ],
+  "fully_verified_original_case_documents": 0,
+  "historical_pit_verified": false,
+  "withdrawn_and_uncommenced_proposals_complete": false,
+  "source_gate_passed": false,
+  "backtest_authorized_by_gate": false,
+  "valid_prospective_signals": 0,
+  "reason": "Preserve success/quantity conflict; original terms, amendments and expiry contents still needed. Current indexes do not establish historical availability or all proposals.",
+  "next_action": "Do not launch returns/daily validation. Any later original-document audit must pin case/version coverage and resolve conflicts before a separately frozen economic study.",
+  "no_user_manual_download_requests": true
+}

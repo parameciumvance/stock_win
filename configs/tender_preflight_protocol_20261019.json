@@ -1,0 +1,21 @@
+{
+  "purpose": "Bounded source feasibility only; no price queries, return calculation, model fitting, or strategy signal",
+  "reference_year": 2024,
+  "universe_required_before_backtest": "All Taiwan public tender offers first legally filed/commenced in 2024, including failed, withdrawn, amended, extended, cash and noncash cases; earlier announced but not commenced proposals logged separately, never silently excluded as successful-only",
+  "cohort_date_basis": "Initial legal filing/commencement, not completion year; amendments retain original case identity and timestamps",
+  "discovery_already_seen": "Web search saw MOPS t162sb02 entry, current TDCC catalog, Yuanta index and selected 2024 PDFs. This is not an untouched out-of-sample strategy protocol.",
+  "max_initial_requests": 6,
+  "max_form_discovered_followups": 2,
+  "acquisition_workers": 2,
+  "max_request_seconds": 30,
+  "max_response_bytes": 33554432,
+  "gate": [
+    "Authoritative year-filtered complete case index with scope and pagination independently reconciled; no broker-only or search-only substitute",
+    "Initial terms, all amendments, final outcomes and original public availability evidence for each case",
+    "Minimum/maximum quantity, oversubscription allocation, settlement timing, returned shares, deductions and financing/approval conditions captured without hindsight",
+    "Archived originals independently retrieved and SHA/CRC/manifest verified"
+  ],
+  "stop": "If the complete 2024 cohort cannot be verified within the bounded probes, stop this route at source_gate_not_passed; do not request manual case downloads, retry indefinitely, estimate profitability, or infer that the economic hypothesis is disproven",
+  "next_research_requires": "A separately frozen economic hypothesis, participation/capital/cost rules, PIT case ledger and predeclared decision criteria before any prices/returns are inspected",
+  "legacy_rules_and_inputs": "Unchanged; seven-rule daily prospective plan remains stopped; no new valid prospective signal or order"
+}
