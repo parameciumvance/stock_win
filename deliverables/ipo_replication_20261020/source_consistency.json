@@ -1,0 +1,964 @@
+{
+  "status": "blocked_source_representations_disagree",
+  "audit_completed": true,
+  "usable_for_research": false,
+  "all_representations_rows": [
+    245,
+    245,
+    245,
+    245,
+    245
+  ],
+  "initial_cohort_events": 24,
+  "comparisons": [
+    {
+      "name": "initial_json_vs_initial_csv",
+      "rows_differ": 13,
+      "cohort_rows_differ": 0,
+      "differences": [
+        {
+          "sequence": "36",
+          "symbol": "A141KA",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "97.523",
+              "right": "97.235"
+            }
+          ]
+        },
+        {
+          "sequence": "81",
+          "symbol": "7556",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7533\u8cfc\u80a1\u6578",
+              "left": "1,000",
+              "right": "5,000"
+            }
+          ]
+        },
+        {
+          "sequence": "101",
+          "symbol": "7753",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.3",
+              "right": "6.3"
+            }
+          ]
+        },
+        {
+          "sequence": "106",
+          "symbol": "5213",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "26.95",
+              "right": "26.55"
+            }
+          ]
+        },
+        {
+          "sequence": "108",
+          "symbol": "A141HA",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.568",
+              "right": "99\u0000568"
+            }
+          ]
+        },
+        {
+          "sequence": "112",
+          "symbol": "A141HO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "720,000",
+              "right": "900,000"
+            }
+          ]
+        },
+        {
+          "sequence": "116",
+          "symbol": "6461",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "39,150,000",
+              "right": "39,121,100"
+            }
+          ]
+        },
+        {
+          "sequence": "121",
+          "symbol": "A141GO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.553",
+              "right": "99.513"
+            }
+          ]
+        },
+        {
+          "sequence": "132",
+          "symbol": "7642",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "66.51",
+              "right": "66.18"
+            }
+          ]
+        },
+        {
+          "sequence": "169",
+          "symbol": "8466",
+          "category": "\u7b2c\u4e00\u4e0a\u5e02\u516c\u53f8\u73fe\u91d1\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "34,100,000",
+              "right": "34,830,000"
+            }
+          ]
+        },
+        {
+          "sequence": "182",
+          "symbol": "A141DB",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u80a1\u6578",
+              "left": "180,000",
+              "right": "767,600"
+            }
+          ]
+        },
+        {
+          "sequence": "190",
+          "symbol": "4735",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "3.23",
+              "right": "3.10"
+            }
+          ]
+        },
+        {
+          "sequence": "225",
+          "symbol": "A142AA",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.908",
+              "right": "99.368"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "initial_json_vs_retry_json",
+      "rows_differ": 17,
+      "cohort_rows_differ": 1,
+      "differences": [
+        {
+          "sequence": "17",
+          "symbol": "2812",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "160,650,000",
+              "right": "160,459,000"
+            },
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "194,272",
+              "right": "194,253"
+            },
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.87",
+              "right": "0.17"
+            }
+          ]
+        },
+        {
+          "sequence": "36",
+          "symbol": "A141KA",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "97.523",
+              "right": "97.235"
+            }
+          ]
+        },
+        {
+          "sequence": "93",
+          "symbol": "A141GF",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "101.464",
+              "right": "101.324"
+            }
+          ]
+        },
+        {
+          "sequence": "95",
+          "symbol": "A141GH",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "101.464",
+              "right": "101.864"
+            }
+          ]
+        },
+        {
+          "sequence": "112",
+          "symbol": "A141HO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "720,000",
+              "right": "900,000"
+            }
+          ]
+        },
+        {
+          "sequence": "114",
+          "symbol": "2545",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "98,001",
+              "right": "95,000"
+            }
+          ]
+        },
+        {
+          "sequence": "120",
+          "symbol": "A141GD",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u7533\u8cfc\u80a1\u6578",
+              "left": "10,000",
+              "right": "50,000"
+            }
+          ]
+        },
+        {
+          "sequence": "121",
+          "symbol": "A141GO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.553",
+              "right": "99.513"
+            }
+          ]
+        },
+        {
+          "sequence": "132",
+          "symbol": "7642",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "66.51",
+              "right": "66.18"
+            }
+          ]
+        },
+        {
+          "sequence": "145",
+          "symbol": "6936",
+          "category": "\u521d\u4e0a\u5e02",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "28.01",
+              "right": "00.01"
+            }
+          ]
+        },
+        {
+          "sequence": "156",
+          "symbol": "3709",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "225,310",
+              "right": "000,000"
+            }
+          ]
+        },
+        {
+          "sequence": "165",
+          "symbol": "3390",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.77",
+              "right": "0.81"
+            }
+          ]
+        },
+        {
+          "sequence": "169",
+          "symbol": "8466",
+          "category": "\u7b2c\u4e00\u4e0a\u5e02\u516c\u53f8\u73fe\u91d1\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "34,100,000",
+              "right": "34,830,000"
+            }
+          ]
+        },
+        {
+          "sequence": "174",
+          "symbol": "3512",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u80a1\u6578",
+              "left": "1,360,000",
+              "right": "1,364,738"
+            }
+          ]
+        },
+        {
+          "sequence": "175",
+          "symbol": "8054",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "680,000",
+              "right": "681,000"
+            }
+          ]
+        },
+        {
+          "sequence": "182",
+          "symbol": "A141DB",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.618",
+              "right": "00.618"
+            },
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.618",
+              "right": "75.618"
+            }
+          ]
+        },
+        {
+          "sequence": "191",
+          "symbol": "2547",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "24.69",
+              "right": "00.69"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "retry_json_vs_retry_csv",
+      "rows_differ": 25,
+      "cohort_rows_differ": 2,
+      "differences": [
+        {
+          "sequence": "17",
+          "symbol": "2812",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "160,459,000",
+              "right": "160,650,000"
+            },
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "194,253",
+              "right": "194,272"
+            },
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.17",
+              "right": "0.87"
+            }
+          ]
+        },
+        {
+          "sequence": "19",
+          "symbol": "6730",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "828,000",
+              "right": "825,000"
+            }
+          ]
+        },
+        {
+          "sequence": "39",
+          "symbol": "A141KD",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u7533\u8cfc\u80a1\u6578",
+              "left": "10,000",
+              "right": "10,016"
+            }
+          ]
+        },
+        {
+          "sequence": "50",
+          "symbol": "3289",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "100",
+              "right": "=\"000\""
+            }
+          ]
+        },
+        {
+          "sequence": "81",
+          "symbol": "7556",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "119,182",
+              "right": "125,000"
+            }
+          ]
+        },
+        {
+          "sequence": "84",
+          "symbol": "7765",
+          "category": "\u521d\u4e0a\u5e02",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.25",
+              "right": "3.55"
+            }
+          ]
+        },
+        {
+          "sequence": "86",
+          "symbol": "3284",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "9,000,000",
+              "right": "3,500,000"
+            }
+          ]
+        },
+        {
+          "sequence": "93",
+          "symbol": "A141GF",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "101.324",
+              "right": "101.464"
+            }
+          ]
+        },
+        {
+          "sequence": "95",
+          "symbol": "A141GH",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "101.864",
+              "right": "101.464"
+            }
+          ]
+        },
+        {
+          "sequence": "114",
+          "symbol": "2545",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "95,000",
+              "right": "98,001"
+            }
+          ]
+        },
+        {
+          "sequence": "120",
+          "symbol": "A141GD",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u7533\u8cfc\u80a1\u6578",
+              "left": "50,000",
+              "right": "10,000"
+            }
+          ]
+        },
+        {
+          "sequence": "121",
+          "symbol": "A141GO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "1,350,000",
+              "right": "1,387,215"
+            }
+          ]
+        },
+        {
+          "sequence": "124",
+          "symbol": "6925",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "116,436",
+              "right": "350,000"
+            }
+          ]
+        },
+        {
+          "sequence": "145",
+          "symbol": "6936",
+          "category": "\u521d\u4e0a\u5e02",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "00.01",
+              "right": "28.01"
+            }
+          ]
+        },
+        {
+          "sequence": "156",
+          "symbol": "3709",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "000,000",
+              "right": "225,310"
+            }
+          ]
+        },
+        {
+          "sequence": "159",
+          "symbol": "A141EC",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "375,000",
+              "right": "375,185"
+            }
+          ]
+        },
+        {
+          "sequence": "165",
+          "symbol": "3390",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.81",
+              "right": "0.77"
+            }
+          ]
+        },
+        {
+          "sequence": "170",
+          "symbol": "8155",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "42,500,000",
+              "right": "42,580,000"
+            }
+          ]
+        },
+        {
+          "sequence": "174",
+          "symbol": "3512",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u80a1\u6578",
+              "left": "1,364,738",
+              "right": "1,360,000"
+            }
+          ]
+        },
+        {
+          "sequence": "175",
+          "symbol": "8054",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "681,000",
+              "right": "680,000"
+            }
+          ]
+        },
+        {
+          "sequence": "177",
+          "symbol": "6177",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "1.26",
+              "right": "0.26"
+            }
+          ]
+        },
+        {
+          "sequence": "182",
+          "symbol": "A141DB",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "00.618",
+              "right": "99.618"
+            },
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "75.618",
+              "right": "99.618"
+            }
+          ]
+        },
+        {
+          "sequence": "191",
+          "symbol": "2547",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "00.69",
+              "right": "24.69"
+            }
+          ]
+        },
+        {
+          "sequence": "206",
+          "symbol": "7709",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "45",
+              "right": "=\"00\""
+            }
+          ]
+        },
+        {
+          "sequence": "225",
+          "symbol": "A142AA",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "2,797,424",
+              "right": "2,791,000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "retry_json_vs_html",
+      "rows_differ": 12,
+      "cohort_rows_differ": 1,
+      "differences": [
+        {
+          "sequence": "17",
+          "symbol": "2812",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "160,459,000",
+              "right": "160,650,000"
+            },
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "194,253",
+              "right": "194,272"
+            },
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.17",
+              "right": "0.87"
+            }
+          ]
+        },
+        {
+          "sequence": "93",
+          "symbol": "A141GF",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "101.324",
+              "right": "101.464"
+            }
+          ]
+        },
+        {
+          "sequence": "95",
+          "symbol": "A141GH",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "101.864",
+              "right": "101.464"
+            }
+          ]
+        },
+        {
+          "sequence": "114",
+          "symbol": "2545",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "95,000",
+              "right": "98,001"
+            }
+          ]
+        },
+        {
+          "sequence": "120",
+          "symbol": "A141GD",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u7533\u8cfc\u80a1\u6578",
+              "left": "50,000",
+              "right": "10,000"
+            }
+          ]
+        },
+        {
+          "sequence": "145",
+          "symbol": "6936",
+          "category": "\u521d\u4e0a\u5e02",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "00.01",
+              "right": "28.01"
+            }
+          ]
+        },
+        {
+          "sequence": "156",
+          "symbol": "3709",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u5408\u683c\u4ef6",
+              "left": "000,000",
+              "right": "225,310"
+            }
+          ]
+        },
+        {
+          "sequence": "165",
+          "symbol": "3390",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "0.81",
+              "right": "0.77"
+            }
+          ]
+        },
+        {
+          "sequence": "174",
+          "symbol": "3512",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u80a1\u6578",
+              "left": "1,364,738",
+              "right": "1,360,000"
+            }
+          ]
+        },
+        {
+          "sequence": "175",
+          "symbol": "8054",
+          "category": "\u4e0a\u6ac3\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "681,000",
+              "right": "680,000"
+            }
+          ]
+        },
+        {
+          "sequence": "182",
+          "symbol": "A141DB",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "00.618",
+              "right": "99.618"
+            },
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "75.618",
+              "right": "99.618"
+            }
+          ]
+        },
+        {
+          "sequence": "191",
+          "symbol": "2547",
+          "category": "\u4e0a\u5e02\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u4e2d\u7c64\u7387(%)",
+              "left": "00.69",
+              "right": "24.69"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "initial_json_vs_html",
+      "rows_differ": 5,
+      "cohort_rows_differ": 0,
+      "differences": [
+        {
+          "sequence": "36",
+          "symbol": "A141KA",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "97.523",
+              "right": "97.235"
+            }
+          ]
+        },
+        {
+          "sequence": "112",
+          "symbol": "A141HO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u80a1\u6578",
+              "left": "720,000",
+              "right": "900,000"
+            }
+          ]
+        },
+        {
+          "sequence": "121",
+          "symbol": "A141GO",
+          "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+          "fields": [
+            {
+              "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+              "left": "99.553",
+              "right": "99.513"
+            }
+          ]
+        },
+        {
+          "sequence": "132",
+          "symbol": "7642",
+          "category": "\u521d\u4e0a\u6ac3",
+          "fields": [
+            {
+              "field": "\u627f\u92b7\u50f9(\u5143)",
+              "left": "66.51",
+              "right": "66.18"
+            }
+          ]
+        },
+        {
+          "sequence": "169",
+          "symbol": "8466",
+          "category": "\u7b2c\u4e00\u4e0a\u5e02\u516c\u53f8\u73fe\u91d1\u589e\u8cc7",
+          "fields": [
+            {
+              "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+              "left": "34,100,000",
+              "right": "34,830,000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "no_majority_vote": true,
+  "no_field_stitching": true,
+  "no_market_endpoints_inspected": true,
+  "source_cause": "Unknown; observed HTTP200, curl0 and differing preserved content. No inference of website or transport root cause.",
+  "historical_pit_verified": false
+}

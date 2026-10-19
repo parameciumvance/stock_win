@@ -1,0 +1,100 @@
+{
+  "status": "archival_readback_passed_semantic_consistency_failed",
+  "sha_crc_manifest_verified": true,
+  "packages": [
+    {
+      "archive_sha256": "7bd32acde2942b376f86bf69f4c00ec703e583c639f328384f65d5a1c3b7140a",
+      "manifest_files": 9,
+      "backup": {
+        "sha256": "7bd32acde2942b376f86bf69f4c00ec703e583c639f328384f65d5a1c3b7140a",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\ipo_replication_20261020_sources_7bd32acde2942b376f86bf69f4c00ec703e583c639f328384f65d5a1c3b7140a.zip",
+        "retrieved_path": "inputs/ipo_replication_20261020/sources.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-19T17:37:19.045Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      },
+      "sha_crc_manifest_verified": true,
+      "observations": [
+        {
+          "request": {
+            "filename": "2025.json",
+            "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2025"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "size_bytes": 45271,
+          "sha256": "40bc718553727fcd08b5b35c755e86688d6c48c4e441c8fb402b5714b7880462",
+          "request_started_at": "2026-10-19T17:37:03.465270+00:00",
+          "observed_at": "2026-10-19T17:37:03.759932+00:00"
+        },
+        {
+          "request": {
+            "filename": "2025.csv",
+            "url": "https://www.twse.com.tw/announcement/publicForm?response=csv&date=2025"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "size_bytes": 42202,
+          "sha256": "378ef4a3d3dfd19080d76e83e53bd15588a71215ac12d841e66202a0802612a6",
+          "request_started_at": "2026-10-19T17:37:03.459749+00:00",
+          "observed_at": "2026-10-19T17:37:03.752924+00:00"
+        }
+      ]
+    },
+    {
+      "archive_sha256": "a46b64b466abdf2d0567d6f528e2d835e71b50f1b403d4fe77ed11c077efd98f",
+      "manifest_files": 12,
+      "backup": {
+        "sha256": "a46b64b466abdf2d0567d6f528e2d835e71b50f1b403d4fe77ed11c077efd98f",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\ipo_replication_20261020_recovery_a46b64b466abdf2d0567d6f528e2d835e71b50f1b403d4fe77ed11c077efd98f.zip",
+        "retrieved_path": "inputs/ipo_replication_20261020/recovery.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-19T17:39:30.001Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      },
+      "sha_crc_manifest_verified": true,
+      "observations": [
+        {
+          "request": {
+            "filename": "2025_retry.json",
+            "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2025&_=20261020recheck"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "size_bytes": 45271,
+          "sha256": "8cde15902a59bc997f227bf1d73b2250192f87ae9aab72a8d7a3be6b6d3d4c0b",
+          "request_started_at": "2026-10-19T17:39:17.582801+00:00",
+          "observed_at": "2026-10-19T17:39:17.893241+00:00"
+        },
+        {
+          "request": {
+            "filename": "2025_retry.csv",
+            "url": "https://www.twse.com.tw/announcement/publicForm?response=csv&date=2025&_=20261020recheck"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "size_bytes": 42204,
+          "sha256": "b720ca9617587ae4414dce2c06e40baed6358ed798217a5c2f4b38211157c0c4",
+          "request_started_at": "2026-10-19T17:39:17.579772+00:00",
+          "observed_at": "2026-10-19T17:39:17.898008+00:00"
+        },
+        {
+          "request": {
+            "filename": "2025_control.html",
+            "url": "https://www.twse.com.tw/announcement/publicForm?response=html&date=2025&_=20261020recheck"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "size_bytes": 304828,
+          "sha256": "5b3d4ed02e45c6ad0450a5c15831dd3c7b88638e44307a141e94c1b9277e4c8a",
+          "request_started_at": "2026-10-19T17:39:17.901853+00:00",
+          "observed_at": "2026-10-19T17:39:18.228859+00:00"
+        }
+      ]
+    }
+  ],
+  "total_requests": 5,
+  "semantic_consistency_passed": false
+}

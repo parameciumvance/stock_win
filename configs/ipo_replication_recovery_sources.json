@@ -1,0 +1,20 @@
+{
+  "output_directory": "inputs/ipo_replication_20261020/raw_recovery",
+  "allowed_hosts": [
+    "www.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "2025_retry.json",
+      "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2025&_=20261020recheck"
+    },
+    {
+      "filename": "2025_retry.csv",
+      "url": "https://www.twse.com.tw/announcement/publicForm?response=csv&date=2025&_=20261020recheck"
+    },
+    {
+      "filename": "2025_control.html",
+      "url": "https://www.twse.com.tw/announcement/publicForm?response=html&date=2025&_=20261020recheck"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "stages": [
+    {
+      "id": "one_bounded_source_recovery",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/ipo_replication_recovery_sources.json"
+      ],
+      "inputs": [
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "configs/ipo_replication_recovery_sources.json",
+        "configs/ipo_replication_recovery_protocol_20261020.json",
+        "deliverables/ipo_replication_20261020/source_recovery_freeze.json"
+      ],
+      "outputs": [
+        "inputs/ipo_replication_20261020/raw_recovery/results.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json.headers",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json.meta.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv.headers",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv.meta.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_control.html",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_control.html.headers",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_control.html.meta.json"
+      ],
+      "timeout_seconds": 90
+    },
+    {
+      "id": "preserve_recovery_sources",
+      "command": [
+        "{python}",
+        "ipo_source_recovery.py"
+      ],
+      "inputs": [
+        "ipo_source_recovery.py",
+        "source_checkpoint.py",
+        "research_runtime.py",
+        "configs/ipo_replication_recovery_sources.json",
+        "configs/ipo_replication_recovery_protocol_20261020.json",
+        "deliverables/ipo_replication_20261020/source_recovery_freeze.json",
+        "inputs/ipo_replication_20261020/raw_recovery/results.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json.headers",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json.meta.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv.headers",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv.meta.json",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_control.html",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_control.html.headers",
+        "inputs/ipo_replication_20261020/raw_recovery/2025_control.html.meta.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_replication_20261020/recovery_package.json",
+        "inputs/ipo_replication_20261020/recovery.zip"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

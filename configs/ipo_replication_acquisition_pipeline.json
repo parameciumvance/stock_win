@@ -1,0 +1,58 @@
+{
+  "stages": [
+    {
+      "id": "fixed_2025_sources",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/ipo_replication_sources.json"
+      ],
+      "inputs": [
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "configs/ipo_replication_sources.json"
+      ],
+      "outputs": [
+        "inputs/ipo_replication_20261020/raw/results.json",
+        "inputs/ipo_replication_20261020/raw/2025.json",
+        "inputs/ipo_replication_20261020/raw/2025.json.headers",
+        "inputs/ipo_replication_20261020/raw/2025.json.meta.json",
+        "inputs/ipo_replication_20261020/raw/2025.csv",
+        "inputs/ipo_replication_20261020/raw/2025.csv.headers",
+        "inputs/ipo_replication_20261020/raw/2025.csv.meta.json"
+      ],
+      "timeout_seconds": 90
+    },
+    {
+      "id": "package_before_endpoints",
+      "command": [
+        "{python}",
+        "ipo_replication.py",
+        "package"
+      ],
+      "inputs": [
+        "ipo_replication.py",
+        "ipo_screen.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "tender_preflight.py",
+        "configs/ipo_replication_sources.json",
+        "configs/ipo_replication_protocol_20261020.json",
+        "deliverables/ipo_replication_20261020/protocol_freeze.json",
+        "inputs/ipo_replication_20261020/raw/results.json",
+        "inputs/ipo_replication_20261020/raw/2025.json",
+        "inputs/ipo_replication_20261020/raw/2025.json.headers",
+        "inputs/ipo_replication_20261020/raw/2025.json.meta.json",
+        "inputs/ipo_replication_20261020/raw/2025.csv",
+        "inputs/ipo_replication_20261020/raw/2025.csv.headers",
+        "inputs/ipo_replication_20261020/raw/2025.csv.meta.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_replication_20261020/sources_package.json",
+        "inputs/ipo_replication_20261020/sources.zip"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

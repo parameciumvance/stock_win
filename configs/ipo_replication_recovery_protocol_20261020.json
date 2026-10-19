@@ -1,0 +1,8 @@
+{
+  "reason": "InitialJSON/CSVboth245rows differ in13rows outside cohort, including oneNUL. Original full-year reconciliation failed before inspecting price endpoints. Preserve original inputs and failure.",
+  "source_requests_sha256": "83dca6eb48fc65f68f7d1416a4660c79ff96a6a6d33bfc6594edd8f0902f3b2e",
+  "original_source_package_sha256": "865f0e22b4378a76bd3f11563e4085d808a53b14664831699c954e853dca6b76",
+  "max_requests": 3,
+  "rule": "One bounded freshJSON/CSVandHTMLcontrol batch. Require all3new representations to match all245orotherwiseexplicityear-validated row count/fields exactly; no majority vote, noncohort exception or field-level stitching. If consistent, explicit recovered snapshot retained alongside original mismatch, never historicalPIT; otherwise record unresolved source discrepancy and do not calculate market results.",
+  "no_parameter_or_cohort_change": true
+}

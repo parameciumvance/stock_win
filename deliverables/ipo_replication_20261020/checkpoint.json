@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-19T17:43:21.017205+00:00",
+  "status": "source_integrity_blocked_before2025market_outcomes",
+  "files": {
+    "ipo_replication.py": "3f71e25b8db97d562e64248a73841b0fa65e61924d45a5d9163d84fc7c086a07",
+    "ipo_replication_audit.py": "13d103fec64f74e1c1eae8e9f5b5969ecc60521865018ec6e25391aa4900d3a9",
+    "ipo_source_recovery.py": "82794fe742f8c5a73a42d4ebf93670084567772e71a68a09828d86771fac2377",
+    "ipo_source_consistency.py": "531c0f81ddb7eddf2270a4e0dd81b9c132169a82b73a291350d62d56292a7a47",
+    "test_ipo_replication.py": "0abf271676093952670b7da3df21c45405af3700cb8204ab0e37cc529c67b3c7",
+    "configs/ipo_replication_acquisition_pipeline.json": "57e5e45e6cb2437bf2250a61c7020cd5ae9f85ae1c2102a4dd8fcdab31bcb44b",
+    "configs/ipo_replication_consistency_pipeline.json": "879fae82531e0222c768a0a02b44247323b164204780fdcfa5b720b8d9440b62",
+    "configs/ipo_replication_pipeline.json": "43df31f4d3501e3f85951ce17cf14eeac5e846a94e361c38982c24eefa564deb",
+    "configs/ipo_replication_protocol_20261020.json": "514fcf3334997acb83432e3ddc8c98fb9bdd22e67363bbe3ebfc289839ebe2ae",
+    "configs/ipo_replication_recovery_pipeline.json": "e23f7263a7b43059faa5416110d2d168706fc668b1cf12a142194cc66961291d",
+    "configs/ipo_replication_recovery_protocol_20261020.json": "626db82dc0c664665567febd75abfb6668cc9a97555ba3cc8ada380d8b4379ff",
+    "configs/ipo_replication_recovery_sources.json": "83dca6eb48fc65f68f7d1416a4660c79ff96a6a6d33bfc6594edd8f0902f3b2e",
+    "configs/ipo_replication_sources.json": "e993bd03dbb1c8154b8e03803c6aa72f17e44470c8c29d15799080460bff1600",
+    "deliverables/ipo_replication_20261020/blocked.json": "f4ece834181cee02c79c392c0202fb558b8cb03ba81eb836dd394a6a159a8ec4",
+    "deliverables/ipo_replication_20261020/next_tasks.json": "612c343aaca45552aea58b5907ae0f179c3f5a5c304f76ba5c151ee04907f9b5",
+    "deliverables/ipo_replication_20261020/protocol_freeze.json": "cac6b7e9f507789dbd8e2b988617989b2db3e5135c903e92d2b7fd2b9d2e8e63",
+    "deliverables/ipo_replication_20261020/recovery_package.json": "212d43c0182b1c5f14a954a07e9b88b2ddd4310ed178a507953d62a693097d6c",
+    "deliverables/ipo_replication_20261020/recovery_receipt.json": "bdb3d525df2de62c1cdfde4590da6b8d3cb6bd49fc7525a78c0e95621724892c",
+    "deliverables/ipo_replication_20261020/replay_checks.json": "f047adf422dfae8385147a24ee96deb19feaa08cda0a3d1c6531af2364269c39",
+    "deliverables/ipo_replication_20261020/report.md": "0de310b249f12d2865a219fd9c8cca7eb1afaf2831d06dda9e8d29e73743432c",
+    "deliverables/ipo_replication_20261020/source_consistency.json": "16adc6862e39d67f6ba3e482da80ccc52c24ae1478b027574f5bcaf6ce6dbf38",
+    "deliverables/ipo_replication_20261020/source_receipt.json": "ab70861e3f7896d8e66192a7626371a492bd148fa9fa5a250a5c6919dbdca0bb",
+    "deliverables/ipo_replication_20261020/source_recovery_freeze.json": "0867d1115858b8d0dc3972f7de2d2e22bc413bb4d8b972565d3934a0ef0a3238",
+    "deliverables/ipo_replication_20261020/sources_package.json": "865f0e22b4378a76bd3f11563e4085d808a53b14664831699c954e853dca6b76",
+    "deliverables/ipo_replication_20261020/tests.json": "7483b557ac88c4b7641e78af6403a29fb3271b761ecfb0dc23ac0e231dfd9ad8"
+  },
+  "raw_source_archives": {
+    "sources": "7bd32acde2942b376f86bf69f4c00ec703e583c639f328384f65d5a1c3b7140a",
+    "recovery": "a46b64b466abdf2d0567d6f528e2d835e71b50f1b403d4fe77ed11c077efd98f"
+  },
+  "restore": "Restore both exact retrieved archives and prior frozen checkpoints. Preserve original inconsistent responses; no substitution or field stitching.",
+  "source_semantics_passed": false,
+  "market_calculation_performed": false,
+  "valid_prospective_signal_date": null
+}

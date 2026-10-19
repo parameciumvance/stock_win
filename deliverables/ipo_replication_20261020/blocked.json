@@ -1,0 +1,11 @@
+{
+  "status": "blocked_source_conflict_before_market_endpoints",
+  "source_consistency_passed": false,
+  "calculation_performed": false,
+  "backtest_passed": null,
+  "reason": "Original2025JSON/CSVdisagree and all3bounded recovery representations also disagree, including cohort price and allocation-rate fields",
+  "initial_cohort_rows": 24,
+  "market_endpoints_inspected": false,
+  "whole_eligible_cohort_sum_twd": null,
+  "valid_prospective_signal_date": null
+}

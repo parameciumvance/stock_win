@@ -1,0 +1,35 @@
+{
+  "stages": [
+    {
+      "id": "verify_archives_and_compare_all_representations",
+      "command": [
+        "{python}",
+        "ipo_source_consistency.py"
+      ],
+      "inputs": [
+        "ipo_source_consistency.py",
+        "ipo_screen.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "tender_preflight.py",
+        "configs/ipo_replication_sources.json",
+        "configs/ipo_replication_protocol_20261020.json",
+        "configs/ipo_replication_recovery_sources.json",
+        "configs/ipo_replication_recovery_protocol_20261020.json",
+        "deliverables/ipo_replication_20261020/source_recovery_freeze.json",
+        "deliverables/ipo_replication_20261020/sources_package.json",
+        "deliverables/ipo_replication_20261020/recovery_package.json",
+        "inputs/ipo_replication_20261020/sources.retrieved.zip",
+        "inputs/ipo_replication_20261020/recovery.retrieved.zip",
+        "inputs/ipo_replication_20261020/sources_transfer.json",
+        "inputs/ipo_replication_20261020/recovery_transfer.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_replication_20261020/source_consistency.json",
+        "deliverables/ipo_replication_20261020/source_receipt.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

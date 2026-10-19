@@ -1,0 +1,224 @@
+{
+  "recorded_at": "2026-10-19T17:41:41.474530+00:00",
+  "completed_preservation_and_audit_stages": 5,
+  "second_pass_all_completed_stage_hash_skips": true,
+  "checks": [
+    {
+      "plan": "configs/ipo_replication_acquisition_pipeline.json",
+      "state_sha256": "b832699688e489b93c3ba7b7f7ee96ae65521bed4c4a050343206ebe81ed96f9",
+      "second_pass_stdout": "verified skip: fixed_2025_sources\nverified skip: package_before_endpoints\n",
+      "stages": {
+        "fixed_2025_sources": {
+          "status": "complete",
+          "fingerprint": "fe4f2a7a5780662383c8c14a7436fcfb34ea93dc871745099c91cd33cddc735c",
+          "started_at": "2026-10-19T17:37:03.415738+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:37:03.415847+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_replication_20261020/acquisition_pipeline/logs/fixed_2025_sources.1792431423419034501.log",
+          "peak_observed_rss_bytes": 7974912,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5047587659792043,
+          "outputs": {
+            "inputs/ipo_replication_20261020/raw/results.json": "9b9306d5ab6894b924b57cc6f2c198549246904812908757f62062c150730836",
+            "inputs/ipo_replication_20261020/raw/2025.json": "40bc718553727fcd08b5b35c755e86688d6c48c4e441c8fb402b5714b7880462",
+            "inputs/ipo_replication_20261020/raw/2025.json.headers": "ec177a7294b00a35f3bbb4c05f42d37515f6c2f7f1dbd8d2ce6100a54ce82bfc",
+            "inputs/ipo_replication_20261020/raw/2025.json.meta.json": "da24da2814e52b71f52d3db05d4d5d969d04f10e258b1b049e3bfe59f5b55c8b",
+            "inputs/ipo_replication_20261020/raw/2025.csv": "378ef4a3d3dfd19080d76e83e53bd15588a71215ac12d841e66202a0802612a6",
+            "inputs/ipo_replication_20261020/raw/2025.csv.headers": "ea40cd9470c795b2acbedab0ef85ec1d4a8e7ec3070df9975cc2469d20f9cb8a",
+            "inputs/ipo_replication_20261020/raw/2025.csv.meta.json": "72a128717e40003a0f566f8035a45a2f736c6a88cb437bf142665ed04efb3409"
+          },
+          "finished_at": "2026-10-19T17:37:03.929287+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:37:03.929352+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_endpoints": {
+          "status": "complete",
+          "fingerprint": "e883433c19dd3a49443d7587fe53ee7b57568f2df2fc6772cc9699fe6d78cdb4",
+          "started_at": "2026-10-19T17:41:40.662335+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:41:40.662408+00:00",
+            "runtime_identity": "833fc8ab511426b37aba6ce4de1a36ec35d5f405f929221f243496167b13606b",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_replication_20261020/acquisition_pipeline/logs/package_before_endpoints.1792431700666106435.log",
+          "peak_observed_rss_bytes": 7987200,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5045260449987836,
+          "outputs": {
+            "deliverables/ipo_replication_20261020/sources_package.json": "865f0e22b4378a76bd3f11563e4085d808a53b14664831699c954e853dca6b76",
+            "inputs/ipo_replication_20261020/sources.zip": "7bd32acde2942b376f86bf69f4c00ec703e583c639f328384f65d5a1c3b7140a"
+          },
+          "finished_at": "2026-10-19T17:41:41.177737+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:41:41.177884+00:00",
+            "runtime_identity": "833fc8ab511426b37aba6ce4de1a36ec35d5f405f929221f243496167b13606b",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_replication_recovery_pipeline.json",
+      "state_sha256": "4f98d4f2636aeb93a64ee3cb3cffa6a43e7508f1dee78d5b0ec5a4b3cbe4fa3b",
+      "second_pass_stdout": "verified skip: one_bounded_source_recovery\nverified skip: preserve_recovery_sources\n",
+      "stages": {
+        "one_bounded_source_recovery": {
+          "status": "complete",
+          "fingerprint": "d1ed438aceba77d55e5e96cd2dcd6e719300f1084034ddc1b62074a64fa9e648",
+          "started_at": "2026-10-19T17:39:17.540273+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:39:17.540336+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_replication_20261020/recovery_pipeline/logs/one_bounded_source_recovery.1792431557542464153.log",
+          "peak_observed_rss_bytes": 24240128,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.0033340569934808,
+          "outputs": {
+            "inputs/ipo_replication_20261020/raw_recovery/results.json": "7e24a9ef2881cc24ab00df3f5ee72a4d4cb90c980fa3d6d9951eb7dfe75773a8",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json": "8cde15902a59bc997f227bf1d73b2250192f87ae9aab72a8d7a3be6b6d3d4c0b",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json.headers": "171e9d54cc1c34b63cd2cd5c41e00002aa25060bef5639321f37b10c381b1423",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_retry.json.meta.json": "7a29495dbb8a2ab9f6050ed907dba8a6f9a5c5270a119c6f59fdc4d7301efff9",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv": "b720ca9617587ae4414dce2c06e40baed6358ed798217a5c2f4b38211157c0c4",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv.headers": "756a58584db48809f3d0d26eb29eaefded5be4978aaa3221e156d732a0ea33d0",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_retry.csv.meta.json": "c50bc543c9341e10d43b15df997da61207143eace1b228f6638c1b118abdc501",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_control.html": "5b3d4ed02e45c6ad0450a5c15831dd3c7b88638e44307a141e94c1b9277e4c8a",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_control.html.headers": "c0ccc9cd558b62002ee294802597fd75d3e883b6c39a719cd5b656bf4aec38db",
+            "inputs/ipo_replication_20261020/raw_recovery/2025_control.html.meta.json": "8cb33177179ae6d6aa74d15cd87c71aeba0a2d5f9f7a25aa33c1cc85cb9ef630"
+          },
+          "finished_at": "2026-10-19T17:39:18.552802+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:39:18.552879+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "preserve_recovery_sources": {
+          "status": "complete",
+          "fingerprint": "1bafff13fd30930e280b046755f18e4d2e5a45c76c4b6d8711e236242cb35dc8",
+          "started_at": "2026-10-19T17:39:18.566421+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:39:18.566521+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_replication_20261020/recovery_pipeline/logs/preserve_recovery_sources.1792431558569493368.log",
+          "peak_observed_rss_bytes": 7667712,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5042554089450277,
+          "outputs": {
+            "deliverables/ipo_replication_20261020/recovery_package.json": "212d43c0182b1c5f14a954a07e9b88b2ddd4310ed178a507953d62a693097d6c",
+            "inputs/ipo_replication_20261020/recovery.zip": "a46b64b466abdf2d0567d6f528e2d835e71b50f1b403d4fe77ed11c077efd98f"
+          },
+          "finished_at": "2026-10-19T17:39:19.081483+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:39:19.081588+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_replication_consistency_pipeline.json",
+      "state_sha256": "f620ee1d3d5838c26cdf0aea436882b08cb38271543fbb513abd38a7b85feb3c",
+      "second_pass_stdout": "verified skip: verify_archives_and_compare_all_representations\n",
+      "stages": {
+        "verify_archives_and_compare_all_representations": {
+          "status": "complete",
+          "fingerprint": "b7b6f159fab4bab60d9a09b72b6fa03aa18b5c415939b840adf0071a45b05d6a",
+          "started_at": "2026-10-19T17:40:38.920876+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:40:38.921031+00:00",
+            "runtime_identity": "cf0857a7bd8f7c503b7e1d620048636899fc8bf66be3a6a0ee7166113f33d351",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_replication_20261020/consistency_pipeline/logs/verify_archives_and_compare_all_representations.1792431638924532024.log",
+          "peak_observed_rss_bytes": 80842752,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.0075827550026588,
+          "outputs": {
+            "deliverables/ipo_replication_20261020/source_consistency.json": "16adc6862e39d67f6ba3e482da80ccc52c24ae1478b027574f5bcaf6ce6dbf38",
+            "deliverables/ipo_replication_20261020/source_receipt.json": "ab70861e3f7896d8e66192a7626371a492bd148fa9fa5a250a5c6919dbdca0bb"
+          },
+          "finished_at": "2026-10-19T17:40:39.935670+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:40:39.935778+00:00",
+            "runtime_identity": "cf0857a7bd8f7c503b7e1d620048636899fc8bf66be3a6a0ee7166113f33d351",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ],
+  "blocked_calculation_pipeline": {
+    "status": "failed",
+    "current_stage": "verify_sources_and_cohort",
+    "stages": {
+      "verify_sources_and_cohort": {
+        "status": "failed",
+        "fingerprint": "4030ca030d4d3c2627be79d097dd448cb1d949f4035ccf99dc0385d89a5f901d",
+        "started_at": "2026-10-19T17:38:10.738582+00:00",
+        "runtime_before": {
+          "observed_at": "2026-10-19T17:38:10.738675+00:00",
+          "runtime_identity": "78fe8298bbe578f59112ec491c7d382823e91436554b8a87cfce8894f08997af",
+          "memory_events": null,
+          "memory_current_bytes": null,
+          "memory_limit_bytes": null
+        },
+        "attempt": 1,
+        "log": "inputs/ipo_replication_20261020/pipeline/logs/verify_sources_and_cohort.1792431490741193004.log",
+        "peak_observed_rss_bytes": 78020608,
+        "exit_code": 1,
+        "exit_signal": null,
+        "elapsed_seconds": 1.0032274369732477,
+        "error": "RuntimeError: Child failed; inspect inputs/ipo_replication_20261020/pipeline/logs/verify_sources_and_cohort.1792431490741193004.log",
+        "runtime_after": {
+          "observed_at": "2026-10-19T17:38:11.749322+00:00",
+          "runtime_identity": "78fe8298bbe578f59112ec491c7d382823e91436554b8a87cfce8894f08997af",
+          "memory_events": null,
+          "memory_current_bytes": null,
+          "memory_limit_bytes": null
+        }
+      }
+    }
+  },
+  "research_source_consistency_passed": false
+}

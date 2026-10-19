@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/ipo_replication_20261020/sources.zip",
+  "sha256": "7bd32acde2942b376f86bf69f4c00ec703e583c639f328384f65d5a1c3b7140a",
+  "manifest_files": 9,
+  "created_at": "2026-10-19T17:37:04.418703+00:00",
+  "retrieved": "inputs/ipo_replication_20261020/sources.retrieved.zip",
+  "transfer_receipt": "inputs/ipo_replication_20261020/sources_transfer.json",
+  "backup_label": "ipo_replication_20261020_sources"
+}

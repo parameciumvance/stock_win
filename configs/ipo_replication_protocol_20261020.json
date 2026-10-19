@@ -1,0 +1,41 @@
+{
+  "purpose": "One predeclared2025temporal replication of unchanged2024IPO screen, motivated by user continuing project rather than treating a stage as final",
+  "client_date": "2026-10-20",
+  "reopens": "Separate2025cohort; does not mutate or reopen the old fixed2024protocol or its positive gate",
+  "known_before_freeze": "2024results and account scenario inspected;2025IPO table and exact cohort endpoints not yet inspected in this replication. Existing2025market years have been reused in prior project research; no untouched holdout claim.",
+  "draw_year": 2025,
+  "market_category": "\u521d\u4e0a\u5e02",
+  "source_requests_sha256": "e993bd03dbb1c8154b8e03803c6aa72f17e44470c8c29d15799080460bff1600",
+  "request_bound": 2,
+  "prior_checkpoints": {
+    "deliverables/ipo_screen_20261019/checkpoint.json": "63d3e9f207399b97040bb5743add06683f2ca19baf1c3f784d0024172b1e01f6",
+    "deliverables/ipo_account_20261020/checkpoint.json": "54531b72d7702ad3f14ed68e175987b176cc1a44b35f9c2dc22271fc56629394",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517"
+  },
+  "frozen_functions_sha256": "04b9e226beb553edf0e41fdddef0d5ce5be39c40f8bc41a4f43eb2d009d117ee",
+  "single_application_budget_twd": "300000",
+  "application_fee_scenario": "20",
+  "winner_fee_scenario": "50",
+  "sale_drag_scenarios": [
+    "0",
+    "0.005"
+  ],
+  "eligibility": "One application for every fixed cohort event whose stated offer price times lot plus70 <=300000; no filters on winning odds, first quote or results; retain cancellation/unknown/inconsistent price as unresolved",
+  "allocation": "min(1,(actual_underwritten_shares/lot_size)/total_qualified_applications); require integral lots and positive qualified count. Rounded published probability checked within0.01percentagepoint, not substituted for exact ratio",
+  "outcome": "Exact RAW opening quote on officially stated first listing date; no later price, maximum or date shift; also retain raw close as descriptive not alternative strategy",
+  "calculation": "p*(lot*(raw_open*(1-sale_drag)-offer_price)-winner_fee)-application_fee. Failed draws still pay application fee in this scenario. No IRR/CAGR or portfolio return",
+  "uncertainty": "Report marginal-probability union-bound no-win lower bound and product(1-p) only as an explicitly independent-lottery illustration; conditional retrospective odds are never pretradefeatures",
+  "raw_price_archive": "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+  "raw_price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "raw_price_member": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+  "raw_price_member_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "source_and_quote_gate": "Retain all exact domestic\u521d\u4e0a\u5e02 rows whose draw date is2025. Reconcile full-year JSON andCSV. Individually affordable cases with unknown/cancelled/inconsistent terms or exact quotes remain gaps and block complete-cohort aggregate claims; no deletion or endpoint shifting.",
+  "replication_gate": "Same original narrow gate: complete affordable coverage and strictly positive sum and median per-application conditionalEV at both fixed cost scenarios. Report2024and2025separately, no pooled rescue, changed cost, selection, alternative market or date search.",
+  "funding": "Analytical minimum cumulative cash across all binary win masks, under unchanged reserve-before-same-day-credit, draw+1observedmarketday losers refund and listing+2observedmarketday assumed sale settlement; scenario only. If >300000 report failure without skipping cases.",
+  "calendar_path": "inputs/benchmark_cash_20261019/market.csv.gz",
+  "calendar_sha256": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+  "fees_status": "Unchanged20/50scenario; partial2024law/one-case evidence is not proof of every2025case or actual charges",
+  "execution": "research_pipeline serial stages;2workers and sharedsource lock; package andWindowsreadback SHA/CRC/manifest before endpoints",
+  "decision": "Crossyear replication may strengthen or weaken candidate only. No daily human validation, orders, model fitting, parameter search, automatic further years or future performance claim. If positive, next authorized preparation is low-work as-of source capture with version preservation, not additional score tuning.",
+  "valid_prospective_signal_date": null
+}

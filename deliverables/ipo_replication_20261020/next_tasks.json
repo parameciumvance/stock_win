@@ -1,0 +1,26 @@
+{
+  "status": "actual_source_consistency_blocker_not_a_completed_stage_stop",
+  "completed": [
+    "Recovered actual remote main and70prior checkpoint hashes",
+    "Predeclared unchanged2025replication before cohort endpoints",
+    "Saved5HTTP200responses including failed originalCSV/JSONcomparison",
+    "Two archivesWindowsbackedup/readback SHA/CRC/21manifestfiles verified",
+    "Complete difference ledger and50tests including semantic gate blocking stale matched inputs"
+  ],
+  "blocking_evidence": [
+    "InitialJSON_vs_CSV:13rows differ",
+    "RetryJSON_vs_CSV:25rows differ;includes7765rate0.25vs3.55",
+    "RetryJSON_vs_HTML:12rows differ;includes6936offer0.01vs28.01"
+  ],
+  "next_evidence_needed": "An independently verifiable primary version/export that can resolve representation conflicts, or a documented provider correction. Do not choose a convenient response, stitch fields or claim replicated returns.",
+  "not_pending_user_tasks": [
+    "No manual download requests",
+    "No credentials needed",
+    "No decision to loosen source gate requested"
+  ],
+  "user_action_required": null,
+  "parameter_changes": 0,
+  "orders_authorized": false,
+  "prospective_signals": 0,
+  "old2024_positive_screen_preserved": true
+}
