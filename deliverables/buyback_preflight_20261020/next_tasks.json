@@ -1,0 +1,28 @@
+{
+  "status": "bounded_source_pilots_complete_historical_gate_unqualified",
+  "completed": [
+    "Verified original main and 72 previous checkpoint entries",
+    "Automatically preserved 47-case/39-issuer annual snapshot and 122 reported-time index rows",
+    "Verified seven original identities/times and preserved a real correction pair",
+    "Passed 79 tests, independent source checks and 14 hash-verified stage skips"
+  ],
+  "decision": "Retain automatic acquisition/provenance tools. Keep all old stopped strategies stopped; do not backtest the candidate on unqualified historical availability or require daily human work.",
+  "candidate": "Initial buyback announcement information and potential future company demand; not a guaranteed purchase commitment",
+  "current_source_route_working": true,
+  "historical_source_gate_passed": false,
+  "evidence_needed_before_return_research": [
+    "Announcement-date population completeness including cross-year boundaries; API does not declare a total",
+    "Full original/correction/cancellation chronology with reliable historical first availability/version evidence",
+    "Separately frozen endpoint/cost/comparison and resource gate, preserving reuse/multiple-attempt disclosures"
+  ],
+  "scope_limits_not_transport_failures": [
+    "Only seven originals commissioned; other 115 current index messages not fetched, not described as denied",
+    "47 board-date cases and 122 announcement-date messages use different scopes; no missing-data conclusion solely from their counts"
+  ],
+  "no_automatic_source_expansion": true,
+  "user_action_required": null,
+  "external_credentials_required": null,
+  "orders_authorized": false,
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false
+}

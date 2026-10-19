@@ -1,0 +1,21 @@
+{
+  "output_directory": "inputs/buyback_preflight_20261020/raw_query",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "announcements_2024.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F01%2F01&EDATE=113%2F12%2F31&lang=TW&AN="
+    }
+  ],
+  "discovered_from": {
+    "archive_sha256": "c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7",
+    "route": "mop_search.js lines 1760,1785",
+    "market_mapping": "industry.json TW.TYPEK_TW and TYPEK_TW_VALUE",
+    "classification": "mop_search.js lines759-760,2191-2193 and initial legacy_search.html M35 label",
+    "date_format": "mop_search.js lines2645-2650,2702-2704,2203,2208"
+  }
+}

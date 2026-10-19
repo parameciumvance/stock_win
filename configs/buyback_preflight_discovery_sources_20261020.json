@@ -1,0 +1,34 @@
+{
+  "output_directory": "inputs/buyback_preflight_20261020/raw_discovery",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "calendarcode.js",
+      "url": "https://mopsov.twse.com.tw/mops/web/js/calendarcode.js"
+    },
+    {
+      "filename": "mop_search.js",
+      "url": "https://mopsov.twse.com.tw/mops/web/js/mop_search.js"
+    },
+    {
+      "filename": "industry.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/json/industry.json"
+    },
+    {
+      "filename": "annual_2024.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&TYPEK=sii&d1=1130101&d2=1131231&RD=1"
+    }
+  ],
+  "discovered_from": {
+    "initial_readback_sha256": "a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d",
+    "pages": [
+      "raw/legacy_statistics.html",
+      "raw/legacy_search.html"
+    ],
+    "industry_route": "Agent read-only discovery of mop_search.js; verify the literal against the archived JS before accepting results."
+  }
+}

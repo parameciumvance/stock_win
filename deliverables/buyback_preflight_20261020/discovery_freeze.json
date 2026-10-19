@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-10-19T19:06:08.116046+00:00",
+  "request_config_sha256": "83dcb3f941c0444f113de9dba8d66cff18ee8869e851511addcf17570e3a6ad3",
+  "protocol_sha256": "7f9ae079ef5f7cd0e5899f8c80ea0f3f5b28f07f886acd13551d3a992e5f895c",
+  "logical_batch": 2,
+  "phase": "1 of the single dependent followup batch",
+  "requests_in_phase": 4,
+  "reserved_remaining_requests": 1,
+  "total_acquisition_request_limit": 10,
+  "reason": "Resolve dynamic form values before the final query; split dependence phases does not increase source-request budget or alter any strategy parameter."
+}

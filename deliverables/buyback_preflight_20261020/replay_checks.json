@@ -1,0 +1,473 @@
+{
+  "recorded_at": "2026-10-19T19:19:53.142723+00:00",
+  "total_stages": 14,
+  "all_second_pass_hash_skips": true,
+  "plans": [
+    {
+      "plan": "configs/buyback_preflight_acquisition_pipeline.json",
+      "stage_count": 2,
+      "second_pass_all_hash_skips": true,
+      "stdout": "verified skip: acquire_bounded_official_interfaces\nverified skip: package_before_source_inspection\n",
+      "state_sha256": "e46b31c5fe535420d1405131994dc4a943444c95b54d628caa14cf61b0bbc8e7",
+      "stages": {
+        "acquire_bounded_official_interfaces": {
+          "status": "complete",
+          "fingerprint": "4715dc85195ac4213a5cd5524ae9dd4b89b5f767124101642d6bb486b78e64e0",
+          "started_at": "2026-10-19T19:19:45.372726+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:45.372859+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/acquisition_pipeline/logs/acquire_bounded_official_interfaces.1792437585375198069.log",
+          "peak_observed_rss_bytes": 7110656,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5032280430314131,
+          "outputs": {
+            "inputs/buyback_preflight_20261020/raw/results.json": "2c8b8250d52ab8cb0b0449781b6ad3a9ae9877ed48fbc90576da041226409258"
+          },
+          "finished_at": "2026-10-19T19:19:45.882999+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:45.883098+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_source_inspection": {
+          "status": "complete",
+          "fingerprint": "351d833de3cd52bf64c06ff5dfcda4aa4703e2812ff8df990a54c0c9c2f7b76d",
+          "started_at": "2026-10-19T19:19:45.891410+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:45.891507+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/acquisition_pipeline/logs/package_before_source_inspection.1792437585894102997.log",
+          "peak_observed_rss_bytes": 7122944,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.50384999695234,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/sources_package.json": "d45c4a69090212b3d8a258aad28bc3f71ba53a5d5f3a8fbce25b039dab46f590",
+            "inputs/buyback_preflight_20261020/sources.zip": "a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d"
+          },
+          "finished_at": "2026-10-19T19:19:46.406443+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:46.406534+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_preflight_discovery_pipeline.json",
+      "stage_count": 2,
+      "second_pass_all_hash_skips": true,
+      "stdout": "verified skip: acquire_bounded_followup_discovery\nverified skip: package_before_source_inspection\n",
+      "state_sha256": "532861f635fcedcac66cc07b6a31b261e2480cb20a38044ac19b97aedc3879f5",
+      "stages": {
+        "acquire_bounded_followup_discovery": {
+          "status": "complete",
+          "fingerprint": "b3ce05f6ea448dea4f01af39f5c06bbe2aaf78255283390fa62c9a66afa92762",
+          "started_at": "2026-10-19T19:19:46.470750+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:46.470824+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/discovery_pipeline/logs/acquire_bounded_followup_discovery.1792437586473907923.log",
+          "peak_observed_rss_bytes": 5001216,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5037476719589904,
+          "outputs": {
+            "inputs/buyback_preflight_20261020/raw_discovery/results.json": "fd696dcedbb6ed3aa594a9e9cc911294000c0f6b31af53756360ca316a7a2290"
+          },
+          "finished_at": "2026-10-19T19:19:46.983827+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:46.983933+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_source_inspection": {
+          "status": "complete",
+          "fingerprint": "9259fd502199f043142acdba0d25d754566ac56155686537c570d9fa12661f9b",
+          "started_at": "2026-10-19T19:19:46.988888+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:46.988939+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/discovery_pipeline/logs/package_before_source_inspection.1792437586991135783.log",
+          "peak_observed_rss_bytes": 7651328,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5038915419718251,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/discovery_package.json": "47ff42cea097e4735f8b6289f636701d31a7a27e215627d3c175eb36e4ea51f9",
+            "inputs/buyback_preflight_20261020/discovery.zip": "c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7"
+          },
+          "finished_at": "2026-10-19T19:19:47.501678+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:47.501753+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_preflight_query_pipeline.json",
+      "stage_count": 2,
+      "second_pass_all_hash_skips": true,
+      "stdout": "verified skip: acquire_bounded_followup_query\nverified skip: package_before_source_inspection\n",
+      "state_sha256": "e5793a499c86551e9466db303a73e42d6e302111d6a2e31b3d332baa9d40b240",
+      "stages": {
+        "acquire_bounded_followup_query": {
+          "status": "complete",
+          "fingerprint": "2664d67ef4b880c4818a9c014249b7d74add34386f7b383af53bff9ad919fe42",
+          "started_at": "2026-10-19T19:19:47.556896+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:47.556998+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/query_pipeline/logs/acquire_bounded_followup_query.1792437587559347289.log",
+          "peak_observed_rss_bytes": 6983680,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5033688329858705,
+          "outputs": {
+            "inputs/buyback_preflight_20261020/raw_query/results.json": "62eebc34e6c0c48971919303c43023d0d4c51c660b9015ed44e5e713989116e7"
+          },
+          "finished_at": "2026-10-19T19:19:48.069215+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:48.069290+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_source_inspection": {
+          "status": "complete",
+          "fingerprint": "857d8b9969e8ab052bf0c9a0d74b9928ed5d76e207776bd2b424298596bb0eab",
+          "started_at": "2026-10-19T19:19:48.074167+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:48.074228+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/query_pipeline/logs/package_before_source_inspection.1792437588076731448.log",
+          "peak_observed_rss_bytes": 8134656,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.504826788965147,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/query_package.json": "e539571686360e9c65b10d246a9265cb2681025b786e912a058649baf906d414",
+            "inputs/buyback_preflight_20261020/query.zip": "83aa2987b1dcf9de2551d089284900ee0e6d48b15ccf155a20b3256c2d607be1"
+          },
+          "finished_at": "2026-10-19T19:19:48.587969+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:48.588042+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_originals_acquisition_pipeline.json",
+      "stage_count": 2,
+      "second_pass_all_hash_skips": true,
+      "stdout": "verified skip: acquire_bounded_followup_originals\nverified skip: package_before_source_inspection\n",
+      "state_sha256": "e0245657633a81255b42e232bfa839e32aa0572ab1022e7bb43aa0ca71671ba8",
+      "stages": {
+        "acquire_bounded_followup_originals": {
+          "status": "complete",
+          "fingerprint": "85dfe71be67ca58df93b460d7217f708efc68a2c4ee3e65b35dcfb0e4d1f5372",
+          "started_at": "2026-10-19T19:19:48.640297+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:48.640354+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/originals_pipeline/logs/acquire_bounded_followup_originals.1792437588642686014.log",
+          "peak_observed_rss_bytes": 7389184,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5036230470286682,
+          "outputs": {
+            "inputs/buyback_preflight_20261020/raw_originals/results.json": "b249672a4eaef576815238b37d278e605ec56be3caee10c9cf1a557a99dbdbb7"
+          },
+          "finished_at": "2026-10-19T19:19:49.151495+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:49.151570+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_source_inspection": {
+          "status": "complete",
+          "fingerprint": "a21323e35152cb0c1d93b155b0558759ecedb67fa589866f25589eea7c177e4a",
+          "started_at": "2026-10-19T19:19:49.156941+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:49.157016+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/originals_pipeline/logs/package_before_source_inspection.1792437589160085428.log",
+          "peak_observed_rss_bytes": 5050368,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5039880080148578,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/originals_package.json": "00efd6eb2026a8874770c49bc25574f98be1147766107644b27fcbc8be652071",
+            "inputs/buyback_preflight_20261020/originals.zip": "787f43c6d873280d3f608d9c88d6b6da8d03781775a1344903a2ada770e7c742"
+          },
+          "finished_at": "2026-10-19T19:19:49.672489+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:49.672571+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_preflight_audit_pipeline.json",
+      "stage_count": 6,
+      "second_pass_all_hash_skips": true,
+      "stdout": "verified skip: inspect_sources_readback\nverified skip: inspect_discovery_readback\nverified skip: inspect_query_readback\nverified skip: inspect_originals_readback\nverified skip: reconcile_snapshot_and_original_controls\nverified skip: independent_current_source_audit\n",
+      "state_sha256": "1b75832947a9dd5db6db25bb2f616269510b0c2e726ac14d3dc89ea701e454b2",
+      "stages": {
+        "inspect_sources_readback": {
+          "status": "complete",
+          "fingerprint": "ce0aa94b033710d9b946671047c7666c57a25d18e29654ce4d4bd65f6b06a4db",
+          "started_at": "2026-10-19T19:19:49.729080+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:49.729161+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/audit_pipeline/logs/inspect_sources_readback.1792437589732142553.log",
+          "peak_observed_rss_bytes": 7995392,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5043637140188366,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/source_receipt.json": "c9bc495e4fe14d0cf71edc83400398425eed152b5c6d928a0818ea331996d6c1"
+          },
+          "finished_at": "2026-10-19T19:19:50.241688+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:50.241779+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "inspect_discovery_readback": {
+          "status": "complete",
+          "fingerprint": "c90d894f63ccbbb4cd465170ba8965a23f6e5a73b20c8d81a24841cc5fd38ec0",
+          "started_at": "2026-10-19T19:19:50.245957+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:50.246017+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/audit_pipeline/logs/inspect_discovery_readback.1792437590247914667.log",
+          "peak_observed_rss_bytes": 7077888,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5030325060361065,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/discovery_source_receipt.json": "b9eb6a1ebc67d1d28770011130ab97fce0795d3a0b1ecb40aa741643c39debdc"
+          },
+          "finished_at": "2026-10-19T19:19:50.756638+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:50.756714+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "inspect_query_readback": {
+          "status": "complete",
+          "fingerprint": "228d2a9e274d7f47d24baec0613fa5e0043178712bf0c757e26a63d36645b7fc",
+          "started_at": "2026-10-19T19:19:50.760927+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:50.760982+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/audit_pipeline/logs/inspect_query_readback.1792437590763868557.log",
+          "peak_observed_rss_bytes": 7372800,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5040372060029767,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/query_source_receipt.json": "81dbed5a306d972073653ad44248dc7aa3543643ecc5bf409c824de1abbd0f15"
+          },
+          "finished_at": "2026-10-19T19:19:51.275888+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:51.276036+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "inspect_originals_readback": {
+          "status": "complete",
+          "fingerprint": "e855ff53f506bc1cdb234ab6fa43f13b8beed8b11f180cdefe8422551c34f2e1",
+          "started_at": "2026-10-19T19:19:51.280808+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:51.280862+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/audit_pipeline/logs/inspect_originals_readback.1792437591283248435.log",
+          "peak_observed_rss_bytes": 7364608,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5034436120186001,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/originals_source_receipt.json": "e17c610e2c9daf53a7279b1f41e1a501d684b296cae617a22f6d70258b4f420e"
+          },
+          "finished_at": "2026-10-19T19:19:51.793125+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:51.793223+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "reconcile_snapshot_and_original_controls": {
+          "status": "complete",
+          "fingerprint": "90e1037e231a06042a3946e65cb65a7b0a23088a7649b227c66c6f593354943c",
+          "started_at": "2026-10-19T19:19:51.799679+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:51.799779+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/audit_pipeline/logs/reconcile_snapshot_and_original_controls.1792437591802727646.log",
+          "peak_observed_rss_bytes": 10272768,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5077530950075015,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/annual_snapshot.json": "39913bf78e659224e83ff6b92d5d5183627ab683d48feb6a3550921f51f59918",
+            "deliverables/buyback_preflight_20261020/announcement_index.json": "73f5b49dd6db6dfe5c2162f3a925413efe0ee73d3316465c73c851588d39a875",
+            "deliverables/buyback_preflight_20261020/originals_audit.json": "15697c3a7d0cf83c6234eb8f15afabedc23c86fe3356b3ae28e7ca8a3ad76d10",
+            "deliverables/buyback_preflight_20261020/decision.json": "6a96a3fbdb2b7525483de098c4f29c020da9f08e249b9aa94c2c005b1714bd19"
+          },
+          "finished_at": "2026-10-19T19:19:52.316653+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:52.316724+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "independent_current_source_audit": {
+          "status": "complete",
+          "fingerprint": "5504a78db0cbdbf6233a13a1e8a5203581132becee35bc1b54c98c6c0773de32",
+          "started_at": "2026-10-19T19:19:52.322110+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T19:19:52.322178+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_preflight_20261020/audit_pipeline/logs/independent_current_source_audit.1792437592324968377.log",
+          "peak_observed_rss_bytes": 7778304,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5044171720510349,
+          "outputs": {
+            "deliverables/buyback_preflight_20261020/independent_audit.json": "71fe32ef649e1e97a178be3256f8a37799fbfaaf5ba7d19a819eafa45cd6339d"
+          },
+          "finished_at": "2026-10-19T19:19:52.833491+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T19:19:52.833606+00:00",
+            "runtime_identity": "4ad6e7feda6536aba95b373ce9faaf9af7ac96ba554830113c11fe90d5488704",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ],
+  "resolved_failures": [
+    {
+      "stage": "independent_current_source_audit",
+      "actual_error": "Independent annual table parser disagrees",
+      "confirmed_cause": "lxml decoded a reply without a charset as a different encoding; explicit UTF-8 preserves the Chinese issuer name and gives exact 47-row equality",
+      "fix": "Explicit UTF-8 parser and regression test; final independent audit passed"
+    }
+  ]
+}

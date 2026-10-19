@@ -1,0 +1,476 @@
+{
+  "archive_sha256": "c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7",
+  "manifest_files": 15,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_preflight_20261020_discovery_c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7.zip",
+    "retrieved_path": "inputs/buyback_preflight_20261020/discovery.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T19:06:29.672Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "filename": "calendarcode.js",
+      "request": {
+        "filename": "calendarcode.js",
+        "url": "https://mopsov.twse.com.tw/mops/web/js/calendarcode.js"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/js/calendarcode.js",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 5600,
+      "sha256": "7e09d8e40edefd67ef72ef8400205d8d0a2448698f30d9d8ef13152e4fabd0b1",
+      "request_started_at": "2026-10-19T19:06:11.474969+00:00",
+      "observed_at": "2026-10-19T19:06:11.945498+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   5600 100   5600   0      0  12786      0                              0\r100   5600 100   5600   0      0  12783      0                              0\r100   5600 100   5600   0      0  12782      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "unrecognized",
+        "status": "unrecognized",
+        "expected_kind": "javascript",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/js/calendarcode.js",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "7e09d8e40edefd67ef72ef8400205d8d0a2448698f30d9d8ef13152e4fabd0b1",
+        "size_bytes": 5600,
+        "forms": [],
+        "script_sources": [],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "content_interpretation": "standalone_javascript_not_interpreted"
+      }
+    },
+    {
+      "filename": "mop_search.js",
+      "request": {
+        "filename": "mop_search.js",
+        "url": "https://mopsov.twse.com.tw/mops/web/js/mop_search.js"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/js/mop_search.js",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 119215,
+      "sha256": "ac66d87925d1c813c24850981d831bc219793a0de63420b6d6babbccae3aee5b",
+      "request_started_at": "2026-10-19T19:06:11.475613+00:00",
+      "observed_at": "2026-10-19T19:06:12.206659+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100 116.4k 100 116.4k   0      0 164.5k      0                              0\r100 116.4k 100 116.4k   0      0 164.5k      0                              0\r100 116.4k 100 116.4k   0      0 164.5k      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "unrecognized",
+        "status": "unrecognized",
+        "expected_kind": "javascript",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/js/mop_search.js",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "ac66d87925d1c813c24850981d831bc219793a0de63420b6d6babbccae3aee5b",
+        "size_bytes": 119215,
+        "forms": [],
+        "script_sources": [],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "content_interpretation": "standalone_javascript_not_interpreted"
+      }
+    },
+    {
+      "filename": "industry.json",
+      "request": {
+        "filename": "industry.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/json/industry.json"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/json/industry.json",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 7023,
+      "sha256": "144e5427d58a0f8980858fadc3425eb6a9630e8c73604139aa4b758c4a8b4331",
+      "request_started_at": "2026-10-19T19:06:11.948362+00:00",
+      "observed_at": "2026-10-19T19:06:12.114767+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   7023 100   7023   0      0  44787      0                              0\r100   7023 100   7023   0      0  44766      0                              0\r100   7023 100   7023   0      0  44756      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "json",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/json/industry.json",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "144e5427d58a0f8980858fadc3425eb6a9630e8c73604139aa4b758c4a8b4331",
+        "size_bytes": 7023,
+        "forms": [],
+        "script_sources": [],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/json/industry.json",
+        "titles": [],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "json_syntax_only"
+      }
+    },
+    {
+      "filename": "annual_2024.html",
+      "request": {
+        "filename": "annual_2024.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&TYPEK=sii&d1=1130101&d2=1131231&RD=1"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 59442,
+      "sha256": "d0313607325499473761ecd355af2bc747a80e70584387093d2115c8a2a02228",
+      "request_started_at": "2026-10-19T19:06:12.121000+00:00",
+      "observed_at": "2026-10-19T19:06:12.761561+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  59501   0  59442 100     59  94154     93                              0\r100  59501   0  59442 100     59  94146     93                              0\r100  59501   0  59442 100     59  94141     93                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "d0313607325499473761ecd355af2bc747a80e70584387093d2115c8a2a02228",
+        "size_bytes": 59442,
+        "forms": [
+          {
+            "action_raw": "/server-java/t56ques",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form action='/server-java/t56ques' method='post'>",
+            "hidden_inputs": [
+              {
+                "name": "step",
+                "value": "0",
+                "raw_start_tag": "<input type='hidden' name='step' value='0'>"
+              },
+              {
+                "name": "Market",
+                "value": "sii",
+                "raw_start_tag": "<input type='hidden' name='Market' value='sii'>"
+              },
+              {
+                "name": "SysName",
+                "value": "\u516c\u53f8\u5f59\u7e3d\u5831\u8868",
+                "raw_start_tag": "<input type='hidden' name='SysName' value='\u516c\u53f8\u5f59\u7e3d\u5831\u8868'>"
+              },
+              {
+                "name": "reportName",
+                "value": "\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u5f59\u7e3d\u7d71\u8a08\u8868",
+                "raw_start_tag": "<input type='hidden' name='reportName' value='\u8cb7\u56de\u81ea\u5df1\u516c\u53f8\u80a1\u4efd\u5f59\u7e3d\u7d71\u8a08\u8868'>"
+              },
+              {
+                "name": "colorchg",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='colorchg' value=''>"
+              },
+              {
+                "name": "progName",
+                "value": "t35sc09",
+                "raw_start_tag": "<input type='hidden' name='progName' value='t35sc09'>"
+              },
+              {
+                "name": "QNum",
+                "value": "3",
+                "raw_start_tag": "<input type='hidden' name='QNum' value='3'>"
+              },
+              {
+                "name": "Q1N",
+                "value": "\u8463\u4e8b\u6703\u6c7a\u8b70\u8d77\u65e5",
+                "raw_start_tag": "<input type='hidden' name='Q1N' value='\u8463\u4e8b\u6703\u6c7a\u8b70\u8d77\u65e5'>"
+              },
+              {
+                "name": "Q1V",
+                "value": "113/01/01",
+                "raw_start_tag": "<input type='hidden' name='Q1V' value='113/01/01'>"
+              },
+              {
+                "name": "Q2N",
+                "value": "\u8463\u4e8b\u6703\u6c7a\u8b70\u8fc4\u65e5",
+                "raw_start_tag": "<input type='hidden' name='Q2N' value='\u8463\u4e8b\u6703\u6c7a\u8b70\u8fc4\u65e5'>"
+              },
+              {
+                "name": "Q2V",
+                "value": "113/12/31",
+                "raw_start_tag": "<input type='hidden' name='Q2V' value='113/12/31'>"
+              },
+              {
+                "name": "Q3N",
+                "value": "\u6392\u5e8f\u5225",
+                "raw_start_tag": "<input type='hidden' name='Q3N' value='\u6392\u5e8f\u5225'>"
+              },
+              {
+                "name": "Q3V",
+                "value": "\u4ee5\u8463\u4e8b\u6c7a\u8b70\u65e5\u671f\u6392\u5e8f",
+                "raw_start_tag": "<input type='hidden' name='Q3V' value='\u4ee5\u8463\u4e8b\u6c7a\u8b70\u65e5\u671f\u6392\u5e8f'>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+            "action": {
+              "raw": "/server-java/t56ques",
+              "resolved_url": "https://mopsov.twse.com.tw/server-java/t56ques",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "/mops/web/ajax_t35sc09",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form action='/mops/web/ajax_t35sc09' method='post' onsubmit='return false;' name='fm'>",
+            "hidden_inputs": [
+              {
+                "name": "firstin",
+                "value": "true",
+                "raw_start_tag": "<input type='hidden' name='firstin' value='true'>"
+              },
+              {
+                "name": "step",
+                "value": "10",
+                "raw_start_tag": "<input type='hidden' name='step' value='10'>"
+              },
+              {
+                "name": "filename",
+                "value": "t35sc09_20261020_030611970.csv",
+                "raw_start_tag": "<input type='hidden' name='filename' value='t35sc09_20261020_030611970.csv'>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\r\n\r\n\r\n\r\n\r\n",
+            "action": {
+              "raw": "/mops/web/ajax_t35sc09",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "/mops/web/ajax_t35sb01",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form name='fm_t35sc09' action='/mops/web/ajax_t35sb01' method='post' onsubmit='return false;'>",
+            "hidden_inputs": [
+              {
+                "name": "colorchg",
+                "value": "1",
+                "raw_start_tag": "<input type='hidden' name='colorchg' value='1'>"
+              },
+              {
+                "name": "step",
+                "value": "2",
+                "raw_start_tag": "<input type='hidden' name='step' value='2'>"
+              },
+              {
+                "name": "TYPEK",
+                "value": "sii",
+                "raw_start_tag": "<input type='hidden' name='TYPEK' value='sii'>"
+              },
+              {
+                "name": "co_id",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='co_id'>"
+              },
+              {
+                "name": "firstin",
+                "value": "true",
+                "raw_start_tag": "<input type='hidden' name='firstin' value='true' />"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u65e5\u671f\uff1a113/01/01~113/12/31\u51fa\u8868\u65e5\uff1a115/10/20\r\n\r\n\u5e8f\u865f\u516c\u53f8\u4ee3\u865f\u516c\u53f8\u540d\u7a31\u8463\u4e8b\u6703\u6c7a\u8b70\u65e5\u671f\u8cb7\u56de\u76ee\u7684\u8cb7\u56de\u80a1\u4efd\u7e3d\u91d1\u984d\u4e0a\u9650(\u4f9d\u6700\u65b0\u8ca1\u5831\u8a08\u7b97\u4e4b\u6cd5\u5b9a\u4e0a\u9650)\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u8cb7\u56de\u50f9\u683c\u5340\u9593\u9810\u5b9a\u8cb7\u56de\u671f\u9593\u662f\u5426\u57f7\u884c\u5b8c\u7562\u8cb7\u56de\u9054\u4e00\u5b9a\u6a19\u6e96\u8cc7\u6599\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u57f7\u884c\u5b8c\u7562\u5df2\u8a3b\u92b7\u6216\u8f49\u8b93\u80a1\u6578\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578\u4f54\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5df2\u8cb7\u56de\u7e3d\u91d1\u984d(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5e73\u5747\u6bcf\u80a1\u8cb7\u56de\u50f9\u683c(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u8cb7\u56de\u80a1\u6578\u4f54\u516c\u53f8\u5df2\u767c\u884c\u80a1\u4efd\u7e3d\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u672a\u57f7\u884c\u5b8c\u7562\u4e4b\u539f\u56e0\u6700\u4f4e\u6700\u9ad8\u8d77\u8fc4\r\n\r\n1\r\n1587\r\n\u5409\u8302113/01/27\r\n1\r\n        685,176,553\r\n            500,000\r\n         15.93\r\n         34.12\r\n113/01/29\r\n113/03/28\r\nY\r\n\r\n\r\n\r\n            250,000\r\n            250,000\r\n         50.00\r\n          6,179,338\r\n         24.72\r\n          0.36\r\n\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u5206\u6279\u8cb7\u56de\uff0c\u70ba\u8003\u91cf\u54e1\u5de5\u8a8d\u8cfc\u610f\u9858\u53ca\u8cc7\u91d1\u904b\u7528\u6548\u76ca\uff0c\u517c\u9867\u5e02\u5834\u6a5f\u5236\u4e0d\u5f71\u97ff\u80a1\u50f9\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n2\r\n6472\r\n\u4fdd\u745e113/03/07\r\n3\r\n      6,832,168,845\r\n          1,000,000\r\n        600.00\r\n        808.00\r\n113/03/08\r\n113/05/07\r\nY\r\n\r\n\r\n\r\n            519,000\r\n            519,000\r\n         51.90\r\n        389,681,413\r\n        750.83\r\n          0.51\r\n\u70ba\u7dad\u8b77\u80a1\u6771\u6b0a\u76ca\u4e26\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u53ca\u6210\u4ea4\u91cf\u72c0\u6cc1\u57f7\u884c\u5206\u6279\u8cb7\u56de\uff0c\u6545\u672a\u80fd\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n3\r\n8011\r\n\u53f0\u901a113/03/08\r\n3\r\n      1,132,704,211\r\n          5,000,000\r\n         26.00\r\n         35.00\r\n113/03/11\r\n113/05/10\r\nY\r\n\r\n\r\n\r\n          5,000,000\r\n          5,000,000\r\n        100.00\r\n        126,907,230\r\n         25.38\r\n          2.93\r\n\r\n\r\n\r\n4\r\n3055\r\n\u851a\u83ef\u79d1113/03/11\r\n1\r\n      1,314,338,000\r\n          2,000,000\r\n         66.00\r\n         97.00\r\n113/03/12\r\n113/05/11\r\nY\r\n\r\n\r\n\r\n          1,281,000\r\n            858,000\r\n         64.05\r\n         91,294,008\r\n         71.27\r\n          1.11\r\n\u8996\u8cc7\u672c\u5e02\u5834\u6574\u9ad4\u884c\u60c5\u53ca\u74b0\u5883\uff0c\u4e26\u517c\u9867\u5e02\u5834\u4ea4\u6613\u6a5f\u5236\u53ca\u7dad\u8b77\u6574\u9ad4\u80a1\u6771\u6b0a\u76ca\uff0c\u6545\u672a\u80fd\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n5\r\n6464\r\n\u53f0\u6578\u79d1113/03/12\r\n3\r\n      5,193,620,437\r\n          2,000,000\r\n         85.00\r\n        100.00\r\n113/03/13\r\n113/05/10\r\nY\r\n\r\n\r\n\r\n          2,000,000\r\n          2,000,000\r\n        100.00\r\n        173,371,032\r\n         86.69\r\n          1.57\r\n\r\n\r\n\r\n6\r\n1210\r\n\u5927\u6210113/03/14\r\n1\r\n     11,779,724,865\r\n          9,000,000\r\n         50.00\r\n         80.00\r\n113/03/15\r\n113/05/14\r\nY\r\n\r\n\r\n\r\n          9,000,000\r\n&nbsp;\r\n        100.00\r\n        516,115,038\r\n         57.35\r\n          1.01\r\n\r\n\r\n\r\n7\r\n2762\r\n\u4e16\u754c\u5065\u8eab-KY113/03/18\r\n1\r\n      1,015,411,713\r\n          1,500,000\r\n         90.00\r\n        159.00\r\n113/03/19\r\n113/05/18\r\nY\r\n\r\n\r\n\r\n          1,500,000\r\n&nbsp;\r\n        100.00\r\n        174,981,915\r\n        116.65\r\n          1.33\r\n\r\n\r\n\r\n8\r\n5469\r\n\u701a\u5b87\u535a113/03/27\r\n1\r\n     20,037,930,000\r\n          3,000,000\r\n         57.00\r\n         70.00\r\n113/03/28\r\n113/05/27\r\nY\r\n\r\n\r\n\r\n          3,000,000\r\n          3,000,000\r\n        100.00\r\n        184,434,463\r\n         61.48\r\n          0.57\r\n\r\n\r\n\r\n9\r\n8110\r\n\u83ef\u6771113/03/27\r\n1\r\n      3,960,612,024\r\n         10,000,000\r\n         15.50\r\n         19.50\r\n113/03/28\r\n113/05/27\r\nY\r\n\r\n\r\n\r\n         10,000,000\r\n          7,000,000\r\n        100.00\r\n        182,197,931\r\n         18.22\r\n          1.93\r\n\r\n\r\n\r\n10\r\n3714\r\n\u5bcc\u91c7113/04/10\r\n3\r\n     38,731,564,381\r\n         15,000,000\r\n         28.00\r\n         60.00\r\n113/04/11\r\n113/06/10\r\nY\r\n\r\n\r\n\r\n         15,000,000\r\n&nbsp;\r\n        100.00\r\n        650,649,886\r\n         43.38\r\n          1.99\r\n\r\n\r\n\r\n11\r\n2436\r\n\u5049\u8a6e\u96fb113/04/16\r\n1\r\n      1,178,989,540\r\n          1,000,000\r\n         62.00\r\n         75.00\r\n113/04/17\r\n113/06/16\r\nY\r\n\r\n\r\n\r\n          1,000,000\r\n&nbsp;\r\n        100.00\r\n         60,682,106\r\n         60.68\r\n          0.56\r\n\r\n\r\n\r\n12\r\n3049\r\n\u7cbe\u91d1113/04/30\r\n1\r\n        580,189,076\r\n          6,000,000\r\n          6.00\r\n         12.00\r\n113/05/02\r\n113/06/30\r\nY\r\n\r\n\r\n\r\n          3,000,000\r\n&nbsp;\r\n         50.00\r\n         25,613,854\r\n          8.54\r\n          0.37\r\n\u8a55\u4f30\u5e02\u5834\u8da8\u65bc\u7a69\u5b9a\uff0c\u5df2\u9054\u9810\u5b9a\u6548\u76ca\uff0c\u6545\u4e0d\u7e7c\u7e8c\u8cb7\u56de\u3002\r\n\r\n\r\n13\r\n3062\r\n\u5efa\u6f22113/05/10\r\n1\r\n      1,400,108,217\r\n          5,000,000\r\n         15.50\r\n         33.60\r\n113/05/13\r\n113/07/12\r\nY\r\n\r\n\r\n\r\n          2,650,000\r\n          2,620,000\r\n         53.00\r\n         78,605,176\r\n         29.66\r\n          0.80\r\n\u70ba\u7dad\u8b77\u6574\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u96d6\u672a\u5168\u6578\u57f7\u884c\u5b8c\u7562\uff0c\u4f46\u57f7\u884c\u7387\u5df2\u905453%\u3002\r\n\r\n\r\n14\r\n2330\r\n\u53f0\u7a4d\u96fb113/06/05\r\n3\r\n  3,255,760,503,588\r\n          3,249,000\r\n        598.00\r\n      1,281.00\r\n113/06/06\r\n113/08/05\r\nY\r\n\r\n\r\n\r\n          3,249,000\r\n          3,249,000\r\n        100.00\r\n      3,089,176,471\r\n        950.81\r\n          0.01\r\n\r\n\r\n\r\n15\r\n6655\r\n\u79d1\u5b9a113/07/04\r\n1\r\n      1,321,394,051\r\n          1,200,000\r\n         86.00\r\n        187.00\r\n113/07/05\r\n113/09/04\r\nY\r\n\r\n\r\n\r\n            955,000\r\n&nbsp;\r\n         79.58\r\n        132,153,583\r\n        138.38\r\n          1.16\r\n\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u5206\u6279\u8cb7\u56de\uff0c\u70ba\u8003\u91cf\u54e1\u5de5\u8a8d\u8cfc\u610f\u9858\u53ca\u8cc7\u91d1\u904b\u7528\u6548\u76ca\uff0c\u517c\u9867\u5e02\u5834\u6a5f\u5236\u4e0d\u5f71\u97ff\u80a1\u50f9\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\u5e8f\u865f\u516c\u53f8\u4ee3\u865f\u516c\u53f8\u540d\u7a31\u8463\u4e8b\u6703\u6c7a\u8b70\u65e5\u671f\u8cb7\u56de\u76ee\u7684\u8cb7\u56de\u80a1\u4efd\u7e3d\u91d1\u984d\u4e0a\u9650(\u4f9d\u6700\u65b0\u8ca1\u5831\u8a08\u7b97\u4e4b\u6cd5\u5b9a\u4e0a\u9650)\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u8cb7\u56de\u50f9\u683c\u5340\u9593\u9810\u5b9a\u8cb7\u56de\u671f\u9593\u662f\u5426\u57f7\u884c\u5b8c\u7562\u8cb7\u56de\u9054\u4e00\u5b9a\u6a19\u6e96\u8cc7\u6599\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u57f7\u884c\u5b8c\u7562\u5df2\u8a3b\u92b7\u6216\u8f49\u8b93\u80a1\u6578\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578\u4f54\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5df2\u8cb7\u56de\u7e3d\u91d1\u984d(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5e73\u5747\u6bcf\u80a1\u8cb7\u56de\u50f9\u683c(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u8cb7\u56de\u80a1\u6578\u4f54\u516c\u53f8\u5df2\u767c\u884c\u80a1\u4efd\u7e3d\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u672a\u57f7\u884c\u5b8c\u7562\u4e4b\u539f\u56e0\u6700\u4f4e\u6700\u9ad8\u8d77\u8fc4\r\n\r\n16\r\n2436\r\n\u5049\u8a6e\u96fb113/08/07\r\n1\r\n      1,280,731,492\r\n          1,200,000\r\n         45.00\r\n         65.00\r\n113/08/08\r\n113/10/07\r\nY\r\n\r\n\r\n\r\n          1,200,000\r\n            307,360\r\n        100.00\r\n         66,985,745\r\n         55.82\r\n          0.67\r\n\r\n\r\n\r\n17\r\n3708\r\n\u4e0a\u7def\u6295\u63a7113/08/08\r\n3\r\n      5,432,366,740\r\n          1,500,000\r\n         73.00\r\n        193.00\r\n113/08/09\r\n113/10/08\r\nY\r\n\r\n\r\n\r\n            847,000\r\n            847,000\r\n         56.47\r\n         94,226,879\r\n        111.25\r\n          0.80\r\n\u70ba\u7dad\u8b77\u5168\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u4ea4\u6613\u6a5f\u5236\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u53ca\u6210\u4ea4\u91cf\u72c0\u6cc1\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n18\r\n3058\r\n\u7acb\u5fb7113/08/09\r\n1\r\n         91,303,675\r\n          2,000,000\r\n         12.00\r\n         27.00\r\n113/08/12\r\n113/10/11\r\nY\r\n\r\n\r\n\r\n          1,348,000\r\n&nbsp;\r\n         67.40\r\n         25,376,330\r\n         18.83\r\n          0.67\r\n\u70ba\u517c\u9867\u5354\u8abf\u5e02\u5834\u6a5f\u5236\uff0c\u540c\u6642\u7dad\u8b77\u80a1\u6771\u6b0a\u76ca\uff0c\u6545\u672c\u6b21\u8cb7\u56de\u672c\u516c\u53f8\u80a1\u7968\u672a\u57f7&#64008;\u5b8c\u7562\u3002\r\n\r\n\r\n19\r\n3062\r\n\u5efa\u6f22113/08/09\r\n1\r\n      1,423,015,626\r\n          3,000,000\r\n         17.80\r\n         33.00\r\n113/08/12\r\n113/10/11\r\nY\r\n\r\n\r\n\r\n          1,785,000\r\n          1,588,000\r\n         59.50\r\n         56,911,660\r\n         31.88\r\n          0.54\r\n\u70ba\u7dad\u8b77\u6574\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u96d6\u672a\u5168\u6578\u57f7\u884c\u5b8c\u7562\uff0c\u4f46\u57f7\u884c\u7387\u5df2\u905459.5%\u3002\r\n\r\n\r\n20\r\n1806\r\n\u51a0\u8ecd113/08/13\r\n1\r\n      1,067,521,621\r\n          8,000,000\r\n          9.00\r\n         14.00\r\n113/08/14\r\n113/10/11\r\nY\r\n\r\n\r\n\r\n          3,887,000\r\n&nbsp;\r\n         48.59\r\n         46,592,483\r\n         11.99\r\n          1.00\r\n\r\n\r\n\r\n21\r\n1626\r\n\u827e\u7f8e\u7279-KY113/08/14\r\n3\r\n      1,493,919,962\r\n          3,000,000\r\n         13.00\r\n         22.00\r\n113/08/15\r\n113/10/14\r\nY\r\n\r\n\r\n\r\n          3,000,000\r\n          3,000,000\r\n        100.00\r\n         49,025,838\r\n         16.34\r\n          1.96\r\n\r\n\r\n\r\n22\r\n2030\r\n\u5f70\u6e90113/08/14\r\n1\r\n      1,958,525,713\r\n          2,000,000\r\n         14.00\r\n         20.00\r\n113/08/14\r\n113/10/13\r\nY\r\n\r\n\r\n\r\n          1,760,000\r\n          1,760,000\r\n         88.00\r\n         31,015,791\r\n         17.62\r\n          0.63\r\n\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u5206\u6279\u8cb7\u56de\uff0c\u70ba\u8003\u91cf\u54e1\u5de5\u8a8d\u8cfc\u610f\u9858\u53ca\u8cc7\u91d1\u904b\u7528\u6548\u76ca\uff0c\u517c\u9867\u5e02\u5834\u6a5f\u5236\u4e0d\u5f71\u97ff\u80a1\u50f9\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n23\r\n2850\r\n\u65b0\u7522113/08/14\r\n1\r\n      4,821,593,802\r\n          3,000,000\r\n         65.31\r\n         90.61\r\n113/08/15\r\n113/10/14\r\nY\r\n\r\n\r\n\r\n                  0\r\n&nbsp;\r\n          0.00\r\n                  0\r\n          0.00\r\n          0.00\r\n\u56e0\u5e02\u5834\u50f9\u683c\u9ad8\u65bc\u539f\u9810\u5b9a\u8cb7\u56de\u5340\u9593\u50f9\u683c\r\n\r\n\r\n24\r\n1338\r\n\u5ee3\u83ef-KY113/08/15\r\n3\r\n      5,198,337,447\r\n          2,000,000\r\n         21.00\r\n         45.00\r\n113/08/16\r\n113/10/15\r\nY\r\n\r\n\r\n\r\n          1,500,000\r\n&nbsp;\r\n         75.00\r\n         49,521,007\r\n         33.01\r\n          1.79\r\n\u70ba\u7dad\u8b77\u5168\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u4ea4\u6613\u6a5f\u5236\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u53ca\u6210\u4ea4\u91cf\u72c0\u6cc1\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\r\n\r\n\r\n25\r\n2762\r\n\u4e16\u754c\u5065\u8eab-KY113/08/27\r\n1\r\n      2,433,671,111\r\n          2,000,000\r\n         75.00\r\n        100.00\r\n113/08/28\r\n113/10/27\r\nY\r\n\r\n\r\n\r\n          1,018,000\r\n&nbsp;\r\n         50.90\r\n         94,272,907\r\n         92.61\r\n          0.90\r\n\u70ba\u7dad\u8b77\u80a1\u6771\u6b0a\u76ca\uff0c\u4e26\u8003\u91cf\u8cb7\u56de\u671f\u9593\u80a1\u50f9\u5448\u7a69\u5b9a\u8da8\u52e2\uff0c\u63a1\u53d6\u4f4e\u63a5\u4e0d\u8ffd\u9ad8\u539f\u5247\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u63a1\u5206\u6279\u8cb7\u56de\uff0c\u6545\u672c\u6b21\u5eab\u85cf\u80a1\u672a\u80fd\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n26\r\n2352\r\n\u4f73\u4e16\u9054113/08/30\r\n3\r\n     13,964,236,732\r\n         39,335,000\r\n         35.00\r\n         45.00\r\n113/08/30\r\n113/10/29\r\nY\r\n\r\n\r\n\r\n         39,335,000\r\n         39,335,000\r\n        100.00\r\n      1,470,293,496\r\n         37.38\r\n          2.00\r\n\r\n\r\n\r\n27\r\n4190\r\n\u4f50\u767b-KY113/10/08\r\n1\r\n      1,166,702,143\r\n          2,000,000\r\n         35.00\r\n         72.00\r\n113/10/09\r\n113/12/08\r\nY\r\n\r\n\r\n\r\n          2,000,000\r\n&nbsp;\r\n        100.00\r\n        108,436,326\r\n         54.22\r\n          3.23\r\n\r\n\r\n\r\n28\r\n3051\r\n\u529b\u7279113/10/17\r\n3\r\n        775,011,408\r\n          1,000,000\r\n         21.46\r\n         45.23\r\n113/10/18\r\n113/11/17\r\nY\r\n\r\n\r\n\r\n          1,000,000\r\n          1,000,000\r\n        100.00\r\n         32,393,330\r\n         32.39\r\n          0.59\r\n\r\n\r\n\r\n29\r\n2467\r\n\u5fd7\u8056113/10/31\r\n1\r\n      1,341,582,680\r\n          1,000,000\r\n        146.00\r\n        331.00\r\n113/11/01\r\n113/12/31\r\nY\r\n\r\n\r\n\r\n            803,000\r\n            803,000\r\n         80.30\r\n        184,634,115\r\n        229.93\r\n          0.51\r\n\u70ba\u7dad\u8b77\u6574\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u96d6\u672a\u5168\u6578\u57f7\u884c\u5b8c\u7562\uff0c\u4f46\u57f7\u884c\u7387\u5df2\u905480%\u3002\r\n\r\n\r\n30\r\n2023\r\n\u71c1\u8f1d113/11/05\r\n3\r\n      8,408,005,114\r\n         10,000,000\r\n         13.80\r\n         15.30\r\n113/11/06\r\n114/01/05\r\nY\r\n\r\n\r\n\r\n         10,000,000\r\n         10,000,000\r\n        100.00\r\n        152,067,165\r\n         15.21\r\n          0.50\r\n\r\n\r\n\u5e8f\u865f\u516c\u53f8\u4ee3\u865f\u516c\u53f8\u540d\u7a31\u8463\u4e8b\u6703\u6c7a\u8b70\u65e5\u671f\u8cb7\u56de\u76ee\u7684\u8cb7\u56de\u80a1\u4efd\u7e3d\u91d1\u984d\u4e0a\u9650(\u4f9d\u6700\u65b0\u8ca1\u5831\u8a08\u7b97\u4e4b\u6cd5\u5b9a\u4e0a\u9650)\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u8cb7\u56de\u50f9\u683c\u5340\u9593\u9810\u5b9a\u8cb7\u56de\u671f\u9593\u662f\u5426\u57f7\u884c\u5b8c\u7562\u8cb7\u56de\u9054\u4e00\u5b9a\u6a19\u6e96\u8cc7\u6599\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u57f7\u884c\u5b8c\u7562\u5df2\u8a3b\u92b7\u6216\u8f49\u8b93\u80a1\u6578\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578\u4f54\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5df2\u8cb7\u56de\u7e3d\u91d1\u984d(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5e73\u5747\u6bcf\u80a1\u8cb7\u56de\u50f9\u683c(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u8cb7\u56de\u80a1\u6578\u4f54\u516c\u53f8\u5df2\u767c\u884c\u80a1\u4efd\u7e3d\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u672a\u57f7\u884c\u5b8c\u7562\u4e4b\u539f\u56e0\u6700\u4f4e\u6700\u9ad8\u8d77\u8fc4\r\n\r\n31\r\n2762\r\n\u4e16\u754c\u5065\u8eab-KY113/11/12\r\n1\r\n      2,249,236,249\r\n          1,500,000\r\n         90.00\r\n        125.00\r\n113/11/13\r\n114/01/12\r\nY\r\n\r\n\r\n\r\n            760,000\r\n&nbsp;\r\n         50.67\r\n         74,961,358\r\n         98.63\r\n          0.68\r\n\u70ba\u7dad\u8b77\u80a1\u6771\u6b0a\u76ca\uff0c\u4e26\u8003\u91cf\u8cb7\u56de\u671f\u9593\u80a1\u50f9\u5448\u7a69\u5b9a\u8da8\u52e2\uff0c\u63a1\u53d6\u4f4e\u63a5\u4e0d\u8ffd\u9ad8\u539f\u5247\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u63a1\u5206\u6279\u8cb7\u56de\uff0c\u672a\u80fd\u57f7\u884c\u5b8c\u7562\uff0c\u57f7\u884c\u7387\u5df2\u905450.67%\u3002\r\n\r\n\r\n32\r\n3062\r\n\u5efa\u6f22113/11/13\r\n1\r\n      1,432,638,258\r\n          3,000,000\r\n         24.85\r\n         37.30\r\n113/11/14\r\n114/01/13\r\nY\r\n\r\n\r\n\r\n          3,000,000\r\n          1,188,000\r\n        100.00\r\n         96,224,610\r\n         32.07\r\n          0.91\r\n\r\n\r\n\r\n33\r\n6952\r\n\u5927\u6b66\u5c71113/11/22\r\n1\r\n      1,043,689,589\r\n          1,000,000\r\n         40.00\r\n         68.00\r\n113/11/25\r\n114/01/24\r\nY\r\n\r\n\r\n\r\n          1,000,000\r\n&nbsp;\r\n        100.00\r\n         49,012,547\r\n         49.01\r\n          1.46\r\n\r\n\r\n\r\n34\r\n2023\r\n\u71c1\u8f1d113/12/04\r\n3\r\n      8,408,005,114\r\n         15,000,000\r\n         13.80\r\n         15.30\r\n113/12/05\r\n114/02/04\r\nY\r\n\r\n\r\n\r\n         15,000,000\r\n         15,000,000\r\n        100.00\r\n        223,907,492\r\n         14.93\r\n          0.76\r\n\r\n\r\n\r\n35\r\n6108\r\n\u7af6\u570b113/12/13\r\n3\r\n      2,239,514,409\r\n          8,000,000\r\n         11.87\r\n         24.84\r\n113/12/16\r\n114/02/15\r\nY\r\n\r\n\r\n\r\n          2,905,000\r\n          2,905,000\r\n         36.31\r\n         47,445,603\r\n         16.33\r\n          1.82\r\n\u57fa\u65bc\u7dad\u8b77\u80a1\u6771\u6b0a\u76ca\u4e26\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u53ca\u6210\u4ea4\u91cf\u72c0\u6cc1\u63a1\u53d6\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u6545\u672a\u5168\u6578\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n36\r\n6589\r\n\u53f0\u5eb7\u751f\u6280113/12/16\r\n1\r\n      6,357,550,000\r\n          4,000,000\r\n         68.00\r\n        100.00\r\n113/12/17\r\n114/02/16\r\nY\r\n\r\n\r\n\r\n          4,000,000\r\n&nbsp;\r\n        100.00\r\n        305,465,238\r\n         76.37\r\n          1.31\r\n\r\n\r\n\r\n37\r\n6869\r\n\u96f2\u8c79\u80fd\u6e90113/12/16\r\n1\r\n      4,085,924,752\r\n          1,500,000\r\n        170.00\r\n        230.00\r\n113/12/16\r\n114/02/15\r\nY\r\n\r\n\r\n\r\n          1,500,000\r\n&nbsp;\r\n        100.00\r\n        257,923,845\r\n        171.95\r\n          1.09\r\n\r\n\r\n\r\n38\r\n2030\r\n\u5f70\u6e90113/12/18\r\n1\r\n      2,059,821,753\r\n          2,000,000\r\n         14.00\r\n         20.00\r\n113/12/18\r\n114/02/17\r\nY\r\n\r\n\r\n\r\n          2,000,000\r\n          2,000,000\r\n        100.00\r\n         32,669,676\r\n         16.33\r\n          0.71\r\n\r\n\r\n\r\n39\r\n4977\r\n\u773e\u9054-KY113/12/19\r\n1\r\n      2,972,330,000\r\n          2,500,000\r\n        100.00\r\n        200.00\r\n113/12/20\r\n114/02/19\r\nY\r\n\r\n\r\n\r\n          1,425,000\r\n          1,425,000\r\n         57.00\r\n        184,343,299\r\n        129.36\r\n          1.78\r\n\u70ba\u7dad\u8b77\u80a1\u6771\u6b0a\u76ca\u4e26\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u8996\u80a1\u50f9\u53ca\u6210\u4ea4\u91cf\u72c0\u6cc1\u5206\u6279 \u8cb7\u56de\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n40\r\n5222\r\n\u5168\u8a0a113/12/19\r\n3\r\n      1,461,328,593\r\n          1,500,000\r\n        105.00\r\n        140.00\r\n113/12/20\r\n114/02/18\r\nY\r\n\r\n\r\n\r\n            520,000\r\n&nbsp;\r\n         34.67\r\n         64,346,545\r\n        123.74\r\n          0.63\r\n\u70ba\u7dad\u8b77\u5168\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u4ea4\u6613\u6a5f\u5236\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u53ca\u6210\u4ea4\u91cf\u72c0\u6cc1\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n41\r\n2474\r\n\u53ef\u6210113/12/20\r\n3\r\n    154,763,904,645\r\n         34,000,000\r\n        126.00\r\n        296.40\r\n113/12/21\r\n114/02/20\r\nY\r\n\r\n\r\n\r\n         31,219,000\r\n         31,219,000\r\n         91.82\r\n      6,089,572,043\r\n        195.06\r\n          4.59\r\n\u70ba\u7dad\u8b77\u6574\u9ad4\u80a1\u6771\u6b0a\u76ca\u53ca\u517c\u9867\u5e02\u5834\u6a5f\u5236\uff0c\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u63a1\u5206\u6279\u8cb7\u56de\u7b56\u7565\uff0c\u96d6\u672a\u5168\u6578\u57f7\u884c\u5b8c\u7562\uff0c\u4f46\u57f7\u884c\u7387\u5df2\u905491.82%\r\n\r\n\r\n42\r\n2897\r\n\u738b\u9053\u9280\u884c113/12/25\r\n1\r\n     11,346,609,691\r\n         15,000,000\r\n          7.00\r\n         14.00\r\n113/12/26\r\n114/02/25\r\nY\r\n\r\n\r\n\r\n         15,000,000\r\n&nbsp;\r\n        100.00\r\n        148,512,083\r\n          9.90\r\n          0.53\r\n\r\n\r\n\r\n43\r\n1563\r\n\u5de7\u65b0113/12/26\r\n1\r\n      7,376,041,000\r\n         10,000,000\r\n         40.00\r\n         86.00\r\n113/12/27\r\n114/02/26\r\nY\r\n\r\n\r\n\r\n          8,520,000\r\n&nbsp;\r\n         85.20\r\n        515,172,836\r\n         60.47\r\n          3.58\r\n\u8003\u91cf\u8cb7\u56de\u671f\u9593\u80a1\u50f9\u5448\u7a69\u5b9a\u8da8\u52e2\uff0c\u63a1\u53d6\u4f4e\u63a5\u4e0d\u8ffd\u9ad8\u539f\u5247\uff0c\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u63a1\u5206\u6279\u8cb7\u56de\uff0c\u672a\u80fd\u57f7\u884c\u5b8c\u7562\uff0c\u57f7\u884c\u7387\u5df2\u905485.2%\r\n\r\n\r\n44\r\n3716\r\n\u4e2d\u5316\u63a7\u80a1113/12/26\r\n1\r\n      6,002,590,000\r\n          1,000,000\r\n         27.00\r\n         43.00\r\n113/12/27\r\n114/02/26\r\nY\r\n\r\n\r\n\r\n          1,000,000\r\n&nbsp;\r\n        100.00\r\n         38,350,442\r\n         38.35\r\n          0.67\r\n\r\n\r\n\r\n45\r\n6191\r\n\u7cbe\u6210\u79d1113/12/26\r\n1\r\n     15,104,512,000\r\n          2,500,000\r\n         53.00\r\n         76.00\r\n113/12/27\r\n114/02/26\r\nY\r\n\r\n\r\n\r\n          2,500,000\r\n          2,500,000\r\n        100.00\r\n        163,265,159\r\n         65.31\r\n          0.53\r\n\r\n\r\n\u5e8f\u865f\u516c\u53f8\u4ee3\u865f\u516c\u53f8\u540d\u7a31\u8463\u4e8b\u6703\u6c7a\u8b70\u65e5\u671f\u8cb7\u56de\u76ee\u7684\u8cb7\u56de\u80a1\u4efd\u7e3d\u91d1\u984d\u4e0a\u9650(\u4f9d\u6700\u65b0\u8ca1\u5831\u8a08\u7b97\u4e4b\u6cd5\u5b9a\u4e0a\u9650)\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u8cb7\u56de\u50f9\u683c\u5340\u9593\u9810\u5b9a\u8cb7\u56de\u671f\u9593\u662f\u5426\u57f7\u884c\u5b8c\u7562\u8cb7\u56de\u9054\u4e00\u5b9a\u6a19\u6e96\u8cc7\u6599\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u57f7\u884c\u5b8c\u7562\u5df2\u8a3b\u92b7\u6216\u8f49\u8b93\u80a1\u6578\u672c\u6b21\u5df2\u8cb7\u56de\u80a1\u6578\u4f54\u9810\u5b9a\u8cb7\u56de\u80a1\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5df2\u8cb7\u56de\u7e3d\u91d1\u984d(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u5e73\u5747\u6bcf\u80a1\u8cb7\u56de\u50f9\u683c(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u8cb7\u56de\u80a1\u6578\u4f54\u516c\u53f8\u5df2\u767c\u884c\u80a1\u4efd\u7e3d\u6578\u6bd4\u4f8b(%)(\u7a7a\u767d\u70ba\u5c1a\u5728\u57f7\u884c\u4e2d)\u672c\u6b21\u672a\u57f7\u884c\u5b8c\u7562\u4e4b\u539f\u56e0\u6700\u4f4e\u6700\u9ad8\u8d77\u8fc4\r\n\r\n46\r\n6742\r\n\u6fa4\u7c73113/12/26\r\n1\r\n        604,989,974\r\n          1,500,000\r\n         45.00\r\n         68.00\r\n113/12/27\r\n114/02/26\r\nY\r\n\r\n\r\n\r\n             10,000\r\n&nbsp;\r\n          0.67\r\n            671,767\r\n         67.18\r\n          0.01\r\n\u672c\u516c\u53f8\u8996\u80a1\u50f9\u8b8a\u5316\u65bc\u50f9\u683c\u5340\u9593\u5167\u5206\u6279\u8cb7\u56de\uff0c\u70ba\u8003\u91cf\u54e1\u5de5\u8a8d\u8cfc\u610f\u9858\u53ca\u8cc7\u91d1\u904b\u7528\u6548\u76ca\uff0c\u517c\u9867\u5e02\u5834\u6a5f\u5236\u4e0d\u5f71\u97ff\u80a1\u50f9\uff0c\u6545\u672a\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n47\r\n2023\r\n\u71c1\u8f1d113/12/31\r\n3\r\n      8,408,005,114\r\n         15,000,000\r\n         13.80\r\n         15.30\r\n114/01/02\r\n114/03/01\r\nY\r\n\r\n\r\n\r\n          7,220,000\r\n          7,220,000\r\n         48.13\r\n        107,209,687\r\n         14.85\r\n          0.37\r\n\u70ba\u517c\u9867\u5e02\u5834\u6a5f\u5236\u53ca\u7dad\u8b77\u6574\u9ad4\u80a1\u6771\u6b0a\u76ca\uff0c\u8003\u91cf\u80a1\u50f9\u8b8a\u52d5\u5df2\u8da8\u7a69\u5b9a\uff0c\u6545\u672a\u4e88\u4ee5\u5168\u90e8\u57f7\u884c\u5b8c\u7562\u3002\r\n\r\n\r\n\r\n\u5bb6\u6578\u5408\u8a08\uff1a39\u5bb6\r\n\u4ef6\u6578\u5408\u8a08\uff1a47\u4ef6\r\n\u5404\u7522\u696d\u5225\u5be6\u65bd\u5eab\u85cf\u80a1\u7d71\u8a08\u4ef6\u6578\uff1a\uff08\u4f9d\u4ef6\u6578\u7531\u5927\u5230\u5c0f\u6392\u5e8f\uff09\r\n\u534a\u5c0e\u9ad4\u696d\u985e\uff1a5\u4ef6\r\n\u3001\r\n\u901a\u4fe1\u7db2\u8def\u696d\u985e\uff1a5\u4ef6\r\n\u3001\r\n\u96fb\u5b50\u96f6\u7d44\u4ef6\u696d\u985e\uff1a5\u4ef6\r\n\u3001\r\n\u92fc\u9435\u5de5\u696d\u985e\uff1a5\u4ef6\r\n\u3001\r\n\u751f\u6280\u91ab\u7642\u696d\u985e\uff1a4\u4ef6\r\n\u3001\r\n\u5149\u96fb\u696d\u985e\uff1a4\u4ef6\r\n\u3001\r\n\u6c7d\u8eca\u5de5\u696d\u985e\uff1a3\u4ef6\r\n\u3001\r\n\u5176\u4ed6\u985e\uff1a3\u4ef6\r\n\u3001\r\n\u904b\u52d5\u4f11\u9592\u985e\uff1a3\u4ef6\r\n\u3001\r\n\u91d1\u878d\u4fdd\u96aa\u696d\u985e\uff1a2\u4ef6\r\n\u3001\r\n\u7da0\u80fd\u74b0\u4fdd\u985e\uff1a2\u4ef6\r\n\u3001\r\n\u96fb\u8166\u53ca\u9031\u908a\u8a2d\u5099\u696d\u985e\uff1a1\u4ef6\r\n\u3001\r\n\u96fb\u5668\u96fb\u7e9c\u985e\uff1a1\u4ef6\r\n\u3001\r\n\u73bb\u7483\u9676\u74f7\u985e\uff1a1\u4ef6\r\n\u3001\r\n\u98df\u54c1\u5de5\u696d\u985e\uff1a1\u4ef6\r\n\u3001\r\n\u96fb\u5b50\u901a\u8def\u696d\u985e\uff1a1\u4ef6\r\n\u3001\r\n\u5176\u4ed6\u96fb\u5b50\u696d\u985e\uff1a1\u4ef6\r\n\u7e3d\u8a08\uff1a47\u4ef6\r\n\u8cb7\u56de\u76ee\u7684\u7d71\u8a08\u4ef6\u6578\uff1a(1)\u8f49\u8b93\u80a1\u4efd\u4e88\u54e1\u5de5\uff1a31\u4ef6\u3000(2)\u80a1\u6b0a\u8f49\u63db\uff1a0\u4ef6\u3000(3)\u7dad\u8b77\u516c\u53f8\u4fe1\u7528\u53ca\u80a1\u6771\u6b0a\u76ca\uff1a16\u4ef6\r\n\u5df2\u671f\u9650\u5c46\u6eff\u6216\u57f7\u884c\u5b8c\u7562\u6216\u7d42\u6b62\u57f7\u884c\u4e4b\u4ef6\u6578\uff1a47\u4ef6\r\n\u5169\u6b21\u4ee5\u4e0a\u8cb7\u56de\u7533\u8acb\u4e4b\u5bb6\u6578\uff1a5\u5bb6\r\n\u7533\u8acb\u5be6\u65bd\u5eab\u85cf\u80a1\u5bb6\u6578\u5360\u7e3d\u4e0a\u5e02\u5bb6\u6578\u4e4b\u767e\u5206\u6bd4\uff1a3.56%\r\n\u7533\u8acb\u8cb7\u56de\u80a1\u6578\u6700\u591a\u524d\u4e94\u540d\u516c\u53f8\uff1a\r\n(1)\u71c1\u8f1d                                 40,000,000\u80a1\r\n(2)\u4f73\u4e16\u9054                                 39,335,000\u80a1\r\n(3)\u53ef\u6210                                 34,000,000\u80a1\r\n(4)\u738b\u9053\u9280\u884c                                 15,000,000\u80a1\r\n(5)\u5bcc\u91c7                                 15,000,000\u80a1\r\n\r\n\r\n",
+            "action": {
+              "raw": "/mops/web/ajax_t35sb01",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sb01",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "/mops/web/ajax_t35sc09",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form action='/mops/web/ajax_t35sc09' method='post' onsubmit='return false;' name='fm1'>",
+            "hidden_inputs": [
+              {
+                "name": "firstin",
+                "value": "true",
+                "raw_start_tag": "<input type='hidden' name='firstin' value='true'>"
+              },
+              {
+                "name": "step",
+                "value": "10",
+                "raw_start_tag": "<input type='hidden' name='step' value='10'>"
+              },
+              {
+                "name": "filename",
+                "value": "t35sc09_20261020_030611970.csv",
+                "raw_start_tag": "<input type='hidden' name='filename' value='t35sc09_20261020_030611970.csv'>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\r\n\r\n\r\n\r\n\r\n",
+            "action": {
+              "raw": "/mops/web/ajax_t35sc09",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 22,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 15,
+            "rows": 17
+          },
+          {
+            "header_cells": 22,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 15,
+            "rows": 17
+          },
+          {
+            "header_cells": 22,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 15,
+            "rows": 17
+          },
+          {
+            "header_cells": 22,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 2,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 7,
+            "mixed_control_data_rows": 0,
+            "rows": 8
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    }
+  ],
+  "source_gate_passed": false,
+  "historical_population_verified": false,
+  "original_publication_versions_verified": false,
+  "market_outcomes_inspected": false,
+  "meaning": "Captured pages establish interface observations only. No case completeness or historical timing proof."
+}

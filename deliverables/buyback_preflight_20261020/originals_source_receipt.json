@@ -1,0 +1,596 @@
+{
+  "archive_sha256": "787f43c6d873280d3f608d9c88d6b6da8d03781775a1344903a2ada770e7c742",
+  "manifest_files": 26,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "787f43c6d873280d3f608d9c88d6b6da8d03781775a1344903a2ada770e7c742",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_preflight_20261020_originals_787f43c6d873280d3f608d9c88d6b6da8d03781775a1344903a2ada770e7c742.zip",
+    "retrieved_path": "inputs/buyback_preflight_20261020/originals.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T19:10:34.118Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "filename": "original_00_2002.html",
+      "request": {
+        "filename": "original_00_2002.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193639&SPOKE_DATE=20240102&COMPANY_ID=2002"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193639&SPOKE_DATE=20240102&COMPANY_ID=2002",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4776,
+      "sha256": "0b3052fcae6381f06a3ce2f425fe469f0d985c50569140e63a7b35547992d233",
+      "request_started_at": "2026-10-19T19:10:12.140342+00:00",
+      "observed_at": "2026-10-19T19:10:12.360967+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   4776   0   4776   0      0  25822      0                              0\r100   4776   0   4776   0      0  25810      0                              0\r100   4776   0   4776   0      0  25805      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193639&SPOKE_DATE=20240102&COMPANY_ID=2002",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "0b3052fcae6381f06a3ce2f425fe469f0d985c50569140e63a7b35547992d233",
+        "size_bytes": 4776,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193639&SPOKE_DATE=20240102&COMPANY_ID=2002",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    },
+    {
+      "filename": "original_01_8070.html",
+      "request": {
+        "filename": "original_01_8070.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152405&SPOKE_DATE=20240105&COMPANY_ID=8070"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152405&SPOKE_DATE=20240105&COMPANY_ID=8070",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4865,
+      "sha256": "e94371de3d0a36f080c8c660455505934c671c56bb9988d949a715b2d2f76d90",
+      "request_started_at": "2026-10-19T19:10:12.140746+00:00",
+      "observed_at": "2026-10-19T19:10:12.361332+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   4865   0   4865   0      0  26243      0                              0\r100   4865   0   4865   0      0  26232      0                              0\r100   4865   0   4865   0      0  26225      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152405&SPOKE_DATE=20240105&COMPANY_ID=8070",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "e94371de3d0a36f080c8c660455505934c671c56bb9988d949a715b2d2f76d90",
+        "size_bytes": 4865,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152405&SPOKE_DATE=20240105&COMPANY_ID=8070",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    },
+    {
+      "filename": "original_02_1587.html",
+      "request": {
+        "filename": "original_02_1587.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=115052&SPOKE_DATE=20240127&COMPANY_ID=1587"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=115052&SPOKE_DATE=20240127&COMPANY_ID=1587",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9840,
+      "sha256": "5c61e0cd7676caeec6a33faeec36c329645e0b3f829b4caa95474d52304c6f1b",
+      "request_started_at": "2026-10-19T19:10:12.366141+00:00",
+      "observed_at": "2026-10-19T19:10:12.858404+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   9840   0   9840   0      0  20283      0                              0\r100   9840   0   9840   0      0  20282      0                              0\r100   9840   0   9840   0      0  20281      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=115052&SPOKE_DATE=20240127&COMPANY_ID=1587",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "5c61e0cd7676caeec6a33faeec36c329645e0b3f829b4caa95474d52304c6f1b",
+        "size_bytes": 9840,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=115052&SPOKE_DATE=20240127&COMPANY_ID=1587",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    },
+    {
+      "filename": "original_03_6472.html",
+      "request": {
+        "filename": "original_03_6472.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=10&SPOKE_TIME=211402&SPOKE_DATE=20240307&COMPANY_ID=6472"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=10&SPOKE_TIME=211402&SPOKE_DATE=20240307&COMPANY_ID=6472",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9437,
+      "sha256": "4e61cd4c9c3f40a616161a32868d5411e619c563e2cf92b3a8b5e709118b15b0",
+      "request_started_at": "2026-10-19T19:10:12.366372+00:00",
+      "observed_at": "2026-10-19T19:10:12.596004+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   9437   0   9437   0      0  42755      0                              0\r100   9437   0   9437   0      0  42745      0                              0\r100   9437   0   9437   0      0  42738      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=10&SPOKE_TIME=211402&SPOKE_DATE=20240307&COMPANY_ID=6472",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "4e61cd4c9c3f40a616161a32868d5411e619c563e2cf92b3a8b5e709118b15b0",
+        "size_bytes": 9437,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=10&SPOKE_TIME=211402&SPOKE_DATE=20240307&COMPANY_ID=6472",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    },
+    {
+      "filename": "original_04_8011.html",
+      "request": {
+        "filename": "original_04_8011.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=171938&SPOKE_DATE=20240308&COMPANY_ID=8011"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=171938&SPOKE_DATE=20240308&COMPANY_ID=8011",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8009,
+      "sha256": "a6bffed003bb87a39fa4e3e534dd44e1c892c679f84ef8210d59f008063cb8f5",
+      "request_started_at": "2026-10-19T19:10:12.601277+00:00",
+      "observed_at": "2026-10-19T19:10:12.788520+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   8009   0   8009   0      0  44512      0                              0\r100   8009   0   8009   0      0  44506      0                              0\r100   8009   0   8009   0      0  44503      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=171938&SPOKE_DATE=20240308&COMPANY_ID=8011",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "a6bffed003bb87a39fa4e3e534dd44e1c892c679f84ef8210d59f008063cb8f5",
+        "size_bytes": 8009,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=171938&SPOKE_DATE=20240308&COMPANY_ID=8011",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    },
+    {
+      "filename": "original_05_1210.html",
+      "request": {
+        "filename": "original_05_1210.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=173023&SPOKE_DATE=20240314&COMPANY_ID=1210"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=173023&SPOKE_DATE=20240314&COMPANY_ID=1210",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 7937,
+      "sha256": "a9012dc61a1bf99cb70da0f174cafa8a16cbb43c53029b3d9da868804eb97220",
+      "request_started_at": "2026-10-19T19:10:12.793801+00:00",
+      "observed_at": "2026-10-19T19:10:12.977512+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   7937   0   7937   0      0  44819      0                              0\r100   7937   0   7937   0      0  44812      0                              0\r100   7937   0   7937   0      0  44808      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=173023&SPOKE_DATE=20240314&COMPANY_ID=1210",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "a9012dc61a1bf99cb70da0f174cafa8a16cbb43c53029b3d9da868804eb97220",
+        "size_bytes": 7937,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=173023&SPOKE_DATE=20240314&COMPANY_ID=1210",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    },
+    {
+      "filename": "original_06_1210.html",
+      "request": {
+        "filename": "original_06_1210.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=144421&SPOKE_DATE=20240319&COMPANY_ID=1210"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=144421&SPOKE_DATE=20240319&COMPANY_ID=1210",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 7943,
+      "sha256": "f8d847a75942be3133f59bfc39f4c869c3e134b75c4ebf356523463b78efa16f",
+      "request_started_at": "2026-10-19T19:10:12.862812+00:00",
+      "observed_at": "2026-10-19T19:10:13.054743+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   7943   0   7943   0      0  43183      0                              0\r100   7943   0   7943   0      0  43172      0                              0\r100   7943   0   7943   0      0  43164      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=144421&SPOKE_DATE=20240319&COMPANY_ID=1210",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "f8d847a75942be3133f59bfc39f4c869c3e134b75c4ebf356523463b78efa16f",
+        "size_bytes": 7943,
+        "forms": [],
+        "script_sources": [
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 12,
+            "plain_data_rows": 4,
+            "mixed_control_data_rows": 0,
+            "rows": 4
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=144421&SPOKE_DATE=20240319&COMPANY_ID=1210",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "html_table_structure_only"
+      }
+    }
+  ],
+  "source_gate_passed": false,
+  "historical_population_verified": false,
+  "original_publication_versions_verified": false,
+  "market_outcomes_inspected": false,
+  "meaning": "Captured pages establish interface observations only. No case completeness or historical timing proof."
+}

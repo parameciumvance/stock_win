@@ -1,0 +1,30 @@
+{
+  "status": "automatic_route_verified_historical_research_gate_unqualified",
+  "annual_current_snapshot_cases": 47,
+  "annual_current_snapshot_issuers": 39,
+  "captured_m35_announcements": 122,
+  "annual_cases_with_same_day_message": 47,
+  "announcement_api_declared_total": null,
+  "announcement_count_reconciled": false,
+  "original_pages_identity_and_reported_times_matched": 7,
+  "correction_pair_versions_preserved": true,
+  "source_gate_passed": false,
+  "automatic_source_route_verified": true,
+  "historical_population_verified": false,
+  "historical_original_availability_verified": false,
+  "current_index_is_not_first_seen_archive": true,
+  "remaining_evidence_gaps": [
+    "M35 response has no declared total; 122 rows and client limit cannot certify announcement-date completeness, including cross-year board decisions",
+    "Annual 47-case list uses board dates and current legal-cap fields; cannot substitute it for original announcement-date features",
+    "Only seven fixed original controls were commissioned; full original/correction/cancellation chains and absence of overwritten or withdrawn records have not been verified",
+    "Reported publication timestamps match seven current pages; no independent historical first-seen capture proves all fields were available before an assumed entry"
+  ],
+  "decision": "Retain working automatic collector and provenance tools. Do not backtest, expand downloads or deploy daily human validation on unqualified historical input. This is not a failed-return finding.",
+  "market_outcomes_inspected": false,
+  "new_model_fitted": false,
+  "prior_rules_changed": false,
+  "profit_edge_proven": false,
+  "orders_authorized": false,
+  "valid_prospective_signal_date": null,
+  "user_action_required": null
+}

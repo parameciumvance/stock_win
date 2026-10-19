@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-19T19:07:27.520339+00:00",
+  "request_config_sha256": "5d14fdd3d4bab84a3ef1c245ae35f0063b5beb4dff57345b70d7d041e6df5ca9",
+  "protocol_sha256": "7f9ae079ef5f7cd0e5899f8c80ea0f3f5b28f07f886acd13551d3a992e5f895c",
+  "logical_batch": 2,
+  "phase": "2 of single dependent followup batch",
+  "requests_in_phase": 1,
+  "total_acquisition_requests": 10,
+  "market_outcomes_inspected": false
+}

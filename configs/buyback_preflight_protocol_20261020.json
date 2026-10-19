@@ -1,0 +1,46 @@
+{
+  "scope": "source_feasibility_only_no_return_calculation",
+  "hypothesis": "An initial listed-company open-market repurchase announcement may create incremental information or future demand after the first public tradable opportunity; it is not a binding promise to buy all announced shares. No outcome selection by realized completion rate.",
+  "historical_population_target": {
+    "market": "TWSE listed companies",
+    "announcement_start": "2024-01-01",
+    "announcement_end": "2024-12-31",
+    "include": "All initial repurchase announcements and revisions/cancellations/zero execution records. No selection on subsequent execution, survival or returns."
+  },
+  "source_gate": [
+    "Automatically enumerable fixed-year complete population with request-period reconciliation",
+    "Stable event identity and actual original public disclosure datetime in Asia/Taipei",
+    "Original initial terms and later corrections kept separate with auditable version chronology",
+    "Canceled, unexecuted and delisted issuers not silently excluded",
+    "Raw source acquisition, backup/readback, SHA/CRC/manifest verified before downstream analysis"
+  ],
+  "resource_bound": {
+    "initial_requests": 5,
+    "max_additional_requests": 5,
+    "max_source_requests": 10,
+    "max_batches": 2,
+    "workers": 2,
+    "lock": "inputs/buyback_preflight_20261020/acquisition.lock",
+    "per_request_seconds": 30,
+    "retries": 0,
+    "followup": "At most one follow-up batch using routes/forms actually discovered in saved official pages; no guessing route permutations, CAPTCHA bypass, insecure TLS or manual downloads. Stop if no usable endpoint is discovered."
+  },
+  "returns_protocol_status": "Not commissioned. No market outcomes inspected; endpoints, cost, comparison and resource gate must be frozen separately if source gate passes. Existing strategy parameters remain frozen.",
+  "request_configs_sha256": {
+    "configs/buyback_preflight_sources_20261020.json": "50a03b1907984a68a36f879ee686fccd3a8ec10e3d1eee11800b6a8bd625f38f"
+  },
+  "prior_checkpoints": {
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517"
+  },
+  "disallowed": [
+    "No backtest or raw price query during source trial",
+    "No use of realized buyback completion as an initial feature",
+    "No human daily validation or actual orders",
+    "Do not represent reused historical years as fresh independent evidence"
+  ],
+  "trade_authorized": false,
+  "profit_edge_proven": false
+}

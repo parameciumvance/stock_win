@@ -1,0 +1,30 @@
+{
+  "output_directory": "inputs/buyback_preflight_20261020/raw",
+  "allowed_hosts": [
+    "mops.twse.com.tw",
+    "mopsov.twse.com.tw",
+    "www.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "new_statistics.html",
+      "url": "https://mops.twse.com.tw/mops/web/t35sc09"
+    },
+    {
+      "filename": "legacy_statistics.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t35sc09"
+    },
+    {
+      "filename": "legacy_basic.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t35sb01_q1"
+    },
+    {
+      "filename": "legacy_search.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch"
+    },
+    {
+      "filename": "official_description.pdf",
+      "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/ff8080817d22b9cb017fe4d8c76a0884.pdf"
+    }
+  ]
+}

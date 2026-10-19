@@ -1,0 +1,14 @@
+{
+  "status": "passed_current_snapshot_and_selected_originals_only",
+  "annual_rows": 47,
+  "preserved_index_rows": 122,
+  "original_controls": 7,
+  "methods": [
+    "lxml annual table extraction versus standard HTMLParser",
+    "Direct JSON equality of all captured index rows",
+    "lxml selected original table identity and exact field containment"
+  ],
+  "historical_population_verified": false,
+  "historical_pit_verified": false,
+  "no_market_outcomes_inspected": true
+}

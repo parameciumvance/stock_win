@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/buyback_preflight_20261020/discovery.zip",
+  "sha256": "c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7",
+  "manifest_files": 15,
+  "created_at": "2026-10-19T19:06:13.019394+00:00",
+  "retrieved": "inputs/buyback_preflight_20261020/discovery.retrieved.zip",
+  "transfer_receipt": "inputs/buyback_preflight_20261020/discovery_transfer.json",
+  "backup_label": "buyback_preflight_20261020_discovery"
+}

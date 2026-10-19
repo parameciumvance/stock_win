@@ -1,0 +1,73 @@
+{
+  "archive_sha256": "83aa2987b1dcf9de2551d089284900ee0e6d48b15ccf155a20b3256c2d607be1",
+  "manifest_files": 6,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "83aa2987b1dcf9de2551d089284900ee0e6d48b15ccf155a20b3256c2d607be1",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_preflight_20261020_query_83aa2987b1dcf9de2551d089284900ee0e6d48b15ccf155a20b3256c2d607be1.zip",
+    "retrieved_path": "inputs/buyback_preflight_20261020/query.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T19:07:45.850Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "filename": "announcements_2024.json",
+      "request": {
+        "filename": "announcements_2024.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F01%2F01&EDATE=113%2F12%2F31&lang=TW&AN="
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 47780,
+      "sha256": "c69c22cdba9012f6ae41cc4df5a95bfcc7cfd15541f004440c22ab3bddc06388",
+      "request_started_at": "2026-10-19T19:07:27.637972+00:00",
+      "observed_at": "2026-10-19T19:07:28.321103+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  47900   0  47780 100    120  73684    185                              0\r100  47900   0  47780 100    120  73681    185                              0\r100  47900   0  47780 100    120  73678    185                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "data_response_unverified",
+        "status": "data_response_unverified",
+        "expected_kind": "json",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "c69c22cdba9012f6ae41cc4df5a95bfcc7cfd15541f004440c22ab3bddc06388",
+        "size_bytes": 47780,
+        "forms": [],
+        "script_sources": [],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8-sig",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "titles": [],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": "json_syntax_only"
+      }
+    }
+  ],
+  "source_gate_passed": false,
+  "historical_population_verified": false,
+  "original_publication_versions_verified": false,
+  "market_outcomes_inspected": false,
+  "meaning": "Captured pages establish interface observations only. No case completeness or historical timing proof."
+}

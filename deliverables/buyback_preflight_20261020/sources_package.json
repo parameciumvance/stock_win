@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/buyback_preflight_20261020/sources.zip",
+  "sha256": "a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d",
+  "manifest_files": 18,
+  "created_at": "2026-10-19T19:02:52.237110+00:00",
+  "retrieved": "inputs/buyback_preflight_20261020/sources.retrieved.zip",
+  "transfer_receipt": "inputs/buyback_preflight_20261020/sources_transfer.json",
+  "backup_label": "buyback_preflight_20261020_sources"
+}

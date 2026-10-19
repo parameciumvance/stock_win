@@ -1,0 +1,21 @@
+{
+  "scope": "Separate fixed seven-document identity/time/version source pilot after initial index endpoint discovery; no performance test",
+  "parent_protocol_sha256": "7f9ae079ef5f7cd0e5899f8c80ea0f3f5b28f07f886acd13551d3a992e5f895c",
+  "parent_acquisition_requests_closed_at": 10,
+  "max_requests": 7,
+  "workers": 2,
+  "retry": 0,
+  "selection_manifest_sha256": "cd471d18bd611cdcea0601fd12c3253e16324f9afd534b2f219abe5126fed6af",
+  "request_config_sha256": "bc514896ea2bc974956beff6ac3e71e0899324fea187b5b262ffcd03ecafb817",
+  "pinned_index_body_sha256": "c69c22cdba9012f6ae41cc4df5a95bfcc7cfd15541f004440c22ab3bddc06388",
+  "acceptance": [
+    "Raw archive/readback/SHA/CRC/manifest checked before document analysis",
+    "Original page issuer/subject/date/time agrees with captured index",
+    "Decision date and initial price/quantity terms extracted without later execution fields",
+    "First explicit correction linked by source content to prior announcement and compared; retain both versions",
+    "Historical publication timing and absence of overwrites require separate evidence; reported current timestamps alone cannot certify full historical PIT"
+  ],
+  "stop": "At seven saved responses, record unresolved provenance/version issues. No fallback host, repeated acquisition or full 122-document collection is commissioned by this pilot. Do not advance to return research without a fresh qualified source gate and separately frozen outcome protocol.",
+  "profit_edge_proven": false,
+  "orders_authorized": false
+}

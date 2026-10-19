@@ -1,0 +1,97 @@
+{
+  "scope": "Source identity/time/version pilot only, not a performance sample or complete event cohort",
+  "no_market_outcomes_used": true,
+  "selected": [
+    {
+      "CDATE": "113/01/02",
+      "COMPANY_NAME": "中鋼",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "鋼鐵工業",
+      "AN_CODE": "M35",
+      "CTIME": "19:36:39",
+      "TYPEK": "上市",
+      "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193639&SPOKE_DATE=20240102&COMPANY_ID=2002",
+      "COMPANY_ID": "2002",
+      "selection_reason": "Earliest two chronological M35 messages: boundary/control originals, not an event-selection rule"
+    },
+    {
+      "CDATE": "113/01/05",
+      "COMPANY_NAME": "長華*",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "電子通路業",
+      "AN_CODE": "M35",
+      "CTIME": "15:24:05",
+      "TYPEK": "上市",
+      "SUBJECT": "公告買回本公司股份已執行完畢",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152405&SPOKE_DATE=20240105&COMPANY_ID=8070",
+      "COMPANY_ID": "8070",
+      "selection_reason": "Earliest two chronological M35 messages: boundary/control originals, not an event-selection rule"
+    },
+    {
+      "CDATE": "113/01/27",
+      "COMPANY_NAME": "吉茂",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "汽車工業",
+      "AN_CODE": "M35",
+      "CTIME": "11:50:52",
+      "TYPEK": "上市",
+      "SUBJECT": "公告本公司董事會決議買回庫藏股",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=115052&SPOKE_DATE=20240127&COMPANY_ID=1587",
+      "COMPANY_ID": "1587",
+      "selection_reason": "Earliest three annual decision-date cases: first same-day board-announcement-looking message, text classification remains unverified"
+    },
+    {
+      "CDATE": "113/03/07",
+      "COMPANY_NAME": "保瑞",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "生技醫療業",
+      "AN_CODE": "M35",
+      "CTIME": "21:14:02",
+      "TYPEK": "上市",
+      "SUBJECT": "公告本公司董事會決議買回庫藏股",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=10&SPOKE_TIME=211402&SPOKE_DATE=20240307&COMPANY_ID=6472",
+      "COMPANY_ID": "6472",
+      "selection_reason": "Earliest three annual decision-date cases: first same-day board-announcement-looking message, text classification remains unverified"
+    },
+    {
+      "CDATE": "113/03/08",
+      "COMPANY_NAME": "台通",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "通信網路業",
+      "AN_CODE": "M35",
+      "CTIME": "17:19:38",
+      "TYPEK": "上市",
+      "SUBJECT": "公告本公司董事會決議第三次買回庫藏股",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=171938&SPOKE_DATE=20240308&COMPANY_ID=8011",
+      "COMPANY_ID": "8011",
+      "selection_reason": "Earliest three annual decision-date cases: first same-day board-announcement-looking message, text classification remains unverified"
+    },
+    {
+      "CDATE": "113/03/14",
+      "COMPANY_NAME": "大成",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "食品工業",
+      "AN_CODE": "M35",
+      "CTIME": "17:30:23",
+      "TYPEK": "上市",
+      "SUBJECT": "董事會決議申請庫藏股買回",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=173023&SPOKE_DATE=20240314&COMPANY_ID=1210",
+      "COMPANY_ID": "1210",
+      "selection_reason": "Latest preceding same-issuer message for earliest explicitly titled correction; linkage must be verified from content"
+    },
+    {
+      "CDATE": "113/03/19",
+      "COMPANY_NAME": "大成",
+      "AN_NAME": "庫藏股",
+      "CODE_NAME": "食品工業",
+      "AN_CODE": "M35",
+      "CTIME": "14:44:21",
+      "TYPEK": "上市",
+      "SUBJECT": "更正董事會決議申請庫藏股買回",
+      "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=144421&SPOKE_DATE=20240319&COMPANY_ID=1210",
+      "COMPANY_ID": "1210",
+      "selection_reason": "Earliest explicit correction in full captured response; do not pick a favorable version"
+    }
+  ]
+}

@@ -1,0 +1,1004 @@
+{
+  "archive_sha256": "a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d",
+  "manifest_files": 18,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_preflight_20261020_sources_a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d.zip",
+    "retrieved_path": "inputs/buyback_preflight_20261020/sources.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T19:03:08.586Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "filename": "new_statistics.html",
+      "request": {
+        "filename": "new_statistics.html",
+        "url": "https://mops.twse.com.tw/mops/web/t35sc09"
+      },
+      "effective_url": "https://mops.twse.com.tw/mops/error/error.html",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 65,
+      "sha256": "e14e470907e8e9f629d5725cd5d9abf8a56dd0403d321d456e5a3fc56913a7a6",
+      "request_started_at": "2026-10-19T19:02:51.174469+00:00",
+      "observed_at": "2026-10-19T19:02:51.400033+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r  0      0   0      0   0      0      0      0                              0\r  0      0   0      0   0      0      0      0                              0\n\r  0      0   0      0   0      0      0      0                              0\r  0      0   0      0   0      0      0      0                              0\r  0      0   0      0   0      0      0      0                              0\n\r  0      0   0      0   0      0      0      0                              0\r100     65 100     65   0      0    321      0                              0\r100     65 100     65   0      0    321      0                              0\r100     65 100     65   0      0    321      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "explicit_error_page",
+        "status": "explicit_error_page",
+        "expected_kind": "html",
+        "effective_url": "https://mops.twse.com.tw/mops/error/error.html",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "e14e470907e8e9f629d5725cd5d9abf8a56dd0403d321d456e5a3fc56913a7a6",
+        "size_bytes": 65,
+        "forms": [],
+        "script_sources": [],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mops.twse.com.tw/mops/error/error.html",
+        "titles": [],
+        "explicit_error_evidence": null,
+        "error_url_observed": true,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": null
+      }
+    },
+    {
+      "filename": "legacy_statistics.html",
+      "request": {
+        "filename": "legacy_statistics.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t35sc09"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/t35sc09",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 74385,
+      "sha256": "9de276dd806c9a175b095116d494e798f6e9ff5bfe47afefbc0ed251fe4feea8",
+      "request_started_at": "2026-10-19T19:02:51.174832+00:00",
+      "observed_at": "2026-10-19T19:02:51.374972+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  74385   0  74385   0      0 425.1k      0                              0\r100  74385   0  74385   0      0 425.0k      0                              0\r100  74385   0  74385   0      0 425.0k      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "query_form_only",
+        "status": "query_form_only",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/t35sc09",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "9de276dd806c9a175b095116d494e798f6e9ff5bfe47afefbc0ed251fe4feea8",
+        "size_bytes": 74385,
+        "forms": [
+          {
+            "action_raw": "/mops/web/ajax_autoComplete",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form name='fh' style='margin:0;' action='/mops/web/ajax_autoComplete' method='post' onsubmit='return false;'>",
+            "hidden_inputs": [
+              {
+                "name": "firstin",
+                "value": "1",
+                "raw_start_tag": "<input type='hidden' name='firstin' id='firstin' value = '1'>"
+              },
+              {
+                "name": "TYPEK",
+                "value": "all",
+                "raw_start_tag": "<input type='hidden' name='TYPEK' id='TYPEK' value = 'all'>"
+              },
+              {
+                "name": "step",
+                "value": "1",
+                "raw_start_tag": "<input type='hidden' name='step' id='step' value = '1'>"
+              },
+              {
+                "name": "co_id",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='co_id' value = ''>"
+              },
+              {
+                "name": "funcName",
+                "value": "t35sc09",
+                "raw_start_tag": "<input type='hidden' name = 'funcName' value = 't35sc09'>"
+              },
+              {
+                "name": "searchtype",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='searchtype' id='searchtype' value = ''>"
+              },
+              {
+                "name": "inpuType",
+                "value": "keyword",
+                "raw_start_tag": "<input type='hidden' name='inpuType' id='inpuType' value = 'keyword'>"
+              },
+              {
+                "name": "auto-more",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='auto-more' id='auto-more' value = ''>"
+              },
+              {
+                "name": "keycon",
+                "value": "",
+                "raw_start_tag": "<input type = 'hidden' name = 'keycon' value = ''>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\u5168\u7ad9\u641c\u5c0b\u71df\u6536\u9664\u6b0a\u606f\u96fb\u5b50\u66f8\u6cd5\u8aaa\u6703\u5eab\u85cf\u80a1\u8463\u76e3\u6301\u80a1\u7368\u7acb\u8463\u4e8b\u8463\u76e3\u916c\u91d1ETFTDR",
+            "action": {
+              "raw": "/mops/web/ajax_autoComplete",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_autoComplete",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form name='fh2' style='margin:0;' action='' method='post' onsubmit='return false;'>",
+            "hidden_inputs": [
+              {
+                "name": "usually",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='usually' id='usually' value = ''>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "",
+            "action": {
+              "raw": "",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/t35sc09",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "/mops/web/ajax_t35sc09",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form id=\"form1\" name=\"form1\" action=\"/mops/web/ajax_t35sc09\" onsubmit=\"return false;\" method=\"post\">",
+            "hidden_inputs": [
+              {
+                "name": null,
+                "value": "[8,8021]",
+                "raw_start_tag": "<input type=\"hidden\" id=\"subMenuID\" value=\"[8,8021]\">"
+              },
+              {
+                "name": "step",
+                "value": "1",
+                "raw_start_tag": "<input type=\"hidden\" name=\"step\" value=\"1\">"
+              },
+              {
+                "name": "firstin",
+                "value": "ture",
+                "raw_start_tag": "<input type=\"hidden\" name=\"firstin\" value=\"ture\">"
+              },
+              {
+                "name": "off",
+                "value": "1",
+                "raw_start_tag": "<input type=\"hidden\" name=\"off\" value=\"1\">"
+              }
+            ],
+            "selects": [
+              {
+                "name": "TYPEK",
+                "raw_start_tag": "<select id=\"TYPEK\" name=\"TYPEK\">",
+                "options": [
+                  {
+                    "value": "sii",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u4e0a\u5e02",
+                    "raw_start_tag": "<option value=\"sii\">"
+                  },
+                  {
+                    "value": "otc",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u4e0a\u6ac3",
+                    "raw_start_tag": "<option value=\"otc\">"
+                  },
+                  {
+                    "value": "rotc",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u8208\u6ac3",
+                    "raw_start_tag": "<option value=\"rotc\">"
+                  },
+                  {
+                    "value": "pub",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u516c\u958b\u767c\u884c",
+                    "raw_start_tag": "<option value=\"pub\">"
+                  }
+                ]
+              },
+              {
+                "name": "RD",
+                "raw_start_tag": "<select id=\"RD\" name=\"RD\">",
+                "options": [
+                  {
+                    "value": "1",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u4ee5\u8463\u4e8b\u6703\u6c7a\u8b70\u65e5\u671f\u6392\u5217",
+                    "raw_start_tag": "<option value=\"1\">"
+                  },
+                  {
+                    "value": "2",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u4ee5\u516c\u53f8\u4ee3\u865f\u6392\u5217",
+                    "raw_start_tag": "<option value=\"2\">"
+                  }
+                ]
+              }
+            ],
+            "labels": [],
+            "text": "\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\u5e02\u5834\u5225\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\u4e0a\u5e02\u4e0a\u6ac3\u8208\u6ac3\u516c\u958b\u767c\u884c\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\u65e5\u671f\u5340\u9593(\u5e74\u6708\u65e5)\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t~\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\u6392\u5217\u9806\u5e8f\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\u4ee5\u8463\u4e8b\u6703\u6c7a\u8b70\u65e5\u671f\u6392\u5217\r\n\t\t\t\t\t\t\u4ee5\u516c\u53f8\u4ee3\u865f\u6392\u5217\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\t\t\u5eab\u85cf\u80a1\u57f7\u884c\u7387\u4f4e\u65bc50%\u516c\u53f8\u8cc7\u8a0a\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\r\n\t\r\n\t&nbsp;\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\r\n\t\r\n\t\r\n\r\n\r\n\r\n",
+            "action": {
+              "raw": "/mops/web/ajax_t35sc09",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sc09",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "script_sources": [
+          {
+            "src": "js/jquery-3.6.0.min.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/jquery-3.6.0.min.js\">",
+            "route": {
+              "raw": "js/jquery-3.6.0.min.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/jquery-3.6.0.min.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "js/calendarcode.js",
+            "raw_start_tag": "<script language=\"JavaScript\" src=\"js/calendarcode.js\">",
+            "route": {
+              "raw": "js/calendarcode.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/calendarcode.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 2,
+            "mixed_control_data_rows": 0,
+            "rows": 2
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 1,
+            "rows": 3
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 5,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 1,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/t35sc09",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": null
+      }
+    },
+    {
+      "filename": "legacy_basic.html",
+      "request": {
+        "filename": "legacy_basic.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t35sb01_q1"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/t35sb01_q1",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 73526,
+      "sha256": "3181c6fc0865e890095c14075ab9a4a0d76ac0a605c94d0440d69bdf7eef2891",
+      "request_started_at": "2026-10-19T19:02:51.378335+00:00",
+      "observed_at": "2026-10-19T19:02:51.531796+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  73526   0  73526   0      0 488.2k      0                              0\r100  73526   0  73526   0      0 488.1k      0                              0\r100  73526   0  73526   0      0 488.1k      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "query_form_only",
+        "status": "query_form_only",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/t35sb01_q1",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "3181c6fc0865e890095c14075ab9a4a0d76ac0a605c94d0440d69bdf7eef2891",
+        "size_bytes": 73526,
+        "forms": [
+          {
+            "action_raw": "/mops/web/ajax_autoComplete",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form name='fh' style='margin:0;' action='/mops/web/ajax_autoComplete' method='post' onsubmit='return false;'>",
+            "hidden_inputs": [
+              {
+                "name": "firstin",
+                "value": "1",
+                "raw_start_tag": "<input type='hidden' name='firstin' id='firstin' value = '1'>"
+              },
+              {
+                "name": "TYPEK",
+                "value": "all",
+                "raw_start_tag": "<input type='hidden' name='TYPEK' id='TYPEK' value = 'all'>"
+              },
+              {
+                "name": "step",
+                "value": "1",
+                "raw_start_tag": "<input type='hidden' name='step' id='step' value = '1'>"
+              },
+              {
+                "name": "co_id",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='co_id' value = ''>"
+              },
+              {
+                "name": "funcName",
+                "value": "t35sb01_q1",
+                "raw_start_tag": "<input type='hidden' name = 'funcName' value = 't35sb01_q1'>"
+              },
+              {
+                "name": "searchtype",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='searchtype' id='searchtype' value = ''>"
+              },
+              {
+                "name": "inpuType",
+                "value": "keyword",
+                "raw_start_tag": "<input type='hidden' name='inpuType' id='inpuType' value = 'keyword'>"
+              },
+              {
+                "name": "auto-more",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='auto-more' id='auto-more' value = ''>"
+              },
+              {
+                "name": "keycon",
+                "value": "",
+                "raw_start_tag": "<input type = 'hidden' name = 'keycon' value = ''>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\u5168\u7ad9\u641c\u5c0b\u71df\u6536\u9664\u6b0a\u606f\u96fb\u5b50\u66f8\u6cd5\u8aaa\u6703\u5eab\u85cf\u80a1\u8463\u76e3\u6301\u80a1\u7368\u7acb\u8463\u4e8b\u8463\u76e3\u916c\u91d1ETFTDR",
+            "action": {
+              "raw": "/mops/web/ajax_autoComplete",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_autoComplete",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form name='fh2' style='margin:0;' action='' method='post' onsubmit='return false;'>",
+            "hidden_inputs": [
+              {
+                "name": "usually",
+                "value": "",
+                "raw_start_tag": "<input type='hidden' name='usually' id='usually' value = ''>"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "",
+            "action": {
+              "raw": "",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/t35sb01_q1",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "action_raw": "/mops/web/ajax_t35sb01_q1",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form id=\"form1\" name=\"form1\" action=\"/mops/web/ajax_t35sb01_q1\" onsubmit=\"return false;\" method=\"post\">",
+            "hidden_inputs": [
+              {
+                "name": null,
+                "value": "[8,8021]",
+                "raw_start_tag": "<input type=\"hidden\" id=\"subMenuID\" value=\"[8,8021]\">"
+              },
+              {
+                "name": "step",
+                "value": "1",
+                "raw_start_tag": "<input type=\"hidden\" name=\"step\" value=\"1\">"
+              },
+              {
+                "name": "firstin",
+                "value": "ture",
+                "raw_start_tag": "<input type=\"hidden\" name=\"firstin\" value=\"ture\">"
+              },
+              {
+                "name": "off",
+                "value": "1",
+                "raw_start_tag": "<input type=\"hidden\" name=\"off\" value=\"1\">"
+              },
+              {
+                "name": "keyword4",
+                "value": "",
+                "raw_start_tag": "<input type=\"hidden\" name=\"keyword4\">"
+              },
+              {
+                "name": "code1",
+                "value": "",
+                "raw_start_tag": "<input type=\"hidden\" name=\"code1\">"
+              },
+              {
+                "name": "TYPEK2",
+                "value": "",
+                "raw_start_tag": "<input type=\"hidden\" name=\"TYPEK2\">"
+              },
+              {
+                "name": "checkbtn",
+                "value": "",
+                "raw_start_tag": "<input type=\"hidden\" name=\"checkbtn\">"
+              },
+              {
+                "name": "queryName",
+                "value": "co_id",
+                "raw_start_tag": "<input type=\"hidden\" name=\"queryName\" value=\"co_id\">"
+              },
+              {
+                "name": "inpuType",
+                "value": "co_id",
+                "raw_start_tag": "<input type=\"hidden\" name=\"inpuType\" value=\"co_id\">"
+              },
+              {
+                "name": "TYPEK",
+                "value": "all",
+                "raw_start_tag": "<input type=\"hidden\" name=\"TYPEK\" value=\"all\">"
+              }
+            ],
+            "selects": [],
+            "labels": [],
+            "text": "\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\r\n\t\t\r\n\t\t\r\n\t\t\t\r\n\t\t\t\u516c\u53f8\u4ee3\u865f\u6216\u7c21\u7a31\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t \r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\r\n\t\t\r\n\r\n\t\r\n\t&nbsp;\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t&nbsp;&nbsp;&nbsp;\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t\r\n\t\r\n\t\r\n\t\r\n\r\n\r\n",
+            "action": {
+              "raw": "/mops/web/ajax_t35sb01_q1",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/ajax_t35sb01_q1",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "script_sources": [
+          {
+            "src": "js/jquery-3.6.0.min.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/jquery-3.6.0.min.js\">",
+            "route": {
+              "raw": "js/jquery-3.6.0.min.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/jquery-3.6.0.min.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "js/mops2.js",
+            "raw_start_tag": "<script type=\"text/javascript\" src=\"js/mops2.js\">",
+            "route": {
+              "raw": "js/mops2.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 1,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 2,
+            "mixed_control_data_rows": 0,
+            "rows": 2
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 5,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 0,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          },
+          {
+            "header_cells": 1,
+            "plain_data_rows": 0,
+            "mixed_control_data_rows": 0,
+            "rows": 1
+          }
+        ],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/t35sb01_q1",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": null
+      }
+    },
+    {
+      "filename": "legacy_search.html",
+      "request": {
+        "filename": "legacy_search.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 52073,
+      "sha256": "b7be0cbaa92ad6afca30e3cf406bc1a35662a5c84ce4473c9e968ddbd8a4a18e",
+      "request_started_at": "2026-10-19T19:02:51.402877+00:00",
+      "observed_at": "2026-10-19T19:02:51.570213+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  52073   0  52073   0      0 316.5k      0                              0\r100  52073   0  52073   0      0 316.5k      0                              0\r100  52073   0  52073   0      0 316.4k      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "query_form_only",
+        "status": "query_form_only",
+        "expected_kind": "html",
+        "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "b7be0cbaa92ad6afca30e3cf406bc1a35662a5c84ce4473c9e968ddbd8a4a18e",
+        "size_bytes": 52073,
+        "forms": [
+          {
+            "action_raw": "/eZsearch/web/eZsearch",
+            "method_raw": "post",
+            "method": "post",
+            "raw_start_tag": "<form action=\"/eZsearch/web/eZsearch\" method=\"post\" name=\"fm1\" id=\"fm1\">",
+            "hidden_inputs": [
+              {
+                "name": "oldKeyWord",
+                "value": "",
+                "raw_start_tag": "<input type=\"hidden\" name=\"oldKeyWord\" id=\"oldKeyWord\"value=\"\">"
+              },
+              {
+                "name": "ads_co_id",
+                "value": "",
+                "raw_start_tag": "<input name=\"ads_co_id\" id=\"ads_co_id\" type=\"hidden\" value=\"\" >"
+              },
+              {
+                "name": "oldKeyWord2",
+                "value": "",
+                "raw_start_tag": "<input type=\"hidden\" name=\"oldKeyWord2\" id=\"oldKeyWord2\"value=\"\">"
+              },
+              {
+                "name": "SDATE",
+                "value": "",
+                "raw_start_tag": "<input  autocomplete=\"off\" date-name=\"SDATE\" id=\"SDATE\" name=\"SDATE\" type=\"hidden\" class=\"SDATE_input\" value=\"\" oninput=\"value=value.replace(/[^\\d]/g,'')\">"
+              },
+              {
+                "name": "EDATE",
+                "value": "",
+                "raw_start_tag": "<input  autocomplete=\"off\" date-name=\"EDATE\" id=\"EDATE\" name=\"EDATE\" type=\"hidden\" class=\"EDATE_input\" value=\"\" oninput=\"value=value.replace(/[^\\d]/g,'')\">"
+              },
+              {
+                "name": "step",
+                "value": "0",
+                "raw_start_tag": "<input type=\"hidden\" name=\"step\" id=\"step\" value=\"0\">"
+              },
+              {
+                "name": "LEG",
+                "value": "TW",
+                "raw_start_tag": "<input type=\"hidden\" name=\"LEG\" id=\"LEG\" value=\"TW\">"
+              },
+              {
+                "name": "RADIO_CM",
+                "value": "1",
+                "raw_start_tag": "<input type=\"hidden\" name=\"RADIO_CM\" id=\"RADIO_CM\" value=\"1\">"
+              },
+              {
+                "name": "AN",
+                "value": "1",
+                "raw_start_tag": "<input type=\"hidden\" name=\"AN\" id=\"AN\" value=\"1\">"
+              }
+            ],
+            "selects": [
+              {
+                "name": "TYPEK_TW",
+                "raw_start_tag": "<select name=\"TYPEK_TW\" id=\"TYPEK_TW\">",
+                "options": []
+              },
+              {
+                "name": "CODE_L_TW",
+                "raw_start_tag": "<select name=\"CODE_L_TW\" id=\"CODE_L_TW\">",
+                "options": [
+                  {
+                    "value": "",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u5168\u90e8\u7522\u696d",
+                    "raw_start_tag": "<option value=\"\">"
+                  }
+                ]
+              },
+              {
+                "name": "CODE_O_TW",
+                "raw_start_tag": "<select name=\"CODE_O_TW\" id=\"CODE_O_TW\">",
+                "options": [
+                  {
+                    "value": "",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "\u5168\u90e8\u7522\u696d",
+                    "raw_start_tag": "<option value=\"\">"
+                  }
+                ]
+              },
+              {
+                "name": "TYPEK_EN",
+                "raw_start_tag": "<select name=\"TYPEK_EN\" id=\"TYPEK_EN\">",
+                "options": []
+              },
+              {
+                "name": "CODE_L_EN",
+                "raw_start_tag": "<select name=\"CODE_L_EN\" id=\"CODE_L_EN\">",
+                "options": [
+                  {
+                    "value": "",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "All",
+                    "raw_start_tag": "<option value=\"\">"
+                  }
+                ]
+              },
+              {
+                "name": "CODE_O_EN",
+                "raw_start_tag": "<select name=\"CODE_O_EN\" id=\"CODE_O_EN\">",
+                "options": [
+                  {
+                    "value": "",
+                    "selected": false,
+                    "disabled": false,
+                    "text": "All",
+                    "raw_start_tag": "<option value=\"\">"
+                  }
+                ]
+              }
+            ],
+            "labels": [],
+            "text": "\r\n                \r\n                    \r\n                    \u5e02\u5834/\u516c\u53f8\r\n                    \u5e02\u5834/\u7522\u696d\r\n                    \r\n                        \r\n                            \r\n                            \r\n                        \r\n                        \r\n                          \r\n                                \r\n                                    \u5168\u90e8\u7522\u696d                                 \r\n                                \r\n                          \r\n\r\n                        \r\n                        \r\n                            \r\n                                \u5168\u90e8\u7522\u696d    \r\n                            \r\n                        \r\n                    \r\n                    \r\n                        \r\n                            \r\n                            \r\n                        \r\n                        \r\n                            \r\n                                All\r\n                            \r\n                        \r\n                        \r\n                            \r\n                                All\r\n                            \r\n                        \r\n                    \r\n                \r\n                \r\n                    \r\n                    \u516c\u53f8\u4ee3\u865f\u7c21\u7a31\r\n                    \r\n                            \r\n                            \r\n                            \r\n                            \r\n                        \r\n                \r\n                \r\n                \r\n                    \u516c\u544a\u7be9\u9078\r\n                    \r\n                        \u516c\u544a\u9805\u76ee\r\n                \r\n                            \r\n                            \r\n                            \r\n                        \r\n                \r\n        \r\n        \r\n            \u516c\u544a\u4e3b\u65e8\r\n            \r\n        \r\n        \r\n        \r\n            \r\n            \r\n                \r\n                    \u516c\u544a\u9805\u76ee\r\n                \r\n                    \r\n                    \r\n                          \r\n                            A00\u516c\u53f8\u73fe\u6cc1\u53ca\u80a1\u6b0a\u8b8a\u52d5                         \r\n                            B00\u71df\u904b\u6982\u6cc1  \r\n                            C00\u8ca1\u52d9\u8cc7\u6599  \r\n                            D00\u6703\u8b70/\u8868\u6c7a  \r\n                            G00\u91cd\u5927\u4ea4\u6613\u3001\u5408\u7d04\u53ca\u6295\u8cc7  \r\n                            M00\u91cd\u5927\u8a0a\u606f \r\n                            ALL\u5168\u90e8\u516c\u544a\u9805\u76ee \r\n                        \r\n                    \r\n                    \r\n                            \r\n                                \r\n                                    ALL\u5168\u90e8\u516c\u544a\u9805\u76ee \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    A00\u516c\u53f8\u73fe\u6cc1\u53ca\u80a1\u6b0a\u8b8a\u52d5 \r\n                                                                         \r\n                                        A01\u516c\u53f8\u57fa\u672c\u8cc7\u6599\r\n                                        F01\u516c\u53f8\u57fa\u672c\u8cc7\u6599\r\n                                      \r\n                                    \r\n                                        A02\u767c\u884c\u8b49\u5238/\u80a1\u6b0a\u8b8a\u52d5 \r\n                                        F03\u8b8a\u66f4\u767b\u8a18\r\n                                        F04\u7279\u5225\u80a1\r\n                                        F07\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49\r\n                                        F08\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49\u57f7\u884c\u60c5\u5f62\r\n                                        F09\u9650\u5236\u54e1\u5de5\u6b0a\u5229\u65b0\u80a1\r\n                                        F10\u50d1\u5916\u6295\u8cc7\u6301\u80a1\r\n                                        M11\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db\r\n                                        M36\u6e1b\u8cc7\u6216\u9762\u984d\u7570\u52d5\r\n                                        M40\u66ab\u505c/\u6062\u5fa9\u4ea4\u6613\r\n                                        M42\u7d42\u6b62\u4e0a\u5e02\r\n                                        M35\u5eab\u85cf\u80a1\r\n                                        F11\u5eab\u85cf\u80a1\u57fa\u672c\u8cc7\u6599\r\n                                        F12\u5eab\u85cf\u80a1\u8cb7\u56de\u60c5\u5f62\r\n                                        F13\u5eab\u85cf\u80a1\u57f7\u884c\u7d50\u679c \r\n                                    \r\n                                    \r\n                                        A03\u516c\u958b\u8aaa\u660e\u66f8  \r\n                                        E01\u516c\u958b\u8aaa\u660e\u66f8  \r\n                                    \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    B00\u71df\u904b\u6982\u6cc1  \r\n                                    \r\n                                        B01\u8463\u4e8b\u53ca\u529f\u80fd\u6027\u59d4\u54e1\u6703   \r\n                                        F14\u529f\u80fd\u6027\u59d4\u54e1\u6703\u6210\u54e1\r\n                                        F15\u8463\u4e8b\u6703\u6210\u54e1\u53ca\u6301\u80a1\r\n                                        M06\u8463\u4e8b\u3001\u7e3d\u7d93\u7406\u53ca\u59d4\u54e1\u8b8a\u52d5\r\n                                        M44\u7368\u8463\u6216\u59d4\u54e1\u6703\u610f\u898b\r\n                                        F16\u5167\u90e8\u4eba\u6301\u80a1\u8f49\u8b93(\u4e8b\u524d)\r\n                                        F17\u5167\u90e8\u4eba\u6301\u80a1\u672a\u8f49\u8b93(\u4e8b\u524d)\r\n                                        F18\u5167\u90e8\u4eba\u6301\u80a1\u7570\u52d5(\u4e8b\u5f8c)\r\n                                        F19\u5167\u90e8\u4eba\u8a2d\u8cea\u89e3\u8cea\r\n                                        F20\u516c\u53f8\u6cbb\u7406\u7d44\u7e54\u67b6\u69cb\r\n                                \r\n                                      \r\n                                    \r\n                                        B02\u91cd\u8981\u4eba\u54e1\u7570\u52d5\r\n                                        M08\u91cd\u8981\u71df\u904b\u4e3b\u7ba1\u8b8a\u52d5\r\n                                      \r\n                                    \r\n                                        B03\u516c\u53f8\u6cbb\u7406  \r\n                                        F21\u6c38\u7e8c\u5831\u544a\u66f8  \r\n                                        F38ESG\u8cc7\u8a0a\r\n                                    \r\n                                    \r\n                                        B04\u91cd\u8981\u71df\u904b\u4e8b\u9805                      \r\n                                        F22\u6708\u71df\u696d\u6536\u5165\r\n                                        F23\u80cc\u66f8\u4fdd\u8b49\u8207\u8cc7\u91d1\u8cb8\u8207\r\n                                        F24\u5927\u9678\u6295\u8cc7\r\n                                        F25\u6d77\u5916\u5b50\u516c\u53f8\u6295\u8cc7\r\n                                        M01\u9000\u7968\u3001\u55aa\u5931\u50b5\u4fe1\u6216\u4ea4\u6613\u65b9\u6cd5\u8b8a\u66f4\r\n                                        M02\u91cd\u5927\u8a34\u8a1f\r\n                                        M03\u56b4\u91cd\u6e1b\u7522\u3001\u505c\u5de5\r\n                                        M04\u51fa\u79df\u5168\u90e8\u71df\u696d\u3001\u71df\u696d\u8b93\u8207\r\n                                        M05\u91cd\u6574\u6216\u7834\u7522\r\n                                        M19\u906d\u4f9d\u6cd5\u57f7\u884c\u641c\u7d22\r\n                                        M25\u8207\u4e3b\u8981\u5ba2\u6236\u6216\u4f9b\u61c9\u5546\u505c\u6b62\u696d\u52d9\r\n                                        M26\u906d\u53d7\u91cd\u5927\u640d\u5931\u6216\u8cc7\u5b89\u4e8b\u4ef6\r\n                                        M39\u91d1\u878d\u696d\u53d7\u8655\u5206        \r\n                                    \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    C00\u8ca1\u52d9\u8cc7\u6599   \r\n                                    \r\n                                        C01\u8ca1\u52d9\u5831\u8868\r\n                                        E02\u8ca1\u52d9\u5831\u544a\u66f8\r\n                                        F26\u8cc7\u7522\u8ca0\u50b5\u8868\r\n                                        F27\u7d9c\u5408\u640d\u76ca\u8868\r\n                                        F28\u73fe\u91d1\u6d41\u91cf\u8868\r\n                                        F29\u6b0a\u76ca\u8b8a\u52d5\u8868\r\n                                        M07\u66f4\u63db\u6703\u8a08\u5e2b\r\n                                        M09\u6703\u8a08\u539f\u5247\u8b8a\u52d5\r\n                                        M30\u8ca1\u52d9\u5831\u544a\u516c\u544a\u7570\u5e38\u4e8b\u9805\r\n                                        M31\u8463\u4e8b\u6703\u6c7a\u8b70\u8ca1\u52d9\u5831\u544a/\u81ea\u7d50\u8ca1\u52d9\u8cc7\u8a0a\r\n                                        F30\u71df\u76ca\u5206\u6790\r\n                                        F31\u8ca1\u52d9\u6bd4\u7387\r\n                                        F32\u6bdb\u5229\u7387\r\n                                        F33\u5b58\u8ca8\u9031\u8f49\u7387\r\n                                        F34\u61c9\u6536\u5e33\u6b3e\u9031\u8f49\u7387\r\n                                      \r\n                                    \r\n                                        C02\u6cd5\u4eba\u8aaa\u660e\u6703        \r\n                                        F35\u6cd5\u4eba\u8aaa\u660e\u6703\u7c21\u5831\r\n                                        M12\u53ec\u958b\u6cd5\u4eba\u8aaa\u660e\u6703\r\n                                        \r\n                                    \r\n                                        C03\u8ca1\u52d9\u9810\u6e2c\r\n                                        E03\u8ca1\u52d9\u9810\u6e2c\u66f8\r\n                                        M13\u8ca1\u52d9\u9810\u6e2c\r\n                                        \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    D00\u6703\u8b70/\u8868\u6c7a  \r\n                                    \r\n                                        D01\u80a1\u6771\u6703\u901a\u77e5/\u7d50\u679c \r\n                                        E04\u5e74\u5831\u53ca\u80a1\u6771\u6703\u8cc7\u6599\r\n                                        M17\u80a1\u6771\u6703\u53ec\u96c6\r\n                                        M18\u80a1\u6771\u6703\u6c7a\u8b70\r\n                                    \r\n                                    \r\n                                        D02\u80a1\u5229 \r\n                                        F36\u80a1\u5229\u91d1\u984d\r\n                                        M14\u80a1\u5229\u5206\u6d3e\u53ca\u57fa\u6e96\u65e5\r\n                                          \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    G00\u91cd\u5927\u4ea4\u6613\u3001\u5408\u7d04\u53ca\u6295\u8cc7  \r\n                                    \r\n                                        G01\u5408\u4f75\u5206\u5272\u6536\u8cfc  \r\n                                        F37\u516c\u958b\u6536\u8cfc\u8aaa\u660e\u66f8 \r\n                                         M38\u516c\u958b\u6536\u8cfc \r\n                                    \r\n                                    \r\n                                        G02\u91cd\u5927\u4ea4\u6613      \r\n                                        M10\u91cd\u8981\u5951\u7d04\u6216\u7522\u54c1\u958b\u767c\r\n                                        M15\u91cd\u5927\u6295\u8cc7\u8a08\u756b\r\n                                        M20\u91cd\u5927\u53d6\u5f97\u6216\u8655\u5206\u8cc7\u7522\r\n                                        M24\u53d6\u5f97\u6216\u8655\u5206\u79c1\u52df\u8b49\u5238\r\n                                        \r\n                                    \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    M00\u5168\u90e8\u91cd\u5927\u8a0a\u606f \r\n                                \r\n                            \r\n                    \r\n                \r\n            \r\n            \r\n                \r\n                    Announcement Filter\r\n                \r\n                    \r\n                    \r\n                        \r\n                                A00Corporate Position/Change in Shareholding                         \r\n                                B00Operation Overview  \r\n                                C00Financial Information  \r\n                                D00Meetings/Voting  \r\n                                G00Material Transactions, Contract and Investment  \r\n                                M00Material Information   \r\n                                ALLAll\r\n                        \r\n                    \r\n                    \r\n                            \r\n                                \r\n                                    ALL All Announcement Item\r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    A00Corporate Position/Change in Shareholding                         \r\n                                    \r\n                                        A01Company Profile\r\n                                        F01Company Profile\r\n                                      \r\n                                    \r\n                                        A02Issue of Securities/Change in Shareholding \r\n                                        F03Company Registration Amendment\r\n                                        F04Preferred Stock\r\n                                        F08Stock Option Plan Results\r\n                                        F10Foreign Shareholdings\r\n                                        M11Stock Issuance/Capital Reduction/Merger and Acquisition or Share Conversion\r\n                                        M36Capital Reduction/Par Value Change\r\n                                        M40Suspension/Resumption\r\n                                        M42Delist\r\n                                        M35Stock Buyback Announcement\r\n                                        F11Stock Buyback\r\n                                        F12Stock Buyback(attained to a certain % or amount)\r\n                                     \r\n                                    \r\n                                        A03Prospectus\r\n                                        E01Prospectus  \r\n                                    \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    B00Operation Overview   \r\n                                    \r\n                                        B01Board of Directors and Functional Committees\r\n                                        F15Shareholdings of Board Members\r\n                                        M06Change in Board Members or General Manager\r\n                                        M44Independent Director's Objection or Reservation\r\n                                        F16Disposal of Shares by Insiders(Filing)\r\n                                        F17Uncompleted Disposal of Shares by Insiders\r\n                                        F18Disposal of Shares by Insiders(Actual)\r\n                                        F19Share Pledges by Insiders\r\n                                        F20Organizational Structure\r\n                                \r\n                                      \r\n                                    \r\n                                        B02Change in Key Personnel\r\n                                        M08Change in Key Personnel\r\n                                        \r\n                                    \r\n                                        B03Corporate Governances\r\n                                        F38ESG information\r\n                                            \r\n                                    \r\n                                        B04Operation Matters                      \r\n                                        F22Monthly Operating Revenue\r\n                                        F23Endorsement & Lending\r\n                                        F24Investment in China\r\n                                        F25Investment in Overseas Subsidiaries\r\n                                        M01Credit Issues/ Alteration of Trading Method\r\n                                        M02Major Lawsuits\r\n                                        M03Serious Decrease in Output or Suspension\r\n                                        M04All Opearatios for Lease or Business Assignment\r\n                                        M05Reorganization or Bankruptcy\r\n                                        M19Search Conducted in Accordance with Law\r\n                                        M25Suspension of Business Transactions with a Major Purchaser or Supplier\r\n                                        M26Significant Losses or Information Security Incidents\r\n                                        M39Disciplinary Actions Against Financial Industry        \r\n                                    \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    C00Financial Information  \r\n                                    \r\n                                        C01Financial Statements\r\n                                        E02Financial Statements\r\n                                        F26Balance Sheet\r\n                                        F27Income Statement\r\n                                        F28Statements of Cash Flows\r\n                                        F29Statements of Changes in Stockholders' Equity\r\n                                        M07Change of CPA\r\n                                        M09Change of Accounting Principle\r\n                                        M30Financial Statements \u2013 Announcement of Abnormal Matters\r\n                                        M31Board Resolution for Financial Statements / Unaudited Financial Information\r\n                                        F30Operating Revenue Analysis\r\n                                        F31Financial Analysis\r\n                                        F32Profit Margin\r\n                                        F33Inventory Turnover Ratio\r\n                                        F34Receivables Turnover Ratio\r\n                                      \r\n                                    \r\n                                        C02Investor Conferences        \r\n                                        F35Investor Conferences\r\n                                        M12Convene an Investor Conference\r\n                                        \r\n                                    \r\n                                        C03Financial Forecast\r\n                                        M13Financial Forecast\r\n                                        \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    D00Meetings/Voting  \r\n                                    \r\n                                        D01Notice/Results of Shareholders' Meeting \r\n                                        E04Annual Report and Shareholders' Meeting Materials\r\n                                        M17Convene a Shareholders' Meeting\r\n                                        M18Resolutions of Shareholders' Meetings\r\n                                    \r\n                                    \r\n                                        D02Dividend \r\n                                        F36Amount of Dividends\r\n                                        M14Dividend Distribution and Record Date\r\n                                          \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    G00Material Transactions, Contract and Investment  \r\n                                    \r\n                                        G01Merger/Spin-off/Acquisition  \r\n                                         M38Public Tender Offer \r\n                                    \r\n                                    \r\n                                        G02Material Transactions    \r\n  \r\n                                        M10Signing of the Important Contract or Product Launch\r\n                                        M15Material Investment Plan\r\n                                        M20Material Acquisition or Disposal of Assets\r\n                                        M24Acquisition or Disposal of Privately Placed Securities\r\n                                        \r\n                                    \r\n                                \r\n                            \r\n                            \r\n                                \r\n                                    M00 All Material Information   \r\n                                \r\n                            \r\n                    \r\n                \r\n                \r\n           \r\n\r\n           \r\n        \r\n       \r\n        \r\n            \u8cc7\u6599\u5340\u9593(\u81ea102\u5e74\u8d77)\r\n        \r\n            \u8cc7\u6599\u8d77\u65e5\r\n            \r\n            \r\n            \r\n            \r\n        \r\n        \r\n            \u8cc7\u6599\u8fc4\u65e5\r\n            \r\n            \r\n            \r\n            \r\n        \r\n        \r\n        \r\n        \r\n        \r\n\r\n        \u641c\u5c0b\r\n        \r\n        \r\n            \r\n                \u91cd\u5927\u8a0a\u606f\r\n                \u71df\u6536\u516c\u544a\r\n                \u8ca1\u52d9\u5831\u544a\r\n                \u80a1\u6771\u6703\u901a\u77e5/\u7d50\u679c\r\n                \u80a1\u6b0a\u8b8a\u52d5\r\n                \u66ab\u505c/\u6062\u5fa9\u4ea4\u6613\r\n                \r\n            \r\n            \r\n                \r\n                    \r\n                        \r\n                    \r\n                    \r\n                        \u6d41\u901a\u8b49\u5238\u6d3b\u7d61\u7d93\u6fdf\r\n                        \r\n                    \r\n                    \r\n                        \r\n                        \u63a8\u52d5\u53f0\u7063\u8b49\u5238\u5e02\u5834\u570b\u969b\u5316\r\n                        \r\n                    \r\n                \r\n                \r\n                    \r\n                        \u6700\u65b0\u6d88\u606f\r\n                        \u6700\u5f8c\u66f4\u65b0\u6642\u9593: 15:20\r\n                    \r\n\r\n                    \r\n                    \r\n                \r\n            \r\n        \r\n        ",
+            "action": {
+              "raw": "/eZsearch/web/eZsearch",
+              "resolved_url": "https://mopsov.twse.com.tw/eZsearch/web/eZsearch",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "script_sources": [
+          {
+            "src": "./js/mop_search.js",
+            "raw_start_tag": "<script src=\"./js/mop_search.js\">",
+            "route": {
+              "raw": "./js/mop_search.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mop_search.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "//www.google-analytics.com/analytics.js",
+            "raw_start_tag": "<script async=\"\" src=\"//www.google-analytics.com/analytics.js\">",
+            "route": {
+              "raw": "//www.google-analytics.com/analytics.js",
+              "resolved_url": "https://www.google-analytics.com/analytics.js",
+              "same_origin": false,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "./js/mark.js",
+            "raw_start_tag": "<script src=\"./js/mark.js\">",
+            "route": {
+              "raw": "./js/mark.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/mark.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "./js/cleavemin.js",
+            "raw_start_tag": "<script src=\"./js/cleavemin.js\">",
+            "route": {
+              "raw": "./js/cleavemin.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/cleavemin.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          },
+          {
+            "src": "./js/calender.js",
+            "raw_start_tag": "<script src=\"./js/calender.js\">",
+            "route": {
+              "raw": "./js/calender.js",
+              "resolved_url": "https://mopsov.twse.com.tw/mops/web/js/calender.js",
+              "same_origin": true,
+              "evidence_only": true,
+              "followup_authorized": false
+            }
+          }
+        ],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8-sig",
+          "strict": true,
+          "error": null
+        },
+        "base_href_raw": null,
+        "document_base_url": "https://mopsov.twse.com.tw/mops/web/ezsearch",
+        "titles": [
+          "\u516c\u958b\u8cc7\u8a0a\u89c0\u6e2c\u7ad9 \u516c\u544a\u5feb\u6613\u67e5"
+        ],
+        "explicit_error_evidence": null,
+        "error_url_observed": false,
+        "empty_result_claim_observed": false,
+        "data_shape_observed": null
+      }
+    },
+    {
+      "filename": "official_description.pdf",
+      "request": {
+        "filename": "official_description.pdf",
+        "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/ff8080817d22b9cb017fe4d8c76a0884.pdf"
+      },
+      "effective_url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/ff8080817d22b9cb017fe4d8c76a0884.pdf",
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 174949,
+      "sha256": "b975338bdce110bcb1e130ea3e693f85a4e1f357a63101a63739ffcd88fa0d4c",
+      "request_started_at": "2026-10-19T19:02:51.536036+00:00",
+      "observed_at": "2026-10-19T19:02:51.753975+00:00",
+      "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100 170.8k 100 170.8k   0      0 809.4k      0                              0\r100 170.8k 100 170.8k   0      0 809.3k      0                              0\r100 170.8k 100 170.8k   0      0 809.3k      0                              0\n",
+      "error": null,
+      "inspection": {
+        "classification": "unrecognized",
+        "status": "unrecognized",
+        "expected_kind": "pdf",
+        "effective_url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/ff8080817d22b9cb017fe4d8c76a0884.pdf",
+        "http_status": 200,
+        "exit_code": 0,
+        "body_sha256": "b975338bdce110bcb1e130ea3e693f85a4e1f357a63101a63739ffcd88fa0d4c",
+        "size_bytes": 174949,
+        "forms": [],
+        "script_sources": [],
+        "ajax_routes": [],
+        "rejected_ajax_routes": [],
+        "tables": [],
+        "historical_pit_verified": false,
+        "source_gate_passed": false,
+        "complete_cohort_verified": false,
+        "empty_universe_verified": false,
+        "site_blocking_proven": false,
+        "followup_authorized": false,
+        "decoding": {
+          "encoding": "utf-8",
+          "strict": true,
+          "error": "'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte"
+        }
+      }
+    }
+  ],
+  "source_gate_passed": false,
+  "historical_population_verified": false,
+  "original_publication_versions_verified": false,
+  "market_outcomes_inspected": false,
+  "meaning": "Captured pages establish interface observations only. No case completeness or historical timing proof."
+}
