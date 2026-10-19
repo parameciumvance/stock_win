@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-19T12:46:21.340464+00:00",
+  "status": "positive_conditional_historical_screen_no_live_edge",
+  "files": {
+    "configs/ipo_screen_calculation_pipeline.json": "7d3734f1ccdc631d4f0a3c1af23ebb3befd442e3022201d9aac28a2180da5770",
+    "configs/ipo_screen_calculation_protocol_20261019.json": "fec69d118223f0ae607dbb51423a258abf86e011a722542b15fb9673fa5f767c",
+    "configs/ipo_screen_entry_pipeline.json": "b931dc4915082690944ba5065e19f5520ee3e713630e2c412512bef3c11ba883",
+    "configs/ipo_screen_entry_sources.json": "4911a2de48a93ed5fb265f0be56241ba070e6cc0bfd92d9be366f37a5add71d4",
+    "configs/ipo_screen_protocol_20261019.json": "5ea891548f085b8ab1825533846e89fdf96597fd8d7808544101219cf9e971a4",
+    "configs/ipo_screen_source_audit_pipeline.json": "08ed8184c3e9b8d7416233370ff491e1fbdc8efa9098ec1641e82bbafc98fc8a",
+    "configs/ipo_screen_years_pipeline.json": "19b1e8fd1bba33ed0e2f572a65ff7e481a94bdef7cdee07d4a66906e94e454f7",
+    "configs/ipo_screen_years_sources.json": "afc7af7b036fcd560dc08258f8ae7116fbb7dca3ceae600b5d941e018de48869",
+    "deliverables/ipo_screen_20261019/calculation_freeze.json": "a455f1ca282f3508b3756bc69137ffcaffd239ac716018d6b042143f648027ce",
+    "deliverables/ipo_screen_20261019/cases.json": "9272cc5a1152d2a7a8db8143566614ba5005dceabfb6ccbd3b1953b4c079a61d",
+    "deliverables/ipo_screen_20261019/entry_package.json": "7ae5ed1615a670e82156bb0a836affe3d6616f59ac2963295c2a7a04dab4a068",
+    "deliverables/ipo_screen_20261019/entry_source_receipt.json": "76d961849d606c444b9e63bcc13d0d1bea0a49c42aa1f4a51605320ec1a8ea5d",
+    "deliverables/ipo_screen_20261019/expected_amounts.json": "947519ae1df1963ffd752377737ef31386a83d485ab83dc3a3f5b3cabfde434b",
+    "deliverables/ipo_screen_20261019/independent_audit.json": "2fe6607357d20285e3485b3c69d4c6c2d47ac264352a015e9f50c885dc4fad13",
+    "deliverables/ipo_screen_20261019/market_receipt.json": "c964ae817672c8ed8ce1fb692a8492bbf818fc07f5246212512f4fd81372e4c8",
+    "deliverables/ipo_screen_20261019/matched_cases.json": "865271a523c0f66ee721c93a570ae555216c235ad0a9b4bc5f3083602dc423aa",
+    "deliverables/ipo_screen_20261019/next_tasks.json": "8b2b1c68b8293c8f8cc9feb59c4372ae30c2f5b7f63d9df7165c2e4c2a2419b1",
+    "deliverables/ipo_screen_20261019/protocol_freeze.json": "24ae42a492c7acc8638257afee8e9918533d5dd8e52a5870a005ef53df6011e8",
+    "deliverables/ipo_screen_20261019/recovery_receipt.json": "e9b59c7ca333f68b3166abdcb7e0dc07d5f16f4f9a97f4fe5d38b53e3d4f9ce5",
+    "deliverables/ipo_screen_20261019/replay_checks.json": "9064c8d257f7f90670943ccbcd17766b17cbb19ab5a248bcd6cae03fcb8a3114",
+    "deliverables/ipo_screen_20261019/report.md": "3654c818e2427b78d8f33c83e3c2d1c24933071f7d3b85b3e20de83cd4941d37",
+    "deliverables/ipo_screen_20261019/source_audit.json": "8f6723168f0432ab9c169325904bf512bb8c803b36a8f1a676b06aa2eaee9dd6",
+    "deliverables/ipo_screen_20261019/summary.json": "1ee4498e8567d575470d67a1c62cd4306e8d260629b7b038b520e8af773e7831",
+    "deliverables/ipo_screen_20261019/tests.json": "9ed55d47af91f6ed4ce2d2959dbbd1ce55f5eca1095e68cbc37978ad35bcfd1c",
+    "deliverables/ipo_screen_20261019/years_package.json": "a10301a9978983ecc5e3784f751e24efb349774c642165423e10cbbcecec7c5f",
+    "deliverables/ipo_screen_20261019/years_source_receipt.json": "5570ed6d54ead0c827ae8aed5ae6dba7cb54a729a7a188ec2a688b7bbeb1a594",
+    "ipo_screen.py": "04b9e226beb553edf0e41fdddef0d5ce5be39c40f8bc41a4f43eb2d009d117ee",
+    "ipo_screen_audit.py": "253d239180d9e0ae26da56b631f8c68c5b631705dd787eada755f0b3d6443039",
+    "test_ipo_screen.py": "692ff257f5ffc82c3c8143f1709dd45e294ea17255286a19d1e7f29006f6d523"
+  },
+  "raw_source_archives": {
+    "entry": "0d11481fe902f797f5e7aea20ba89fdb36f65493bcf3d767c1891474ea4df480",
+    "years": "d711d11adb19dfc2d8745bafca315c1e7148e8af121415d61fc424a04f492ac6"
+  },
+  "raw_price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "restore": "Restore exact2retrieved source archives and frozen legacy price archive before replay; no substitute inputs",
+  "valid_prospective_signal_date": null
+}

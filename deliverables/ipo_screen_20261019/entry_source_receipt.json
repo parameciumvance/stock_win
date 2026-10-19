@@ -1,0 +1,43 @@
+{
+  "archive_sha256": "0d11481fe902f797f5e7aea20ba89fdb36f65493bcf3d767c1891474ea4df480",
+  "manifest_files": 9,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "0d11481fe902f797f5e7aea20ba89fdb36f65493bcf3d767c1891474ea4df480",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\ipo_screen_20261019_entry_0d11481fe902f797f5e7aea20ba89fdb36f65493bcf3d767c1891474ea4df480.zip",
+    "retrieved_path": "inputs/ipo_screen_20261019/entry.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T12:33:48.788Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "request": {
+        "filename": "entry.html",
+        "url": "https://www.twse.com.tw/zh/announcement/public.html"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "add80d41ea86978924d9e09d31ac080f9f493bd47031c511f6019ca37e64e8e3",
+      "size_bytes": 11400,
+      "request_started_at": "2026-10-19T12:33:22.686826+00:00",
+      "observed_at": "2026-10-19T12:33:22.924606+00:00",
+      "transport_stderr": ""
+    },
+    {
+      "request": {
+        "filename": "fees.html",
+        "url": "https://wwwc.twse.com.tw/zh/clearing/activities/ipo.html"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "30c77fc6c7eea19a92f15dc9b752b3bce44f563d3038739456ad8f5750772a20",
+      "size_bytes": 11543,
+      "request_started_at": "2026-10-19T12:33:22.690359+00:00",
+      "observed_at": "2026-10-19T12:33:23.035559+00:00",
+      "transport_stderr": ""
+    }
+  ]
+}

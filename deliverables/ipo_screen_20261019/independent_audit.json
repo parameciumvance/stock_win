@@ -1,0 +1,13 @@
+{
+  "status": "passed_exact_rational_conditional_cash_and_probability_checks",
+  "scenario_rows": 32,
+  "maximum_twd_difference": "1.0070981050365795e-25",
+  "calendar_days_checked": 347,
+  "peak_reservation_twd": "230140",
+  "method": "Exact Fraction; winner/loser branches plus every calendar day. No inference of executable fills, historicalPIT or future lottery probabilities.",
+  "inputs": {
+    "deliverables/ipo_screen_20261019/matched_cases.json": "865271a523c0f66ee721c93a570ae555216c235ad0a9b4bc5f3083602dc423aa",
+    "deliverables/ipo_screen_20261019/expected_amounts.json": "947519ae1df1963ffd752377737ef31386a83d485ab83dc3a3f5b3cabfde434b",
+    "deliverables/ipo_screen_20261019/summary.json": "1ee4498e8567d575470d67a1c62cd4306e8d260629b7b038b520e8af773e7831"
+  }
+}

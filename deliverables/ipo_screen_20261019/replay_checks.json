@@ -1,0 +1,279 @@
+{
+  "recorded_at": "2026-10-19T12:42:34.501315+00:00",
+  "passes": 2,
+  "stage_count": 8,
+  "second_pass_all_hash_skips": true,
+  "checks": [
+    {
+      "plan": "configs/ipo_screen_entry_pipeline.json",
+      "state": "inputs/ipo_screen_20261019/entry_run/state.json",
+      "state_sha256": "827699223c1f8900ea16d5e8130fd604a6c8abb753e3b9faf675df937a63e903",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "dabc04208a4c44bb442aaf73b2a33b34efaf6e8328814569b676fa7d2edc9f86",
+          "started_at": "2026-10-19T12:42:27.837623+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:27.837706+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/entry_run/logs/acquire.1792413747840971554.log",
+          "peak_observed_rss_bytes": 7995392,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.50454426597571,
+          "outputs": {
+            "inputs/ipo_screen_20261019/raw_entry/results.json": "6ff87841dec809f76fdde939fc96dc3dfe21180be0015b16aa8a4bd58e2b376c"
+          },
+          "finished_at": "2026-10-19T12:42:28.350269+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:28.350382+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "0f9390e3313a0a6ade6afe0189ebdbf1576ab138cf44941dd6a3e89a8223a871",
+          "started_at": "2026-10-19T12:42:28.353214+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:28.353269+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/entry_run/logs/package.1792413748355676449.log",
+          "peak_observed_rss_bytes": 7049216,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5029208309715614,
+          "outputs": {
+            "inputs/ipo_screen_20261019/entry.zip": "0d11481fe902f797f5e7aea20ba89fdb36f65493bcf3d767c1891474ea4df480",
+            "deliverables/ipo_screen_20261019/entry_package.json": "7ae5ed1615a670e82156bb0a836affe3d6616f59ac2963295c2a7a04dab4a068"
+          },
+          "finished_at": "2026-10-19T12:42:28.866358+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:28.866441+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_screen_years_pipeline.json",
+      "state": "inputs/ipo_screen_20261019/years_run/state.json",
+      "state_sha256": "7af15add6af9e5aee0911d4da1d201913e3e31c62d5e1614d394924b37db77b1",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "249c7b2e9ceb727000ab694ef1f1739b39cbf9d5d5a351fe5b0011a256e7a573",
+          "started_at": "2026-10-19T12:42:28.919145+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:28.919226+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/years_run/logs/acquire.1792413748921088556.log",
+          "peak_observed_rss_bytes": 6565888,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5029884329997003,
+          "outputs": {
+            "inputs/ipo_screen_20261019/raw_years/results.json": "ef08ab0d901cf5b8681f6dd5ed26f9d6308029044a5029e91abec27d4fcd9a04"
+          },
+          "finished_at": "2026-10-19T12:42:29.427366+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:29.427440+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "4d9cb1d92e9aea0de88a0ea9c95634c131215a28e1a5b0b4c80548cdba2b9164",
+          "started_at": "2026-10-19T12:42:29.431110+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:29.431182+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/years_run/logs/package.1792413749433512536.log",
+          "peak_observed_rss_bytes": 7573504,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5038154029753059,
+          "outputs": {
+            "inputs/ipo_screen_20261019/years.zip": "d711d11adb19dfc2d8745bafca315c1e7148e8af121415d61fc424a04f492ac6",
+            "deliverables/ipo_screen_20261019/years_package.json": "a10301a9978983ecc5e3784f751e24efb349774c642165423e10cbbcecec7c5f"
+          },
+          "finished_at": "2026-10-19T12:42:29.944291+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:29.944371+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_screen_source_audit_pipeline.json",
+      "state": "inputs/ipo_screen_20261019/audit_run/state.json",
+      "state_sha256": "10799ec1b72fb2b71d351933a9392eddf53cd2b7e5bfd20b36bdef9e4f2dcae0",
+      "stdout": "verified skip: source_audit",
+      "stages": {
+        "source_audit": {
+          "status": "complete",
+          "fingerprint": "785dd749a47b3e21b869fa7fd60ce3e926ea7b61931642dba3c647cb1286054e",
+          "started_at": "2026-10-19T12:42:30.001103+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:30.001167+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/audit_run/logs/source_audit.1792413750003264646.log",
+          "peak_observed_rss_bytes": 7643136,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5045123539748602,
+          "outputs": {
+            "deliverables/ipo_screen_20261019/source_audit.json": "8f6723168f0432ab9c169325904bf512bb8c803b36a8f1a676b06aa2eaee9dd6",
+            "deliverables/ipo_screen_20261019/cases.json": "9272cc5a1152d2a7a8db8143566614ba5005dceabfb6ccbd3b1953b4c079a61d",
+            "deliverables/ipo_screen_20261019/entry_source_receipt.json": "76d961849d606c444b9e63bcc13d0d1bea0a49c42aa1f4a51605320ec1a8ea5d",
+            "deliverables/ipo_screen_20261019/years_source_receipt.json": "5570ed6d54ead0c827ae8aed5ae6dba7cb54a729a7a188ec2a688b7bbeb1a594"
+          },
+          "finished_at": "2026-10-19T12:42:30.514062+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:30.514163+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_screen_calculation_pipeline.json",
+      "state": "inputs/ipo_screen_20261019/calculation_run/state.json",
+      "state_sha256": "30ce7b936a3aa63e5558c793cd77bdb98385e9ade1cc41f5a7ebf11ffee8a252",
+      "stdout": "verified skip: match_exact_quotes\nverified skip: expected_amounts\nverified skip: independent_audit",
+      "stages": {
+        "match_exact_quotes": {
+          "status": "complete",
+          "fingerprint": "77d09fd15a87b2d4455bf76385aca2ab5a1a3f734e715a9e0075c36d13e6a307",
+          "started_at": "2026-10-19T12:42:30.644082+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:30.644293+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/calculation_run/logs/match_exact_quotes.1792413750647608462.log",
+          "peak_observed_rss_bytes": 147976192,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 3.0058228810084984,
+          "outputs": {
+            "deliverables/ipo_screen_20261019/matched_cases.json": "865271a523c0f66ee721c93a570ae555216c235ad0a9b4bc5f3083602dc423aa",
+            "deliverables/ipo_screen_20261019/market_receipt.json": "c964ae817672c8ed8ce1fb692a8492bbf818fc07f5246212512f4fd81372e4c8"
+          },
+          "finished_at": "2026-10-19T12:42:33.659656+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:33.659752+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "expected_amounts": {
+          "status": "complete",
+          "fingerprint": "fc559d8c787a171ec4b5d2459a3a9aaf7583254cc342d8a0a7a8e5d5e098e67c",
+          "started_at": "2026-10-19T12:42:33.698535+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:42:33.698684+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/calculation_run/logs/expected_amounts.1792413753702288028.log",
+          "peak_observed_rss_bytes": 7913472,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5039458069950342,
+          "outputs": {
+            "deliverables/ipo_screen_20261019/expected_amounts.json": "947519ae1df1963ffd752377737ef31386a83d485ab83dc3a3f5b3cabfde434b",
+            "deliverables/ipo_screen_20261019/summary.json": "1ee4498e8567d575470d67a1c62cd4306e8d260629b7b038b520e8af773e7831"
+          },
+          "finished_at": "2026-10-19T12:42:34.210256+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:42:34.210347+00:00",
+            "runtime_identity": "c0739d5244b98d5bf005602ff7c492d252c4a4167d3b785b28cdc02433245fcf",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "independent_audit": {
+          "status": "complete",
+          "fingerprint": "6bce62e1d56ebefe2553940f84b02c41cfb657d25814e1144139c0d3e7264871",
+          "started_at": "2026-10-19T12:41:13.040396+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T12:41:13.040452+00:00",
+            "runtime_identity": "833fc8ab511426b37aba6ce4de1a36ec35d5f405f929221f243496167b13606b",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_screen_20261019/calculation_run/logs/independent_audit.1792413673044166708.log",
+          "peak_observed_rss_bytes": 7585792,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5039599869633093,
+          "outputs": {
+            "deliverables/ipo_screen_20261019/independent_audit.json": "2fe6607357d20285e3485b3c69d4c6c2d47ac264352a015e9f50c885dc4fad13"
+          },
+          "finished_at": "2026-10-19T12:41:13.555229+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T12:41:13.555412+00:00",
+            "runtime_identity": "833fc8ab511426b37aba6ce4de1a36ec35d5f405f929221f243496167b13606b",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ]
+}

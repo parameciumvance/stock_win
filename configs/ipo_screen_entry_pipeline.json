@@ -1,0 +1,52 @@
+{
+  "stages": [
+    {
+      "id": "acquire",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/ipo_screen_entry_sources.json"
+      ],
+      "inputs": [
+        "ipo_screen.py",
+        "tender_preflight.py",
+        "bounded_public_sources.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/ipo_screen_protocol_20261019.json",
+        "deliverables/ipo_screen_20261019/protocol_freeze.json",
+        "configs/ipo_screen_entry_sources.json"
+      ],
+      "outputs": [
+        "inputs/ipo_screen_20261019/raw_entry/results.json"
+      ],
+      "timeout_seconds": 80
+    },
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "ipo_screen.py",
+        "package"
+      ],
+      "inputs": [
+        "ipo_screen.py",
+        "tender_preflight.py",
+        "bounded_public_sources.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/ipo_screen_protocol_20261019.json",
+        "deliverables/ipo_screen_20261019/protocol_freeze.json",
+        "configs/ipo_screen_entry_sources.json",
+        "inputs/ipo_screen_20261019/raw_entry"
+      ],
+      "outputs": [
+        "inputs/ipo_screen_20261019/entry.zip",
+        "deliverables/ipo_screen_20261019/entry_package.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

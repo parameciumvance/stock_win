@@ -1,0 +1,24 @@
+{
+  "status": "current_historical_table_verified_not_historical_pit",
+  "rows_2024": 263,
+  "rows_2023": 222,
+  "csv_json_rows_verified": 263,
+  "market_categories": {
+    "\u7b2c\u4e00\u4e0a\u6ac3\u516c\u53f8\u73fe\u91d1\u589e\u8cc7": 2,
+    "\u4e0a\u6ac3\u589e\u8cc7": 51,
+    "\u4e0a\u5e02\u589e\u8cc7": 46,
+    "\u521d\u4e0a\u6ac3": 29,
+    "\u5275\u65b0\u677f\u4e0a\u5e02\u73fe\u589e": 1,
+    "\u4e2d\u592e\u767b\u9304\u516c\u50b5": 95,
+    "\u521d\u4e0a\u5e02": 18,
+    "\u7b2c\u4e00\u4e0a\u5e02\u516c\u53f8\u73fe\u91d1\u589e\u8cc7": 10,
+    "\u5275\u65b0\u677f\u8f49\u5217\u4e0a\u5e02": 3,
+    "\u7b2c\u4e00\u4e0a\u5e02\u516c\u53f8\u521d\u4e0a\u5e02": 6,
+    "\u5275\u65b0\u677f\u521d\u4e0a\u5e02": 1,
+    "\u7b2c\u4e00\u4e0a\u6ac3\u516c\u53f8\u521d\u4e0a\u6ac3": 1
+  },
+  "cohort_rows": 18,
+  "source_sha256": "aaa3f06c15646c7745faa082665b85ae0ffe71e3492fea5c81646335d6addb03",
+  "historical_pit_verified": false,
+  "fee_scenario_source_sha256": "30c77fc6c7eea19a92f15dc9b752b3bce44f563d3038739456ad8f5750772a20"
+}

@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "member_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "crc_manifest_verified": true,
+  "exact_quote_matches": 17,
+  "events": 18,
+  "no_endpoint_shifting": true,
+  "raw_open_close_only": true,
+  "new_price_downloads": 0
+}

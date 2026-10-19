@@ -1,0 +1,56 @@
+{
+  "archive_sha256": "d711d11adb19dfc2d8745bafca315c1e7148e8af121415d61fc424a04f492ac6",
+  "manifest_files": 12,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "backup": {
+    "sha256": "d711d11adb19dfc2d8745bafca315c1e7148e8af121415d61fc424a04f492ac6",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\ipo_screen_20261019_years_d711d11adb19dfc2d8745bafca315c1e7148e8af121415d61fc424a04f492ac6.zip",
+    "retrieved_path": "inputs/ipo_screen_20261019/years.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T12:35:11.927Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "observations": [
+    {
+      "request": {
+        "filename": "2024.json",
+        "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2024"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "aaa3f06c15646c7745faa082665b85ae0ffe71e3492fea5c81646335d6addb03",
+      "size_bytes": 48847,
+      "request_started_at": "2026-10-19T12:33:51.452983+00:00",
+      "observed_at": "2026-10-19T12:33:51.709777+00:00",
+      "transport_stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2023.json",
+        "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2023"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "4d34d437b735ce55d80dac6bd93602d182952cb44f36510c174473ce1f125494",
+      "size_bytes": 41140,
+      "request_started_at": "2026-10-19T12:33:51.450237+00:00",
+      "observed_at": "2026-10-19T12:33:51.898549+00:00",
+      "transport_stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024.csv",
+        "url": "https://www.twse.com.tw/announcement/publicForm?response=csv&date=2024"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "04ac01b825a1df4a4aeaa1533b34f26d200114b518ace00bac6df8d630ae6090",
+      "size_bytes": 45530,
+      "request_started_at": "2026-10-19T12:33:51.714272+00:00",
+      "observed_at": "2026-10-19T12:33:51.952570+00:00",
+      "transport_stderr": ""
+    }
+  ]
+}

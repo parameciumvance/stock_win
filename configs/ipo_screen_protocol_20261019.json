@@ -1,0 +1,26 @@
+{
+  "purpose": "IPO subscription expected-value source feasibility, not price-rule tuning or revival of closed studies",
+  "base_commit": "30e11751df16b4d73a9915580bbbb7f60622b961",
+  "question": "Can all2024initial-TWSE-listing public subscriptions be replayed with fixed first-listing-day quotes and every application fee, including losers?",
+  "mechanism": "Fixed allocation price may differ from first listed quote; random allocation and nonrefunded application fees reduce expected cash outcome",
+  "discovery": "Official site tables and current fee text seen in web discovery, no IPO cohort or quote outcomes examined",
+  "source_requests_max": 5,
+  "initial_requests": 2,
+  "followups": "At most3 official-form-derived requests to verify year2024 vs2023 and optional CSV reconciliation",
+  "workers": 2,
+  "request_timeout_seconds": 30,
+  "per_response_bytes": 33554432,
+  "scope": "All2024draw-date initial domestic TWSE listings as labeled by official table; other categories retained in source inventory. No OTC expansion, other years of returns or PDF campaign",
+  "requirements": [
+    "Exact historical year echoed/validated in returned rows; wrong-year200 fails",
+    "Declared price, application/lottery/listing dates, lot size, valid applications and available lots reconcile",
+    "Cancel/refund/unknown cases retained, not zero-imputed or successful-only",
+    "Frozen local raw price endpoints checked before a separately frozen calculation protocol"
+  ],
+  "fee_status": "Current official fee explanation is only a historical cost scenario until2024version confirmed; no implicit retrospective legal assumption",
+  "pretrade_information": "Realized winning odds may weight ex-post outcomes only; never an entry filter or claimed known before application",
+  "stop": "If source or frozen-price coverage is insufficient in bounded probes, write concrete gaps and close without manual downloads or new PDF collection",
+  "study_gate": "Freeze exact universe, entry/exit quotes, allocation probability, fees and stop rule BEFORE reading market endpoints. All reused years stay exploratory; no valid signal, orders or annual daily validation",
+  "models_to_fit": 0,
+  "parameter_searches": 0
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-19T12:46:21.334826+00:00",
+  "base_remote_main": "30e11751df16b4d73a9915580bbbb7f60622b961",
+  "parent_checkpoint_sha256": "a13c298f061494bac816b5ddbd9c270fd894852aa0e75b06639fa26df77d33de",
+  "parent_files_verified": 46,
+  "parent_raw_archives_verified": 9,
+  "old_raw_inputs_replaced": false,
+  "new_small_requests": 5,
+  "old_archive_retransmissions": 0
+}

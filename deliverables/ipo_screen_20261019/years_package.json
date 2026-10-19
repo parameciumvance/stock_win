@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/ipo_screen_20261019/years.zip",
+  "sha256": "d711d11adb19dfc2d8745bafca315c1e7148e8af121415d61fc424a04f492ac6",
+  "manifest_files": 12,
+  "created_at": "2026-10-19T12:33:52.479771+00:00",
+  "retrieved": "inputs/ipo_screen_20261019/years.retrieved.zip",
+  "transfer_receipt": "inputs/ipo_screen_20261019/years_transfer.json",
+  "backup_label": "ipo_screen_20261019_years"
+}

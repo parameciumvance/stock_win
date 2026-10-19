@@ -1,0 +1,194 @@
+[
+  {
+    "symbol": "6885",
+    "draw_date": "2024-12-10",
+    "sale_drag": "0",
+    "expected_application_twd": "-29.56022054889066389558824670"
+  },
+  {
+    "symbol": "8045",
+    "draw_date": "2024-12-05",
+    "sale_drag": "0",
+    "expected_application_twd": "21.07862116339338682986230369"
+  },
+  {
+    "symbol": "7705",
+    "draw_date": "2024-11-20",
+    "sale_drag": "0",
+    "expected_application_twd": "38.67042854257112296631862692"
+  },
+  {
+    "symbol": "2646",
+    "draw_date": "2024-10-21",
+    "sale_drag": "0",
+    "expected_application_twd": "274.4885969899686356573137641"
+  },
+  {
+    "symbol": "6923",
+    "draw_date": "2024-09-19",
+    "sale_drag": "0",
+    "expected_application_twd": "195.9758613178900434342528411"
+  },
+  {
+    "symbol": "6958",
+    "draw_date": "2024-08-14",
+    "sale_drag": "0",
+    "expected_application_twd": "90.0433973961562306261624303"
+  },
+  {
+    "symbol": "6838",
+    "draw_date": "2024-08-07",
+    "sale_drag": "0",
+    "expected_application_twd": "28.50153443288085245121124456"
+  },
+  {
+    "symbol": "6952",
+    "draw_date": "2024-06-06",
+    "sale_drag": "0",
+    "expected_application_twd": "-82.99984075925984903977833689"
+  },
+  {
+    "symbol": "6928",
+    "draw_date": "2024-05-10",
+    "sale_drag": "0",
+    "expected_application_twd": "115.5727149975580248411120084"
+  },
+  {
+    "symbol": "1563",
+    "draw_date": "2024-05-07",
+    "sale_drag": "0",
+    "expected_application_twd": "193.6467511517921519265785968"
+  },
+  {
+    "symbol": "4949",
+    "draw_date": "2024-05-03",
+    "sale_drag": "0",
+    "expected_application_twd": "18.34648236291321640477277173"
+  },
+  {
+    "symbol": "6914",
+    "draw_date": "2024-04-26",
+    "sale_drag": "0",
+    "expected_application_twd": "295.3304648042592102002273174"
+  },
+  {
+    "symbol": "3168",
+    "draw_date": "2024-03-20",
+    "sale_drag": "0",
+    "expected_application_twd": "66.09852849009798807330153381"
+  },
+  {
+    "symbol": "4771",
+    "draw_date": "2024-03-12",
+    "sale_drag": "0",
+    "expected_application_twd": "365.4528351380548496190763624"
+  },
+  {
+    "symbol": "4588",
+    "draw_date": "2024-01-23",
+    "sale_drag": "0",
+    "expected_application_twd": "37.18694167626156350498272918"
+  },
+  {
+    "symbol": "6906",
+    "draw_date": "2024-01-09",
+    "sale_drag": "0",
+    "expected_application_twd": "126.2063617403251335837992684"
+  },
+  {
+    "symbol": "6885",
+    "draw_date": "2024-12-10",
+    "sale_drag": "0.005",
+    "expected_application_twd": "-32.87512310877775278981938876"
+  },
+  {
+    "symbol": "8045",
+    "draw_date": "2024-12-05",
+    "sale_drag": "0.005",
+    "expected_application_twd": "17.10221063477690698473163269"
+  },
+  {
+    "symbol": "7705",
+    "draw_date": "2024-11-20",
+    "sale_drag": "0.005",
+    "expected_application_twd": "36.94897293502485288614695822"
+  },
+  {
+    "symbol": "2646",
+    "draw_date": "2024-10-21",
+    "sale_drag": "0.005",
+    "expected_application_twd": "268.0396694862642592055776525"
+  },
+  {
+    "symbol": "6923",
+    "draw_date": "2024-09-19",
+    "sale_drag": "0.005",
+    "expected_application_twd": "189.9421517251982728798575253"
+  },
+  {
+    "symbol": "6958",
+    "draw_date": "2024-08-14",
+    "sale_drag": "0.005",
+    "expected_application_twd": "84.8357098574085554866707998"
+  },
+  {
+    "symbol": "6838",
+    "draw_date": "2024-08-07",
+    "sale_drag": "0.005",
+    "expected_application_twd": "25.34489290020752363751157939"
+  },
+  {
+    "symbol": "6952",
+    "draw_date": "2024-06-06",
+    "sale_drag": "0.005",
+    "expected_application_twd": "-85.26530781235071180610847479"
+  },
+  {
+    "symbol": "6928",
+    "draw_date": "2024-05-10",
+    "sale_drag": "0.005",
+    "expected_application_twd": "112.8391392755792907738028735"
+  },
+  {
+    "symbol": "1563",
+    "draw_date": "2024-05-07",
+    "sale_drag": "0.005",
+    "expected_application_twd": "186.8001564237617470578890125"
+  },
+  {
+    "symbol": "4949",
+    "draw_date": "2024-05-03",
+    "sale_drag": "0.005",
+    "expected_application_twd": "17.60905000978026993545021842"
+  },
+  {
+    "symbol": "6914",
+    "draw_date": "2024-04-26",
+    "sale_drag": "0.005",
+    "expected_application_twd": "290.5969218147790491979797807"
+  },
+  {
+    "symbol": "3168",
+    "draw_date": "2024-03-20",
+    "sale_drag": "0.005",
+    "expected_application_twd": "64.19730842412210417284330540"
+  },
+  {
+    "symbol": "4771",
+    "draw_date": "2024-03-12",
+    "sale_drag": "0.005",
+    "expected_application_twd": "360.7704783475727224264031839"
+  },
+  {
+    "symbol": "4588",
+    "draw_date": "2024-01-23",
+    "sale_drag": "0.005",
+    "expected_application_twd": "36.39724858061698495255488942"
+  },
+  {
+    "symbol": "6906",
+    "draw_date": "2024-01-09",
+    "sale_drag": "0.005",
+    "expected_application_twd": "124.2923511102770115471641992"
+  }
+]

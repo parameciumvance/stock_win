@@ -1,0 +1,80 @@
+{
+  "stages": [
+    {
+      "id": "match_exact_quotes",
+      "command": [
+        "{python}",
+        "ipo_screen.py",
+        "match_quotes"
+      ],
+      "inputs": [
+        "ipo_screen.py",
+        "research_reassessment.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "tender_preflight.py",
+        "configs/ipo_screen_protocol_20261019.json",
+        "configs/ipo_screen_calculation_protocol_20261019.json",
+        "deliverables/ipo_screen_20261019/protocol_freeze.json",
+        "deliverables/ipo_screen_20261019/calculation_freeze.json",
+        "deliverables/ipo_screen_20261019/cases.json",
+        "deliverables/ipo_screen_20261019/source_audit.json",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/ipo_screen_20261019/matched_cases.json",
+        "deliverables/ipo_screen_20261019/market_receipt.json"
+      ],
+      "timeout_seconds": 180,
+      "max_rss_mb": 1536
+    },
+    {
+      "id": "expected_amounts",
+      "command": [
+        "{python}",
+        "ipo_screen.py",
+        "calculate"
+      ],
+      "inputs": [
+        "ipo_screen.py",
+        "research_reassessment.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "tender_preflight.py",
+        "configs/ipo_screen_protocol_20261019.json",
+        "configs/ipo_screen_calculation_protocol_20261019.json",
+        "deliverables/ipo_screen_20261019/protocol_freeze.json",
+        "deliverables/ipo_screen_20261019/calculation_freeze.json",
+        "deliverables/ipo_screen_20261019/cases.json",
+        "deliverables/ipo_screen_20261019/source_audit.json",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+        "deliverables/ipo_screen_20261019/matched_cases.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_screen_20261019/expected_amounts.json",
+        "deliverables/ipo_screen_20261019/summary.json"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "independent_audit",
+      "command": [
+        "{python}",
+        "ipo_screen_audit.py"
+      ],
+      "inputs": [
+        "ipo_screen_audit.py",
+        "research_runtime.py",
+        "deliverables/ipo_screen_20261019/matched_cases.json",
+        "deliverables/ipo_screen_20261019/expected_amounts.json",
+        "deliverables/ipo_screen_20261019/summary.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_screen_20261019/independent_audit.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-19T12:42:27.784818+00:00",
+  "command": [
+    "/home/vance/dev_home/projects/stock_win/.venv/bin/python",
+    "-m",
+    "unittest",
+    "test_ipo_screen",
+    "test_operating_snapshot.AcquisitionCheckpointTests",
+    "test_research_pipeline",
+    "-v"
+  ],
+  "tests_run": 25,
+  "new_tests": 12,
+  "exit_code": 0,
+  "log_sha256": "5195a3e02b2ca0310d17c1f2276be213df89ea3a29d275d517172db465efde2a",
+  "inputs": {
+    "ipo_screen.py": "04b9e226beb553edf0e41fdddef0d5ce5be39c40f8bc41a4f43eb2d009d117ee",
+    "test_ipo_screen.py": "692ff257f5ffc82c3c8143f1709dd45e294ea17255286a19d1e7f29006f6d523",
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  }
+}

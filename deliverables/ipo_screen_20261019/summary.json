@@ -1,0 +1,39 @@
+{
+  "status": "retrospective_conditional_per_application_quote_proxy_only",
+  "cohort_events": 18,
+  "individually_affordable_events": 16,
+  "calculated_events": 16,
+  "whole_eligible_cohort_coverage": true,
+  "scenarios": [
+    {
+      "sale_drag": "0",
+      "applications": 16,
+      "sum_expected_twd": "1754.039458895971897183605214",
+      "median_expected_twd": "78.07096294312710934973198205",
+      "positive_applications": 14
+    },
+    {
+      "sale_drag": "0.005",
+      "applications": 16,
+      "sum_expected_twd": "1697.575830604241086548655746",
+      "median_expected_twd": "74.5165091407653298297570526",
+      "positive_applications": 14
+    }
+  ],
+  "no_win_probability_lower_bound_union": "0.8255437192947945901831050281",
+  "independent_lottery_no_win_probability_illustration": "0.8386140351476692346063498283",
+  "no_win_application_fee_loss_twd": "-320",
+  "reservation_overlap_through_listing_twd": "230140",
+  "reservation_overlap_through_listing_within_budget": true,
+  "reservation_diagnostic_scope": "Application deadline through listing date inclusive; refunds, sale settlement and reinvestment are not modeled. Passing this is not executable funding proof.",
+  "funded_portfolio_simulated": false,
+  "fee_versions_2024_verified": false,
+  "historical_pit_verified": false,
+  "actual_fills_verified": false,
+  "exploratory_resource_gate_passed": true,
+  "profit_edge_proven": false,
+  "manual_daily_validation": false,
+  "valid_prospective_signals": 0,
+  "decision": "survives_narrow_historical_screen_no_deployment",
+  "interpretation": "Expected amounts are conditional on observed future IPO quotes and realized applications; not a forecast or account profit. Unknown cases remain gaps, overlap funding not modeled."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "positive_conditional_quote_screen_retained_not_live",
+  "completed": [
+    "2024JSON263rows matchedCSV;2023control222rows",
+    "18fixedIPOevents retained;16individually affordable events have exact listing-day raw quotes",
+    "Both fixed cost scenarios have positive aggregate/median conditional expected amount",
+    "25tests and32exact-rational scenario checks plus347calendar-day reservation checks",
+    "8pipeline stages passed hash replay"
+  ],
+  "decision": "Retain small calculation tool and narrow positive candidate; no manual daily validation, market model, automatic subscription, trading or expansion under current evidence",
+  "unresolved": [
+    "HistoricalPIT and announcement revision coverage",
+    "Actual2024fee versions",
+    "Actual executable sale and settlement/funding paths",
+    "Future allocation odds and independent performance evidence"
+  ],
+  "no_win_probability_scope": "Union bound under uniform qualified allocation model; product shown only under extra independence assumption; both conditional retrospective, not forecasts",
+  "user_action_required": null,
+  "external_credentials_blocker": null,
+  "valid_prospective_signal_date": null
+}

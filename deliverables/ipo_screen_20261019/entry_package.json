@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/ipo_screen_20261019/entry.zip",
+  "sha256": "0d11481fe902f797f5e7aea20ba89fdb36f65493bcf3d767c1891474ea4df480",
+  "manifest_files": 9,
+  "created_at": "2026-10-19T12:33:23.224730+00:00",
+  "retrieved": "inputs/ipo_screen_20261019/entry.retrieved.zip",
+  "transfer_receipt": "inputs/ipo_screen_20261019/entry_transfer.json",
+  "backup_label": "ipo_screen_20261019_entry"
+}

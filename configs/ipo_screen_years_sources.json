@@ -1,0 +1,25 @@
+{
+  "output_directory": "inputs/ipo_screen_20261019/raw_years",
+  "allowed_hosts": [
+    "www.twse.com.tw"
+  ],
+  "discovery": {
+    "source": "inputs/ipo_screen_20261019/raw_entry/entry.html",
+    "sha256": "add80d41ea86978924d9e09d31ac080f9f493bd47031c511f6019ca37e64e8e3",
+    "evidence": "form data-api=/announcement/publicForm; field name=date; date format f:Y"
+  },
+  "requests": [
+    {
+      "filename": "2024.json",
+      "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2024"
+    },
+    {
+      "filename": "2023.json",
+      "url": "https://www.twse.com.tw/announcement/publicForm?response=json&date=2023"
+    },
+    {
+      "filename": "2024.csv",
+      "url": "https://www.twse.com.tw/announcement/publicForm?response=csv&date=2024"
+    }
+  ]
+}

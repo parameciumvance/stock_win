@@ -1,0 +1,36 @@
+{
+  "stages": [
+    {
+      "id": "source_audit",
+      "command": [
+        "{python}",
+        "ipo_screen.py",
+        "source_audit"
+      ],
+      "inputs": [
+        "ipo_screen.py",
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/ipo_screen_protocol_20261019.json",
+        "deliverables/ipo_screen_20261019/protocol_freeze.json",
+        "configs/ipo_screen_entry_sources.json",
+        "deliverables/ipo_screen_20261019/entry_package.json",
+        "inputs/ipo_screen_20261019/entry.retrieved.zip",
+        "inputs/ipo_screen_20261019/entry_transfer.json",
+        "configs/ipo_screen_years_sources.json",
+        "deliverables/ipo_screen_20261019/years_package.json",
+        "inputs/ipo_screen_20261019/years.retrieved.zip",
+        "inputs/ipo_screen_20261019/years_transfer.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_screen_20261019/source_audit.json",
+        "deliverables/ipo_screen_20261019/cases.json",
+        "deliverables/ipo_screen_20261019/entry_source_receipt.json",
+        "deliverables/ipo_screen_20261019/years_source_receipt.json"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

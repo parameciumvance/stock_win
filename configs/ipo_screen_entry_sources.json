@@ -1,0 +1,17 @@
+{
+  "output_directory": "inputs/ipo_screen_20261019/raw_entry",
+  "allowed_hosts": [
+    "www.twse.com.tw",
+    "wwwc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "entry.html",
+      "url": "https://www.twse.com.tw/zh/announcement/public.html"
+    },
+    {
+      "filename": "fees.html",
+      "url": "https://wwwc.twse.com.tw/zh/clearing/activities/ipo.html"
+    }
+  ]
+}
