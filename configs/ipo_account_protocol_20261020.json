@@ -1,0 +1,31 @@
+{
+  "purpose": "Bounded existing16IPO account-outcome and funding scenario; no new selection, prices, years or parameter search",
+  "client_date": "2026-10-20",
+  "known_before_freeze": "Existing2024screen16eligible cases; marginalEV1697.58 under0.005drag and no-win illustration0.838614 already inspected. This extension is exploratory, not a blind holdout.",
+  "inputs": {
+    "deliverables/ipo_screen_20261019/checkpoint.json": "63d3e9f207399b97040bb5743add06683f2ca19baf1c3f784d0024172b1e01f6",
+    "deliverables/ipo_screen_20261019/matched_cases.json": "865271a523c0f66ee721c93a570ae555216c235ad0a9b4bc5f3083602dc423aa",
+    "deliverables/ipo_screen_20261019/expected_amounts.json": "947519ae1df1963ffd752377737ef31386a83d485ab83dc3a3f5b3cabfde434b",
+    "configs/ipo_screen_calculation_protocol_20261019.json": "fec69d118223f0ae607dbb51423a258abf86e011a722542b15fb9673fa5f767c",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "inputs/benchmark_cash_20261019/market.csv.gz": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9"
+  },
+  "cohort": "Exactly all16eligible rows of pinned matched_cases; preserve old18case ledger and negatives",
+  "budget_twd": "300000",
+  "sale_drag_scenarios": [
+    "0",
+    "0.005"
+  ],
+  "application_fee_twd": "20",
+  "winner_fee_twd": "50",
+  "fees_scope": "Unchanged scenario. Bounded source review may corroborate historical20 and one-case50; does not assert all16 fee versions or actual charges.",
+  "probability": "Exact min(1,integer allocated lots/integer qualified count); realized ex-post odds, never preapplication features",
+  "distribution": "Enumerate2^16win/loss masks with exact integer product weights. Independence is an added unverified illustrative assumption. Report loss/profit/zero probabilities,5/50/95percentile, mean,worst,best and no-win; no forecast.",
+  "funding": "Reserve all principal+70 at each application_end before any same-date credits; no double-counted actual debit. Losers refund principal+50 one observed market day after draw; winners assumed sold at pinned raw listing open net fixed drag and credited two observed market days after listing. No interest, lending, withdrawals, external funding, or skipped/adapted applications.",
+  "calendar": "Pinned observed cross-security market dates from old2023-2025calendar; do not drop missing0050quotes or compress halts. Banking days may differ; market-day refund and within-day ordering are explicit scenarios, not proven cash timestamps.",
+  "funding_gate": "Evaluate each full path, including zero probability states. Report failures without dropping unfundable cases or changing order/selection; positive marginalEV must not be called feasible accountEV if any positive-weight path fails.",
+  "source_request_bound": 3,
+  "source_goal": "Historical20231130 and20240627law text plus6906actual2024announcement only; no expanding PDF queue; preserve failures",
+  "stop": "After exact-distribution/funding audit and bounded source check, retain low-work tool. No manual daily validation, subscriptions/trades, automatic expansion, or claim of deployable edge.",
+  "external_blockers": "Historical version/PIT completeness and actual broker fills/cash timestamps cannot be proved from current historical tables or hypothetical paths; no manual user download request."
+}

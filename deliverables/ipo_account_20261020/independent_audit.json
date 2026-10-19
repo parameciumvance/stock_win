@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "sale_drag": "0",
+      "all_mask_weights_and_payoffs_verified": 65536,
+      "probability_mass_exact": true,
+      "mean_matches_old_marginal_screen": true,
+      "independent_analytic_cash_bound_verified": true,
+      "maximum_required_exact": "230180"
+    },
+    {
+      "sale_drag": "0.005",
+      "all_mask_weights_and_payoffs_verified": 65536,
+      "probability_mass_exact": true,
+      "mean_matches_old_marginal_screen": true,
+      "independent_analytic_cash_bound_verified": true,
+      "maximum_required_exact": "230180"
+    }
+  ],
+  "scope": "Arithmetic and declared cash scenario; not independence, PIT, actual fills or bank timing proof"
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-19T16:59:15.877337+00:00",
+  "status": "fixed_16case_account_scenario_complete_no_deployable_edge",
+  "files": {
+    "ipo_account.py": "2522a2b7be77032fd83d38235c4c01b8e75e7e35ade947b504667c11e6c4469e",
+    "ipo_account_audit.py": "48cf9124619c4f97634e0a082f8bcff3247a125484a4bdc0543fe20b612f9a5e",
+    "test_ipo_account.py": "b228a85483a798d981fef269511398f24f94b5425dbeff99da754be89d893f4f",
+    "configs/ipo_account_acquisition_pipeline.json": "84382e9ceed24a87fec2536d1447e984616a389309474ee9d085f8e9a744461a",
+    "configs/ipo_account_pipeline.json": "d102ffa1bd940b0cb31d2b49a186ba2d9213e489466eaa2260d2d3f844d995eb",
+    "configs/ipo_account_protocol_20261020.json": "cd8b6716fb01f5ce9f18d7daf0724e5ade4bd2a62c07088c0e096ea96d22c7f7",
+    "configs/ipo_account_sources.json": "a6ed26eab020c3308ed61400f92cb28832aff9da92170692475b2abcb1aef456",
+    "deliverables/ipo_account_20261020/calendar_and_terms.json": "0ea5db19bdf903f7dae882a41e63d13e02a89bc90ebc1ee8bdda2ffeb693d8d5",
+    "deliverables/ipo_account_20261020/independent_audit.json": "ea04fc1c20b1237e878a55a06639d1c248dda4a595f88d06ff25194c7552e075",
+    "deliverables/ipo_account_20261020/next_tasks.json": "c81774004eb812cdc7518983c596a6e67513fcc03621eb1ab52ee3321663d926",
+    "deliverables/ipo_account_20261020/protocol_freeze.json": "d214c3a4193c0392d449cbbbb782f4d673f8f690427705d35402389bd77566bd",
+    "deliverables/ipo_account_20261020/recovery_receipt.json": "2b075ea4d098bfc4e873602ca75095f59ba14558c37ca92fb84be0cabf350f9d",
+    "deliverables/ipo_account_20261020/replay_checks.json": "b54869e96674b7ac1b15dba04806746254c21457c64d5764493c4d128304bf92",
+    "deliverables/ipo_account_20261020/report.md": "0316785c62d26909aa80f2860aab818bc87fa41b621ed403ee11ef625c39dc5a",
+    "deliverables/ipo_account_20261020/source_receipt.json": "393319fe54e3a311074d208485d3319b5f8b147329a77eb81d3932ec756fdec5",
+    "deliverables/ipo_account_20261020/sources_package.json": "17529369a605c58582cf3e342223567b699f7b4e78cbbf9de009d0d5a9441875",
+    "deliverables/ipo_account_20261020/summary.json": "5ecba658de1f880267b457b6415b4993ac822ae1ee04417c029488311616e55a",
+    "deliverables/ipo_account_20261020/tests.json": "264f1399b962d8c6c2435b07fd98f571114b9fd9b576a889e0fa389e7b3f678b"
+  },
+  "raw_source_archive_sha256": "2e7954fa1aeabd9baf4bdc98bec4fff1090709ad7c11843217038986c1a2c107",
+  "paths_sha256": "8ca00b84f014c67d0829a663c608e19a70376c817644b5fa2a16b1b822412c15",
+  "restore": "Restore exact source archive and old checkpoints; generated paths may be rebuilt from pinned inputs. Never substitute a newer historical snapshot.",
+  "valid_prospective_signal_date": null
+}

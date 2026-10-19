@@ -1,0 +1,178 @@
+{
+  "recorded_at": "2026-10-19T16:57:49.857056+00:00",
+  "stage_count": 5,
+  "second_pass_all_hash_skips": true,
+  "checks": [
+    {
+      "plan": "configs/ipo_account_acquisition_pipeline.json",
+      "state_sha256": "542716a68d8c024f8465cd7abb13c592c9e53367a0c2742e3a8ac4f80536303e",
+      "stdout": "verified skip: bounded_sources\nverified skip: package_before_research\n",
+      "stages": {
+        "bounded_sources": {
+          "status": "complete",
+          "fingerprint": "48f1de5cccccddb382d11ed84762eb07187d52b3c09f060cc2d28224fa220db2",
+          "started_at": "2026-10-19T16:54:39.990760+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T16:54:39.990858+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_account_20261020/acquisition_pipeline/logs/bounded_sources.1792428879994668061.log",
+          "peak_observed_rss_bytes": 24289280,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.5154964629909955,
+          "outputs": {
+            "inputs/ipo_account_20261020/raw/results.json": "22d66f265cdaed3c9fbf180a51abad6985a6f27a33a83cfe0e704abb43b1da46",
+            "inputs/ipo_account_20261020/raw/law_20231130.html": "6826075b5c646996d4b0f596dd6e5477f4738d43660c2bc338116a8bf6a87952",
+            "inputs/ipo_account_20261020/raw/law_20231130.html.headers": "72a35ef784f2e8e57ad85290b19e2caa3b63c01136e62edb074718f526a6c56a",
+            "inputs/ipo_account_20261020/raw/law_20231130.html.meta.json": "8b8f337b3da03ee9fc6fb8b85c15e96e900cf060fc8875d4bcd495b9b50a4a00",
+            "inputs/ipo_account_20261020/raw/law_20240627.html": "24bdec394daa9d7990b8a26ea8c6345888cd9fe023905d4ad23f7ea9583334fa",
+            "inputs/ipo_account_20261020/raw/law_20240627.html.headers": "9f549a937fbf0d29fa0bec252a8102744d09cd182a63b8fc632dc82e5e1bc3f0",
+            "inputs/ipo_account_20261020/raw/law_20240627.html.meta.json": "3741ab7f428929738c4c7856a1a0e38fa208cd94d8f67f6b55674b85818edaa2",
+            "inputs/ipo_account_20261020/raw/6906.pdf": "130a49bcd16465b822671ca21394d7677132c0837d67402bc9a96250c0936ef4",
+            "inputs/ipo_account_20261020/raw/6906.pdf.headers": "b2d0a14834611b9bca85fd1b85f4f9cfdd10b973a94a5f91cd419eb0beb6ad18",
+            "inputs/ipo_account_20261020/raw/6906.pdf.meta.json": "1392d4519737b328d797aa8b5baea43b40200eabacad1109c5a8a48d2e858e1d"
+          },
+          "finished_at": "2026-10-19T16:54:41.524695+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T16:54:41.524828+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_research": {
+          "status": "complete",
+          "fingerprint": "6bbfb2eebf83a7226d2bda5a90b321c23f35aec33761d8c63b0d0ee59223be89",
+          "started_at": "2026-10-19T16:57:23.798132+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T16:57:23.798272+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_account_20261020/acquisition_pipeline/logs/package_before_research.1792429043804496991.log",
+          "peak_observed_rss_bytes": 7409664,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5076094549731351,
+          "outputs": {
+            "deliverables/ipo_account_20261020/sources_package.json": "17529369a605c58582cf3e342223567b699f7b4e78cbbf9de009d0d5a9441875",
+            "inputs/ipo_account_20261020/sources.zip": "2e7954fa1aeabd9baf4bdc98bec4fff1090709ad7c11843217038986c1a2c107"
+          },
+          "finished_at": "2026-10-19T16:57:24.330756+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T16:57:24.330938+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_account_pipeline.json",
+      "state_sha256": "92388d9dfd2daf5a710c8f4382486254a795c47524045c9d589bf9b049722065",
+      "stdout": "verified skip: verify_source_readback\nverified skip: all_account_paths\nverified skip: independent_cash_and_mass_audit\n",
+      "stages": {
+        "verify_source_readback": {
+          "status": "complete",
+          "fingerprint": "7862b0cc88823945da2d2f3dcba6a9a3ecfd0689008a6d64f2b083b7d35d4596",
+          "started_at": "2026-10-19T16:57:24.422811+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T16:57:24.422992+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_account_20261020/pipeline/logs/verify_source_readback.1792429044429000519.log",
+          "peak_observed_rss_bytes": 48332800,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.0091155580012128,
+          "outputs": {
+            "deliverables/ipo_account_20261020/source_receipt.json": "393319fe54e3a311074d208485d3319b5f8b147329a77eb81d3932ec756fdec5"
+          },
+          "finished_at": "2026-10-19T16:57:25.452904+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T16:57:25.453149+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "all_account_paths": {
+          "status": "complete",
+          "fingerprint": "8f5fbbdf86226353357bfef04fe572235fc76abccf02655ad56c834fcaeff297",
+          "started_at": "2026-10-19T16:57:25.462554+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T16:57:25.462647+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_account_20261020/pipeline/logs/all_account_paths.1792429045471361189.log",
+          "peak_observed_rss_bytes": 110350336,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 6.516638503991999,
+          "outputs": {
+            "deliverables/ipo_account_20261020/calendar_and_terms.json": "0ea5db19bdf903f7dae882a41e63d13e02a89bc90ebc1ee8bdda2ffeb693d8d5",
+            "deliverables/ipo_account_20261020/summary.json": "5ecba658de1f880267b457b6415b4993ac822ae1ee04417c029488311616e55a",
+            "inputs/ipo_account_20261020/paths.json.gz": "8ca00b84f014c67d0829a663c608e19a70376c817644b5fa2a16b1b822412c15"
+          },
+          "finished_at": "2026-10-19T16:57:32.036419+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T16:57:32.036669+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "independent_cash_and_mass_audit": {
+          "status": "complete",
+          "fingerprint": "cf2f582fac580176fb2cde066aaccb706ff2ad83a5a4006a81a8b958c52a4a6f",
+          "started_at": "2026-10-19T16:57:32.048247+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T16:57:32.048472+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_account_20261020/pipeline/logs/independent_cash_and_mass_audit.1792429052052789247.log",
+          "peak_observed_rss_bytes": 81723392,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.5081453640013933,
+          "outputs": {
+            "deliverables/ipo_account_20261020/independent_audit.json": "ea04fc1c20b1237e878a55a06639d1c248dda4a595f88d06ff25194c7552e075"
+          },
+          "finished_at": "2026-10-19T16:57:33.568090+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T16:57:33.568233+00:00",
+            "runtime_identity": "82c238da5aa1fb56b53a1eeddc0c3b166d2226fdc8f65a405127fce953351a86",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ]
+}

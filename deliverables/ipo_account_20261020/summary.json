@@ -1,0 +1,844 @@
+{
+  "status": "completed_conditional_independent_account_and_cash_scenario_only",
+  "scenarios": [
+    {
+      "sale_drag": "0",
+      "states": 65536,
+      "independent_lottery_assumption": true,
+      "expected_twd": "1754.03945889597189718360521536690652428574",
+      "loss_probability": "0.864682800281638898056921506926009132036196",
+      "zero_probability": "0.00000270621968832966645164510102568333571852155",
+      "profit_probability": "0.135314493498672772276626847972965184628085",
+      "quantiles_twd": {
+        "0.05": "-320",
+        "0.5": "-320",
+        "0.95": "12630"
+      },
+      "worst_twd": "-7760",
+      "best_twd": "402270",
+      "no_win_probability": "0.838614035147669234606349827814618608328782",
+      "no_win_loss_twd": "-320",
+      "maximum_required_initial_cash_twd": "230180",
+      "unfundable_states": 0,
+      "unfundable_probability": "0",
+      "funding_scenario_all_states_pass": true,
+      "worst_funding_witness": {
+        "mask": 4,
+        "wins": [
+          "4771"
+        ],
+        "ledger": [
+          {
+            "date": "2024-01-05",
+            "phase": 0,
+            "symbol": "6906",
+            "kind": "reserve",
+            "delta_twd": "-118070",
+            "cumulative_cashflow_twd": "-118070"
+          },
+          {
+            "date": "2024-01-10",
+            "phase": 1,
+            "symbol": "6906",
+            "kind": "refund_if_loss",
+            "delta_twd": "118050",
+            "cumulative_cashflow_twd": "-20"
+          },
+          {
+            "date": "2024-01-17",
+            "phase": 1,
+            "symbol": "6906",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "-20"
+          },
+          {
+            "date": "2024-01-19",
+            "phase": 0,
+            "symbol": "4588",
+            "kind": "reserve",
+            "delta_twd": "-45950",
+            "cumulative_cashflow_twd": "-45970"
+          },
+          {
+            "date": "2024-01-24",
+            "phase": 1,
+            "symbol": "4588",
+            "kind": "refund_if_loss",
+            "delta_twd": "45930",
+            "cumulative_cashflow_twd": "-40"
+          },
+          {
+            "date": "2024-01-31",
+            "phase": 1,
+            "symbol": "4588",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "-40"
+          },
+          {
+            "date": "2024-03-08",
+            "phase": 0,
+            "symbol": "4771",
+            "kind": "reserve",
+            "delta_twd": "-180070",
+            "cumulative_cashflow_twd": "-180110"
+          },
+          {
+            "date": "2024-03-13",
+            "phase": 1,
+            "symbol": "4771",
+            "kind": "refund_if_loss",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "-180110"
+          },
+          {
+            "date": "2024-03-18",
+            "phase": 0,
+            "symbol": "3168",
+            "kind": "reserve",
+            "delta_twd": "-50070",
+            "cumulative_cashflow_twd": "-230180"
+          },
+          {
+            "date": "2024-03-20",
+            "phase": 1,
+            "symbol": "4771",
+            "kind": "sale_if_win",
+            "delta_twd": "306000",
+            "cumulative_cashflow_twd": "75820"
+          },
+          {
+            "date": "2024-03-21",
+            "phase": 1,
+            "symbol": "3168",
+            "kind": "refund_if_loss",
+            "delta_twd": "50050",
+            "cumulative_cashflow_twd": "125870"
+          },
+          {
+            "date": "2024-03-28",
+            "phase": 1,
+            "symbol": "3168",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125870"
+          },
+          {
+            "date": "2024-04-24",
+            "phase": 0,
+            "symbol": "6914",
+            "kind": "reserve",
+            "delta_twd": "-132070",
+            "cumulative_cashflow_twd": "-6200"
+          },
+          {
+            "date": "2024-04-29",
+            "phase": 1,
+            "symbol": "6914",
+            "kind": "refund_if_loss",
+            "delta_twd": "132050",
+            "cumulative_cashflow_twd": "125850"
+          },
+          {
+            "date": "2024-04-30",
+            "phase": 0,
+            "symbol": "4949",
+            "kind": "reserve",
+            "delta_twd": "-24070",
+            "cumulative_cashflow_twd": "101780"
+          },
+          {
+            "date": "2024-05-03",
+            "phase": 0,
+            "symbol": "1563",
+            "kind": "reserve",
+            "delta_twd": "-70070",
+            "cumulative_cashflow_twd": "31710"
+          },
+          {
+            "date": "2024-05-06",
+            "phase": 1,
+            "symbol": "4949",
+            "kind": "refund_if_loss",
+            "delta_twd": "24050",
+            "cumulative_cashflow_twd": "55760"
+          },
+          {
+            "date": "2024-05-07",
+            "phase": 1,
+            "symbol": "6914",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "55760"
+          },
+          {
+            "date": "2024-05-08",
+            "phase": 0,
+            "symbol": "6928",
+            "kind": "reserve",
+            "delta_twd": "-65070",
+            "cumulative_cashflow_twd": "-9310"
+          },
+          {
+            "date": "2024-05-08",
+            "phase": 1,
+            "symbol": "1563",
+            "kind": "refund_if_loss",
+            "delta_twd": "70050",
+            "cumulative_cashflow_twd": "60740"
+          },
+          {
+            "date": "2024-05-13",
+            "phase": 1,
+            "symbol": "4949",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "60740"
+          },
+          {
+            "date": "2024-05-13",
+            "phase": 1,
+            "symbol": "6928",
+            "kind": "refund_if_loss",
+            "delta_twd": "65050",
+            "cumulative_cashflow_twd": "125790"
+          },
+          {
+            "date": "2024-05-15",
+            "phase": 1,
+            "symbol": "1563",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125790"
+          },
+          {
+            "date": "2024-05-20",
+            "phase": 1,
+            "symbol": "6928",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125790"
+          },
+          {
+            "date": "2024-06-04",
+            "phase": 0,
+            "symbol": "6952",
+            "kind": "reserve",
+            "delta_twd": "-57200",
+            "cumulative_cashflow_twd": "68590"
+          },
+          {
+            "date": "2024-06-07",
+            "phase": 1,
+            "symbol": "6952",
+            "kind": "refund_if_loss",
+            "delta_twd": "57180",
+            "cumulative_cashflow_twd": "125770"
+          },
+          {
+            "date": "2024-06-17",
+            "phase": 1,
+            "symbol": "6952",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125770"
+          },
+          {
+            "date": "2024-08-05",
+            "phase": 0,
+            "symbol": "6838",
+            "kind": "reserve",
+            "delta_twd": "-36070",
+            "cumulative_cashflow_twd": "89700"
+          },
+          {
+            "date": "2024-08-08",
+            "phase": 1,
+            "symbol": "6838",
+            "kind": "refund_if_loss",
+            "delta_twd": "36050",
+            "cumulative_cashflow_twd": "125750"
+          },
+          {
+            "date": "2024-08-12",
+            "phase": 0,
+            "symbol": "6958",
+            "kind": "reserve",
+            "delta_twd": "-30070",
+            "cumulative_cashflow_twd": "95680"
+          },
+          {
+            "date": "2024-08-15",
+            "phase": 1,
+            "symbol": "6838",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "95680"
+          },
+          {
+            "date": "2024-08-15",
+            "phase": 1,
+            "symbol": "6958",
+            "kind": "refund_if_loss",
+            "delta_twd": "30050",
+            "cumulative_cashflow_twd": "125730"
+          },
+          {
+            "date": "2024-08-22",
+            "phase": 1,
+            "symbol": "6958",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125730"
+          },
+          {
+            "date": "2024-09-16",
+            "phase": 0,
+            "symbol": "6923",
+            "kind": "reserve",
+            "delta_twd": "-80070",
+            "cumulative_cashflow_twd": "45660"
+          },
+          {
+            "date": "2024-09-20",
+            "phase": 1,
+            "symbol": "6923",
+            "kind": "refund_if_loss",
+            "delta_twd": "80050",
+            "cumulative_cashflow_twd": "125710"
+          },
+          {
+            "date": "2024-09-27",
+            "phase": 1,
+            "symbol": "6923",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125710"
+          },
+          {
+            "date": "2024-10-17",
+            "phase": 0,
+            "symbol": "2646",
+            "kind": "reserve",
+            "delta_twd": "-40070",
+            "cumulative_cashflow_twd": "85640"
+          },
+          {
+            "date": "2024-10-22",
+            "phase": 1,
+            "symbol": "2646",
+            "kind": "refund_if_loss",
+            "delta_twd": "40050",
+            "cumulative_cashflow_twd": "125690"
+          },
+          {
+            "date": "2024-10-29",
+            "phase": 1,
+            "symbol": "2646",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125690"
+          },
+          {
+            "date": "2024-11-18",
+            "phase": 0,
+            "symbol": "7705",
+            "kind": "reserve",
+            "delta_twd": "-70950",
+            "cumulative_cashflow_twd": "54740"
+          },
+          {
+            "date": "2024-11-21",
+            "phase": 1,
+            "symbol": "7705",
+            "kind": "refund_if_loss",
+            "delta_twd": "70930",
+            "cumulative_cashflow_twd": "125670"
+          },
+          {
+            "date": "2024-11-28",
+            "phase": 1,
+            "symbol": "7705",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125670"
+          },
+          {
+            "date": "2024-12-03",
+            "phase": 0,
+            "symbol": "8045",
+            "kind": "reserve",
+            "delta_twd": "-68870",
+            "cumulative_cashflow_twd": "56800"
+          },
+          {
+            "date": "2024-12-06",
+            "phase": 0,
+            "symbol": "6885",
+            "kind": "reserve",
+            "delta_twd": "-32380",
+            "cumulative_cashflow_twd": "24420"
+          },
+          {
+            "date": "2024-12-06",
+            "phase": 1,
+            "symbol": "8045",
+            "kind": "refund_if_loss",
+            "delta_twd": "68850",
+            "cumulative_cashflow_twd": "93270"
+          },
+          {
+            "date": "2024-12-11",
+            "phase": 1,
+            "symbol": "6885",
+            "kind": "refund_if_loss",
+            "delta_twd": "32360",
+            "cumulative_cashflow_twd": "125630"
+          },
+          {
+            "date": "2024-12-13",
+            "phase": 1,
+            "symbol": "8045",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125630"
+          },
+          {
+            "date": "2024-12-18",
+            "phase": 1,
+            "symbol": "6885",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "125630"
+          }
+        ]
+      }
+    },
+    {
+      "sale_drag": "0.005",
+      "states": 65536,
+      "independent_lottery_assumption": true,
+      "expected_twd": "1697.57583060424108654865574753171068139960",
+      "loss_probability": "0.864685506501327227723373152027034815371915",
+      "zero_probability": "0",
+      "profit_probability": "0.135314493498672772276626847972965184628085",
+      "quantiles_twd": {
+        "0.05": "-320",
+        "0.5": "-320",
+        "0.95": "12215"
+      },
+      "worst_twd": "-8170.5",
+      "best_twd": "395200.75",
+      "no_win_probability": "0.838614035147669234606349827814618608328782",
+      "no_win_loss_twd": "-320",
+      "maximum_required_initial_cash_twd": "230180",
+      "unfundable_states": 0,
+      "unfundable_probability": "0",
+      "funding_scenario_all_states_pass": true,
+      "worst_funding_witness": {
+        "mask": 4,
+        "wins": [
+          "4771"
+        ],
+        "ledger": [
+          {
+            "date": "2024-01-05",
+            "phase": 0,
+            "symbol": "6906",
+            "kind": "reserve",
+            "delta_twd": "-118070",
+            "cumulative_cashflow_twd": "-118070"
+          },
+          {
+            "date": "2024-01-10",
+            "phase": 1,
+            "symbol": "6906",
+            "kind": "refund_if_loss",
+            "delta_twd": "118050",
+            "cumulative_cashflow_twd": "-20"
+          },
+          {
+            "date": "2024-01-17",
+            "phase": 1,
+            "symbol": "6906",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "-20"
+          },
+          {
+            "date": "2024-01-19",
+            "phase": 0,
+            "symbol": "4588",
+            "kind": "reserve",
+            "delta_twd": "-45950",
+            "cumulative_cashflow_twd": "-45970"
+          },
+          {
+            "date": "2024-01-24",
+            "phase": 1,
+            "symbol": "4588",
+            "kind": "refund_if_loss",
+            "delta_twd": "45930",
+            "cumulative_cashflow_twd": "-40"
+          },
+          {
+            "date": "2024-01-31",
+            "phase": 1,
+            "symbol": "4588",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "-40"
+          },
+          {
+            "date": "2024-03-08",
+            "phase": 0,
+            "symbol": "4771",
+            "kind": "reserve",
+            "delta_twd": "-180070",
+            "cumulative_cashflow_twd": "-180110"
+          },
+          {
+            "date": "2024-03-13",
+            "phase": 1,
+            "symbol": "4771",
+            "kind": "refund_if_loss",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "-180110"
+          },
+          {
+            "date": "2024-03-18",
+            "phase": 0,
+            "symbol": "3168",
+            "kind": "reserve",
+            "delta_twd": "-50070",
+            "cumulative_cashflow_twd": "-230180"
+          },
+          {
+            "date": "2024-03-20",
+            "phase": 1,
+            "symbol": "4771",
+            "kind": "sale_if_win",
+            "delta_twd": "304470",
+            "cumulative_cashflow_twd": "74290"
+          },
+          {
+            "date": "2024-03-21",
+            "phase": 1,
+            "symbol": "3168",
+            "kind": "refund_if_loss",
+            "delta_twd": "50050",
+            "cumulative_cashflow_twd": "124340"
+          },
+          {
+            "date": "2024-03-28",
+            "phase": 1,
+            "symbol": "3168",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124340"
+          },
+          {
+            "date": "2024-04-24",
+            "phase": 0,
+            "symbol": "6914",
+            "kind": "reserve",
+            "delta_twd": "-132070",
+            "cumulative_cashflow_twd": "-7730"
+          },
+          {
+            "date": "2024-04-29",
+            "phase": 1,
+            "symbol": "6914",
+            "kind": "refund_if_loss",
+            "delta_twd": "132050",
+            "cumulative_cashflow_twd": "124320"
+          },
+          {
+            "date": "2024-04-30",
+            "phase": 0,
+            "symbol": "4949",
+            "kind": "reserve",
+            "delta_twd": "-24070",
+            "cumulative_cashflow_twd": "100250"
+          },
+          {
+            "date": "2024-05-03",
+            "phase": 0,
+            "symbol": "1563",
+            "kind": "reserve",
+            "delta_twd": "-70070",
+            "cumulative_cashflow_twd": "30180"
+          },
+          {
+            "date": "2024-05-06",
+            "phase": 1,
+            "symbol": "4949",
+            "kind": "refund_if_loss",
+            "delta_twd": "24050",
+            "cumulative_cashflow_twd": "54230"
+          },
+          {
+            "date": "2024-05-07",
+            "phase": 1,
+            "symbol": "6914",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "54230"
+          },
+          {
+            "date": "2024-05-08",
+            "phase": 0,
+            "symbol": "6928",
+            "kind": "reserve",
+            "delta_twd": "-65070",
+            "cumulative_cashflow_twd": "-10840"
+          },
+          {
+            "date": "2024-05-08",
+            "phase": 1,
+            "symbol": "1563",
+            "kind": "refund_if_loss",
+            "delta_twd": "70050",
+            "cumulative_cashflow_twd": "59210"
+          },
+          {
+            "date": "2024-05-13",
+            "phase": 1,
+            "symbol": "4949",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "59210"
+          },
+          {
+            "date": "2024-05-13",
+            "phase": 1,
+            "symbol": "6928",
+            "kind": "refund_if_loss",
+            "delta_twd": "65050",
+            "cumulative_cashflow_twd": "124260"
+          },
+          {
+            "date": "2024-05-15",
+            "phase": 1,
+            "symbol": "1563",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124260"
+          },
+          {
+            "date": "2024-05-20",
+            "phase": 1,
+            "symbol": "6928",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124260"
+          },
+          {
+            "date": "2024-06-04",
+            "phase": 0,
+            "symbol": "6952",
+            "kind": "reserve",
+            "delta_twd": "-57200",
+            "cumulative_cashflow_twd": "67060"
+          },
+          {
+            "date": "2024-06-07",
+            "phase": 1,
+            "symbol": "6952",
+            "kind": "refund_if_loss",
+            "delta_twd": "57180",
+            "cumulative_cashflow_twd": "124240"
+          },
+          {
+            "date": "2024-06-17",
+            "phase": 1,
+            "symbol": "6952",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124240"
+          },
+          {
+            "date": "2024-08-05",
+            "phase": 0,
+            "symbol": "6838",
+            "kind": "reserve",
+            "delta_twd": "-36070",
+            "cumulative_cashflow_twd": "88170"
+          },
+          {
+            "date": "2024-08-08",
+            "phase": 1,
+            "symbol": "6838",
+            "kind": "refund_if_loss",
+            "delta_twd": "36050",
+            "cumulative_cashflow_twd": "124220"
+          },
+          {
+            "date": "2024-08-12",
+            "phase": 0,
+            "symbol": "6958",
+            "kind": "reserve",
+            "delta_twd": "-30070",
+            "cumulative_cashflow_twd": "94150"
+          },
+          {
+            "date": "2024-08-15",
+            "phase": 1,
+            "symbol": "6838",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "94150"
+          },
+          {
+            "date": "2024-08-15",
+            "phase": 1,
+            "symbol": "6958",
+            "kind": "refund_if_loss",
+            "delta_twd": "30050",
+            "cumulative_cashflow_twd": "124200"
+          },
+          {
+            "date": "2024-08-22",
+            "phase": 1,
+            "symbol": "6958",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124200"
+          },
+          {
+            "date": "2024-09-16",
+            "phase": 0,
+            "symbol": "6923",
+            "kind": "reserve",
+            "delta_twd": "-80070",
+            "cumulative_cashflow_twd": "44130"
+          },
+          {
+            "date": "2024-09-20",
+            "phase": 1,
+            "symbol": "6923",
+            "kind": "refund_if_loss",
+            "delta_twd": "80050",
+            "cumulative_cashflow_twd": "124180"
+          },
+          {
+            "date": "2024-09-27",
+            "phase": 1,
+            "symbol": "6923",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124180"
+          },
+          {
+            "date": "2024-10-17",
+            "phase": 0,
+            "symbol": "2646",
+            "kind": "reserve",
+            "delta_twd": "-40070",
+            "cumulative_cashflow_twd": "84110"
+          },
+          {
+            "date": "2024-10-22",
+            "phase": 1,
+            "symbol": "2646",
+            "kind": "refund_if_loss",
+            "delta_twd": "40050",
+            "cumulative_cashflow_twd": "124160"
+          },
+          {
+            "date": "2024-10-29",
+            "phase": 1,
+            "symbol": "2646",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124160"
+          },
+          {
+            "date": "2024-11-18",
+            "phase": 0,
+            "symbol": "7705",
+            "kind": "reserve",
+            "delta_twd": "-70950",
+            "cumulative_cashflow_twd": "53210"
+          },
+          {
+            "date": "2024-11-21",
+            "phase": 1,
+            "symbol": "7705",
+            "kind": "refund_if_loss",
+            "delta_twd": "70930",
+            "cumulative_cashflow_twd": "124140"
+          },
+          {
+            "date": "2024-11-28",
+            "phase": 1,
+            "symbol": "7705",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124140"
+          },
+          {
+            "date": "2024-12-03",
+            "phase": 0,
+            "symbol": "8045",
+            "kind": "reserve",
+            "delta_twd": "-68870",
+            "cumulative_cashflow_twd": "55270"
+          },
+          {
+            "date": "2024-12-06",
+            "phase": 0,
+            "symbol": "6885",
+            "kind": "reserve",
+            "delta_twd": "-32380",
+            "cumulative_cashflow_twd": "22890"
+          },
+          {
+            "date": "2024-12-06",
+            "phase": 1,
+            "symbol": "8045",
+            "kind": "refund_if_loss",
+            "delta_twd": "68850",
+            "cumulative_cashflow_twd": "91740"
+          },
+          {
+            "date": "2024-12-11",
+            "phase": 1,
+            "symbol": "6885",
+            "kind": "refund_if_loss",
+            "delta_twd": "32360",
+            "cumulative_cashflow_twd": "124100"
+          },
+          {
+            "date": "2024-12-13",
+            "phase": 1,
+            "symbol": "8045",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124100"
+          },
+          {
+            "date": "2024-12-18",
+            "phase": 1,
+            "symbol": "6885",
+            "kind": "sale_if_win",
+            "delta_twd": "0",
+            "cumulative_cashflow_twd": "124100"
+          }
+        ]
+      }
+    }
+  ],
+  "paths_sha256": "8ca00b84f014c67d0829a663c608e19a70376c817644b5fa2a16b1b822412c15",
+  "masks_per_scenario": 65536,
+  "exact_mass_and_cash_conservation_verified": true,
+  "historical_pit_verified": false,
+  "actual_fills_verified": false,
+  "actual_bank_timestamps_verified": false,
+  "independence_verified": false,
+  "original_positive_marginal_screen_preserved": true,
+  "deployable_profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "decision": "Retain small tool; finish this fixed cohort study without daily manual validation, parameter search or automatic expansion"
+}

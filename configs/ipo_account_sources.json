@@ -1,0 +1,21 @@
+{
+  "output_directory": "inputs/ipo_account_20261020/raw",
+  "allowed_hosts": [
+    "twse-regulation.twse.com.tw",
+    "www.sinotrade.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "law_20231130.html",
+      "url": "https://twse-regulation.twse.com.tw/TW/law/DAT06.aspx?FLCODE=FL007541&FLDATE=20231130&LSER=001"
+    },
+    {
+      "filename": "law_20240627.html",
+      "url": "https://twse-regulation.twse.com.tw/TW/law/DAT06.aspx?FLCODE=FL007541&FLDATE=20240627&LSER=001"
+    },
+    {
+      "filename": "6906.pdf",
+      "url": "https://www.sinotrade.com.tw/UploadFiles/2024/202401/d02a9b0f-9ec8-4585-909f-0dd21bdb5af0.pdf"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "stages": [
+    {
+      "id": "bounded_sources",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/ipo_account_sources.json"
+      ],
+      "inputs": [
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "configs/ipo_account_sources.json"
+      ],
+      "outputs": [
+        "inputs/ipo_account_20261020/raw/results.json",
+        "inputs/ipo_account_20261020/raw/law_20231130.html",
+        "inputs/ipo_account_20261020/raw/law_20231130.html.headers",
+        "inputs/ipo_account_20261020/raw/law_20231130.html.meta.json",
+        "inputs/ipo_account_20261020/raw/law_20240627.html",
+        "inputs/ipo_account_20261020/raw/law_20240627.html.headers",
+        "inputs/ipo_account_20261020/raw/law_20240627.html.meta.json",
+        "inputs/ipo_account_20261020/raw/6906.pdf",
+        "inputs/ipo_account_20261020/raw/6906.pdf.headers",
+        "inputs/ipo_account_20261020/raw/6906.pdf.meta.json"
+      ],
+      "timeout_seconds": 90
+    },
+    {
+      "id": "package_before_research",
+      "command": [
+        "{python}",
+        "ipo_account.py",
+        "package"
+      ],
+      "inputs": [
+        "ipo_account.py",
+        "source_checkpoint.py",
+        "research_runtime.py",
+        "configs/ipo_account_protocol_20261020.json",
+        "deliverables/ipo_account_20261020/protocol_freeze.json",
+        "configs/ipo_account_sources.json",
+        "inputs/ipo_account_20261020/raw/results.json",
+        "inputs/ipo_account_20261020/raw/law_20231130.html",
+        "inputs/ipo_account_20261020/raw/law_20231130.html.headers",
+        "inputs/ipo_account_20261020/raw/law_20231130.html.meta.json",
+        "inputs/ipo_account_20261020/raw/law_20240627.html",
+        "inputs/ipo_account_20261020/raw/law_20240627.html.headers",
+        "inputs/ipo_account_20261020/raw/law_20240627.html.meta.json",
+        "inputs/ipo_account_20261020/raw/6906.pdf",
+        "inputs/ipo_account_20261020/raw/6906.pdf.headers",
+        "inputs/ipo_account_20261020/raw/6906.pdf.meta.json"
+      ],
+      "outputs": [
+        "deliverables/ipo_account_20261020/sources_package.json",
+        "inputs/ipo_account_20261020/sources.zip"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}

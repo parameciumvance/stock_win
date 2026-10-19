@@ -1,0 +1,23 @@
+{
+  "status": "fixed_account_and_funding_extension_complete_candidate_retained_no_deployment",
+  "completed": [
+    "Pinned old29IPOand23benchmarkoutputs verified",
+    "Three primary sources automatically saved and Windowsbackup/readback SHA/CRC/12manifestfiles verified",
+    "Two unchanged cost scenarios times65536states enumerated exactly",
+    "Account distribution and all-state funding audit completed",
+    "Independent mask weights,payoffs,quantiles and analytical cash bound verified"
+  ],
+  "decision": "Keep low-work tool and narrow positive historical candidate; no year expansion, parameter search, daily manual work or trading",
+  "remaining_evidence_gaps": [
+    "All16originalannouncement versions and historicalPIT availability not established",
+    "Dependence between lotteries unknown; full distribution is independent-lottery scenario only",
+    "Future odds and independently collected future outcomes unknown",
+    "Actual broker bank timings,stockdelivery and fills unavailable; assumed scenario is not execution proof"
+  ],
+  "why_not_more_same_data": "More transformations of the same observed2024quotes cannot establish unseen future performance or actual counterfactual fills. These are evidence gaps, not missing computation.",
+  "reopen_condition": "A separate substantive research decision and predeclared independent-data plan, or independently available execution/timing evidence; no automatic expansion of this fixed cohort",
+  "user_action_required": null,
+  "external_credentials_required": null,
+  "orders_authorized": false,
+  "valid_prospective_signal_date": null
+}

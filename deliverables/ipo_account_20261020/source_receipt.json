@@ -1,0 +1,59 @@
+{
+  "archive_sha256": "2e7954fa1aeabd9baf4bdc98bec4fff1090709ad7c11843217038986c1a2c107",
+  "manifest_files": 12,
+  "sha_crc_manifest_verified": true,
+  "backup": {
+    "sha256": "2e7954fa1aeabd9baf4bdc98bec4fff1090709ad7c11843217038986c1a2c107",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\ipo_account_20261020_sources_2e7954fa1aeabd9baf4bdc98bec4fff1090709ad7c11843217038986c1a2c107.zip",
+    "retrieved_path": "inputs/ipo_account_20261020/sources.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T16:55:37.663Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "law_checks": [
+    {
+      "filename": "law_20231130.html",
+      "historical_text_and_20_fee_corroborated": true,
+      "scope": "Selected historical version only; not proof of every intervening effective version or actual charges"
+    },
+    {
+      "filename": "law_20240627.html",
+      "historical_text_and_20_fee_corroborated": true,
+      "scope": "Selected historical version only; not proof of every intervening effective version or actual charges"
+    }
+  ],
+  "announcement": {
+    "symbol": "6906",
+    "verified": true,
+    "pages": 17,
+    "text_characters": 20122,
+    "missing_phrases": [],
+    "scope": "6906 alone:20/50fee,Jan5deposit,Jan8debit,Jan10refund instructions; no actual bank timestamps or all16coverage"
+  },
+  "observations": [
+    {
+      "filename": "law_20231130.html",
+      "http_status": 200,
+      "exit_code": 0,
+      "body_bytes": 127456,
+      "stderr": ""
+    },
+    {
+      "filename": "law_20240627.html",
+      "http_status": 200,
+      "exit_code": 0,
+      "body_bytes": 131056,
+      "stderr": ""
+    },
+    {
+      "filename": "6906.pdf",
+      "http_status": 200,
+      "exit_code": 0,
+      "body_bytes": 302303,
+      "stderr": ""
+    }
+  ],
+  "all16_historical_fee_versions_verified": false,
+  "historical_pit_verified": false
+}
