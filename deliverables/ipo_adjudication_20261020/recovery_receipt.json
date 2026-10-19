@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-19T17:53:12.350959+00:00",
+  "main": "5466ef1ac98784bf5e329de4b89a973c10434c0e",
+  "worktree_initially_clean": true,
+  "prior_checkpoint_files_verified": 95,
+  "old_raw_archives_sha_crc_verified": true,
+  "old_transport_observation": "All5reported HTTP200curl0 and size_download==savedbodybytes. No Content-Encoding header. Existing bodySHA and archiveSHA still intact. Does not identify source of semantic differences."
+}

@@ -1,0 +1,190 @@
+{
+  "status": "source_adjudication_unresolved",
+  "archive_sha256": "ab014a4430c29ac2ecdfde5bc31267c5e86c5f1371d683444358a798863f6431",
+  "manifest_files": 17,
+  "backup": {
+    "sha256": "ab014a4430c29ac2ecdfde5bc31267c5e86c5f1371d683444358a798863f6431",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\ipo_adjudication_20261020_sources_ab014a4430c29ac2ecdfde5bc31267c5e86c5f1371d683444358a798863f6431.zip",
+    "retrieved_path": "inputs/ipo_adjudication_20261020/sources.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-19T17:54:52.935Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "sha_crc_manifest_verified": true,
+  "full_new_json_csv_agreement": false,
+  "rows": null,
+  "independent_controls_passed": false,
+  "fubon_control": {
+    "verified": true,
+    "scope": "Issuer underwriter group2025listing news; corroborates6936finaloffer28.01only"
+  },
+  "annual_control": {
+    "verified": false,
+    "pages": 76,
+    "matches": [],
+    "numeric_candidates": [
+      {
+        "page": 44,
+        "context": "\u10c3\u15c7\u054e2,50075187,500,000114/08/290.66101\u03e3\u026a\u0339\u02a9\u027d\u15c7\u054e626238148,988,000114/09/020.25102\u03e3\u026a\u0339\u0bf1\u0a3f\u15c7\u054e6,6151581,045,170,000114/09/031.5610"
+      }
+    ],
+    "scope": "Selected7765annualtable row only; roundedodds0.25%,626lots,price238. Numeric-only candidates without readable issuer identity are not verified. Not qualified application count or historical publication proof"
+  },
+  "source_gate_passed": false,
+  "errors": [
+    "ValueError: CSV/JSON row mismatch",
+    "Both independent controls and corresponding full-table fields must corroborate"
+  ],
+  "historical_pit_verified": false,
+  "root_cause": "Unidentified; client and route both differ, so this experiment does not isolate the cause",
+  "native_representation_differences": [
+    {
+      "sequence": "2",
+      "symbol": "6725",
+      "category": "\u521d\u4e0a\u6ac3",
+      "fields": [
+        {
+          "field": "\u627f\u92b7\u80a1\u6578",
+          "left": "000,000",
+          "right": "843,000"
+        }
+      ]
+    },
+    {
+      "sequence": "41",
+      "symbol": "7717",
+      "category": "\u7b2c\u4e00\u4e0a\u6ac3\u516c\u53f8\u521d\u4e0a\u6ac3",
+      "fields": [
+        {
+          "field": "\u627f\u92b7\u50f9(\u5143)",
+          "left": "77",
+          "right": "=\"00\""
+        }
+      ]
+    },
+    {
+      "sequence": "42",
+      "symbol": "3158",
+      "category": "\u521d\u4e0a\u6ac3",
+      "fields": [
+        {
+          "field": "\u5be6\u969b\u627f\u92b7\u50f9(\u5143)",
+          "left": "80",
+          "right": "40"
+        }
+      ]
+    },
+    {
+      "sequence": "131",
+      "symbol": "A141DP",
+      "category": "\u4e2d\u592e\u767b\u9304\u516c\u50b5",
+      "fields": [
+        {
+          "field": "\u627f\u92b7\u50f9(\u5143)",
+          "left": "000.386",
+          "right": "100.386"
+        }
+      ]
+    },
+    {
+      "sequence": "143",
+      "symbol": "6597",
+      "category": "\u521d\u4e0a\u6ac3",
+      "fields": [
+        {
+          "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+          "left": "58,781,000",
+          "right": "58,781,030"
+        }
+      ]
+    },
+    {
+      "sequence": "189",
+      "symbol": "6023",
+      "category": "\u4e0a\u6ac3\u589e\u8cc7",
+      "fields": [
+        {
+          "field": "\u627f\u92b7\u50f9(\u5143)",
+          "left": "74",
+          "right": "=\"00\""
+        },
+        {
+          "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+          "left": "188,194,953",
+          "right": "188,700,000"
+        }
+      ]
+    },
+    {
+      "sequence": "190",
+      "symbol": "4735",
+      "category": "\u4e0a\u6ac3\u589e\u8cc7",
+      "fields": [
+        {
+          "field": "\u7e3d\u627f\u92b7\u91d1\u984d(\u5143)",
+          "left": "16,013,363",
+          "right": "16,027,200"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "request": {
+        "filename": "2025_rwd.json",
+        "url": "https://www.twse.com.tw/rwd/zh/announcement/publicForm?response=json&date=2025"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 45271,
+      "sha256": "28dc4d5d6fefdde80755cccd72706fdc5782559ba80179488bd79400567a8c42",
+      "request_started_at": "2026-10-19T17:54:20.092136+00:00",
+      "observed_at": "2026-10-19T17:54:20.342681+00:00",
+      "error": null,
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2025_rwd.csv",
+        "url": "https://www.twse.com.tw/rwd/zh/announcement/publicForm?response=csv&date=2025"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 42204,
+      "sha256": "a9b858a65b6c4850aca2c429aea6091b4eea7cdbb57b3bcb5147573e820f017c",
+      "request_started_at": "2026-10-19T17:54:20.092894+00:00",
+      "observed_at": "2026-10-19T17:54:20.343030+00:00",
+      "error": null,
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "6936_fubon.html",
+        "url": "https://www.fubon.com/financialholdings/news/news_1250428_823605.htm"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 42329,
+      "sha256": "501afba9052f1ab48de8d55dddd871a331262149fd1a7020f2dfdc51a29d7c4f",
+      "request_started_at": "2026-10-19T17:54:20.611440+00:00",
+      "observed_at": "2026-10-19T17:54:20.943486+00:00",
+      "error": null,
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "tsa_2025.pdf",
+        "url": "https://www.twsa.org.tw/B01/doc/114%E5%B9%B4%E8%AD%89%E5%88%B8%E5%85%AC%E6%9C%83%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8637847,
+      "sha256": "fab97ff6bc658da876736e0155ee13c291f08a5c0aebd0a8a586b7246b12bf63",
+      "request_started_at": "2026-10-19T17:54:20.615646+00:00",
+      "observed_at": "2026-10-19T17:54:21.764317+00:00",
+      "error": null,
+      "stderr": ""
+    }
+  ]
+}

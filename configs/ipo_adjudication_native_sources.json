@@ -1,0 +1,16 @@
+{
+  "output_directory": "inputs/ipo_adjudication_20261020/raw_native",
+  "allowed_hosts": [
+    "www.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "2025_rwd.json",
+      "url": "https://www.twse.com.tw/rwd/zh/announcement/publicForm?response=json&date=2025"
+    },
+    {
+      "filename": "2025_rwd.csv",
+      "url": "https://www.twse.com.tw/rwd/zh/announcement/publicForm?response=csv&date=2025"
+    }
+  ]
+}

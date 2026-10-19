@@ -1,0 +1,139 @@
+{
+  "recorded_at": "2026-10-19T17:57:36.171876+00:00",
+  "completed_preservation_and_audit_stages": 4,
+  "second_pass_all_hash_skips": true,
+  "checks": [
+    {
+      "plan": "configs/ipo_adjudication_acquisition_pipeline.json",
+      "state_sha256": "79bde6fd8bbf5737b53e7d397a31dcda4edafb8515a9c341d1e667c6c0568532",
+      "second_pass_stdout": "verified skip: acquire_native\nverified skip: acquire_control\nverified skip: package_before_analysis\n",
+      "stages": {
+        "acquire_native": {
+          "status": "complete",
+          "fingerprint": "097b281cb18dae0fba176702b5682a7b0d7572f8e30399f2381a537d1c7d94e4",
+          "started_at": "2026-10-19T17:54:20.051857+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:54:20.051943+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_adjudication_20261020/acquisition_pipeline/logs/acquire_native.1792432460054405429.log",
+          "peak_observed_rss_bytes": 7794688,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5039586940547451,
+          "outputs": {
+            "inputs/ipo_adjudication_20261020/raw_native/results.json": "1cd6c4b49fb00320dc22b7f0c8c754c29e18632b913539dacdd39ba959594ce7"
+          },
+          "finished_at": "2026-10-19T17:54:20.563161+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:54:20.563244+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "acquire_control": {
+          "status": "complete",
+          "fingerprint": "3296d9a41d51879045850e96530929b4f5479038dbea5dc3cf7470137ebea3a0",
+          "started_at": "2026-10-19T17:54:20.566435+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:54:20.566511+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_adjudication_20261020/acquisition_pipeline/logs/acquire_control.1792432460569779950.log",
+          "peak_observed_rss_bytes": 23920640,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.504851047997363,
+          "outputs": {
+            "inputs/ipo_adjudication_20261020/raw_controls/results.json": "04d00e58162e33ad4df2806c58bb2639ffb57b25aebf4f612c00c0c867db6c8a"
+          },
+          "finished_at": "2026-10-19T17:54:22.080802+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:54:22.080886+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_before_analysis": {
+          "status": "complete",
+          "fingerprint": "2505c90efa93932d672e21ab8733284e8ed72be9abc37768363fa896fe116604",
+          "started_at": "2026-10-19T17:57:31.896247+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:57:31.896373+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_adjudication_20261020/acquisition_pipeline/logs/package_before_analysis.1792432651899009361.log",
+          "peak_observed_rss_bytes": 77996032,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.0038278919528238,
+          "outputs": {
+            "deliverables/ipo_adjudication_20261020/sources_package.json": "e6301fe954b471ce6fabad3a3f63eede7e1d7c99095c5eba630a07d5310301a2",
+            "inputs/ipo_adjudication_20261020/sources.zip": "ab014a4430c29ac2ecdfde5bc31267c5e86c5f1371d683444358a798863f6431"
+          },
+          "finished_at": "2026-10-19T17:57:32.937765+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:57:32.937933+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/ipo_adjudication_audit_pipeline.json",
+      "state_sha256": "61d3c62295d023b692fa2a5481184135805c3e862c5c61e517512610edd103bf",
+      "second_pass_stdout": "verified skip: verify_and_adjudicate_sources\n",
+      "stages": {
+        "verify_and_adjudicate_sources": {
+          "status": "complete",
+          "fingerprint": "f1e215fa5331bd8f2b60fee1517c0df40ee482ef059f14e8221798f7ad2f7c2a",
+          "started_at": "2026-10-19T17:57:33.089654+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T17:57:33.089748+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/ipo_adjudication_20261020/audit_pipeline/logs/verify_and_adjudicate_sources.1792432653093111721.log",
+          "peak_observed_rss_bytes": 155799552,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 3.007302103971597,
+          "outputs": {
+            "deliverables/ipo_adjudication_20261020/source_receipt.json": "9df2a407626a84fafb04a06dc225e3e3f4dbc501d14dfc36c44fe5419429b5cd"
+          },
+          "finished_at": "2026-10-19T17:57:36.106638+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T17:57:36.106783+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ],
+  "research_source_gate_passed": false
+}

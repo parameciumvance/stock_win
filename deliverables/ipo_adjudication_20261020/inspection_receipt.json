@@ -1,0 +1,8 @@
+{
+  "native_old_transport_observation": "Old5HTTP200curl0, saved sizes equal reported downloaded sizes, no content-encoding header, bodySHAandZIPmanifest still intact. Does not isolate root cause.",
+  "annual_pdf_text_observation": "76pages,79268extractedcharacters; page44numbers include626,238,148988000,114/09/02,0.25 but issuerCJKname is not reliably extracted. Numeric tuple alone not accepted as issuer proof.",
+  "web_pdf_preview_error": "Failed to fetch PDF:Cache miss",
+  "remote_pdf_read_error": "Error reading PDF: Cannot read properties of undefined (reading 'toLowerCase')",
+  "no_inferred_root_cause": true,
+  "no_extra_download_retry": true
+}

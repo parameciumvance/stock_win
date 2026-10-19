@@ -1,0 +1,25 @@
+{
+  "purpose": "One bounded different-client/official-route diagnostic with two independent primary corroborators; preserve old conflicts and no score/parameter tuning",
+  "client_date": "2026-10-20",
+  "prior_main": "5466ef1ac98784bf5e329de4b89a973c10434c0e",
+  "prior_checkpoints": {
+    "deliverables/ipo_screen_20261019/checkpoint.json": "63d3e9f207399b97040bb5743add06683f2ca19baf1c3f784d0024172b1e01f6",
+    "deliverables/ipo_account_20261020/checkpoint.json": "54531b72d7702ad3f14ed68e175987b176cc1a44b35f9c2dc22271fc56629394",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/ipo_replication_20261020/checkpoint.json": "3696c2c1ac6cbff24ed7eca36484b8b24c3d88a53df1ff7f9929e4ac208a1f31"
+  },
+  "request_configs_sha256": {
+    "configs/ipo_adjudication_native_sources.json": "c8530b84d36356a5f12fd2bdae3c203c4ffbb9d5e5e7c4793e440bd9d804466f",
+    "configs/ipo_adjudication_control_sources.json": "5fcf25b637012ddbc8ed19af49b53990326514e5eae069f53a7dcb5b71f83d30"
+  },
+  "max_requests": 4,
+  "native_transport": "WSLcurl,HTTPSverifiedTLS,30seconds32MB,2workers shared acquisition lock; no insecure TLS or manual downloads",
+  "control_transport": "ExistingWindowscurl2worker tool; acquire sequentially to share same source lock",
+  "known_before_freeze": "All5old2025representations conflict. Web primaryFubonnews states6936price28.01;TSAannualreport search text lists7765roundedodds0.25. New raw route tables not inspected and cohort quotes not inspected in continuation; reused2025market years are not a blind holdout.",
+  "acceptance": "Both new native responses must be HTTP200curl0,year2025strictschemaandfullrowagreement. Independently savedFubon6936finalprice andTSA7765row corroboration required. This is a new explicitly selected current historical snapshot, never a fix to old frozen inputs or historicalPIT proof. Record ALLdifferences from old5representations; no field-level stitching, majority voting or exclusion of noncohort rows.",
+  "next": "If full source gate passes, check unchanged2025protocol term compatibility before any endpoint work; preserve provisional/final-price changes as gaps under old frozen rule. Only complete eligible cohort may support aggregate2025claims. If transport/consistency/controls fail, close this source recovery branch with concrete evidence; no repeated downloads or other-year substitution.",
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "orders_authorized": false,
+  "valid_prospective_signal_date": null
+}

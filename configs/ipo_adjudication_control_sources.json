@@ -1,0 +1,17 @@
+{
+  "output_directory": "inputs/ipo_adjudication_20261020/raw_controls",
+  "allowed_hosts": [
+    "www.fubon.com",
+    "www.twsa.org.tw"
+  ],
+  "requests": [
+    {
+      "filename": "6936_fubon.html",
+      "url": "https://www.fubon.com/financialholdings/news/news_1250428_823605.htm"
+    },
+    {
+      "filename": "tsa_2025.pdf",
+      "url": "https://www.twsa.org.tw/B01/doc/114%E5%B9%B4%E8%AD%89%E5%88%B8%E5%85%AC%E6%9C%83%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf"
+    }
+  ]
+}

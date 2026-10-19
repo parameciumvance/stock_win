@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-19T17:59:32.241691+00:00",
+  "status": "bounded_source_recovery_closed_2025return_unknown",
+  "files": {
+    "native_public_sources.py": "c02e83059cdd610839188cac8e67ac684f91a7a3b20930c4b86ab10b846fcfab",
+    "ipo_adjudication.py": "b4951a6b7c3969c1a5a1110f282ed2a1f9dfc8e9beba36923c629cf47d682c1f",
+    "test_ipo_adjudication.py": "439fbbeb0e9b55151e79eff47c0e3d8282b3693f29ca7d6feb193057e9272bd7",
+    "configs/ipo_adjudication_acquisition_pipeline.json": "def64628a6e8240a9fa6fb1f90fad5cc8375b9ad38aaef44000438d91514d54b",
+    "configs/ipo_adjudication_audit_pipeline.json": "63716b7108559a80af54572dbaafc48d07f7b512a5b4073a347faf4fdcf016a1",
+    "configs/ipo_adjudication_control_sources.json": "5fcf25b637012ddbc8ed19af49b53990326514e5eae069f53a7dcb5b71f83d30",
+    "configs/ipo_adjudication_native_sources.json": "c8530b84d36356a5f12fd2bdae3c203c4ffbb9d5e5e7c4793e440bd9d804466f",
+    "configs/ipo_adjudication_protocol_20261020.json": "c5344a3872be620cd6380d5d316f99cab037d03a91c41481274dfebb7ea712fb",
+    "deliverables/ipo_adjudication_20261020/inspection_receipt.json": "02b66c0cf01758bfaa0216e0dbe7391c1774a004c01db4afdf04dc95134ec51e",
+    "deliverables/ipo_adjudication_20261020/next_tasks.json": "11e8b7d532a259111f1c11c6e85730a10c3eccdb24ef31abe6589491e4ec2b3e",
+    "deliverables/ipo_adjudication_20261020/protocol_freeze.json": "f64b9afa968998da6e6dbc467dfcde673ff55475332023958381daad08fb6d81",
+    "deliverables/ipo_adjudication_20261020/recovery_receipt.json": "cc10957d35d04fee72c4291ce306ebb71a1c7557d9917efbafd2cc6c40e38c7c",
+    "deliverables/ipo_adjudication_20261020/replay_checks.json": "353fe5c3471280d73255411ee4d4804eca09b27fbde8c53dfe00c77a60773bfa",
+    "deliverables/ipo_adjudication_20261020/report.md": "bd127ee1456dfe19b8070dae0f10aa40b46a5e10bcf43c51c044f09639a1f4bf",
+    "deliverables/ipo_adjudication_20261020/source_receipt.json": "9df2a407626a84fafb04a06dc225e3e3f4dbc501d14dfc36c44fe5419429b5cd",
+    "deliverables/ipo_adjudication_20261020/sources_package.json": "e6301fe954b471ce6fabad3a3f63eede7e1d7c99095c5eba630a07d5310301a2",
+    "deliverables/ipo_adjudication_20261020/tests.json": "0b108feb114583713934a2328cb7e6277500fffbbb2813ad1c09ba6409ce375e"
+  },
+  "raw_archive_sha256": "ab014a4430c29ac2ecdfde5bc31267c5e86c5f1371d683444358a798863f6431",
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "restore": "Restore exact new source archive plus old frozen checkpoints; preserve old conflicts unchanged. Do not substitute a convenient response or splice fields."
+}

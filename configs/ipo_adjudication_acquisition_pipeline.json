@@ -1,0 +1,70 @@
+{
+  "stages": [
+    {
+      "id": "acquire_native",
+      "command": [
+        "{python}",
+        "native_public_sources.py",
+        "configs/ipo_adjudication_native_sources.json"
+      ],
+      "inputs": [
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "configs/ipo_adjudication_native_sources.json",
+        "configs/ipo_adjudication_protocol_20261020.json",
+        "deliverables/ipo_adjudication_20261020/protocol_freeze.json"
+      ],
+      "outputs": [
+        "inputs/ipo_adjudication_20261020/raw_native/results.json"
+      ],
+      "timeout_seconds": 90
+    },
+    {
+      "id": "acquire_control",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/ipo_adjudication_control_sources.json"
+      ],
+      "inputs": [
+        "bounded_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "configs/ipo_adjudication_control_sources.json",
+        "configs/ipo_adjudication_protocol_20261020.json",
+        "deliverables/ipo_adjudication_20261020/protocol_freeze.json"
+      ],
+      "outputs": [
+        "inputs/ipo_adjudication_20261020/raw_controls/results.json"
+      ],
+      "timeout_seconds": 90
+    },
+    {
+      "id": "package_before_analysis",
+      "command": [
+        "{python}",
+        "ipo_adjudication.py",
+        "package"
+      ],
+      "inputs": [
+        "ipo_adjudication.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "tender_preflight.py",
+        "configs/ipo_adjudication_protocol_20261020.json",
+        "deliverables/ipo_adjudication_20261020/protocol_freeze.json",
+        "configs/ipo_adjudication_native_sources.json",
+        "configs/ipo_adjudication_control_sources.json",
+        "inputs/ipo_adjudication_20261020/raw_native",
+        "inputs/ipo_adjudication_20261020/raw_controls"
+      ],
+      "outputs": [
+        "deliverables/ipo_adjudication_20261020/sources_package.json",
+        "inputs/ipo_adjudication_20261020/sources.zip"
+      ],
+      "timeout_seconds": 30
+    }
+  ]
+}
