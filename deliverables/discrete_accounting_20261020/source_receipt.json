@@ -1,0 +1,12 @@
+{
+  "status": "passed_saved_inputs_only",
+  "prior_frozen_files_verified": true,
+  "price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "price_manifest_files": 506,
+  "raw_action_archive_sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+  "raw_action_manifest_files": 15,
+  "roundtrip_verified": true,
+  "crc_manifest_verified": true,
+  "new_raw_downloads": 0,
+  "raw_retransmissions": 0
+}

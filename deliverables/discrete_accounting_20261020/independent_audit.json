@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "cases": 24,
+  "calendar_account_rows_verified": 17520,
+  "integer_grid_account_rows_verified": 11680,
+  "target_attempts_verified": 294,
+  "fractional_controls_exactly_matched": 8,
+  "maximum_absolute_field_error": "1.9999999999995954e-26",
+  "absolute_field_tolerance": "1e-18",
+  "method": "Fraction date-flow accounting and maximal-grid inequalities; Decimal50independentcash/exposure/shortfallmeans; no production Accountorroundingsolver"
+}

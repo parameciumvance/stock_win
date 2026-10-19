@@ -1,0 +1,10 @@
+{
+  "accounting_and_quantity_gates_passed": true,
+  "summary_sha256": "29e7dc610cbcc69cba8a9d7284e1a4049435ddad12ff967ffcc1b8fd6611c95d",
+  "accounts_sha256": "531f0cff8d8f9e467cc0c7e64ac9b47c09fa37294367121181665e2458588298",
+  "independent_audit_sha256": "87893e58fd3dd6617a76ef2452a95bae268d7c2ce1659d4d20f33355f54e6195",
+  "actual_fills_verified": false,
+  "broker_minimum_fees_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null
+}
