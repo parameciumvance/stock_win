@@ -1,0 +1,161 @@
+{
+  "output_directory": "inputs/tender_originals_20261019/raw_refs03",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "6897_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_6897_B2a_1.pdf"
+    },
+    {
+      "filename": "6897_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_6897_B2d_1.pdf"
+    },
+    {
+      "filename": "6897_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_6897_B2g_1.pdf"
+    },
+    {
+      "filename": "6897_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_6897_B2m_1.pdf"
+    },
+    {
+      "filename": "6897_04.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6897&TYPE=1&DATE=20241218&SEQ_NO=1"
+    },
+    {
+      "filename": "6897_05.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6897&TYPE=11&DATE=20241218&SEQ_NO=1"
+    },
+    {
+      "filename": "6897_06.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6897&TYPE=8&DATE=20250102&SEQ_NO=1"
+    },
+    {
+      "filename": "6897_07.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6897&TYPE=9&DATE=20250108&SEQ_NO=1"
+    },
+    {
+      "filename": "6897_08.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6897&TYPE=8&DATE=20250109&SEQ_NO=1"
+    },
+    {
+      "filename": "6938_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6214&filename=202400_6214_6938_B2g_1.pdf"
+    },
+    {
+      "filename": "6938_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6214&filename=202400_6214_6938_B2m_1.pdf"
+    },
+    {
+      "filename": "6938_04.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6938&TYPE=11&DATE=20240712&SEQ_NO=1"
+    },
+    {
+      "filename": "6938_05.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6938&TYPE=1&DATE=20240711&SEQ_NO=1"
+    },
+    {
+      "filename": "6938_06.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=6938&TYPE=8&DATE=20240717&SEQ_NO=1"
+    },
+    {
+      "filename": "7555_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=0009A0&filename=202400_0009A0_7555_B2a_1.pdf"
+    },
+    {
+      "filename": "7555_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=0009A0&filename=202400_0009A0_7555_B2d_1.pdf"
+    },
+    {
+      "filename": "7555_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=0009A0&filename=202400_0009A0_7555_B2g_1.pdf"
+    },
+    {
+      "filename": "7555_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=0009A0&filename=202400_0009A0_7555_B2m_1.pdf"
+    },
+    {
+      "filename": "7555_04.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=7555&TYPE=1&DATE=20241215&SEQ_NO=1"
+    },
+    {
+      "filename": "7555_05.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=7555&TYPE=8&DATE=20250107&SEQ_NO=1"
+    },
+    {
+      "filename": "7555_06.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=7555&TYPE=9&DATE=20250117&SEQ_NO=1"
+    },
+    {
+      "filename": "7555_07.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=7555&TYPE=12&DATE=20250117&SEQ_NO=1"
+    },
+    {
+      "filename": "7555_08.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=7555&TYPE=11&DATE=20250121&SEQ_NO=1"
+    },
+    {
+      "filename": "8435_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=4729&filename=202400_4729_8435_B2a_1.pdf"
+    },
+    {
+      "filename": "8435_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=4729&filename=202400_4729_8435_B2d_1.pdf"
+    },
+    {
+      "filename": "8435_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=4729&filename=202400_4729_8435_B2g_1.pdf"
+    },
+    {
+      "filename": "8435_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=4729&filename=202400_4729_8435_B2m_1.pdf"
+    },
+    {
+      "filename": "8435_04.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=8435&TYPE=1&DATE=20240216&SEQ_NO=1"
+    },
+    {
+      "filename": "8435_05.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=8435&TYPE=9&DATE=20240319&SEQ_NO=1"
+    },
+    {
+      "filename": "8435_06.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb01",
+      "method": "POST",
+      "data": "step=2&off=1&firstin=1&COMPANY_ID2=8435&TYPE=11&DATE=20240319&SEQ_NO=1"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+[
+  {
+    "pointer": "2945_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/2945_00.html",
+    "gateway_sha256": "c9dcc181163f4ad8c52d6819544f07a5721a14922df0258159a1d5462985aa73",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2a_1_20261019_082758.pdf"
+  },
+  {
+    "pointer": "2945_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/2945_01.html",
+    "gateway_sha256": "184a60c006820284a289efb2735469b50478d3f4b5cf8c063fd023d56cab5ce5",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2d_1_20261019_082758.pdf"
+  },
+  {
+    "pointer": "2945_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/2945_02.html",
+    "gateway_sha256": "14f6aaf9c5a10c5d441a6328a69fa6c15cf5100d65c0eddab2c8ffb6078c51d5",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2e_1_20261019_082759.pdf"
+  },
+  {
+    "pointer": "2945_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/2945_03.html",
+    "gateway_sha256": "ce6fbf8429e60932daf88d408903a38357aa5aeda0bb4d211f7e6e30411d430f",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2g_1_20261019_082759.pdf"
+  },
+  {
+    "pointer": "2945_04.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/2945_04.html",
+    "gateway_sha256": "67fe34e61373da05f8a37b41e5d3162bef8ba5e84ab31886666d8024ecb8af17",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2m_1_20261019_082759.pdf"
+  },
+  {
+    "pointer": "3040_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3040_00.html",
+    "gateway_sha256": "79b7394d0c7345ead7407b121df0673f407743a4f0de218f7faf63231f0ad0a7",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2a_1_20261019_082800.pdf"
+  },
+  {
+    "pointer": "3040_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3040_01.html",
+    "gateway_sha256": "9ec4e1ccdc9f41b693b00ee1fe4bb17bea0309504fec25f310a90fed88bdfa21",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2d_1_20261019_082800.pdf"
+  },
+  {
+    "pointer": "3040_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3040_02.html",
+    "gateway_sha256": "ef10f5d44a2f16a222b7c934003ee9016ef04e90811126da2f8a1b5d3ffef42c",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2g_1_20261019_082800.pdf"
+  },
+  {
+    "pointer": "3040_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3040_03.html",
+    "gateway_sha256": "03971ebcbadac4f47a08747528e6dad54d894f56a8b364bd766ea8d83bc380fb",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2m_1_20261019_082801.pdf"
+  },
+  {
+    "pointer": "3666_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3666_00.html",
+    "gateway_sha256": "e0292cdf91fb62aab934900b72cc87e90154580e52ee91b035c006ef4a5d2bc0",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3666_B2a_1_20261019_082802.pdf"
+  },
+  {
+    "pointer": "3666_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3666_01.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "3666_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3666_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "3666_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/3666_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4127_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/4127_00.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4127_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/4127_01.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4127_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/4127_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4127_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs01/4127_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4127_04.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/4127_04.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4735_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/4735_00.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4735_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/4735_01.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4735_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/4735_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "4735_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/4735_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6588_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6588_00.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6588_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6588_01.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6588_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6588_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6588_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6588_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6588_04.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6588_04.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6588_05.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6588_05.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6844_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6844_00.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6844_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6844_01.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6844_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6844_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6844_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs02/6844_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "6897_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/6897_00.html",
+    "gateway_sha256": "cb8ea76458de007ad6caff660cdbeea3567f948d32f72e31d562fe71321eeb31",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2a_1_20261019_082810.pdf"
+  },
+  {
+    "pointer": "6897_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/6897_01.html",
+    "gateway_sha256": "b0c198581ea0d574438efec95f74e0d432728d1c47dc2776afc122e611d34de5",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2d_1_20261019_082810.pdf"
+  },
+  {
+    "pointer": "6897_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/6897_02.html",
+    "gateway_sha256": "4710b1fac878cb0c9ad9b0a480f05a0d6d1c037523c711b9e326cf231be54743",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2g_1_20261019_082811.pdf"
+  },
+  {
+    "pointer": "6897_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/6897_03.html",
+    "gateway_sha256": "e156f70c0e45f873b648a87636ecdcee0eb438a0f62df636dd90631269382db7",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2m_1_20261019_082811.pdf"
+  },
+  {
+    "pointer": "6938_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_pilot/6938_00.html",
+    "gateway_sha256": "644b65a10c39a64e2a9faae1581fe683a5ba25a2abe9b9ce01c2175c4a951cce",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2a_1_20261019_082717.pdf"
+  },
+  {
+    "pointer": "6938_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_pilot/6938_01.html",
+    "gateway_sha256": "3f01ec1c781a67d1c0f4f70a2d50ebd4307753da26498ad96c87597bc841aa1f",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2d_1_20261019_082717.pdf"
+  },
+  {
+    "pointer": "6938_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/6938_02.html",
+    "gateway_sha256": "31449e7eecccad1b7837d8d6e52b687fc5a6b99afb58003b4b62270075ea33cf",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2g_1_20261019_082812.pdf"
+  },
+  {
+    "pointer": "6938_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/6938_03.html",
+    "gateway_sha256": "ebe2fa527d3e06b30ed53eb969e0cf7a5157074664a24945baa5ed68de2426db",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2m_1_20261019_082812.pdf"
+  },
+  {
+    "pointer": "7555_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/7555_00.html",
+    "gateway_sha256": "5a8946d2ddffe7d869a0e387f5af48c07a45d434f438857b28fde3b256ac5a00",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2a_1_20261019_082813.pdf"
+  },
+  {
+    "pointer": "7555_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/7555_01.html",
+    "gateway_sha256": "9681744e89d12c7acac6fd5b597a865855c2569fed437f7575be2df143d89df0",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2d_1_20261019_082813.pdf"
+  },
+  {
+    "pointer": "7555_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/7555_02.html",
+    "gateway_sha256": "fead502877af73c51ef8242a76c0e128ca9df946a62915a5450adc533c96c259",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2g_1_20261019_082813.pdf"
+  },
+  {
+    "pointer": "7555_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/7555_03.html",
+    "gateway_sha256": "be94dbd62190375e772ec783b2e28f5b29a49174dc3c6d073a843fb9cbc40519",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2m_1_20261019_082814.pdf"
+  },
+  {
+    "pointer": "8435_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/8435_00.html",
+    "gateway_sha256": "9fff7d49814132e77bedda2cb5f6e955b5e821c1ad2534f179fe9745c4bcabc4",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_4729_8435_B2a_1_20261019_082814.pdf"
+  },
+  {
+    "pointer": "8435_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/8435_01.html",
+    "gateway_sha256": "d1ddb10d0137a892a6d9219bdc0d616a79bbfdb5623610c391df7ada5b6b0b62",
+    "status": "discovered_pdf_link",
+    "url": "https://doc.twse.com.tw/pdf/202400_4729_8435_B2d_1_20261019_082814.pdf"
+  },
+  {
+    "pointer": "8435_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/8435_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8435_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs03/8435_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8477_00.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs04/8477_00.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8477_01.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs04/8477_01.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8477_02.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs04/8477_02.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8477_03.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs04/8477_03.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8477_04.html",
+    "gateway_path": "inputs/tender_originals_20261019/raw_refs04/8477_04.html",
+    "gateway_sha256": "7f87fe0bce6b6c13fc2a88e7bf9ab00bed8d411eb6291fbbfcf3a1ade79248a2",
+    "status": "no_usable_pdf_link",
+    "reason": "Missing/ambiguous generated PDF link"
+  }
+]

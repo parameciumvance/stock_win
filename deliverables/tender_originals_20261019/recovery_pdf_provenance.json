@@ -1,0 +1,162 @@
+[
+  {
+    "pointer": "3666_01.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/3666_01.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3666_B2d_1_20261019_083036.pdf",
+    "gateway_sha256": "5a10a9a92fcf176e3cf8cb500bcede622efc3e651febf1af1f167437bd975ef9"
+  },
+  {
+    "pointer": "3666_02.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/3666_02.html"
+  },
+  {
+    "pointer": "3666_03.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/3666_03.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6026_3666_B2m_1_20261019_083045.pdf",
+    "gateway_sha256": "a3921c96fe98c4ef1f47772ed10e425661a16228616ad3da0a80cfddc5cddb9d"
+  },
+  {
+    "pointer": "4127_00.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4127_00.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2a_1_20261019_083048.pdf",
+    "gateway_sha256": "fb6d1e27a1234194b47119fbdb36eedc641b9dbeeaee5d0308b67c03115f3423"
+  },
+  {
+    "pointer": "4127_01.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4127_01.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2d_1_20261019_083052.pdf",
+    "gateway_sha256": "f5c472043df21b35e80c7dfea5430f57c925e78aec4cd5f6bb9a88abeb881560"
+  },
+  {
+    "pointer": "4127_02.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4127_02.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2e_1_20261019_083056.pdf",
+    "gateway_sha256": "984ef667a4f49f20a582bb91bac4aad37a0166a3d2cacadb47c9e0711497f49d"
+  },
+  {
+    "pointer": "4127_03.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4127_03.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2g_1_20261019_083100.pdf",
+    "gateway_sha256": "10b8b2dd914b9929dbb025caef0511a676ad780b715b09a696f7d3d314283df9"
+  },
+  {
+    "pointer": "4127_04.html",
+    "status": "discovered_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4127_04.html",
+    "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2m_1_20261019_083104.pdf",
+    "gateway_sha256": "ed8d9b56a49725f2c2551a2ee8c42347a2349c32eb39dba72b011aed5958ccf7"
+  },
+  {
+    "pointer": "4735_00.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4735_00.html"
+  },
+  {
+    "pointer": "4735_01.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4735_01.html"
+  },
+  {
+    "pointer": "4735_02.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4735_02.html"
+  },
+  {
+    "pointer": "4735_03.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/4735_03.html"
+  },
+  {
+    "pointer": "6588_00.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6588_00.html"
+  },
+  {
+    "pointer": "6588_01.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6588_01.html"
+  },
+  {
+    "pointer": "6588_02.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6588_02.html"
+  },
+  {
+    "pointer": "6588_03.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6588_03.html"
+  },
+  {
+    "pointer": "6588_04.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6588_04.html"
+  },
+  {
+    "pointer": "6588_05.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6588_05.html"
+  },
+  {
+    "pointer": "6844_00.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6844_00.html"
+  },
+  {
+    "pointer": "6844_01.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6844_01.html"
+  },
+  {
+    "pointer": "6844_02.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6844_02.html"
+  },
+  {
+    "pointer": "6844_03.html",
+    "status": "no_usable_pdf_link",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/6844_03.html",
+    "reason": "Missing/ambiguous generated PDF link"
+  },
+  {
+    "pointer": "8435_02.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8435_02.html"
+  },
+  {
+    "pointer": "8435_03.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8435_03.html"
+  },
+  {
+    "pointer": "8477_00.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8477_00.html"
+  },
+  {
+    "pointer": "8477_01.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8477_01.html"
+  },
+  {
+    "pointer": "8477_02.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8477_02.html"
+  },
+  {
+    "pointer": "8477_03.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8477_03.html"
+  },
+  {
+    "pointer": "8477_04.html",
+    "status": "gateway_unavailable",
+    "gateway_path": "inputs/tender_originals_20261019/raw_recovery/8477_04.html"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "output_directory": "inputs/tender_originals_20261019/raw_recoverypdf",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "3666_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3666_B2d_1_20261019_083036.pdf"
+    },
+    {
+      "filename": "3666_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3666_B2m_1_20261019_083045.pdf"
+    },
+    {
+      "filename": "4127_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2a_1_20261019_083048.pdf"
+    },
+    {
+      "filename": "4127_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2d_1_20261019_083052.pdf"
+    },
+    {
+      "filename": "4127_02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2e_1_20261019_083056.pdf"
+    },
+    {
+      "filename": "4127_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2g_1_20261019_083100.pdf"
+    },
+    {
+      "filename": "4127_04.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6005_4127_B2m_1_20261019_083104.pdf"
+    }
+  ]
+}

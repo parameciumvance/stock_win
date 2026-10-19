@@ -1,0 +1,22 @@
+{
+  "status": "bounded_original_audit_closed_partial_sources",
+  "completed": [
+    "81 original documents preserved:31PDFs+50notices, all12expiry notices",
+    "Declared actual shares replayed for all12 cases;11match summary,6938has1949647vs0",
+    "One bounded paced recovery; original refusals/errors preserved; no manual download queue",
+    "9packages backed up and read back withSHA/CRC/manifest",
+    "39tests passed"
+  ],
+  "unresolved": [
+    "22PDF originals unavailable in this bounded run",
+    "17PDFs have less than100extractable characters; all terms not semantically verified",
+    "Broad period query includes out-of-range2026row",
+    "Historical first-public/revision/proposal/withdrawal completeness",
+    "Actual payment/delivery not verified"
+  ],
+  "decision": "Do not expand this source pilot, start returns research or daily manual validation under current evidence",
+  "reopen_conditions": "A separately bounded plan with complete batch-accessible source/version coverage and a concrete economic study objective; retain all failed/unknown cases",
+  "user_action_required": null,
+  "valid_prospective_signal_date": null,
+  "old_frozen_rules_unchanged": true
+}

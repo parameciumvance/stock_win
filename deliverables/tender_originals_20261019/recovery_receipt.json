@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-19T00:40:16.902496+00:00",
+  "base_remote_main": "368e5239d2b16423829871cccb644312edc98af8",
+  "parent_checkpoint": "deliverables/tender_preflight_20261019/checkpoint.json",
+  "parent_checkpoint_sha256": "db9e8dcad638a687f14c6b3c396514e5a984419a2d32d90a60645cfd256903fc",
+  "parent_files_verified": 30,
+  "parent_archives_verified": [
+    "sources",
+    "followups",
+    "cohort"
+  ],
+  "old_inputs_replaced": false
+}

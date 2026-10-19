@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-10-19T00:30:22.105242+00:00",
+  "parent_protocol_sha256": "a236ecf9823ee1cacc0fe223e22fb87138ae8e5e66222982fb32765e84477eab",
+  "trigger": "29 gateway responses explicitly contain query-overload text; preserve every original response",
+  "prior_provenance_sha256": "1d97bfe720db7309486f3de2e8931c229d3ce799515fff80bdfb5cca3b5a160e",
+  "requests": 29,
+  "maximum_gateway_retries": 29,
+  "attempts_per_gateway": 1,
+  "minimum_start_interval_seconds": 4,
+  "workers": 2,
+  "stop_on_first_new_refusal": true,
+  "scope": "New acquisition recovery phase, not a modification of prior requests or trading parameters",
+  "maximum_discovered_pdf_followups": 29,
+  "no_manual_downloads": true
+}

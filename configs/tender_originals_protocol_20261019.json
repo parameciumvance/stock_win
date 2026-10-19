@@ -1,0 +1,17 @@
+{
+  "purpose": "Bounded original-content/source audit only; no market quotes, returns, model fitting or parameter changes",
+  "parent_checkpoint_sha256": "db9e8dcad638a687f14c6b3c396514e5a984419a2d32d90a60645cfd256903fc",
+  "parent_archive_sha256": "084674ebc25982696a062f52ee5fe9e5a6b88f9a9a792a22cbe90efad544b010",
+  "references_sha256": "a16607d7ef089bb446eb962e69d2c153f109d6ea568c5149cfee476518e68096",
+  "references": 103,
+  "cases": 12,
+  "pilot": "6938 initial filing, prospectus and expiry notice plus one date-filter control using firstin=1; max4 requests",
+  "full_acquisition": "Only after pilot exposes usable document/notice routes: remaining fixed references once; max103 reference requests inclusive of pilot",
+  "pdf_followups": "At most one HTML-discovered HTTPS TWSE-hosted PDF per gateway; max53; no script execution or invented filenames",
+  "scope_checks": "At most3 additional official form-derived boundary/control queries; preserve any range mismatch and pre-commencement coverage unknown",
+  "workers": 2,
+  "request_timeout_seconds": 30,
+  "per_response_bytes": 33554432,
+  "stop": "Do not turn inaccessible sources into a manual download queue; record actual transport/content refusal and unknown PIT. No return study unless separate source and economic protocol gates pass",
+  "timestamps": "Index reported time, form DATE parameter, document text date and retrieval time remain separate; latest retrieval never proves earliest public availability"
+}

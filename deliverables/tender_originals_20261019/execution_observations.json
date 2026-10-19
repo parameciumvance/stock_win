@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-19T00:31:06.024435+00:00",
+  "events": [
+    {
+      "type": "gateway_content_refusal",
+      "count": 29,
+      "http_status": 200,
+      "message": "\u67e5\u8a62\u904e\u91cf\uff0c\u8acb\u7a0d\u5f8c\u518d\u67e5\u8a62!",
+      "response_bytes": 469,
+      "root_cause_or_reset_interval_inferred": false
+    },
+    {
+      "type": "orchestration_missing_optional_plan",
+      "path": "configs/tender_originals_pdfs02_pipeline.json",
+      "explanation": "Only24 usable PDF links produced one batch. Ad hoc runner attempted an absent second batch after first succeeded. Raw files and package preserved; subsequent workflow enumerates actual plans. No source retry caused by this error."
+    }
+  ],
+  "recovery_summary": {
+    "configured": 29,
+    "attempted": 22,
+    "pdf_links_found": 7,
+    "quota_refusal_repeated": 1,
+    "curl_exit_1_http09": 13,
+    "curl_exit_6_dns": 1,
+    "not_requested_after_stop": 7,
+    "root_cause_inferred": false,
+    "current_executor_stops_on_first_transport_error": true,
+    "scope": "Hardening after observed batch; preserved earlier batch results unchanged"
+  }
+}

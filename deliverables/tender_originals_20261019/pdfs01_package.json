@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/tender_originals_20261019/pdfs01.zip",
+  "sha256": "50f45a49dcc8bae79e010057e104e97f60b24fe259074c2e7477cf0f87516ff6",
+  "manifest_files": 76,
+  "created_at": "2026-10-19T00:29:58.431111+00:00",
+  "retrieved": "inputs/tender_originals_20261019/pdfs01.retrieved.zip",
+  "transfer_receipt": "inputs/tender_originals_20261019/pdfs01_transfer.json",
+  "backup_label": "tender_originals_20261019_pdfs01"
+}

@@ -1,0 +1,27 @@
+{
+  "output_directory": "inputs/tender_originals_20261019/raw_controls",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "failed_only_control.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb03",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&start_YM=11301&end_YM=11312&achieved=N&cert_type="
+    },
+    {
+      "filename": "start_year_2023.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb02",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&year=112"
+    },
+    {
+      "filename": "start_year_2025.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t162sb02",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&year=114"
+    }
+  ]
+}

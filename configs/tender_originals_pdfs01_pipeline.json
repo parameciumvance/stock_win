@@ -1,0 +1,57 @@
+{
+  "stages": [
+    {
+      "id": "acquire",
+      "command": [
+        "{python}",
+        "bounded_public_sources.py",
+        "configs/tender_originals_pdfs01_sources.json"
+      ],
+      "inputs": [
+        "tender_originals.py",
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_originals_protocol_20261019.json",
+        "deliverables/tender_originals_20261019/protocol_freeze.json",
+        "deliverables/tender_originals_20261019/references.json",
+        "configs/tender_originals_pdfs01_sources.json",
+        "deliverables/tender_preflight_20261019/checkpoint.json",
+        "bounded_public_sources.py"
+      ],
+      "outputs": [
+        "inputs/tender_originals_20261019/raw_pdfs01/results.json"
+      ],
+      "timeout_seconds": 600
+    },
+    {
+      "id": "package",
+      "command": [
+        "{python}",
+        "tender_originals.py",
+        "package",
+        "--tag",
+        "pdfs01"
+      ],
+      "inputs": [
+        "tender_originals.py",
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_originals_protocol_20261019.json",
+        "deliverables/tender_originals_20261019/protocol_freeze.json",
+        "deliverables/tender_originals_20261019/references.json",
+        "configs/tender_originals_pdfs01_sources.json",
+        "deliverables/tender_preflight_20261019/checkpoint.json",
+        "inputs/tender_originals_20261019/raw_pdfs01"
+      ],
+      "outputs": [
+        "inputs/tender_originals_20261019/pdfs01.zip",
+        "deliverables/tender_originals_20261019/pdfs01_package.json"
+      ],
+      "timeout_seconds": 60
+    }
+  ]
+}

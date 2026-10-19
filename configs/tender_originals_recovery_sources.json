@@ -1,0 +1,126 @@
+{
+  "output_directory": "inputs/tender_originals_20261019/raw_recovery",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "3666_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_3666_B2d_1.pdf"
+    },
+    {
+      "filename": "3666_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_3666_B2g_1.pdf"
+    },
+    {
+      "filename": "3666_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6026&filename=202400_6026_3666_B2m_1.pdf"
+    },
+    {
+      "filename": "4127_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6005&filename=202400_6005_4127_B2a_1.pdf"
+    },
+    {
+      "filename": "4127_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6005&filename=202400_6005_4127_B2d_1.pdf"
+    },
+    {
+      "filename": "4127_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6005&filename=202400_6005_4127_B2e_1.pdf"
+    },
+    {
+      "filename": "4127_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6005&filename=202400_6005_4127_B2g_1.pdf"
+    },
+    {
+      "filename": "4127_04.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6005&filename=202400_6005_4127_B2m_1.pdf"
+    },
+    {
+      "filename": "4735_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2070&filename=202400_2070_4735_B2a_1.pdf"
+    },
+    {
+      "filename": "4735_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2070&filename=202400_2070_4735_B2d_1.pdf"
+    },
+    {
+      "filename": "4735_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2070&filename=202400_2070_4735_B2g_1.pdf"
+    },
+    {
+      "filename": "4735_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2070&filename=202400_2070_4735_B2m_2.pdf"
+    },
+    {
+      "filename": "6588_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=000700&filename=202400_000700_6588_B2a_1.pdf"
+    },
+    {
+      "filename": "6588_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=000700&filename=202400_000700_6588_B2b_1.pdf"
+    },
+    {
+      "filename": "6588_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=000700&filename=202400_000700_6588_B2d_1.pdf"
+    },
+    {
+      "filename": "6588_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=000700&filename=202400_000700_6588_B2e_1.pdf"
+    },
+    {
+      "filename": "6588_04.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=000700&filename=202400_000700_6588_B2g_1.pdf"
+    },
+    {
+      "filename": "6588_05.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=000700&filename=202400_000700_6588_B2m_1.pdf"
+    },
+    {
+      "filename": "6844_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2352&filename=202400_2352_6844_B2a_1.pdf"
+    },
+    {
+      "filename": "6844_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2352&filename=202400_2352_6844_B2d_1.pdf"
+    },
+    {
+      "filename": "6844_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2352&filename=202400_2352_6844_B2g_1.pdf"
+    },
+    {
+      "filename": "6844_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=2352&filename=202400_2352_6844_B2m_1.pdf"
+    },
+    {
+      "filename": "8435_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=4729&filename=202400_4729_8435_B2g_1.pdf"
+    },
+    {
+      "filename": "8435_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=4729&filename=202400_4729_8435_B2m_1.pdf"
+    },
+    {
+      "filename": "8477_00.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6015&filename=202400_6015_8477_B2a_1.pdf"
+    },
+    {
+      "filename": "8477_01.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6015&filename=202400_6015_8477_B2d_1.pdf"
+    },
+    {
+      "filename": "8477_02.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6015&filename=202400_6015_8477_B2e_1.pdf"
+    },
+    {
+      "filename": "8477_03.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6015&filename=202400_6015_8477_B2g_1.pdf"
+    },
+    {
+      "filename": "8477_04.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=B&co_id=6015&filename=202400_6015_8477_B2m_1.pdf"
+    }
+  ],
+  "request_interval_seconds": 4
+}

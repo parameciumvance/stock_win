@@ -1,0 +1,71 @@
+{
+  "stages": [
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "tender_originals.py",
+        "replay"
+      ],
+      "inputs": [
+        "tender_originals.py",
+        "tender_preflight.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "research_runtime.py",
+        "configs/tender_originals_protocol_20261019.json",
+        "deliverables/tender_originals_20261019/protocol_freeze.json",
+        "deliverables/tender_originals_20261019/references.json",
+        "deliverables/tender_preflight_20261019/checkpoint.json",
+        "deliverables/tender_preflight_20261019/case_ledger.json",
+        "deliverables/tender_originals_20261019/recovery_protocol.json",
+        "deliverables/tender_originals_20261019/pdf_link_provenance.json",
+        "deliverables/tender_originals_20261019/recovery_pdf_provenance.json",
+        "configs/tender_originals_controls_sources.json",
+        "inputs/tender_originals_20261019/controls.retrieved.zip",
+        "inputs/tender_originals_20261019/controls_transfer.json",
+        "deliverables/tender_originals_20261019/controls_package.json",
+        "configs/tender_originals_pdfs01_sources.json",
+        "inputs/tender_originals_20261019/pdfs01.retrieved.zip",
+        "inputs/tender_originals_20261019/pdfs01_transfer.json",
+        "deliverables/tender_originals_20261019/pdfs01_package.json",
+        "configs/tender_originals_pilot_sources.json",
+        "inputs/tender_originals_20261019/pilot.retrieved.zip",
+        "inputs/tender_originals_20261019/pilot_transfer.json",
+        "deliverables/tender_originals_20261019/pilot_package.json",
+        "configs/tender_originals_recovery_sources.json",
+        "inputs/tender_originals_20261019/recovery.retrieved.zip",
+        "inputs/tender_originals_20261019/recovery_transfer.json",
+        "deliverables/tender_originals_20261019/recovery_package.json",
+        "configs/tender_originals_recoverypdf_sources.json",
+        "inputs/tender_originals_20261019/recoverypdf.retrieved.zip",
+        "inputs/tender_originals_20261019/recoverypdf_transfer.json",
+        "deliverables/tender_originals_20261019/recoverypdf_package.json",
+        "configs/tender_originals_refs01_sources.json",
+        "inputs/tender_originals_20261019/refs01.retrieved.zip",
+        "inputs/tender_originals_20261019/refs01_transfer.json",
+        "deliverables/tender_originals_20261019/refs01_package.json",
+        "configs/tender_originals_refs02_sources.json",
+        "inputs/tender_originals_20261019/refs02.retrieved.zip",
+        "inputs/tender_originals_20261019/refs02_transfer.json",
+        "deliverables/tender_originals_20261019/refs02_package.json",
+        "configs/tender_originals_refs03_sources.json",
+        "inputs/tender_originals_20261019/refs03.retrieved.zip",
+        "inputs/tender_originals_20261019/refs03_transfer.json",
+        "deliverables/tender_originals_20261019/refs03_package.json",
+        "configs/tender_originals_refs04_sources.json",
+        "inputs/tender_originals_20261019/refs04.retrieved.zip",
+        "inputs/tender_originals_20261019/refs04_transfer.json",
+        "deliverables/tender_originals_20261019/refs04_package.json"
+      ],
+      "outputs": [
+        "deliverables/tender_originals_20261019/source_receipt.json",
+        "deliverables/tender_originals_20261019/document_ledger.json",
+        "deliverables/tender_originals_20261019/decision.json",
+        "inputs/tender_originals_20261019/text"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2048
+    }
+  ]
+}

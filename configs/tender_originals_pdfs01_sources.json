@@ -1,0 +1,105 @@
+{
+  "output_directory": "inputs/tender_originals_20261019/raw_pdfs01",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "2945_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2a_1_20261019_082758.pdf"
+    },
+    {
+      "filename": "2945_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2d_1_20261019_082758.pdf"
+    },
+    {
+      "filename": "2945_02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2e_1_20261019_082759.pdf"
+    },
+    {
+      "filename": "2945_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2g_1_20261019_082759.pdf"
+    },
+    {
+      "filename": "2945_04.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_000815_2945_B2m_1_20261019_082759.pdf"
+    },
+    {
+      "filename": "3040_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2a_1_20261019_082800.pdf"
+    },
+    {
+      "filename": "3040_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2d_1_20261019_082800.pdf"
+    },
+    {
+      "filename": "3040_02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2g_1_20261019_082800.pdf"
+    },
+    {
+      "filename": "3040_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3040_B2m_1_20261019_082801.pdf"
+    },
+    {
+      "filename": "3666_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_3666_B2a_1_20261019_082802.pdf"
+    },
+    {
+      "filename": "6897_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2a_1_20261019_082810.pdf"
+    },
+    {
+      "filename": "6897_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2d_1_20261019_082810.pdf"
+    },
+    {
+      "filename": "6897_02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2g_1_20261019_082811.pdf"
+    },
+    {
+      "filename": "6897_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6026_6897_B2m_1_20261019_082811.pdf"
+    },
+    {
+      "filename": "6938_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2a_1_20261019_082717.pdf"
+    },
+    {
+      "filename": "6938_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2d_1_20261019_082717.pdf"
+    },
+    {
+      "filename": "6938_02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2g_1_20261019_082812.pdf"
+    },
+    {
+      "filename": "6938_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_6214_6938_B2m_1_20261019_082812.pdf"
+    },
+    {
+      "filename": "7555_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2a_1_20261019_082813.pdf"
+    },
+    {
+      "filename": "7555_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2d_1_20261019_082813.pdf"
+    },
+    {
+      "filename": "7555_02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2g_1_20261019_082813.pdf"
+    },
+    {
+      "filename": "7555_03.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_0009A0_7555_B2m_1_20261019_082814.pdf"
+    },
+    {
+      "filename": "8435_00.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_4729_8435_B2a_1_20261019_082814.pdf"
+    },
+    {
+      "filename": "8435_01.pdf",
+      "url": "https://doc.twse.com.tw/pdf/202400_4729_8435_B2d_1_20261019_082814.pdf"
+    }
+  ]
+}

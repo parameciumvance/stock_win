@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-19T00:36:48.658823+00:00",
+  "command": ".venv/bin/python -m unittest test_tender_originals test_tender_preflight test_operating_snapshot.AcquisitionCheckpointTests test_research_pipeline -v",
+  "tests_run": 39,
+  "new_tests": 12,
+  "exit_code": 0,
+  "result": "OK; unittest reported39 tests in0.829s",
+  "input_sha256": {
+    "tender_originals.py": "d82436dcaf973ff391a9f484fcbca4569545fe0ca1e835e4fa8772f733fd5c5e",
+    "tender_paced_sources.py": "973552da65cc2a5d12279fa32b22689dacbaf29af7059c29129d691b4dd5942b",
+    "test_tender_originals.py": "2ae961bb692c826f190b7f8de1c0af1875cda8c5da0a4e16029cc6e6e084f745",
+    "tender_preflight.py": "e79d780c577d99d29deb344053de91641bdac607da28014b812c5b866484fcb9",
+    "test_tender_preflight.py": "9ee4d7e851f3270193b128b90d7383ddb9fd11216ea3f8f778198d4aa4b7d633",
+    "research_pipeline.py": "ac0ace81f211dc0abd895d1c9e09fd4bf9a14abd818c9385e458610ade8f2031"
+  }
+}

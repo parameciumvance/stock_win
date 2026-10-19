@@ -1,0 +1,731 @@
+{
+  "recorded_at": "2026-10-19T00:38:31.548276+00:00",
+  "passes": 2,
+  "stages": 19,
+  "second_pass_all_hash_skips": true,
+  "checks": [
+    {
+      "plan": "configs/tender_originals_controls_pipeline.json",
+      "state": "inputs/tender_originals_20261019/controls_run/state.json",
+      "state_sha256": "47488798e39fcf02675adc8e876eca2573f1368379fa4d48bf3de65c0f023b0e",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "40e68834d4283983fc8dbaf62b73e7e76a9f12d45a1f0e54f8e043bf09991258",
+          "started_at": "2026-10-19T00:38:12.962686+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:12.962843+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/controls_run/logs/acquire.1792370292970945211.log",
+          "peak_observed_rss_bytes": 7294976,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5053688820335083,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_controls/results.json": "88e2ef786a0e0f2ddffd2c75e774b1d7536a93246c2100cb0f600930e24948da"
+          },
+          "finished_at": "2026-10-19T00:38:13.488158+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:13.488393+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "de9ecdaa668d37b4e325f16b2470bbbb9179aa0a6574851622e43322a56730fc",
+          "started_at": "2026-10-19T00:38:13.497864+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:13.498076+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/controls_run/logs/package.1792370293502859345.log",
+          "peak_observed_rss_bytes": 7671808,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5111207669833675,
+          "outputs": {
+            "inputs/tender_originals_20261019/controls.zip": "740998a5693a27c67968b3ae7f777fbf21ba952dd0c10cd23bba6ab68857f7a6",
+            "deliverables/tender_originals_20261019/controls_package.json": "fe3e15199eada21f46797ad1934f9693ab8558fccfa9779186c6666b17286028"
+          },
+          "finished_at": "2026-10-19T00:38:14.031535+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:14.031727+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_pdfs01_pipeline.json",
+      "state": "inputs/tender_originals_20261019/pdfs01_run/state.json",
+      "state_sha256": "2d68b8fe40f8b1f1b9396ec0923262861b8f055bb6d86ee167d175bab87ae5b7",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "61682eb775682d5c926b7b186eb7401cb40da5d4c8dc21ba1f54e72ab33d1494",
+          "started_at": "2026-10-19T00:38:14.167616+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:14.167790+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/pdfs01_run/logs/acquire.1792370294176894286.log",
+          "peak_observed_rss_bytes": 8105984,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5105750079965219,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_pdfs01/results.json": "c2a4549e3a949badf5b74845957e8d41cac552827c0d87cb803e0057f6f2479d"
+          },
+          "finished_at": "2026-10-19T00:38:14.702695+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:14.704088+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "1892eeb585c4138a536cdf6f63d584a3dccef871840716840bbb312ad7e640bc",
+          "started_at": "2026-10-19T00:38:14.813572+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:14.813778+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/pdfs01_run/logs/package.1792370294820491614.log",
+          "peak_observed_rss_bytes": 47861760,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 4.517812245991081,
+          "outputs": {
+            "inputs/tender_originals_20261019/pdfs01.zip": "50f45a49dcc8bae79e010057e104e97f60b24fe259074c2e7477cf0f87516ff6",
+            "deliverables/tender_originals_20261019/pdfs01_package.json": "39f92bb35dcf212d3490dc7811f0f4fa70b923226e5e0ee8db189ce597887194"
+          },
+          "finished_at": "2026-10-19T00:38:19.921643+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:19.921800+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_pilot_pipeline.json",
+      "state": "inputs/tender_originals_20261019/pilot_run/state.json",
+      "state_sha256": "f5c2a9810e8fde42608a861d5cd7b7d72dc3ea9504604ffa8f7bbea50efe0bcc",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "e95e8e2f36f241d6d9b8adb5907c8756847a51ea5c26d51d357fec6c4597c88e",
+          "started_at": "2026-10-19T00:38:19.996713+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:19.996839+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/pilot_run/logs/acquire.1792370300000213553.log",
+          "peak_observed_rss_bytes": 8388608,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5084159399848431,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_pilot/results.json": "a5e1bf3c77f530239f1c18e7c7851eed3e3703bdb3efc052f966026b033ddaba"
+          },
+          "finished_at": "2026-10-19T00:38:20.516919+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:20.517100+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "36d8bea59bfe17950389ee09156810959632dfca19c20bf502d8f908e45f8eb0",
+          "started_at": "2026-10-19T00:38:20.526524+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:20.526777+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/pilot_run/logs/package.1792370300530900129.log",
+          "peak_observed_rss_bytes": 6393856,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5060242940089665,
+          "outputs": {
+            "inputs/tender_originals_20261019/pilot.zip": "e4b62b434eed346dbe0d0844e173d5524f382d8341ecfed886132f5628b87141",
+            "deliverables/tender_originals_20261019/pilot_package.json": "75272c18956e5f3bc47cb8565340c0e44fe7227c440eecef2a298f8d1fc6d2bd"
+          },
+          "finished_at": "2026-10-19T00:38:21.044882+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:21.045008+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_recovery_pipeline.json",
+      "state": "inputs/tender_originals_20261019/recovery_run/state.json",
+      "state_sha256": "26c5aaeb0635ecc44360c6656adff8c925d4cd3e265da9e18756b63ffa1c4662",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "6cc381220b2923bc6165b771ba0ae7fc67fabfcde268ed342b68cadea4e20009",
+          "started_at": "2026-10-19T00:38:21.148877+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:21.149007+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/recovery_run/logs/acquire.1792370301153863955.log",
+          "peak_observed_rss_bytes": 7909376,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5113012269721366,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_recovery/results.json": "9426f1e86115ff2cd7c5fa14bd6dcef849f2e1d78ef6f5e57a236198e0920b5b"
+          },
+          "finished_at": "2026-10-19T00:38:21.681440+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:21.681659+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "4b12d330167b568bdf095871da3f2f9e54c58bd5fac3bb6ae4512c56fa8b1558",
+          "started_at": "2026-10-19T00:38:21.692484+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:21.692643+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/recovery_run/logs/package.1792370301697879927.log",
+          "peak_observed_rss_bytes": 9043968,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5100618749856949,
+          "outputs": {
+            "inputs/tender_originals_20261019/recovery.zip": "cf370de9d7cbfd9f267cb37cf1115464d8cb0927ca1cbbbc720bd6dec2697aa5",
+            "deliverables/tender_originals_20261019/recovery_package.json": "c5f787cce5caec9fdd33668a88d5912ea3c51110e85836224632b450f6a628b0"
+          },
+          "finished_at": "2026-10-19T00:38:22.225753+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:22.225925+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_recoverypdf_pipeline.json",
+      "state": "inputs/tender_originals_20261019/recoverypdf_run/state.json",
+      "state_sha256": "3570a53721261cc3c7edc8360d1c8e503c3f9b715df8c1f9b77acc22ccd5bbed",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "d829b7594d91ece7cfe45d468104ceec1118ad8af5bc6c6a24ef461693ecca70",
+          "started_at": "2026-10-19T00:38:22.328655+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:22.328734+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/recoverypdf_run/logs/acquire.1792370302331966191.log",
+          "peak_observed_rss_bytes": 7958528,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5065151180024259,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_recoverypdf/results.json": "69202a2ac8d3d28ea4d2499133a4bf6c4443d0ee36b7cf32d7eabc3158d453e5"
+          },
+          "finished_at": "2026-10-19T00:38:22.853610+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:22.853774+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "d2bf57767c29c6ce8814b0d11f32d616300fe6185639e0a1994134dc3c6c3a70",
+          "started_at": "2026-10-19T00:38:22.901247+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:22.901888+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/recoverypdf_run/logs/package.1792370302910015757.log",
+          "peak_observed_rss_bytes": 43524096,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 1.5125220119953156,
+          "outputs": {
+            "inputs/tender_originals_20261019/recoverypdf.zip": "85f193ea1e29d46dbca2debf619aeb7463148c627a0eda29d2ae2d34cbf46d34",
+            "deliverables/tender_originals_20261019/recoverypdf_package.json": "0a8faf26a01e5e30421aea41aeb789a9189554ba0703e6f08b22e35fbda8203f"
+          },
+          "finished_at": "2026-10-19T00:38:24.572865+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:24.573092+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_refs01_pipeline.json",
+      "state": "inputs/tender_originals_20261019/refs01_run/state.json",
+      "state_sha256": "3b402339da99508768c701719f4114caa317405756091000703bf3ae833185b9",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "7b7d686476e71770a494163d9dd298266ac4ab4fd104b4264fe1096d488909a8",
+          "started_at": "2026-10-19T00:38:24.656969+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:24.657072+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs01_run/logs/acquire.1792370304660014839.log",
+          "peak_observed_rss_bytes": 6586368,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5051317979814485,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_refs01/results.json": "c254da8ffe0885e5610e409e8fee53d217b309d946d077877409f822e104038a"
+          },
+          "finished_at": "2026-10-19T00:38:25.183857+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:25.184087+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "d48c8f73948a6b4b8b5d3108dacb293727b7d23cfd21092ea45aad39fc4d322d",
+          "started_at": "2026-10-19T00:38:25.194543+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:25.194662+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs01_run/logs/package.1792370305200201376.log",
+          "peak_observed_rss_bytes": 8515584,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5083425309858285,
+          "outputs": {
+            "inputs/tender_originals_20261019/refs01.zip": "2e492dbdc0f207e6de1697a32f15c79a9c4e216e7780e50ca38ad856745580b9",
+            "deliverables/tender_originals_20261019/refs01_package.json": "e228f66433806ea44710c0c45d4365e8440776beba888b46e6f0f1810b717202"
+          },
+          "finished_at": "2026-10-19T00:38:25.731931+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:25.732060+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_refs02_pipeline.json",
+      "state": "inputs/tender_originals_20261019/refs02_run/state.json",
+      "state_sha256": "62a3faa54e1be7f86e6d4c793a23cf166ce732eb3941c754f1b907df4378ba46",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "e9e91b2ae2fbd5a5897ffbe2cb745f9d222df291e9d804ff84a7b10d71c266a2",
+          "started_at": "2026-10-19T00:38:25.845996+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:25.846100+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs02_run/logs/acquire.1792370305849944204.log",
+          "peak_observed_rss_bytes": 7925760,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5065846969955601,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_refs02/results.json": "969432a7253818db83e96dfd071ff4a3f01b4c4e33123316b8b2a71289deafcc"
+          },
+          "finished_at": "2026-10-19T00:38:26.370135+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:26.370394+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "2f2b7aeb01a368a2beac0dd63a68e28455443fddbbf530ae66784c6f9d352544",
+          "started_at": "2026-10-19T00:38:26.380634+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:26.380824+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs02_run/logs/package.1792370306387065841.log",
+          "peak_observed_rss_bytes": 4976640,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5065556860063225,
+          "outputs": {
+            "inputs/tender_originals_20261019/refs02.zip": "f3cd46bbb0aed46682f24d8f5e1eaaf9954fd9dcec414e6222556c63dc2e855d",
+            "deliverables/tender_originals_20261019/refs02_package.json": "a95f61cad403daf89669a9d8ca3c2dc2c1f0cb67cd5a90fc2747689dfab34f20"
+          },
+          "finished_at": "2026-10-19T00:38:26.923940+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:26.924213+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_refs03_pipeline.json",
+      "state": "inputs/tender_originals_20261019/refs03_run/state.json",
+      "state_sha256": "49338206dfe1cd814eaede1da9e0fb2c7e9b804f34dfc96d3fd8dc2ba400e14b",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "df5fa17e1e8051d9de80ecbd46e8f799e95f9db5a1e0b6dd8730f37d5bee6f42",
+          "started_at": "2026-10-19T00:38:27.017298+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:27.017463+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs03_run/logs/acquire.1792370307022635422.log",
+          "peak_observed_rss_bytes": 5124096,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5059480050113052,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_refs03/results.json": "ec03bd2de1552ad7a3f33b67513e6ae77f85bb43615415645982a9e5b304f20a"
+          },
+          "finished_at": "2026-10-19T00:38:27.549790+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:27.550031+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "376fc08cc6062fdd8ace9e8d71b3930ff57ef71287f387b4ff43d01709219ae5",
+          "started_at": "2026-10-19T00:38:27.564213+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:27.564423+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs03_run/logs/package.1792370307572309908.log",
+          "peak_observed_rss_bytes": 7368704,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5100010079913773,
+          "outputs": {
+            "inputs/tender_originals_20261019/refs03.zip": "8d1bab2307228e66e8cd0debcfe34591d3e29c9e8a76757c94f24af3c0702b98",
+            "deliverables/tender_originals_20261019/refs03_package.json": "5baf48a837e8e71fe0ac28405e9452369ab7868141ba3ca081aa75ed92e18ea9"
+          },
+          "finished_at": "2026-10-19T00:38:28.101127+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:28.101250+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_refs04_pipeline.json",
+      "state": "inputs/tender_originals_20261019/refs04_run/state.json",
+      "state_sha256": "970a62f5120049c41faec160cbcaa82042b8b58b73f4b8d0bdc2e652e28a94f1",
+      "stdout": "verified skip: acquire\nverified skip: package",
+      "stages": {
+        "acquire": {
+          "status": "complete",
+          "fingerprint": "404075561ced9d8b50e1ef3aa46e453dc479199a47be401fa14a9f9f9936aea6",
+          "started_at": "2026-10-19T00:38:28.184289+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:28.184405+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs04_run/logs/acquire.1792370308188750780.log",
+          "peak_observed_rss_bytes": 8048640,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5069599309936166,
+          "outputs": {
+            "inputs/tender_originals_20261019/raw_refs04/results.json": "b87edd5b0c790426ac34d3ad02e0dde3e06759754adf46db1aab1f04d3b13691"
+          },
+          "finished_at": "2026-10-19T00:38:28.706788+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:28.707070+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package": {
+          "status": "complete",
+          "fingerprint": "8ad585bcd560a05905ff15339b831b1b9e4aa67011be7ec84dccef851efebc39",
+          "started_at": "2026-10-19T00:38:28.713246+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:38:28.713381+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/refs04_run/logs/package.1792370308720012523.log",
+          "peak_observed_rss_bytes": 8032256,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5087370160035789,
+          "outputs": {
+            "inputs/tender_originals_20261019/refs04.zip": "d5404ed05705b9f5c345e7328f3229f3a11fa8c5513a5c1a63eb21c05664d1a0",
+            "deliverables/tender_originals_20261019/refs04_package.json": "31be0b7e79a0207635f4859c13026ac2d58968e0700182cc11d282cf0303886f"
+          },
+          "finished_at": "2026-10-19T00:38:29.249638+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:38:29.249802+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/tender_originals_replay_pipeline.json",
+      "state": "inputs/tender_originals_20261019/replay_run/state.json",
+      "state_sha256": "5ef7f78bf915dc6a928cc57d5fae4f1f5a1baf1cb7ce54e25130f0c685b217ff",
+      "stdout": "verified skip: replay",
+      "stages": {
+        "replay": {
+          "status": "complete",
+          "fingerprint": "babe0c7f515e8e616bcc31e8d022fea2272cdfd733ef6479bcc037828bdce658",
+          "started_at": "2026-10-19T00:36:47.716095+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-19T00:36:47.716346+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/tender_originals_20261019/replay_run/logs/replay.1792370207725447103.log",
+          "peak_observed_rss_bytes": 217919488,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 8.517701162956655,
+          "outputs": {
+            "deliverables/tender_originals_20261019/source_receipt.json": "3f36a4b93f06d8c8bfd94c39db6d6649d9229ff067880ca58a6028ecbc0c682d",
+            "deliverables/tender_originals_20261019/document_ledger.json": "0c42c95e2e5809e8829f790e6cc79b1b4b05e626430fca4103553ff2f34db945",
+            "deliverables/tender_originals_20261019/decision.json": "61b8cb4856b73b0c25a3b346b9ffadc5d5d52e871c64dfd635ced2b61a803115",
+            "inputs/tender_originals_20261019/text/2945_00.pdf.txt.gz": "ffc5caa7800bbfa6435cd1d06d071044b5085acdb624ce58e86d97730d38e9dc",
+            "inputs/tender_originals_20261019/text/2945_01.pdf.txt.gz": "5922602181a3d36556625095ca4ac3e274e93c015846f2b5489ce527da6469ff",
+            "inputs/tender_originals_20261019/text/2945_02.pdf.txt.gz": "108ad5dc4eb9c5b172bc156b7b787e64878d9733bfafaa0ee72138ff17f343a4",
+            "inputs/tender_originals_20261019/text/2945_03.pdf.txt.gz": "f2b04e8eb5f38d1d729db2c5d597e7f89325f053f4d47af6a10f153c1074e556",
+            "inputs/tender_originals_20261019/text/2945_04.pdf.txt.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+            "inputs/tender_originals_20261019/text/2945_05.html.txt.gz": "29fd2b8e9383a5a39cfcf1ada003f886598b76738f3d6b3fa22379525905d210",
+            "inputs/tender_originals_20261019/text/2945_06.html.txt.gz": "abda780079c1dfcdf648cbde614582549f70a91f4873261fd8b1747734fd5550",
+            "inputs/tender_originals_20261019/text/2945_07.html.txt.gz": "45627b608caaed0aba9bfcf1551912077ec4a8186d9ba986338f416addf53935",
+            "inputs/tender_originals_20261019/text/2945_08.html.txt.gz": "5e12966fbfbdbb54ed30a2b5dbf0e9475fb51637175d39658f25d28e48cc96dc",
+            "inputs/tender_originals_20261019/text/3040_00.pdf.txt.gz": "ffc5caa7800bbfa6435cd1d06d071044b5085acdb624ce58e86d97730d38e9dc",
+            "inputs/tender_originals_20261019/text/3040_01.pdf.txt.gz": "3366f30f617a696448c98542202aab36b09755369e06fd82e8fd75ec916ac9a2",
+            "inputs/tender_originals_20261019/text/3040_02.pdf.txt.gz": "b6867500502e24266927be9059b633ba2e1f30b33b4f84cb6cb43922f80aa863",
+            "inputs/tender_originals_20261019/text/3040_03.pdf.txt.gz": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+            "inputs/tender_originals_20261019/text/3040_04.html.txt.gz": "de2521c546b9e1333b52c57d9a4650ed67aa3436eae2dbf9d548a2973cc58d28",
+            "inputs/tender_originals_20261019/text/3040_05.html.txt.gz": "a381a002a23eb13e34019b95ac27e96bfb8a4288bc5b6ac7e7c1f9d2fa0bcc03",
+            "inputs/tender_originals_20261019/text/3040_06.html.txt.gz": "6f0f264f91edb77e8a94c89b23666892a0b6050d30119fa754088c705d1a816c",
+            "inputs/tender_originals_20261019/text/3040_07.html.txt.gz": "13c48f0b8f9ac51b71b55da64916e02ec39b4e410f6c0486041aa2d6dfbe4d01",
+            "inputs/tender_originals_20261019/text/3040_08.html.txt.gz": "5776b55a1a362e1b9486661c0534ab19bb910c20583d11371c7cfabe5ff0b4b6",
+            "inputs/tender_originals_20261019/text/3666_00.pdf.txt.gz": "ffc5caa7800bbfa6435cd1d06d071044b5085acdb624ce58e86d97730d38e9dc",
+            "inputs/tender_originals_20261019/text/3666_01.pdf.txt.gz": "b0d510342b95e75e91c1d84cf58a518e3e07434ec5a45634849ce02e446b19bb",
+            "inputs/tender_originals_20261019/text/3666_03.pdf.txt.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+            "inputs/tender_originals_20261019/text/3666_04.html.txt.gz": "4960e73a7264606f5e381f84f7da6712d8635807f80bf0885f3df073eb8d3869",
+            "inputs/tender_originals_20261019/text/3666_05.html.txt.gz": "3bd6e63a80af73b08bdc02e0cab27b83478e1d16350a2379b20863c78de0a178",
+            "inputs/tender_originals_20261019/text/3666_06.html.txt.gz": "4ca2f072e421221b8c1ea7d778333928335e20e378c189efd338b60d4c95c8d3",
+            "inputs/tender_originals_20261019/text/3666_07.html.txt.gz": "5f61f94c279a9cbe065552d9022b673b34b15ef1c633746600e1a6ee2f1c4cc2",
+            "inputs/tender_originals_20261019/text/4127_00.pdf.txt.gz": "b5341e7fb5d85d8644cfc6f768b18ead6b56066bfa0b8a42b7dac8584378c543",
+            "inputs/tender_originals_20261019/text/4127_01.pdf.txt.gz": "9853d6a04afc3f08da863ec239bb38657a0350abede0a0d39606ec774c4ebdfa",
+            "inputs/tender_originals_20261019/text/4127_02.pdf.txt.gz": "221a706f6813aa22fcd6c94ba75057ada08ba034467357b4758bac395d8fc58b",
+            "inputs/tender_originals_20261019/text/4127_03.pdf.txt.gz": "87cd1223817fead280ba1aac5298dce68aa76e4bf9c6f3f8e0b35e644d717fa3",
+            "inputs/tender_originals_20261019/text/4127_04.pdf.txt.gz": "ffc5caa7800bbfa6435cd1d06d071044b5085acdb624ce58e86d97730d38e9dc",
+            "inputs/tender_originals_20261019/text/4127_05.html.txt.gz": "fd5fcaeccfcc6347f66757c128bdf20c9441a86bd6a2c9c5e5fb22e1745b3be0",
+            "inputs/tender_originals_20261019/text/4127_06.html.txt.gz": "722878a585742cad82fc9bc147d59742c634e17fb90161c04ae7ac0da5a1d909",
+            "inputs/tender_originals_20261019/text/4127_07.html.txt.gz": "46fd87fd89843fc64690be7df258ba27419df24d950525c7627992a06c2a4acc",
+            "inputs/tender_originals_20261019/text/4127_08.html.txt.gz": "0f2c30cdef6795cdab8eb4b691f6eaa4f225f0cc61f87fe6e1064471257b2daa",
+            "inputs/tender_originals_20261019/text/4735_04.html.txt.gz": "807dfda3dde9e4abeaf86fbbf2ed0a15615f1a59f161982bd7e154f644cd9f9e",
+            "inputs/tender_originals_20261019/text/4735_05.html.txt.gz": "e78737410bc8f4e5ec6b0f8ceb997aaa6e5aca117fcb1810cbc28c13fd5b0f6e",
+            "inputs/tender_originals_20261019/text/4735_06.html.txt.gz": "456fd0ca9f1e2adaba5a60bd5a335a3fd6420a5d06160d45d9107cc40ef8a9d5",
+            "inputs/tender_originals_20261019/text/4735_07.html.txt.gz": "14c86eea191f22367d9123f61a8249dcff04a4e65980f4ddf4256e300340c96d",
+            "inputs/tender_originals_20261019/text/6588_06.html.txt.gz": "02c9a638164b6a596de3ed84eba11d1c3a33e80277772dfe47d0e6fd3ff7b592",
+            "inputs/tender_originals_20261019/text/6588_07.html.txt.gz": "2721bd03602dc548479186dcd5c87898b51304d07aa69e11979800623011354c",
+            "inputs/tender_originals_20261019/text/6844_04.html.txt.gz": "dd73c79b1ed18ad56dc1ae7da330a50611b180a9b21b68b158315510dea8fb89",
+            "inputs/tender_originals_20261019/text/6844_05.html.txt.gz": "841c6246d342f978b1e0da42a25ab86d8e8f581c2af7884ce99265aa087d46b4",
+            "inputs/tender_originals_20261019/text/6844_06.html.txt.gz": "c482e989b7677a350199152484fcc14f38e9b5285d7ca887a3901b520fbf0505",
+            "inputs/tender_originals_20261019/text/6844_07.html.txt.gz": "ef8cb3c59127c529c9b3e9721d2cc8d4857009cad6def921c4e1ca99c2954fb3",
+            "inputs/tender_originals_20261019/text/6844_08.html.txt.gz": "43452c7e4a2c0fcf498b8336ba8b7474882aecbefcd4046f989ecb6e9ebfef82",
+            "inputs/tender_originals_20261019/text/6897_00.pdf.txt.gz": "91039ef41d7884372cb483bdd3beef37e240c46945535eded3f143d93a6385af",
+            "inputs/tender_originals_20261019/text/6897_01.pdf.txt.gz": "5c4541e2c939df756471e598ef5287db9518c97caf454f79a1b584e59f66f9e1",
+            "inputs/tender_originals_20261019/text/6897_02.pdf.txt.gz": "b6867500502e24266927be9059b633ba2e1f30b33b4f84cb6cb43922f80aa863",
+            "inputs/tender_originals_20261019/text/6897_03.pdf.txt.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+            "inputs/tender_originals_20261019/text/6897_04.html.txt.gz": "8b5a45e2c8b6a424b211f3400efce32c4ff650a32c88a97c4e4546eaa4ad19fe",
+            "inputs/tender_originals_20261019/text/6897_05.html.txt.gz": "0161371e04bc1dfbe47e2f9022c81e409900eeba5b5a42ffef86b0628086ef0f",
+            "inputs/tender_originals_20261019/text/6897_06.html.txt.gz": "d62e440886b4cc0356c60909eb75427605e452b12124a161c7ad2840b04f2d4f",
+            "inputs/tender_originals_20261019/text/6897_07.html.txt.gz": "95028344e59fafee582161c68729a35b07bba8e6bada339d881e52684733dea3",
+            "inputs/tender_originals_20261019/text/6897_08.html.txt.gz": "0fbb99c0ed790adb92bc7e5d1de663acf466b9f5ad8c5e8475dc15a9b5f0b8fb",
+            "inputs/tender_originals_20261019/text/6938_00.pdf.txt.gz": "9a783233a2e36f7fe140d8d24f8499684e3b88446311a17973b95cd02d6f30e6",
+            "inputs/tender_originals_20261019/text/6938_01.pdf.txt.gz": "6c7939260dd68f2e523e2f8ab1f664e2e35a1dd7e14db42b62178e206b571cc9",
+            "inputs/tender_originals_20261019/text/6938_02.pdf.txt.gz": "d2140d36695e6f19127b48baf5f76ec2c553a52542cb37bef51f5080f059152c",
+            "inputs/tender_originals_20261019/text/6938_03.pdf.txt.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+            "inputs/tender_originals_20261019/text/6938_04.html.txt.gz": "73166cc1cd139a10d6ae877a1b0e531f8d5a7f06ad5f4b76423329b0a0054fb4",
+            "inputs/tender_originals_20261019/text/6938_05.html.txt.gz": "434d51106d52d5d979664744ef8af7f3518b2fece6783ade9782e77c34beca44",
+            "inputs/tender_originals_20261019/text/6938_06.html.txt.gz": "02312d1ba36886c2b057246f70e96deb8912a00dcfc32a2d066bc9e3020a9400",
+            "inputs/tender_originals_20261019/text/6938_07.html.txt.gz": "a52d7a9aaca62751034f45911d655416bfea759ae1b9ea62e28fd4f766cd3adb",
+            "inputs/tender_originals_20261019/text/7555_00.pdf.txt.gz": "1620819998eb3b7a48d340f635e982c5e8cbe99fd0a65236c42067ef99387b65",
+            "inputs/tender_originals_20261019/text/7555_01.pdf.txt.gz": "bfe652072ab5b7830a8892d50eaaa2a8617ced72ae0b9a57b6c70de625cf2154",
+            "inputs/tender_originals_20261019/text/7555_02.pdf.txt.gz": "b7cc4db6ccada725bbc36f7101b43111017f7868c4b928a24a99ea9950a0bd0d",
+            "inputs/tender_originals_20261019/text/7555_03.pdf.txt.gz": "74420f89d2d2a4256b5b578f1c2a01dd2b605f9aca4905db839d008cfd29cac0",
+            "inputs/tender_originals_20261019/text/7555_04.html.txt.gz": "903047d632485f2429a9f2831b6f08da6abd22ecf7b9190ea81517ec28d98766",
+            "inputs/tender_originals_20261019/text/7555_05.html.txt.gz": "0c64598325a655967f0c5e57c3fdd7bf59611e98c8916657788032e110a09536",
+            "inputs/tender_originals_20261019/text/7555_06.html.txt.gz": "8f29190133c703e917f516bfedd9604d96cbbf66c7517feb72155b336cc0ad85",
+            "inputs/tender_originals_20261019/text/7555_07.html.txt.gz": "1e486add1576f10be2a832149afb80b6151db1d9108f7d670ec7d0628c5a1f66",
+            "inputs/tender_originals_20261019/text/7555_08.html.txt.gz": "db43a7a0ae1db1ebeaf8911dcec2dcaadf388bb358741e1472f73f069f8efdac",
+            "inputs/tender_originals_20261019/text/8435_00.pdf.txt.gz": "631ff1071b81a28cc84c0a9974124fcadf86cd4c5b9c3f09d03d7bada15ad1cc",
+            "inputs/tender_originals_20261019/text/8435_01.pdf.txt.gz": "91b635c478859053491fe3807c94e38123ee5090c5da60819b24cea830e59d69",
+            "inputs/tender_originals_20261019/text/8435_04.html.txt.gz": "c7843bfb9ce18226c4a6b82dc745f6f27564726bb65bcc23b27cbcfcf1608e2c",
+            "inputs/tender_originals_20261019/text/8435_05.html.txt.gz": "52efc376135a00d4cb0e3a4c78c2252bc73f23d73be055dd87eafb6da0457044",
+            "inputs/tender_originals_20261019/text/8435_06.html.txt.gz": "5f1b4cd5573cf3bef5d967b8fbb6c07d901360db4400b928b2fc07caf7dec1a3",
+            "inputs/tender_originals_20261019/text/8435_07.html.txt.gz": "01ca21d6731572d8ddf94c85500b6976c8482256f040c7e8560f9fcda0af111d",
+            "inputs/tender_originals_20261019/text/8477_05.html.txt.gz": "86402f5d11393e81771d6c23e5cbd8397df70174dfd3b739ba5ce5c09ae3171b",
+            "inputs/tender_originals_20261019/text/8477_06.html.txt.gz": "7bb7864d8f3f901dfb656a8a771796e6385a100b985c81c965603f3bb1c75b62",
+            "inputs/tender_originals_20261019/text/8477_07.html.txt.gz": "d4e0a895535b66cd92e3ef9be1e12239e4440a9982c55cfd863e41465af543b5",
+            "inputs/tender_originals_20261019/text/8477_08.html.txt.gz": "f66b4f52796aed8980ed768b8d7732a8c5bcd31cbd520e5ab617aaddb4765bc0"
+          },
+          "finished_at": "2026-10-19T00:36:56.287550+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-19T00:36:56.287766+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ]
+}
