@@ -1,0 +1,33 @@
+{
+  "status": "fixed_window_accounting_contract_no_strategy_search",
+  "frozen_at": "2026-10-18T23:54:12.627620+00:00",
+  "base_commit": "9eadf41ea81e09f70779a89b58f4f2cc6e778025",
+  "source_checkpoint": "deliverables/benchmark_cash_20261019/checkpoint.json",
+  "source_checkpoint_sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+  "symbol": "0050",
+  "coverage_start": "2023-01-03",
+  "coverage_end": "2025-12-31",
+  "initial_physical_units": 1000,
+  "horizon_market_sessions": [
+    20,
+    60
+  ],
+  "clock": "Exact frozen market calendar, entry session included in horizon; no compression over missing ETF quotes",
+  "entry": "Hypothetical fresh acquisition at specified raw open; empty pre-existing cash/receivable/units before entry",
+  "endpoint": "Raw close valuation on specified final market session; no actual sale, fees, withholding, slippage, interest or reinvestment",
+  "entitlement": "Entry < ex_date <= exit; use physical units after splits strictly after entry through ex_date. Pay_date <= exit means settled cash; otherwise receivable. Pre-entry entitlement never transfers to buyer.",
+  "split": "Entry < split_date <= exit changes units by official ratio; entry on split date buys post-split units, so do not split them again.",
+  "missing_policy": "Fail closed for unknown/unquoted/nonmarket boundaries, unsupported instrument, coverage violations, malformed dates or changed source bytes. Retain every attempted fixed-horizon window with status; never move endpoints or fill missing endpoint prices.",
+  "scope": "All market entry sessions times both frozen horizons, including rejected tails and unquoted endpoints; exhaustive correctness audit, not selected trading dates or model evaluation",
+  "implementation": "Reuse prior physical_ledger; independent Decimal closed-form entitlement sum and independent complete-cohort enumeration",
+  "acceptance": "All retained statuses and endpoint identities agree; accepted terminal accounts agree <=1e-8 TWD; corruption/missing provenance rejected",
+  "historical_pit": false,
+  "actual_broker_credits": false,
+  "profit_edge_proven": false,
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "downloads": 0,
+  "archive_retransmissions": 0,
+  "manual_daily_validation": false,
+  "seven_rule_daily_plan": "stopped"
+}

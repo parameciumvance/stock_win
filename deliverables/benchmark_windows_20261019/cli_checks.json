@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-18T23:59:53.520578+00:00",
+  "cases": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "benchmark_windows_run.py",
+        "query",
+        "--entry",
+        "2025-01-17",
+        "--horizon",
+        "20"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0,
+      "case": "no inherited entitlement",
+      "result": {
+        "symbol": "0050",
+        "entry": "2025-01-17",
+        "exit": "2025-02-24",
+        "market_sessions": 20,
+        "initial_units": 1000,
+        "initial_quote_cost": 197000.0,
+        "ending_units": 1000.0,
+        "raw_entry_open": 197.0,
+        "raw_exit_close": 196.2,
+        "settled_cash": 0.0,
+        "dividend_receivable": 0.0,
+        "gross_wealth": 196200.0,
+        "gross_change": -0.004060913705583702,
+        "stale_market_sessions": 0,
+        "entitlements": [],
+        "accounting_basis": "fresh-purchase gross raw-close mark; cash not reinvested",
+        "hypothetical_quote_acquisition": true,
+        "actual_fill_verified": false,
+        "historical_pit_verified": false,
+        "profit_edge_proven": false,
+        "source_verified": true,
+        "provenance": {
+          "checkpoint_sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+          "market_sha256": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+          "source_archive_sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e"
+        }
+      }
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "benchmark_windows_run.py",
+        "query",
+        "--entry",
+        "2025-06-18",
+        "--exit",
+        "2025-07-21"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0,
+      "case": "split entry not split twice",
+      "result": {
+        "symbol": "0050",
+        "entry": "2025-06-18",
+        "exit": "2025-07-21",
+        "market_sessions": 24,
+        "initial_units": 1000,
+        "initial_quote_cost": 47500.0,
+        "ending_units": 1000.0,
+        "raw_entry_open": 47.5,
+        "raw_exit_close": 50.9,
+        "settled_cash": 0.0,
+        "dividend_receivable": 360.0,
+        "gross_wealth": 51260.0,
+        "gross_change": 0.0791578947368421,
+        "stale_market_sessions": 0,
+        "entitlements": [
+          {
+            "ex_date": "2025-07-21",
+            "payment_date": "2025-08-08",
+            "cash_per_unit": 0.36,
+            "source_url": "https://www.twse.com.tw/en/ETFortune-institute/dividendList?endDate=2025&startDate=2025&stkNo=0050",
+            "source_sha256": "cb789e590c0e74d7ed572503ab54ab6fd93d127066c16c92912c82d6ab8d037d",
+            "entitled_units": 1000.0,
+            "gross_claim": 360.0
+          }
+        ],
+        "accounting_basis": "fresh-purchase gross raw-close mark; cash not reinvested",
+        "hypothetical_quote_acquisition": true,
+        "actual_fill_verified": false,
+        "historical_pit_verified": false,
+        "profit_edge_proven": false,
+        "source_verified": true,
+        "provenance": {
+          "checkpoint_sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+          "market_sha256": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+          "source_archive_sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e"
+        }
+      }
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "benchmark_windows_run.py",
+        "query",
+        "--entry",
+        "2025-06-11",
+        "--horizon",
+        "20"
+      ],
+      "expected_returncode": 2,
+      "returncode": 2,
+      "case": "unquoted entry",
+      "error": "usage: benchmark_windows_run.py [-h] [--entry ENTRY] [--exit EXIT]\n                                [--horizon HORIZON] [--symbol SYMBOL]\n                                {verify,enumerate_windows,audit,report,query}\nbenchmark_windows_run.py: error: Unquoted endpoint; endpoint is not shifted"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "benchmark_windows_run.py",
+        "query",
+        "--entry",
+        "2025-12-31",
+        "--horizon",
+        "20"
+      ],
+      "expected_returncode": 2,
+      "returncode": 2,
+      "case": "insufficient tail",
+      "error": "usage: benchmark_windows_run.py [-h] [--entry ENTRY] [--exit EXIT]\n                                [--horizon HORIZON] [--symbol SYMBOL]\n                                {verify,enumerate_windows,audit,report,query}\nbenchmark_windows_run.py: error: Insufficient covered market sessions"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "benchmark_windows_run.py",
+        "query",
+        "--entry",
+        "2026-01-02",
+        "--horizon",
+        "20"
+      ],
+      "expected_returncode": 2,
+      "returncode": 2,
+      "case": "outside coverage",
+      "error": "usage: benchmark_windows_run.py [-h] [--entry ENTRY] [--exit EXIT]\n                                [--horizon HORIZON] [--symbol SYMBOL]\n                                {verify,enumerate_windows,audit,report,query}\nbenchmark_windows_run.py: error: Entry is not a covered market session"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "benchmark_windows_run.py",
+        "query",
+        "--entry",
+        "2025-01-17",
+        "--horizon",
+        "20",
+        "--symbol",
+        "006208"
+      ],
+      "expected_returncode": 2,
+      "returncode": 2,
+      "case": "unsupported instrument",
+      "error": "usage: benchmark_windows_run.py [-h] [--entry ENTRY] [--exit EXIT]\n                                [--horizon HORIZON] [--symbol SYMBOL]\n                                {verify,enumerate_windows,audit,report,query}\nbenchmark_windows_run.py: error: Only verified 0050 accounting is supported"
+    }
+  ]
+}

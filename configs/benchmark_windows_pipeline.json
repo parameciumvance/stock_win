@@ -1,0 +1,127 @@
+{
+  "stages": [
+    {
+      "id": "verify",
+      "command": [
+        "{python}",
+        "benchmark_windows_run.py",
+        "verify"
+      ],
+      "inputs": [
+        "benchmark_windows.py",
+        "benchmark_windows_run.py",
+        "cash_benchmark.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/physical_ledger_v9.py",
+        "twse_history/research_cash_v6.py",
+        "configs/benchmark_window_protocol_20261019.json",
+        "deliverables/benchmark_windows_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/checkpoint.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz",
+        "inputs/benchmark_cash_20261019/sources.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/benchmark_windows_20261019/inputs_receipt.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "enumerate_windows",
+      "command": [
+        "{python}",
+        "benchmark_windows_run.py",
+        "enumerate_windows"
+      ],
+      "inputs": [
+        "benchmark_windows.py",
+        "benchmark_windows_run.py",
+        "cash_benchmark.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/physical_ledger_v9.py",
+        "twse_history/research_cash_v6.py",
+        "configs/benchmark_window_protocol_20261019.json",
+        "deliverables/benchmark_windows_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/checkpoint.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz",
+        "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+        "deliverables/benchmark_windows_20261019/inputs_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/benchmark_windows_20261019/windows.json.gz",
+        "deliverables/benchmark_windows_20261019/coverage.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "benchmark_windows_run.py",
+        "audit"
+      ],
+      "inputs": [
+        "benchmark_windows.py",
+        "benchmark_windows_run.py",
+        "cash_benchmark.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/physical_ledger_v9.py",
+        "twse_history/research_cash_v6.py",
+        "configs/benchmark_window_protocol_20261019.json",
+        "deliverables/benchmark_windows_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/checkpoint.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz",
+        "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+        "deliverables/benchmark_windows_20261019/windows.json.gz",
+        "deliverables/benchmark_windows_20261019/coverage.json"
+      ],
+      "outputs": [
+        "deliverables/benchmark_windows_20261019/independent_audit.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1024
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "benchmark_windows_run.py",
+        "report"
+      ],
+      "inputs": [
+        "benchmark_windows.py",
+        "benchmark_windows_run.py",
+        "cash_benchmark.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "prospective_sources.py",
+        "twse_history/physical_ledger_v9.py",
+        "twse_history/research_cash_v6.py",
+        "configs/benchmark_window_protocol_20261019.json",
+        "deliverables/benchmark_windows_20261019/protocol_freeze.json",
+        "deliverables/benchmark_cash_20261019/checkpoint.json",
+        "deliverables/benchmark_cash_20261019/source_ledger.json",
+        "inputs/benchmark_cash_20261019/market.csv.gz",
+        "inputs/benchmark_cash_20261019/sources.retrieved.zip",
+        "deliverables/benchmark_windows_20261019/coverage.json",
+        "deliverables/benchmark_windows_20261019/independent_audit.json"
+      ],
+      "outputs": [
+        "deliverables/benchmark_windows_20261019/report.md",
+        "deliverables/benchmark_windows_20261019/next_tasks.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1024
+    }
+  ]
+}

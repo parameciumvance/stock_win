@@ -1,0 +1,19 @@
+{
+  "status": "full_cohort_enumerated",
+  "protocol_sha256": "6ba20d10a4bb262fe2e0f10d5962541ce227b4748bcea1c35dfbc7894998e0e6",
+  "attempts": 1448,
+  "by_horizon": {
+    "20": {
+      "accepted": 695,
+      "unquoted_endpoint": 10,
+      "insufficient_horizon": 19
+    },
+    "60": {
+      "accepted": 655,
+      "unquoted_endpoint": 10,
+      "insufficient_horizon": 59
+    }
+  },
+  "windows_sha256": "a4be4b43984a7123b433f2a99ab983419055a2691cfe67b9372d6d9973425408",
+  "purpose": "Correctness and rejection coverage, no model, selection or return ranking"
+}

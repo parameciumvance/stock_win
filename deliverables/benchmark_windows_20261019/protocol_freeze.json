@@ -1,0 +1,5 @@
+{
+  "frozen_at": "2026-10-18T23:54:12.633555+00:00",
+  "protocol_sha256": "6ba20d10a4bb262fe2e0f10d5962541ce227b4748bcea1c35dfbc7894998e0e6",
+  "purpose": "Fresh holding-window accounting adapter, no strategy returns compared or tuned"
+}

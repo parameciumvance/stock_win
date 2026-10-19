@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-18T23:59:10.141125+00:00",
+  "checkpoint_sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+  "market_sessions": 724,
+  "source_provenance": {
+    "checkpoint_sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "market_sha256": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+    "source_archive_sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e"
+  },
+  "new_downloads": 0,
+  "archive_retransmissions": 0
+}

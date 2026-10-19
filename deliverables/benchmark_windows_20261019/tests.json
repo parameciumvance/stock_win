@@ -1,0 +1,34 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "test_benchmark_windows",
+    "test_cash_benchmark",
+    "twse_history.test_physical_ledger_v9",
+    "test_operating_snapshot.AcquisitionCheckpointTests",
+    "test_research_pipeline",
+    "-q"
+  ],
+  "started_at": "2026-10-18T23:59:10.901271+00:00",
+  "finished_at": "2026-10-18T23:59:12.471012+00:00",
+  "passed": true,
+  "tests_run": 48,
+  "returncode": 0,
+  "output": "----------------------------------------------------------------------\nRan 48 tests in 1.130s\n\nOK\n",
+  "test_file_sha256": {
+    "test_benchmark_windows.py": "6f2ca0b05e9a2f389f91d859c4333035a58fd649fdfd0112451aae9934696241",
+    "test_cash_benchmark.py": "aa44586944357df797452d737df941e55eeaf6bd39b1408b60b2f2ff753da845",
+    "twse_history/test_physical_ledger_v9.py": "7cd1632c48a9e4cefe549971eefc142055782e47746fd51ad41a4d1cc1985780",
+    "test_operating_snapshot.py": "dc66a469dfa2bfaa2a53405228974553bf7d73eacbdfa31e5b4bb3491a550695",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b"
+  },
+  "implementation_sha256": {
+    "benchmark_windows.py": "04d11d5b343a32f3da255e0c58f0561d5da28c343ccc27a6ba60c8d800f9fe45",
+    "benchmark_windows_run.py": "a9e112bb4fd9d0f3de826a6ae445ec1d8569b4480fa334078683bb435da65dc7",
+    "configs/benchmark_windows_pipeline.json": "5cc21a6d0c4765ebb377db47e575c5e46aefc429b7ee8c597a46cb244ba3f654",
+    "configs/benchmark_window_protocol_20261019.json": "6ba20d10a4bb262fe2e0f10d5962541ce227b4748bcea1c35dfbc7894998e0e6"
+  },
+  "coverage": "Fresh-entry rights, ex-date and split-date boundaries, calendar payments, unsupported/missing endpoints, corruption, no zero-fill or cohort deletion; shared physical-book and pipeline/checkpoint regressions",
+  "pipeline": "All four stages completed and final hash replay recorded in checkpoint receipt"
+}

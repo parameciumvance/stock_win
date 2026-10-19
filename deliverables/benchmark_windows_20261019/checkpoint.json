@@ -1,0 +1,27 @@
+{
+  "status": "verified_window_accounting_complete",
+  "observed_at": "2026-10-19T00:00:11.075108+00:00",
+  "base_commit": "9eadf41ea81e09f70779a89b58f4f2cc6e778025",
+  "files": {
+    "benchmark_windows.py": "04d11d5b343a32f3da255e0c58f0561d5da28c343ccc27a6ba60c8d800f9fe45",
+    "benchmark_windows_run.py": "a9e112bb4fd9d0f3de826a6ae445ec1d8569b4480fa334078683bb435da65dc7",
+    "test_benchmark_windows.py": "6f2ca0b05e9a2f389f91d859c4333035a58fd649fdfd0112451aae9934696241",
+    "configs/benchmark_window_protocol_20261019.json": "6ba20d10a4bb262fe2e0f10d5962541ce227b4748bcea1c35dfbc7894998e0e6",
+    "configs/benchmark_windows_pipeline.json": "5cc21a6d0c4765ebb377db47e575c5e46aefc429b7ee8c597a46cb244ba3f654",
+    "deliverables/benchmark_windows_20261019/cli_checks.json": "e45ac4e55fc49fd2b0cb55502c0b4e9f0a763ed7be64e48379febdbda1dd1bc0",
+    "deliverables/benchmark_windows_20261019/coverage.json": "377b5db0807cf6d9dca56478c5de41d8e1e316896ae4ec4c3902e993b22d8ac5",
+    "deliverables/benchmark_windows_20261019/independent_audit.json": "d1b222d3b7b43a04aa833b944fcef01dd0774bb43b271a4911d3d422d7a5c58f",
+    "deliverables/benchmark_windows_20261019/inputs_receipt.json": "e9a62daa1954b0690216c4e6ff2d4f75695ad04d6b78e03cdb2ca0583c202a89",
+    "deliverables/benchmark_windows_20261019/next_tasks.json": "fc45f5a22a2449567024ec4672aa4289f55215d36d0332b1e20a79d00bc2566e",
+    "deliverables/benchmark_windows_20261019/pipeline_state.json": "f2458e5dbee98510d15033eda8c733576dcecbdb3b3fa458beb66ce8e9720974",
+    "deliverables/benchmark_windows_20261019/protocol_freeze.json": "2216382241998fbdbe1e13ed7031782e3cb9408b17a22fda52ac2250ed394b83",
+    "deliverables/benchmark_windows_20261019/report.md": "dca1979e7a2f1dcdb60c76cbcccfbe10fea9d87ffd16e889959f15a9a48ded7e",
+    "deliverables/benchmark_windows_20261019/tests.json": "78e6e4a9b0f330b5499e0548682efd9ef781f780ba29e81105a6ffde68232fec",
+    "deliverables/benchmark_windows_20261019/windows.json.gz": "a4be4b43984a7123b433f2a99ab983419055a2691cfe67b9372d6d9973425408"
+  },
+  "old_cash_checkpoint_sha256": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+  "new_downloads": 0,
+  "archive_retransmissions": 0,
+  "pipeline_replay": "All 4 stages completed, subsequent run hash-verified and skipped all 4",
+  "restore": "Restore exact old benchmark_cash_20261019 checkpoint and its pinned dependencies/official source readback; run configs/benchmark_windows_pipeline.json via research_pipeline. Never substitute newer inputs."
+}

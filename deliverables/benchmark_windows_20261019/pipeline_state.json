@@ -1,0 +1,129 @@
+{
+  "stages": {
+    "verify": {
+      "status": "complete",
+      "fingerprint": "764ab4b92e360bf1fb7f6dda9096280112e51a7bc585954eb04b9170a373f219",
+      "started_at": "2026-10-18T23:59:09.694284+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T23:59:09.694409+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/benchmark_windows_20261019/pipeline/logs/verify.1792367949697783624.log",
+      "peak_observed_rss_bytes": 83398656,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.006874626968056,
+      "outputs": {
+        "deliverables/benchmark_windows_20261019/inputs_receipt.json": "e9a62daa1954b0690216c4e6ff2d4f75695ad04d6b78e03cdb2ca0583c202a89"
+      },
+      "finished_at": "2026-10-18T23:59:10.715647+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T23:59:10.715757+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "enumerate_windows": {
+      "status": "complete",
+      "fingerprint": "6c44bfabbecfcd1c8e5f58814340784f81d3fcd00ec1c6c4b75d9a46928730e7",
+      "started_at": "2026-10-18T23:59:10.722286+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T23:59:10.722403+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/benchmark_windows_20261019/pipeline/logs/enumerate_windows.1792367950727319952.log",
+      "peak_observed_rss_bytes": 84795392,
+      "elapsed_seconds": 13.03210388799198,
+      "exit_code": 0,
+      "exit_signal": null,
+      "outputs": {
+        "deliverables/benchmark_windows_20261019/windows.json.gz": "a4be4b43984a7123b433f2a99ab983419055a2691cfe67b9372d6d9973425408",
+        "deliverables/benchmark_windows_20261019/coverage.json": "377b5db0807cf6d9dca56478c5de41d8e1e316896ae4ec4c3902e993b22d8ac5"
+      },
+      "finished_at": "2026-10-18T23:59:23.776887+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T23:59:23.777091+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "aecc0a0d11ca9bfcb59c2a427bd9c90d2d7016016f944e4dac58a53b40594ad9",
+      "started_at": "2026-10-18T23:59:23.788558+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T23:59:23.788838+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/benchmark_windows_20261019/pipeline/logs/audit.1792367963797314975.log",
+      "peak_observed_rss_bytes": 87810048,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.011412466003094,
+      "outputs": {
+        "deliverables/benchmark_windows_20261019/independent_audit.json": "d1b222d3b7b43a04aa833b944fcef01dd0774bb43b271a4911d3d422d7a5c58f"
+      },
+      "finished_at": "2026-10-18T23:59:25.826185+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T23:59:25.826301+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "e7e105c19963562866ddf588c8875f8c5a9f004f1658903ea30433b622fee12a",
+      "started_at": "2026-10-18T23:59:25.830853+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-18T23:59:25.830939+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/benchmark_windows_20261019/pipeline/logs/report.1792367965836147357.log",
+      "peak_observed_rss_bytes": 7974912,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5068365720217116,
+      "outputs": {
+        "deliverables/benchmark_windows_20261019/report.md": "dca1979e7a2f1dcdb60c76cbcccfbe10fea9d87ffd16e889959f15a9a48ded7e",
+        "deliverables/benchmark_windows_20261019/next_tasks.json": "fc45f5a22a2449567024ec4672aa4289f55215d36d0332b1e20a79d00bc2566e"
+      },
+      "finished_at": "2026-10-18T23:59:26.352346+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-18T23:59:26.352513+00:00",
+        "runtime_identity": "cf6f411d5271c4b3a30166dedb56cb701ebe657fe356daf82415576e84a6d7f6",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-18T23:59:50.210491+00:00",
+  "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+  "active": {},
+  "heartbeat_at": "2026-10-18T23:59:50.223501+00:00",
+  "current_stage": "report",
+  "finished_at": "2026-10-18T23:59:50.223476+00:00"
+}

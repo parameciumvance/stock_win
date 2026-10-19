@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "attempts": 1448,
+  "accepted_accounts_verified": 1350,
+  "max_absolute_terminal_error": 1.4551915228366852e-11,
+  "rejected_windows_retained": 98,
+  "method": "Independent full-grid enumeration and Decimal closed-form rights/cash/units",
+  "coverage_sha256": "377b5db0807cf6d9dca56478c5de41d8e1e316896ae4ec4c3902e993b22d8ac5",
+  "windows_sha256": "a4be4b43984a7123b433f2a99ab983419055a2691cfe67b9372d6d9973425408"
+}
