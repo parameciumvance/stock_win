@@ -1,0 +1,45 @@
+{
+  "purpose": "Measurement and cash-funding audit of already frozen ETF decisions; not a new strategy or rescue of old failed gate",
+  "client_date": "2026-10-20",
+  "base_main": "9d0850c3cd361521351d04dba0d068056a9f717c",
+  "known_before_freeze": "Oldriskrule failed and2023-25physicalbuyhold account differs from adjustedquote proxy. Initial2024targets and oldresults already inspected. No new unseen holdout or alpha claim.",
+  "prior_checkpoints": {
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517"
+  },
+  "inputs": {
+    "configs/risk_control_protocol_20261018.json": "c9e70c29cb072642f203010be1b1e8160eb4c83f57c4709754a78975b2b9bb47",
+    "deliverables/risk_control_20261018/daily.csv.gz": "bc10cbe831b5bee91926e06b399725742f876b999278ea5ca3021b4684bfb702",
+    "deliverables/risk_control_20261018/summary.json": "2cbe851834601e893fcadda601c7f24df730521f6c11891c2ed9a8487441b9ca",
+    "inputs/benchmark_cash_20261019/market.csv.gz": "072466f3dbcd10b8778f927ec3696959c82f54e275e8166ae024b73fa1cc00a9",
+    "deliverables/benchmark_cash_20261019/source_ledger.json": "fab2ce55fa1bcb7e4fbf255e2ecc9a859873ff4834a7fa244c3db06414d2e774"
+  },
+  "source_price_archive": "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+  "source_price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "start": "2024-01-02",
+  "end": "2025-12-31",
+  "initial_cash_twd": "300000",
+  "symbol": "0050",
+  "methods": [
+    "dynamic",
+    "calibration_static",
+    "buy_hold",
+    "cash"
+  ],
+  "cost_rates": [
+    "0.001",
+    "0.002"
+  ],
+  "cost_status": "Same old hypothetical all-in one-way costs; not actual taxes,fees or minimumcommission. Fractionalshares permitted as numerical accounting scenario, not executable oddlot order.",
+  "targets": "Read exact saved daily target and reason. No recomputation,fitting,thresholdsearch,changed horizon or signal; NaNtarget preserved as no-order,including July2025missingvolwindow.",
+  "calendar": "Use frozen cross-security observed market dates including5ETFhalt marketdays; process all calendar days for dividendpayments. No calendar/quote compression or inventedprice.",
+  "corporate_actions": "Split before opening and before ex-right grants. Dividend rights on shares before opening trades; receivable until paymentdate,end-of-day credit. No tax or interest. Distributions may enter monthly target balance only once paid and spendable.",
+  "settlement": "Hypothetical market T+2:buy reserves fullgrosscash immediately and bankdebited on due date;sale recognized as receivable until due date. Settle before opening;cashdividendscredited afteropening. Do not fund buys from unpaiddividend or saleclaims; no implicit borrowing.",
+  "rebalance": "Target asset fraction of total NAV including receivables and payables, net of hypotheticalcost. Execute fulltarget delta only if spendable settledcash coversbuy; otherwise reject and preserve target,no partialfill,queue or day-shift. No terminal liquidation.",
+  "accounting_gate": "Everytrade/date conserves shares,cash,payables,dividendreceivables,salereceivables andNAV; same fixed target calendar, no negative cash/units/spendablecash. Independent Fraction audit and meaningfulboundarytests required before any numerical comparison.",
+  "comparison": "Side-by-side physical-account scenario and exact old adjustedquote proxy for same2024-25market dates. Descriptive difference only; no retest or reversal of old2024-26resourcegate. Report all8cases, trades,rejections,carriedvaluations,annualsubperiods andendingclaims.",
+  "new_raw_requests": 0,
+  "parameter_changes": 0,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null
+}

@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "calendar_account_rows_verified": 5840,
+  "target_attempts_verified": 98,
+  "maximum_field_absolute_error": "3.79500966309842e-28",
+  "absolute_field_tolerance": "1e-18",
+  "checks": [
+    {
+      "method": "dynamic",
+      "cost": "0.001",
+      "daily_rows": 730,
+      "target_attempts": 23,
+      "passed": true
+    },
+    {
+      "method": "calibration_static",
+      "cost": "0.001",
+      "daily_rows": 730,
+      "target_attempts": 24,
+      "passed": true
+    },
+    {
+      "method": "buy_hold",
+      "cost": "0.001",
+      "daily_rows": 730,
+      "target_attempts": 1,
+      "passed": true
+    },
+    {
+      "method": "cash",
+      "cost": "0.001",
+      "daily_rows": 730,
+      "target_attempts": 1,
+      "passed": true
+    },
+    {
+      "method": "dynamic",
+      "cost": "0.002",
+      "daily_rows": 730,
+      "target_attempts": 23,
+      "passed": true
+    },
+    {
+      "method": "calibration_static",
+      "cost": "0.002",
+      "daily_rows": 730,
+      "target_attempts": 24,
+      "passed": true
+    },
+    {
+      "method": "buy_hold",
+      "cost": "0.002",
+      "daily_rows": 730,
+      "target_attempts": 1,
+      "passed": true
+    },
+    {
+      "method": "cash",
+      "cost": "0.002",
+      "daily_rows": 730,
+      "target_attempts": 1,
+      "passed": true
+    }
+  ],
+  "method": "Exact Fraction direct date-flow reconstruction and post-cost target identity; no production ledger methods or target-delta formula"
+}

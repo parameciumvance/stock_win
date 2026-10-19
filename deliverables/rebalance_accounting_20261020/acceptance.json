@@ -1,0 +1,11 @@
+{
+  "accounting_gate_passed": true,
+  "summary_sha256": "453d47938ce453bda2b77cd072739e1722aea3892049b6e82cfa9ea1d5699d6d",
+  "accounts_sha256": "60c8eb24131827407d512b217cf2140dbac9f2ee22de6f0a3b4942ffacf93b77",
+  "independent_audit_sha256": "86b790a95caaef2dcd2e2bd29e18ce53eadcab0cc93ce0e96e66135da754fd7a",
+  "scope": "Declared fractional-share,quote/cost/settlement accounting scenario only",
+  "actual_fills_verified": false,
+  "old_resource_gate_retested": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null
+}

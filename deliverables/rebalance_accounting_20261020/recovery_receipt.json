@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-19T18:06:44.125849+00:00",
+  "remote_main": "9d0850c3cd361521351d04dba0d068056a9f717c",
+  "worktree_initially_clean": true,
+  "prior_checkpoint_files_verified": 38,
+  "why_next": "Previously missing trade-date holdings and settlement funding measurement on reliable local ETFinputs; no reopeningclosedIPOsourcecampaign or new score search",
+  "format_check_observation": "gitdiff--check rejected generatedCSVCRLF; writer changed toLF. Values unchanged; pipelineandindependentaudit replayed,thenhashskips verified."
+}

@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-10-19T18:14:40.042601+00:00",
+  "stage_count": 3,
+  "second_pass_all_hash_skips": true,
+  "stdout": "verified skip: verify_saved_raw_inputs\nverified skip: replay_frozen_targets\nverified skip: independent_cash_share_audit\n",
+  "state_sha256": "4fc379cfbe47ae31b1dd20a27ae7df44ce1afc9e061ef2cc1c18f5a1764924b8",
+  "stages": {
+    "verify_saved_raw_inputs": {
+      "status": "complete",
+      "fingerprint": "0604188396bf81c882ed05f13a2da8a0bd3be70bccfb4f16c0c9641e4661ac86",
+      "started_at": "2026-10-19T18:14:36.362617+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-19T18:14:36.362754+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/rebalance_accounting_20261020/pipeline/logs/verify_saved_raw_inputs.1792433676366058607.log",
+      "peak_observed_rss_bytes": 92196864,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.5049473739927635,
+      "outputs": {
+        "deliverables/rebalance_accounting_20261020/source_receipt.json": "43f4a4a8ceccaf5f82ff6f95daeda86f330ca86e2e4fb909322f4dfb7422edf1"
+      },
+      "finished_at": "2026-10-19T18:14:38.875663+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-19T18:14:38.875756+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "replay_frozen_targets": {
+      "status": "complete",
+      "fingerprint": "e87a1ee0820939acada3e065e9eacd2ec05fe58f623f2ddb709f2eceecab4934",
+      "started_at": "2026-10-19T18:14:38.878765+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-19T18:14:38.878814+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/rebalance_accounting_20261020/pipeline/logs/replay_frozen_targets.1792433678881439626.log",
+      "peak_observed_rss_bytes": 7749632,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5040800839778967,
+      "outputs": {
+        "deliverables/rebalance_accounting_20261020/summary.json": "453d47938ce453bda2b77cd072739e1722aea3892049b6e82cfa9ea1d5699d6d",
+        "deliverables/rebalance_accounting_20261020/trade_scenarios.csv": "2d1adea5dc2b52b04e001b4be0cbc3254d81fecdc4ec4c405d42e634cf0fee7a",
+        "inputs/rebalance_accounting_20261020/accounts.json.gz": "60c8eb24131827407d512b217cf2140dbac9f2ee22de6f0a3b4942ffacf93b77"
+      },
+      "finished_at": "2026-10-19T18:14:39.394328+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-19T18:14:39.394416+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "independent_cash_share_audit": {
+      "status": "complete",
+      "fingerprint": "eefb7d0d66a6b45c82f3318af523e1448e4fc2dbbab6ff5fe18cd97c1f2cdb87",
+      "started_at": "2026-10-19T18:14:39.400855+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-19T18:14:39.401009+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "inputs/rebalance_accounting_20261020/pipeline/logs/independent_cash_share_audit.1792433679403850354.log",
+      "peak_observed_rss_bytes": 7196672,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5032275109551847,
+      "outputs": {
+        "deliverables/rebalance_accounting_20261020/independent_audit.json": "86b790a95caaef2dcd2e2bd29e18ce53eadcab0cc93ce0e96e66135da754fd7a",
+        "deliverables/rebalance_accounting_20261020/acceptance.json": "f4b38f634b2c3b631307bf8f7ddaff49ed855d4e051b420643c5e3f5e0b4c233"
+      },
+      "finished_at": "2026-10-19T18:14:39.914203+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-19T18:14:39.914449+00:00",
+        "runtime_identity": "649018cfcea5f37c8a69e3bdcfe930a1377fcc27130282c57f356452e78ec45b",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  }
+}

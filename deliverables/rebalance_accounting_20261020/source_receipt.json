@@ -1,0 +1,16 @@
+{
+  "status": "passed_for_declared_accounting_replay",
+  "prior_files_hash_verified": true,
+  "price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "price_manifest_files": 506,
+  "raw_action_archive_sha256": "260ae6b523d392e8f3d1cfb6df8538c0a928abad119eb6b4f7ae228ba6fe982e",
+  "raw_action_manifest_files": 15,
+  "roundtrip_verified": true,
+  "sha_crc_manifest_verified": true,
+  "calendar_and_raw_quotes_matched": 724,
+  "new_downloads": 0,
+  "raw_retransmissions": 0,
+  "historical_pit_verified": false,
+  "source_start": "2023-01-03",
+  "source_end": "2025-12-31"
+}

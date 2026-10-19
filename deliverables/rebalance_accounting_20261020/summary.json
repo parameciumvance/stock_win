@@ -1,0 +1,320 @@
+{
+  "status": "accounting_scenario_computed_see_acceptance_receipt",
+  "cases": [
+    {
+      "method": "dynamic",
+      "cost_rate": "0.001",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0.506449122009201160851697376",
+      "old_proxy_same_period_change": "0.5073957676489824",
+      "account_minus_proxy_pp": "-0.094664563978123914830262400",
+      "ending_wealth_twd": "451934.7366027603482555092127322864030199",
+      "ending_units": "3012.666618038827793985204561070095610978",
+      "ending_bank_cash_twd": "254303.8064594132630460795017590548948510",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 23,
+      "filled_quote_scenarios": 23,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "0E-34",
+      "total_hypothetical_cost_twd": "1678.168096981680262360929480",
+      "maximum_close_drawdown": -0.1515263767643673,
+      "annualized_daily_vol": 0.1250681174169152,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.24661694802522338
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.20842984237907247
+        }
+      ],
+      "scheduled_missing_vol_days": [
+        "2025-07-01"
+      ]
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": "0.001",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0.654278658934919725351776165",
+      "old_proxy_same_period_change": "0.6547960658681944",
+      "account_minus_proxy_pp": "-0.051740693327467464822383500",
+      "ending_wealth_twd": "496283.5976804759176055328496138502898935",
+      "ending_units": "5390.417799100870994160643851421724619535",
+      "ending_bank_cash_twd": "142672.1900594588127311014075658111198159",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 24,
+      "filled_quote_scenarios": 24,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "86061.70707001823107385316858148485988467",
+      "total_hypothetical_cost_twd": "299.5092387571107911396782877",
+      "maximum_close_drawdown": -0.19839496540175994,
+      "annualized_daily_vol": 0.17339059344394275,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.3214291973762893
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.25188595970144023
+        }
+      ],
+      "scheduled_missing_vol_days": []
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": "0.001",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0.993139603759072755793818524",
+      "old_proxy_same_period_change": "1.0300445953005579",
+      "account_minus_proxy_pp": "-3.690499154148514420618147600",
+      "ending_wealth_twd": "597941.8811277218267381455571603579727708",
+      "ending_units": "8840.716805318575882049920737366944112816",
+      "ending_bank_cash_twd": "17990.85869882330191997158870054173126958",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 1,
+      "filled_quote_scenarios": 1,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "0E-34",
+      "total_hypothetical_cost_twd": "299.7002997002997002997002997",
+      "maximum_close_drawdown": -0.2663147792706334,
+      "annualized_daily_vol": 0.24233482813089324,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.47161098488532116
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.3543929912390489
+        }
+      ],
+      "scheduled_missing_vol_days": []
+    },
+    {
+      "method": "cash",
+      "cost_rate": "0.001",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0E-15",
+      "old_proxy_same_period_change": "0",
+      "account_minus_proxy_pp": "0E-15",
+      "ending_wealth_twd": "300000.000000000000000",
+      "ending_units": "0",
+      "ending_bank_cash_twd": "300000.00",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 1,
+      "filled_quote_scenarios": 0,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "300000",
+      "total_hypothetical_cost_twd": "0",
+      "maximum_close_drawdown": 0.0,
+      "annualized_daily_vol": 0.0,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.0
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.0
+        }
+      ],
+      "scheduled_missing_vol_days": []
+    },
+    {
+      "method": "dynamic",
+      "cost_rate": "0.002",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0.499256049296873466214259978",
+      "old_proxy_same_period_change": "0.5001528313386916",
+      "account_minus_proxy_pp": "-0.089678204181813378574002200",
+      "ending_wealth_twd": "449776.8147890620398642779933058811787439",
+      "ending_units": "2998.281578594114775131115904620694711900",
+      "ending_bank_cash_twd": "253089.5432332881286053662615274522564300",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 23,
+      "filled_quote_scenarios": 23,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "0E-34",
+      "total_hypothetical_cost_twd": "3347.847694400274290477781218",
+      "maximum_close_drawdown": -0.1517609772752132,
+      "annualized_daily_vol": 0.12514781982146578,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.24318167621035092
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.20598306585979143
+        }
+      ],
+      "scheduled_missing_vol_days": [
+        "2025-07-01"
+      ]
+    },
+    {
+      "method": "calibration_static",
+      "cost_rate": "0.002",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0.652743604656658408856776862",
+      "old_proxy_same_period_change": "0.653290366590757",
+      "account_minus_proxy_pp": "-0.054676193409859114322313800",
+      "ending_wealth_twd": "495823.0813969975226570330586947368524128",
+      "ending_units": "5385.415870399540108798234812490545882782",
+      "ending_bank_cash_twd": "142539.8002987877238323640773925976952917",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 24,
+      "filled_quote_scenarios": 24,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "86000.39018827291724490320231761946483472",
+      "total_hypothetical_cost_twd": "598.6364127562376061515297884",
+      "maximum_close_drawdown": -0.19842069586227729,
+      "annualized_daily_vol": 0.1734038495235304,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.3203757235558329
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.25172219934924533
+        }
+      ],
+      "scheduled_missing_vol_days": []
+    },
+    {
+      "method": "buy_hold",
+      "cost_rate": "0.002",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0.991150442477876076396818705",
+      "old_proxy_same_period_change": "1.0280186026904774",
+      "account_minus_proxy_pp": "-3.686816021260132360318129500",
+      "ending_wealth_twd": "597345.1327433628229190456114945292721993",
+      "ending_units": "8831.893734654585287357256145812685685560",
+      "ending_bank_cash_twd": "17972.90375002208105977201625672881537011",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 1,
+      "filled_quote_scenarios": 1,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "0E-34",
+      "total_hypothetical_cost_twd": "598.8023952095808383233532934",
+      "maximum_close_drawdown": -0.2663147792706334,
+      "annualized_daily_vol": 0.24235228288320046,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.4701423112477112
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.35439299123904866
+        }
+      ],
+      "scheduled_missing_vol_days": []
+    },
+    {
+      "method": "cash",
+      "cost_rate": "0.002",
+      "market_days": 485,
+      "calendar_days": 730,
+      "account_scenario_change": "0E-15",
+      "old_proxy_same_period_change": "0",
+      "account_minus_proxy_pp": "0E-15",
+      "ending_wealth_twd": "300000.000000000000000",
+      "ending_units": "0",
+      "ending_bank_cash_twd": "300000.00",
+      "ending_dividend_receivable_twd": "0",
+      "ending_sale_receivable_twd": "0",
+      "ending_purchase_payable_twd": "0",
+      "target_attempts": 1,
+      "filled_quote_scenarios": 0,
+      "rejections": 0,
+      "minimum_spendable_cash_twd": "300000",
+      "total_hypothetical_cost_twd": "0",
+      "maximum_close_drawdown": 0.0,
+      "annualized_daily_vol": 0.0,
+      "carried_market_valuations": 5,
+      "calendar_subperiods": [
+        {
+          "year": "2024",
+          "account_scenario_return": 0.0
+        },
+        {
+          "year": "2025",
+          "account_scenario_return": 0.0
+        }
+      ],
+      "scheduled_missing_vol_days": []
+    }
+  ],
+  "paired_account_comparisons": [
+    {
+      "cost_rate": "0.001",
+      "account_dynamic_minus_static_pp": "-14.78295369257185645000787890",
+      "yearly_dynamic_minus_static_pp": [
+        {
+          "year": "2024",
+          "difference_pp": -7.48122493510659
+        },
+        {
+          "year": "2025",
+          "difference_pp": -4.345611732236776
+        }
+      ]
+    },
+    {
+      "cost_rate": "0.002",
+      "account_dynamic_minus_static_pp": "-15.34875553597849426425168840",
+      "yearly_dynamic_minus_static_pp": [
+        {
+          "year": "2024",
+          "difference_pp": -7.719404734548196
+        },
+        {
+          "year": "2025",
+          "difference_pp": -4.573913348945391
+        }
+      ]
+    }
+  ],
+  "bulk_accounts_sha256": "60c8eb24131827407d512b217cf2140dbac9f2ee22de6f0a3b4942ffacf93b77",
+  "targets_unchanged": true,
+  "old_research_gate_retested": false,
+  "old_research_failed_gate_preserved": true,
+  "fractional_shares": true,
+  "actual_fills_verified": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null
+}

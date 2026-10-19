@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-19T18:14:16.250244+00:00",
+  "status": "fixed_target_accounting_gate_passed_old_strategy_stays_stopped",
+  "files": {
+    "settled_etf_account.py": "fecf0cedbe38ef601f41e9fb4731d51f8ce62475e32d7dfaead86254b77c0c8b",
+    "rebalance_accounting.py": "0c3e02ab3a244c19d587b9fdfbe83c50d44174ee751f651a7d664981c695adb1",
+    "rebalance_accounting_audit.py": "e4fb5920b9cd4278e9d43a759844f8f8b5e2afa0302a028d341ad757c7776f86",
+    "test_settled_etf_account.py": "2663205933374aa9e75b3b8bcac822eafda47dcfa334fd348fe138cf56c89ad1",
+    "configs/rebalance_accounting_pipeline.json": "611ee2169f75eeb673a395601cd2ef57b94ea24b23d2741c9f963cec08ae1631",
+    "configs/rebalance_accounting_protocol_20261020.json": "b2962f256d26cb18ce4374f441e9f36a60df1ec3c86fbdc7807c1357fa9d89f1",
+    "deliverables/rebalance_accounting_20261020/acceptance.json": "f4b38f634b2c3b631307bf8f7ddaff49ed855d4e051b420643c5e3f5e0b4c233",
+    "deliverables/rebalance_accounting_20261020/independent_audit.json": "86b790a95caaef2dcd2e2bd29e18ce53eadcab0cc93ce0e96e66135da754fd7a",
+    "deliverables/rebalance_accounting_20261020/next_tasks.json": "52c53e21f7b603f90df629f13f024832f9f1590d7aed052cf03f2fe04faa4e50",
+    "deliverables/rebalance_accounting_20261020/protocol_freeze.json": "17d08bbb5f1eae73c2857c88f1b8c0e0dde7e1cb922c47e83acc0510cefe1d59",
+    "deliverables/rebalance_accounting_20261020/recovery_receipt.json": "6f8ad80beccf412b1498f8e171aa5a171ea7d8fdb15f8af68410be82aca58cf1",
+    "deliverables/rebalance_accounting_20261020/replay_checks.json": "db7c0ff4778bf15daa2e271f0cd65df18fdf1256871a6cdab1c49befce632386",
+    "deliverables/rebalance_accounting_20261020/report.md": "aea00a684899e50d1ee67747722b294a2e37b41b94ece46bb316fb4b52e9b814",
+    "deliverables/rebalance_accounting_20261020/source_receipt.json": "43f4a4a8ceccaf5f82ff6f95daeda86f330ca86e2e4fb909322f4dfb7422edf1",
+    "deliverables/rebalance_accounting_20261020/summary.json": "453d47938ce453bda2b77cd072739e1722aea3892049b6e82cfa9ea1d5699d6d",
+    "deliverables/rebalance_accounting_20261020/tests.json": "0f3e2dc0a0ac591b49cb14b9da22025398f149befd1b20dc553dc0302b548e35",
+    "deliverables/rebalance_accounting_20261020/trade_scenarios.csv": "2d1adea5dc2b52b04e001b4be0cbc3254d81fecdc4ec4c405d42e634cf0fee7a"
+  },
+  "bulk_accounts_sha256": "60c8eb24131827407d512b217cf2140dbac9f2ee22de6f0a3b4942ffacf93b77",
+  "source_price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "new_raw_downloads": 0,
+  "raw_retransmissions": 0,
+  "restore": "Restore exact oldriskdecision checkpoint and cashsource checkpoint/rawbackups; rebuild bulk account file from unchanged targets; no substitute data.",
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null
+}
