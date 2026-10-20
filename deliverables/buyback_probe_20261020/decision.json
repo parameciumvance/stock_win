@@ -1,0 +1,354 @@
+{
+  "status": "audited_fixed_gate_completion_bound_verified",
+  "decision": "stop_fixed_hypothesis_no_extra_data_needed_to_decide",
+  "primary_cost": "0.005",
+  "minimum_required_positive_quarters": 3,
+  "cost_bounds": {
+    "0.0025": {
+      "quarters": {
+        "2024Q1": {
+          "expected_case_ids": [
+            "annual:1:1587:2024-01-27",
+            "annual:2:6472:2024-03-07",
+            "annual:3:8011:2024-03-08",
+            "annual:4:3055:2024-03-11",
+            "annual:5:6464:2024-03-12",
+            "annual:6:1210:2024-03-14",
+            "annual:7:2762:2024-03-18",
+            "annual:8:5469:2024-03-27",
+            "annual:9:8110:2024-03-27"
+          ],
+          "observed_case_ids": [
+            "annual:1:1587:2024-01-27",
+            "annual:2:6472:2024-03-07",
+            "annual:3:8011:2024-03-08",
+            "annual:4:3055:2024-03-11",
+            "annual:5:6464:2024-03-12",
+            "annual:6:1210:2024-03-14",
+            "annual:7:2762:2024-03-18",
+            "annual:8:5469:2024-03-27",
+            "annual:9:8110:2024-03-27"
+          ],
+          "missing_case_ids": [],
+          "coverage_complete": true,
+          "observed_mean_relative_change": "-0.060676815001681146820849660324589122953324626728448",
+          "full_cohort_mean_known": true,
+          "positive_after_completion_possible": false
+        },
+        "2024Q2": {
+          "expected_case_ids": [
+            "annual:10:3714:2024-04-10",
+            "annual:11:2436:2024-04-16",
+            "annual:12:3049:2024-04-30",
+            "annual:13:3062:2024-05-10",
+            "annual:14:2330:2024-06-05"
+          ],
+          "observed_case_ids": [
+            "annual:10:3714:2024-04-10",
+            "annual:11:2436:2024-04-16",
+            "annual:12:3049:2024-04-30",
+            "annual:13:3062:2024-05-10",
+            "annual:14:2330:2024-06-05"
+          ],
+          "missing_case_ids": [],
+          "coverage_complete": true,
+          "observed_mean_relative_change": "-0.002857636112620678124410688019874276020842851366448",
+          "full_cohort_mean_known": true,
+          "positive_after_completion_possible": false
+        },
+        "2024Q3": {
+          "expected_case_ids": [
+            "annual:15:6655:2024-07-04",
+            "annual:16:2436:2024-08-07",
+            "annual:17:3708:2024-08-08",
+            "annual:18:3058:2024-08-09",
+            "annual:19:3062:2024-08-09",
+            "annual:20:1806:2024-08-13",
+            "annual:21:1626:2024-08-14",
+            "annual:22:2030:2024-08-14",
+            "annual:23:2850:2024-08-14",
+            "annual:24:1338:2024-08-15",
+            "annual:25:2762:2024-08-27",
+            "annual:26:2352:2024-08-30"
+          ],
+          "observed_case_ids": [
+            "annual:15:6655:2024-07-04",
+            "annual:16:2436:2024-08-07",
+            "annual:17:3708:2024-08-08",
+            "annual:18:3058:2024-08-09",
+            "annual:19:3062:2024-08-09",
+            "annual:20:1806:2024-08-13",
+            "annual:21:1626:2024-08-14",
+            "annual:22:2030:2024-08-14",
+            "annual:23:2850:2024-08-14",
+            "annual:24:1338:2024-08-15",
+            "annual:25:2762:2024-08-27",
+            "annual:26:2352:2024-08-30"
+          ],
+          "missing_case_ids": [],
+          "coverage_complete": true,
+          "observed_mean_relative_change": "0.054516119766129492017537984733955002549636098452267",
+          "full_cohort_mean_known": true,
+          "positive_after_completion_possible": true
+        },
+        "2024Q4": {
+          "expected_case_ids": [
+            "annual:27:4190:2024-10-08",
+            "annual:28:3051:2024-10-17",
+            "annual:29:2467:2024-10-31",
+            "annual:30:2023:2024-11-05",
+            "annual:31:2762:2024-11-12",
+            "annual:32:3062:2024-11-13",
+            "annual:33:6952:2024-11-22",
+            "annual:34:2023:2024-12-04",
+            "annual:35:6108:2024-12-13",
+            "annual:36:6589:2024-12-16",
+            "annual:37:6869:2024-12-16",
+            "annual:38:2030:2024-12-18",
+            "annual:39:4977:2024-12-19",
+            "annual:40:5222:2024-12-19",
+            "annual:41:2474:2024-12-20",
+            "annual:42:2897:2024-12-25",
+            "annual:43:1563:2024-12-26",
+            "annual:44:3716:2024-12-26",
+            "annual:45:6191:2024-12-26",
+            "annual:46:6742:2024-12-26",
+            "annual:47:2023:2024-12-31"
+          ],
+          "observed_case_ids": [
+            "annual:27:4190:2024-10-08",
+            "annual:28:3051:2024-10-17",
+            "annual:29:2467:2024-10-31",
+            "annual:30:2023:2024-11-05",
+            "annual:31:2762:2024-11-12",
+            "annual:32:3062:2024-11-13",
+            "annual:33:6952:2024-11-22",
+            "annual:34:2023:2024-12-04",
+            "annual:35:6108:2024-12-13",
+            "annual:37:6869:2024-12-16",
+            "annual:38:2030:2024-12-18",
+            "annual:39:4977:2024-12-19",
+            "annual:40:5222:2024-12-19",
+            "annual:41:2474:2024-12-20",
+            "annual:42:2897:2024-12-25",
+            "annual:43:1563:2024-12-26",
+            "annual:44:3716:2024-12-26",
+            "annual:45:6191:2024-12-26",
+            "annual:46:6742:2024-12-26",
+            "annual:47:2023:2024-12-31"
+          ],
+          "missing_case_ids": [
+            "annual:36:6589:2024-12-16"
+          ],
+          "coverage_complete": false,
+          "observed_mean_relative_change": "-0.020736171515303126420546562671487900508105010670804",
+          "full_cohort_mean_known": false,
+          "positive_after_completion_possible": true
+        }
+      },
+      "affected_quarters": [
+        "2024Q4"
+      ],
+      "complete_nonpositive_quarters": [
+        "2024Q1",
+        "2024Q2"
+      ],
+      "possible_positive_quarters": [
+        "2024Q3",
+        "2024Q4"
+      ],
+      "maximum_positive_quarters_after_any_completion": 2
+    },
+    "0.005": {
+      "quarters": {
+        "2024Q1": {
+          "expected_case_ids": [
+            "annual:1:1587:2024-01-27",
+            "annual:2:6472:2024-03-07",
+            "annual:3:8011:2024-03-08",
+            "annual:4:3055:2024-03-11",
+            "annual:5:6464:2024-03-12",
+            "annual:6:1210:2024-03-14",
+            "annual:7:2762:2024-03-18",
+            "annual:8:5469:2024-03-27",
+            "annual:9:8110:2024-03-27"
+          ],
+          "observed_case_ids": [
+            "annual:1:1587:2024-01-27",
+            "annual:2:6472:2024-03-07",
+            "annual:3:8011:2024-03-08",
+            "annual:4:3055:2024-03-11",
+            "annual:5:6464:2024-03-12",
+            "annual:6:1210:2024-03-14",
+            "annual:7:2762:2024-03-18",
+            "annual:8:5469:2024-03-27",
+            "annual:9:8110:2024-03-27"
+          ],
+          "missing_case_ids": [],
+          "coverage_complete": true,
+          "observed_mean_relative_change": "-0.060374183721980995213867779451637644142100922558959",
+          "full_cohort_mean_known": true,
+          "positive_after_completion_possible": false
+        },
+        "2024Q2": {
+          "expected_case_ids": [
+            "annual:10:3714:2024-04-10",
+            "annual:11:2436:2024-04-16",
+            "annual:12:3049:2024-04-30",
+            "annual:13:3062:2024-05-10",
+            "annual:14:2330:2024-06-05"
+          ],
+          "observed_case_ids": [
+            "annual:10:3714:2024-04-10",
+            "annual:11:2436:2024-04-16",
+            "annual:12:3049:2024-04-30",
+            "annual:13:3062:2024-05-10",
+            "annual:14:2330:2024-06-05"
+          ],
+          "missing_case_ids": [],
+          "coverage_complete": true,
+          "observed_mean_relative_change": "-0.002843383385715750740655725050162063768715803142062",
+          "full_cohort_mean_known": true,
+          "positive_after_completion_possible": false
+        },
+        "2024Q3": {
+          "expected_case_ids": [
+            "annual:15:6655:2024-07-04",
+            "annual:16:2436:2024-08-07",
+            "annual:17:3708:2024-08-08",
+            "annual:18:3058:2024-08-09",
+            "annual:19:3062:2024-08-09",
+            "annual:20:1806:2024-08-13",
+            "annual:21:1626:2024-08-14",
+            "annual:22:2030:2024-08-14",
+            "annual:23:2850:2024-08-14",
+            "annual:24:1338:2024-08-15",
+            "annual:25:2762:2024-08-27",
+            "annual:26:2352:2024-08-30"
+          ],
+          "observed_case_ids": [
+            "annual:15:6655:2024-07-04",
+            "annual:16:2436:2024-08-07",
+            "annual:17:3708:2024-08-08",
+            "annual:18:3058:2024-08-09",
+            "annual:19:3062:2024-08-09",
+            "annual:20:1806:2024-08-13",
+            "annual:21:1626:2024-08-14",
+            "annual:22:2030:2024-08-14",
+            "annual:23:2850:2024-08-14",
+            "annual:24:1338:2024-08-15",
+            "annual:25:2762:2024-08-27",
+            "annual:26:2352:2024-08-30"
+          ],
+          "missing_case_ids": [],
+          "coverage_complete": true,
+          "observed_mean_relative_change": "0.05424421552908848406473289746486708373493947580887",
+          "full_cohort_mean_known": true,
+          "positive_after_completion_possible": true
+        },
+        "2024Q4": {
+          "expected_case_ids": [
+            "annual:27:4190:2024-10-08",
+            "annual:28:3051:2024-10-17",
+            "annual:29:2467:2024-10-31",
+            "annual:30:2023:2024-11-05",
+            "annual:31:2762:2024-11-12",
+            "annual:32:3062:2024-11-13",
+            "annual:33:6952:2024-11-22",
+            "annual:34:2023:2024-12-04",
+            "annual:35:6108:2024-12-13",
+            "annual:36:6589:2024-12-16",
+            "annual:37:6869:2024-12-16",
+            "annual:38:2030:2024-12-18",
+            "annual:39:4977:2024-12-19",
+            "annual:40:5222:2024-12-19",
+            "annual:41:2474:2024-12-20",
+            "annual:42:2897:2024-12-25",
+            "annual:43:1563:2024-12-26",
+            "annual:44:3716:2024-12-26",
+            "annual:45:6191:2024-12-26",
+            "annual:46:6742:2024-12-26",
+            "annual:47:2023:2024-12-31"
+          ],
+          "observed_case_ids": [
+            "annual:27:4190:2024-10-08",
+            "annual:28:3051:2024-10-17",
+            "annual:29:2467:2024-10-31",
+            "annual:30:2023:2024-11-05",
+            "annual:31:2762:2024-11-12",
+            "annual:32:3062:2024-11-13",
+            "annual:33:6952:2024-11-22",
+            "annual:34:2023:2024-12-04",
+            "annual:35:6108:2024-12-13",
+            "annual:37:6869:2024-12-16",
+            "annual:38:2030:2024-12-18",
+            "annual:39:4977:2024-12-19",
+            "annual:40:5222:2024-12-19",
+            "annual:41:2474:2024-12-20",
+            "annual:42:2897:2024-12-25",
+            "annual:43:1563:2024-12-26",
+            "annual:44:3716:2024-12-26",
+            "annual:45:6191:2024-12-26",
+            "annual:46:6742:2024-12-26",
+            "annual:47:2023:2024-12-31"
+          ],
+          "missing_case_ids": [
+            "annual:36:6589:2024-12-16"
+          ],
+          "coverage_complete": false,
+          "observed_mean_relative_change": "-0.020632747923910200691195590401651678607542135768748",
+          "full_cohort_mean_known": false,
+          "positive_after_completion_possible": true
+        }
+      },
+      "affected_quarters": [
+        "2024Q4"
+      ],
+      "complete_nonpositive_quarters": [
+        "2024Q1",
+        "2024Q2"
+      ],
+      "possible_positive_quarters": [
+        "2024Q3",
+        "2024Q4"
+      ],
+      "maximum_positive_quarters_after_any_completion": 2
+    }
+  },
+  "maximum_positive_quarters_after_any_completion": 2,
+  "fixed_gate_unattainable_even_if_missing_quotes_supplied": true,
+  "no_extra_data_needed_to_decide_fixed_gate": true,
+  "coverage_complete": false,
+  "full_cohort_quote_results_known": false,
+  "expected_case_count": 47,
+  "observed_case_count": 46,
+  "missing_case_ids": [
+    "annual:36:6589:2024-12-16"
+  ],
+  "unknown_values_imputed": false,
+  "full_cohort_pooled_mean_relative_change": null,
+  "full_cohort_pooled_median_relative_change": null,
+  "resource_allocation_gate_passed": false,
+  "proof_scope": "Necessary three-positive-publication-quarter condition of the existing fixed gate only",
+  "unqualified_quote_coverage_not_relabelled": true,
+  "protocol_sha256": "10cdc2f6eabd1b21ced075044810648c3e4b6847751b2ef57585f08e4211dcf2",
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "actual_execution_verified": false,
+  "valid_signal": false,
+  "valid_prospective_signal_date": null,
+  "trade_authorized": false,
+  "daily_human_validation": false,
+  "parameter_changes": 0,
+  "new_public_requests": 0,
+  "reused_historical_years": [
+    2024
+  ],
+  "samples_independent": false,
+  "independent_holdout": false,
+  "input_sha256": {
+    "summary.json": "91eb10b7370c917cf79d8bb19ca5965716b07a43301859c78e51f793807763b8",
+    "event_scenarios.csv": "9d80ae94026dd27ab8ff4c50537bd6e4e31b336914643b42c1f25386f2f4b648",
+    "independent_audit.json": "4383783bc914c7753302d81932ca2aef4aef19c3287a6585db4f59f87c8f92dc"
+  }
+}

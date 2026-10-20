@@ -1,0 +1,19 @@
+{
+  "activated_at": "2026-10-20T14:10:34.680978+00:00",
+  "phase": "source_checkpoint_pinned_before_quote_extraction",
+  "protocol_sha256": "10cdc2f6eabd1b21ced075044810648c3e4b6847751b2ef57585f08e4211dcf2",
+  "source_checkpoint": "deliverables/buyback_coverage_20261020/checkpoint.json",
+  "source_checkpoint_sha256": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517"
+  },
+  "prior_checkpoint_entries_verified": 117,
+  "case_count": 47,
+  "source_commit": "f518fb8df7d12afb32b3ff595d5cba7dc8e19edb",
+  "historical_pit_verified": false,
+  "valid_signal": false
+}

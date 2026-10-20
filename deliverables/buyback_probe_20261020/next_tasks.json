@@ -1,0 +1,31 @@
+{
+  "status": "fixed_buyback_continuation_hypothesis_closed_by_unattainable_resource_gate",
+  "completed": [
+    "Verified source census and independent47case chronology before reading quotes; committed f518fb8",
+    "Replayed all47 fixed calendar windows; retained46 complete cases and sole6589Q4gap",
+    "Independently verified pinned raw quotes,92scenarios and all declared statistics",
+    "Proved completeQ1/Q2 nonpositive implies atmost2positivequarters even ifQ4missingquote recovered",
+    "Passed172tests and all5hash-verified stage skips; independently reviewed maximum2positivequarters proof"
+  ],
+  "decision": "Stop this exact fixed hypothesis; retain source/tools and all failed/unknown results. No parameter, year, reverse-side or outcome subgroup search.",
+  "full47_quote_statistics_known": false,
+  "price_gap": "6589:2024-12-17 adjustedopen;2025-01-14 adjustedclose",
+  "reason_no_further_price_acquisition": "OnlyQ4hasmissingcase; Q1andQ2alreadycompleteandnegative; maximumpossiblepositivequarters2<required3",
+  "new_price_requests": 0,
+  "manual_download_requests": 0,
+  "manual_daily_validation": false,
+  "models_fitted": 0,
+  "parameter_searches": 0,
+  "user_action_required": null,
+  "external_credentials_required": null,
+  "future_research_boundary": "Any new work needs a different falsifiable mechanism, a credible source/time route, declared resource limits and independent evidence; do not turn this closure into an unlimited same-data search.",
+  "remaining_external_limits": [
+    "Historical first publication/immutable full version provenance unproven",
+    "6589 fixed endpoints absent from frozen price archive; no replacement inferred",
+    "Actual fills, brokerfees, capital and cash entitlement accounting not verified"
+  ],
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

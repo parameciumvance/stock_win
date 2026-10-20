@@ -1,0 +1,18 @@
+{
+  "symbol": "6589",
+  "case_id": "annual:36:6589:2024-12-16",
+  "publication_timestamp": "2024-12-16T15:40:31+08:00",
+  "frozen_quote_rows": 294,
+  "frozen_quote_date_range": [
+    "2025-07-21",
+    "2026-10-02"
+  ],
+  "required_entry_date": "2024-12-17",
+  "required_exit_date": "2025-01-14",
+  "quotes_sha256": "64e3376f0c0e85cf8bc496ed57e2c6685b06c3d26299d0112d68eafec7454a7d",
+  "source_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "finding": "No quote exists at either fixed endpoint in the frozen input; date range is observed archive coverage, not a verified listing/first-trade date.",
+  "replacement_or_shift_applied": false,
+  "new_price_requests": 0,
+  "full47_return_known": false
+}
