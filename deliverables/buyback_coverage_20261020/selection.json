@@ -1,0 +1,1969 @@
+{
+  "selection": "All 115 captured 2024 M35 messages not in seven preserved originals, no outcome/subject/completion filtering",
+  "reused_original_urls": [
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=115052&SPOKE_DATE=20240127&COMPANY_ID=1587",
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152405&SPOKE_DATE=20240105&COMPANY_ID=8070",
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193639&SPOKE_DATE=20240102&COMPANY_ID=2002",
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=10&SPOKE_TIME=211402&SPOKE_DATE=20240307&COMPANY_ID=6472",
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=144421&SPOKE_DATE=20240319&COMPANY_ID=1210",
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=173023&SPOKE_DATE=20240314&COMPANY_ID=1210",
+    "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=171938&SPOKE_DATE=20240308&COMPANY_ID=8011"
+  ],
+  "requests": [
+    {
+      "batch": "originals01",
+      "filename": "00_2023_20241231_2.html",
+      "event_id": "M35:2023:2024-12-31:2",
+      "original_fields": {
+        "CDATE": "113/12/31",
+        "COMPANY_NAME": "燁輝",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:49:49",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會通過第十五次買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=164949&SPOKE_DATE=20241231&COMPANY_ID=2023",
+        "COMPANY_ID": "2023"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "01_2467_20241231_1.html",
+      "event_id": "M35:2467:2024-12-31:1",
+      "original_fields": {
+        "CDATE": "113/12/31",
+        "COMPANY_NAME": "志聖",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "16:23:08",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第11次買回庫藏股期間屆滿及執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162308&SPOKE_DATE=20241231&COMPANY_ID=2467",
+        "COMPANY_ID": "2467"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "02_2023_20241231_1.html",
+      "event_id": "M35:2023:2024-12-31:1",
+      "original_fields": {
+        "CDATE": "113/12/31",
+        "COMPANY_NAME": "燁輝",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "15:40:33",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第十四次買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154033&SPOKE_DATE=20241231&COMPANY_ID=2023",
+        "COMPANY_ID": "2023"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "03_2474_20241230_1.html",
+      "event_id": "M35:2474:2024-12-30:1",
+      "original_fields": {
+        "CDATE": "113/12/30",
+        "COMPANY_NAME": "可成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他電子業",
+        "AN_CODE": "M35",
+        "CTIME": "17:22:19",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172219&SPOKE_DATE=20241230&COMPANY_ID=2474",
+        "COMPANY_ID": "2474"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "04_2474_20241227_1.html",
+      "event_id": "M35:2474:2024-12-27:1",
+      "original_fields": {
+        "CDATE": "113/12/27",
+        "COMPANY_NAME": "可成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他電子業",
+        "AN_CODE": "M35",
+        "CTIME": "16:51:39",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165139&SPOKE_DATE=20241227&COMPANY_ID=2474",
+        "COMPANY_ID": "2474"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "05_3716_20241226_1.html",
+      "event_id": "M35:3716:2024-12-26:1",
+      "original_fields": {
+        "CDATE": "113/12/26",
+        "COMPANY_NAME": "中化控股",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "18:13:52",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=181352&SPOKE_DATE=20241226&COMPANY_ID=3716",
+        "COMPANY_ID": "3716"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "06_6742_20241226_1.html",
+      "event_id": "M35:6742:2024-12-26:1",
+      "original_fields": {
+        "CDATE": "113/12/26",
+        "COMPANY_NAME": "澤米",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "16:39:40",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163940&SPOKE_DATE=20241226&COMPANY_ID=6742",
+        "COMPANY_ID": "6742"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "07_1563_20241226_1.html",
+      "event_id": "M35:1563:2024-12-26:1",
+      "original_fields": {
+        "CDATE": "113/12/26",
+        "COMPANY_NAME": "巧新",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:17:59",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會通過執行庫藏股買回股份供轉讓員工",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161759&SPOKE_DATE=20241226&COMPANY_ID=1563",
+        "COMPANY_ID": "1563"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "08_2474_20241226_1.html",
+      "event_id": "M35:2474:2024-12-26:1",
+      "original_fields": {
+        "CDATE": "113/12/26",
+        "COMPANY_NAME": "可成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他電子業",
+        "AN_CODE": "M35",
+        "CTIME": "16:16:50",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161650&SPOKE_DATE=20241226&COMPANY_ID=2474",
+        "COMPANY_ID": "2474"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "09_6191_20241226_3.html",
+      "event_id": "M35:6191:2024-12-26:3",
+      "original_fields": {
+        "CDATE": "113/12/26",
+        "COMPANY_NAME": "精成科",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "15:13:25",
+        "TYPEK": "上市",
+        "SUBJECT": "公告董事會決議買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=151325&SPOKE_DATE=20241226&COMPANY_ID=6191",
+        "COMPANY_ID": "6191"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "10_6869_20241226_1.html",
+      "event_id": "M35:6869:2024-12-26:1",
+      "original_fields": {
+        "CDATE": "113/12/26",
+        "COMPANY_NAME": "雲豹能源",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "綠能環保",
+        "AN_CODE": "M35",
+        "CTIME": "13:30:42",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股(更正)",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=133042&SPOKE_DATE=20241226&COMPANY_ID=6869",
+        "COMPANY_ID": "6869"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "11_2897_20241225_1.html",
+      "event_id": "M35:2897:2024-12-25:1",
+      "original_fields": {
+        "CDATE": "113/12/25",
+        "COMPANY_NAME": "王道銀行",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "金融保險業",
+        "AN_CODE": "M35",
+        "CTIME": "19:25:10",
+        "TYPEK": "上市",
+        "SUBJECT": "公告董事會決議買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=192510&SPOKE_DATE=20241225&COMPANY_ID=2897",
+        "COMPANY_ID": "2897"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "12_2474_20241224_1.html",
+      "event_id": "M35:2474:2024-12-24:1",
+      "original_fields": {
+        "CDATE": "113/12/24",
+        "COMPANY_NAME": "可成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他電子業",
+        "AN_CODE": "M35",
+        "CTIME": "16:23:37",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162337&SPOKE_DATE=20241224&COMPANY_ID=2474",
+        "COMPANY_ID": "2474"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "13_2474_20241220_1.html",
+      "event_id": "M35:2474:2024-12-20:1",
+      "original_fields": {
+        "CDATE": "113/12/20",
+        "COMPANY_NAME": "可成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他電子業",
+        "AN_CODE": "M35",
+        "CTIME": "17:29:25",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會通過自集中交易市場買回公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172925&SPOKE_DATE=20241220&COMPANY_ID=2474",
+        "COMPANY_ID": "2474"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "14_4977_20241219_1.html",
+      "event_id": "M35:4977:2024-12-19:1",
+      "original_fields": {
+        "CDATE": "113/12/19",
+        "COMPANY_NAME": "眾達-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "15:38:51",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股轉讓員工事宜",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=153851&SPOKE_DATE=20241219&COMPANY_ID=4977",
+        "COMPANY_ID": "4977"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "15_5222_20241219_1.html",
+      "event_id": "M35:5222:2024-12-19:1",
+      "original_fields": {
+        "CDATE": "113/12/19",
+        "COMPANY_NAME": "全訊",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "14:31:57",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143157&SPOKE_DATE=20241219&COMPANY_ID=5222",
+        "COMPANY_ID": "5222"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "16_2030_20241218_1.html",
+      "event_id": "M35:2030:2024-12-18:1",
+      "original_fields": {
+        "CDATE": "113/12/18",
+        "COMPANY_NAME": "彰源",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:09:58",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議第十九次買回庫藏股案",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160958&SPOKE_DATE=20241218&COMPANY_ID=2030",
+        "COMPANY_ID": "2030"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "17_6589_20241216_1.html",
+      "event_id": "M35:6589:2024-12-16:1",
+      "original_fields": {
+        "CDATE": "113/12/16",
+        "COMPANY_NAME": "台康生技",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "15:40:31",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司臨時董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154031&SPOKE_DATE=20241216&COMPANY_ID=6589",
+        "COMPANY_ID": "6589"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "18_6869_20241216_3.html",
+      "event_id": "M35:6869:2024-12-16:3",
+      "original_fields": {
+        "CDATE": "113/12/16",
+        "COMPANY_NAME": "雲豹能源",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "綠能環保",
+        "AN_CODE": "M35",
+        "CTIME": "14:44:40",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=144440&SPOKE_DATE=20241216&COMPANY_ID=6869",
+        "COMPANY_ID": "6869"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "19_6108_20241213_1.html",
+      "event_id": "M35:6108:2024-12-13:1",
+      "original_fields": {
+        "CDATE": "113/12/13",
+        "COMPANY_NAME": "競國",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "14:30:14",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會通過買回公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143014&SPOKE_DATE=20241213&COMPANY_ID=6108",
+        "COMPANY_ID": "6108"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "20_2023_20241204_3.html",
+      "event_id": "M35:2023:2024-12-04:3",
+      "original_fields": {
+        "CDATE": "113/12/04",
+        "COMPANY_NAME": "燁輝",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:54:18",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會通過第十四次買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=165418&SPOKE_DATE=20241204&COMPANY_ID=2023",
+        "COMPANY_ID": "2023"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "21_2023_20241204_2.html",
+      "event_id": "M35:2023:2024-12-04:2",
+      "original_fields": {
+        "CDATE": "113/12/04",
+        "COMPANY_NAME": "燁輝",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "15:51:17",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第十三次買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=155117&SPOKE_DATE=20241204&COMPANY_ID=2023",
+        "COMPANY_ID": "2023"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "22_4190_20241122_1.html",
+      "event_id": "M35:4190:2024-11-22:1",
+      "original_fields": {
+        "CDATE": "113/11/22",
+        "COMPANY_NAME": "佐登-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "17:15:24",
+        "TYPEK": "上市",
+        "SUBJECT": "公告買回本公司股份執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171524&SPOKE_DATE=20241122&COMPANY_ID=4190",
+        "COMPANY_ID": "4190"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "23_6952_20241122_1.html",
+      "event_id": "M35:6952:2024-11-22:1",
+      "original_fields": {
+        "CDATE": "113/11/22",
+        "COMPANY_NAME": "大武山",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "14:08:43",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會通過買回公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=140843&SPOKE_DATE=20241122&COMPANY_ID=6952",
+        "COMPANY_ID": "6952"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "24_1338_20241120_1.html",
+      "event_id": "M35:1338:2024-11-20:1",
+      "original_fields": {
+        "CDATE": "113/11/20",
+        "COMPANY_NAME": "廣華-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "17:46:54",
+        "TYPEK": "上市",
+        "SUBJECT": "補充公告董事會決議通過變更原買回股份之目的申報\r\n(依證期局規定擬修正「13.其他證期局所規定之事項」)",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174654&SPOKE_DATE=20241120&COMPANY_ID=1338",
+        "COMPANY_ID": "1338"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "25_3062_20241113_4.html",
+      "event_id": "M35:3062:2024-11-13:4",
+      "original_fields": {
+        "CDATE": "113/11/13",
+        "COMPANY_NAME": "建漢",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "23:22:36",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=232236&SPOKE_DATE=20241113&COMPANY_ID=3062",
+        "COMPANY_ID": "3062"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "26_1338_20241113_2.html",
+      "event_id": "M35:1338:2024-11-13:2",
+      "original_fields": {
+        "CDATE": "113/11/13",
+        "COMPANY_NAME": "廣華-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "14:18:02",
+        "TYPEK": "上市",
+        "SUBJECT": "董事會決議通過變更原買回股份之目的申報",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=141802&SPOKE_DATE=20241113&COMPANY_ID=1338",
+        "COMPANY_ID": "1338"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "27_2762_20241112_5.html",
+      "event_id": "M35:2762:2024-11-12:5",
+      "original_fields": {
+        "CDATE": "113/11/12",
+        "COMPANY_NAME": "世界健身-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "運動休閒",
+        "AN_CODE": "M35",
+        "CTIME": "17:29:29",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回第三次庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=172929&SPOKE_DATE=20241112&COMPANY_ID=2762",
+        "COMPANY_ID": "2762"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "28_2023_20241105_2.html",
+      "event_id": "M35:2023:2024-11-05:2",
+      "original_fields": {
+        "CDATE": "113/11/05",
+        "COMPANY_NAME": "燁輝",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:04:08",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會通過第十三次買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=160408&SPOKE_DATE=20241105&COMPANY_ID=2023",
+        "COMPANY_ID": "2023"
+      }
+    },
+    {
+      "batch": "originals01",
+      "filename": "29_3051_20241104_1.html",
+      "event_id": "M35:3051:2024-11-04:1",
+      "original_fields": {
+        "CDATE": "113/11/04",
+        "COMPANY_NAME": "力特",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "15:38:15",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股已執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=153815&SPOKE_DATE=20241104&COMPANY_ID=3051",
+        "COMPANY_ID": "3051"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "00_2467_20241031_3.html",
+      "event_id": "M35:2467:2024-10-31:3",
+      "original_fields": {
+        "CDATE": "113/10/31",
+        "COMPANY_NAME": "志聖",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "16:14:37",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=161437&SPOKE_DATE=20241031&COMPANY_ID=2467",
+        "COMPANY_ID": "2467"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "01_4190_20241028_2.html",
+      "event_id": "M35:4190:2024-10-28:2",
+      "original_fields": {
+        "CDATE": "113/10/28",
+        "COMPANY_NAME": "佐登-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "18:09:07",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份數量累積達已發行股份總數百分之二",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=180907&SPOKE_DATE=20241028&COMPANY_ID=4190",
+        "COMPANY_ID": "4190"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "02_2762_20241025_1.html",
+      "event_id": "M35:2762:2024-10-25:1",
+      "original_fields": {
+        "CDATE": "113/10/25",
+        "COMPANY_NAME": "世界健身-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "運動休閒",
+        "AN_CODE": "M35",
+        "CTIME": "18:03:54",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第二次庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=180354&SPOKE_DATE=20241025&COMPANY_ID=2762",
+        "COMPANY_ID": "2762"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "03_2352_20241024_2.html",
+      "event_id": "M35:2352:2024-10-24:2",
+      "original_fields": {
+        "CDATE": "113/10/24",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "21:20:45",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司股份買回計畫執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=212045&SPOKE_DATE=20241024&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "04_2352_20241024_1.html",
+      "event_id": "M35:2352:2024-10-24:1",
+      "original_fields": {
+        "CDATE": "113/10/24",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "21:19:12",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份數量累積達已發行股份總數百分之二",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=211912&SPOKE_DATE=20241024&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "05_2352_20241017_1.html",
+      "event_id": "M35:2352:2024-10-17:1",
+      "original_fields": {
+        "CDATE": "113/10/17",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "18:36:01",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=183601&SPOKE_DATE=20241017&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "06_1338_20241017_2.html",
+      "event_id": "M35:1338:2024-10-17:2",
+      "original_fields": {
+        "CDATE": "113/10/17",
+        "COMPANY_NAME": "廣華-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "17:54:01",
+        "TYPEK": "上市",
+        "SUBJECT": "更正公告本公司第二次庫藏股買回期間屆滿執行情形\r\n(實際買回區間、已買回總金額及平均買回價格誤植)",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=175401&SPOKE_DATE=20241017&COMPANY_ID=1338",
+        "COMPANY_ID": "1338"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "07_3051_20241017_1.html",
+      "event_id": "M35:3051:2024-10-17:1",
+      "original_fields": {
+        "CDATE": "113/10/17",
+        "COMPANY_NAME": "力特",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "16:06:48",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160648&SPOKE_DATE=20241017&COMPANY_ID=3051",
+        "COMPANY_ID": "3051"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "08_1338_20241015_1.html",
+      "event_id": "M35:1338:2024-10-15:1",
+      "original_fields": {
+        "CDATE": "113/10/15",
+        "COMPANY_NAME": "廣華-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "17:53:11",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第二次庫藏股買回期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=175311&SPOKE_DATE=20241015&COMPANY_ID=1338",
+        "COMPANY_ID": "1338"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "09_2850_20241014_1.html",
+      "event_id": "M35:2850:2024-10-14:1",
+      "original_fields": {
+        "CDATE": "113/10/14",
+        "COMPANY_NAME": "新產",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "金融保險業",
+        "AN_CODE": "M35",
+        "CTIME": "14:51:28",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第六次庫藏股買回期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=145128&SPOKE_DATE=20241014&COMPANY_ID=2850",
+        "COMPANY_ID": "2850"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "10_3062_20241011_1.html",
+      "event_id": "M35:3062:2024-10-11:1",
+      "original_fields": {
+        "CDATE": "113/10/11",
+        "COMPANY_NAME": "建漢",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "17:10:57",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司庫藏股買回期限屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171057&SPOKE_DATE=20241011&COMPANY_ID=3062",
+        "COMPANY_ID": "3062"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "11_3058_20241011_1.html",
+      "event_id": "M35:3058:2024-10-11:1",
+      "original_fields": {
+        "CDATE": "113/10/11",
+        "COMPANY_NAME": "立德",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "16:48:16",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164816&SPOKE_DATE=20241011&COMPANY_ID=3058",
+        "COMPANY_ID": "3058"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "12_1806_20241011_1.html",
+      "event_id": "M35:1806:2024-10-11:1",
+      "original_fields": {
+        "CDATE": "113/10/11",
+        "COMPANY_NAME": "冠軍",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "玻璃陶瓷",
+        "AN_CODE": "M35",
+        "CTIME": "16:44:48",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第五次庫藏股買回期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164448&SPOKE_DATE=20241011&COMPANY_ID=1806",
+        "COMPANY_ID": "1806"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "13_2030_20241011_1.html",
+      "event_id": "M35:2030:2024-10-11:1",
+      "original_fields": {
+        "CDATE": "113/10/11",
+        "COMPANY_NAME": "彰源",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "14:45:39",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第十八次庫藏股買回期限屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=144539&SPOKE_DATE=20241011&COMPANY_ID=2030",
+        "COMPANY_ID": "2030"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "14_2352_20241009_1.html",
+      "event_id": "M35:2352:2024-10-09:1",
+      "original_fields": {
+        "CDATE": "113/10/09",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "20:36:24",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=203624&SPOKE_DATE=20241009&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "15_1626_20241009_1.html",
+      "event_id": "M35:1626:2024-10-09:1",
+      "original_fields": {
+        "CDATE": "113/10/09",
+        "COMPANY_NAME": "艾美特-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電器電纜",
+        "AN_CODE": "M35",
+        "CTIME": "16:36:15",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第6次買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163615&SPOKE_DATE=20241009&COMPANY_ID=1626",
+        "COMPANY_ID": "1626"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "16_4190_20241008_3.html",
+      "event_id": "M35:4190:2024-10-08:3",
+      "original_fields": {
+        "CDATE": "113/10/08",
+        "COMPANY_NAME": "佐登-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "16:59:56",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=165956&SPOKE_DATE=20241008&COMPANY_ID=4190",
+        "COMPANY_ID": "4190"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "17_3708_20241008_1.html",
+      "event_id": "M35:3708:2024-10-08:1",
+      "original_fields": {
+        "CDATE": "113/10/08",
+        "COMPANY_NAME": "上緯投控",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "綠能環保",
+        "AN_CODE": "M35",
+        "CTIME": "16:45:50",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股期間屆滿執行情形。",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164550&SPOKE_DATE=20241008&COMPANY_ID=3708",
+        "COMPANY_ID": "3708"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "18_2352_20240927_1.html",
+      "event_id": "M35:2352:2024-09-27:1",
+      "original_fields": {
+        "CDATE": "113/09/27",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "16:34:37",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163437&SPOKE_DATE=20240927&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "19_2352_20240912_1.html",
+      "event_id": "M35:2352:2024-09-12:1",
+      "original_fields": {
+        "CDATE": "113/09/12",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "19:35:49",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193549&SPOKE_DATE=20240912&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "20_6655_20240904_1.html",
+      "event_id": "M35:6655:2024-09-04:1",
+      "original_fields": {
+        "CDATE": "113/09/04",
+        "COMPANY_NAME": "科定",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "16:18:38",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第四次庫藏股買回期限屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161838&SPOKE_DATE=20240904&COMPANY_ID=6655",
+        "COMPANY_ID": "6655"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "21_2352_20240830_5.html",
+      "event_id": "M35:2352:2024-08-30:5",
+      "original_fields": {
+        "CDATE": "113/08/30",
+        "COMPANY_NAME": "佳世達",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電腦及週邊設備業",
+        "AN_CODE": "M35",
+        "CTIME": "14:06:52",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會通過買回公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=140652&SPOKE_DATE=20240830&COMPANY_ID=2352",
+        "COMPANY_ID": "2352"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "22_2762_20240827_4.html",
+      "event_id": "M35:2762:2024-08-27:4",
+      "original_fields": {
+        "CDATE": "113/08/27",
+        "COMPANY_NAME": "世界健身-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "運動休閒",
+        "AN_CODE": "M35",
+        "CTIME": "19:09:39",
+        "TYPEK": "上市",
+        "SUBJECT": "董事會決議執行第二次庫藏股買回",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=190939&SPOKE_DATE=20240827&COMPANY_ID=2762",
+        "COMPANY_ID": "2762"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "23_2030_20240816_1.html",
+      "event_id": "M35:2030:2024-08-16:1",
+      "original_fields": {
+        "CDATE": "113/08/16",
+        "COMPANY_NAME": "彰源",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "17:45:48",
+        "TYPEK": "上市",
+        "SUBJECT": "更正公告本公司董事會決議第十八次買回庫藏股案 \r\n（更正預計買回期間及庫藏股轉讓員工辦法）",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174548&SPOKE_DATE=20240816&COMPANY_ID=2030",
+        "COMPANY_ID": "2030"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "24_1338_20240815_1.html",
+      "event_id": "M35:1338:2024-08-15:1",
+      "original_fields": {
+        "CDATE": "113/08/15",
+        "COMPANY_NAME": "廣華-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:38:26",
+        "TYPEK": "上市",
+        "SUBJECT": "公告董事會決議申請庫藏股買回",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163826&SPOKE_DATE=20240815&COMPANY_ID=1338",
+        "COMPANY_ID": "1338"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "25_2436_20240815_1.html",
+      "event_id": "M35:2436:2024-08-15:1",
+      "original_fields": {
+        "CDATE": "113/08/15",
+        "COMPANY_NAME": "偉詮電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "13:58:37",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股執行完畢。",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=135837&SPOKE_DATE=20240815&COMPANY_ID=2436",
+        "COMPANY_ID": "2436"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "26_2850_20240814_6.html",
+      "event_id": "M35:2850:2024-08-14:6",
+      "original_fields": {
+        "CDATE": "113/08/14",
+        "COMPANY_NAME": "新產",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "金融保險業",
+        "AN_CODE": "M35",
+        "CTIME": "18:36:50",
+        "TYPEK": "上市",
+        "SUBJECT": "買回本公司股份轉讓予員工",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=6&SPOKE_TIME=183650&SPOKE_DATE=20240814&COMPANY_ID=2850",
+        "COMPANY_ID": "2850"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "27_1626_20240814_2.html",
+      "event_id": "M35:1626:2024-08-14:2",
+      "original_fields": {
+        "CDATE": "113/08/14",
+        "COMPANY_NAME": "艾美特-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電器電纜",
+        "AN_CODE": "M35",
+        "CTIME": "16:21:41",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議第六次買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=162141&SPOKE_DATE=20240814&COMPANY_ID=1626",
+        "COMPANY_ID": "1626"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "28_2030_20240814_1.html",
+      "event_id": "M35:2030:2024-08-14:1",
+      "original_fields": {
+        "CDATE": "113/08/14",
+        "COMPANY_NAME": "彰源",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "15:15:58",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議第十八次買回庫藏股案",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=151558&SPOKE_DATE=20240814&COMPANY_ID=2030",
+        "COMPANY_ID": "2030"
+      }
+    },
+    {
+      "batch": "originals02",
+      "filename": "29_1806_20240813_2.html",
+      "event_id": "M35:1806:2024-08-13:2",
+      "original_fields": {
+        "CDATE": "113/08/13",
+        "COMPANY_NAME": "冠軍",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "玻璃陶瓷",
+        "AN_CODE": "M35",
+        "CTIME": "19:15:25",
+        "TYPEK": "上市",
+        "SUBJECT": "公告董事會決議申請庫藏股買回。",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=191525&SPOKE_DATE=20240813&COMPANY_ID=1806",
+        "COMPANY_ID": "1806"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "00_3058_20240809_1.html",
+      "event_id": "M35:3058:2024-08-09:1",
+      "original_fields": {
+        "CDATE": "113/08/09",
+        "COMPANY_NAME": "立德",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "18:51:20",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=185120&SPOKE_DATE=20240809&COMPANY_ID=3058",
+        "COMPANY_ID": "3058"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "01_3062_20240809_2.html",
+      "event_id": "M35:3062:2024-08-09:2",
+      "original_fields": {
+        "CDATE": "113/08/09",
+        "COMPANY_NAME": "建漢",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "16:04:31",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=160431&SPOKE_DATE=20240809&COMPANY_ID=3062",
+        "COMPANY_ID": "3062"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "02_3708_20240808_1.html",
+      "event_id": "M35:3708:2024-08-08:1",
+      "original_fields": {
+        "CDATE": "113/08/08",
+        "COMPANY_NAME": "上緯投控",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "綠能環保",
+        "AN_CODE": "M35",
+        "CTIME": "20:36:27",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=203627&SPOKE_DATE=20240808&COMPANY_ID=3708",
+        "COMPANY_ID": "3708"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "03_2436_20240807_2.html",
+      "event_id": "M35:2436:2024-08-07:2",
+      "original_fields": {
+        "CDATE": "113/08/07",
+        "COMPANY_NAME": "偉詮電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "15:35:14",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=153514&SPOKE_DATE=20240807&COMPANY_ID=2436",
+        "COMPANY_ID": "2436"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "04_3062_20240712_1.html",
+      "event_id": "M35:3062:2024-07-12:1",
+      "original_fields": {
+        "CDATE": "113/07/12",
+        "COMPANY_NAME": "建漢",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "16:47:44",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司庫藏股買回期限屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164744&SPOKE_DATE=20240712&COMPANY_ID=3062",
+        "COMPANY_ID": "3062"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "05_6655_20240709_1.html",
+      "event_id": "M35:6655:2024-07-09:1",
+      "original_fields": {
+        "CDATE": "113/07/09",
+        "COMPANY_NAME": "科定",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "13:29:14",
+        "TYPEK": "上市",
+        "SUBJECT": "更正本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=132914&SPOKE_DATE=20240709&COMPANY_ID=6655",
+        "COMPANY_ID": "6655"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "06_6655_20240704_2.html",
+      "event_id": "M35:6655:2024-07-04:2",
+      "original_fields": {
+        "CDATE": "113/07/04",
+        "COMPANY_NAME": "科定",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "17:34:41",
+        "TYPEK": "上市",
+        "SUBJECT": "更正本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=173441&SPOKE_DATE=20240704&COMPANY_ID=6655",
+        "COMPANY_ID": "6655"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "07_6655_20240704_1.html",
+      "event_id": "M35:6655:2024-07-04:1",
+      "original_fields": {
+        "CDATE": "113/07/04",
+        "COMPANY_NAME": "科定",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "15:47:11",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154711&SPOKE_DATE=20240704&COMPANY_ID=6655",
+        "COMPANY_ID": "6655"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "08_2330_20240628_2.html",
+      "event_id": "M35:2330:2024-06-28:2",
+      "original_fields": {
+        "CDATE": "113/06/28",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "18:05:24",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司股份買回計畫執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=180524&SPOKE_DATE=20240628&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "09_2330_20240628_1.html",
+      "event_id": "M35:2330:2024-06-28:1",
+      "original_fields": {
+        "CDATE": "113/06/28",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "18:04:15",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=180415&SPOKE_DATE=20240628&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "10_3049_20240628_1.html",
+      "event_id": "M35:3049:2024-06-28:1",
+      "original_fields": {
+        "CDATE": "113/06/28",
+        "COMPANY_NAME": "精金",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "13:58:01",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份執行期間已屆滿相關資訊",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=135801&SPOKE_DATE=20240628&COMPANY_ID=3049",
+        "COMPANY_ID": "3049"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "11_2330_20240627_1.html",
+      "event_id": "M35:2330:2024-06-27:1",
+      "original_fields": {
+        "CDATE": "113/06/27",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "17:16:31",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171631&SPOKE_DATE=20240627&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "12_2330_20240626_1.html",
+      "event_id": "M35:2330:2024-06-26:1",
+      "original_fields": {
+        "CDATE": "113/06/26",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "17:53:27",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=175327&SPOKE_DATE=20240626&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "13_2330_20240625_1.html",
+      "event_id": "M35:2330:2024-06-25:1",
+      "original_fields": {
+        "CDATE": "113/06/25",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "17:02:57",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=170257&SPOKE_DATE=20240625&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "14_2330_20240624_2.html",
+      "event_id": "M35:2330:2024-06-24:2",
+      "original_fields": {
+        "CDATE": "113/06/24",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "18:01:49",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=180149&SPOKE_DATE=20240624&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "15_2330_20240621_3.html",
+      "event_id": "M35:2330:2024-06-21:3",
+      "original_fields": {
+        "CDATE": "113/06/21",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "17:48:17",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=174817&SPOKE_DATE=20240621&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "16_2330_20240620_2.html",
+      "event_id": "M35:2330:2024-06-20:2",
+      "original_fields": {
+        "CDATE": "113/06/20",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "19:21:22",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=192122&SPOKE_DATE=20240620&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "17_2330_20240619_2.html",
+      "event_id": "M35:2330:2024-06-19:2",
+      "original_fields": {
+        "CDATE": "113/06/19",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "18:07:20",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=180720&SPOKE_DATE=20240619&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "18_2330_20240618_2.html",
+      "event_id": "M35:2330:2024-06-18:2",
+      "original_fields": {
+        "CDATE": "113/06/18",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "18:55:34",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司買回股份累積金額達公告標準",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=185534&SPOKE_DATE=20240618&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "19_2330_20240617_1.html",
+      "event_id": "M35:2330:2024-06-17:1",
+      "original_fields": {
+        "CDATE": "113/06/17",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "19:02:49",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=190249&SPOKE_DATE=20240617&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "20_2330_20240605_7.html",
+      "event_id": "M35:2330:2024-06-05:7",
+      "original_fields": {
+        "CDATE": "113/06/05",
+        "COMPANY_NAME": "台積電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "20:40:39",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會通過買回公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=7&SPOKE_TIME=204039&SPOKE_DATE=20240605&COMPANY_ID=2330",
+        "COMPANY_ID": "2330"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "21_3714_20240603_1.html",
+      "event_id": "M35:3714:2024-06-03:1",
+      "original_fields": {
+        "CDATE": "113/06/03",
+        "COMPANY_NAME": "富采",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "15:51:29",
+        "TYPEK": "上市",
+        "SUBJECT": "更正公告本公司買回本公司股份執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=155129&SPOKE_DATE=20240603&COMPANY_ID=3714",
+        "COMPANY_ID": "3714"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "22_3714_20240527_1.html",
+      "event_id": "M35:3714:2024-05-27:1",
+      "original_fields": {
+        "CDATE": "113/05/27",
+        "COMPANY_NAME": "富采",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "18:04:45",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回本公司股份執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=180445&SPOKE_DATE=20240527&COMPANY_ID=3714",
+        "COMPANY_ID": "3714"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "23_3714_20240524_14.html",
+      "event_id": "M35:3714:2024-05-24:14",
+      "original_fields": {
+        "CDATE": "113/05/24",
+        "COMPANY_NAME": "富采",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "15:36:12",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=14&SPOKE_TIME=153612&SPOKE_DATE=20240524&COMPANY_ID=3714",
+        "COMPANY_ID": "3714"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "24_2762_20240517_1.html",
+      "event_id": "M35:2762:2024-05-17:1",
+      "original_fields": {
+        "CDATE": "113/05/17",
+        "COMPANY_NAME": "世界健身-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "運動休閒",
+        "AN_CODE": "M35",
+        "CTIME": "15:05:20",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=150520&SPOKE_DATE=20240517&COMPANY_ID=2762",
+        "COMPANY_ID": "2762"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "25_8110_20240515_1.html",
+      "event_id": "M35:8110:2024-05-15:1",
+      "original_fields": {
+        "CDATE": "113/05/15",
+        "COMPANY_NAME": "華東",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "17:28:34",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第十四次買回庫藏股已執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172834&SPOKE_DATE=20240515&COMPANY_ID=8110",
+        "COMPANY_ID": "8110"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "26_3055_20240510_1.html",
+      "event_id": "M35:3055:2024-05-10:1",
+      "original_fields": {
+        "CDATE": "113/05/10",
+        "COMPANY_NAME": "蔚華科",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子通路業",
+        "AN_CODE": "M35",
+        "CTIME": "16:49:38",
+        "TYPEK": "上市",
+        "SUBJECT": "公告買回本公司股份執行結果",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164938&SPOKE_DATE=20240510&COMPANY_ID=3055",
+        "COMPANY_ID": "3055"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "27_3062_20240510_5.html",
+      "event_id": "M35:3062:2024-05-10:5",
+      "original_fields": {
+        "CDATE": "113/05/10",
+        "COMPANY_NAME": "建漢",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "16:31:17",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=163117&SPOKE_DATE=20240510&COMPANY_ID=3062",
+        "COMPANY_ID": "3062"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "28_1210_20240510_1.html",
+      "event_id": "M35:1210:2024-05-10:1",
+      "original_fields": {
+        "CDATE": "113/05/10",
+        "COMPANY_NAME": "大成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "食品工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:01:16",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160116&SPOKE_DATE=20240510&COMPANY_ID=1210",
+        "COMPANY_ID": "1210"
+      }
+    },
+    {
+      "batch": "originals03",
+      "filename": "29_6464_20240510_1.html",
+      "event_id": "M35:6464:2024-05-10:1",
+      "original_fields": {
+        "CDATE": "113/05/10",
+        "COMPANY_NAME": "台數科",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "15:21:24",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第十三次買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152124&SPOKE_DATE=20240510&COMPANY_ID=6464",
+        "COMPANY_ID": "6464"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "00_3714_20240508_1.html",
+      "event_id": "M35:3714:2024-05-08:1",
+      "original_fields": {
+        "CDATE": "113/05/08",
+        "COMPANY_NAME": "富采",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "16:03:20",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160320&SPOKE_DATE=20240508&COMPANY_ID=3714",
+        "COMPANY_ID": "3714"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "01_6472_20240507_1.html",
+      "event_id": "M35:6472:2024-05-07:1",
+      "original_fields": {
+        "CDATE": "113/05/07",
+        "COMPANY_NAME": "保瑞",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "16:48:13",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164813&SPOKE_DATE=20240507&COMPANY_ID=6472",
+        "COMPANY_ID": "6472"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "02_6472_20240502_1.html",
+      "event_id": "M35:6472:2024-05-02:1",
+      "original_fields": {
+        "CDATE": "113/05/02",
+        "COMPANY_NAME": "保瑞",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "生技醫療業",
+        "AN_CODE": "M35",
+        "CTIME": "18:02:58",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=180258&SPOKE_DATE=20240502&COMPANY_ID=6472",
+        "COMPANY_ID": "6472"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "03_3049_20240430_2.html",
+      "event_id": "M35:3049:2024-04-30:2",
+      "original_fields": {
+        "CDATE": "113/04/30",
+        "COMPANY_NAME": "精金",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "17:09:46",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議執行113年第1次買回本公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=170946&SPOKE_DATE=20240430&COMPANY_ID=3049",
+        "COMPANY_ID": "3049"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "04_2436_20240425_1.html",
+      "event_id": "M35:2436:2024-04-25:1",
+      "original_fields": {
+        "CDATE": "113/04/25",
+        "COMPANY_NAME": "偉詮電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "14:13:03",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=141303&SPOKE_DATE=20240425&COMPANY_ID=2436",
+        "COMPANY_ID": "2436"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "05_1210_20240416_1.html",
+      "event_id": "M35:1210:2024-04-16:1",
+      "original_fields": {
+        "CDATE": "113/04/16",
+        "COMPANY_NAME": "大成",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "食品工業",
+        "AN_CODE": "M35",
+        "CTIME": "16:44:42",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份金額達新台幣三億元以上",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164442&SPOKE_DATE=20240416&COMPANY_ID=1210",
+        "COMPANY_ID": "1210"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "06_2436_20240416_1.html",
+      "event_id": "M35:2436:2024-04-16:1",
+      "original_fields": {
+        "CDATE": "113/04/16",
+        "COMPANY_NAME": "偉詮電",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "15:17:57",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=151757&SPOKE_DATE=20240416&COMPANY_ID=2436",
+        "COMPANY_ID": "2436"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "07_5469_20240411_1.html",
+      "event_id": "M35:5469:2024-04-11:1",
+      "original_fields": {
+        "CDATE": "113/04/11",
+        "COMPANY_NAME": "瀚宇博",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "16:50:10",
+        "TYPEK": "上市",
+        "SUBJECT": "公告買回本公司股份已執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165010&SPOKE_DATE=20240411&COMPANY_ID=5469",
+        "COMPANY_ID": "5469"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "08_3714_20240410_2.html",
+      "event_id": "M35:3714:2024-04-10:2",
+      "original_fields": {
+        "CDATE": "113/04/10",
+        "COMPANY_NAME": "富采",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "15:05:07",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議通過實施庫藏股買回",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=150507&SPOKE_DATE=20240410&COMPANY_ID=3714",
+        "COMPANY_ID": "3714"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "09_8011_20240408_1.html",
+      "event_id": "M35:8011:2024-04-08:1",
+      "original_fields": {
+        "CDATE": "113/04/08",
+        "COMPANY_NAME": "台通",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "17:41:43",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174143&SPOKE_DATE=20240408&COMPANY_ID=8011",
+        "COMPANY_ID": "8011"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "10_1587_20240328_1.html",
+      "event_id": "M35:1587:2024-03-28:1",
+      "original_fields": {
+        "CDATE": "113/03/28",
+        "COMPANY_NAME": "吉茂",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "汽車工業",
+        "AN_CODE": "M35",
+        "CTIME": "17:26:52",
+        "TYPEK": "上市",
+        "SUBJECT": "公告庫藏股買回期限屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172652&SPOKE_DATE=20240328&COMPANY_ID=1587",
+        "COMPANY_ID": "1587"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "11_5469_20240327_4.html",
+      "event_id": "M35:5469:2024-03-27:4",
+      "original_fields": {
+        "CDATE": "113/03/27",
+        "COMPANY_NAME": "瀚宇博",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "18:41:23",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會決議通過買回公司股份",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=184123&SPOKE_DATE=20240327&COMPANY_ID=5469",
+        "COMPANY_ID": "5469"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "12_8110_20240327_2.html",
+      "event_id": "M35:8110:2024-03-27:2",
+      "original_fields": {
+        "CDATE": "113/03/27",
+        "COMPANY_NAME": "華東",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "17:20:15",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回本公司股份事宜",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=172015&SPOKE_DATE=20240327&COMPANY_ID=8110",
+        "COMPANY_ID": "8110"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "13_8011_20240322_1.html",
+      "event_id": "M35:8011:2024-03-22:1",
+      "original_fields": {
+        "CDATE": "113/03/22",
+        "COMPANY_NAME": "台通",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M35",
+        "CTIME": "16:22:37",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份數量累積達已發行股份總數百分之二",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162237&SPOKE_DATE=20240322&COMPANY_ID=8011",
+        "COMPANY_ID": "8011"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "14_2762_20240318_1.html",
+      "event_id": "M35:2762:2024-03-18:1",
+      "original_fields": {
+        "CDATE": "113/03/18",
+        "COMPANY_NAME": "世界健身-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "運動休閒",
+        "AN_CODE": "M35",
+        "CTIME": "17:50:27",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議買回庫藏股",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=175027&SPOKE_DATE=20240318&COMPANY_ID=2762",
+        "COMPANY_ID": "2762"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "15_6464_20240312_2.html",
+      "event_id": "M35:6464:2024-03-12:2",
+      "original_fields": {
+        "CDATE": "113/03/12",
+        "COMPANY_NAME": "台數科",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "其他",
+        "AN_CODE": "M35",
+        "CTIME": "15:04:46",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議第十三次買回庫藏股事宜",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=150446&SPOKE_DATE=20240312&COMPANY_ID=6464",
+        "COMPANY_ID": "6464"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "16_3055_20240311_5.html",
+      "event_id": "M35:3055:2024-03-11:5",
+      "original_fields": {
+        "CDATE": "113/03/11",
+        "COMPANY_NAME": "蔚華科",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子通路業",
+        "AN_CODE": "M35",
+        "CTIME": "20:41:55",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司董事會決議辦理股份買回事宜",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=204155&SPOKE_DATE=20240311&COMPANY_ID=3055",
+        "COMPANY_ID": "3055"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "17_6415_20240220_1.html",
+      "event_id": "M35:6415:2024-02-20:1",
+      "original_fields": {
+        "CDATE": "113/02/20",
+        "COMPANY_NAME": "矽力*-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "半導體業",
+        "AN_CODE": "M35",
+        "CTIME": "15:28:25",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股期間屆滿執行情形。",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152825&SPOKE_DATE=20240220&COMPANY_ID=6415",
+        "COMPANY_ID": "6415"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "18_4571_20240207_1.html",
+      "event_id": "M35:4571:2024-02-07:1",
+      "original_fields": {
+        "CDATE": "113/02/07",
+        "COMPANY_NAME": "鈞興-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電機機械",
+        "AN_CODE": "M35",
+        "CTIME": "08:44:13",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第一次買回庫藏股期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=84413&SPOKE_DATE=20240207&COMPANY_ID=4571",
+        "COMPANY_ID": "4571"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "19_4571_20240130_1.html",
+      "event_id": "M35:4571:2024-01-30:1",
+      "original_fields": {
+        "CDATE": "113/01/30",
+        "COMPANY_NAME": "鈞興-KY",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電機機械",
+        "AN_CODE": "M35",
+        "CTIME": "14:52:27",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回庫藏股累積達公司發行股份總數百分之二事宜",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=145227&SPOKE_DATE=20240130&COMPANY_ID=4571",
+        "COMPANY_ID": "4571"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "20_3543_20240129_1.html",
+      "event_id": "M35:3543:2024-01-29:1",
+      "original_fields": {
+        "CDATE": "113/01/29",
+        "COMPANY_NAME": "州巧",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "光電業",
+        "AN_CODE": "M35",
+        "CTIME": "16:33:00",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第2次買回公司股份執行完畢",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163300&SPOKE_DATE=20240129&COMPANY_ID=3543",
+        "COMPANY_ID": "3543"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "21_3055_20240122_1.html",
+      "event_id": "M35:3055:2024-01-22:1",
+      "original_fields": {
+        "CDATE": "113/01/22",
+        "COMPANY_NAME": "蔚華科",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子通路業",
+        "AN_CODE": "M35",
+        "CTIME": "19:40:34",
+        "TYPEK": "上市",
+        "SUBJECT": "公告買回本公司股份執行結果",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=194034&SPOKE_DATE=20240122&COMPANY_ID=3055",
+        "COMPANY_ID": "3055"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "22_2028_20240112_1.html",
+      "event_id": "M35:2028:2024-01-12:1",
+      "original_fields": {
+        "CDATE": "113/01/12",
+        "COMPANY_NAME": "威致",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "14:36:49",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司庫藏股買回期限屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143649&SPOKE_DATE=20240112&COMPANY_ID=2028",
+        "COMPANY_ID": "2028"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "23_2467_20240109_1.html",
+      "event_id": "M35:2467:2024-01-09:1",
+      "original_fields": {
+        "CDATE": "113/01/09",
+        "COMPANY_NAME": "志聖",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "電子零組件業",
+        "AN_CODE": "M35",
+        "CTIME": "17:22:42",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司第十次買回庫藏股期間屆滿及執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172242&SPOKE_DATE=20240109&COMPANY_ID=2467",
+        "COMPANY_ID": "2467"
+      }
+    },
+    {
+      "batch": "originals04",
+      "filename": "24_2002_20240105_1.html",
+      "event_id": "M35:2002:2024-01-05:1",
+      "original_fields": {
+        "CDATE": "113/01/05",
+        "COMPANY_NAME": "中鋼",
+        "AN_NAME": "庫藏股",
+        "CODE_NAME": "鋼鐵工業",
+        "AN_CODE": "M35",
+        "CTIME": "19:38:28",
+        "TYPEK": "上市",
+        "SUBJECT": "公告本公司買回股份期間屆滿執行情形",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193828&SPOKE_DATE=20240105&COMPANY_ID=2002",
+        "COMPANY_ID": "2002"
+      }
+    }
+  ]
+}

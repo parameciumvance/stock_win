@@ -1,0 +1,62 @@
+{
+  "scope": "Current official archive coverage and version-chain reconstruction; no price/return query or model fitting",
+  "reason": "User explicitly asked to continue. A missing API total and seven-document limit are remediable scope gaps, not external blockers. This separately frozen followup preserves the prior pilot records and gates.",
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517"
+  },
+  "frozen_baseline_index_sha256": "73f5b49dd6db6dfe5c2162f3a925413efe0ee73d3316465c73c851588d39a875",
+  "frozen_baseline_raw_index_sha256": "c69c22cdba9012f6ae41cc4df5a95bfcc7cfd15541f004440c22ab3bddc06388",
+  "batches": {
+    "index": {
+      "path": "configs/buyback_coverage_index_sources_20261020.json",
+      "sha256": "87fac4db3406c6d6551e792fcad833d6a69f1c39a83d9733fdf535829ed28a19",
+      "requests": 17
+    },
+    "originals01": {
+      "path": "configs/buyback_coverage_originals01_sources_20261020.json",
+      "sha256": "606cb5f2f8c81e71773d722799c8cd107b1bf9e5da87c6868ec8e99a2286f88c",
+      "requests": 30
+    },
+    "originals02": {
+      "path": "configs/buyback_coverage_originals02_sources_20261020.json",
+      "sha256": "1413225fcdd9200e43f4fd6a1c6f7658c5b138fcad168e1fdff14fe8a3c82a26",
+      "requests": 30
+    },
+    "originals03": {
+      "path": "configs/buyback_coverage_originals03_sources_20261020.json",
+      "sha256": "b6f3b70b0e78680e2e201fc00a7f39ecafa8ec34fb155f439a190ad8cf7cb6a3",
+      "requests": 30
+    },
+    "originals04": {
+      "path": "configs/buyback_coverage_originals04_sources_20261020.json",
+      "sha256": "e625391e7f15afd228717e4d919f13253236e82e4c6c837553692b1856a8950c",
+      "requests": 25
+    }
+  },
+  "selection_manifest_sha256": "8ee41d91940d04ae43300f58e35705665ea0c1b646781069e6e5ba50d8d31289",
+  "max_saved_requests": 132,
+  "max_source_batches": 5,
+  "workers": 2,
+  "retries": 0,
+  "per_request_seconds": 30,
+  "source_lock": "inputs/buyback_coverage_20261020/acquisition.lock",
+  "gates": [
+    "Save and externally back up each batch; verify SHA/CRC/manifest before parsing",
+    "All twelve monthly indices must match the unchanged full-year response by identity and every captured field; no stitching or replacement",
+    "If partition mismatch or invalid source response, preserve differences and do not acquire the 115 originals",
+    "If index partition agrees, acquire all 115 remaining original pages; reuse the original seven exact archived pages",
+    "Validate every page identity/time and classify all formats; unknown, ambiguous, canceled or zero-execution records remain visible",
+    "Separate current coverage, reported timestamp/version reconstruction and strict contemporaneous PIT; do not turn an old/current procedure into an unconditional 2024 immutability guarantee"
+  ],
+  "boundary_scope": "2023Q4 and 2025Q1 captured index rows only. No further original-page expansion, no claim that later corrections do not exist. Initial announcement and board-date scopes remain distinct.",
+  "regulatory_evidence_scope": "2017 practical manual, 2024-01-12 rules, 2026 FAQ kept separate by actual date and subject. No retrospective application of new policy.",
+  "stop": "One fixed index batch plus four fixed original batches. Stop original acquisition on index disagreement or transport/schema failure. Record actual remaining external evidence gaps; no manual-download or credential loop.",
+  "historical_pit_verified": false,
+  "old_rules_changed": false,
+  "trade_authorized": false,
+  "profit_edge_proven": false
+}

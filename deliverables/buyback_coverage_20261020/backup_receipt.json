@@ -1,0 +1,116 @@
+{
+  "packages": [
+    {
+      "batch": "index",
+      "archive_sha256": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63",
+      "archive_bytes": 4020176,
+      "manifest_files": 55,
+      "sha_crc_manifest_verified": true,
+      "backup": {
+        "sha256": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_index_0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63.zip",
+        "retrieved_path": "inputs/buyback_coverage_20261020/index.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T13:20:13.662Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    },
+    {
+      "batch": "originals01",
+      "archive_sha256": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7",
+      "archive_bytes": 633449,
+      "manifest_files": 94,
+      "sha_crc_manifest_verified": true,
+      "backup": {
+        "sha256": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_originals01_51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7.zip",
+        "retrieved_path": "inputs/buyback_coverage_20261020/originals01.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T13:21:50.665Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    },
+    {
+      "batch": "originals02",
+      "archive_sha256": "ed55757fa5b02fbba62d1aa2efa549ffacc5623f9ca2e4238dc9c71739a30af0",
+      "archive_bytes": 612619,
+      "manifest_files": 94,
+      "sha_crc_manifest_verified": true,
+      "backup": {
+        "sha256": "ed55757fa5b02fbba62d1aa2efa549ffacc5623f9ca2e4238dc9c71739a30af0",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_originals02_ed55757fa5b02fbba62d1aa2efa549ffacc5623f9ca2e4238dc9c71739a30af0.zip",
+        "retrieved_path": "inputs/buyback_coverage_20261020/originals02.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T13:24:22.721Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    },
+    {
+      "batch": "originals03",
+      "archive_sha256": "b037cee9599aab374eccdc99836398399a00ed44dc3d5e5510477b4f4431e115",
+      "archive_bytes": 611789,
+      "manifest_files": 94,
+      "sha_crc_manifest_verified": true,
+      "backup": {
+        "sha256": "b037cee9599aab374eccdc99836398399a00ed44dc3d5e5510477b4f4431e115",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_originals03_b037cee9599aab374eccdc99836398399a00ed44dc3d5e5510477b4f4431e115.zip",
+        "retrieved_path": "inputs/buyback_coverage_20261020/originals03.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T13:24:59.440Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    },
+    {
+      "batch": "originals04",
+      "archive_sha256": "c5fc670bb2238d41240358d555e99fa281a2488fb3b328baa42518bd482f83f7",
+      "archive_bytes": 511786,
+      "manifest_files": 79,
+      "sha_crc_manifest_verified": true,
+      "backup": {
+        "sha256": "c5fc670bb2238d41240358d555e99fa281a2488fb3b328baa42518bd482f83f7",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_originals04_c5fc670bb2238d41240358d555e99fa281a2488fb3b328baa42518bd482f83f7.zip",
+        "retrieved_path": "inputs/buyback_coverage_20261020/originals04.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T13:25:43.021Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    },
+    {
+      "batch": "recovery",
+      "archive_sha256": "d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076",
+      "archive_bytes": 44894,
+      "manifest_files": 8,
+      "sha_crc_manifest_verified": true,
+      "backup": {
+        "sha256": "d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_recovery_d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076.zip",
+        "retrieved_path": "inputs/buyback_coverage_20261020/recovery.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T13:27:27.663Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    }
+  ],
+  "manifest_entries": 424,
+  "source_requests_initial": 132,
+  "separate_recovery_requests": 1,
+  "failures": [
+    {
+      "batch": "originals04",
+      "filename": "13_8011_20240322_1.html",
+      "http_status": 502,
+      "exit_code": 0,
+      "body_sha256": "ef7298358784fa1119c8aa6d7ea819b2185d07bd41f1e63f7f46751dc7b5c77f"
+    }
+  ],
+  "reused_originals": 7,
+  "new_originals": 115,
+  "old_large_price_packages_retransmitted": 0,
+  "storage": "Windows backup and WSL working copy on same computer; not off-site disaster recovery"
+}

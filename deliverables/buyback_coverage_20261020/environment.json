@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "pypdf": "6.12.0",
+    "Pillow": "13.0.0",
+    "lxml": "6.1.1"
+  },
+  "installer": "uv pip --python .venv/bin/python --no-cache Pillow; pip module absent in this venv",
+  "local_venv_only": true,
+  "pillow_reason": "Extract and visually verify an embedded image in the preserved 2017 PDF; not OCR or image modification",
+  "old_dependency_files_changed": false
+}

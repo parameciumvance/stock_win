@@ -1,0 +1,106 @@
+{
+  "output_directory": "inputs/buyback_coverage_20261020/raw_index",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "www.twse.com.tw",
+    "twse-regulation.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "2024_01.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F01%2F01&EDATE=113%2F01%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2024_02.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F02%2F01&EDATE=113%2F02%2F29&lang=TW&AN="
+    },
+    {
+      "filename": "2024_03.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F03%2F01&EDATE=113%2F03%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2024_04.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F04%2F01&EDATE=113%2F04%2F30&lang=TW&AN="
+    },
+    {
+      "filename": "2024_05.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F05%2F01&EDATE=113%2F05%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2024_06.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F06%2F01&EDATE=113%2F06%2F30&lang=TW&AN="
+    },
+    {
+      "filename": "2024_07.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F07%2F01&EDATE=113%2F07%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2024_08.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F08%2F01&EDATE=113%2F08%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2024_09.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F09%2F01&EDATE=113%2F09%2F30&lang=TW&AN="
+    },
+    {
+      "filename": "2024_10.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F10%2F01&EDATE=113%2F10%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2024_11.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F11%2F01&EDATE=113%2F11%2F30&lang=TW&AN="
+    },
+    {
+      "filename": "2024_12.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F12%2F01&EDATE=113%2F12%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2023Q4.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=112%2F10%2F01&EDATE=112%2F12%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "2025Q1.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=114%2F01%2F01&EDATE=114%2F03%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "twse_2017_disclosure_guide.pdf",
+      "url": "https://www.twse.com.tw/staticFiles/news/event/event_download_201702101431_01.pdf"
+    },
+    {
+      "filename": "twse_20240112_rules.html",
+      "url": "https://twse-regulation.twse.com.tw/TW/law/DAT06_print.aspx?FLCODE=FL007111&FLDATE=20240112&LSER=001"
+    },
+    {
+      "filename": "twse_202603_faq.pdf",
+      "url": "https://twse-regulation.twse.com.tw/TW/GetFile.ashx?FileID=0000419880"
+    }
+  ]
+}

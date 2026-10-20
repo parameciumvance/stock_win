@@ -1,0 +1,742 @@
+{
+  "archive_sha256": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7",
+  "manifest_files": 94,
+  "backup": {
+    "sha256": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_originals01_51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7.zip",
+    "retrieved_path": "inputs/buyback_coverage_20261020/originals01.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-20T13:21:50.665Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "sha_crc_manifest_verified": true,
+  "observations": [
+    {
+      "request": {
+        "filename": "00_2023_20241231_2.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=164949&SPOKE_DATE=20241231&COMPANY_ID=2023"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8982,
+      "sha256": "e4494a29c832f9f3b49977e3542aad45f1fd2bb7496f0900829572f780bac4a2",
+      "request_started_at": "2026-10-20T13:21:34.666834+00:00",
+      "observed_at": "2026-10-20T13:21:34.852881+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=164949&SPOKE_DATE=20241231&COMPANY_ID=2023",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "01_2467_20241231_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162308&SPOKE_DATE=20241231&COMPANY_ID=2467"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 5043,
+      "sha256": "4e0753c7a3b27d43564e4df53543d412f9718eed16c63ee75b6b04f2ff4da44e",
+      "request_started_at": "2026-10-20T13:21:34.667444+00:00",
+      "observed_at": "2026-10-20T13:21:34.889992+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162308&SPOKE_DATE=20241231&COMPANY_ID=2467",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "02_2023_20241231_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154033&SPOKE_DATE=20241231&COMPANY_ID=2023"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4886,
+      "sha256": "4faaed17abf00c7750bf54aabdcacc3ca3fb2303698498be31be1dc8ec829e49",
+      "request_started_at": "2026-10-20T13:21:34.859718+00:00",
+      "observed_at": "2026-10-20T13:21:35.085895+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154033&SPOKE_DATE=20241231&COMPANY_ID=2023",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "03_2474_20241230_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172219&SPOKE_DATE=20241230&COMPANY_ID=2474"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4775,
+      "sha256": "424bbef96b872f39fc7c823bc04e8907b5a1e316296e6b3420e6cfecfae35a88",
+      "request_started_at": "2026-10-20T13:21:34.894866+00:00",
+      "observed_at": "2026-10-20T13:21:35.352206+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172219&SPOKE_DATE=20241230&COMPANY_ID=2474",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "04_2474_20241227_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165139&SPOKE_DATE=20241227&COMPANY_ID=2474"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4773,
+      "sha256": "a66b4664f56eb2182c32c162069f4a019356a6477ad9222443f1aca19adba9f7",
+      "request_started_at": "2026-10-20T13:21:35.091745+00:00",
+      "observed_at": "2026-10-20T13:21:35.633498+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165139&SPOKE_DATE=20241227&COMPANY_ID=2474",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "05_3716_20241226_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=181352&SPOKE_DATE=20241226&COMPANY_ID=3716"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 10028,
+      "sha256": "2a68f412256c856fa7f01353df679fba4c6a70a2a75683678ae0da72b8981d85",
+      "request_started_at": "2026-10-20T13:21:35.357108+00:00",
+      "observed_at": "2026-10-20T13:21:37.402670+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=181352&SPOKE_DATE=20241226&COMPANY_ID=3716",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "06_6742_20241226_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163940&SPOKE_DATE=20241226&COMPANY_ID=6742"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8583,
+      "sha256": "5fdfc16a634b92b211d5497bd41a4a7a411fd3eb17c95e1166be236f632f671f",
+      "request_started_at": "2026-10-20T13:21:35.637751+00:00",
+      "observed_at": "2026-10-20T13:21:36.808452+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163940&SPOKE_DATE=20241226&COMPANY_ID=6742",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "07_1563_20241226_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161759&SPOKE_DATE=20241226&COMPANY_ID=1563"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 10783,
+      "sha256": "8cf2810736484b1a12f5b73854540cb607c3a839c03a37d26682f467bd9a9881",
+      "request_started_at": "2026-10-20T13:21:36.813592+00:00",
+      "observed_at": "2026-10-20T13:21:36.972508+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161759&SPOKE_DATE=20241226&COMPANY_ID=1563",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "08_2474_20241226_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161650&SPOKE_DATE=20241226&COMPANY_ID=2474"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4775,
+      "sha256": "49ee61f5510b4c5bfe19df5e05a3d9afb5c9cc5fddc2650d5a990d46c63e9166",
+      "request_started_at": "2026-10-20T13:21:36.981194+00:00",
+      "observed_at": "2026-10-20T13:21:37.130373+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161650&SPOKE_DATE=20241226&COMPANY_ID=2474",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "09_6191_20241226_3.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=151325&SPOKE_DATE=20241226&COMPANY_ID=6191"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 11268,
+      "sha256": "0228c6e21ddbdfe25303acf0c35012905f18629d30be6592212944d8adc961c8",
+      "request_started_at": "2026-10-20T13:21:37.133506+00:00",
+      "observed_at": "2026-10-20T13:21:37.334852+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=151325&SPOKE_DATE=20241226&COMPANY_ID=6191",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "10_6869_20241226_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=133042&SPOKE_DATE=20241226&COMPANY_ID=6869"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 12387,
+      "sha256": "6546349cbe71d31c90a63fed6b145ab74fced84dd576f2a51fe630ff1e1c1633",
+      "request_started_at": "2026-10-20T13:21:37.340175+00:00",
+      "observed_at": "2026-10-20T13:21:37.791706+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=133042&SPOKE_DATE=20241226&COMPANY_ID=6869",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "11_2897_20241225_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=192510&SPOKE_DATE=20241225&COMPANY_ID=2897"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9720,
+      "sha256": "eea239d45d17c15c8c5c6851c7f19e92df196a41afb099eb8a92ee7d9b88e462",
+      "request_started_at": "2026-10-20T13:21:37.412468+00:00",
+      "observed_at": "2026-10-20T13:21:38.159765+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=192510&SPOKE_DATE=20241225&COMPANY_ID=2897",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "12_2474_20241224_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162337&SPOKE_DATE=20241224&COMPANY_ID=2474"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4775,
+      "sha256": "71603a7a3e9d6b78310a99b75d3f08d44b32e1e417c8886ea9c4ed1663296778",
+      "request_started_at": "2026-10-20T13:21:37.795678+00:00",
+      "observed_at": "2026-10-20T13:21:37.973735+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162337&SPOKE_DATE=20241224&COMPANY_ID=2474",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "13_2474_20241220_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172925&SPOKE_DATE=20241220&COMPANY_ID=2474"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9025,
+      "sha256": "908ea7e1219a288eae2f51193001e3a73588874e99a9ca8df760e4b4886453d8",
+      "request_started_at": "2026-10-20T13:21:37.977445+00:00",
+      "observed_at": "2026-10-20T13:21:39.960931+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=172925&SPOKE_DATE=20241220&COMPANY_ID=2474",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "14_4977_20241219_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=153851&SPOKE_DATE=20241219&COMPANY_ID=4977"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 10422,
+      "sha256": "845c032fae43842fa82880443ff3b8bd81ef0d5eb883a94b522cd34c24d37965",
+      "request_started_at": "2026-10-20T13:21:38.163983+00:00",
+      "observed_at": "2026-10-20T13:21:38.337037+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=153851&SPOKE_DATE=20241219&COMPANY_ID=4977",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "15_5222_20241219_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143157&SPOKE_DATE=20241219&COMPANY_ID=5222"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 6314,
+      "sha256": "f3c7e4e0ade9533a5126090987772960fbef21f037eb8ac785e057d551a51731",
+      "request_started_at": "2026-10-20T13:21:38.341219+00:00",
+      "observed_at": "2026-10-20T13:21:38.479457+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143157&SPOKE_DATE=20241219&COMPANY_ID=5222",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "16_2030_20241218_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160958&SPOKE_DATE=20241218&COMPANY_ID=2030"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 10450,
+      "sha256": "28e7b4552df4eb4a7c6b1bc31b2d09aa442aea0651dfd49d322efe23ef6c3141",
+      "request_started_at": "2026-10-20T13:21:38.483146+00:00",
+      "observed_at": "2026-10-20T13:21:38.892188+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160958&SPOKE_DATE=20241218&COMPANY_ID=2030",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "17_6589_20241216_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154031&SPOKE_DATE=20241216&COMPANY_ID=6589"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 10149,
+      "sha256": "9bdbe8338c66aa25a832d1b7110cceb5e2fd64d7e0784d8464deed286eb6ae96",
+      "request_started_at": "2026-10-20T13:21:38.898298+00:00",
+      "observed_at": "2026-10-20T13:21:39.425466+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=154031&SPOKE_DATE=20241216&COMPANY_ID=6589",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "18_6869_20241216_3.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=144440&SPOKE_DATE=20241216&COMPANY_ID=6869"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 12109,
+      "sha256": "36895c1459faa9962e037720a50ae5ef99674b530107b54d5c611b91fee66b37",
+      "request_started_at": "2026-10-20T13:21:39.430019+00:00",
+      "observed_at": "2026-10-20T13:21:39.901172+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=144440&SPOKE_DATE=20241216&COMPANY_ID=6869",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "19_6108_20241213_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143014&SPOKE_DATE=20241213&COMPANY_ID=6108"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 6340,
+      "sha256": "0b3c67a44631b7dc5831f210657f2480dee5f2be7e87dafb2b7830e4d1dd95f5",
+      "request_started_at": "2026-10-20T13:21:39.909438+00:00",
+      "observed_at": "2026-10-20T13:21:40.051005+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=143014&SPOKE_DATE=20241213&COMPANY_ID=6108",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "20_2023_20241204_3.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=165418&SPOKE_DATE=20241204&COMPANY_ID=2023"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8781,
+      "sha256": "baffc639734991f5d1ded35d968b78c5f9b16240aeb2bd41b53edd9ccf263f71",
+      "request_started_at": "2026-10-20T13:21:39.970049+00:00",
+      "observed_at": "2026-10-20T13:21:40.184296+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=165418&SPOKE_DATE=20241204&COMPANY_ID=2023",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "21_2023_20241204_2.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=155117&SPOKE_DATE=20241204&COMPANY_ID=2023"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4886,
+      "sha256": "e44ef2e75dabe045ca4692d6833c62e48fa767f74fb3172d409e3af1d3a6f3c2",
+      "request_started_at": "2026-10-20T13:21:40.058168+00:00",
+      "observed_at": "2026-10-20T13:21:40.185778+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=155117&SPOKE_DATE=20241204&COMPANY_ID=2023",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "22_4190_20241122_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171524&SPOKE_DATE=20241122&COMPANY_ID=4190"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4869,
+      "sha256": "764de76ecb1d094b9ee94780e458160195e32afe465538e02373633bf2949cce",
+      "request_started_at": "2026-10-20T13:21:40.188564+00:00",
+      "observed_at": "2026-10-20T13:21:40.352636+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171524&SPOKE_DATE=20241122&COMPANY_ID=4190",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "23_6952_20241122_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=140843&SPOKE_DATE=20241122&COMPANY_ID=6952"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 11902,
+      "sha256": "a955fa3cf1f229ba67004298db0079afc7aba18198d4265e7ec799647f5113f3",
+      "request_started_at": "2026-10-20T13:21:40.190495+00:00",
+      "observed_at": "2026-10-20T13:21:40.384115+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=140843&SPOKE_DATE=20241122&COMPANY_ID=6952",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "24_1338_20241120_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174654&SPOKE_DATE=20241120&COMPANY_ID=1338"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9388,
+      "sha256": "32912085b7c4bc872d49aa20a0a6e3dcc16e95c995c34bdc152d548f79f7147a",
+      "request_started_at": "2026-10-20T13:21:40.358258+00:00",
+      "observed_at": "2026-10-20T13:21:40.556525+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174654&SPOKE_DATE=20241120&COMPANY_ID=1338",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "25_3062_20241113_4.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=232236&SPOKE_DATE=20241113&COMPANY_ID=3062"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 12221,
+      "sha256": "66f157ca925fbd856cbe7ce867b787e6a4617bb818c805a68518d841a250b9d4",
+      "request_started_at": "2026-10-20T13:21:40.387117+00:00",
+      "observed_at": "2026-10-20T13:21:40.964658+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=232236&SPOKE_DATE=20241113&COMPANY_ID=3062",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "26_1338_20241113_2.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=141802&SPOKE_DATE=20241113&COMPANY_ID=1338"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9157,
+      "sha256": "ab17ddaf0c758721480716b6b4639e8484814d98e393f608e2865833d9ed656a",
+      "request_started_at": "2026-10-20T13:21:40.562034+00:00",
+      "observed_at": "2026-10-20T13:21:41.127137+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=141802&SPOKE_DATE=20241113&COMPANY_ID=1338",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "27_2762_20241112_5.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=172929&SPOKE_DATE=20241112&COMPANY_ID=2762"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 9880,
+      "sha256": "54ea078fdab52370565a114dcf87215cd746426bb814b599c7d5619661b9ca5b",
+      "request_started_at": "2026-10-20T13:21:40.968946+00:00",
+      "observed_at": "2026-10-20T13:21:41.239696+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=172929&SPOKE_DATE=20241112&COMPANY_ID=2762",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "28_2023_20241105_2.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=160408&SPOKE_DATE=20241105&COMPANY_ID=2023"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8465,
+      "sha256": "d05c23d2109cd27f4b5582219349288aedaa460970b15f89e3bcae7de8883323",
+      "request_started_at": "2026-10-20T13:21:41.131499+00:00",
+      "observed_at": "2026-10-20T13:21:41.278252+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=160408&SPOKE_DATE=20241105&COMPANY_ID=2023",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "29_3051_20241104_1.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=153815&SPOKE_DATE=20241104&COMPANY_ID=3051"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4868,
+      "sha256": "acc78caec0d6e0c655620a6af67b2d3dfc1a95f5129de2f02c7d6a0ec2fca09e",
+      "request_started_at": "2026-10-20T13:21:41.243321+00:00",
+      "observed_at": "2026-10-20T13:21:41.758655+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=153815&SPOKE_DATE=20241104&COMPANY_ID=3051",
+      "stderr": ""
+    }
+  ],
+  "all_transport_passed": true,
+  "historical_pit_verified": false,
+  "identities": [
+    {
+      "event_id": "M35:2023:2024-12-31:2",
+      "filename": "00_2023_20241231_2.html",
+      "issuer": "2023",
+      "reported_datetime": "2024-12-31T16:49:49+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "6e7559bf59368d3d129f4300b6cbb2c68664208c78939f8bd1f1879be5d2212e"
+    },
+    {
+      "event_id": "M35:2467:2024-12-31:1",
+      "filename": "01_2467_20241231_1.html",
+      "issuer": "2467",
+      "reported_datetime": "2024-12-31T16:23:08+08:00",
+      "document_form": "completion",
+      "required_schema_known": true,
+      "description_sha256": "f8ddec4f22ec13d1937f117ece478a9e64c25490f056e00f0a0ca4936cc8167f"
+    },
+    {
+      "event_id": "M35:2023:2024-12-31:1",
+      "filename": "02_2023_20241231_1.html",
+      "issuer": "2023",
+      "reported_datetime": "2024-12-31T15:40:33+08:00",
+      "document_form": "completion",
+      "required_schema_known": true,
+      "description_sha256": "823a3edc9e12ff8e1fa353bf4a494276afb8a68e4a9678cf196213071c0f2de2"
+    },
+    {
+      "event_id": "M35:2474:2024-12-30:1",
+      "filename": "03_2474_20241230_1.html",
+      "issuer": "2474",
+      "reported_datetime": "2024-12-30T17:22:19+08:00",
+      "document_form": "threshold",
+      "required_schema_known": true,
+      "description_sha256": "7acf0e0af691c66c2e5b22c06cf53fec750fed2284b74fd4bce4a4f7f8b2c49a"
+    },
+    {
+      "event_id": "M35:2474:2024-12-27:1",
+      "filename": "04_2474_20241227_1.html",
+      "issuer": "2474",
+      "reported_datetime": "2024-12-27T16:51:39+08:00",
+      "document_form": "threshold",
+      "required_schema_known": true,
+      "description_sha256": "81d2ac7153480d1845ac8135d23d13ad6ebf7501c133861c2a28de95d25e722e"
+    },
+    {
+      "event_id": "M35:3716:2024-12-26:1",
+      "filename": "05_3716_20241226_1.html",
+      "issuer": "3716",
+      "reported_datetime": "2024-12-26T18:13:52+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "08bc6e8f16d13a025b4895c60ffd1f0814addea5b22d45ff930063cae6e0861f"
+    },
+    {
+      "event_id": "M35:6742:2024-12-26:1",
+      "filename": "06_6742_20241226_1.html",
+      "issuer": "6742",
+      "reported_datetime": "2024-12-26T16:39:40+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "47b74b6d1183b8f4160ed0486f64a99bf8c85237cff2866292a77b100c48c4bf"
+    },
+    {
+      "event_id": "M35:1563:2024-12-26:1",
+      "filename": "07_1563_20241226_1.html",
+      "issuer": "1563",
+      "reported_datetime": "2024-12-26T16:17:59+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "524fe906fa3c62555ca75367f26cb56da50e5d25782776adde348f97a10ba54f"
+    },
+    {
+      "event_id": "M35:2474:2024-12-26:1",
+      "filename": "08_2474_20241226_1.html",
+      "issuer": "2474",
+      "reported_datetime": "2024-12-26T16:16:50+08:00",
+      "document_form": "threshold",
+      "required_schema_known": true,
+      "description_sha256": "c6cbaf02c13459906c139bedcfc57893ccb44bb87e86512a0e6b27299487bbf7"
+    },
+    {
+      "event_id": "M35:6191:2024-12-26:3",
+      "filename": "09_6191_20241226_3.html",
+      "issuer": "6191",
+      "reported_datetime": "2024-12-26T15:13:25+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "be1c6c7b2211045e51362ec3a2e182f1b63b7758360a0dcda68de19804db97c9"
+    },
+    {
+      "event_id": "M35:6869:2024-12-26:1",
+      "filename": "10_6869_20241226_1.html",
+      "issuer": "6869",
+      "reported_datetime": "2024-12-26T13:30:42+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "6ab649a38a3386382e58203bf43685ebdeab267a0fe87c429415d60e0ee268bf"
+    },
+    {
+      "event_id": "M35:2897:2024-12-25:1",
+      "filename": "11_2897_20241225_1.html",
+      "issuer": "2897",
+      "reported_datetime": "2024-12-25T19:25:10+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "5d983b3121d4619232000851c69c33b20210ce7a92e66d36747a69198ce4e602"
+    },
+    {
+      "event_id": "M35:2474:2024-12-24:1",
+      "filename": "12_2474_20241224_1.html",
+      "issuer": "2474",
+      "reported_datetime": "2024-12-24T16:23:37+08:00",
+      "document_form": "threshold",
+      "required_schema_known": true,
+      "description_sha256": "5e13d3b53a8f0af19ad11cd987fd86f58f4df7fc71d26524d93f27f189f0f025"
+    },
+    {
+      "event_id": "M35:2474:2024-12-20:1",
+      "filename": "13_2474_20241220_1.html",
+      "issuer": "2474",
+      "reported_datetime": "2024-12-20T17:29:25+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "649752c704ccdad88cb6a806b909619b39163de8dd54ffafac6c05ec73679136"
+    },
+    {
+      "event_id": "M35:4977:2024-12-19:1",
+      "filename": "14_4977_20241219_1.html",
+      "issuer": "4977",
+      "reported_datetime": "2024-12-19T15:38:51+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "f2078e4a646f0a3189ba2e887c5d193e70b1806de9849ae13a79be223fc70a98"
+    },
+    {
+      "event_id": "M35:5222:2024-12-19:1",
+      "filename": "15_5222_20241219_1.html",
+      "issuer": "5222",
+      "reported_datetime": "2024-12-19T14:31:57+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "ca165cd6c9c8a1933c4585f514c79fec8cc328683a651f075b4549e1ffffb1fa"
+    },
+    {
+      "event_id": "M35:2030:2024-12-18:1",
+      "filename": "16_2030_20241218_1.html",
+      "issuer": "2030",
+      "reported_datetime": "2024-12-18T16:09:58+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "ad0a954f87eb5d252c600d8c88f80b5ba390cb1ace17da8992810fc4201bc4db"
+    },
+    {
+      "event_id": "M35:6589:2024-12-16:1",
+      "filename": "17_6589_20241216_1.html",
+      "issuer": "6589",
+      "reported_datetime": "2024-12-16T15:40:31+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "04ea1596eba492312d72c8cc05f6c19b2b82fb9706e0d945bafb0c943b5be144"
+    },
+    {
+      "event_id": "M35:6869:2024-12-16:3",
+      "filename": "18_6869_20241216_3.html",
+      "issuer": "6869",
+      "reported_datetime": "2024-12-16T14:44:40+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "b9c088276de12cec4e6779ffe20debecf06ed36dc518eb5a497b8bb9f9b1c0a5"
+    },
+    {
+      "event_id": "M35:6108:2024-12-13:1",
+      "filename": "19_6108_20241213_1.html",
+      "issuer": "6108",
+      "reported_datetime": "2024-12-13T14:30:14+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "025324ea421c8d55c9198ac097def9a95e5f5767002baaec03dfa86ebd5bcb02"
+    },
+    {
+      "event_id": "M35:2023:2024-12-04:3",
+      "filename": "20_2023_20241204_3.html",
+      "issuer": "2023",
+      "reported_datetime": "2024-12-04T16:54:18+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "7ac846502f6503819f20c04e9b2c98fee4348d6fa108efaad330245fd3981371"
+    },
+    {
+      "event_id": "M35:2023:2024-12-04:2",
+      "filename": "21_2023_20241204_2.html",
+      "issuer": "2023",
+      "reported_datetime": "2024-12-04T15:51:17+08:00",
+      "document_form": "completion",
+      "required_schema_known": true,
+      "description_sha256": "97ed41b866d940dfbde16ab19d6d8c77bf03179f461a3d36e5bc25a1e4c42057"
+    },
+    {
+      "event_id": "M35:4190:2024-11-22:1",
+      "filename": "22_4190_20241122_1.html",
+      "issuer": "4190",
+      "reported_datetime": "2024-11-22T17:15:24+08:00",
+      "document_form": "completion",
+      "required_schema_known": true,
+      "description_sha256": "10f204ea02254ec6d5ebc85588478de7bbd38770898f358648052deee2f27174"
+    },
+    {
+      "event_id": "M35:6952:2024-11-22:1",
+      "filename": "23_6952_20241122_1.html",
+      "issuer": "6952",
+      "reported_datetime": "2024-11-22T14:08:43+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "e424b1d4d9fbd0b695e25f69ec4afd8eef3dd7b9f8265a668f1743310ec99f7c"
+    },
+    {
+      "event_id": "M35:1338:2024-11-20:1",
+      "filename": "24_1338_20241120_1.html",
+      "issuer": "1338",
+      "reported_datetime": "2024-11-20T17:46:54+08:00",
+      "document_form": "purpose_change",
+      "required_schema_known": true,
+      "description_sha256": "798c62235cb1c6b1ac596f5cad07dc9965bebc05f017670a3ff14bf6625a2da6"
+    },
+    {
+      "event_id": "M35:3062:2024-11-13:4",
+      "filename": "25_3062_20241113_4.html",
+      "issuer": "3062",
+      "reported_datetime": "2024-11-13T23:22:36+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "ce6b942d1ab011ecd0c5d64562684c89be26e8c9fdb3744fb6502ea4a848031d"
+    },
+    {
+      "event_id": "M35:1338:2024-11-13:2",
+      "filename": "26_1338_20241113_2.html",
+      "issuer": "1338",
+      "reported_datetime": "2024-11-13T14:18:02+08:00",
+      "document_form": "purpose_change",
+      "required_schema_known": true,
+      "description_sha256": "52422366f90c7114a26bc29a8f4600c7ad097011112849be00328b1005d109e3"
+    },
+    {
+      "event_id": "M35:2762:2024-11-12:5",
+      "filename": "27_2762_20241112_5.html",
+      "issuer": "2762",
+      "reported_datetime": "2024-11-12T17:29:29+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "1ff5ec237ed1ab0df7914cf28e23028c53fb782d03001561e78e69baffacd4e7"
+    },
+    {
+      "event_id": "M35:2023:2024-11-05:2",
+      "filename": "28_2023_20241105_2.html",
+      "issuer": "2023",
+      "reported_datetime": "2024-11-05T16:04:08+08:00",
+      "document_form": "board_resolution",
+      "required_schema_known": true,
+      "description_sha256": "8fa995279d09738008357a85c567751c2917be94f938fc06db052f8a1091c35a"
+    },
+    {
+      "event_id": "M35:3051:2024-11-04:1",
+      "filename": "29_3051_20241104_1.html",
+      "issuer": "3051",
+      "reported_datetime": "2024-11-04T15:38:15+08:00",
+      "document_form": "completion",
+      "required_schema_known": true,
+      "description_sha256": "1f204cd51305dedfec050b008228a7e424ccde8d7062cafa551db58a1c5f59ee"
+    }
+  ],
+  "identity_errors": [],
+  "all_identities_verified": true
+}

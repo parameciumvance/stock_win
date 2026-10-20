@@ -1,0 +1,46 @@
+{
+  "archive_sha256": "d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076",
+  "manifest_files": 8,
+  "backup": {
+    "sha256": "d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_recovery_d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076.zip",
+    "retrieved_path": "inputs/buyback_coverage_20261020/recovery.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-20T13:27:27.663Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "sha_crc_manifest_verified": true,
+  "observations": [
+    {
+      "request": {
+        "filename": "8011_20240322_recovery.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162237&SPOKE_DATE=20240322&COMPANY_ID=8011"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4784,
+      "sha256": "42ae43999fdfdd0d601e3482e8a29ee636ec48aa48a619d01db2aa386288ece0",
+      "request_started_at": "2026-10-20T13:27:09.775334+00:00",
+      "observed_at": "2026-10-20T13:27:09.985701+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162237&SPOKE_DATE=20240322&COMPANY_ID=8011",
+      "stderr": ""
+    }
+  ],
+  "all_transport_passed": true,
+  "historical_pit_verified": false,
+  "identities": [
+    {
+      "event_id": "M35:8011:2024-03-22:1",
+      "filename": "8011_20240322_recovery.html",
+      "issuer": "8011",
+      "reported_datetime": "2024-03-22T16:22:37+08:00",
+      "document_form": "threshold",
+      "required_schema_known": true,
+      "description_sha256": "5eeb6b2826ce236401345c740139b04780466fdbdf2d447e0c409ba2a3eea874"
+    }
+  ],
+  "identity_errors": [],
+  "all_identities_verified": true
+}

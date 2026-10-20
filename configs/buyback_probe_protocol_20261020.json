@@ -1,0 +1,53 @@
+{
+  "scope": "Single fixed conditional quote diagnostic for resource triage; no investable portfolio backtest or prospective signal",
+  "hypothesis": "Issuer repurchase announcements may contain information or potential subsequent demand whose response continues after the first next-date market open. Announced plans are discretionary, not guaranteed execution.",
+  "cohort": "All 47 2024 board-resolution cases from the source census; use earliest retained non-revision board record for each exact issuer/board date. No outcome, realization, quantity, price-range or execution-rate filter. Purpose changes and completion/threshold messages are not new entries.",
+  "source_gate": "All 122 source identities including one explicitly recovered HTTP502, exact 12-month/full-year agreement, all47 cases linked with no missing earliest record or ambiguity, independent source audit passed. A separate activation receipt pins the final source checkpoint before any price calculation.",
+  "source_ledger": "inputs/buyback_coverage_20261020/linked_cases_full.json",
+  "source_ledger_sha256": "20b6838e6727fb9a7edd6604005354df0d5256e914af0e7f7938b838f4bbb327",
+  "source_documents_sha256": "e51dc0c03e8fc6d516f6cf06eca20a0a38eb643eb7ebfa15814f9c499cbc1d1a",
+  "source_protocol": "configs/buyback_coverage_protocol_20261020.json",
+  "source_protocol_sha256": "634e18efe62328c96b6f0153b0858d5a497205b6cbdca34383e059bd9eae9c83",
+  "source_checkpoint": "deliverables/buyback_coverage_20261020/checkpoint.json",
+  "publication_assumption": "Use verified current official pages reported Asia/Taipei publication timestamps. Full current-vintage coverage and retained corrections do not prove contemporaneous first availability, absence of withdrawn records, or 2024 storage immutability. These remain explicit assumptions, not repaired by latency.",
+  "historical_pit_verified": false,
+  "entry": "First full-market session strictly after the Taipei publication calendar date, at reference-adjusted opening quote. Even pre-open publication waits until the next market date. No shift to a later quoted date if missing.",
+  "horizon_market_sessions": 20,
+  "exit": "Close of twentieth full-market session including entry. Market calendar includes halts; missing endpoints remain gaps, no zero fills or replacement case.",
+  "one_way_hypothetical_costs": [
+    "0.0025",
+    "0.005"
+  ],
+  "primary_one_way_cost": "0.005",
+  "benchmark": "0050 over exactly the same entry/exit dates, same quote adjustment basis and hypothetical costs; not a physical cash/dividend ledger or actual broker fee schedule.",
+  "quote_formula": "(adjusted_exit/adjusted_entry)*(1-c)/(1+c)-1",
+  "prices": {
+    "price_archive": "inputs/reassessment_20261016/original_bundle.retrieved.zip",
+    "price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+    "price_member": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+    "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d"
+  },
+  "parameter_source": "Costs and20-session quote machinery reuse the already-declared index-review diagnostic conventions, not the failed index strategy or its events. No cost/period selection based on new outcomes.",
+  "resource_gate": "Coverage all47complete; at primary0.005cost at least3of4 publication-quarter mean relative quote changes>0 and pooled event median relative>0. Fourquarters must all have events. No alternate side/horizon/year if failed.",
+  "sample_limitations": [
+    "2024 price years already used in other project research; this is not a new independent holdout",
+    "47 cases include repeated issuers and overlapping windows; quarterly/issuer summaries are descriptive, not independent-trial significance or causal alpha",
+    "Reference-adjusted price ratios do not equal shareholder cash returns; zero/current-vintage timestamp assumptions and opening-limit/lot fills are unverified",
+    "No300000TWD portfolio, capital allocation, T+2 overlap, taxes/minimum commissions, actual fills or reinvestment modeled"
+  ],
+  "on_fail": "Stop this fixed announcement-continuation hypothesis without tuning or expanding years. Retain all source tools and failed diagnostic.",
+  "on_pass": "Only justify a separately frozen independent-evidence/implementation proposal; no daily human validation or trades.",
+  "limits": {
+    "cases": 47,
+    "years": 1,
+    "horizons": 1,
+    "models_to_fit": 0,
+    "parameter_searches": 0,
+    "new_public_requests": 0,
+    "manual_download_requests": 0,
+    "daily_validation": false
+  },
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false,
+  "trade_authorized": false
+}

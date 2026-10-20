@@ -1,0 +1,19 @@
+{
+  "scope": "One separate bounded transport recovery for the sole saved HTTP502, not selecting between conflicting successful source versions",
+  "max_requests": 1,
+  "workers": 2,
+  "retries": 0,
+  "failed_batch": "originals04",
+  "failed_filename": "13_8011_20240322_1.html",
+  "failed_body_sha256": "ef7298358784fa1119c8aa6d7ea819b2185d07bd41f1e63f7f46751dc7b5c77f",
+  "failed_http_status": 502,
+  "failed_receipt_sha256": "b7544238d9ec52722ae673b38adadbf1651f3d7422fdb78ad3692892c1405119",
+  "failed_archive_sha256": "c5fc670bb2238d41240358d555e99fa281a2488fb3b328baa42518bd482f83f7",
+  "request_config": "configs/buyback_coverage_recovery_sources_20261020.json",
+  "request_config_sha256": "9ce093cc1e05f6688ad337d778a2552f0ef43c0f155e1450d2265fb9a3da8b53",
+  "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162237&SPOKE_DATE=20240322&COMPANY_ID=8011",
+  "replacement_filename": "8011_20240322_recovery.html",
+  "preserve_failed_response": true,
+  "stop": "If this single fresh response does not pass transport and identity checks, record external blocker; no additional retries or insecure routes.",
+  "no_market_outcomes": true
+}

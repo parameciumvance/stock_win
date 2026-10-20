@@ -1,0 +1,6 @@
+{
+  "frozen_at": "2026-10-20T13:32:56.500342+00:00",
+  "protocol_sha256": "10cdc2f6eabd1b21ced075044810648c3e4b6847751b2ef57585f08e4211dcf2",
+  "phase": "Before reading any new cohort market prices or quote outcomes",
+  "price_outcomes_inspected": false
+}

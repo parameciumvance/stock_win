@@ -1,0 +1,12 @@
+{
+  "output_directory": "inputs/buyback_coverage_20261020/raw_recovery",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "8011_20240322_recovery.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162237&SPOKE_DATE=20240322&COMPANY_ID=8011"
+    }
+  ]
+}

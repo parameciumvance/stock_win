@@ -1,0 +1,28 @@
+{
+  "status": "current_archive_coverage_and_case_replay_passed_strict_pit_unproven",
+  "year_month_partition_agreement": true,
+  "documents_verified": 122,
+  "annual_cases_linked": 47,
+  "unresolved_case_ids": [],
+  "known_form_counts": {
+    "threshold": 27,
+    "completion": 41,
+    "board_resolution": 52,
+    "purpose_change": 2
+  },
+  "current_vintage_source_gate_passed": true,
+  "historical_pit_verified": false,
+  "first_publication_capture_proven": false,
+  "missing_total_is_not_a_missing_data_finding": true,
+  "separate_failed502_preserved_and_recovered": [
+    "M35:8011:2024-03-22:1"
+  ],
+  "boundary_window": "2023Q4 27indexrows;2025Q1 90indexrows; no full post2024 completion-chain claim",
+  "decision": "Adequate for a separately frozen explicitly conditional descriptive resource diagnostic after independent audit. Not contemporaneous prospective evidence, an actual account or alpha proof.",
+  "next_stage": "Fixed47case/20session quote diagnostic frozen before outcomes; continue after source checkpoint and independent audit",
+  "manual_daily_validation": false,
+  "trade_authorized": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "user_action_required": null
+}

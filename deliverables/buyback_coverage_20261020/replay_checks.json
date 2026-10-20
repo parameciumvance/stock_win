@@ -1,0 +1,564 @@
+{
+  "recorded_at": "2026-10-20T13:38:29.575057+00:00",
+  "total_stages": 16,
+  "all_second_pass_hash_skips": true,
+  "plans": [
+    {
+      "plan": "configs/buyback_coverage_index_pipeline.json",
+      "stages": 2,
+      "all_hash_skips": true,
+      "stdout": "verified skip: acquire_index\nverified skip: package_index\n",
+      "state_sha256": "350248429b01a55d5087d335fd0322a4ef2dab7502dbbedcef8ce9186df08606",
+      "records": {
+        "acquire_index": {
+          "status": "complete",
+          "fingerprint": "d337213d6f811eed09588844897a4737ca01f8e1e5397205b383b5320342ebb1",
+          "started_at": "2026-10-20T13:38:23.550909+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:23.551021+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_index/logs/acquire_index.1792503503554145573.log",
+          "peak_observed_rss_bytes": 7581696,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5038974230410531,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/raw_index/results.json": "9f90bc61a8e7ae5fcd1d8c439ec4711176bd60d337c631e484f11075733bc9c0"
+          },
+          "finished_at": "2026-10-20T13:38:24.065169+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:24.065255+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_index": {
+          "status": "complete",
+          "fingerprint": "0a861f89aad87607f8fff8181c20754545316398a9c2257f033acbd6d3f58f9b",
+          "started_at": "2026-10-20T13:38:24.073870+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:24.073973+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_index/logs/package_index.1792503504076963472.log",
+          "peak_observed_rss_bytes": 8052736,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5051649959641509,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/index_package.json": "17b7f3e743cd56a5485321142cdb0b7af75abde1a6e1192ded21c709e31745f0",
+            "inputs/buyback_coverage_20261020/index.zip": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63"
+          },
+          "finished_at": "2026-10-20T13:38:24.603438+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:24.603590+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_coverage_originals01_pipeline.json",
+      "stages": 2,
+      "all_hash_skips": true,
+      "stdout": "verified skip: acquire_originals01\nverified skip: package_originals01\n",
+      "state_sha256": "3a0581a0ecd726abf6d95e351c7a9a6ce36433c2c9d4b6c061f6500d1bde9da1",
+      "records": {
+        "acquire_originals01": {
+          "status": "complete",
+          "fingerprint": "9254f7137d02181b3c2ae10e008b82af1b731bd9b78d70bb461b198d2ae87e1f",
+          "started_at": "2026-10-20T13:38:24.658979+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:24.659082+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals01/logs/acquire_originals01.1792503504661994813.log",
+          "peak_observed_rss_bytes": 7565312,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5039268069667742,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/raw_originals01/results.json": "9140d72c1506b211e65ed6c2f7c94e11099de9a68d429209d80bc5dc6601a522"
+          },
+          "finished_at": "2026-10-20T13:38:25.173398+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:25.173495+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_originals01": {
+          "status": "complete",
+          "fingerprint": "a44416753684713fdede145486f82a664da486e2bb58eddbae571a2feb229976",
+          "started_at": "2026-10-20T13:38:25.180712+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:25.180795+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals01/logs/package_originals01.1792503505183424955.log",
+          "peak_observed_rss_bytes": 8138752,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5047048180131242,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/originals01_package.json": "c3a897b35ae8d32b77f5fedb961d197a0f546eb839849848aa91eeb37d3d72b9",
+            "inputs/buyback_coverage_20261020/originals01.zip": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7"
+          },
+          "finished_at": "2026-10-20T13:38:25.699306+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:25.699406+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_coverage_originals02_pipeline.json",
+      "stages": 2,
+      "all_hash_skips": true,
+      "stdout": "verified skip: acquire_originals02\nverified skip: package_originals02\n",
+      "state_sha256": "d12bd6d4cc87c8f73e2a387f4dda7fd4722de2ac3a9876b7646ffd3314f78e69",
+      "records": {
+        "acquire_originals02": {
+          "status": "complete",
+          "fingerprint": "035d4a7b8ed42c4bc8ad12ac324bbcf186b244f2eb2f26389d7ebfb1a3a0efd3",
+          "started_at": "2026-10-20T13:38:25.750732+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:25.750787+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals02/logs/acquire_originals02.1792503505753409226.log",
+          "peak_observed_rss_bytes": 10567680,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5072959010140039,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/raw_originals02/results.json": "4c68f77dd5b9c9de27f2857afabb28af7ceccdf9b2683a399b488a2949d43623"
+          },
+          "finished_at": "2026-10-20T13:38:26.265156+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:26.265245+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_originals02": {
+          "status": "complete",
+          "fingerprint": "41fab914c1f4c2ee183306f46a861bec45fbbc76a10116b17b8576cff566d7f5",
+          "started_at": "2026-10-20T13:38:26.272530+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:26.272603+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals02/logs/package_originals02.1792503506275105857.log",
+          "peak_observed_rss_bytes": 7450624,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5032585479784757,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/originals02_package.json": "e9f583df6f20fcff7b41af54de424bfa7c9fb7e07b87ff94b4f221dc2fdb0405",
+            "inputs/buyback_coverage_20261020/originals02.zip": "ed55757fa5b02fbba62d1aa2efa549ffacc5623f9ca2e4238dc9c71739a30af0"
+          },
+          "finished_at": "2026-10-20T13:38:26.789747+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:26.789834+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_coverage_originals03_pipeline.json",
+      "stages": 2,
+      "all_hash_skips": true,
+      "stdout": "verified skip: acquire_originals03\nverified skip: package_originals03\n",
+      "state_sha256": "53588850a29d7667b97b8607f48dae5249c258f2bf024523dc56b86921e6a71b",
+      "records": {
+        "acquire_originals03": {
+          "status": "complete",
+          "fingerprint": "97efde812ef4123ed59128b6663a86aa7f2260fa9d9b258aede94cd8c1529199",
+          "started_at": "2026-10-20T13:38:26.840224+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:26.840284+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals03/logs/acquire_originals03.1792503506842703041.log",
+          "peak_observed_rss_bytes": 8564736,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5051737300236709,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/raw_originals03/results.json": "f5085c8c0d953492afb0847e362518e387eb1d40a16fe2f5e5d6a9520227477f"
+          },
+          "finished_at": "2026-10-20T13:38:27.355606+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:27.355706+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_originals03": {
+          "status": "complete",
+          "fingerprint": "4c916dcaed57500691036c70a063a961ca166fcc35cf2f19eaed9d5cfbf95da4",
+          "started_at": "2026-10-20T13:38:27.362962+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:27.363082+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals03/logs/package_originals03.1792503507365768641.log",
+          "peak_observed_rss_bytes": 6914048,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.502940114994999,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/originals03_package.json": "e0983d93717a4c705c43041f3816432d654e35c20e5c94695898b177e93f3211",
+            "inputs/buyback_coverage_20261020/originals03.zip": "b037cee9599aab374eccdc99836398399a00ed44dc3d5e5510477b4f4431e115"
+          },
+          "finished_at": "2026-10-20T13:38:27.880719+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:27.880804+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_coverage_originals04_pipeline.json",
+      "stages": 2,
+      "all_hash_skips": true,
+      "stdout": "verified skip: acquire_originals04\nverified skip: package_originals04\n",
+      "state_sha256": "b97a29ebcce8f8243a3acc2b6bb1497ec48fc2ff70541efca31c4545a2e8c81f",
+      "records": {
+        "acquire_originals04": {
+          "status": "complete",
+          "fingerprint": "d009ba48b95a75a5f25e9358662592fe9cdea60a3d962215fed129a496f06f48",
+          "started_at": "2026-10-20T13:38:27.931791+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:27.931897+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals04/logs/acquire_originals04.1792503507934410887.log",
+          "peak_observed_rss_bytes": 7237632,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5035385070368648,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/raw_originals04/results.json": "390a4152bf79886f17be5a83bffaad3bbbaf14eff8b37eeca40b7999862f62f7"
+          },
+          "finished_at": "2026-10-20T13:38:28.446966+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:28.447051+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_originals04": {
+          "status": "complete",
+          "fingerprint": "11249bc6d87def755473a5a463b4f92b9241cea386314dae5ffff603753e5b74",
+          "started_at": "2026-10-20T13:38:28.453317+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:38:28.453382+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_originals04/logs/package_originals04.1792503508455448993.log",
+          "peak_observed_rss_bytes": 9351168,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5063598370179534,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/originals04_package.json": "5a58dc6ea02043c377a98771f6d67784b39f55abfb5a83b46445b1c1b2819d82",
+            "inputs/buyback_coverage_20261020/originals04.zip": "c5fc670bb2238d41240358d555e99fa281a2488fb3b328baa42518bd482f83f7"
+          },
+          "finished_at": "2026-10-20T13:38:28.973530+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:38:28.973609+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_coverage_recovery_pipeline.json",
+      "stages": 2,
+      "all_hash_skips": true,
+      "stdout": "verified skip: acquire_recovery\nverified skip: package_recovery\n",
+      "state_sha256": "78317aae591809043807c257ece41f3d904437ed6fdd47f12af7567f40d52123",
+      "records": {
+        "acquire_recovery": {
+          "status": "complete",
+          "fingerprint": "c7497fe54932a67ad86d772c532bbcb685e2ed2ccb436fea6207b932e26cc7ff",
+          "started_at": "2026-10-20T13:27:09.716937+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:27:09.717064+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_recovery/logs/acquire_recovery.1792502829720538644.log",
+          "peak_observed_rss_bytes": 9297920,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5066732479608618,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/raw_recovery/results.json": "630c4cb75fd513217824989d03ec8dc2c04e26bc446acb55bbe8a620b616335b"
+          },
+          "finished_at": "2026-10-20T13:27:10.230484+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:27:10.230565+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "package_recovery": {
+          "status": "complete",
+          "fingerprint": "113c50b6d853ad3e1c4dd24fb79aba7ec46896ba320747b2817e35330590eaa0",
+          "started_at": "2026-10-20T13:27:10.236377+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:27:10.236490+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_recovery/logs/package_recovery.1792502830239237558.log",
+          "peak_observed_rss_bytes": 8044544,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5049043680191971,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/recovery_package.json": "2b1819a524b1a1514e2a4002db4ada8ae2e046fafef0267f0236d386c22f9e7c",
+            "inputs/buyback_coverage_20261020/recovery.zip": "d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076"
+          },
+          "finished_at": "2026-10-20T13:27:10.750384+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:27:10.750487+00:00",
+            "runtime_identity": "8c7ce251f704a84192380a0960123b928bab408a906548a1d0e1a7a518c899c1",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    },
+    {
+      "plan": "configs/buyback_coverage_audit_pipeline.json",
+      "stages": 4,
+      "all_hash_skips": true,
+      "stdout": "verified skip: verify_all_saved_archives\nverified skip: independent_year_month_partition\nverified skip: full_census_case_replay\nverified skip: independent_census_identity_and_chronology\n",
+      "state_sha256": "56e59c30602dbe834a89e7bf34a97276166fcdb0e929afbb8804d0152aca617e",
+      "records": {
+        "verify_all_saved_archives": {
+          "status": "complete",
+          "fingerprint": "d2174622973861abf999217f19682e42363cf2258a922f00a1e0df148d0c9ef2",
+          "started_at": "2026-10-20T13:36:14.410592+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:36:14.410735+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_audit/logs/verify_all_saved_archives.1792503374415936712.log",
+          "peak_observed_rss_bytes": 10170368,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5107443470042199,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/backup_receipt.json": "1fcdf2fcfe3f7a62325affa9a527cd02b2078ef1ba60cafe1044043f3182f7fd"
+          },
+          "finished_at": "2026-10-20T13:36:14.935626+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:36:14.935760+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "independent_year_month_partition": {
+          "status": "complete",
+          "fingerprint": "372bcd0c24b95391e7784f2f8fdca8db9fb403e460a7d46581398ea936c0f002",
+          "started_at": "2026-10-20T13:36:14.945223+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:36:14.945340+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_audit/logs/independent_year_month_partition.1792503374949098955.log",
+          "peak_observed_rss_bytes": 7860224,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5038052760064602,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/partition_audit.json": "22f6a5e5161d9f8f0a687270b146221b114889275cf584bc52b622b93a5352e6",
+            "inputs/buyback_coverage_20261020/partition_full.json": "faf91ba75b51c3b38e1ad31eeb95d35af380f6830eae06c4ed66312bca084e0e"
+          },
+          "finished_at": "2026-10-20T13:36:15.458572+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:36:15.458663+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "full_census_case_replay": {
+          "status": "complete",
+          "fingerprint": "1ed46a216d96473c11eb6cdfc16ac99bb7db67a2ea0a3dbe9b6bccdf8b03e456",
+          "started_at": "2026-10-20T13:36:15.470012+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:36:15.470118+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_audit/logs/full_census_case_replay.1792503375473764371.log",
+          "peak_observed_rss_bytes": 7618560,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5050393909914419,
+          "outputs": {
+            "inputs/buyback_coverage_20261020/documents_full.json": "e51dc0c03e8fc6d516f6cf06eca20a0a38eb643eb7ebfa15814f9c499cbc1d1a",
+            "inputs/buyback_coverage_20261020/linked_cases_full.json": "20b6838e6727fb9a7edd6604005354df0d5256e914af0e7f7938b838f4bbb327",
+            "deliverables/buyback_coverage_20261020/documents_summary.json": "d1ffc1438d20855375d31117f108d8646145a25e2badb9c082e313f39291f93a",
+            "deliverables/buyback_coverage_20261020/case_replay.json": "20b6838e6727fb9a7edd6604005354df0d5256e914af0e7f7938b838f4bbb327",
+            "deliverables/buyback_coverage_20261020/decision.json": "6a5e706093ba14cda266b0799a3c953b91c6a69ca91b335d0dc5f3728499b539"
+          },
+          "finished_at": "2026-10-20T13:36:15.994313+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:36:15.994390+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        },
+        "independent_census_identity_and_chronology": {
+          "status": "complete",
+          "fingerprint": "2f5af1a231c8a1d74790cd1ebd36f7c51362b067a0544abf4e19800f56f5bc53",
+          "started_at": "2026-10-20T13:36:16.004666+00:00",
+          "runtime_before": {
+            "observed_at": "2026-10-20T13:36:16.004763+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          },
+          "attempt": 1,
+          "log": "inputs/buyback_coverage_20261020/pipeline_audit/logs/independent_census_identity_and_chronology.1792503376007019330.log",
+          "peak_observed_rss_bytes": 7262208,
+          "exit_code": 0,
+          "exit_signal": null,
+          "elapsed_seconds": 0.5037492450210266,
+          "outputs": {
+            "deliverables/buyback_coverage_20261020/independent_audit.json": "44a462de34ee91424e51d17a56fb4e1320370c222aa5b9d106395e4a2c4409d7"
+          },
+          "finished_at": "2026-10-20T13:36:16.516678+00:00",
+          "runtime_after": {
+            "observed_at": "2026-10-20T13:36:16.516764+00:00",
+            "runtime_identity": "8821d5e2f77307a79f7d70b14643d2f36b0f94453b764cd101d3ae49a8617afd",
+            "memory_events": null,
+            "memory_current_bytes": null,
+            "memory_limit_bytes": null
+          }
+        }
+      }
+    }
+  ],
+  "resolved_observations": [
+    {
+      "kind": "schema",
+      "actual_error": "Missing, duplicate or out-of-order numbered buyback fields for two1338pages",
+      "resolution": "New exact13field purpose-change schema; old parser unchanged and regular missing fields still fail"
+    },
+    {
+      "kind": "transport",
+      "actual_status": 502,
+      "exit_code": 0,
+      "body_bytes": 18,
+      "resolution": "One separately frozen recovery returned200; failed bytes and both archives retained"
+    },
+    {
+      "kind": "environment",
+      "actual_error": "Pillow missing and venv has no pip module",
+      "resolution": "Existing uv installed Pillow13.0.0 locally for reviewed PDF image extraction; package versions pinned"
+    }
+  ]
+}

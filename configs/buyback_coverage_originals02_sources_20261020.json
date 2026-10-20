@@ -1,0 +1,128 @@
+{
+  "output_directory": "inputs/buyback_coverage_20261020/raw_originals02",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "00_2467_20241031_3.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=161437&SPOKE_DATE=20241031&COMPANY_ID=2467"
+    },
+    {
+      "filename": "01_4190_20241028_2.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=180907&SPOKE_DATE=20241028&COMPANY_ID=4190"
+    },
+    {
+      "filename": "02_2762_20241025_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=180354&SPOKE_DATE=20241025&COMPANY_ID=2762"
+    },
+    {
+      "filename": "03_2352_20241024_2.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=212045&SPOKE_DATE=20241024&COMPANY_ID=2352"
+    },
+    {
+      "filename": "04_2352_20241024_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=211912&SPOKE_DATE=20241024&COMPANY_ID=2352"
+    },
+    {
+      "filename": "05_2352_20241017_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=183601&SPOKE_DATE=20241017&COMPANY_ID=2352"
+    },
+    {
+      "filename": "06_1338_20241017_2.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=175401&SPOKE_DATE=20241017&COMPANY_ID=1338"
+    },
+    {
+      "filename": "07_3051_20241017_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=160648&SPOKE_DATE=20241017&COMPANY_ID=3051"
+    },
+    {
+      "filename": "08_1338_20241015_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=175311&SPOKE_DATE=20241015&COMPANY_ID=1338"
+    },
+    {
+      "filename": "09_2850_20241014_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=145128&SPOKE_DATE=20241014&COMPANY_ID=2850"
+    },
+    {
+      "filename": "10_3062_20241011_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171057&SPOKE_DATE=20241011&COMPANY_ID=3062"
+    },
+    {
+      "filename": "11_3058_20241011_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164816&SPOKE_DATE=20241011&COMPANY_ID=3058"
+    },
+    {
+      "filename": "12_1806_20241011_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164448&SPOKE_DATE=20241011&COMPANY_ID=1806"
+    },
+    {
+      "filename": "13_2030_20241011_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=144539&SPOKE_DATE=20241011&COMPANY_ID=2030"
+    },
+    {
+      "filename": "14_2352_20241009_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=203624&SPOKE_DATE=20241009&COMPANY_ID=2352"
+    },
+    {
+      "filename": "15_1626_20241009_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163615&SPOKE_DATE=20241009&COMPANY_ID=1626"
+    },
+    {
+      "filename": "16_4190_20241008_3.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=165956&SPOKE_DATE=20241008&COMPANY_ID=4190"
+    },
+    {
+      "filename": "17_3708_20241008_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=164550&SPOKE_DATE=20241008&COMPANY_ID=3708"
+    },
+    {
+      "filename": "18_2352_20240927_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163437&SPOKE_DATE=20240927&COMPANY_ID=2352"
+    },
+    {
+      "filename": "19_2352_20240912_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193549&SPOKE_DATE=20240912&COMPANY_ID=2352"
+    },
+    {
+      "filename": "20_6655_20240904_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=161838&SPOKE_DATE=20240904&COMPANY_ID=6655"
+    },
+    {
+      "filename": "21_2352_20240830_5.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=140652&SPOKE_DATE=20240830&COMPANY_ID=2352"
+    },
+    {
+      "filename": "22_2762_20240827_4.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=190939&SPOKE_DATE=20240827&COMPANY_ID=2762"
+    },
+    {
+      "filename": "23_2030_20240816_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174548&SPOKE_DATE=20240816&COMPANY_ID=2030"
+    },
+    {
+      "filename": "24_1338_20240815_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=163826&SPOKE_DATE=20240815&COMPANY_ID=1338"
+    },
+    {
+      "filename": "25_2436_20240815_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=135837&SPOKE_DATE=20240815&COMPANY_ID=2436"
+    },
+    {
+      "filename": "26_2850_20240814_6.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=6&SPOKE_TIME=183650&SPOKE_DATE=20240814&COMPANY_ID=2850"
+    },
+    {
+      "filename": "27_1626_20240814_2.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=162141&SPOKE_DATE=20240814&COMPANY_ID=1626"
+    },
+    {
+      "filename": "28_2030_20240814_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=151558&SPOKE_DATE=20240814&COMPANY_ID=2030"
+    },
+    {
+      "filename": "29_1806_20240813_2.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=191525&SPOKE_DATE=20240813&COMPANY_ID=1806"
+    }
+  ]
+}

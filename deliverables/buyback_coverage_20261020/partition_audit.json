@@ -1,0 +1,38 @@
+{
+  "status": "current_snapshot_partitions_agree",
+  "current_snapshot_partition_agreement": true,
+  "differences": {
+    "missing_from_monthly": [],
+    "new_in_monthly": [],
+    "changed_original_fields": []
+  },
+  "monthly_counts": {
+    "2024-01": 9,
+    "2024-02": 2,
+    "2024-03": 11,
+    "2024-04": 7,
+    "2024-05": 11,
+    "2024-06": 14,
+    "2024-07": 4,
+    "2024-08": 13,
+    "2024-09": 3,
+    "2024-10": 18,
+    "2024-11": 8,
+    "2024-12": 22
+  },
+  "monthly_total_returned_rows": 122,
+  "boundary_rows_merged_into_2024": false,
+  "current_snapshot_only": true,
+  "complete_announcement_population_verified": false,
+  "empty_universe_verified": false,
+  "historical_pit_verified": false,
+  "first_publication_time_verified": false,
+  "source_gate_passed": false,
+  "profit_edge_proven": false,
+  "index_package_sha256": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63",
+  "protocol_sha256": "634e18efe62328c96b6f0153b0858d5a497205b6cbdca34383e059bd9eae9c83",
+  "boundary_counts": {
+    "2023Q4": 27,
+    "2025Q1": 90
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "archive_sha256": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63",
+  "manifest_files": 55,
+  "backup": {
+    "sha256": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63",
+    "backup_path": "C:\\Users\\user\\stock_win_research_backups\\buyback_coverage_20261020_index_0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63.zip",
+    "retrieved_path": "inputs/buyback_coverage_20261020/index.retrieved.zip",
+    "roundtrip_verified": true,
+    "verified_at": "2026-10-20T13:20:13.662Z",
+    "transport": "Desktop Commander Remote / Windows Node file copy",
+    "storage": "Windows user backup and WSL retrieval; same computer"
+  },
+  "sha_crc_manifest_verified": true,
+  "observations": [
+    {
+      "request": {
+        "filename": "2024_01.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F01%2F01&EDATE=113%2F01%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 3590,
+      "sha256": "36860383e99a20b80baa5807389945fd13fe828bd386903b639642d5c579e94d",
+      "request_started_at": "2026-10-20T13:19:49.309954+00:00",
+      "observed_at": "2026-10-20T13:19:49.934924+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_02.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F02%2F01&EDATE=113%2F02%2F29&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 872,
+      "sha256": "ffc86df09ad04eab3811ff739d5c90f744e9971b8bc329e8e42ac586d175eed9",
+      "request_started_at": "2026-10-20T13:19:49.310193+00:00",
+      "observed_at": "2026-10-20T13:19:49.710453+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_03.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F03%2F01&EDATE=113%2F03%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4347,
+      "sha256": "c26ee1744d5071a2eb351bfc34ab3971a8a4df48511b486d572d207deeb2a298",
+      "request_started_at": "2026-10-20T13:19:49.717072+00:00",
+      "observed_at": "2026-10-20T13:19:50.002821+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_04.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F04%2F01&EDATE=113%2F04%2F30&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 2783,
+      "sha256": "fbf0be1b79dbb8a1a87ead14a24ad112c9f80341bdfc54d2ff9e450f19b531bd",
+      "request_started_at": "2026-10-20T13:19:49.939672+00:00",
+      "observed_at": "2026-10-20T13:19:50.155431+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_05.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F05%2F01&EDATE=113%2F05%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 4332,
+      "sha256": "01be6089cfb1a19f3053a73fcf32dd1a6a323b0bc68a4da09fc1cc0871704b08",
+      "request_started_at": "2026-10-20T13:19:50.006344+00:00",
+      "observed_at": "2026-10-20T13:19:50.257847+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_06.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F06%2F01&EDATE=113%2F06%2F30&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 5465,
+      "sha256": "7ae39d0e0921ebd43ee5b46ef3775d9e03f0a51343cace35c6fcc6de957802d3",
+      "request_started_at": "2026-10-20T13:19:50.163136+00:00",
+      "observed_at": "2026-10-20T13:19:50.377393+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_07.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F07%2F01&EDATE=113%2F07%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 1582,
+      "sha256": "475ef0a61cc1373a36533719d61f2d68067653c3fbedb151c0217f8849f0856c",
+      "request_started_at": "2026-10-20T13:19:50.263056+00:00",
+      "observed_at": "2026-10-20T13:19:50.493025+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_08.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F08%2F01&EDATE=113%2F08%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 5163,
+      "sha256": "eb22ecddb564ac553075f3748c847aec0bd676d74547f092597c31e061b76d5e",
+      "request_started_at": "2026-10-20T13:19:50.381910+00:00",
+      "observed_at": "2026-10-20T13:19:50.739373+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_09.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F09%2F01&EDATE=113%2F09%2F30&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 1275,
+      "sha256": "0a4b9d9f79f7c6dd6d8d8bd2aad3d45c71e82f043a82a816ddd3971bfc55eb43",
+      "request_started_at": "2026-10-20T13:19:50.498435+00:00",
+      "observed_at": "2026-10-20T13:19:50.777653+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_10.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F10%2F01&EDATE=113%2F10%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 7279,
+      "sha256": "4045facda2f1c0f4049451468d4022c9957a8249a3f2566776422303f756fd4e",
+      "request_started_at": "2026-10-20T13:19:50.744282+00:00",
+      "observed_at": "2026-10-20T13:19:50.981640+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_11.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F11%2F01&EDATE=113%2F11%2F30&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 3257,
+      "sha256": "65eba7c1c074c898bda6949d23660591941caa5ba7d269e26f61aad8d8a15292",
+      "request_started_at": "2026-10-20T13:19:50.781111+00:00",
+      "observed_at": "2026-10-20T13:19:51.578278+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2024_12.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=113%2F12%2F01&EDATE=113%2F12%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 8693,
+      "sha256": "cf7136971396dee88c49557978b4749a7eb4d8d6d12c6cf6e640d1d76557e113",
+      "request_started_at": "2026-10-20T13:19:50.987743+00:00",
+      "observed_at": "2026-10-20T13:19:51.182917+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2023Q4.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=112%2F10%2F01&EDATE=112%2F12%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 10692,
+      "sha256": "e56e68734abda88e4d1e77afc25b61724f5a0e4ad59c4464b9afcc4755729f14",
+      "request_started_at": "2026-10-20T13:19:51.188293+00:00",
+      "observed_at": "2026-10-20T13:19:51.386347+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "2025Q1.json",
+        "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+        "method": "POST",
+        "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M35&SUBJECT=&SDATE=114%2F01%2F01&EDATE=114%2F03%2F31&lang=TW&AN="
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 36151,
+      "sha256": "1232d025deb41ff153351b84fa43e3709d938ce461b8cfeb91f9b040b8c88b4b",
+      "request_started_at": "2026-10-20T13:19:51.391374+00:00",
+      "observed_at": "2026-10-20T13:19:51.741440+00:00",
+      "error": null,
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "twse_2017_disclosure_guide.pdf",
+        "url": "https://www.twse.com.tw/staticFiles/news/event/event_download_201702101431_01.pdf"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 3274221,
+      "sha256": "aa6915b877d0af63a9a4a921133bddd25954b31b967709d54e7a09b92ed7c444",
+      "request_started_at": "2026-10-20T13:19:51.584433+00:00",
+      "observed_at": "2026-10-20T13:19:52.039372+00:00",
+      "error": null,
+      "effective_url": "https://www.twse.com.tw/staticFiles/news/event/event_download_201702101431_01.pdf",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "twse_20240112_rules.html",
+        "url": "https://twse-regulation.twse.com.tw/TW/law/DAT06_print.aspx?FLCODE=FL007111&FLDATE=20240112&LSER=001"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 56316,
+      "sha256": "7bbb7d0949c6c46fdc5fbe128dbe2ab833a1906a62799b2890b747af5dc69617",
+      "request_started_at": "2026-10-20T13:19:51.747782+00:00",
+      "observed_at": "2026-10-20T13:19:52.114060+00:00",
+      "error": null,
+      "effective_url": "https://twse-regulation.twse.com.tw/TW/law/DAT06_print.aspx?FLCODE=FL007111&FLDATE=20240112&LSER=001",
+      "stderr": ""
+    },
+    {
+      "request": {
+        "filename": "twse_202603_faq.pdf",
+        "url": "https://twse-regulation.twse.com.tw/TW/GetFile.ashx?FileID=0000419880"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "size_bytes": 608463,
+      "sha256": "2162fdd7136abfb38351a1416f17088a96511d86942275a59f774512c24609a0",
+      "request_started_at": "2026-10-20T13:19:52.045225+00:00",
+      "observed_at": "2026-10-20T13:19:52.378766+00:00",
+      "error": null,
+      "effective_url": "https://twse-regulation.twse.com.tw/TW/GetFile.ashx?FileID=0000419880",
+      "stderr": ""
+    }
+  ],
+  "all_transport_passed": true,
+  "historical_pit_verified": false
+}

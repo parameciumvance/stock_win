@@ -1,0 +1,521 @@
+{
+  "status": "passed",
+  "parser": "lxml HTMLParser(encoding=utf-8); independent tree extraction",
+  "original_identities_verified": 122,
+  "annual_case_keys_verified": 47,
+  "earliest_retained_chronologies_verified": 47,
+  "board_documents_verified": 52,
+  "full_description_hashes_verified": 122,
+  "archive_checks": [
+    {
+      "path": "inputs/buyback_preflight_20261020/query.retrieved.zip",
+      "sha256": "83aa2987b1dcf9de2551d089284900ee0e6d48b15ccf155a20b3256c2d607be1",
+      "manifest_files": 6,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_preflight_20261020/originals.retrieved.zip",
+      "sha256": "787f43c6d873280d3f608d9c88d6b6da8d03781775a1344903a2ada770e7c742",
+      "manifest_files": 26,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_coverage_20261020/originals01.retrieved.zip",
+      "sha256": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7",
+      "manifest_files": 94,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_coverage_20261020/originals02.retrieved.zip",
+      "sha256": "ed55757fa5b02fbba62d1aa2efa549ffacc5623f9ca2e4238dc9c71739a30af0",
+      "manifest_files": 94,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_coverage_20261020/originals03.retrieved.zip",
+      "sha256": "b037cee9599aab374eccdc99836398399a00ed44dc3d5e5510477b4f4431e115",
+      "manifest_files": 94,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_coverage_20261020/originals04.retrieved.zip",
+      "sha256": "c5fc670bb2238d41240358d555e99fa281a2488fb3b328baa42518bd482f83f7",
+      "manifest_files": 79,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_coverage_20261020/recovery.retrieved.zip",
+      "sha256": "d1de39648248b9fd6542470dc62feeb4ecea0225c163091ede50469d20c7b076",
+      "manifest_files": 8,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_preflight_20261020/discovery.retrieved.zip",
+      "sha256": "c5493023ab2614e714249303cf8b3ba287c84803d558513fd355ec90ad818cf7",
+      "manifest_files": 15,
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "inputs/buyback_coverage_20261020/index.retrieved.zip",
+      "sha256": "0b9252b9ec6707c816a8603cdd685d30126ef71dfd88cfb9553d863b28000b63",
+      "manifest_files": 55,
+      "crc_and_manifest_verified": true
+    }
+  ],
+  "retained_failed_responses": [
+    {
+      "batch": "originals04",
+      "filename": "13_8011_20240322_1.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=162237&SPOKE_DATE=20240322&COMPANY_ID=8011",
+      "http_status": 502,
+      "exit_code": 0,
+      "sha256": "ef7298358784fa1119c8aa6d7ea819b2185d07bd41f1e63f7f46751dc7b5c77f"
+    }
+  ],
+  "separate_recovery_verified": true,
+  "raw_index_sha256": "c69c22cdba9012f6ae41cc4df5a95bfcc7cfd15541f004440c22ab3bddc06388",
+  "documents_sha256": "e51dc0c03e8fc6d516f6cf06eca20a0a38eb643eb7ebfa15814f9c499cbc1d1a",
+  "linked_cases_sha256": "20b6838e6727fb9a7edd6604005354df0d5256e914af0e7f7938b838f4bbb327",
+  "case_checks": [
+    {
+      "annual_row_number": 1,
+      "issuer": "1587",
+      "board_date": "2024-01-27",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:1587:2024-01-27:1",
+      "earliest_retained_datetime": "2024-01-27T11:50:52+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 2,
+      "issuer": "6472",
+      "board_date": "2024-03-07",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6472:2024-03-07:10",
+      "earliest_retained_datetime": "2024-03-07T21:14:02+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 3,
+      "issuer": "8011",
+      "board_date": "2024-03-08",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:8011:2024-03-08:5",
+      "earliest_retained_datetime": "2024-03-08T17:19:38+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 4,
+      "issuer": "3055",
+      "board_date": "2024-03-11",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3055:2024-03-11:5",
+      "earliest_retained_datetime": "2024-03-11T20:41:55+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 5,
+      "issuer": "6464",
+      "board_date": "2024-03-12",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6464:2024-03-12:2",
+      "earliest_retained_datetime": "2024-03-12T15:04:46+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 6,
+      "issuer": "1210",
+      "board_date": "2024-03-14",
+      "retained_versions": 2,
+      "earliest_retained_event_id": "M35:1210:2024-03-14:4",
+      "earliest_retained_datetime": "2024-03-14T17:30:23+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 7,
+      "issuer": "2762",
+      "board_date": "2024-03-18",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2762:2024-03-18:1",
+      "earliest_retained_datetime": "2024-03-18T17:50:27+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 8,
+      "issuer": "5469",
+      "board_date": "2024-03-27",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:5469:2024-03-27:4",
+      "earliest_retained_datetime": "2024-03-27T18:41:23+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 9,
+      "issuer": "8110",
+      "board_date": "2024-03-27",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:8110:2024-03-27:2",
+      "earliest_retained_datetime": "2024-03-27T17:20:15+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 10,
+      "issuer": "3714",
+      "board_date": "2024-04-10",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3714:2024-04-10:2",
+      "earliest_retained_datetime": "2024-04-10T15:05:07+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 11,
+      "issuer": "2436",
+      "board_date": "2024-04-16",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2436:2024-04-16:1",
+      "earliest_retained_datetime": "2024-04-16T15:17:57+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 12,
+      "issuer": "3049",
+      "board_date": "2024-04-30",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3049:2024-04-30:2",
+      "earliest_retained_datetime": "2024-04-30T17:09:46+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 13,
+      "issuer": "3062",
+      "board_date": "2024-05-10",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3062:2024-05-10:5",
+      "earliest_retained_datetime": "2024-05-10T16:31:17+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 14,
+      "issuer": "2330",
+      "board_date": "2024-06-05",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2330:2024-06-05:7",
+      "earliest_retained_datetime": "2024-06-05T20:40:39+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 15,
+      "issuer": "6655",
+      "board_date": "2024-07-04",
+      "retained_versions": 3,
+      "earliest_retained_event_id": "M35:6655:2024-07-04:1",
+      "earliest_retained_datetime": "2024-07-04T15:47:11+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 16,
+      "issuer": "2436",
+      "board_date": "2024-08-07",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2436:2024-08-07:2",
+      "earliest_retained_datetime": "2024-08-07T15:35:14+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 17,
+      "issuer": "3708",
+      "board_date": "2024-08-08",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3708:2024-08-08:1",
+      "earliest_retained_datetime": "2024-08-08T20:36:27+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 18,
+      "issuer": "3058",
+      "board_date": "2024-08-09",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3058:2024-08-09:1",
+      "earliest_retained_datetime": "2024-08-09T18:51:20+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 19,
+      "issuer": "3062",
+      "board_date": "2024-08-09",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3062:2024-08-09:2",
+      "earliest_retained_datetime": "2024-08-09T16:04:31+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 20,
+      "issuer": "1806",
+      "board_date": "2024-08-13",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:1806:2024-08-13:2",
+      "earliest_retained_datetime": "2024-08-13T19:15:25+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 21,
+      "issuer": "1626",
+      "board_date": "2024-08-14",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:1626:2024-08-14:2",
+      "earliest_retained_datetime": "2024-08-14T16:21:41+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 22,
+      "issuer": "2030",
+      "board_date": "2024-08-14",
+      "retained_versions": 2,
+      "earliest_retained_event_id": "M35:2030:2024-08-14:1",
+      "earliest_retained_datetime": "2024-08-14T15:15:58+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 23,
+      "issuer": "2850",
+      "board_date": "2024-08-14",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2850:2024-08-14:6",
+      "earliest_retained_datetime": "2024-08-14T18:36:50+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 24,
+      "issuer": "1338",
+      "board_date": "2024-08-15",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:1338:2024-08-15:1",
+      "earliest_retained_datetime": "2024-08-15T16:38:26+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 25,
+      "issuer": "2762",
+      "board_date": "2024-08-27",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2762:2024-08-27:4",
+      "earliest_retained_datetime": "2024-08-27T19:09:39+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 26,
+      "issuer": "2352",
+      "board_date": "2024-08-30",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2352:2024-08-30:5",
+      "earliest_retained_datetime": "2024-08-30T14:06:52+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 27,
+      "issuer": "4190",
+      "board_date": "2024-10-08",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:4190:2024-10-08:3",
+      "earliest_retained_datetime": "2024-10-08T16:59:56+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 28,
+      "issuer": "3051",
+      "board_date": "2024-10-17",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3051:2024-10-17:1",
+      "earliest_retained_datetime": "2024-10-17T16:06:48+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 29,
+      "issuer": "2467",
+      "board_date": "2024-10-31",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2467:2024-10-31:3",
+      "earliest_retained_datetime": "2024-10-31T16:14:37+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 30,
+      "issuer": "2023",
+      "board_date": "2024-11-05",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2023:2024-11-05:2",
+      "earliest_retained_datetime": "2024-11-05T16:04:08+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 31,
+      "issuer": "2762",
+      "board_date": "2024-11-12",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2762:2024-11-12:5",
+      "earliest_retained_datetime": "2024-11-12T17:29:29+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 32,
+      "issuer": "3062",
+      "board_date": "2024-11-13",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3062:2024-11-13:4",
+      "earliest_retained_datetime": "2024-11-13T23:22:36+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 33,
+      "issuer": "6952",
+      "board_date": "2024-11-22",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6952:2024-11-22:1",
+      "earliest_retained_datetime": "2024-11-22T14:08:43+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 34,
+      "issuer": "2023",
+      "board_date": "2024-12-04",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2023:2024-12-04:3",
+      "earliest_retained_datetime": "2024-12-04T16:54:18+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 35,
+      "issuer": "6108",
+      "board_date": "2024-12-13",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6108:2024-12-13:1",
+      "earliest_retained_datetime": "2024-12-13T14:30:14+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 36,
+      "issuer": "6589",
+      "board_date": "2024-12-16",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6589:2024-12-16:1",
+      "earliest_retained_datetime": "2024-12-16T15:40:31+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 37,
+      "issuer": "6869",
+      "board_date": "2024-12-16",
+      "retained_versions": 2,
+      "earliest_retained_event_id": "M35:6869:2024-12-16:3",
+      "earliest_retained_datetime": "2024-12-16T14:44:40+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 38,
+      "issuer": "2030",
+      "board_date": "2024-12-18",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2030:2024-12-18:1",
+      "earliest_retained_datetime": "2024-12-18T16:09:58+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 39,
+      "issuer": "4977",
+      "board_date": "2024-12-19",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:4977:2024-12-19:1",
+      "earliest_retained_datetime": "2024-12-19T15:38:51+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 40,
+      "issuer": "5222",
+      "board_date": "2024-12-19",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:5222:2024-12-19:1",
+      "earliest_retained_datetime": "2024-12-19T14:31:57+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 41,
+      "issuer": "2474",
+      "board_date": "2024-12-20",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2474:2024-12-20:1",
+      "earliest_retained_datetime": "2024-12-20T17:29:25+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 42,
+      "issuer": "2897",
+      "board_date": "2024-12-25",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2897:2024-12-25:1",
+      "earliest_retained_datetime": "2024-12-25T19:25:10+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 43,
+      "issuer": "1563",
+      "board_date": "2024-12-26",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:1563:2024-12-26:1",
+      "earliest_retained_datetime": "2024-12-26T16:17:59+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 44,
+      "issuer": "3716",
+      "board_date": "2024-12-26",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:3716:2024-12-26:1",
+      "earliest_retained_datetime": "2024-12-26T18:13:52+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 45,
+      "issuer": "6191",
+      "board_date": "2024-12-26",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6191:2024-12-26:3",
+      "earliest_retained_datetime": "2024-12-26T15:13:25+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 46,
+      "issuer": "6742",
+      "board_date": "2024-12-26",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:6742:2024-12-26:1",
+      "earliest_retained_datetime": "2024-12-26T16:39:40+08:00",
+      "first_ever_publication_verified": false
+    },
+    {
+      "annual_row_number": 47,
+      "issuer": "2023",
+      "board_date": "2024-12-31",
+      "retained_versions": 1,
+      "earliest_retained_event_id": "M35:2023:2024-12-31:2",
+      "earliest_retained_datetime": "2024-12-31T16:49:49+08:00",
+      "first_ever_publication_verified": false
+    }
+  ],
+  "manual_image_review": {
+    "source_pdf_sha256": "aa6915b877d0af63a9a4a921133bddd25954b31b967709d54e7a09b92ed7c444",
+    "pdf_page_number": 13,
+    "printed_slide_number": 12,
+    "embedded_image_number": 5,
+    "image_png_sha256": "af90e1236fe050f3cebb3c649773a1df71676581d38a909d7d0c1ab151ec88eb",
+    "visual_review_method": "pypdf embedded image extraction to /tmp, then view_image; PDF pages 13-15 inspected",
+    "exact_clause": "重大訊息如已發布即無法修改，如欲更正請重新發布，並於主旨敘明為「更正」。",
+    "location": "法人說明會申報作業，作業說明第3點",
+    "scope": "TWSE 2017年3月法說會申報畫面說明；不是2024庫藏股全部原文不可刪改或全集保證",
+    "adjacent_exception": "第5點允許公司自行修改已確認法說會影音資訊連結，不能混同為重大訊息原文"
+  },
+  "no_market_outcomes_read": true,
+  "historical_pit_verified": false,
+  "first_publication_time_verified": false,
+  "source_gate_passed": false,
+  "limitation": "Confirms saved raw-source/replay identities and earliest retained chronology only; no first-ever or historical completeness guarantee."
+}

@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/buyback_coverage_20261020/originals01.zip",
+  "sha256": "51c08dc7abb3544d82bc1262b945b56610d9dbbda2949e51ba5a68abd01345c7",
+  "manifest_files": 94,
+  "created_at": "2026-10-20T13:21:42.266976+00:00",
+  "retrieved": "inputs/buyback_coverage_20261020/originals01.retrieved.zip",
+  "transfer_receipt": "inputs/buyback_coverage_20261020/originals01_transfer.json",
+  "backup_label": "buyback_coverage_20261020_originals01"
+}
