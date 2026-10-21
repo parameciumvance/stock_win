@@ -1,0 +1,125 @@
+{
+  "protocol_sha256": "c4a26e04e28206c43532c2e2b5f0aad7ec06f9cbee75dd98257c5733e0af693c",
+  "selection_sha256": "9c8e890c324184a4c5df768b1b9715bc95b1ce771d6236bc0a39e2895ad08f10",
+  "request_config_sha256": "b380f99801c019dc9b02a8c5f77d3598c2a9e9094647cab9bb6f8fe2f8100086",
+  "archive": {
+    "sha256": "8ffff95f73a323b057715752baf0a26621ad8208ec55e5e0ff5b5ab17390b35e",
+    "retrieved": "inputs/cash_merger_current_followthrough_20261022/notices.retrieved.zip",
+    "manifest_files": 12,
+    "package_sha256": "bfcc2aa9a98cce288e60d58fca2abb32ca73aacd148a3e1e0812891228e78bfe",
+    "transfer_sha256": "3522b6c5475c399835d782ad8c3907be1a4250ac12a3ffd58cf6f16bc0bc722b",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "index_archive": {
+    "sha256": "8b5174da2086dbb7de6f02b884f0c858e958abbfc5581f7c18d0ecf7b6c270ea",
+    "retrieved": "inputs/cash_merger_current_20261021/index.retrieved.zip",
+    "manifest_files": 9,
+    "package_sha256": "a0893e08cced9e1518d9dd3fd187088d2368fb6e5f19393fbb8f43cea5c767d6",
+    "transfer_sha256": "2483db5d87bb105ef5f072ff4ab8e339a34705c5cc5fdd8a8ce0da81b8d39d2e",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "scope": "Independent three-original identity, meeting-field difference and human source-anchor verification; no automatic legal interpretation.",
+  "auditor_script_sha256": "785d327930137372bd930cda6f9d8ea6275d788b5f4372e69bcbc6b0f421f548",
+  "semantic_annotation_sha256": "1963a3418b6aad25ee3444f4a655b76eed4d657db1a3fd9e1a4057dd8910317f",
+  "semantic_interpretation_is_automated": false,
+  "all_source_anchors_verified": true,
+  "document_count": 3,
+  "all_original_identities_verified": true,
+  "documents": [
+    {
+      "event_id": "M17:6674:2026-09-21:155000:1",
+      "pointer_identity": "6674:2026-09-21:155000:1",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-21T15:50:00+08:00",
+      "reported_category": "M17",
+      "body_sha256": "241cca448d648834419b938ab97cdb8d2b6cee32d9d94a814b78165185d8948a",
+      "description_sha256": "95449b0dabe4938bb9dcd79d37ab6d9d7e95d4b9f83253a05e62e8fa9ccb7d69",
+      "pointers": [
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "css/css2.css"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "js/mops2.js"
+        }
+      ],
+      "metadata_identity_verified": true,
+      "filename": "meeting_amendment_6674_20260921.html",
+      "source_member": "raw/meeting_amendment_6674_20260921.html"
+    },
+    {
+      "event_id": "M17:6674:2026-09-18:202533:4",
+      "pointer_identity": "6674:2026-09-18:202533:4",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T20:25:33+08:00",
+      "reported_category": "M17",
+      "body_sha256": "3a8f2f5b366a30355d5da16d16f0c1040824601152f1116ced73ef57699103e0",
+      "description_sha256": "a5236952481c38d1171b4ecf9a419d09612d536356b575c92a99310b0c932399",
+      "pointers": [
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "css/css2.css"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "js/mops2.js"
+        }
+      ],
+      "metadata_identity_verified": true,
+      "filename": "meeting_original_6674_20260918.html",
+      "source_member": "raw/meeting_original_6674_20260918.html"
+    },
+    {
+      "event_id": "M99:6674:2026-09-18:194028:2",
+      "pointer_identity": "6674:2026-09-18:194028:2",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T19:40:28+08:00",
+      "reported_category": "M99",
+      "body_sha256": "52f92df98a1e560c243ae8906565e5baa7f63142eb1581b08db3c94420b2cdba",
+      "description_sha256": "103d55fa2eb9665ac39aec8ee57003f16a3ddd42f4e3cb89aa60995543290e20",
+      "pointers": [
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "css/css2.css"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "js/mops2.js"
+        }
+      ],
+      "metadata_identity_verified": true,
+      "filename": "delisting_proposal_6674_20260918.html",
+      "source_member": "raw/delisting_proposal_6674_20260918.html"
+    }
+  ],
+  "meeting_comparison": {
+    "changed_numbered_fields": [
+      3
+    ],
+    "venue_only_change": true,
+    "shareholder_meeting_bookclosure_is_cash_record_date": false
+  },
+  "only_saved_css_js_pointers": true,
+  "saved_pdf_or_issuer_IR_pointer_count": 0,
+  "no_attachment_pointer_does_not_prove_contract_unobtainable": true,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "current_tradability_verified": false,
+  "cash_entitlement_record_date_verified": false,
+  "shareholder_approval_observed": false,
+  "final_delisting_date_verified": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false
+}

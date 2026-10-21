@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-21T22:33:03.177087+00:00",
+  "prior_index_saved_requests": 2,
+  "new_saved_requests": 6,
+  "combined_discovery_requests": 8,
+  "HTTP200_curl0": 8,
+  "automatic_retries": 0,
+  "manifest_members_this_phase": 33,
+  "source_archives": {
+    "notices_package.json": "8ffff95f73a323b057715752baf0a26621ad8208ec55e5e0ff5b5ab17390b35e",
+    "ebook_entry_package.json": "522cc8753d9ef9c0a8444f6723852ffad4d69a2266ebb553421b2bf3025f8ced",
+    "ebook_form_package.json": "22c703e01eba0fc056718079a2838ca518ab8b90ac5354536b6c1f22667c7720",
+    "ebook_routes_package.json": "23421eaf58b9811fc06a16506886864aa2f7ed1dd1b2ace5915d54e60135bdc0"
+  },
+  "contract_downloaded": false,
+  "official_company_year_form_verified": true,
+  "new_retrieval_budget_explicit": {
+    "old_discovery": 8,
+    "new_max": 4,
+    "cumulative_max": 12
+  },
+  "new_market_quote_requests": 0,
+  "manual_download_requests": 0
+}

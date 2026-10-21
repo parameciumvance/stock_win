@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-10-21T22:25:29.619356+00:00",
+  "protocol_sha256": "c4a26e04e28206c43532c2e2b5f0aad7ec06f9cbee75dd98257c5733e0af693c",
+  "path": "configs/cash_merger_current_followthrough_ebook_entry_sources_20261022.json",
+  "sha256": "880edd6be0ce50f5d1acf2e121c019c6ccb30c9597c96469c81ce4323a9bec71",
+  "requests": 1,
+  "purpose": "Discover the declared official electronic-book query form for the same6674Nov9meeting; no guessed API/PDF path.",
+  "evidence": [
+    {
+      "archive": "inputs/buyback_preflight_20261020/sources.retrieved.zip",
+      "archive_sha256": "a010fff003385d806552dc27b7a934b6dcf3b524839fb7580a8c6fe8ee3ef95d",
+      "member": "raw/legacy_basic.html",
+      "body_sha256": "3181c6fc0865e890095c14075ab9a4a0d76ac0a605c94d0440d69bdf7eef2891",
+      "line": 47,
+      "literal_action": "document.fh.action='/mops/web/autoAction';document.fh.submit();",
+      "form_hidden_fields_preserved": true,
+      "only_query_value": "電子書"
+    }
+  ],
+  "spent_before": 5,
+  "combined_spent_after_if_attempted": 6,
+  "combined_ceiling": 8,
+  "unspent_after": 2
+}

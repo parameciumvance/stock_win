@@ -1,0 +1,219 @@
+{
+  "scope": "Saved UI route/form discovery evidence only; no new company/year query, attachment or contract qualification.",
+  "auditor_script_sha256": "d1b8ee037a49f41aa2b1f5a443572e3239692352910c6a746323006a875f5405",
+  "protocol_sha256": "c4a26e04e28206c43532c2e2b5f0aad7ec06f9cbee75dd98257c5733e0af693c",
+  "discovery_pages": [
+    {
+      "batch": "ebook_entry",
+      "member": "raw/official_ebook_entry.html",
+      "body_sha256": "55ded9da2d973e43f85a101beb43e09d383b8384ba0921773f8cfb6f39f31cd0",
+      "archive": {
+        "sha256": "522cc8753d9ef9c0a8444f6723852ffad4d69a2266ebb553421b2bf3025f8ced",
+        "retrieved": "inputs/cash_merger_current_followthrough_20261022/ebook_entry.retrieved.zip",
+        "manifest_files": 7,
+        "package_sha256": "e259a3ef5b7d3fcce75b74f8aa124b52c58753a9bddd1838df50e00bdbb2b5a7",
+        "transfer_sha256": "26dbe0e1b32050fce30246083f45b78ff673cf2586f6b1693dbb2b70d611dbbe",
+        "crc_manifest_verified": true,
+        "roundtrip_verified": true
+      },
+      "request": {
+        "filename": "official_ebook_entry.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/autoAction",
+        "method": "POST",
+        "data": "firstin=1&TYPEK=all&step=1&co_id=&funcName=t35sb01_q1&searchtype=&inpuType=keyword&auto-more=&keycon=&keyword=%E9%9B%BB%E5%AD%90%E6%9B%B8"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "request_started_at": "2026-10-21T22:25:44.126117+00:00",
+      "observed_at": "2026-10-21T22:25:44.347282+00:00",
+      "batch_freeze_sha256": "4a95b0c865e7b2de6058d40c3350b4695d4242ba2bbf4216b18fd614eed76b99"
+    },
+    {
+      "batch": "ebook_routes",
+      "member": "raw/official_ebook_routes.html",
+      "body_sha256": "fe979b67bf9bc2ecf92a6423fdb0241946134db83a0d3523e57fbb9666cc5ab0",
+      "archive": {
+        "sha256": "23421eaf58b9811fc06a16506886864aa2f7ed1dd1b2ace5915d54e60135bdc0",
+        "retrieved": "inputs/cash_merger_current_followthrough_20261022/ebook_routes.retrieved.zip",
+        "manifest_files": 7,
+        "package_sha256": "959ecae8e88a348aa1c2acb7d6d876ef45064483dbae8b2c1890af799f11a4af",
+        "transfer_sha256": "40e90f12fbea3fe61f8bf1cfb750e536f57880bc57c769df3e7cff795c19fdb7",
+        "crc_manifest_verified": true,
+        "roundtrip_verified": true
+      },
+      "request": {
+        "filename": "official_ebook_routes.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t146sb08",
+        "method": "POST",
+        "data": "step=1&run=&firstin=Y&keyword=%E9%9B%BB%E5%AD%90%E6%9B%B8"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "request_started_at": "2026-10-21T22:27:01.623946+00:00",
+      "observed_at": "2026-10-21T22:27:01.929089+00:00",
+      "batch_freeze_sha256": "30da4e151350d2cb07d7736513db969f34c0059edb9f9cd62ce92f682dd74b3a"
+    },
+    {
+      "batch": "ebook_form",
+      "member": "raw/official_meeting_book_form.html",
+      "body_sha256": "971a2e2bf71415a9a31321ba7498e51e4c93b427bd1c9599c6d673c449a656de",
+      "archive": {
+        "sha256": "22c703e01eba0fc056718079a2838ca518ab8b90ac5354536b6c1f22667c7720",
+        "retrieved": "inputs/cash_merger_current_followthrough_20261022/ebook_form.retrieved.zip",
+        "manifest_files": 7,
+        "package_sha256": "992e5c0b57b5ef1550f88c946813147c7533fb5b2136cae55e3ce6b755654fcd",
+        "transfer_sha256": "b704013869836326423db857d17b1bd287833354f63c90032b9de8a6597b6c80",
+        "crc_manifest_verified": true,
+        "roundtrip_verified": true
+      },
+      "request": {
+        "filename": "official_meeting_book_form.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t57sb01_q5"
+      },
+      "http_status": 200,
+      "exit_code": 0,
+      "request_started_at": "2026-10-21T22:28:03.217325+00:00",
+      "observed_at": "2026-10-21T22:28:03.479279+00:00",
+      "batch_freeze_sha256": "2b5ad372a05b07d3ddd0030050479d4f711870b00dc9414f6dfa4278accb0b1d"
+    }
+  ],
+  "legacy_entry_evidence_binding_verified": true,
+  "legacy_parent_archive_reverified_by_this_stage": false,
+  "legacy_parent_verification_scope": "Existing frozen source proof retained; this stage checks its exact archive/member/body binding.",
+  "relay_form": {
+    "name": "fm1",
+    "action": "/mops/web/t146sb08",
+    "method": "POST",
+    "fields": [
+      {
+        "name": "step",
+        "value": "1",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "run",
+        "value": "",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "firstin",
+        "value": "Y",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "keyword",
+        "value": "電子書",
+        "value_attribute_present": true,
+        "type": "hidden"
+      }
+    ],
+    "declared_submit": "document.fm1.submit();",
+    "javascript_executed": false
+  },
+  "route_anchor": {
+    "text": "年報及股東會相關資料(含存託憑證資料)",
+    "literal_href": "t57sb01_q5",
+    "resolved_url": "https://mopsov.twse.com.tw/mops/web/t57sb01_q5"
+  },
+  "meeting_book_form": {
+    "name": "form1",
+    "action": "/mops/web/ajax_t57sb01_q5",
+    "method": "POST",
+    "fields": [
+      {
+        "name": "step",
+        "value": "1",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "firstin",
+        "value": "ture",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "off",
+        "value": "1",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "TYPEK",
+        "value": "all",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "keyword4",
+        "value": "",
+        "value_attribute_present": false,
+        "type": "hidden"
+      },
+      {
+        "name": "code1",
+        "value": "",
+        "value_attribute_present": false,
+        "type": "hidden"
+      },
+      {
+        "name": "TYPEK2",
+        "value": "",
+        "value_attribute_present": false,
+        "type": "hidden"
+      },
+      {
+        "name": "checkbtn",
+        "value": "",
+        "value_attribute_present": false,
+        "type": "hidden"
+      },
+      {
+        "name": "queryName",
+        "value": "co_id",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "inpuType",
+        "value": "co_id",
+        "value_attribute_present": true,
+        "type": "hidden"
+      },
+      {
+        "name": "co_id",
+        "value": "",
+        "value_attribute_present": true,
+        "type": "text"
+      },
+      {
+        "name": "year",
+        "value": "",
+        "value_attribute_present": true,
+        "type": "text"
+      }
+    ],
+    "declared_firstin_default": "ture",
+    "declared_firstin_after_doAction": "1",
+    "declared_dispatch_function": "t57sb01_q5",
+    "javascript_executed": false
+  },
+  "company_year_query_performed": false,
+  "document_link_selected": false,
+  "contract_acquired": false,
+  "contractual_cash_claim_verified": false,
+  "completed_current_and_followthrough_requests": 8,
+  "old_combined_request_ceiling": 8,
+  "old_request_budget_remaining": 0,
+  "further_company_year_query_requires_separately_frozen_protocol_and_budget": true,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false
+}

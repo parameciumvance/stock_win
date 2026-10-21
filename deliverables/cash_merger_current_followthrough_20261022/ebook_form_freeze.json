@@ -1,0 +1,23 @@
+{
+  "frozen_at": "2026-10-21T22:28:03.070639+00:00",
+  "protocol_sha256": "c4a26e04e28206c43532c2e2b5f0aad7ec06f9cbee75dd98257c5733e0af693c",
+  "path": "configs/cash_merger_current_followthrough_ebook_form_sources_20261022.json",
+  "sha256": "1e742b093ad153bd8bd2d60c0740930acdbaed8a69398a6a4d7301b29e5e132e",
+  "requests": 1,
+  "evidence": [
+    {
+      "archive": "inputs/cash_merger_current_followthrough_20261022/ebook_routes.retrieved.zip",
+      "archive_sha256": "23421eaf58b9811fc06a16506886864aa2f7ed1dd1b2ace5915d54e60135bdc0",
+      "member": "raw/official_ebook_routes.html",
+      "body_sha256": "fe979b67bf9bc2ecf92a6423fdb0241946134db83a0d3523e57fbb9666cc5ab0",
+      "literal_href": "t57sb01_q5",
+      "anchor_text": "年報及股東會相關資料(含存託憑證資料)",
+      "url_resolution": "Standard relative-link resolution on the same verified HTTPS origin; no query fields invented"
+    }
+  ],
+  "purpose": "Inspect exact official annual/shareholder-meeting document query form to identify actual access requirements",
+  "spent_before": 7,
+  "combined_spent_after_if_attempted": 8,
+  "combined_ceiling": 8,
+  "unspent_after": 0
+}

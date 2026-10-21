@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/cash_merger_current_followthrough_20261022/ebook_form.zip",
+  "sha256": "22c703e01eba0fc056718079a2838ca518ab8b90ac5354536b6c1f22667c7720",
+  "manifest_files": 7,
+  "created_at": "2026-10-21T22:28:03.738557+00:00",
+  "retrieved": "inputs/cash_merger_current_followthrough_20261022/ebook_form.retrieved.zip",
+  "transfer_receipt": "inputs/cash_merger_current_followthrough_20261022/ebook_form_transfer.json",
+  "backup_label": "cash_merger_current_followthrough_20261022_ebook_form"
+}

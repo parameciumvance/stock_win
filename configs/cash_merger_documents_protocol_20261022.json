@@ -1,0 +1,122 @@
+{
+  "status": "frozen_before_company_year_document_query_IO",
+  "scope": "A new bounded verified-document retrieval phase for the same 6674/2324 cash-share-conversion case, after the completed eight-request source discovery. This is an explicit new four-request allocation, not a modification of either old discovery cap or a model/research parameter change.",
+  "phase_date_taipei": "2026-10-22",
+  "candidate": "cash_merger_statutory_cash_share_conversion",
+  "target_issuer": "6674",
+  "buyer_issuer": "2324",
+  "reason_to_continue": "Discovery reached an actual archived official company/year meeting-book form. Submit that demonstrated form and retrieve its actual document pointers so qualification can reach a concrete contract conclusion instead of stopping because of a self-imposed discovery checkpoint.",
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/buyback_coverage_20261020/checkpoint.json": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+    "deliverables/buyback_probe_20261020/checkpoint.json": "826ee004fd85d4438be317a39c0e20215c0f281c845631906ed0e1f4252d372e",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/frontier_20261020/checkpoint.json": "a8c7083ade2b815df9bc16d3f60bc710b4eaaff7a2e951badb036f9df90f04fb",
+    "deliverables/cash_merger_20261021/checkpoint.json": "6640717e5aa9f14cff7ceecebc7eab5a933eef9ba130a66b8766df0aa73e9599",
+    "deliverables/cash_merger_census_20261021/checkpoint.json": "cdb2fe2f9e87611f694b29d6bcf6c2214a3a943f2ad751370f613c75eafa6adf",
+    "deliverables/cash_merger_current_20261021/checkpoint.json": "50de82617e8b10802e9807462f894f75751d9a59b97f52eafa8e879912b9edb2",
+    "deliverables/cash_merger_current_followthrough_20261022/checkpoint.json": "75e28620609106a198607692eecdb71c8473bbb6af2812e0152b83fa30beaaf4"
+  },
+  "required_parent_checkpoint": "deliverables/cash_merger_current_followthrough_20261022/checkpoint.json",
+  "release_rule": "Pin and verify the completed followthrough checkpoint and all prior frozen members, then freeze this new protocol before IO. A null checkpoint blocks acquisition. No old phase or old adaptive branch may run concurrently with this new phase.",
+  "retired_discovery": "The two-request current index and six-request followthrough are closed at their original combined eight requests. Their protocols/freezes/archives stay byte-identical; do not spend further requests through either old branch.",
+  "source_ledger": {
+    "completed_saved_requests": 8,
+    "new_saved_request_ceiling": 4,
+    "combined_request_ceiling": 12,
+    "old_discovery_phases_retired": true,
+    "prior_batches": [
+      {
+        "out": "deliverables/cash_merger_current_20261021",
+        "batch": "index",
+        "archive_sha256": "8b5174da2086dbb7de6f02b884f0c858e958abbfc5581f7c18d0ecf7b6c270ea",
+        "requests": 2
+      },
+      {
+        "out": "deliverables/cash_merger_current_followthrough_20261022",
+        "batch": "notices",
+        "archive_sha256": "8ffff95f73a323b057715752baf0a26621ad8208ec55e5e0ff5b5ab17390b35e",
+        "requests": 3
+      },
+      {
+        "out": "deliverables/cash_merger_current_followthrough_20261022",
+        "batch": "ebook_entry",
+        "archive_sha256": "522cc8753d9ef9c0a8444f6723852ffad4d69a2266ebb553421b2bf3025f8ced",
+        "requests": 1
+      },
+      {
+        "out": "deliverables/cash_merger_current_followthrough_20261022",
+        "batch": "ebook_routes",
+        "archive_sha256": "23421eaf58b9811fc06a16506886864aa2f7ed1dd1b2ace5915d54e60135bdc0",
+        "requests": 1
+      },
+      {
+        "out": "deliverables/cash_merger_current_followthrough_20261022",
+        "batch": "ebook_form",
+        "archive_sha256": "22c703e01eba0fc056718079a2838ca518ab8b90ac5354536b6c1f22667c7720",
+        "requests": 1
+      }
+    ],
+    "meaning": "Counts are saved requests including failed transport outcomes, not successful pages. Reconcile the five archived prior batches before spending this new finite allocation."
+  },
+  "source_form": {
+    "out": "deliverables/cash_merger_current_followthrough_20261022",
+    "batch": "ebook_form",
+    "archive_sha256": "22c703e01eba0fc056718079a2838ca518ab8b90ac5354536b6c1f22667c7720",
+    "member": "raw/official_meeting_book_form.html",
+    "body_sha256": "971a2e2bf71415a9a31321ba7498e51e4c93b427bd1c9599c6d673c449a656de"
+  },
+  "form_declaration_evidence": {
+    "form_name": "form1",
+    "method": "post",
+    "action": "/mops/web/ajax_t57sb01_q5",
+    "line_references": [
+      "478: form1 action and POST method",
+      "496-505: complete hidden input fields",
+      "512 and525: company/year inputs",
+      "541 and624-637: query button/doAction firstin=1 and declared action"
+    ],
+    "raw_firstin_literal": "ture",
+    "submitted_firstin_literal": "1",
+    "reason": "The archived doAction body explicitly sets document.form1.firstin.value to1 before the query. Preserve the raw source spelling; no silent correction and no JavaScript execution.",
+    "book_type_filter": "No book-type input is present in the archived form. Submit no invented type/date filter and preserve every returned row/type."
+  },
+  "selection_manifest": {
+    "path": "deliverables/cash_merger_documents_20261022/selection.json",
+    "sha256": "fa934e0c4a6f01b3bcc02c9e14d6e3ab43cf2cb41a3e62a8736ea83a7129c93c"
+  },
+  "max_saved_requests": 4,
+  "max_source_batches": 4,
+  "workers": 2,
+  "automatic_retries": 0,
+  "source_lock": "inputs/cash_merger_documents_20261022/acquisition.lock",
+  "transport": "native_public_sources.py; verified HTTPS; two workers; shared phase lock; parent serializes prior/current phases",
+  "batches": {
+    "query": {
+      "path": "configs/cash_merger_documents_query_sources_20261022.json",
+      "sha256": "40ff2312427df408218694973e6dccfa69601e0b39553b54f7dc664538a902d5",
+      "requests": 1
+    }
+  },
+  "source_batch": "query",
+  "remaining_after_query": 3,
+  "query_rule": "Only issuer6674 andROCyear115 in the already archived official form. Keep all returned book types, fields, titles, filing dates, versions, filenames, forms and pointers. A200orUIorordinary annualreport is not a merger-contract/source-gate pass.",
+  "followup_rule": "At most three additional saved requests, separately frozen after query/archive/readback. Follow only exact actual official document/form pointers returned by this known query chain; no arbitrary new search, guessed API/domain/date/PDF or automatic foreign-host fetch. Each request binds its parent archive/member/SHA and exact form or pointer.",
+  "qualification_rule": "Use actual target/date/title/terms to identify the2026-11-09 extraordinary-meeting package or executed contract and its revisions, preserving nonmatching rows. Never infer absence or completion from an empty query or classify a document solely from its filename.",
+  "on_verified_document": "Parse the whole saved document with original page references, verify issuer/meeting/contract identity and quote exact consideration/conditions/termination/long-stop/payment and amendment clauses. Continue finite offline rights/cash-clock qualification; no price requests or return calculation.",
+  "on_no_document_or_exhaustion": "After this fixed four-request phase, preserve actual access/schema/no-result/identity/contract gaps and decide the evidence-qualified offline path. No silent cap extension, repeated manual-download request or claim that a missing form response proves no public document exists.",
+  "temporal_rule": "Record actual2026-10-22 acquisition/sealing timestamps. The prior M00 query ended2026-10-21; these observations never establish earlier PIT availability or a signal before an already missed cutoff.",
+  "manual_download_requests": 0,
+  "new_price_requests": 0,
+  "price_return_calculations": 0,
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "trade_authorized": false
+}

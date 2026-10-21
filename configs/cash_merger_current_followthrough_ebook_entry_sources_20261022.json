@@ -1,0 +1,14 @@
+{
+  "output_directory": "inputs/cash_merger_current_followthrough_20261022/raw_ebook_entry",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "official_ebook_entry.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/autoAction",
+      "method": "POST",
+      "data": "firstin=1&TYPEK=all&step=1&co_id=&funcName=t35sb01_q1&searchtype=&inpuType=keyword&auto-more=&keycon=&keyword=%E9%9B%BB%E5%AD%90%E6%9B%B8"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "annotation_kind": "Independent human reading ofexactlythreearchivednotices;literalanchorsandfieldcomparisonaremachineverified,interpretationisnotautomatic.",
+  "source_archive_sha256": "8ffff95f73a323b057715752baf0a26621ad8208ec55e5e0ff5b5ab17390b35e",
+  "source_index_archive_sha256": "8b5174da2086dbb7de6f02b884f0c858e958abbfc5581f7c18d0ecf7b6c270ea",
+  "selection_sha256": "9c8e890c324184a4c5df768b1b9715bc95b1ce771d6236bc0a39e2895ad08f10",
+  "rows": [
+    {
+      "event_id": "M17:6674:2026-09-21:155000:1",
+      "body_sha256": "241cca448d648834419b938ab97cdb8d2b6cee32d9d94a814b78165185d8948a",
+      "description_sha256": "95449b0dabe4938bb9dcd79d37ab6d9d7e95d4b9f83253a05e62e8fa9ccb7d69",
+      "deal_id": "CASH_2324_6674_20260918",
+      "disposition": "meeting_venue_amendment",
+      "anchors": [
+        "股東臨時會召開日期：115/11/09",
+        "股東臨時會召開地點：新竹縣竹北市台元一街三號2樓(台元科技園區三期會館多功能會議室)",
+        "停止過戶起始日期：115/10/11",
+        "停止過戶截止日期：115/11/09",
+        "其行使期間自民國115年10月25日至115年11月06日止。"
+      ],
+      "meeting_date": "2026-11-09",
+      "meeting_venue": "新竹縣竹北市台元一街三號2樓(台元科技園區三期會館多功能會議室)",
+      "voting_bookclosure_start": "2026-10-11",
+      "voting_bookclosure_end": "2026-11-09",
+      "electronic_voting_start": "2026-10-25",
+      "electronic_voting_end": "2026-11-06",
+      "meaning": "Numbered description comparison against9/18original changesonlyfield3venue;agenda,meetingdate,bookclosureande-votingintervalsunchanged.",
+      "limitation": "Meeting bookclosure is a voting/meeting-registration arrangement;it doesnot establish cash-conversion entitlement,last-trading orcashrecorddate."
+    },
+    {
+      "event_id": "M17:6674:2026-09-18:202533:4",
+      "body_sha256": "3a8f2f5b366a30355d5da16d16f0c1040824601152f1116ced73ef57699103e0",
+      "description_sha256": "a5236952481c38d1171b4ecf9a419d09612d536356b575c92a99310b0c932399",
+      "deal_id": "CASH_2324_6674_20260918",
+      "disposition": "original_meeting_notice",
+      "anchors": [
+        "股東臨時會召開日期：115/11/09",
+        "股東臨時會召開地點：新竹縣竹北市台元一街六號10樓會議室",
+        "本公司擬與仁寶電腦工業股份有限公司進行股份轉換案",
+        "本公司擬申請終止上市及停止股票公開發行案",
+        "停止過戶起始日期：115/10/11",
+        "停止過戶截止日期：115/11/09"
+      ],
+      "meeting_date": "2026-11-09",
+      "superseded_venue": "新竹縣竹北市台元一街六號10樓會議室",
+      "meaning": "Call and agenda forfutureEGM;not an approvalresolution,conversioncashrecorddate orpaymentannouncement.",
+      "limitation": "Originalmeetingvenue supersededby9/21notice;retainbothversionsratherthanreplaceinitialbytes."
+    },
+    {
+      "event_id": "M99:6674:2026-09-18:194028:2",
+      "body_sha256": "52f92df98a1e560c243ae8906565e5baa7f63142eb1581b08db3c94420b2cdba",
+      "description_sha256": "103d55fa2eb9665ac39aec8ee57003f16a3ddd42f4e3cb89aa60995543290e20",
+      "deal_id": "CASH_2324_6674_20260918",
+      "disposition": "conditional_delisting_proposal",
+      "anchors": [
+        "支付本公司普通股每股新台幣18.5元之現金對價",
+        "股份轉換基準日（暫定為民國115年12月31日）",
+        "上述股份轉換案及終止上市及停止公開發行案尚須經本公司115年11月9日股東臨時會決議通過。",
+        "待取得相關主管機關核准後，將另行公告終止上市及停止公開發行相關日期。"
+      ],
+      "proposed_cash_per_target_ordinary_share_twd": "18.5",
+      "provisional_conversion_date": "2026-12-31",
+      "shareholder_meeting_date": "2026-11-09",
+      "shareholder_approval_observed": false,
+      "final_delisting_date": null,
+      "final_public_issuance_cessation_date": null,
+      "meaning": "Boardproposal statesfutureEGMapprovalandregulatoryapprovals;datesfordelisting/cessationwillbeannouncedlater.",
+      "limitation": "Not a currentapproval,delistingcompletion,paymentdate orproof that ordinarysharesarecurrentlypurchasable."
+    }
+  ],
+  "verified_meeting_difference": {
+    "changed_numbered_fields": [
+      3
+    ],
+    "venue_only_change": true
+  },
+  "pointer_scope": {
+    "saved_occurrences_per_document": 2,
+    "only_values": [
+      "css/css2.css",
+      "js/mops2.js"
+    ],
+    "pdf_or_issuer_IR_pointer_count": 0,
+    "meaning": "Onlythese3HTMLnoticeswereinspected;absenceofattachmentpointersdoesnotprovethatpubliccontractsorissuerpagesareunobtainable."
+  },
+  "unresolved_current_claim_inputs": [
+    "Full controlling share-conversion contract:termination/long-stop,closingconditions,considerationadjustmentandamendmentrules.",
+    "Cash-conversion beneficiary/entitlement/record-dateandlast-tradingmechanics;EGMvotingbookclosureisnotthisevidence.",
+    "Actual currenttradabilityandcontrollingstatusupdates;futuremeetingproposal isnotactualshareholderapproval.",
+    "Finalconversiontriggerandconditionalpaymentbusiness-daycalendar;actualpaymentnotrequiredtostartproperlyqualifiedconditionalresearch.",
+    "Transaction-specific currenttax/withholdingandfees;theoldmerger-extinctiontaxrulingcannotbesilentlyapplied."
+  ],
+  "finite_next_source_option": "Analreadyreturned6674conferenceM99pointermaybefrozenindividuallywithinremaining3requests tolookforcontract/issuer-public-pageevidence;no guessedURL,livefetchorautomaticlinkexecutionperformedhere.",
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

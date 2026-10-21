@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-21T22:33:20.361878+00:00",
+  "protocol_sha256": "f671483cd84693ba44f3b19ea198fae93b1742cdd6fff92b7b98f930cae96ad9",
+  "base_remote_commit": "37cfeddeff1ec2b39c1748187cf9ec862f140803",
+  "parent_checkpoint_sha256": "75e28620609106a198607692eecdb71c8473bbb6af2812e0152b83fa30beaaf4",
+  "prior_checkpoint_members_verified": 373,
+  "before_any_source_acquisition": true,
+  "prior_saved_requests": 8,
+  "new_max_requests": 4,
+  "cumulative_max_requests": 12,
+  "market_price_outcomes_inspected": false
+}

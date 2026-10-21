@@ -1,0 +1,40 @@
+{
+  "frozen_at": "2026-10-21T22:27:01.491145+00:00",
+  "protocol_sha256": "c4a26e04e28206c43532c2e2b5f0aad7ec06f9cbee75dd98257c5733e0af693c",
+  "path": "configs/cash_merger_current_followthrough_ebook_routes_sources_20261022.json",
+  "sha256": "88306ec027b062472154c5fd533c031e83f5d0df5b986b91ee1fe0662601dd35",
+  "requests": 1,
+  "evidence": [
+    {
+      "archive": "inputs/cash_merger_current_followthrough_20261022/ebook_entry.retrieved.zip",
+      "archive_sha256": "522cc8753d9ef9c0a8444f6723852ffad4d69a2266ebb553421b2bf3025f8ced",
+      "member": "raw/official_ebook_entry.html",
+      "body_sha256": "55ded9da2d973e43f85a101beb43e09d383b8384ba0921773f8cfb6f39f31cd0",
+      "form_name": "fm1",
+      "form_action": "/mops/web/t146sb08",
+      "all_form_fields": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "run",
+          ""
+        ],
+        [
+          "firstin",
+          "Y"
+        ],
+        [
+          "keyword",
+          "電子書"
+        ]
+      ]
+    }
+  ],
+  "purpose": "Follow actual returned electronic-book sitemap form; no new inventedfields or route.",
+  "spent_before": 6,
+  "combined_spent_after_if_attempted": 7,
+  "combined_ceiling": 8,
+  "unspent_after": 1
+}

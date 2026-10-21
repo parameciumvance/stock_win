@@ -1,0 +1,14 @@
+{
+  "output_directory": "inputs/cash_merger_documents_20261022/raw_query",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "meeting_books_6674_115.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t57sb01_q5",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&TYPEK=all&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&co_id=6674&year=115"
+    }
+  ]
+}

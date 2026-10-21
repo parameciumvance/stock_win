@@ -1,0 +1,15 @@
+{
+  "status": "discovery8request_phase_complete_official_document_form_verified",
+  "next_project_action": "query_verified_form_6674_year115_then_only_returned_same_meeting_documents",
+  "next_phase": "cash_merger_documents_20261022",
+  "completed_discovery_requests": 8,
+  "new_document_retrieval_request_limit": 4,
+  "explicit_cumulative_ceiling": 12,
+  "old_discovery_ceiling_remains8": true,
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

@@ -1,0 +1,172 @@
+{
+  "records": [
+    {
+      "plan": "configs/cash_merger_current_followthrough_notices_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_notices_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_notices",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_followthrough_notices_acquire\nverified skip: merger_current_followthrough_notices_package\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_readback",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_followthrough_notices_readback\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_replay_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_replay",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_followthrough_notices_replay\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_audit_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_audit_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_audit",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_three_notices_independent_audit\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_ebook_entry_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_ebook_entry_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_ebook_entry",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_followthrough_ebook_entry_acquire\nverified skip: merger_followthrough_ebook_entry_package\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_ebook_entry_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_ebook_entry_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_ebook_entry_readback",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_followthrough_ebook_entry_readback\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_ebook_routes_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_ebook_routes_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_ebook_routes",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_followthrough_ebook_routes_acquire\nverified skip: merger_followthrough_ebook_routes_package\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_ebook_routes_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_ebook_routes_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_ebook_routes_readback",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_followthrough_ebook_routes_readback\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_ebook_form_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_ebook_form_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_ebook_form",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_followthrough_ebook_form_acquire\nverified skip: merger_followthrough_ebook_form_package\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_ebook_form_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_ebook_form_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_ebook_form_readback",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_followthrough_ebook_form_readback\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_followthrough_discovery_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_followthrough_discovery_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_followthrough_20261022/pipeline_discovery",
+        "--code-commit",
+        "37cfeddeff1ec2b39c1748187cf9ec862f140803"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_official_ebook_discovery\n"
+    }
+  ],
+  "verified_skips": 15,
+  "stages": 15,
+  "all_passed": true
+}
