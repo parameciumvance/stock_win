@@ -1,0 +1,36 @@
+{
+  "actual_new_saved_requests": 15,
+  "http200_curl0": 15,
+  "automatic_retries": 0,
+  "new_archive_sha256": "1b051c2b4a773a4813a40198c0a8b6b76c4fdf24183a822a3abaff0eea0ad9fe",
+  "new_manifest_members": 48,
+  "original_identity_matches": 19,
+  "quarter_range": [
+    "2026-07-01",
+    "2026-09-30"
+  ],
+  "announcements_are_not_independent_deals": true,
+  "test_development_observation": "Old mocked plan returned a string after wrapper preflight was added; test updated to mock real plan tuple and guard behavior; final35tests passed. No live IO occurred during failing test.",
+  "manual_download_requests": 0,
+  "market_quote_requests": 0,
+  "source_stage_resources": {
+    "merger_census_acquire": {
+      "elapsed_seconds": 1.5048170940135606,
+      "peak_observed_rss_bytes": 29327360,
+      "exit_code": 0
+    },
+    "merger_census_package": {
+      "elapsed_seconds": 0.5042615900165401,
+      "peak_observed_rss_bytes": 7921664,
+      "exit_code": 0
+    }
+  },
+  "archive_bytes": 332850,
+  "resume_20261022": {
+    "remote_commit": "967f212a5709e81caab088c7bc94fbb1214a923a",
+    "prior_checkpoint_members_verified": 267,
+    "raw_readbacks_verified": 3,
+    "manifest_members": 90,
+    "actual_observed_agent_errors": "Two sub-agents returned an explicit usage-limit error in the prior run. No inference of host/resource failure; work resumed with files preserved."
+  }
+}

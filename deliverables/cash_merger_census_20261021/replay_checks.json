@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "plan": "configs/cash_merger_census_acquisition_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_census_acquisition_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_census_20261021/pipeline_acquisition",
+        "--code-commit",
+        "967f212a5709e81caab088c7bc94fbb1214a923a"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_census_acquire\nverified skip: merger_census_package\n"
+    },
+    {
+      "plan": "configs/cash_merger_census_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_census_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_census_20261021/pipeline_readback",
+        "--code-commit",
+        "967f212a5709e81caab088c7bc94fbb1214a923a"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_census_source_readback\n"
+    },
+    {
+      "plan": "configs/cash_merger_census_replay_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_census_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_census_20261021/pipeline_replay",
+        "--code-commit",
+        "967f212a5709e81caab088c7bc94fbb1214a923a"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_census19_original_replay\n"
+    },
+    {
+      "plan": "configs/cash_merger_census_audit_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_census_audit_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_census_20261021/pipeline_audit",
+        "--code-commit",
+        "967f212a5709e81caab088c7bc94fbb1214a923a"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_census19_independent_semantic_audit\n"
+    }
+  ],
+  "verified_skips": 5,
+  "stages": 5,
+  "all_passed": true
+}

@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-10-21T22:14:48.090063+00:00",
+  "protocol_sha256": "a804188322c6cc849e30d04a20bf41d5e9fb96fc2891ddbf722eb9564f46723f",
+  "base_remote_commit": "967f212a5709e81caab088c7bc94fbb1214a923a",
+  "parent_census_checkpoint_sha256": "cdb2fe2f9e87611f694b29d6bcf6c2214a3a943f2ad751370f613c75eafa6adf",
+  "before_any_source_acquisition": true,
+  "market_price_outcomes_inspected": false
+}

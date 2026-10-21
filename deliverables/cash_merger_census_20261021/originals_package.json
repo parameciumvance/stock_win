@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/cash_merger_census_20261021/originals.zip",
+  "sha256": "1b051c2b4a773a4813a40198c0a8b6b76c4fdf24183a822a3abaff0eea0ad9fe",
+  "manifest_files": 48,
+  "created_at": "2026-10-21T13:39:53.805869+00:00",
+  "retrieved": "inputs/cash_merger_census_20261021/originals.retrieved.zip",
+  "transfer_receipt": "inputs/cash_merger_census_20261021/originals_transfer.json",
+  "backup_label": "cash_merger_census_20261021_originals"
+}

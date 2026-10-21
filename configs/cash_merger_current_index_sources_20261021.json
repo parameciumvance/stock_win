@@ -1,0 +1,20 @@
+{
+  "output_directory": "inputs/cash_merger_current_20261021/raw_index",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "target_6674_m00.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=2&TYPEK=&CO_MARKET=&CO_ID=6674&PRO_ITEM=M00&SUBJECT=&SDATE=115%2F09%2F18&EDATE=115%2F10%2F21&lang=TW&AN="
+    },
+    {
+      "filename": "buyer_2324_m00.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=2&TYPEK=&CO_MARKET=&CO_ID=2324&PRO_ITEM=M00&SUBJECT=&SDATE=115%2F09%2F18&EDATE=115%2F10%2F21&lang=TW&AN="
+    }
+  ]
+}
