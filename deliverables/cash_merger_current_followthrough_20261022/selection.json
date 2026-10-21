@@ -1,0 +1,54 @@
+{
+  "source_index_sha256": "fd7d1f7be27d90673fb642c5c0c8047fdba821b23a23d5751c3acc84012ee88c",
+  "source_archive_sha256": "8b5174da2086dbb7de6f02b884f0c858e958abbfc5581f7c18d0ecf7b6c270ea",
+  "rows": [
+    {
+      "event_id": "M17:6674:2026-09-21:155000:1",
+      "index_original_fields": {
+        "CDATE": "115/09/21",
+        "COMPANY_NAME": "鋐寶科技",
+        "AN_NAME": "股東會召集",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M17",
+        "CTIME": "15:50:00",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會決議召開115年第一次股東臨時會\n(變更股東臨時會地點)",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=155000&SPOKE_DATE=20260921&COMPANY_ID=6674",
+        "COMPANY_ID": "6674"
+      },
+      "new_filename": "meeting_amendment_6674_20260921.html"
+    },
+    {
+      "event_id": "M17:6674:2026-09-18:202533:4",
+      "index_original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "鋐寶科技",
+        "AN_NAME": "股東會召集",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M17",
+        "CTIME": "20:25:33",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會決議召開115年第一次股東臨時會",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=202533&SPOKE_DATE=20260918&COMPANY_ID=6674",
+        "COMPANY_ID": "6674"
+      },
+      "new_filename": "meeting_original_6674_20260918.html"
+    },
+    {
+      "event_id": "M99:6674:2026-09-18:194028:2",
+      "index_original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "鋐寶科技",
+        "AN_NAME": "其他重大事項",
+        "CODE_NAME": "通信網路業",
+        "AN_CODE": "M99",
+        "CTIME": "19:40:28",
+        "TYPEK": "上市",
+        "SUBJECT": "本公司董事會提請股東臨時會決議辦理有價證券終止上市\r\n及停止公開發行案",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=194028&SPOKE_DATE=20260918&COMPANY_ID=6674",
+        "COMPANY_ID": "6674"
+      },
+      "new_filename": "delisting_proposal_6674_20260918.html"
+    }
+  ]
+}

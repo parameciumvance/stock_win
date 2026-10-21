@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "plan": "configs/cash_merger_current_index_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_index_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_20261021/pipeline_index",
+        "--code-commit",
+        "2c6a71894235e80c844491bd21b11daada031d94"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_index_acquire\nverified skip: merger_current_index_package\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_20261021/pipeline_readback",
+        "--code-commit",
+        "2c6a71894235e80c844491bd21b11daada031d94"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_index_readback\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_replay_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_20261021/pipeline_replay",
+        "--code-commit",
+        "2c6a71894235e80c844491bd21b11daada031d94"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_all_category_replay\n"
+    },
+    {
+      "plan": "configs/cash_merger_current_audit_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_current_audit_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_current_20261021/pipeline_audit",
+        "--code-commit",
+        "2c6a71894235e80c844491bd21b11daada031d94"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_current_index_independent_audit\n"
+    }
+  ],
+  "verified_skips": 5,
+  "all_passed": true,
+  "stages": 5
+}

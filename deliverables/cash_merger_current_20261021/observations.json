@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-21T22:18:30.351959+00:00",
+  "actual_saved_requests": 2,
+  "http200_curl0": 2,
+  "query_dates": [
+    "2026-09-18",
+    "2026-10-21"
+  ],
+  "acquisition_date_taipei": "2026-10-22",
+  "returned_rows": {
+    "6674": 7,
+    "2324": 2
+  },
+  "returned_announcement_date_range": [
+    "2026-09-18",
+    "2026-10-06"
+  ],
+  "absence_of_later_returned_notices_proves_no_later_notice": false,
+  "declared_totals_available": false,
+  "source_budget_remaining": 6,
+  "source_orchestration_issue": "The originally frozen two-batch layout cannot follow an attachment first discovered after original notice readback. Retire its unused adaptive branch and separately freeze remaining-six request workflow with explicit combined-eight ledger; old protocol and archive remain immutable.",
+  "model_or_rule_parameter_changes": 0,
+  "new_quote_requests": 0,
+  "manual_download_requests": 0
+}

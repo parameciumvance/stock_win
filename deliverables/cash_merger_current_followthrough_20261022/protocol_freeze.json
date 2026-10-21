@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-21T22:21:47.626922+00:00",
+  "protocol_sha256": "c4a26e04e28206c43532c2e2b5f0aad7ec06f9cbee75dd98257c5733e0af693c",
+  "base_remote_commit": "2c6a71894235e80c844491bd21b11daada031d94",
+  "parent_current_index_checkpoint_sha256": "50de82617e8b10802e9807462f894f75751d9a59b97f52eafa8e879912b9edb2",
+  "prior_checkpoint_members_verified": 326,
+  "before_any_source_acquisition": true,
+  "prior_requests_spent": 2,
+  "new_request_limit": 6,
+  "combined_limit": 8,
+  "market_price_outcomes_inspected": false
+}

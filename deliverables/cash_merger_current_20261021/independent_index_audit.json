@@ -1,0 +1,197 @@
+{
+  "scope": "Independent saved M00 index identity and full-field Q3 overlap audit; no new notice originals or transaction-status inference.",
+  "auditor_script_sha256": "5a4e96aaa711f93f60b78102d29ea3e22d2306f20b816cef08d9dbb2f25390e4",
+  "protocol_sha256": "a804188322c6cc849e30d04a20bf41d5e9fb96fc2891ddbf722eb9564f46723f",
+  "requests_sha256": "b47c08f696dc2fa6d1a825a79e80a32f14dce938b5494c433089d06cdcac17ab",
+  "archive": {
+    "sha256": "8b5174da2086dbb7de6f02b884f0c858e958abbfc5581f7c18d0ecf7b6c270ea",
+    "retrieved": "inputs/cash_merger_current_20261021/index.retrieved.zip",
+    "manifest_files": 9,
+    "package_sha256": "a0893e08cced9e1518d9dd3fd187088d2368fb6e5f19393fbb8f43cea5c767d6",
+    "transfer_sha256": "2483db5d87bb105ef5f072ff4ab8e339a34705c5cc5fdd8a8ce0da81b8d39d2e",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "q3_archive": {
+    "sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a",
+    "retrieved": "inputs/cash_merger_20261021/discovery.retrieved.zip",
+    "manifest_files": 20,
+    "package_sha256": "ff868d5a3b0ba39552ea587898495439b191308ddb0c724218be2388d15a3bcb",
+    "transfer_sha256": "7cbdfba30291de82d9f5f5b2b64d15f97930d7b1fb6c17079c5d15629bd50897",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "observations": [
+    {
+      "filename": "target_6674_m00.json",
+      "request_started_at": "2026-10-21T22:16:12.561796+00:00",
+      "observed_at": "2026-10-21T22:16:12.822120+00:00",
+      "observed_taipei": "2026-10-22T06:16:12.822120+08:00"
+    },
+    {
+      "filename": "buyer_2324_m00.json",
+      "request_started_at": "2026-10-21T22:16:12.562109+00:00",
+      "observed_at": "2026-10-21T22:16:12.814744+00:00",
+      "observed_taipei": "2026-10-22T06:16:12.814744+08:00"
+    }
+  ],
+  "query_start": "2026-09-18",
+  "query_end": "2026-10-21",
+  "query_category": "M00",
+  "index_results": [
+    {
+      "filename": "target_6674_m00.json",
+      "issuer": "6674",
+      "returned_rows": 7,
+      "body_sha256": "fd7d1f7be27d90673fb642c5c0c8047fdba821b23a23d5751c3acc84012ee88c",
+      "declared_total": null,
+      "count_reconciliation_passed": false,
+      "all_categories_preserved": true,
+      "complete_population_verified": false,
+      "current_transaction_status_verified": false,
+      "contractual_cash_claim_verified": false
+    },
+    {
+      "filename": "buyer_2324_m00.json",
+      "issuer": "2324",
+      "returned_rows": 2,
+      "body_sha256": "f6cadc7048efebca8120296d4c9da34d6e774dfdf27b3087ae49e83554deba5f",
+      "declared_total": null,
+      "count_reconciliation_passed": false,
+      "all_categories_preserved": true,
+      "complete_population_verified": false,
+      "current_transaction_status_verified": false,
+      "contractual_cash_claim_verified": false
+    }
+  ],
+  "total_returned_rows": 9,
+  "all_original_rows_and_categories_verified": true,
+  "q3_full_original_field_matches": [
+    "M11:2324:2026-09-18:211850:2",
+    "M11:6674:2026-09-18:202555:5"
+  ],
+  "q3_full_original_field_match_count": 2,
+  "returned_rows": [
+    {
+      "event_id": "M08:6674:2026-10-06:181929:2",
+      "pointer_identity": "6674:2026-10-06:181929:2",
+      "issuer": "6674",
+      "reported_datetime": "2026-10-06T18:19:29+08:00",
+      "reported_category": "M08",
+      "subject": "公告本公司重要營運主管異動",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=181929&SPOKE_DATE=20261006&COMPANY_ID=6674",
+      "original_fields_sha256": "054a1e250612518ab70e398edfd4e567798a9fe9a6e30f70cfbce424212bd26e",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M08:6674:2026-10-06:181851:1",
+      "pointer_identity": "6674:2026-10-06:181851:1",
+      "issuer": "6674",
+      "reported_datetime": "2026-10-06T18:18:51+08:00",
+      "reported_category": "M08",
+      "subject": "公告本公司重要營運主管異動",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=181851&SPOKE_DATE=20261006&COMPANY_ID=6674",
+      "original_fields_sha256": "b6be7624324894ac88320b4e815348b5362d88943d700f821322e3591f278da1",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M17:6674:2026-09-21:155000:1",
+      "pointer_identity": "6674:2026-09-21:155000:1",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-21T15:50:00+08:00",
+      "reported_category": "M17",
+      "subject": "本公司董事會決議召開115年第一次股東臨時會\n(變更股東臨時會地點)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=155000&SPOKE_DATE=20260921&COMPANY_ID=6674",
+      "original_fields_sha256": "90aadd4f23b690fda725c978a44c8026e1678c32c20960469345a08d693ecece",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M11:6674:2026-09-18:202555:5",
+      "pointer_identity": "6674:2026-09-18:202555:5",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T20:25:55+08:00",
+      "reported_category": "M11",
+      "subject": "公告本公司董事會決議通過與仁寶電腦工業股份有限公司之現金\r\n股份轉換案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=202555&SPOKE_DATE=20260918&COMPANY_ID=6674",
+      "original_fields_sha256": "fc1d39a3bfc4d7ba7eef5a2a89376170e2f96d2918eade1004175e6967737227",
+      "q3_full_fields_verified": true,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M17:6674:2026-09-18:202533:4",
+      "pointer_identity": "6674:2026-09-18:202533:4",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T20:25:33+08:00",
+      "reported_category": "M17",
+      "subject": "本公司董事會決議召開115年第一次股東臨時會",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=202533&SPOKE_DATE=20260918&COMPANY_ID=6674",
+      "original_fields_sha256": "505b7d6a1b10e4e4b9fddcf530a8aba9afdd614f5b245abd3c3f35967cd5e6d2",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M99:6674:2026-09-18:194028:2",
+      "pointer_identity": "6674:2026-09-18:194028:2",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T19:40:28+08:00",
+      "reported_category": "M99",
+      "subject": "本公司董事會提請股東臨時會決議辦理有價證券終止上市\r\n及停止公開發行案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=194028&SPOKE_DATE=20260918&COMPANY_ID=6674",
+      "original_fields_sha256": "afe8f58f73d944a1ff8cd1ca39594b1991f8f7faa3e65fd51701fd8fc0bbcfbf",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M99:6674:2026-09-18:193909:1",
+      "pointer_identity": "6674:2026-09-18:193909:1",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T19:39:09+08:00",
+      "reported_category": "M99",
+      "subject": "公告本公司召開重大訊息說明記者會內容",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193909&SPOKE_DATE=20260918&COMPANY_ID=6674",
+      "original_fields_sha256": "57c3ed7bd10f82f7f2f85fa107d4ae296b9f8ab97d5c360b128a8fc8f7870eeb",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M11:2324:2026-09-18:211850:2",
+      "pointer_identity": "2324:2026-09-18:211850:2",
+      "issuer": "2324",
+      "reported_datetime": "2026-09-18T21:18:50+08:00",
+      "reported_category": "M11",
+      "subject": "公告本公司董事會決議通過現金股份轉換案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=211850&SPOKE_DATE=20260918&COMPANY_ID=2324",
+      "original_fields_sha256": "19bdbfd9cc78de006522e0901f9d8fc5015ccec2a0f3d38c0d1c0c013087ac79",
+      "q3_full_fields_verified": true,
+      "new_original_document_verified": false
+    },
+    {
+      "event_id": "M99:2324:2026-09-18:193623:1",
+      "pointer_identity": "2324:2026-09-18:193623:1",
+      "issuer": "2324",
+      "reported_datetime": "2026-09-18T19:36:23+08:00",
+      "reported_category": "M99",
+      "subject": "公告本公司召開重大訊息說明記者會內容",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=193623&SPOKE_DATE=20260918&COMPANY_ID=2324",
+      "original_fields_sha256": "0d46fe14fb309f4ab12987f395033665b08289b534e5be93c9e448103123fc33",
+      "q3_full_fields_verified": false,
+      "new_original_document_verified": false
+    }
+  ],
+  "declared_total_present": false,
+  "complete_announcement_population_verified": false,
+  "no_later_notice_proven": false,
+  "current_transaction_status_verified": false,
+  "current_tradability_verified": false,
+  "contractual_cash_claim_verified": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false
+}
