@@ -35,7 +35,8 @@ class MergerIndexTests(unittest.TestCase):
         raw = b'\xef\xbb\xbf\r\n' + body([source])
         result = parse_index(raw)
         self.assertEqual(result['rows'][0]['original_fields'], source)
-        self.assertEqual(result['rows'][0]['event_id'], 'M11:1234:2026-07-01:1')
+        self.assertEqual(result['rows'][0]['event_id'], 'M11:1234:2026-07-01:084413:1')
+        self.assertEqual(result['rows'][0]['legacy_key'], 'M11:1234:2026-07-01:1')
         self.assertEqual(result['rows'][0]['reported_timestamp_taipei'], '2026-07-01T08:44:13+08:00')
         self.assertEqual(result['rows'][0]['reported_timestamp_utc'], '2026-07-01T00:44:13+00:00')
         self.assertEqual(result['body_sha256'], hashlib.sha256(raw).hexdigest())
@@ -72,12 +73,46 @@ class MergerIndexTests(unittest.TestCase):
             with self.subTest(url=bad), self.assertRaises(ValueError):
                 parse_index(body([row(HYPERLINK=bad)]))
 
-    def test_same_identity_duplicate_or_changed_time_is_not_a_new_event(self):
+    def test_duplicate_full_pointer_or_conflicting_subject_is_rejected(self):
+        first = row()
+        base, query = first['HYPERLINK'].split('?')
+        reordered = row(HYPERLINK=base + '?' + '&'.join(reversed(query.split('&'))))
+        padded_clock = row(HYPERLINK=first['HYPERLINK'].replace('SPOKE_TIME=84413', 'SPOKE_TIME=084413'))
+        for second in (row(), row(SUBJECT='不同主旨但同完整pointer'), reordered, padded_clock):
+            with self.subTest(second=second), self.assertRaises(ValueError):
+                parse_index(body([first, second]))
+
+    def test_observed_m11_legacy_collision_preserves_both_clocks_and_subjects(self):
+        first = row(COMPANY_ID='6472', CDATE='115/08/13', CTIME='20:06:54',
+                    SUBJECT='發行員工認股權憑證', HYPERLINK=row()['HYPERLINK']
+                    .replace('COMPANY_ID=1234', 'COMPANY_ID=6472').replace('20260701', '20260813')
+                    .replace('SPOKE_TIME=84413', 'SPOKE_TIME=200654'))
+        second = {**first, 'CTIME': '16:58:56', 'SUBJECT': '認股權轉換增資基準日',
+                  'HYPERLINK': first['HYPERLINK'].replace('200654', '165856')}
+        result = parse_index(body([first, second]))
+        self.assertEqual([r['original_fields'] for r in result['rows']], [first, second])
+        self.assertEqual(len({r['event_id'] for r in result['rows']}), 2)
+        self.assertEqual(result['legacy_key_collision_group_count'], 1)
+        self.assertEqual(result['legacy_key_collision_row_count'], 2)
+        group = result['legacy_key_collisions'][0]
+        self.assertEqual(group['legacy_key'], 'M11:6472:2026-08-13:1')
+        self.assertEqual([r['returned_row_number'] for r in group['records']], [1, 2])
+        self.assertEqual([r['announcement_time'] for r in group['records']], ['20:06:54', '16:58:56'])
+        self.assertEqual([r['url'] for r in group['records']], [first['HYPERLINK'], second['HYPERLINK']])
+        self.assertEqual([r['subject'] for r in group['records']], [first['SUBJECT'], second['SUBJECT']])
+        self.assertTrue(result['identity_namespace_unverified'])
+        self.assertFalse(result['independent_event_cases_verified'])
+        self.assert_unqualified(result)
+
+    def test_different_clock_without_new_subject_still_does_not_prove_independent_case(self):
         first = row()
         changed = row(CTIME='08:44:14', HYPERLINK=first['HYPERLINK'].replace('84413', '84414'))
-        for second in (row(), changed):
-            with self.subTest(second=second['CTIME']), self.assertRaises(ValueError):
-                parse_index(body([first, second]))
+        result = parse_index(body([first, changed]))
+        self.assertEqual(len(result['rows']), 2)
+        self.assertEqual(result['legacy_key_collision_group_count'], 1)
+        self.assertTrue(result['identity_namespace_unverified'])
+        self.assertFalse(result['independent_event_cases_verified'])
+        self.assert_unqualified(result)
 
     def test_declared_count_mismatch_and1000_ceiling_fail_closed(self):
         result = parse_index(body(total=1))

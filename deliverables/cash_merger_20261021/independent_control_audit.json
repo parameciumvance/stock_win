@@ -1,0 +1,416 @@
+{
+  "scope": "Independent archived-source identity replay and human annotation anchor verification only; no production parser helpers, prices, returns, network or trades.",
+  "auditor_script_path": "cash_merger_independent.py",
+  "auditor_script_sha256": "84e1c0bb4a65f5dcc8c6baac5fd9dd46714da8f50d34554f1c5b47133486da34",
+  "archives": [
+    {
+      "path": "inputs/cash_merger_20261021/discovery.retrieved.zip",
+      "sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a",
+      "crc_passed": true,
+      "manifest_members_verified": 20,
+      "manifest_sha256": "afd3e80b2887d7c9221fb7e7506977d23345b612141de9d07589bbaf37fd6650",
+      "receipt_sha256": "138525d9cb17691fedd0e0e2de750aa04f1ee0982873697fbd3b70aefc580032"
+    },
+    {
+      "path": "inputs/cash_merger_20261021/controls.retrieved.zip",
+      "sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+      "crc_passed": true,
+      "manifest_members_verified": 22,
+      "manifest_sha256": "80277ff82f919a4b628cc9ff4bc57a0a6701ac445d17a0d73eb4d91ffe1b00b7",
+      "receipt_sha256": "e334c1a173717569aa1f5f1b0a52758285cefad3f53c5edc9ab49b8d2f24bc5c"
+    }
+  ],
+  "protocol_sha256": "374d4b1a45a531fe8e26c7976a55f8ebfe0b1f05e2d8be9c71c243d2a78012b9",
+  "selection_sha256": "aa100bc35d5712947e5316787b08029fc8a399dec884e1a9ac91d38bb5387d0b",
+  "semantic_annotation_path": "deliverables/cash_merger_20261021/semantic_annotations.json",
+  "semantic_annotation_sha256": "494460abd8babbdf837c1e192d51f2b462862ce7d116dc9c63b279a5c7feec7f",
+  "semantic_interpretation_is_automated": false,
+  "all_quoted_source_anchors_verified": true,
+  "index_partitions": {
+    "m11_2026q3": {
+      "sha256": "dffeb0604df7a32349356651759ef5c39029e5494789461eb7a3f5cf8a1cb4a5",
+      "row_count": 476,
+      "url_time_company_date_checks": 476,
+      "all_declared_market": "上市",
+      "below_observed_1000_row_cap": true
+    },
+    "m11_202607": {
+      "sha256": "8201a0aaf28e39f15c2e0a1694130faa3bd99e168fda451c211b623c2dae33e1",
+      "row_count": 117,
+      "url_time_company_date_checks": 117,
+      "all_declared_market": "上市",
+      "below_observed_1000_row_cap": true
+    },
+    "m11_202608": {
+      "sha256": "c4f0af607421e090606a9842b37b64deea268f88ae8def64d0c9ef5b9d8b82e9",
+      "row_count": 253,
+      "url_time_company_date_checks": 253,
+      "all_declared_market": "上市",
+      "below_observed_1000_row_cap": true
+    },
+    "m11_202609": {
+      "sha256": "f2d0f0f7a6ead65d722639dcc69a52b873087b0fe141587ef6c882d0a33e93f4",
+      "row_count": 106,
+      "url_time_company_date_checks": 106,
+      "all_declared_market": "上市",
+      "below_observed_1000_row_cap": true
+    }
+  },
+  "quarter_month_full_original_field_multisets_equal": true,
+  "quarter_total_records": 476,
+  "month_total_records": 476,
+  "full_identities_unique": true,
+  "legacy_company_date_sequence_collision_groups": [
+    {
+      "issuer": "6472",
+      "date": "2026-08-13",
+      "sequence": "1",
+      "members": [
+        {
+          "row": 180,
+          "time": "20:06:54",
+          "subject": "本公司董事會決議發行員工認股權憑證"
+        },
+        {
+          "row": 185,
+          "time": "16:58:56",
+          "subject": "公告本公司董事會決議員工認股權憑證轉換普通股之增資基準日"
+        }
+      ]
+    },
+    {
+      "issuer": "4938",
+      "date": "2026-08-12",
+      "sequence": "1",
+      "members": [
+        {
+          "row": 208,
+          "time": "17:05:20",
+          "subject": "公告本公司董事會決議辦理限制員工權利新股收買註銷減資案"
+        },
+        {
+          "row": 234,
+          "time": "13:42:49",
+          "subject": "本公司董事會決議發行海外第二次無擔保可轉換公司債"
+        }
+      ]
+    },
+    {
+      "issuer": "6669",
+      "date": "2026-08-07",
+      "sequence": "1",
+      "members": [
+        {
+          "row": 285,
+          "time": "18:32:10",
+          "subject": "公告本公司董事會決議發行國內第一次無擔保轉換公司債"
+        },
+        {
+          "row": 286,
+          "time": "18:27:12",
+          "subject": "公告本公司海外無擔保可轉換公司債轉換普通股增資基準日"
+        }
+      ]
+    },
+    {
+      "issuer": "3708",
+      "date": "2026-08-07",
+      "sequence": "2",
+      "members": [
+        {
+          "row": 297,
+          "time": "16:45:18",
+          "subject": "公告本公司國內第三次有擔保轉換公司債及國內第四次無擔保轉換\r\n公司債轉換普通股之發行新股增資基準日"
+        },
+        {
+          "row": 298,
+          "time": "16:44:25",
+          "subject": "公告本公司董事會決議庫藏股註銷減資基準日"
+        }
+      ]
+    }
+  ],
+  "control_documents": [
+    {
+      "filename": "control01_6472.html",
+      "source_row": 180,
+      "semantic_role": "legacy_sequence_collision_control",
+      "issuer": "6472",
+      "reported_datetime": "2026-08-13T20:06:54+08:00",
+      "sequence": "1",
+      "subject": "本公司董事會決議發行員工認股權憑證",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=200654&SPOKE_DATE=20260813&COMPANY_ID=6472",
+      "sha256": "12afd8779d9193dd3fc50ddde7507c09a6d3e7ce54a65746483998d48d81b983",
+      "description_sha256": "1f7ccb988a626edc1ff2dd6aeafd27bceaa3ab8493a19df43a88f147f17e0e76",
+      "declared_issuer_market": "上市公司",
+      "identity_verified": true
+    },
+    {
+      "filename": "control02_6472.html",
+      "source_row": 185,
+      "semantic_role": "legacy_sequence_collision_control",
+      "issuer": "6472",
+      "reported_datetime": "2026-08-13T16:58:56+08:00",
+      "sequence": "1",
+      "subject": "公告本公司董事會決議員工認股權憑證轉換普通股之增資基準日",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165856&SPOKE_DATE=20260813&COMPANY_ID=6472",
+      "sha256": "79852a8866432d7fbc83d572764ab2333fc31aa8d20aea8c9e987c731af97d88",
+      "description_sha256": "b52c2a4abe7d69927581452eefe184919cf70fe8dcafc4fe8fd3a62537330af8",
+      "declared_issuer_market": "上市公司",
+      "identity_verified": true
+    },
+    {
+      "filename": "control03_1103.html",
+      "source_row": 10,
+      "semantic_role": "cash_form_control_not_completed_case_selection",
+      "issuer": "1103",
+      "reported_datetime": "2026-09-29T17:46:30+08:00",
+      "sequence": "1",
+      "subject": "本公司董事會通過以現金為對價之股份轉換案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174630&SPOKE_DATE=20260929&COMPANY_ID=1103",
+      "sha256": "6e57a1bf7066523b1716ea6c14ad2953ab048b14b47623c192f7f7aa379cef01",
+      "description_sha256": "871089268f2e108a36d7fb0d92a465418f499c6aae106e00bb928d9c9a1c04ea",
+      "declared_issuer_market": "上市公司",
+      "identity_verified": true
+    },
+    {
+      "filename": "control04_2324.html",
+      "source_row": 40,
+      "semantic_role": "cash_form_control_not_completed_case_selection",
+      "issuer": "2324",
+      "reported_datetime": "2026-09-18T21:18:50+08:00",
+      "sequence": "2",
+      "subject": "公告本公司董事會決議通過現金股份轉換案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=211850&SPOKE_DATE=20260918&COMPANY_ID=2324",
+      "sha256": "9fe73ded448f393ba4bc84f46b8ebef784705ffb12dca65cca92a12eecfcb3d6",
+      "description_sha256": "352e45df92c5f2215ea4dd8b1a4a37b30d7ccea20dcdc9c9a2ff71fb3b5bb211",
+      "declared_issuer_market": "上市公司",
+      "identity_verified": true
+    },
+    {
+      "filename": "control05_6674.html",
+      "source_row": 41,
+      "semantic_role": "cash_form_control_not_completed_case_selection",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T20:25:55+08:00",
+      "sequence": "5",
+      "subject": "公告本公司董事會決議通過與仁寶電腦工業股份有限公司之現金\n股份轉換案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=202555&SPOKE_DATE=20260918&COMPANY_ID=6674",
+      "sha256": "b920c1db07676565208fbe7dea34923fbdc363281cf3f6f3932980fffbd5877a",
+      "description_sha256": "3e9a94c7a46c018819c40addffa29c7f452e5944dbcdd8420476205dc5589f60",
+      "declared_issuer_market": "上市公司",
+      "identity_verified": true
+    },
+    {
+      "filename": "control06_5203.html",
+      "source_row": 393,
+      "semantic_role": "withdrawal_semantic_control_not_retail_cash_failure_coverage",
+      "issuer": "5203",
+      "reported_datetime": "2026-07-28T15:26:12+08:00",
+      "sequence": "1",
+      "subject": "本公司董事會決議停止辦理與子公司\nCyberLink International Technology Corp.(BVI)\n之簡易合併案",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152612&SPOKE_DATE=20260728&COMPANY_ID=5203",
+      "sha256": "c4c4da834cee42c181f2f223a5d4c7dbeec45a15fd46f66f571fa5fcfbe1def6",
+      "description_sha256": "33239451cd40c848ed0d95d04b2a08aee6f2310f0cb2140fbae71f9c15d91049",
+      "declared_issuer_market": "上市公司",
+      "identity_verified": true
+    }
+  ],
+  "semantic_reading": [
+    {
+      "document_numbers": [
+        1,
+        2
+      ],
+      "transaction_type": "Employee stock option grant and separate option exercise capital increase; neither a statutory cash merger nor public-holder cash exit.",
+      "target_status": "Not applicable.",
+      "consideration_and_payment": "No cash takeover claim for ordinary public shareholders.",
+      "identity_conclusion": "Same issuer/date/legacy SEQ_NO=1 are distinct official originals at20:06:54 and16:58:56; identity requires time and full official URL.",
+      "evidence": [
+        {
+          "filename": "control01_6472.html",
+          "sha256": "12afd8779d9193dd3fc50ddde7507c09a6d3e7ce54a65746483998d48d81b983",
+          "description_sha256": "1f7ccb988a626edc1ff2dd6aeafd27bceaa3ab8493a19df43a88f147f17e0e76",
+          "exact_excerpts": [
+            "員工認股權憑證之發行單位總數:1,000,000單位。",
+            "履約方式:以本公司「發行新股」之方式交付。"
+          ]
+        },
+        {
+          "filename": "control02_6472.html",
+          "sha256": "79852a8866432d7fbc83d572764ab2333fc31aa8d20aea8c9e987c731af97d88",
+          "description_sha256": "b52c2a4abe7d69927581452eefe184919cf70fe8dcafc4fe8fd3a62537330af8",
+          "exact_excerpts": [
+            "增資資金來源:員工認股權憑證執行轉換普通股",
+            "總股數:員工認股權股數264,660股"
+          ]
+        }
+      ]
+    },
+    {
+      "document_numbers": [
+        3
+      ],
+      "transaction_type": "Cash share conversion under issuer-stated Business Mergers and Acquisitions Act Article30, second stage minority squeeze-out; announcing1103 is acquirer, not cash-receiving target.",
+      "acquirer": "嘉新水泥股份有限公司(1103)",
+      "target": "嘉新國際股份有限公司",
+      "target_status": "Public listing/public issuance/private status is not expressly established by this original; do not label the target private solely from absence of a trading code.",
+      "existing_holding_percent": "99.25",
+      "remaining_shares_percent": "0.75",
+      "cash_per_ordinary_target_share_twd": "15.87",
+      "provisional_conversion_date": "2026-12-01",
+      "payment_rule": "Within5business days after the provisional conversion date, all cash to target shareholders other than buyer; no interest; subtract legally required withholding and necessary costs including securities tax/postage/transfer fees; subTWD1 amounts rounded upward to whole TWD.",
+      "conditions_and_revision": "Conversion date may be changed by authorized representatives of both boards; regulator-required or objective-environment amendments delegated. Complete contract conditions, shareholder resolution/eligibility, actual conversion and actual payment not established.",
+      "prior_stage": "Original describes completed first-stage stock exchange at1.1979 buyer shares per target share; second stage is cash. This description does not prove the new cash transaction completed.",
+      "evidence": [
+        {
+          "filename": "control03_1103.html",
+          "sha256": "6e57a1bf7066523b1716ea6c14ad2953ab048b14b47623c192f7f7aa379cef01",
+          "description_sha256": "871089268f2e108a36d7fb0d92a465418f499c6aae106e00bb928d9c9a1c04ea",
+          "exact_excerpts": [
+            "本股份轉換案係依企業併購法第30條辦理",
+            "每一股嘉新國際股份有限公司普通股股份之對價為現金新台幣15.87元。",
+            "將於股份轉換基準日後5個營業日內",
+            "完成第一階段股份交換後持有嘉新國際股份99.25%",
+            "嘉新國際其餘流通在外的0.75%股份",
+            "得由雙方董事會授權之代表另行協商變更之。"
+          ]
+        }
+      ]
+    },
+    {
+      "document_numbers": [
+        4,
+        5
+      ],
+      "transaction_type": "One statutory all-cash share conversion, independently announced by acquirer2324 and listed target6674. It is neither two separate deals, a cash statutory merger extinguishing the target, nor an elective tender.",
+      "acquirer": "仁寶電腦工業股份有限公司(2324)",
+      "target": "鋐寶科技股份有限公司(6674)",
+      "target_status": "Original target document provider explicitly reports(上市公司)6674, and terms plan delisting plus cessation of public issuance after conversion; this supports listed target at announcement but does not establish later trading status.",
+      "existing_holding_percent": "42.60",
+      "remaining_shares_percent": "57.40",
+      "cash_per_ordinary_target_share_twd": "18.50",
+      "provisional_conversion_date": "2026-12-31",
+      "payment_rule": "Within7business days after conversion date, buyer self-funded cash to all target ordinary shareholders except buyer; no interest; legally required withholding deducted; rounded to nearest TWD.",
+      "payment_calendar_date": null,
+      "payment_calendar_date_reason": "A contingent relative business-day deadline, not a fixed actual payment date; business-day calendar and finalized conversion date not established.",
+      "conditions_and_revision": "Target extraordinary shareholder meeting approval still required in both documents. Target intends TWSE delisting and FSC cessation-of-public-issuance applications after shareholder approval. Conversion date may be revised jointly. Target original permits contract changes needed for law/regulatory instructions/objective or subjective circumstances. Full executed contract, regulatory clearance conditions, termination/long-stop rights and consideration adjustment clauses remain unobserved.",
+      "restricted_employee_shares": "Unvested restricted employee-share cash held by trustee/transfer agent and paid or returned according to vesting terms; do not extrapolate their conditional entitlement to normal vested public ordinary shares.",
+      "publication_timeline": [
+        "2026-09-18T20:25:55+08:00 target6674",
+        "2026-09-18T21:18:50+08:00 acquirer2324"
+      ],
+      "first_public_announcement_verified": false,
+      "completion_verified": false,
+      "actual_payment_verified": false,
+      "plausible_for_separate_terms_verification": true,
+      "valuation_ready": false,
+      "evidence": [
+        {
+          "filename": "control04_2324.html",
+          "sha256": "9fe73ded448f393ba4bc84f46b8ebef784705ffb12dca65cca92a12eecfcb3d6",
+          "description_sha256": "352e45df92c5f2215ea4dd8b1a4a37b30d7ccea20dcdc9c9a2ff71fb3b5bb211",
+          "exact_excerpts": [
+            "本股份轉換案之對價為每一股鋐寶科技普通股現金對價新台幣18.50元。",
+            "本公司直接持股42.60%之子公司",
+            "取得鋐寶科技57.40%普通股股權",
+            "將於股份轉換基準日後7個營業日內",
+            "本股份轉換案依法尚須經鋐寶科技之股東臨時會決議通過。"
+          ]
+        },
+        {
+          "filename": "control05_6674.html",
+          "sha256": "b920c1db07676565208fbe7dea34923fbdc363281cf3f6f3932980fffbd5877a",
+          "description_sha256": "3e9a94c7a46c018819c40addffa29c7f452e5944dbcdd8420476205dc5589f60",
+          "exact_excerpts": [
+            "本股份轉換案之對價為每一股本公司普通股配發現金對價新台幣18.5元。",
+            "股份轉換基準日為民國（以下同）115年12月31日",
+            "股份轉換基準日後七個營業日內",
+            "本公司將終止上市並停止公開發行",
+            "本股份轉換案依法尚須經本公司之股東臨時會決議通過。",
+            "得由雙方董事會授權之代表另行協商變更之。"
+          ]
+        }
+      ]
+    },
+    {
+      "document_numbers": [
+        6
+      ],
+      "transaction_type": "Cancellation of a proposed simplified merger with a100percent-owned BVI subsidiary, issuer-stated Article19; not evidence of a failed public minority cash-exit deal.",
+      "parent": "5203訊連（原文稱本公司）",
+      "target": "CyberLink International Technology Corp.(BVI)",
+      "target_status": "100percent-owned subsidiary; no outside target shareholder cash claim identified, and public/private legal issuance status is not expressly stated.",
+      "board_approval_date": "2026-04-29",
+      "cancellation_date": "2026-07-28",
+      "consideration_and_payment": "No consideration or payment amount/date stated in cancellation original.",
+      "cancellation_reason": "Reassessment of operational strategy, organization needs and economic conditions; no immediate need; retain flexibility and avoid administrative costs.",
+      "evidence": [
+        {
+          "filename": "control06_5203.html",
+          "sha256": "c4c4da834cee42c181f2f223a5d4c7dbeec45a15fd46f66f571fa5fcfbe1def6",
+          "description_sha256": "33239451cd40c848ed0d95d04b2a08aee6f2310f0cb2140fbae71f9c15d91049",
+          "exact_excerpts": [
+            "董事會決議合併日期:115/04/29",
+            "董事會決議撤銷合併日期:115/07/28",
+            "本公司與持股100%之子公司",
+            "CyberLink International Technology Corp.（BVI）",
+            "擬停止前述簡易合併案之辦理。"
+          ]
+        }
+      ]
+    }
+  ],
+  "index_limitations": [
+    "476below1000 and quarter/month equality verify observed response consistency only, not historical eligible-population completeness or first-available version.",
+    "All returned rows and original control providers declare上市; current index market labels alone are not historical listing census.",
+    "M11 includes options, financing and broad capital actions; six selected controls are not an eligible all-cash-deal census."
+  ],
+  "legal_sources": {
+    "moj": {
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=J0080041",
+      "http_status": 0,
+      "curl_exit_code": 7,
+      "body_saved": false,
+      "root_cause_inferred": false
+    },
+    "tax": {
+      "url": "https://law-out.mof.gov.tw/LawContent.aspx?id=GL004795&media=print",
+      "sha256": "447e573bee732d076c37ae32801a7c79744f277dfce37f4c0b48ee809f5187e6",
+      "http_status": 200,
+      "published_date": "2008-02-20",
+      "scope": "Companies extinguished by merger distributing cash upon stock cancellation; not affirmative support for2026tax treatment of a surviving target under cash share conversion.",
+      "current_2026_applicability_verified": false
+    }
+  },
+  "candidate_conclusion": {
+    "candidate_target": "6674鋐寶科技",
+    "paired_buyer": "2324仁寶",
+    "plausible_contractual_cash_exit_mechanism": true,
+    "ready_for_valuation": false,
+    "gross_consideration_per_1000_target_shares_twd": "18500",
+    "gross_consideration_meaning": "Contract term arithmetic only; not an observed purchase quote, funding test, return or valuation.",
+    "needs_user_decision_now": false,
+    "user_download_requests": 0
+  },
+  "resolvable_without_user": [
+    "Offline: classify and deduplicate observed476index records with full official URL/time identities; preserve unrelated actions and cancellations.",
+    "Offline: build a separate terms-evidence checklist and conditional cash-ledger test cases from6674/2324pair; no valuation before protocol and source gate.",
+    "Future separately frozen bounded public-source work, if program permits: recover all-term share-conversion contract, shareholder meeting materials/resolutions, applicable tax/withholding rules, eligible record/last-trading dates, later amendments/cancellation and actual payment notices. This would need new archived sources; it was not performed within the12request route."
+  ],
+  "unresolved_claim_inputs": [
+    "Complete eligible deal population, including canceled/failed/pending public cash exits.",
+    "First-public-availability chronology and revisions through any chosen asof; Q3M11index cannot establish Q4current status.",
+    "Full contract closing conditions/termination/long-stop and consideration adjustments.",
+    "6674shareholder approval and regulatory application/approval status, last trading/record entitlement date and finalized conversion/payment calendar.",
+    "Share-conversion-specific current tax and actual shareholder deductions/fees.",
+    "Acquirer funding/credit evidence; self-funded assertion is not completion or repayment guarantee.",
+    "Purchase execution quote, integer-lot funding and costs (deliberately unqueried)."
+  ],
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "complete_population_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "trade_authorized": false
+}

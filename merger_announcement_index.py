@@ -52,7 +52,7 @@ def parse_index(body: bytes, start='2026-07-01', end='2026-09-30') -> dict:
             raise ValueError('Declared total must be an integer in[0,1000)')
         if declared_total != len(data):
             raise ValueError('Declared total differs from actual returned rows')
-    rows, identities = [], set()
+    rows, identities, legacy_groups = [], set(), {}
     for index, original in enumerate(data, 1):
         if not isinstance(original, dict) or not _REQUIRED_FIELDS <= original.keys():
             raise ValueError('Missing announcement fields at returned row ' + str(index))
@@ -69,12 +69,19 @@ def parse_index(body: bytes, start='2026-07-01', end='2026-09-30') -> dict:
         if not re.fullmatch(r'(?:[01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]', clock):
             raise ValueError('CTIME must be valid localHH:MM:SS without timezone suffix')
         query = _detail_query(original['HYPERLINK'], company, day, clock)
-        event_id = 'M11:' + company + ':' + day.isoformat() + ':' + query['SEQ_NO']
+        # M11's captured API response reuses(company,date,SEQ_NO) for records
+        # with different clocks and subjects. Unlike the frozenM35 namespace,
+        # retain the complete required detail-pointer identity, including its
+        # already verified local clock. Do not infer independent deal identity.
+        legacy_key = 'M11:' + company + ':' + day.isoformat() + ':' + query['SEQ_NO']
+        event_id = ('M11:' + company + ':' + day.isoformat() + ':'
+                    + clock.replace(':', '') + ':' + query['SEQ_NO'])
         if event_id in identities:
             raise ValueError('Duplicate/conflicting event identity: ' + event_id)
         identities.add(event_id)
         local = dt.datetime.combine(day, dt.time.fromisoformat(clock), tzinfo=_TAIPEI)
-        rows.append(dict(returned_row_number=index, event_id=event_id, company_id=company,
+        rows.append(dict(returned_row_number=index, event_id=event_id, legacy_key=legacy_key,
+                         company_id=company,
                          announcement_date=day.isoformat(), announcement_time=clock,
                          observed_typek=original['TYPEK'], timezone='Asia/Taipei',
                          reported_timestamp_taipei=local.isoformat(),
@@ -82,6 +89,12 @@ def parse_index(body: bytes, start='2026-07-01', end='2026-09-30') -> dict:
                          sequence_no=query['SEQ_NO'], url=original['HYPERLINK'], url_query=query,
                          original_fields=original, transaction_form=None, eligible_cash_merger=None,
                          original_document_verified=False, historical_pit_verified=False))
+        legacy_groups.setdefault(legacy_key, []).append(dict(
+            returned_row_number=index, event_id=event_id, announcement_time=clock,
+            url=original['HYPERLINK'], subject=original['SUBJECT']))
+    collisions = [dict(legacy_key=key, records=group,
+                       resolution='Unverified distinct reported pointers; original forms required, not independent case proof')
+                  for key, group in sorted(legacy_groups.items()) if len(group) > 1]
     markets = sorted({row['observed_typek'] for row in rows})
     qualified = bool(rows) and markets == ['上市']
     return dict(status='returned_m11_rows_validated', body_sha256=hashlib.sha256(body).hexdigest(),
@@ -93,6 +106,11 @@ def parse_index(body: bytes, start='2026-07-01', end='2026-09-30') -> dict:
                 response_metadata={k: v for k, v in response.items() if k != 'data'},
                 current_response_row_count=len(rows), declared_total=declared_total,
                 count_reconciliation_passed='total' in response, returned_row_ceiling=1000,
+                pointer_identity_basis='M11/COMPANY_ID/local_date/local_clock/SEQ_NO, with clock checked against official detailURL',
+                full_pointer_identity_unique_in_response=True,
+                legacy_key_collisions=collisions, legacy_key_collision_group_count=len(collisions),
+                legacy_key_collision_row_count=sum(len(group['records']) for group in collisions),
+                identity_namespace_unverified=True, independent_event_cases_verified=False,
                 rows=rows, returned_rows_and_urls_validated=True,
                 semantic_cash_merger_selection_performed=False, eligible_cash_merger_count=None,
                 complete_announcement_population_verified=False, empty_universe_verified=False,

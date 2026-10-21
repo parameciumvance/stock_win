@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "374d4b1a45a531fe8e26c7976a55f8ebfe0b1f05e2d8be9c71c243d2a78012b9",
+  "path": "configs/cash_merger_controls_sources_20261021.json",
+  "sha256": "1b85c624f23b1589dd27377cc258234f62054fcc2701ff3efd2bdee6be4394fc",
+  "requests": 6,
+  "frozen_at": "2026-10-21T13:20:07.122520+00:00",
+  "selection_manifest_sha256": "aa100bc35d5712947e5316787b08029fc8a399dec884e1a9ac91d38bb5387d0b",
+  "source_archive_sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a"
+}

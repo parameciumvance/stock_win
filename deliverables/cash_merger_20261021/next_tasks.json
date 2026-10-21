@@ -1,0 +1,14 @@
+{
+  "status": "index_and_controls_replayed_explicit_title_census_pending",
+  "next_project_action": "Freeze and acquire the finite remaining original documents of the explicit19title census, reusing archived controls; no new hypothesis or outcome search",
+  "qualification_source_gate_passed": false,
+  "source_gap": "Only six controls read; broad M11 and title subset are not a complete eligible cash-claim census",
+  "no_claim_unrequested_sources_unobtainable": true,
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "replay_sha256": "1b3ebbf68c61ee9be2c453634cc788cea273bceeed41f08c3e1df23a323d4fca"
+}

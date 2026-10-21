@@ -1,0 +1,401 @@
+{
+  "status": "current_m11_indices_and_six_controls_replayed",
+  "quarter_rows": 476,
+  "month_rows": [
+    117,
+    253,
+    106
+  ],
+  "quarter_source_sha256": "dffeb0604df7a32349356651759ef5c39029e5494789461eb7a3f5cf8a1cb4a5",
+  "partition": {
+    "missing_from_months": [],
+    "extra_in_months": [],
+    "changed_original_fields": [],
+    "current_response_partition_agreement": true,
+    "quarter_rows": 476,
+    "monthly_rows": 476,
+    "historical_completeness_proven": false
+  },
+  "query_market_qualified": true,
+  "legacy_key_collisions": [
+    {
+      "legacy_key": "M11:3708:2026-08-07:2",
+      "records": [
+        {
+          "returned_row_number": 297,
+          "event_id": "M11:3708:2026-08-07:164518:2",
+          "announcement_time": "16:45:18",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=164518&SPOKE_DATE=20260807&COMPANY_ID=3708",
+          "subject": "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e09\u6b21\u6709\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u53ca\u570b\u5167\u7b2c\u56db\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\r\n\u516c\u53f8\u50b5\u8f49\u63db\u666e\u901a\u80a1\u4e4b\u767c\u884c\u65b0\u80a1\u589e\u8cc7\u57fa\u6e96\u65e5"
+        },
+        {
+          "returned_row_number": 298,
+          "event_id": "M11:3708:2026-08-07:164425:2",
+          "announcement_time": "16:44:25",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=164425&SPOKE_DATE=20260807&COMPANY_ID=3708",
+          "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u5eab\u85cf\u80a1\u8a3b\u92b7\u6e1b\u8cc7\u57fa\u6e96\u65e5"
+        }
+      ],
+      "resolution": "Unverified distinct reported pointers; original forms required, not independent case proof"
+    },
+    {
+      "legacy_key": "M11:4938:2026-08-12:1",
+      "records": [
+        {
+          "returned_row_number": 208,
+          "event_id": "M11:4938:2026-08-12:170520:1",
+          "announcement_time": "17:05:20",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=170520&SPOKE_DATE=20260812&COMPANY_ID=4938",
+          "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u8fa6\u7406\u9650\u5236\u54e1\u5de5\u6b0a\u5229\u65b0\u80a1\u6536\u8cb7\u8a3b\u92b7\u6e1b\u8cc7\u6848"
+        },
+        {
+          "returned_row_number": 234,
+          "event_id": "M11:4938:2026-08-12:134249:1",
+          "announcement_time": "13:42:49",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=134249&SPOKE_DATE=20260812&COMPANY_ID=4938",
+          "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u767c\u884c\u6d77\u5916\u7b2c\u4e8c\u6b21\u7121\u64d4\u4fdd\u53ef\u8f49\u63db\u516c\u53f8\u50b5"
+        }
+      ],
+      "resolution": "Unverified distinct reported pointers; original forms required, not independent case proof"
+    },
+    {
+      "legacy_key": "M11:6472:2026-08-13:1",
+      "records": [
+        {
+          "returned_row_number": 180,
+          "event_id": "M11:6472:2026-08-13:200654:1",
+          "announcement_time": "20:06:54",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=200654&SPOKE_DATE=20260813&COMPANY_ID=6472",
+          "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u767c\u884c\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49"
+        },
+        {
+          "returned_row_number": 185,
+          "event_id": "M11:6472:2026-08-13:165856:1",
+          "announcement_time": "16:58:56",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165856&SPOKE_DATE=20260813&COMPANY_ID=6472",
+          "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49\u8f49\u63db\u666e\u901a\u80a1\u4e4b\u589e\u8cc7\u57fa\u6e96\u65e5"
+        }
+      ],
+      "resolution": "Unverified distinct reported pointers; original forms required, not independent case proof"
+    },
+    {
+      "legacy_key": "M11:6669:2026-08-07:1",
+      "records": [
+        {
+          "returned_row_number": 285,
+          "event_id": "M11:6669:2026-08-07:183210:1",
+          "announcement_time": "18:32:10",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=183210&SPOKE_DATE=20260807&COMPANY_ID=6669",
+          "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u767c\u884c\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5"
+        },
+        {
+          "returned_row_number": 286,
+          "event_id": "M11:6669:2026-08-07:182712:1",
+          "announcement_time": "18:27:12",
+          "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=182712&SPOKE_DATE=20260807&COMPANY_ID=6669",
+          "subject": "\u516c\u544a\u672c\u516c\u53f8\u6d77\u5916\u7121\u64d4\u4fdd\u53ef\u8f49\u63db\u516c\u53f8\u50b5\u8f49\u63db\u666e\u901a\u80a1\u589e\u8cc7\u57fa\u6e96\u65e5"
+        }
+      ],
+      "resolution": "Unverified distinct reported pointers; original forms required, not independent case proof"
+    }
+  ],
+  "controls": [
+    {
+      "filename": "control01_6472.html",
+      "role": "legacy_sequence_collision_control",
+      "index_event_id": "M11:6472:2026-08-13:200654:1",
+      "issuer": "6472",
+      "reported_datetime": "2026-08-13T20:06:54+08:00",
+      "sequence": 1,
+      "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u767c\u884c\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49",
+      "description_sha256": "1f7ccb988a626edc1ff2dd6aeafd27bceaa3ab8493a19df43a88f147f17e0e76",
+      "body_sha256": "12afd8779d9193dd3fc50ddde7507c09a6d3e7ce54a65746483998d48d81b983",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=200654&SPOKE_DATE=20260813&COMPANY_ID=6472",
+      "metadata_identity_verified": true,
+      "description_text_policy": "HTMLdecoded; CRLF/CR converted toLF; outer whitespace stripped; internal text retained",
+      "transaction_form": null,
+      "eligible_cash_merger": null,
+      "cash_claim_source_gate_passed": false,
+      "independent_deal_identity_verified": false,
+      "historical_pit_verified": false,
+      "first_publication_time_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "filename": "control02_6472.html",
+      "role": "legacy_sequence_collision_control",
+      "index_event_id": "M11:6472:2026-08-13:165856:1",
+      "issuer": "6472",
+      "reported_datetime": "2026-08-13T16:58:56+08:00",
+      "sequence": 1,
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49\u8f49\u63db\u666e\u901a\u80a1\u4e4b\u589e\u8cc7\u57fa\u6e96\u65e5",
+      "description_sha256": "b52c2a4abe7d69927581452eefe184919cf70fe8dcafc4fe8fd3a62537330af8",
+      "body_sha256": "79852a8866432d7fbc83d572764ab2333fc31aa8d20aea8c9e987c731af97d88",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165856&SPOKE_DATE=20260813&COMPANY_ID=6472",
+      "metadata_identity_verified": true,
+      "description_text_policy": "HTMLdecoded; CRLF/CR converted toLF; outer whitespace stripped; internal text retained",
+      "transaction_form": null,
+      "eligible_cash_merger": null,
+      "cash_claim_source_gate_passed": false,
+      "independent_deal_identity_verified": false,
+      "historical_pit_verified": false,
+      "first_publication_time_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "filename": "control03_1103.html",
+      "role": "cash_form_control_not_completed_case_selection",
+      "index_event_id": "M11:1103:2026-09-29:174630:1",
+      "issuer": "1103",
+      "reported_datetime": "2026-09-29T17:46:30+08:00",
+      "sequence": 1,
+      "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u4ee5\u73fe\u91d1\u70ba\u5c0d\u50f9\u4e4b\u80a1\u4efd\u8f49\u63db\u6848",
+      "description_sha256": "871089268f2e108a36d7fb0d92a465418f499c6aae106e00bb928d9c9a1c04ea",
+      "body_sha256": "6e57a1bf7066523b1716ea6c14ad2953ab048b14b47623c192f7f7aa379cef01",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174630&SPOKE_DATE=20260929&COMPANY_ID=1103",
+      "metadata_identity_verified": true,
+      "description_text_policy": "HTMLdecoded; CRLF/CR converted toLF; outer whitespace stripped; internal text retained",
+      "transaction_form": null,
+      "eligible_cash_merger": null,
+      "cash_claim_source_gate_passed": false,
+      "independent_deal_identity_verified": false,
+      "historical_pit_verified": false,
+      "first_publication_time_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "filename": "control04_2324.html",
+      "role": "cash_form_control_not_completed_case_selection",
+      "index_event_id": "M11:2324:2026-09-18:211850:2",
+      "issuer": "2324",
+      "reported_datetime": "2026-09-18T21:18:50+08:00",
+      "sequence": 2,
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u73fe\u91d1\u80a1\u4efd\u8f49\u63db\u6848",
+      "description_sha256": "352e45df92c5f2215ea4dd8b1a4a37b30d7ccea20dcdc9c9a2ff71fb3b5bb211",
+      "body_sha256": "9fe73ded448f393ba4bc84f46b8ebef784705ffb12dca65cca92a12eecfcb3d6",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=211850&SPOKE_DATE=20260918&COMPANY_ID=2324",
+      "metadata_identity_verified": true,
+      "description_text_policy": "HTMLdecoded; CRLF/CR converted toLF; outer whitespace stripped; internal text retained",
+      "transaction_form": null,
+      "eligible_cash_merger": null,
+      "cash_claim_source_gate_passed": false,
+      "independent_deal_identity_verified": false,
+      "historical_pit_verified": false,
+      "first_publication_time_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "filename": "control05_6674.html",
+      "role": "cash_form_control_not_completed_case_selection",
+      "index_event_id": "M11:6674:2026-09-18:202555:5",
+      "issuer": "6674",
+      "reported_datetime": "2026-09-18T20:25:55+08:00",
+      "sequence": 5,
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u4ec1\u5bf6\u96fb\u8166\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e4b\u73fe\u91d1\n\u80a1\u4efd\u8f49\u63db\u6848",
+      "description_sha256": "3e9a94c7a46c018819c40addffa29c7f452e5944dbcdd8420476205dc5589f60",
+      "body_sha256": "b920c1db07676565208fbe7dea34923fbdc363281cf3f6f3932980fffbd5877a",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=202555&SPOKE_DATE=20260918&COMPANY_ID=6674",
+      "metadata_identity_verified": true,
+      "description_text_policy": "HTMLdecoded; CRLF/CR converted toLF; outer whitespace stripped; internal text retained",
+      "transaction_form": null,
+      "eligible_cash_merger": null,
+      "cash_claim_source_gate_passed": false,
+      "independent_deal_identity_verified": false,
+      "historical_pit_verified": false,
+      "first_publication_time_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "filename": "control06_5203.html",
+      "role": "withdrawal_semantic_control_not_retail_cash_failure_coverage",
+      "index_event_id": "M11:5203:2026-07-28:152612:1",
+      "issuer": "5203",
+      "reported_datetime": "2026-07-28T15:26:12+08:00",
+      "sequence": 1,
+      "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u505c\u6b62\u8fa6\u7406\u8207\u5b50\u516c\u53f8\nCyberLink International Technology Corp.(BVI)\n\u4e4b\u7c21\u6613\u5408\u4f75\u6848",
+      "description_sha256": "33239451cd40c848ed0d95d04b2a08aee6f2310f0cb2140fbae71f9c15d91049",
+      "body_sha256": "c4c4da834cee42c181f2f223a5d4c7dbeec45a15fd46f66f571fa5fcfbe1def6",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152612&SPOKE_DATE=20260728&COMPANY_ID=5203",
+      "metadata_identity_verified": true,
+      "description_text_policy": "HTMLdecoded; CRLF/CR converted toLF; outer whitespace stripped; internal text retained",
+      "transaction_form": null,
+      "eligible_cash_merger": null,
+      "cash_claim_source_gate_passed": false,
+      "independent_deal_identity_verified": false,
+      "historical_pit_verified": false,
+      "first_publication_time_verified": false,
+      "source_gate_passed": false
+    }
+  ],
+  "collision_pair_distinct_retained_descriptions": true,
+  "explicit_merger_title_cohort_count": 19,
+  "explicit_merger_title_cohort": [
+    {
+      "event_id": "M11:1103:2026-09-29:174630:1",
+      "company_id": "1103",
+      "reported_timestamp_taipei": "2026-09-29T17:46:30+08:00",
+      "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u4ee5\u73fe\u91d1\u70ba\u5c0d\u50f9\u4e4b\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": true
+    },
+    {
+      "event_id": "M11:2324:2026-09-18:211850:2",
+      "company_id": "2324",
+      "reported_timestamp_taipei": "2026-09-18T21:18:50+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u73fe\u91d1\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": true
+    },
+    {
+      "event_id": "M11:6674:2026-09-18:202555:5",
+      "company_id": "6674",
+      "reported_timestamp_taipei": "2026-09-18T20:25:55+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u4ec1\u5bf6\u96fb\u8166\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e4b\u73fe\u91d1\r\n\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": true
+    },
+    {
+      "event_id": "M11:6573:2026-09-18:171429:1",
+      "company_id": "6573",
+      "reported_timestamp_taipei": "2026-09-18T17:14:29+08:00",
+      "subject": "\u4ee3\u5b50\u516c\u53f8\u63da\u5dde\u8679\u63da\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u63da\u5dde\u8679\u5b87\u516c\u53f8\u5408\u4f75\u4e8b\u5b9c",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:1532:2026-09-15:155041:3",
+      "company_id": "1532",
+      "reported_timestamp_taipei": "2026-09-15T15:50:41+08:00",
+      "subject": "\u672c\u516c\u53f8\u4ee3\u91cd\u8981\u5b50\u516c\u53f8\u749e\u771f\u5efa\u8a2d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u516c\u544a\u8b8a\u66f4\u8207\r\n\u52e4\u8015\u5efa\u8a2d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e4b\u5408\u4f75\u57fa\u6e96\u65e5",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:4958:2026-09-11:173032:2",
+      "company_id": "4958",
+      "reported_timestamp_taipei": "2026-09-11T17:30:32+08:00",
+      "subject": "\u4ee3\u5b50\u516c\u53f8\u6176\u9f0e\u7cbe\u5bc6\u96fb\u5b50(\u6dee\u5b89)\u6709\u9650\u516c\u53f8\u53ca\u5b8f\u6052\u52dd\u96fb\u5b50\u79d1\u6280(\u6dee\u5b89)\r\n\u6709\u9650\u516c\u53f8\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u5438\u6536\u5408\u4f75\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2884:2026-09-01:190508:11",
+      "company_id": "2884",
+      "reported_timestamp_taipei": "2026-09-01T19:05:08+08:00",
+      "subject": "\u7389\u5c71\u91d1\u63a7\u4ee3\u7389\u5c71\u6295\u4fe1\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u8207\u91d1\u63a7\u7c3d\u7f72\u80a1\u4efd\u8f49\u63db\u5951\u7d04",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2884:2026-09-01:190151:9",
+      "company_id": "2884",
+      "reported_timestamp_taipei": "2026-09-01T19:01:51+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u73fe\u91d1\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:1459:2026-08-27:170003:1",
+      "company_id": "1459",
+      "reported_timestamp_taipei": "2026-08-27T17:00:03+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u8207\u5b50\u516c\u53f8\u5408\u4f75\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2305:2026-08-11:161904:4",
+      "company_id": "2305",
+      "reported_timestamp_taipei": "2026-08-11T16:19:04+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u5b50\u516c\u53f8\u65b0\u53cb\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\r\n\u7c21\u6613\u5408\u4f75\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:1720:2026-08-07:171326:3",
+      "company_id": "1720",
+      "reported_timestamp_taipei": "2026-08-07T17:13:26+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u4ee5\u73fe\u91d1\u70ba\u5c0d\u50f9\u4e4b\u7c21\u6613\u80a1\u4efd\u8f49\u63db\u65b9\u5f0f\uff0c\r\n\u53d6\u5f97\u5b50\u516c\u53f8\u6021\u767c\u79d1\u6280(\u80a1)\u516c\u53f8\u767e\u5206\u4e4b\u767e\u80a1\u4efd",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:5203:2026-07-28:152612:1",
+      "company_id": "5203",
+      "reported_timestamp_taipei": "2026-07-28T15:26:12+08:00",
+      "subject": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u505c\u6b62\u8fa6\u7406\u8207\u5b50\u516c\u53f8\r\nCyberLink International Technology Corp.(BVI)\r\n\u4e4b\u7c21\u6613\u5408\u4f75\u6848",
+      "original_document_in_six_controls": true
+    },
+    {
+      "event_id": "M11:3008:2026-07-27:175238:4",
+      "company_id": "3008",
+      "reported_timestamp_taipei": "2026-07-27T17:52:38+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u4ee5\u589e\u8cc7\u767c\u884c\u65b0\u80a1\r\n\u8207\u5927\u967d\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\u9032\u884c\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:3008:2026-07-27:175112:7",
+      "company_id": "3008",
+      "reported_timestamp_taipei": "2026-07-27T17:51:12+08:00",
+      "subject": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u5927\u967d\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2887:2026-07-20:183326:4",
+      "company_id": "2887",
+      "reported_timestamp_taipei": "2026-07-20T18:33:26+08:00",
+      "subject": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u65b0\u5149\u79df\u8cc3(\u8607\u5dde)\u6709\u9650\u516c\u53f8\u516c\u544a\r\n\u8207\u53f0\u65b0\u878d\u8cc7\u79df\u8cc3(\u4e2d\u570b)\u6709\u9650\u516c\u53f8\u9032\u884c\u5408\u4f75",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2887:2026-07-20:183104:3",
+      "company_id": "2887",
+      "reported_timestamp_taipei": "2026-07-20T18:31:04+08:00",
+      "subject": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u53f0\u65b0\u878d\u8cc7\u79df\u8cc3(\u4e2d\u570b)\u6709\u9650\u516c\u53f8\u516c\u544a\r\n\u5438\u6536\u5408\u4f75\u65b0\u5149\u79df\u8cc3(\u8607\u5dde)\u6709\u9650\u516c\u53f8",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2887:2026-07-14:185831:5",
+      "company_id": "2887",
+      "reported_timestamp_taipei": "2026-07-14T18:58:31+08:00",
+      "subject": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u53f0\u65b0\u5275\u6295\u516c\u544a\u8fa6\u7406\u5408\u4f75\u767c\u884c\u65b0\u80a1",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:2887:2026-07-14:180754:4",
+      "company_id": "2887",
+      "reported_timestamp_taipei": "2026-07-14T18:07:54+08:00",
+      "subject": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u53f0\u65b0\u6295\u9867\u516c\u544a\u8463\u4e8b\u6703\u901a\u904e\u5408\u4f75\u589e\u8cc7\u767c\u884c\r\n\u65b0\u80a1\u6848",
+      "original_document_in_six_controls": false
+    },
+    {
+      "event_id": "M11:4536:2026-07-09:195525:2",
+      "company_id": "4536",
+      "reported_timestamp_taipei": "2026-07-09T19:55:25+08:00",
+      "subject": "\u4ee3\u91cd\u8981\u5b50\u516c\u53f8NSH\u516c\u53f8\u8207XPT\u9999\u6e2f\u516c\u53f8\u516c\u544a\uff1a\r\n\u8f49\u6295\u8cc7\u5b50\u516c\u53f8\u9593\u80a1\u4efd\u8f49\u63db\u6848",
+      "original_document_in_six_controls": false
+    }
+  ],
+  "archives": [
+    {
+      "sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a",
+      "manifest_files": 20,
+      "backup": {
+        "sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\cash_merger_20261021_discovery_b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a.zip",
+        "retrieved_path": "inputs/cash_merger_20261021/discovery.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-21T13:16:01.342Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    },
+    {
+      "sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+      "manifest_files": 22,
+      "backup": {
+        "sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\cash_merger_20261021_controls_6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209.zip",
+        "retrieved_path": "inputs/cash_merger_20261021/controls.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-21T13:20:41.049Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      }
+    }
+  ],
+  "all_eligible_cash_mergers_known": false,
+  "historical_pit_verified": false,
+  "source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false
+}

@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-21T13:29:47.055262+00:00",
+  "actual_saved_requests": 12,
+  "source_errors": [
+    {
+      "filename": "merger_act.html",
+      "http_status": 0,
+      "curl_exit": 7,
+      "body_saved": false,
+      "meaning": "Connection failed; no cause/siteblocking claim and no silent replacement"
+    },
+    {
+      "stage": "initialM11parsercheck",
+      "error": "Duplicate/conflicting event identity:M11:6472:2026-08-13:1",
+      "resolution": "Preserved4legacy-key collisions8rows; newM11identity includes validatedclock. Onepair originals have distinctsubjects/fulltexts. OldM35inputsunchanged"
+    }
+  ],
+  "scope_limits": [
+    "476currentM11rowswithmonthagreement do not establish historicalfirstavailability or cash-mergerpopulation",
+    "Threecashformcontrols includeonebuyer/private-target andonebuyer/targetpair; cancellationcontroliswhollyownedsubsidiary, notretailcash-failurecoverage"
+  ],
+  "market_prices_read": 0
+}

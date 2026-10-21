@@ -1,0 +1,178 @@
+{
+  "base_remote_commit": "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b",
+  "records": [
+    {
+      "pass_number": 1,
+      "plan": "configs/cash_merger_discovery_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_discovery",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_discovery_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_discovery",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "complete: merger_discovery_acquire\ncomplete: merger_discovery_package\n"
+    },
+    {
+      "pass_number": 1,
+      "plan": "configs/cash_merger_readback_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_readback",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_readback",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "complete: merger_discovery_readback\n"
+    },
+    {
+      "pass_number": 1,
+      "plan": "configs/cash_merger_controls_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_controls",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_controls_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_controls",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "complete: merger_controls_acquire\ncomplete: merger_controls_package\n"
+    },
+    {
+      "pass_number": 1,
+      "plan": "configs/cash_merger_controls_readback_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_controls_readback",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_controls_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_controls_readback",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "complete: merger_controls_readback\n"
+    },
+    {
+      "pass_number": 1,
+      "plan": "configs/cash_merger_replay_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_replay",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_replay",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "complete: merger_index_and_original_control_replay\ncomplete: merger_independent_original_and_semantic_audit\n"
+    },
+    {
+      "pass_number": 2,
+      "plan": "configs/cash_merger_discovery_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_discovery",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_discovery_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_discovery",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_discovery_acquire\nverified skip: merger_discovery_package\n"
+    },
+    {
+      "pass_number": 2,
+      "plan": "configs/cash_merger_readback_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_readback",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_readback",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_discovery_readback\n"
+    },
+    {
+      "pass_number": 2,
+      "plan": "configs/cash_merger_controls_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_controls",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_controls_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_controls",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_controls_acquire\nverified skip: merger_controls_package\n"
+    },
+    {
+      "pass_number": 2,
+      "plan": "configs/cash_merger_controls_readback_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_controls_readback",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_controls_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_controls_readback",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_controls_readback\n"
+    },
+    {
+      "pass_number": 2,
+      "plan": "configs/cash_merger_replay_pipeline.json",
+      "state": "inputs/cash_merger_20261021/pipeline_replay",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_20261021/pipeline_replay",
+        "--code-commit",
+        "1f9a7ec092212d9236dac86cc4cf0b3a04bb534b"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_index_and_original_control_replay\nverified skip: merger_independent_original_and_semantic_audit\n"
+    }
+  ],
+  "verified_skips_second_pass": 8,
+  "stages": 8,
+  "all_passed": true
+}

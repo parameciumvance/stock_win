@@ -1,0 +1,66 @@
+{
+  "status": "frozen_before_originals_IO",
+  "scope": "Bounded original-document qualification for the same cash-merger candidate; no third mechanism, new year or market outcomes.",
+  "rationale": "The 12-request discovery cap remains unchanged. The fixed 476-row index and six controls identify exactly 15 missing originals in the 19-title census. Freeze that finite list before acquisition; do not substitute cohort or retry automatically.",
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/buyback_coverage_20261020/checkpoint.json": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+    "deliverables/buyback_probe_20261020/checkpoint.json": "826ee004fd85d4438be317a39c0e20215c0f281c845631906ed0e1f4252d372e",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/frontier_20261020/checkpoint.json": "a8c7083ade2b815df9bc16d3f60bc710b4eaaff7a2e951badb036f9df90f04fb",
+    "deliverables/cash_merger_20261021/checkpoint.json": "6640717e5aa9f14cff7ceecebc7eab5a933eef9ba130a66b8766df0aa73e9599"
+  },
+  "max_saved_requests": 15,
+  "max_source_batches": 1,
+  "workers": 2,
+  "automatic_retries": 0,
+  "batches": {
+    "originals": {
+      "path": "configs/cash_merger_census_sources_20261021.json",
+      "sha256": "b64818c03ae46a69bf2391652c799a6aabc1c11129f01b12d5d12066249c7f76",
+      "requests": 15
+    }
+  },
+  "selection_manifest": {
+    "path": "deliverables/cash_merger_census_20261021/selection.json",
+    "sha256": "bd560b0e6962bcd1c1b507fbc9ab200b86c3042c74986fb4727ab79169cdbc1f"
+  },
+  "source_quarter": {
+    "out": "deliverables/cash_merger_20261021",
+    "batch": "discovery",
+    "member": "raw/m11_2026q3.json",
+    "archive_sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a",
+    "body_sha256": "dffeb0604df7a32349356651759ef5c39029e5494789461eb7a3f5cf8a1cb4a5",
+    "start": "2026-07-01",
+    "end": "2026-09-30"
+  },
+  "title_census": {
+    "path": "deliverables/cash_merger_20261021/index_replay.json",
+    "sha256": "1b3ebbf68c61ee9be2c453634cc788cea273bceeed41f08c3e1df23a323d4fca"
+  },
+  "reused_archives": [
+    {
+      "out": "deliverables/cash_merger_20261021",
+      "batch": "controls",
+      "archive_sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209"
+    }
+  ],
+  "expected_documents": 19,
+  "expected_new_requests": 15,
+  "expected_reused_documents": 4,
+  "source_batch": "originals",
+  "universe_limit": "Announcedtitlesinthisfixedquarter only; notcompleteallTaiwancashmergers or faileddeals. All476broadM11rowsremainseparatelysaved.",
+  "stop": "No retries/substituteoriginals/cohortreplacement ifunknownforms or gaps. Archive failures and leavequalificationunknown; never infer payment or eligiblecashclaims fromtitles.",
+  "next": "After all19identity/text checks, classify issuerrole/target/cashvsstock/subsidiary/cancel andfreezeanyclaim-clocktool beforemarketprices. Continue usefulofflineworkwithoutuserconfirmation.",
+  "market_quote_requests": 0,
+  "models_fitted": 0,
+  "parameter_searches": 0,
+  "manual_download_requests": 0,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

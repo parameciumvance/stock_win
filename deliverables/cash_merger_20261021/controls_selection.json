@@ -1,0 +1,104 @@
+{
+  "selected_at": "2026-10-21T13:20:07.116384+00:00",
+  "source_archive_sha256": "b88d784df93af2f092df0a14208997e823232034b4ef636fcc9c6e9e7e4f588a",
+  "source_body_sha256": "dffeb0604df7a32349356651759ef5c39029e5494789461eb7a3f5cf8a1cb4a5",
+  "selection": "First observed sequence-collision pair by source row; all3explicitnonfinancialcash-form subjectcontrols (1103target/2324buyer/6674target); sole stopped-merger subjectcontrol. No outcomes/price selection; this is not full eligiblecasecensus.",
+  "rows": [
+    {
+      "role": "legacy_sequence_collision_control",
+      "source_row_number": 180,
+      "original_fields": {
+        "CDATE": "115/08/13",
+        "COMPANY_NAME": "\u4fdd\u745e",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u751f\u6280\u91ab\u7642\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "20:06:54",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u767c\u884c\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=200654&SPOKE_DATE=20260813&COMPANY_ID=6472",
+        "COMPANY_ID": "6472"
+      }
+    },
+    {
+      "role": "legacy_sequence_collision_control",
+      "source_row_number": 185,
+      "original_fields": {
+        "CDATE": "115/08/13",
+        "COMPANY_NAME": "\u4fdd\u745e",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u751f\u6280\u91ab\u7642\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "16:58:56",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u54e1\u5de5\u8a8d\u80a1\u6b0a\u6191\u8b49\u8f49\u63db\u666e\u901a\u80a1\u4e4b\u589e\u8cc7\u57fa\u6e96\u65e5",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=165856&SPOKE_DATE=20260813&COMPANY_ID=6472",
+        "COMPANY_ID": "6472"
+      }
+    },
+    {
+      "role": "cash_form_control_not_completed_case_selection",
+      "source_row_number": 10,
+      "original_fields": {
+        "CDATE": "115/09/29",
+        "COMPANY_NAME": "\u5609\u6ce5",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u6c34\u6ce5\u5de5\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:46:30",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u4ee5\u73fe\u91d1\u70ba\u5c0d\u50f9\u4e4b\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174630&SPOKE_DATE=20260929&COMPANY_ID=1103",
+        "COMPANY_ID": "1103"
+      }
+    },
+    {
+      "role": "cash_form_control_not_completed_case_selection",
+      "source_row_number": 40,
+      "original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "\u4ec1\u5bf6",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u96fb\u8166\u53ca\u9031\u908a\u8a2d\u5099\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "21:18:50",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u73fe\u91d1\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=211850&SPOKE_DATE=20260918&COMPANY_ID=2324",
+        "COMPANY_ID": "2324"
+      }
+    },
+    {
+      "role": "cash_form_control_not_completed_case_selection",
+      "source_row_number": 41,
+      "original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "\u92d0\u5bf6\u79d1\u6280",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u901a\u4fe1\u7db2\u8def\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "20:25:55",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u4ec1\u5bf6\u96fb\u8166\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e4b\u73fe\u91d1\r\n\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=202555&SPOKE_DATE=20260918&COMPANY_ID=6674",
+        "COMPANY_ID": "6674"
+      }
+    },
+    {
+      "role": "withdrawal_semantic_control_not_retail_cash_failure_coverage",
+      "source_row_number": 393,
+      "original_fields": {
+        "CDATE": "115/07/28",
+        "COMPANY_NAME": "\u8a0a\u9023",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u8cc7\u8a0a\u670d\u52d9\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "15:26:12",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u505c\u6b62\u8fa6\u7406\u8207\u5b50\u516c\u53f8\r\nCyberLink International Technology Corp.(BVI)\r\n\u4e4b\u7c21\u6613\u5408\u4f75\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152612&SPOKE_DATE=20260728&COMPANY_ID=5203",
+        "COMPANY_ID": "5203"
+      }
+    }
+  ]
+}

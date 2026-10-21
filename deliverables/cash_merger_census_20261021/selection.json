@@ -1,0 +1,323 @@
+{
+  "source_quarter_sha256": "dffeb0604df7a32349356651759ef5c39029e5494789461eb7a3f5cf8a1cb4a5",
+  "source_index_replay_sha256": "1b3ebbf68c61ee9be2c453634cc788cea273bceeed41f08c3e1df23a323d4fca",
+  "scope": "Exact19explicitmerger-title entries alreadydisclosedbyfrozenQ3preflight; includesfinancial/subsidiary/stock/cancel, notyeteligiblecashclaims",
+  "rows": [
+    {
+      "event_id": "M11:1103:2026-09-29:174630:1",
+      "index_original_fields": {
+        "CDATE": "115/09/29",
+        "COMPANY_NAME": "\u5609\u6ce5",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u6c34\u6ce5\u5de5\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:46:30",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u4ee5\u73fe\u91d1\u70ba\u5c0d\u50f9\u4e4b\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=174630&SPOKE_DATE=20260929&COMPANY_ID=1103",
+        "COMPANY_ID": "1103"
+      },
+      "original_source": {
+        "archive_sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+        "member": "raw/control03_1103.html"
+      }
+    },
+    {
+      "event_id": "M11:2324:2026-09-18:211850:2",
+      "index_original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "\u4ec1\u5bf6",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u96fb\u8166\u53ca\u9031\u908a\u8a2d\u5099\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "21:18:50",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u73fe\u91d1\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=211850&SPOKE_DATE=20260918&COMPANY_ID=2324",
+        "COMPANY_ID": "2324"
+      },
+      "original_source": {
+        "archive_sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+        "member": "raw/control04_2324.html"
+      }
+    },
+    {
+      "event_id": "M11:6674:2026-09-18:202555:5",
+      "index_original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "\u92d0\u5bf6\u79d1\u6280",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u901a\u4fe1\u7db2\u8def\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "20:25:55",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u4ec1\u5bf6\u96fb\u8166\u5de5\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e4b\u73fe\u91d1\r\n\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=202555&SPOKE_DATE=20260918&COMPANY_ID=6674",
+        "COMPANY_ID": "6674"
+      },
+      "original_source": {
+        "archive_sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+        "member": "raw/control05_6674.html"
+      }
+    },
+    {
+      "event_id": "M11:6573:2026-09-18:171429:1",
+      "index_original_fields": {
+        "CDATE": "115/09/18",
+        "COMPANY_NAME": "\u8679\u63da-KY",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u534a\u5c0e\u9ad4\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:14:29",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u4ee3\u5b50\u516c\u53f8\u63da\u5dde\u8679\u63da\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u63da\u5dde\u8679\u5b87\u516c\u53f8\u5408\u4f75\u4e8b\u5b9c",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=171429&SPOKE_DATE=20260918&COMPANY_ID=6573",
+        "COMPANY_ID": "6573"
+      },
+      "new_filename": "doc04_6573_20260918_171429_1.html"
+    },
+    {
+      "event_id": "M11:1532:2026-09-15:155041:3",
+      "index_original_fields": {
+        "CDATE": "115/09/15",
+        "COMPANY_NAME": "\u52e4\u7f8e",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u96fb\u6a5f\u6a5f\u68b0",
+        "AN_CODE": "M11",
+        "CTIME": "15:50:41",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u4ee3\u91cd\u8981\u5b50\u516c\u53f8\u749e\u771f\u5efa\u8a2d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u516c\u544a\u8b8a\u66f4\u8207\r\n\u52e4\u8015\u5efa\u8a2d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e4b\u5408\u4f75\u57fa\u6e96\u65e5",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=155041&SPOKE_DATE=20260915&COMPANY_ID=1532",
+        "COMPANY_ID": "1532"
+      },
+      "new_filename": "doc05_1532_20260915_155041_3.html"
+    },
+    {
+      "event_id": "M11:4958:2026-09-11:173032:2",
+      "index_original_fields": {
+        "CDATE": "115/09/11",
+        "COMPANY_NAME": "\u81fb\u9f0e-KY",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u96fb\u5b50\u96f6\u7d44\u4ef6\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:30:32",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u4ee3\u5b50\u516c\u53f8\u6176\u9f0e\u7cbe\u5bc6\u96fb\u5b50(\u6dee\u5b89)\u6709\u9650\u516c\u53f8\u53ca\u5b8f\u6052\u52dd\u96fb\u5b50\u79d1\u6280(\u6dee\u5b89)\r\n\u6709\u9650\u516c\u53f8\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u5438\u6536\u5408\u4f75\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=173032&SPOKE_DATE=20260911&COMPANY_ID=4958",
+        "COMPANY_ID": "4958"
+      },
+      "new_filename": "doc06_4958_20260911_173032_2.html"
+    },
+    {
+      "event_id": "M11:2884:2026-09-01:190508:11",
+      "index_original_fields": {
+        "CDATE": "115/09/01",
+        "COMPANY_NAME": "\u7389\u5c71\u91d1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u91d1\u878d\u4fdd\u96aa\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "19:05:08",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u7389\u5c71\u91d1\u63a7\u4ee3\u7389\u5c71\u6295\u4fe1\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u8207\u91d1\u63a7\u7c3d\u7f72\u80a1\u4efd\u8f49\u63db\u5951\u7d04",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=11&SPOKE_TIME=190508&SPOKE_DATE=20260901&COMPANY_ID=2884",
+        "COMPANY_ID": "2884"
+      },
+      "new_filename": "doc07_2884_20260901_190508_11.html"
+    },
+    {
+      "event_id": "M11:2884:2026-09-01:190151:9",
+      "index_original_fields": {
+        "CDATE": "115/09/01",
+        "COMPANY_NAME": "\u7389\u5c71\u91d1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u91d1\u878d\u4fdd\u96aa\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "19:01:51",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u73fe\u91d1\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=9&SPOKE_TIME=190151&SPOKE_DATE=20260901&COMPANY_ID=2884",
+        "COMPANY_ID": "2884"
+      },
+      "new_filename": "doc08_2884_20260901_190151_9.html"
+    },
+    {
+      "event_id": "M11:1459:2026-08-27:170003:1",
+      "index_original_fields": {
+        "CDATE": "115/08/27",
+        "COMPANY_NAME": "\u806f\u767c",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u7d21\u7e54\u7e96\u7dad",
+        "AN_CODE": "M11",
+        "CTIME": "17:00:03",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u8207\u5b50\u516c\u53f8\u5408\u4f75\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=170003&SPOKE_DATE=20260827&COMPANY_ID=1459",
+        "COMPANY_ID": "1459"
+      },
+      "new_filename": "doc09_1459_20260827_170003_1.html"
+    },
+    {
+      "event_id": "M11:2305:2026-08-11:161904:4",
+      "index_original_fields": {
+        "CDATE": "115/08/11",
+        "COMPANY_NAME": "\u5168\u53cb",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u96fb\u8166\u53ca\u9031\u908a\u8a2d\u5099\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "16:19:04",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u5b50\u516c\u53f8\u65b0\u53cb\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\r\n\u7c21\u6613\u5408\u4f75\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=161904&SPOKE_DATE=20260811&COMPANY_ID=2305",
+        "COMPANY_ID": "2305"
+      },
+      "new_filename": "doc10_2305_20260811_161904_4.html"
+    },
+    {
+      "event_id": "M11:1720:2026-08-07:171326:3",
+      "index_original_fields": {
+        "CDATE": "115/08/07",
+        "COMPANY_NAME": "\u751f\u9054",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u751f\u6280\u91ab\u7642\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:13:26",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e\u4ee5\u73fe\u91d1\u70ba\u5c0d\u50f9\u4e4b\u7c21\u6613\u80a1\u4efd\u8f49\u63db\u65b9\u5f0f\uff0c\r\n\u53d6\u5f97\u5b50\u516c\u53f8\u6021\u767c\u79d1\u6280(\u80a1)\u516c\u53f8\u767e\u5206\u4e4b\u767e\u80a1\u4efd",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=171326&SPOKE_DATE=20260807&COMPANY_ID=1720",
+        "COMPANY_ID": "1720"
+      },
+      "new_filename": "doc11_1720_20260807_171326_3.html"
+    },
+    {
+      "event_id": "M11:5203:2026-07-28:152612:1",
+      "index_original_fields": {
+        "CDATE": "115/07/28",
+        "COMPANY_NAME": "\u8a0a\u9023",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u8cc7\u8a0a\u670d\u52d9\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "15:26:12",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u505c\u6b62\u8fa6\u7406\u8207\u5b50\u516c\u53f8\r\nCyberLink International Technology Corp.(BVI)\r\n\u4e4b\u7c21\u6613\u5408\u4f75\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=1&SPOKE_TIME=152612&SPOKE_DATE=20260728&COMPANY_ID=5203",
+        "COMPANY_ID": "5203"
+      },
+      "original_source": {
+        "archive_sha256": "6459c5976760d3698b75c27af595e044f306ef2788466814c123118cfabc6209",
+        "member": "raw/control06_5203.html"
+      }
+    },
+    {
+      "event_id": "M11:3008:2026-07-27:175238:4",
+      "index_original_fields": {
+        "CDATE": "115/07/27",
+        "COMPANY_NAME": "\u5927\u7acb\u5149",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u5149\u96fb\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:52:38",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u4ee5\u589e\u8cc7\u767c\u884c\u65b0\u80a1\r\n\u8207\u5927\u967d\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\u9032\u884c\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=175238&SPOKE_DATE=20260727&COMPANY_ID=3008",
+        "COMPANY_ID": "3008"
+      },
+      "new_filename": "doc13_3008_20260727_175238_4.html"
+    },
+    {
+      "event_id": "M11:3008:2026-07-27:175112:7",
+      "index_original_fields": {
+        "CDATE": "115/07/27",
+        "COMPANY_NAME": "\u5927\u7acb\u5149",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u5149\u96fb\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "17:51:12",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8207\u5927\u967d\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=7&SPOKE_TIME=175112&SPOKE_DATE=20260727&COMPANY_ID=3008",
+        "COMPANY_ID": "3008"
+      },
+      "new_filename": "doc14_3008_20260727_175112_7.html"
+    },
+    {
+      "event_id": "M11:2887:2026-07-20:183326:4",
+      "index_original_fields": {
+        "CDATE": "115/07/20",
+        "COMPANY_NAME": "\u53f0\u65b0\u65b0\u5149\u91d1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u91d1\u878d\u4fdd\u96aa\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "18:33:26",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u65b0\u5149\u79df\u8cc3(\u8607\u5dde)\u6709\u9650\u516c\u53f8\u516c\u544a\r\n\u8207\u53f0\u65b0\u878d\u8cc7\u79df\u8cc3(\u4e2d\u570b)\u6709\u9650\u516c\u53f8\u9032\u884c\u5408\u4f75",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=183326&SPOKE_DATE=20260720&COMPANY_ID=2887",
+        "COMPANY_ID": "2887"
+      },
+      "new_filename": "doc15_2887_20260720_183326_4.html"
+    },
+    {
+      "event_id": "M11:2887:2026-07-20:183104:3",
+      "index_original_fields": {
+        "CDATE": "115/07/20",
+        "COMPANY_NAME": "\u53f0\u65b0\u65b0\u5149\u91d1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u91d1\u878d\u4fdd\u96aa\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "18:31:04",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u53f0\u65b0\u878d\u8cc7\u79df\u8cc3(\u4e2d\u570b)\u6709\u9650\u516c\u53f8\u516c\u544a\r\n\u5438\u6536\u5408\u4f75\u65b0\u5149\u79df\u8cc3(\u8607\u5dde)\u6709\u9650\u516c\u53f8",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=3&SPOKE_TIME=183104&SPOKE_DATE=20260720&COMPANY_ID=2887",
+        "COMPANY_ID": "2887"
+      },
+      "new_filename": "doc16_2887_20260720_183104_3.html"
+    },
+    {
+      "event_id": "M11:2887:2026-07-14:185831:5",
+      "index_original_fields": {
+        "CDATE": "115/07/14",
+        "COMPANY_NAME": "\u53f0\u65b0\u65b0\u5149\u91d1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u91d1\u878d\u4fdd\u96aa\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "18:58:31",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u53f0\u65b0\u5275\u6295\u516c\u544a\u8fa6\u7406\u5408\u4f75\u767c\u884c\u65b0\u80a1",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=5&SPOKE_TIME=185831&SPOKE_DATE=20260714&COMPANY_ID=2887",
+        "COMPANY_ID": "2887"
+      },
+      "new_filename": "doc17_2887_20260714_185831_5.html"
+    },
+    {
+      "event_id": "M11:2887:2026-07-14:180754:4",
+      "index_original_fields": {
+        "CDATE": "115/07/14",
+        "COMPANY_NAME": "\u53f0\u65b0\u65b0\u5149\u91d1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u91d1\u878d\u4fdd\u96aa\u696d",
+        "AN_CODE": "M11",
+        "CTIME": "18:07:54",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u672c\u516c\u53f8\u4ee3\u5b50\u516c\u53f8\u53f0\u65b0\u6295\u9867\u516c\u544a\u8463\u4e8b\u6703\u901a\u904e\u5408\u4f75\u589e\u8cc7\u767c\u884c\r\n\u65b0\u80a1\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=4&SPOKE_TIME=180754&SPOKE_DATE=20260714&COMPANY_ID=2887",
+        "COMPANY_ID": "2887"
+      },
+      "new_filename": "doc18_2887_20260714_180754_4.html"
+    },
+    {
+      "event_id": "M11:4536:2026-07-09:195525:2",
+      "index_original_fields": {
+        "CDATE": "115/07/09",
+        "COMPANY_NAME": "\u62d3\u51f1",
+        "AN_NAME": "\u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+        "CODE_NAME": "\u904b\u52d5\u4f11\u9592",
+        "AN_CODE": "M11",
+        "CTIME": "19:55:25",
+        "TYPEK": "\u4e0a\u5e02",
+        "SUBJECT": "\u4ee3\u91cd\u8981\u5b50\u516c\u53f8NSH\u516c\u53f8\u8207XPT\u9999\u6e2f\u516c\u53f8\u516c\u544a\uff1a\r\n\u8f49\u6295\u8cc7\u5b50\u516c\u53f8\u9593\u80a1\u4efd\u8f49\u63db\u6848",
+        "HYPERLINK": "https://mopsov.twse.com.tw/mops/web/ajax_t05sr01_1?firstin=true&stp=1&step=1&SEQ_NO=2&SPOKE_TIME=195525&SPOKE_DATE=20260709&COMPANY_ID=4536",
+        "COMPANY_ID": "4536"
+      },
+      "new_filename": "doc19_4536_20260709_195525_2.html"
+    }
+  ]
+}
