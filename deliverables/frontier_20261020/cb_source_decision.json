@@ -1,0 +1,22 @@
+{
+  "status": "discovery_access_passed_complete_cash_claim_source_gate_unqualified",
+  "verified": "Public metadata and nominal put calendar are retrievable, archived and crosschecked; all original rows/vintages retained",
+  "unresolved": [
+    "No original holder-notice/contract revision control acquired in this discovery scope",
+    "Application opening/cutoff, eligibility, broker/TDCC completion and actual cash-payment date not verified",
+    "Weekend handling, actual repayment/default history and live tradability not inferred from nominal dates or status codes"
+  ],
+  "limitation_is_not_a_transport_denial": true,
+  "no_claim_that_unrequested_contracts_are_unobtainable": true,
+  "source_gate_passed": false,
+  "next_project_action": "continue_reserved_cash_merger_source_preflight",
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "frozen_discovery_budget_used": 12,
+  "manual_daily_validation": false,
+  "orders_authorized": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "source_inventory_sha256": "ab7048009eec1fa9d4c76bb6bee8cb1a0430c97501c1bd6241e42296c89ad89b"
+}

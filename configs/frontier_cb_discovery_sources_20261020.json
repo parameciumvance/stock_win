@@ -1,0 +1,32 @@
+{
+  "output_directory": "inputs/frontier_20261020/raw_discovery",
+  "allowed_hosts": [
+    "www.tpex.org.tw"
+  ],
+  "requests": [
+    {
+      "filename": "cb_put_calendar.html",
+      "url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/option.html"
+    },
+    {
+      "filename": "cb_market_rules.html",
+      "url": "https://www.tpex.org.tw/zh-tw/bond/service/introduction/tpex-bond.html"
+    },
+    {
+      "filename": "tpex_openapi_ui.html",
+      "url": "https://www.tpex.org.tw/openapi/"
+    },
+    {
+      "filename": "tpex_swagger_candidate.json",
+      "url": "https://www.tpex.org.tw/openapi/swagger.json"
+    },
+    {
+      "filename": "tpex_swagger_alternative.json",
+      "url": "https://www.tpex.org.tw/openapi/swagger/swagger.json"
+    },
+    {
+      "filename": "cb_issue_metadata.json",
+      "url": "https://www.tpex.org.tw/openapi/v1/bond_ISSBD5_data"
+    }
+  ]
+}

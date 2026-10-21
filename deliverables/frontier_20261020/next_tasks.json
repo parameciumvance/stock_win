@@ -1,0 +1,27 @@
+{
+  "status": "cb_discovery_replayed_cash_claim_gate_unqualified_project_continues",
+  "completed": [
+    "Verified193oldcheckpointentries and all4savedsourcepackages51manifestentries",
+    "Preserved422rowOctober20and423rowOctober21metadata separately",
+    "Replayed29calendarrows and exact8rowNovcontrol; all29date/amount/name match bothmetadata vintages",
+    "56tests and13stage hashreplay passed"
+  ],
+  "next_project_action": "Execute separately frozen2026Q3cash-merger M11source preflight; no user confirmation required",
+  "cb_source_gate_passed": false,
+  "cb_missing_evidence": [
+    "Original notices/terms/revisions",
+    "Application/eligibility/broker cutoff and actual cash payment conditions",
+    "Default/nonpayment and live tradability checks"
+  ],
+  "unrequested_sources_not_declared_unobtainable": true,
+  "cb_discovery_requests": 12,
+  "manual_download_requests": 0,
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "paid_data_purchases": 0,
+  "market_quote_or_return_calculations": 0,
+  "models_fitted": 0,
+  "orders_authorized": false,
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false
+}

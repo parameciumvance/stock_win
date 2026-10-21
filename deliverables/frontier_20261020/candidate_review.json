@@ -1,0 +1,153 @@
+{
+  "review_date_taipei": "2026-10-20",
+  "scope": "Project-level continuation and four mechanism families; no new market-outcome scan",
+  "status": "cb_holder_put_source_discovery_next_cash_merger_reserved",
+  "standing_user_instruction": "Continue authorized next steps without another user decision; closing one hypothesis does not close the project. Routine checkpoints are not permission boundaries.",
+  "user_decision_required_now": false,
+  "user_data_or_credentials_required_now": null,
+  "raw_price_data_read_for_this_review": false,
+  "new_public_requests_for_this_document": 0,
+  "program_budget": {
+    "maximum_source_preflights": 2,
+    "maximum_discovery_requests_per_preflight": 12,
+    "maximum_discovery_requests_across_program": 24,
+    "failed_requests_count_toward_ceiling": true,
+    "document_control_requests_count_toward_ceiling": true,
+    "workers": 2,
+    "runner": "research_pipeline.py",
+    "source_lock_required": true,
+    "raw_package_backup_readback_sha_crc_manifest_before_downstream": true,
+    "manual_download_requests": 0,
+    "paid_data_purchases": 0,
+    "daily_human_validation": false,
+    "models_to_fit": 0,
+    "parameter_searches": 0,
+    "trades_authorized": false
+  },
+  "common_source_gate": [
+    "Identify contractual cash claim or verifiable hedge and settlement relationship, payer, eligibility, exercise window, payment date and failure conditions",
+    "Verify integer units, purchase cash, fees, occupied capital and stress needs against a hypothetical 300000TWD cash budget; face value and margin alone are not sufficient",
+    "No necessary securities borrowing as a prerequisite",
+    "Freeze period, universe, request list, source tests and stop rules before candidate market outcomes",
+    "Automatically acquire event population and original terms, reported timestamps, revisions and failed or canceled events before any return research",
+    "Preserve unknowns and current-vintage versus original-first-availability distinctions; small controls are not complete population proof",
+    "No selection of years, events, or variants on known historical outcomes"
+  ],
+  "candidates": [
+    {
+      "id": "cb_holder_put",
+      "priority": 1,
+      "status": "source_route_pending_actual_access",
+      "mechanism": "Qualified holder may exercise an issuer cash put under the original bond terms. A purchasable discount may compensate credit, liquidity, eligibility and waiting risks; excess net value remains unproven.",
+      "verified_intro_fact_scope": "TPEx introduction describes convertible-bond trading unit as100000TWD face amount. Actual purchase cash depends on price and fees; three units are not assumed affordable.",
+      "primary_sources": [
+        "https://www.tpex.org.tw/zh-tw/bond/service/introduction/tpex-bond.html",
+        "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/option.html"
+      ],
+      "route_not_yet_verified": "Option page and public put notices require actual bounded acquisition and schema/population/terms validation",
+      "required_terms": [
+        "Bond code and live security status",
+        "Holder put versus maturity repayment versus issuer call",
+        "Exercise window, eligible holders, application procedure and integer face units",
+        "Per-unit payment amount, fees, payment date, term amendments and cancellation",
+        "Early call, conversion, delisting, default and nonpayment status"
+      ],
+      "cash_and_risk_limitations": [
+        "Put price or maturity is not a guaranteed payment",
+        "Credit/default, application, broker fee, liquidity and payment-delay risks remain",
+        "No bond-price or return evidence has been inspected under this proposal"
+      ],
+      "on_source_failure": "Record actual failure and move automatically to cash_merger within the two-preflight program",
+      "on_source_pass": "Freeze separate economic and independent-evidence protocol; no immediate signal or order"
+    },
+    {
+      "id": "cash_merger",
+      "priority": 2,
+      "status": "reserved_fixed_quarter_source_preflight_if_cb_source_fails",
+      "mechanism": "PureTWD statutory cash merger or100percent share conversion has a conditional all-shareholder cash endpoint. Any discount may compensate closing, delay and illiquidity risk rather than provide excess return.",
+      "primary_sources": [
+        "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=J0080041",
+        "https://twse-regulation.twse.com.tw/TW/law/DAT0201.aspx?FLCODE=FL007111",
+        "https://www.twse.com.tw/zh/listed/suspend-listing.html",
+        "https://law-out.mof.gov.tw/LawContent.aspx?id=GL004795&media=print"
+      ],
+      "source_route_evidence": "Previously archived official ezSearch UI listsM11 capital/merger/share-conversion declarations. Existing JSON endpoint can be tested with a frozen quarter and month partitions; M11 actual response and complete population are not yet verified.",
+      "source_endpoint_pending_new_scope_validation": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "source_ui_already_saved": "inputs/buyback_preflight_20261020/raw/legacy_search.html",
+      "population_rule": "Use original announcements including amendments, rejections and withdrawals; completed delistings only cross-check completed cases. No positive-spread or eventual-success selection.",
+      "tender_overlap_rule": "Statutory all-holder transfer differs from elective tender/proration. Mark any prior tender stage and reused deal; do not reopen closed tender source repair or count stages as independent events.",
+      "required_terms": [
+        "Buyer, target, exact initial publication timestamp and pureTWD per-share cash consideration",
+        "Approvals, financing, shareholder votes, price/dividend adjustments and termination conditions",
+        "Initial, revised, rejected, canceled and completed versions",
+        "Trading cessation, entitlement, share-transfer and actual or explicitly unknown payment dates",
+        "Distinct tax treatment of statutory cash share conversion and cash merger that extinguishes the target"
+      ],
+      "tax_scope_note": "MOF cash-merger ruling identifies dividend-income and acquisition-cost evidence issues for extinguished-company individual holders. It is not a personal tax calculation and must not be generalized across legal forms.",
+      "stop": "Within12 discovery requests, stop for unresolved automatic access/population/version/payment controls or no eligible fixed-quarter case. Do not replace the quarter with a known winning period or request user PDFs.",
+      "historical_pit_verified": false,
+      "profit_edge_proven": false
+    },
+    {
+      "id": "rights_subscription",
+      "priority": null,
+      "status": "not_prioritized_no_identified_executable_edge",
+      "reason": "Existing rights work is entitlement and waiver accounting. No verified tradable/transferable rights venue or executable spread has been identified; retrospective subscription discount is not an entitlement available to any new buyer.",
+      "evidence_needed": [
+        "Ex-ante eligibility and record date",
+        "Executable or transferable rights route",
+        "Additional subscription cash, delivery date and original/amended terms",
+        "Executable prices and complete shareholder cash accounting"
+      ],
+      "source_preflight_commissioned_in_this_program": false,
+      "profit_edge_proven": false
+    },
+    {
+      "id": "etf_spot_derivative_basis",
+      "priority": null,
+      "status": "execution_evidence_and_data_access_pending_not_mechanism_rejected",
+      "paths": [
+        {
+          "id": "direct_etf_ap_creation_redemption",
+          "status": "not_fit_for300000TWD_direct_execution",
+          "fact_scope": "0050PCF minimum creation/redemption unit500000beneficiary units; no small-account directAP route validated",
+          "primary_source": "https://www.yuantaetfs.com/tradeInfo/pcf/0050"
+        },
+        {
+          "id": "srf_small_etf_futures_basis",
+          "status": "retained_requires_synchronized_executable_depth_and_settlement_validation",
+          "fact_scope": "SRF smallETF futures uses0050underlying and1000beneficiary units per contract. It is not a directAP creation/redemption substitute.",
+          "primary_sources": [
+            "https://www.taifex.com.tw/cht/2/sTF",
+            "https://www.taifex.com.tw/cht/5/stockMarginingDetail",
+            "https://www.taifex.com.tw/cht/3/futPrevious30DaysSalesData"
+          ],
+          "observed_margin_table_date": "2026-08-12",
+          "observed_initial_margin_twd": 8700,
+          "observed_maintenance_margin_twd": 6700,
+          "margin_scope": "Exchange table values only, not broker actual collected margin or total cash/stress requirement",
+          "settlement_scope": "Cash settlement based on arithmetic mean of underlying spot trades in final60minutes; one close-price fill does not lock the same settlement price",
+          "data_gap": "Free prior30day futures data contain trades, not synchronized executable bid/ask prices and sizes for both spot and futures. Data licensing/access and settlement hedge evidence remain unresolved.",
+          "does_not_block_cb_free_source_preflight": true,
+          "ask_user_to_purchase_data_now": false
+        }
+      ],
+      "source_preflight_commissioned_in_this_program": false,
+      "profit_edge_proven": false
+    }
+  ],
+  "handoff": {
+    "next_action": "Freeze and execute cb_holder_put bounded public-source discovery with receipts and actual transport errors",
+    "fallback_action_without_user_decision": "IfCB source gate fails, freeze and execute cash_merger fixed-quarter discovery within remaining program budget",
+    "after_source_pass": "Create a separate frozen valuation/economic/independent-evidence protocol; source success does not authorize an effective signal",
+    "after_two_source_preflights": "Preserve failures and concrete remaining evidence boundaries; do not silently add a third source preflight or turn a routine checkpoint into another user-confirmation request",
+    "user_request_only_if": "An indispensable, concretely identified data item or credential cannot be obtained within authorized routes, or a material decision exceeds existing authorization"
+  },
+  "no_prior_stopped_hypothesis_reopened": true,
+  "multiple_research_attempts_reset": false,
+  "reused_historical_years_are_new_holdout": false,
+  "historical_pit_verified": false,
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false,
+  "orders_authorized": false
+}

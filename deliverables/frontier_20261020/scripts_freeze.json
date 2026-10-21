@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "52a37c16a9efc89cd7c46daff9946559239d9a9c29e7ecf23dc9b342e4feda64",
+  "path": "configs/frontier_cb_scripts_sources_20261021.json",
+  "sha256": "da5e8cbc4731ec58c72966ebecc79933ee4e12578ea1848b6a9dfd0f84b22b29",
+  "requests": 2,
+  "frozen_at": "2026-10-21T12:57:40.148519+00:00",
+  "selection": "Exact script paths declared in archivedcb_put_calendar.html; determine declared API pattern and query parameter conventions only",
+  "source_archive_sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4"
+}

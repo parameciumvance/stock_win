@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_20261020/scripts.zip",
+  "sha256": "1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707",
+  "manifest_files": 10,
+  "created_at": "2026-10-21T12:57:41.318541+00:00",
+  "retrieved": "inputs/frontier_20261020/scripts.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_20261020/scripts_transfer.json",
+  "backup_label": "frontier_20261020_scripts"
+}

@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_20261020/discovery.zip",
+  "sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4",
+  "manifest_files": 21,
+  "created_at": "2026-10-20T14:43:50.041082+00:00",
+  "retrieved": "inputs/frontier_20261020/discovery.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_20261020/discovery_transfer.json",
+  "backup_label": "frontier_20261020_discovery"
+}

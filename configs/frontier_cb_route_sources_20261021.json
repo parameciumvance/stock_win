@@ -1,0 +1,12 @@
+{
+  "output_directory": "inputs/frontier_20261020/raw_route",
+  "allowed_hosts": [
+    "www.tpex.org.tw"
+  ],
+  "requests": [
+    {
+      "filename": "main.js",
+      "url": "https://www.tpex.org.tw/rsrc/js/main.js"
+    }
+  ]
+}

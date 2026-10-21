@@ -1,0 +1,94 @@
+{
+  "status": "frozen_before_any_source_acquisition",
+  "scope": "Second bounded public-source preflight in the four-mechanism frontier; pure cash statutory mergers/share conversions, no returns or trades",
+  "program": "docs/RESEARCH_FRONTIER_20261020.md",
+  "candidate": "cash_merger_statutory_cash_share_conversion",
+  "capital_reference_twd": 300000,
+  "hypothesis": "A pureTWD all-shareholder contractual cash endpoint may support a low-frequency risk-bearing claim without securities borrowing. Any discount may merely compensate completion, credit, tax, funding and payment-delay risks; no excess return is assumed.",
+  "transition": "Continue automatically after the separately checkpointed CB source pilot does not qualify its complete holder cash-claim source gate. A completed source checkpoint does not require another user decision.",
+  "required_parent_checkpoint": "deliverables/frontier_20261020/checkpoint.json",
+  "release_rule": "Verify the pinned finalCBcheckpoint and everypriorfrozenmember beforeanyIO; protocol_freeze.json must match this policy.",
+  "asof_selection_date": "2026-10-20",
+  "calendar_selection_rule": "Most recent fully completed calendar quarter strictly before the asof date's quarter; deterministic, not selected by deal success, spread or market outcomes",
+  "cohort_query": {
+    "quarter": "2026Q3",
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "market_request": "TYPEK=sii; CO_MARKET blank",
+    "category_request": "PRO_ITEM=M11",
+    "partitions": [
+      [
+        "2026-07-01",
+        "2026-07-31"
+      ],
+      [
+        "2026-08-01",
+        "2026-08-31"
+      ],
+      [
+        "2026-09-01",
+        "2026-09-30"
+      ]
+    ],
+    "meaning": "Query the complete M11 current response, including broad capital actions. Listing classification, historical population and eligible cash-merger membership must be separately verified; request parameters are not proof.",
+    "semantic_selection": "None at acquisition/index parsing. Preserve all returned subjects and original fields without filtering for known cash deals, positive spreads, completed delistings or survivorship."
+  },
+  "max_saved_requests": 12,
+  "max_source_batches": 3,
+  "workers": 2,
+  "source_lock": "inputs/cash_merger_20261021/acquisition.lock",
+  "transport": "native_public_sources.py; verified HTTPS; two workers; shared source lock",
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "new_price_requests": 0,
+  "price_return_calculations": 0,
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "batches": {
+    "discovery": {
+      "path": "configs/cash_merger_discovery_sources_20261021.json",
+      "sha256": "1c7ed1955adc0395f1b636a84c401fd9e0bfa58f1c3e75c8b9b63ebfadc8670f",
+      "requests": 6
+    }
+  },
+  "request_budget_rule": "Count every saved request including failed responses and controls. At most6additional requests and at most2additional batches, frozen before IO from routes observed in the archived official responses; no guessed route permutation or full-cohort download expansion.",
+  "archived_interface_evidence": {
+    "path": "inputs/buyback_preflight_20261020/raw/legacy_search.html",
+    "pinned_by": "deliverables/buyback_preflight_20261020/checkpoint.json and existing original source package receipts",
+    "label": "M11 \u767c\u884c\u6709\u50f9\u8b49\u5238\u3001\u6e1b\u8cc7\u3001\u4f75\u8cfc\u6216\u80a1\u4efd\u8f49\u4ea4\u63db",
+    "meaning": "Reuse existing verified archived UI and source packages; do not request another UI copy. Label and priorM35 endpoint success do not validate thisM11 response scope."
+  },
+  "legal_context_requests": [
+    "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=J0080041",
+    "https://law-out.mof.gov.tw/LawContent.aspx?id=GL004795&media=print"
+  ],
+  "source_gate": [
+    "Archive all successful and failed responses, backup/readback SHA/CRC/manifest before semantic parsing",
+    "Strict response schema/status, period, event identity, official detail URL and reported local timestamp checks",
+    "Preserve observed TYPEK labels, mark the requested market qualified only when all returned rows report\u4e0a\u5e02, never silently drop other markets; current reported market is not historical listing proof",
+    "Quarter versus three-month union equality including full original fields, duplicate/conflicting identities, declared counts if present, and1000-row cap/truncation observations; partition agreement alone is not historical completeness",
+    "Classify original transaction form and pureTWD all-shareholder cash consideration from actual original terms, not broadM11 titles or completed delisting lists",
+    "Original, corrected, rejected, withdrawn, canceled and pending conditions kept separate; exclude no case based on outcome or later existence",
+    "Establish eligibility, integer cash funding, consideration adjustments, tax form, trading cessation, entitlement and payment-date conditions before qualifying a cash claim",
+    "Differentiate statutory cash merger, cash share conversion, elective public tender, mixed/stock consideration and unrelated capital actions"
+  ],
+  "stop": "At the12saved-request or3batch ceiling, preserve actual unresolved access/schema/population/terms/payment evidence and stop this source route. Do not replace the fixed quarter or ask the user for manual PDFs. A usable index is not a cash-claim source pass.",
+  "on_source_pass": "Freeze a separate finite original-term/cash-claim verification and then any valuation protocol; no automatic return calculation, daily human task, valid signal or order",
+  "on_source_fail": "Close only this source route, preserve concrete gaps and the project-level frontier. Do not silently commission a third source preflight within this program or treat a routine checkpoint as a user decision.",
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/buyback_coverage_20261020/checkpoint.json": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+    "deliverables/buyback_probe_20261020/checkpoint.json": "826ee004fd85d4438be317a39c0e20215c0f281c845631906ed0e1f4252d372e",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/frontier_20261020/checkpoint.json": "a8c7083ade2b815df9bc16d3f60bc710b4eaaff7a2e951badb036f9df90f04fb"
+  },
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "trade_authorized": false,
+  "manual_daily_validation": false
+}

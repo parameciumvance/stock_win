@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_20261020/calendar.zip",
+  "sha256": "d56672ecfa1fcb94730e63d98f60e7ba994873e48e094b957afcc6d3cbbbe353",
+  "manifest_files": 13,
+  "created_at": "2026-10-21T13:03:10.140390+00:00",
+  "retrieved": "inputs/frontier_20261020/calendar.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_20261020/calendar_transfer.json",
+  "backup_label": "frontier_20261020_calendar"
+}

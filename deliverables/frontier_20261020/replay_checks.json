@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-10-21T13:11:05.267004+00:00",
+  "stage_count": 13,
+  "all_second_pass_hash_skips": true,
+  "plans": [
+    {
+      "plan": "configs/frontier_cb_discovery_pipeline.json",
+      "plan_sha256": "01896e9abf8274ce9518dbccc1d83b3c739ea9cd1dadfeb7795408df52d3bbc6",
+      "stage_count": 2,
+      "first": "complete: discovery_acquire\ncomplete: discovery_package\n",
+      "second": "verified skip: discovery_acquire\nverified skip: discovery_package\n"
+    },
+    {
+      "plan": "configs/frontier_cb_readback_pipeline.json",
+      "plan_sha256": "0e5d04c8963c2d02cf2f4dba56e7ea1f406ec331a5d98fddce7bdf4067129d45",
+      "stage_count": 1,
+      "first": "complete: verify_discovery_raw_readback\n",
+      "second": "verified skip: verify_discovery_raw_readback\n"
+    },
+    {
+      "plan": "configs/frontier_cb_scripts_pipeline.json",
+      "plan_sha256": "fd66ec786b3bf35a8da2c1622b4a410bb5547f1a0d938a13d87e8edf62785985",
+      "stage_count": 2,
+      "first": "complete: scripts_acquire\ncomplete: scripts_package\n",
+      "second": "verified skip: scripts_acquire\nverified skip: scripts_package\n"
+    },
+    {
+      "plan": "configs/frontier_cb_scripts_readback_pipeline.json",
+      "plan_sha256": "90fccab729ce4c03743c508a67c72a4c05b5323aa3e3505137208294a592d59a",
+      "stage_count": 1,
+      "first": "complete: verify_scripts_raw_readback\n",
+      "second": "verified skip: verify_scripts_raw_readback\n"
+    },
+    {
+      "plan": "configs/frontier_cb_route_pipeline.json",
+      "plan_sha256": "261e429e6e10ca7d1053bb6c4817f0aedfca487e84dee53ac8819a03e4512249",
+      "stage_count": 2,
+      "first": "complete: route_acquire\ncomplete: route_package\n",
+      "second": "verified skip: route_acquire\nverified skip: route_package\n"
+    },
+    {
+      "plan": "configs/frontier_cb_route_readback_pipeline.json",
+      "plan_sha256": "fc5f8f49a95c809a3c62ca2ce52126b71126d6897a8cbe99d34b83c433507e1a",
+      "stage_count": 1,
+      "first": "complete: verify_route_raw_readback\n",
+      "second": "verified skip: verify_route_raw_readback\n"
+    },
+    {
+      "plan": "configs/frontier_cb_calendar_pipeline.json",
+      "plan_sha256": "40f1f3c7225c0ba05f0c682df5231d5c1f8f67ba677972b25f249e56f7c56110",
+      "stage_count": 2,
+      "first": "complete: calendar_acquire\ncomplete: calendar_package\n",
+      "second": "verified skip: calendar_acquire\nverified skip: calendar_package\n"
+    },
+    {
+      "plan": "configs/frontier_cb_calendar_readback_pipeline.json",
+      "plan_sha256": "ba1a570ec542e878f3f0ba68459ab4a468eb9cce3e0dde81c382fe181d4dd511",
+      "stage_count": 1,
+      "first": "complete: verify_calendar_raw_readback\n",
+      "second": "verified skip: verify_calendar_raw_readback\n"
+    },
+    {
+      "plan": "configs/frontier_cb_replay_pipeline.json",
+      "plan_sha256": "ba4facfbaa35c2fdf63a4827769a61bef27a9dfa58317f68274ce52c9d7b67bf",
+      "stage_count": 1,
+      "first": "verified skip: replay_cb_metadata_calendar_and_continuation_gate\n",
+      "second": "verified skip: replay_cb_metadata_calendar_and_continuation_gate\n"
+    }
+  ],
+  "old_checkpoint_entries_verified": 193,
+  "saved_public_requests": 12,
+  "new_requests_during_replay": 0
+}

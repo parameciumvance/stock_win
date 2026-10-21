@@ -1,0 +1,533 @@
+{
+  "status": "bounded_source_schema_and_crosschecks_replayed",
+  "archives": {
+    "discovery": {
+      "sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4",
+      "manifest_files": 21,
+      "backup": {
+        "sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\frontier_20261020_discovery_881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4.zip",
+        "retrieved_path": "inputs/frontier_20261020/discovery.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-20T14:44:18.440Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      },
+      "crc_manifest_verified": true
+    },
+    "scripts": {
+      "sha256": "1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707",
+      "manifest_files": 10,
+      "backup": {
+        "sha256": "1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\frontier_20261020_scripts_1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707.zip",
+        "retrieved_path": "inputs/frontier_20261020/scripts.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-21T12:58:15.699Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      },
+      "crc_manifest_verified": true
+    },
+    "route": {
+      "sha256": "57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5",
+      "manifest_files": 7,
+      "backup": {
+        "sha256": "57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\frontier_20261020_route_57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5.zip",
+        "retrieved_path": "inputs/frontier_20261020/route.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-21T13:01:14.743Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      },
+      "crc_manifest_verified": true
+    },
+    "calendar": {
+      "sha256": "d56672ecfa1fcb94730e63d98f60e7ba994873e48e094b957afcc6d3cbbbe353",
+      "manifest_files": 13,
+      "backup": {
+        "sha256": "d56672ecfa1fcb94730e63d98f60e7ba994873e48e094b957afcc6d3cbbbe353",
+        "backup_path": "C:\\Users\\user\\stock_win_research_backups\\frontier_20261020_calendar_d56672ecfa1fcb94730e63d98f60e7ba994873e48e094b957afcc6d3cbbbe353.zip",
+        "retrieved_path": "inputs/frontier_20261020/calendar.retrieved.zip",
+        "roundtrip_verified": true,
+        "verified_at": "2026-10-21T13:04:06.110Z",
+        "transport": "Desktop Commander Remote / Windows Node file copy",
+        "storage": "Windows user backup and WSL retrieval; same computer"
+      },
+      "crc_manifest_verified": true
+    }
+  },
+  "metadata_vintages": {
+    "20261020": {
+      "record_count": 422,
+      "field_count": 42,
+      "snapshot_date_counts": {
+        "20261020": 422
+      },
+      "literal_enum_code_counts": {
+        "BondType": {
+          "5": 422
+        },
+        "PrincipalRepayment": {
+          "1": 398,
+          "2": 24
+        },
+        "Guaranteed": {
+          "2": 345,
+          "1": 74,
+          "3": 3
+        },
+        "ListingCountry": {
+          "1": 401,
+          "0": 21
+        },
+        "ListingStatus": {
+          "5": 34,
+          "2": 388
+        },
+        "Currency": {
+          "2": 1,
+          "1": 421
+        },
+        "OfferingMethod": {
+          "8": 33,
+          "7": 389
+        },
+        "CouponFrequency": {
+          "0": 422
+        },
+        "PaidFrequency": {
+          "0": 422
+        },
+        "InterestBasis": {
+          "": 422
+        }
+      },
+      "anomaly_counts": {
+        "issue_date_after_snapshot": 6,
+        "listing_date_after_snapshot": 5,
+        "nominal_put_date_on_weekend_no_shift": 96,
+        "put_date_with_zero_price_unresolved": 4
+      },
+      "empty_bond_code_count": 25,
+      "nonstandard_bond_code_count": 9
+    },
+    "20261021": {
+      "record_count": 423,
+      "field_count": 42,
+      "snapshot_date_counts": {
+        "20261021": 423
+      },
+      "literal_enum_code_counts": {
+        "BondType": {
+          "5": 423
+        },
+        "PrincipalRepayment": {
+          "1": 399,
+          "2": 24
+        },
+        "Guaranteed": {
+          "2": 346,
+          "1": 74,
+          "3": 3
+        },
+        "ListingCountry": {
+          "1": 402,
+          "0": 21
+        },
+        "ListingStatus": {
+          "5": 34,
+          "2": 389
+        },
+        "Currency": {
+          "2": 1,
+          "1": 422
+        },
+        "OfferingMethod": {
+          "8": 34,
+          "7": 389
+        },
+        "CouponFrequency": {
+          "0": 423
+        },
+        "PaidFrequency": {
+          "0": 423
+        },
+        "InterestBasis": {
+          "": 423
+        }
+      },
+      "anomaly_counts": {
+        "issue_date_after_snapshot": 5,
+        "listing_date_after_snapshot": 4,
+        "nominal_put_date_on_weekend_no_shift": 96,
+        "put_date_with_zero_price_unresolved": 4
+      },
+      "empty_bond_code_count": 25,
+      "nonstandard_bond_code_count": 9
+    }
+  },
+  "metadata_source_sha256": {
+    "20261020": "aeb091d58388815c82d4c7bc154634fc237abe58d00111a7e5638e4ba96d55c1",
+    "20261021": "67f3ea392d887a5ae4b22271c051ec425520bae32f3de68157f49211dee55227"
+  },
+  "old_vintage_replaced": false,
+  "newly_observed_metadata_identities": [
+    [
+      "6274",
+      "6",
+      "",
+      "20261029"
+    ]
+  ],
+  "removed_metadata_identities": [],
+  "calendar_requested_range": {
+    "start": "2026-10-20",
+    "end": "2027-04-20"
+  },
+  "calendar_declared_range": {
+    "start": "2026-10-01",
+    "end": "2027-04-30"
+  },
+  "calendar_rows": 29,
+  "november_rows": 8,
+  "month_partition": {
+    "month": "2026-11",
+    "current_snapshot_month_agreement": true,
+    "wide_subset_count": 8,
+    "narrow_count": 8,
+    "differences": {
+      "missing_from_narrow": [],
+      "new_in_narrow": [],
+      "changed_original_fields": []
+    },
+    "wide_source_sha256": "841fca2c02fdabe3ef8a52b4ab1752b8d36b4a0274f05fa78b861739057272f1",
+    "narrow_source_sha256": "3351cc25eeca70bb6da453d808905966112f3c0ddf7a89cb851e4a0b1708705f",
+    "records_merged": false,
+    "complete_population_verified": false,
+    "historical_pit_verified": false,
+    "notice_window_verified": false,
+    "payment_date_verified": false,
+    "holder_put_eligibility_verified": false,
+    "source_gate_passed": false
+  },
+  "metadata_calendar_crosschecks": {
+    "20261020": {
+      "all_rows_match": true,
+      "calendar_rows": 29,
+      "rows": [
+        {
+          "bond_code": "14364",
+          "put_date": "2027-03-18",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "32723",
+          "put_date": "2027-03-07",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "15984",
+          "put_date": "2027-03-03",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "68541",
+          "put_date": "2027-02-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99063",
+          "put_date": "2027-02-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "45102",
+          "put_date": "2027-02-26",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "30954",
+          "put_date": "2027-02-25",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "35266",
+          "put_date": "2027-01-29",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "13166",
+          "put_date": "2026-12-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "24424",
+          "put_date": "2026-12-25",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "49794",
+          "put_date": "2026-12-25",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "52452",
+          "put_date": "2026-12-18",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "24271",
+          "put_date": "2026-12-13",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "49793",
+          "put_date": "2026-12-09",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "84891",
+          "put_date": "2026-12-09",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "53887",
+          "put_date": "2026-12-06",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "66451",
+          "put_date": "2026-12-04",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "13382",
+          "put_date": "2026-12-01",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "24423",
+          "put_date": "2026-11-29",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "33466",
+          "put_date": "2026-11-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99412",
+          "put_date": "2026-11-20",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "98026",
+          "put_date": "2026-11-15",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "61894",
+          "put_date": "2026-11-10",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99588",
+          "put_date": "2026-11-08",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "68741",
+          "put_date": "2026-11-04",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "68351",
+          "put_date": "2026-11-01",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99587",
+          "put_date": "2026-10-28",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99353",
+          "put_date": "2026-10-14",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "21043",
+          "put_date": "2026-10-13",
+          "identity_date_amount_name_agree": true
+        }
+      ]
+    },
+    "20261021": {
+      "all_rows_match": true,
+      "calendar_rows": 29,
+      "rows": [
+        {
+          "bond_code": "14364",
+          "put_date": "2027-03-18",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "32723",
+          "put_date": "2027-03-07",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "15984",
+          "put_date": "2027-03-03",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "68541",
+          "put_date": "2027-02-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99063",
+          "put_date": "2027-02-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "45102",
+          "put_date": "2027-02-26",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "30954",
+          "put_date": "2027-02-25",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "35266",
+          "put_date": "2027-01-29",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "13166",
+          "put_date": "2026-12-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "24424",
+          "put_date": "2026-12-25",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "49794",
+          "put_date": "2026-12-25",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "52452",
+          "put_date": "2026-12-18",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "24271",
+          "put_date": "2026-12-13",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "49793",
+          "put_date": "2026-12-09",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "84891",
+          "put_date": "2026-12-09",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "53887",
+          "put_date": "2026-12-06",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "66451",
+          "put_date": "2026-12-04",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "13382",
+          "put_date": "2026-12-01",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "24423",
+          "put_date": "2026-11-29",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "33466",
+          "put_date": "2026-11-27",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99412",
+          "put_date": "2026-11-20",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "98026",
+          "put_date": "2026-11-15",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "61894",
+          "put_date": "2026-11-10",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99588",
+          "put_date": "2026-11-08",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "68741",
+          "put_date": "2026-11-04",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "68351",
+          "put_date": "2026-11-01",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99587",
+          "put_date": "2026-10-28",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "99353",
+          "put_date": "2026-10-14",
+          "identity_date_amount_name_agree": true
+        },
+        {
+          "bond_code": "21043",
+          "put_date": "2026-10-13",
+          "identity_date_amount_name_agree": true
+        }
+      ]
+    }
+  },
+  "trading_unit_reference": "Official introduction:100000TWDface; not the purchase cash or a guaranteed payment",
+  "source_timestamps": "MetadataDate is snapshot label; retrieval timestamps are separately preserved. No first-publication claim.",
+  "publication_window_verified": false,
+  "payment_date_verified": false,
+  "source_gate_passed": false,
+  "reported_yield_is_not_used_as_investor_holding_return": true,
+  "saved_requests": 12,
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "market_quote_or_return_rows_read": 0,
+  "models_fitted": 0,
+  "historical_pit_verified": false,
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false
+}

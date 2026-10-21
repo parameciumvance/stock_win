@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-21T13:13:18.137320+00:00",
+  "transport_observations": [
+    {
+      "scope": "web discovery on2026-10-20",
+      "url": "https://www.tpex.org.tw/openapi/",
+      "observed": "webtool403; later archived nativecurlHTTP200",
+      "root_cause_not_inferred": true
+    },
+    {
+      "scope": "discovery request alternative Swagger path",
+      "url": "https://www.tpex.org.tw/openapi/swagger/swagger.json",
+      "observed": "HTTP200 body is404HTML, not JSON schema; retained without claiming source validity"
+    },
+    {
+      "scope": "put calendar requested day bounds",
+      "observed": "API declares whole-month20261001..20270430 versus requested20261020..20270420; all29retained, two before requestedstart",
+      "normalization_not_hidden": true
+    }
+  ],
+  "resource_observation": "One previouscandidate_review subagent returned an explicit usage-limit message. Saved artifacts were recovered; this is not evidence of a source/transport failure.",
+  "new_orders": 0
+}

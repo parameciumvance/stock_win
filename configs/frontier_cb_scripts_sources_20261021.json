@@ -1,0 +1,16 @@
+{
+  "output_directory": "inputs/frontier_20261020/raw_scripts",
+  "allowed_hosts": [
+    "www.tpex.org.tw"
+  ],
+  "requests": [
+    {
+      "filename": "tables.js",
+      "url": "https://www.tpex.org.tw/rsrc/js/tables.js"
+    },
+    {
+      "filename": "global.js",
+      "url": "https://www.tpex.org.tw/rsrc/asset/js/global.js"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "output_directory": "inputs/cash_merger_20261021/raw_discovery",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw",
+    "law.moj.gov.tw",
+    "law-out.mof.gov.tw"
+  ],
+  "requests": [
+    {
+      "filename": "m11_2026q3.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M11&SUBJECT=&SDATE=115%2F07%2F01&EDATE=115%2F09%2F30&lang=TW&AN="
+    },
+    {
+      "filename": "m11_202607.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M11&SUBJECT=&SDATE=115%2F07%2F01&EDATE=115%2F07%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "m11_202608.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M11&SUBJECT=&SDATE=115%2F08%2F01&EDATE=115%2F08%2F31&lang=TW&AN="
+    },
+    {
+      "filename": "m11_202609.json",
+      "url": "https://mopsov.twse.com.tw/mops/web/ezsearch_query",
+      "method": "POST",
+      "data": "step=00&RADIO_CM=1&TYPEK=sii&CO_MARKET=&CO_ID=&PRO_ITEM=M11&SUBJECT=&SDATE=115%2F09%2F01&EDATE=115%2F09%2F30&lang=TW&AN="
+    },
+    {
+      "filename": "merger_act.html",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCODE=J0080041"
+    },
+    {
+      "filename": "cash_merger_tax_ruling.html",
+      "url": "https://law-out.mof.gov.tw/LawContent.aspx?id=GL004795&media=print"
+    }
+  ]
+}

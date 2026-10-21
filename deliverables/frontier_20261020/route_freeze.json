@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "52a37c16a9efc89cd7c46daff9946559239d9a9c29e7ecf23dc9b342e4feda64",
+  "path": "configs/frontier_cb_route_sources_20261021.json",
+  "sha256": "21e9255ee3530fb6eb546d7d76f2571b1a4fba2014a9bca5dd7d0502187bc37c",
+  "requests": 1,
+  "frozen_at": "2026-10-21T13:00:43.933011+00:00",
+  "selection": "main.js declared by saved optionHTML; API_PATTERN was not defined in the two archived scripts, no assumed endpoint substituted",
+  "source_archive_sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4"
+}

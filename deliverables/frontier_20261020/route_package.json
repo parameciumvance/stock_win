@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_20261020/route.zip",
+  "sha256": "57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5",
+  "manifest_files": 7,
+  "created_at": "2026-10-21T13:00:45.643483+00:00",
+  "retrieved": "inputs/frontier_20261020/route.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_20261020/route_transfer.json",
+  "backup_label": "frontier_20261020_route"
+}

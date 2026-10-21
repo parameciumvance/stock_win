@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "52a37c16a9efc89cd7c46daff9946559239d9a9c29e7ecf23dc9b342e4feda64",
+  "path": "configs/frontier_cb_calendar_sources_20261021.json",
+  "sha256": "bb6c0bfc9f7cc103d5b40401d22edae29203fc840b0dfd1794f46036f573db20",
+  "requests": 3,
+  "frozen_at": "2026-10-21T13:03:05.998081+00:00",
+  "selection": "Declared optionHTML action bond/putProvision + archivedmain.js API_PATTERN /www/{LANG}/{ACTION}, archivedtables.js POST form; fixed wideperiod and November subset control; separately saved metadata vintage. Never overwrite October20source.",
+  "evidence_archives": [
+    "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4",
+    "1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707",
+    "57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-21T12:57:03.515764+00:00",
+  "remote_main": "279d0434c3a245352ff42cacdcd69e08eeeff286",
+  "prior_checkpoint_entries_verified": 193,
+  "protocol_sha256": "52a37c16a9efc89cd7c46daff9946559239d9a9c29e7ecf23dc9b342e4feda64",
+  "discovery_archive_sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4",
+  "manifest_files": 21,
+  "roundtrip_verified": true,
+  "frozen_inputs_replaced": false,
+  "local_uncommitted_files_preserved": true,
+  "observation": "Prior candidate_review subagent ended with explicit usage-limit message; no inference of data transport/source failure. Existing artifacts recovered and root work continues."
+}
