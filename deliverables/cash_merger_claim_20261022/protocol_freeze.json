@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-10-22T12:39:24.681536+00:00",
+  "protocol_sha256": "a6336939d8401ab9126f812bd2cf210866bd98c526ec3bb51c7b260d0b7235ab",
+  "case_sha256": "723c5510b7d87a9292035596f92031bc3804ec6c20523e37c7386f04ea8ceda8",
+  "terms_audit_sha256": "395a005d6c638f3c7dfaba19de7565b8f85ceb2cd8b7667ba1c24d215816325f",
+  "rationale": "Translate saved source terms into refusal of unknown actual cash/date, not an opportunity/price screen."
+}

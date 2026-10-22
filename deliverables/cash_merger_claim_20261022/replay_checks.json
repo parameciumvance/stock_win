@@ -1,0 +1,20 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "research_pipeline.py",
+    "--plan",
+    "configs/cash_merger_claim_pipeline.json",
+    "--state-dir",
+    "inputs/cash_merger_claim_20261022/pipeline_replay",
+    "--code-commit",
+    "a4d57a114b845cb4c26411d23ae2a6e8ab87ac4f"
+  ],
+  "exit_code": 0,
+  "stages": 2,
+  "verified_skips": 2,
+  "all_passed": true,
+  "output": "verified skip: cash_merger_actual_pending_claim_replay\nverified skip: cash_merger_independent_clock_and_pending_claim_audit\n",
+  "no_new_network_requests": true,
+  "final_verification_recorded_at": "2026-10-22T12:42:41.360700+00:00",
+  "earlier_pass_note": "First follow-up completed independent audit after its implementation/output was finalized; final stable repeat verified both stages."
+}

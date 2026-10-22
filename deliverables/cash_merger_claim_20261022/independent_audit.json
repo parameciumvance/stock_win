@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "status": "independent_oracles_and_actual_pending_rejection_verified",
+  "inputs": {
+    "case_path": "configs/cash_merger_claim_case_20261022.json",
+    "case_sha256": "723c5510b7d87a9292035596f92031bc3804ec6c20523e37c7386f04ea8ceda8",
+    "clock_code_sha256": "c4d441cd8c9372751fce6979877d9b8da3480986a7f192a759431e66caefae43",
+    "clock_tests_sha256": "f799cffa5c2f1c7fbc3ed2b1db6ab4112749de48000cd2e767bc33974f0409cd"
+  },
+  "exact_rational_half_up_comparisons": 360,
+  "independently_enumerated_calendar_comparisons": 70,
+  "calendar_examples_are_synthetic": true,
+  "prices_are_synthetic_arithmetic_inputs": true,
+  "actual_case_rejection": {
+    "status": "actual_inputs_incomplete",
+    "calculation_ready": false,
+    "reasons": [
+      "current_version_at_entry_unknown",
+      "all_closing_conditions_unknown",
+      "final_conversion_date_unknown",
+      "final_consideration_per_share_unknown",
+      "lawful_withholding_twd_unknown",
+      "eligible_registered_ordinary_shares_unknown",
+      "holder_is_buyer_or_nominee_unknown",
+      "holder_exercises_dissenters_rights_unknown",
+      "holder_has_unvested_employee_shares_unknown",
+      "applicable_business_calendar_unknown"
+    ],
+    "payment_date": null,
+    "cash": null,
+    "payment_date_meaning": "Contractual latest payment day, not evidence of bank receipt",
+    "cash_currency": "TWD",
+    "payment_business_days_after_base": 7,
+    "conversion_base_included": false,
+    "original_unextended_six_month_day": "2027-03-18",
+    "verified_written_extension_deadline": null,
+    "termination_conclusion": null,
+    "automatic_expiry_inferred": false,
+    "six_month_rule_meaning": "Conditional termination if conditions unmet/unwaived by the applicable deadline; latest terms required",
+    "voting_bookclosure_used": false,
+    "provisional_terms_used": false,
+    "source_gate_passed": false,
+    "cash_claim_source_gate_passed": false,
+    "historical_pit_verified": false,
+    "profit_edge_proven": false,
+    "valid_prospective_signal_date": null,
+    "market_prices_or_returns_read": false,
+    "orders_authorized": false
+  },
+  "actual_claim_output_compared": true,
+  "actual_claim_output": {
+    "path": "deliverables/cash_merger_claim_20261022/claim_replay.json",
+    "sha256": "b608f0221d99c9f31fc185eaaff0ea0b8c6babc5f135b7888ef29dd96daa0cc7"
+  },
+  "future_asof_cannot_infer_expiry": true,
+  "blocking_code_findings": [],
+  "review_limits": "External verified facts/evidence and calendar completeness remain caller responsibilities; arithmetic does not authenticate documents or qualify entry.",
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

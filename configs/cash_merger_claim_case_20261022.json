@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "case_id": "CASH_2324_6674_20260918",
+  "actual_inputs_state": "pending",
+  "source_observation_taipei": "2026-10-22T06:43:57+08:00",
+  "observation_scope": "Saved public PDF copies observed at06:43TPE on2026-10-22; not current evening status or historical first availability.",
+  "evening_current_status_verified": false,
+  "contract_copy_date": "2026-09-18",
+  "source_hashes": {
+    "archive_sha256": "8dfc037a92837c34536f0b65bd488d47d47ceb92992939dfeb5cfa408b1f4dad",
+    "pdfs": {
+      "2026_6674_20261109F02.pdf": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+      "2026_6674_20261109F13.pdf": "bb5404d58693eed814a9c578cae296c53eb8321042b14e03d0856fe7d4e59e4c"
+    }
+  },
+  "annotation_references": [
+    {
+      "path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+      "sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23"
+    },
+    {
+      "path": "deliverables/cash_merger_pdf_transfer_20261022/contract_semantic_review.json",
+      "sha256": "5ff442e3dbb45bc3e1fde51088f39bc4ce97005e0a2fd8bb595365658c113446"
+    }
+  ],
+  "provisional_terms": {
+    "consideration_twd_per_ordinary_share": "18.50",
+    "conversion_date": "2026-12-31",
+    "provisional": true,
+    "used_as_actual_inputs": false,
+    "evidence": [
+      {
+        "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+        "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+        "topic": "base_cash_per_ordinary_share",
+        "physical_pages": [
+          19,
+          20
+        ],
+        "page_text_sha256": [
+          "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+          "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a"
+        ],
+        "pdf_sha256": [
+          "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+        ],
+        "scope": "Source contract rule only; does not verify the corresponding actual input"
+      },
+      {
+        "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+        "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+        "topic": "provisional_conversion_timeline",
+        "physical_pages": [
+          21
+        ],
+        "page_text_sha256": [
+          "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98"
+        ],
+        "pdf_sha256": [
+          "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+        ],
+        "scope": "Source contract rule only; does not verify the corresponding actual input"
+      }
+    ]
+  },
+  "voting_bookclosure": {
+    "start": "2026-10-11",
+    "end": "2026-11-09",
+    "purpose": "Voting eligibility only; not conversion cash register/base date",
+    "used_as_conversion_date": false
+  },
+  "facts": {
+    "current_version_at_entry": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "public_copy_and_execution_scope",
+          "physical_pages": [
+            19,
+            31
+          ],
+          "page_text_sha256": [
+            "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+            "42c511c8b5841455e957114a8d8233ecfbbb411ae31f583bb58fbbb2deeb9647"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "all_closing_conditions": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "shared_closing_conditions",
+          "physical_pages": [
+            21,
+            22
+          ],
+          "page_text_sha256": [
+            "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+            "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "final_conversion_date": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "provisional_conversion_timeline",
+          "physical_pages": [
+            21
+          ],
+          "page_text_sha256": [
+            "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "final_consideration_per_share": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "base_cash_per_ordinary_share",
+          "physical_pages": [
+            19,
+            20
+          ],
+          "page_text_sha256": [
+            "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+            "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "lawful_withholding_twd": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "payment_trigger_and_net_amount",
+          "physical_pages": [
+            20
+          ],
+          "page_text_sha256": [
+            "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "eligible_registered_ordinary_shares": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "beneficiary_register_and_exclusions",
+          "physical_pages": [
+            20,
+            28
+          ],
+          "page_text_sha256": [
+            "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+            "ab9c3d0c4679ad84b6652be889350a697f2596db1ffdf4e2b55d34a37d7c2a07"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "holder_is_buyer_or_nominee": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "parties_and_transaction",
+          "physical_pages": [
+            19
+          ],
+          "page_text_sha256": [
+            "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "holder_exercises_dissenters_rights": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "beneficiary_register_and_exclusions",
+          "physical_pages": [
+            20,
+            28
+          ],
+          "page_text_sha256": [
+            "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+            "ab9c3d0c4679ad84b6652be889350a697f2596db1ffdf4e2b55d34a37d7c2a07"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    },
+    "holder_has_unvested_employee_shares": {
+      "value": null,
+      "verified": null,
+      "evidence": [
+        {
+          "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+          "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+          "topic": "unvested_employee_shares",
+          "physical_pages": [
+            20,
+            29
+          ],
+          "page_text_sha256": [
+            "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+            "c60ece1a84537be53ae922c7d8527189153dbd11ec51b7af2c28c379e747e859"
+          ],
+          "pdf_sha256": [
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+            "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+          ],
+          "scope": "Source contract rule only; does not verify the corresponding actual input"
+        }
+      ]
+    }
+  },
+  "business_calendar": null,
+  "applicable_calendar_gap": {
+    "reason": "Contract uses business days but no applicable definition/calendar has been verified",
+    "evidence": [
+      {
+        "annotation_path": "deliverables/cash_merger_pdf_transfer_20261022/notice_or_contract_terms_annotation.json",
+        "annotation_sha256": "8dbd2f08bed9f7f5be4b21abb3f18f06bc8525ff0af1f8be1b9d55ba64e38f23",
+        "topic": "business_day_definition_gap",
+        "physical_pages": [
+          20,
+          30,
+          31
+        ],
+        "page_text_sha256": [
+          "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "42c511c8b5841455e957114a8d8233ecfbbb411ae31f583bb58fbbb2deeb9647"
+        ],
+        "pdf_sha256": [
+          "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134"
+        ],
+        "scope": "Source contract rule only; does not verify the corresponding actual input"
+      }
+    ]
+  },
+  "written_extension": null,
+  "latest_termination_status": null,
+  "user_holdings_requested": false,
+  "source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

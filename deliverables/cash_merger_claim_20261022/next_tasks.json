@@ -1,0 +1,17 @@
+{
+  "status": "conditional_arithmetic_and_actual_pending_rejection_verified",
+  "remaining_case_evidence": [
+    "Future shareholder/regulatory approval evidence",
+    "Latest full amendment chain and final price/base/payment notices",
+    "Applicable business-day calendar",
+    "Tax/withholding and entry/settlement/register mechanics"
+  ],
+  "next_project_action": "bounded_CB_contract_route_from_saved_TPEx_literal_entry",
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "manual_daily_validation": false,
+  "source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}
