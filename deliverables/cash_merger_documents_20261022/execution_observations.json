@@ -1,0 +1,27 @@
+{
+  "actual_observations": [
+    {
+      "action": "Git staging",
+      "result": "Automatic permission approval review timed out before command creation; read-only audit found no stage/lock/worker. One authorized retry succeeded."
+    },
+    {
+      "action": "Unescalated git write-tree in payload helper",
+      "result": "Read-only .git index.lock creation failed, exit128; rerun with authorized escalation succeeded."
+    },
+    {
+      "action": "Catalogue UTF-8 inspection",
+      "result": "Strict UnicodeDecodeError at byte19; archived HTTP Content-Type and HTML meta explicitly declare Big5. Strict Big5 decoding succeeded; original bytes retained. Decoder support to be tested, no errors=replace."
+    },
+    {
+      "action": "Test runner availability",
+      "result": "python -m pytest exited1: No module named pytest. Repository unittest runner used; no package installed."
+    },
+    {
+      "action": "Initial attachment POSTs",
+      "result": "Both HTTP200/curl0 replies are503-byte Big5 HTML with generated PDF hrefs, not PDF bytes; preserved in immutable a21b4e archive and never counted as PDFs. Two separately frozen exact GETs obtained PDF bytes."
+    }
+  ],
+  "source_transport_errors": [],
+  "market_quote_requests": 0,
+  "orders_authorized": false
+}

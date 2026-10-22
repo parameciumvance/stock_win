@@ -1,0 +1,16 @@
+{
+  "output_directory": "inputs/cash_merger_pdf_transfer_20261022/raw_files",
+  "allowed_hosts": [
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "2026_6674_20261109F02.pdf",
+      "url": "https://doc.twse.com.tw/pdf/2026_6674_20261109F02_20261022_064242.pdf"
+    },
+    {
+      "filename": "2026_6674_20261109F13.pdf",
+      "url": "https://doc.twse.com.tw/pdf/2026_6674_20261109F13_20261022_064242.pdf"
+    }
+  ]
+}

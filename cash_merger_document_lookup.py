@@ -6,6 +6,7 @@ qualification parser. No JavaScript runs and no returned pointer is followed.
 import hashlib
 import json
 from pathlib import Path
+import re
 import zipfile
 
 from lxml import html
@@ -28,10 +29,30 @@ def _text(node):
     return ''.join(node.itertext())
 
 
-def inventory_html(body: bytes):
+def decode_html(body: bytes, encoding='utf-8', headers=None):
+    """Use an explicit supported charset; refuse conflicting declarations."""
+    aliases = {'utf8': 'utf-8', 'utf-8': 'utf-8', 'utf-8-sig': 'utf-8', 'big5': 'big5'}
+    require(isinstance(encoding, str) and encoding.lower() in aliases, 'Unsupported explicit HTML charset')
+    selected = aliases[encoding.lower()]
+    declarations = []
+    for tag in re.findall(rb'<meta\b[^>]*>', body, re.I):
+        declarations.extend(re.findall(rb'\bcharset\s*=\s*["\']?\s*([a-zA-Z0-9._-]+)', tag, re.I))
+    if headers is not None:
+        require(isinstance(headers, bytes), 'Original HTTP headers must be bytes')
+        for value in re.findall(rb'^content-type\s*:\s*([^\r\n]*)', headers, re.I | re.M):
+            declarations.extend(re.findall(rb'\bcharset\s*=\s*["\']?\s*([a-zA-Z0-9._-]+)', value, re.I))
+    declared = [value.decode('ascii').lower() for value in declarations]
+    require(all(value in aliases and aliases[value] == selected for value in declared),
+            'HTTP/meta charset differs from explicit HTML charset')
+    require(selected != 'big5' or bool(declared), 'Big5 requires an explicit source charset declaration')
+    require(selected == 'utf-8' or not body.startswith(b'\xef\xbb\xbf'), 'UTF8 BOM conflicts with declared charset')
+    return body.decode('utf-8-sig' if selected == 'utf-8' else 'big5', errors='strict'), selected, declared
+
+
+def inventory_html(body: bytes, encoding='utf-8', headers=None):
     """Preserve all source rows, form controls and exact declared link values."""
     require(isinstance(body, bytes) and bool(body), 'Expected nonempty original HTML bytes')
-    source = body.decode('utf-8-sig', errors='strict')
+    source, source_encoding, declarations = decode_html(body, encoding, headers)
     require('<' in source and '>' in source, 'Saved query response is not HTML')
     tree = html.document_fromstring(source)
     tables = tree.xpath('//table')
@@ -51,21 +72,24 @@ def inventory_html(body: bytes):
                           controls=[dict(tag=node.tag, html_line=node.sourceline, attributes=dict(node.attrib),
                                          text=_text(node), options=[dict(attributes=dict(option.attrib), text=_text(option))
                                                                    for option in node.xpath('.//option')])
-                                    for node in form.xpath('.//input|.//select|.//textarea|.//button')]))
+                                    for node in form.xpath('.//input|.//select|.//textarea|.//button')
+                                    if node.xpath('ancestor::form[1]')[0] is form]))
     interactions = [dict(tag=node.tag, html_line=node.sourceline, attribute=key, value=value)
                     for node in tree.iter() if isinstance(node.tag, str)
                     for key, value in node.attrib.items() if key.lower().startswith('on')]
     scripts = [dict(html_line=node.sourceline, attributes=dict(node.attrib), text=_text(node))
                for node in tree.xpath('//script')]
     full = dict(body_sha256=hashlib.sha256(body).hexdigest(), size_bytes=len(body),
-                html_text_policy='UTF8/BOM decoded; HTML entities decoded; original response bytes remain archived',
+                source_encoding=source_encoding, charset_declarations=declarations,
+                html_text_policy='Explicit supported charset decoded strictly; HTML entities decoded; original response bytes remain archived',
                 page_text=_text(tree), rows=rows,
                 tables=[dict(occurrence=table_positions[table], html_line=table.sourceline,
                              attributes=dict(table.attrib)) for table in tables],
-                forms=forms, pointers=extract_pointers(body), scripted_attributes=interactions,
+                forms=forms, pointers=extract_pointers(source.encode('utf-8')), scripted_attributes=interactions,
                 scripts=scripts)
     summary = dict(status='saved_meeting_book_lookup_html_inventoried_content_unqualified',
-        body_sha256=full['body_sha256'], size_bytes=len(body),
+        body_sha256=full['body_sha256'], size_bytes=len(body), source_encoding=source_encoding,
+        charset_declarations=declarations,
         html_table_count=len(tables), html_row_count=len(rows), form_count=len(forms),
         pointer_count=len(full['pointers']), scripted_attribute_count=len(interactions),
         returned_rows=[dict(occurrence=row['occurrence'], table=row['table'],

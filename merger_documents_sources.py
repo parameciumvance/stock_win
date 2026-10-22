@@ -163,18 +163,54 @@ def _source_module():
 
 
 def plan(batch='query'):
-    return _source_module().plan(batch)
+    module = _source_module()
+    result = module.plan(batch)
+    if batch == 'attachments':
+        validate_attachment_plan(result[1], result[3])
+    return result
+
+
+def validate_attachment_plan(cfg, freeze):
+    """Bind both PDFs to the retrieved catalogue/form before native IO."""
+    from cash_merger_document_catalogue import parse_catalogue, validate_download_requests
+    from cash_merger_document_lookup import require_successful_query
+    from tender_preflight import verified_records
+    if freeze is None:
+        raise ValueError('Attachments require a separately frozen source selection')
+    batch = json.loads(Path(freeze).read_bytes())
+    selection = json.loads(_bound_file(batch.get('selection_manifest'), OUT / 'attachments_selection.json'))
+    source = selection['source_catalogue']
+    if source.get('out') != str(OUT) or source.get('batch') != 'catalogue' or source.get('encoding') != 'big5':
+        raise ValueError('Attachments must use the frozen local Big5 catalogue')
+    package, _ = readback(OUT, 'catalogue')
+    if package['sha256'] != source.get('archive_sha256'):
+        raise ValueError('Selected catalogue archive differs')
+    with zipfile.ZipFile(package['retrieved']) as archive:
+        requests_body = archive.read('requests.json')
+        results = json.loads(archive.read('raw/results.json'))
+        if results['config_sha256'] != _digest(requests_body):
+            raise ValueError('Archived catalogue request configuration differs')
+        records = verified_records(json.loads(requests_body), results, lambda name: archive.read('raw/' + name))
+        require_successful_query(records)
+        member = 'raw/' + records[0]['request']['filename']
+        if source.get('member') != member:
+            raise ValueError('Selected catalogue member differs from saved request')
+        full, _ = parse_catalogue(archive.read(member), archive.read(member + '.headers'))
+    validate_download_requests(full, selection, cfg)
 
 
 def acquire(batch='query'):
+    plan(batch)
     return _source_module().acquire(batch)
 
 
 def package(batch='query'):
+    plan(batch)
     return _source_module().package(batch)
 
 
 def verify(batch='query'):
+    plan(batch)
     return _source_module().verify(batch)
 
 

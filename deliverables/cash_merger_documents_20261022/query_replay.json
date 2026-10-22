@@ -1,0 +1,149 @@
+{
+  "status": "saved_meeting_book_lookup_html_inventoried_content_unqualified",
+  "body_sha256": "20b6e181d2a70ee859338a817bae1223d3c8a20ab26154ed29e9e548bb4366a2",
+  "size_bytes": 3078,
+  "source_encoding": "utf-8",
+  "charset_declarations": [],
+  "html_table_count": 0,
+  "html_row_count": 0,
+  "form_count": 1,
+  "pointer_count": 2,
+  "scripted_attribute_count": 1,
+  "returned_rows": [],
+  "forms": [
+    {
+      "occurrence": 1,
+      "html_line": 21,
+      "attributes": {
+        "name": "autoRunScript",
+        "onsubmit": "window.open('https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=6674&year=115&mtype=F&','');return false;",
+        "method": "post"
+      },
+      "action": null,
+      "method": "post",
+      "controls": [
+        {
+          "tag": "input",
+          "html_line": 22,
+          "attributes": {
+            "type": "hidden",
+            "name": "run",
+            "value": "var w1=window.open('https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=6674&year=115&mtype=F&','');"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 24,
+          "attributes": {
+            "type": "submit",
+            "value": "\u8acb\u9ede\u9078\u9019\u88e1"
+          },
+          "text": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "scripted_attributes": [
+    {
+      "tag": "form",
+      "html_line": 21,
+      "attribute": "onsubmit",
+      "value": "window.open('https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=6674&year=115&mtype=F&','');return false;"
+    }
+  ],
+  "scripts": [
+    {
+      "html_line": 11,
+      "attributes": {
+        "type": "text/javascript",
+        "src": "js/mops2.js"
+      },
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "html_line": 34,
+      "attributes": {},
+      "text_sha256": "70896fbfa0998e5d1045fad879b1be769722102a2176184b01be404b092650f5"
+    }
+  ],
+  "pointers": [
+    {
+      "occurrence": 1,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "css/css2.css",
+      "source_literal": "css/css2.css",
+      "html_line": 9,
+      "html_column": 1,
+      "resolved_url": null,
+      "fetch_authorized": false
+    },
+    {
+      "occurrence": 2,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 1,
+      "value": "js/mops2.js",
+      "source_literal": "js/mops2.js",
+      "html_line": 11,
+      "html_column": 1,
+      "resolved_url": null,
+      "fetch_authorized": false
+    }
+  ],
+  "all_returned_html_rows_preserved": true,
+  "all_returned_form_controls_preserved": true,
+  "all_href_src_occurrences_preserved": true,
+  "book_type_filter_applied": false,
+  "query_issuer": "6674",
+  "query_roc_year": "115",
+  "returned_company_year_identity_verified": false,
+  "specific_document_selected": false,
+  "linked_documents_acquired": false,
+  "document_population_complete": false,
+  "no_documents_proven": false,
+  "javascript_executed": false,
+  "pointers_followed": false,
+  "transaction_disposition": null,
+  "current_transaction_status_verified": false,
+  "contractual_cash_claim_verified": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false,
+  "protocol_sha256": "f671483cd84693ba44f3b19ea198fae93b1742cdd6fff92b7b98f930cae96ad9",
+  "request_config_sha256": "40ff2312427df408218694973e6dccfa69601e0b39553b54f7dc664538a902d5",
+  "request": {
+    "filename": "meeting_books_6674_115.html",
+    "url": "https://mopsov.twse.com.tw/mops/web/ajax_t57sb01_q5",
+    "method": "POST",
+    "data": "step=1&firstin=1&off=1&TYPEK=all&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&co_id=6674&year=115"
+  },
+  "source_form": {
+    "out": "deliverables/cash_merger_current_followthrough_20261022",
+    "batch": "ebook_form",
+    "archive_sha256": "22c703e01eba0fc056718079a2838ca518ab8b90ac5354536b6c1f22667c7720",
+    "member": "raw/official_meeting_book_form.html",
+    "body_sha256": "971a2e2bf71415a9a31321ba7498e51e4c93b427bd1c9599c6d673c449a656de"
+  },
+  "archive": {
+    "sha256": "c104cebaf53c1629f7e257aee08decb05b93a112d16172158d44bf6e64866012",
+    "manifest_files": 6,
+    "backup": {
+      "sha256": "c104cebaf53c1629f7e257aee08decb05b93a112d16172158d44bf6e64866012",
+      "backup_path": "C:\\Users\\user\\stock_win_research_backups\\cash_merger_documents_20261022_query_c104cebaf53c1629f7e257aee08decb05b93a112d16172158d44bf6e64866012.zip",
+      "retrieved_path": "inputs/cash_merger_documents_20261022/query.retrieved.zip",
+      "roundtrip_verified": true,
+      "verified_at": "2026-10-21T22:37:08.793Z",
+      "transport": "Desktop Commander Remote / Windows Node file copy",
+      "storage": "Windows user backup and WSL retrieval; same computer"
+    }
+  }
+}

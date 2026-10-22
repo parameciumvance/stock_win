@@ -1,0 +1,12 @@
+{
+  "output_directory": "inputs/cash_merger_documents_20261022/raw_catalogue",
+  "allowed_hosts": [
+    "doc.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "company6674_year115_catalogue.html",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=6674&year=115&mtype=F&"
+    }
+  ]
+}

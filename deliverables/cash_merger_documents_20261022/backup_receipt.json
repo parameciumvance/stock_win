@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-22T12:32:09.005936+00:00",
+  "packages": [
+    {
+      "batch": "query",
+      "archive_sha256": "c104cebaf53c1629f7e257aee08decb05b93a112d16172158d44bf6e64866012",
+      "manifest_files": 6,
+      "receipt": "deliverables/cash_merger_documents_20261022/source_receipt_query.json"
+    },
+    {
+      "batch": "catalogue",
+      "archive_sha256": "2dc775a28540045d30bcf244209c0d07bb2ea8b8aac06bd2e7372f468816f406",
+      "manifest_files": 7,
+      "receipt": "deliverables/cash_merger_documents_20261022/source_receipt_catalogue.json"
+    },
+    {
+      "batch": "attachments",
+      "archive_sha256": "a21b4ec1547bb4cae44f69ef7d99b714d42240df655e38617c87698f7ae34f2e",
+      "manifest_files": 10,
+      "receipt": "deliverables/cash_merger_documents_20261022/source_receipt_attachments.json"
+    }
+  ],
+  "all_saved_retrieved_sha_crc_manifest_verified": true,
+  "manifest_entries": 23,
+  "prior_checkpoint_entries_verified": 373,
+  "prior_frozen_members_unchanged": true,
+  "storage": "WSL persistent inputs plus Windows user backup; same computer, not offsite",
+  "raw_large_data_committed": false
+}

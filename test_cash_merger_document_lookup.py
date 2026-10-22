@@ -86,6 +86,25 @@ class LookupInventoryTests(unittest.TestCase):
             with self.subTest(raw=raw), self.assertRaises((ValueError, UnicodeError)):
                 lookup.inventory_html(raw)
 
+    def test_explicit_declared_big5_preserves_raw_hash_and_exact_decoded_pointers(self):
+        raw = '<html><meta http-equiv="Content-Type" content="text/html;charset=big5"><a href="實際檔案.pdf">股東會</a></html>'.encode('big5')
+        full, summary = lookup.inventory_html(raw, 'big5', b'Content-Type: text/html;charset=big5\r\n')
+        self.assertEqual(full['body_sha256'], hashlib.sha256(raw).hexdigest())
+        self.assertEqual(summary['source_encoding'], 'big5')
+        self.assertEqual(summary['pointers'][0]['value'], '實際檔案.pdf')
+        self.assertIn('股東會', full['page_text'])
+
+    def test_conflicting_undeclared_unsupported_or_invalid_charset_is_never_replaced(self):
+        raw = b'<html><meta charset="big5">text</html>'
+        for body, encoding, headers in [
+            (raw, 'utf-8', None), (raw, 'big5', b'Content-Type: text/html;charset=utf-8\r\n'),
+            (b'<html>ascii only</html>', 'big5', None), (raw, 'cp950', None),
+            (b'<html><meta charset="big5">\x81</html>', 'big5', None),
+            (b'\xef\xbb\xbf' + raw, 'big5', None),
+        ]:
+            with self.subTest(encoding=encoding, headers=headers), self.assertRaises((ValueError, UnicodeError)):
+                lookup.inventory_html(body, encoding, headers)
+
     def test_transport_failure_or_wrong_request_count_is_not_a_valid_query(self):
         lookup.require_successful_query([dict(http_status=200, exit_code=0)])
         for rows in [[], [dict(http_status=200, exit_code=0)] * 2,

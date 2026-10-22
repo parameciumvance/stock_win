@@ -1,0 +1,44 @@
+{
+  "frozen_at": "2026-10-21T22:40:40.963207+00:00",
+  "protocol_sha256": "f671483cd84693ba44f3b19ea198fae93b1742cdd6fff92b7b98f930cae96ad9",
+  "path": "configs/cash_merger_documents_attachments_sources_20261022.json",
+  "sha256": "ac931fa2d7560b167a47298c1ec9683a5fdaf47d9318a5eb7ae47e67dbe91f2d",
+  "requests": 2,
+  "selection_manifest": {
+    "path": "deliverables/cash_merger_documents_20261022/attachments_selection.json",
+    "sha256": "d7e0e8b08ed93c53c4273a9c09e8cf7b172cfc49086945e5926359679f4baae0"
+  },
+  "evidence": [
+    {
+      "archive": "inputs/cash_merger_documents_20261022/catalogue.retrieved.zip",
+      "archive_sha256": "2dc775a28540045d30bcf244209c0d07bb2ea8b8aac06bd2e7372f468816f406",
+      "member": "raw/company6674_year115_catalogue.html",
+      "body_sha256": "d9f2d635e7e7263997afdbf974ea300a1c0d24b50c6a4235d20e4b5f51fb06dd",
+      "encoding": "big5",
+      "form": "fm2",
+      "form_action": "/server-java/t57sb01",
+      "method": "post",
+      "script_function": "readfile2",
+      "declaration_lines": [
+        "18-32: literal function assignments step9/kind/co_id/filename; no JavaScript execution",
+        "37-48: own eleven form controls; nested fm4 excluded",
+        "144-150: first extraordinary-meeting F13 row and upload label",
+        "153-159: first extraordinary-meeting F02 row and upload label"
+      ],
+      "source_literals": [
+        "javascript:readfile2(\"F\",\"6674\",\"2026_6674_20261109F02.pdf\");",
+        "javascript:readfile2(\"F\",\"6674\",\"2026_6674_20261109F13.pdf\");"
+      ],
+      "raw_html_and_http_charset_declared_big5": true,
+      "strict_decoding_passed": true
+    }
+  ],
+  "prior_discovery_spent": 8,
+  "document_phase_spent_before": 2,
+  "document_phase_spent_after": 4,
+  "cumulative_spent_after": 12,
+  "cumulative_ceiling": 12,
+  "current_vintage_uploaded_labels_only": true,
+  "historical_pit_verified": false,
+  "source_gate_passed": false
+}

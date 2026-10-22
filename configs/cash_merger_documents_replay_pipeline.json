@@ -406,7 +406,9 @@
         "inputs/cash_merger_current_followthrough_20261022/ebook_form_transfer.json",
         "deliverables/cash_merger_documents_20261022/query_package.json",
         "inputs/cash_merger_documents_20261022/query.retrieved.zip",
-        "inputs/cash_merger_documents_20261022/query_transfer.json"
+        "inputs/cash_merger_documents_20261022/query_transfer.json",
+        "cash_merger_document_catalogue.py",
+        "requirements_merger_documents.txt"
       ],
       "outputs": [
         "inputs/cash_merger_documents_20261022/query_full.json",

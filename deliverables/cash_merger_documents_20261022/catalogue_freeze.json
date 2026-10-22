@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-10-21T22:37:57.040003+00:00",
+  "protocol_sha256": "f671483cd84693ba44f3b19ea198fae93b1742cdd6fff92b7b98f930cae96ad9",
+  "path": "configs/cash_merger_documents_catalogue_sources_20261022.json",
+  "sha256": "36cad8a5a95e76f97e870438582b826528061ace6113a547c470e29ee153e724",
+  "requests": 1,
+  "evidence": [
+    {
+      "archive": "inputs/cash_merger_documents_20261022/query.retrieved.zip",
+      "archive_sha256": "c104cebaf53c1629f7e257aee08decb05b93a112d16172158d44bf6e64866012",
+      "member": "raw/meeting_books_6674_115.html",
+      "body_sha256": "20b6e181d2a70ee859338a817bae1223d3c8a20ab26154ed29e9e548bb4366a2",
+      "form": "autoRunScript",
+      "literal_onsubmit": "window.open('https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=6674&year=115&mtype=F&','');return false;",
+      "exact_declared_url": "https://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=6674&year=115&mtype=F&",
+      "extract_only_no_JavaScript_execution": true
+    }
+  ],
+  "prior_discovery_spent": 8,
+  "document_phase_spent_before": 1,
+  "document_phase_spent_after": 2,
+  "cumulative_spent_after": 10,
+  "cumulative_ceiling": 12
+}

@@ -1,5 +1,7 @@
 > 目前狀態（2026-10-20）：尚無已證明獲利優勢、值得啟動每日人工驗證的策略；七規則每日計畫已停止。先看[最新進度](docs/RESEARCH_PRIORITIES.md)與[研究決策紀錄](docs/research_decision_registry.json)。
 >
+> [6674契約全文與條款覆核](deliverables/cash_merger_pdf_transfer_20261022/report.md)：兩份PDF已備份取回，暫定價日及未來批准不能變成確定現金；正接續離線條件檢查。
+>
 > [6674會議條件及官方文件入口](deliverables/cash_merger_current_followthrough_20261022/report.md)：11月9日會議仍待決議，停止過戶屬投票安排；來源鏈、33項測試／15階段hash重播通過。正在查同案指定文件，不把入口當契約或確定現金權利。
 >
 > [6674現況索引與原文續查](deliverables/cash_merger_current_20261021/report.md)：10月22日實際保存查至10月21日的9則全類別公告，40項測試／五階段hash重播通過；原八次來源預算不變，正在讀會議與下市提案，未證實可交易現金權利或優勢。

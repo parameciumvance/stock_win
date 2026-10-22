@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-10-22T12:34:14.785904+00:00",
+  "records": [
+    {
+      "plan": "configs/cash_merger_pdf_transfer_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_pdf_transfer_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_pdf_transfer_20261022/pipeline_files",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_pdf_artifacts_acquire\nverified skip: merger_pdf_artifacts_package\n",
+      "stage_count": 2
+    },
+    {
+      "plan": "configs/cash_merger_pdf_transfer_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_pdf_transfer_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_pdf_transfer_20261022/pipeline_readback",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_pdf_artifacts_readback\n",
+      "stage_count": 1
+    },
+    {
+      "plan": "configs/cash_merger_pdf_replay_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_pdf_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_pdf_transfer_20261022/pipeline_replay",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_actual_pdf_pages_replay\n",
+      "stage_count": 1
+    },
+    {
+      "plan": "configs/cash_merger_pdf_terms_audit_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_pdf_terms_audit_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_pdf_transfer_20261022/pipeline_terms_audit",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_pdf_independent_human_annotation_bindings_audit\n",
+      "stage_count": 1
+    }
+  ],
+  "verified_skips": 5,
+  "stages": 5,
+  "all_passed": true,
+  "no_new_network_requests": true
+}

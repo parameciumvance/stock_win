@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-10-21T22:43:56.687143+00:00",
+  "protocol_sha256": "e7e05a11f4ea082f2bba44dbc53e7cb9b3312331021f200e40b9c7f0838b51a5",
+  "base_remote_commit": "c7234a2860f993a83057c5364a6b50ea97167af8",
+  "before_any_source_acquisition": true,
+  "explicit_prior_network_requests": 12,
+  "new_transfer_requests": 2,
+  "cumulative_max": 14
+}

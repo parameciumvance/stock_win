@@ -1,0 +1,11 @@
+{
+  "status": "raw_source_and_replay_complete_project_continues",
+  "next_project_action": "conditional_claim_clock_and_cb_followup_feasibility",
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "status": "human_independent_public_contract_reading_complete_execution_status_not_promoted",
+  "reviewed_at_utc": "2026-10-22T12:26:32.475452+00:00",
+  "scope": "Read saved PDF bytes only; no new source/market quote requests, returns or investment/legal recommendation.",
+  "source_archive": {
+    "path": "inputs/cash_merger_pdf_transfer_20261022/files.retrieved.zip",
+    "sha256": "8dfc037a92837c34536f0b65bd488d47d47ceb92992939dfeb5cfa408b1f4dad",
+    "crc_passed": true,
+    "manifest_members_verified": 9
+  },
+  "source_documents": [
+    {
+      "member": "raw/2026_6674_20261109F02.pdf",
+      "sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+      "size_bytes": 1187933,
+      "physical_pages": 61,
+      "official_request_url": "https://doc.twse.com.tw/pdf/2026_6674_20261109F02_20261022_064242.pdf",
+      "request_started_at_utc": "2026-10-21T22:43:56.936516+00:00",
+      "observed_at_utc": "2026-10-21T22:43:57.373292+00:00",
+      "observation_window_taipei": "2026-10-22 06:43",
+      "http_status": 200,
+      "exit_code": 0
+    },
+    {
+      "member": "raw/2026_6674_20261109F13.pdf",
+      "sha256": "bb5404d58693eed814a9c578cae296c53eb8321042b14e03d0856fe7d4e59e4c",
+      "size_bytes": 190821,
+      "physical_pages": 4,
+      "official_request_url": "https://doc.twse.com.tw/pdf/2026_6674_20261109F13_20261022_064242.pdf",
+      "request_started_at_utc": "2026-10-21T22:43:56.936782+00:00",
+      "observed_at_utc": "2026-10-21T22:43:57.223097+00:00",
+      "observation_window_taipei": "2026-10-22 06:43",
+      "http_status": 200,
+      "exit_code": 0
+    }
+  ],
+  "page_number_policy": "physical_page is1-based PDF page number; F02physical19-32 correspond printed11-24. Printed cover/section offsets vary elsewhere.",
+  "extractor": {
+    "name": "pypdf",
+    "version": "6.12.0",
+    "contract_pages_human_read": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "raw_pdf_bytes_unchanged": true
+  },
+  "signature_visual_review": {
+    "source_pdf": "raw/2026_6674_20261109F02.pdf",
+    "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+    "physical_page": 32,
+    "printed_page": 24,
+    "embedded_images_observed": 5,
+    "images": [
+      {
+        "xobject_export_name": "X1.tiff",
+        "pypdf_exported_image_sha256": "346719e47648f44e73132f453c6aa8ce60d328fe3c683d373dc39ae2ee360df0",
+        "width": 308,
+        "height": 310,
+        "visual_observation": "代表人小章影像"
+      },
+      {
+        "xobject_export_name": "X2.tiff",
+        "pypdf_exported_image_sha256": "a21c1e6f95e8c911d59ff49e260601da8cb6e1796ae3bbe14c9e3ec5eb84bc92",
+        "width": 661,
+        "height": 664,
+        "visual_observation": "仁寶電腦工業股份有限公司公司章影像"
+      },
+      {
+        "xobject_export_name": "X3.tiff",
+        "pypdf_exported_image_sha256": "c099ba5242a0619c1b83430333b7d83468e92332fc43a59d4b703ce71c712c67",
+        "width": 662,
+        "height": 664,
+        "visual_observation": "鋐寶科技股份有限公司公司章影像"
+      },
+      {
+        "xobject_export_name": "X5.tiff",
+        "pypdf_exported_image_sha256": "813fba9281301bb750bb550fb673241cc0d3f280ef22e9e8e5af1609302c8271",
+        "width": 308,
+        "height": 310,
+        "visual_observation": "代表人小章影像"
+      },
+      {
+        "xobject_export_name": "X7.tiff",
+        "pypdf_exported_image_sha256": "84d0671d2f128f0e00c6ed81b9d46b1267ea5852547e55ef7f8fead9d6f9bd9b",
+        "width": 1074,
+        "height": 484,
+        "visual_observation": "手寫簽名影像"
+      }
+    ],
+    "conclusion": "Visual review confirms apparent corporate/representative seals and a handwritten signature in the saved public contract copy. Text-only blank signature lines do not establish an unsigned contract.",
+    "stated_signing_date": "2026-09-18",
+    "forensic_authenticity_verified": false,
+    "independent_delivery_evidence_verified": false,
+    "no_extra_signature_authentication_task_required_to_start_offline_research": true
+  },
+  "readings": [
+    {
+      "id": "identity_and_form",
+      "finding": "鋐寶科技6674之一一五年第一次股東臨時會，2026-11-09上午09:00，標的是鋐寶普通股現金股份轉換給仁寶；完成後鋐寶為100%持股子公司，並非自願公開收購或消滅合併。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 6,
+          "printed_page": 2,
+          "clause": "會議識別",
+          "extracted_page_text_sha256": "4b5975d1e4ed56b20ee0814b412007f30209a07bcf4dff3db40e79e4257c61ef",
+          "exact_anchor": "一一五年第一次股東臨時會議程",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 6,
+          "printed_page": 2,
+          "clause": "會議時點",
+          "extracted_page_text_sha256": "4b5975d1e4ed56b20ee0814b412007f30209a07bcf4dff3db40e79e4257c61ef",
+          "exact_anchor": "民國一一五年十一月九日(星期一)上午九點",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 19,
+          "printed_page": 11,
+          "clause": "前言",
+          "extracted_page_text_sha256": "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+          "exact_anchor": "於股份轉換完成後，乙方將成為甲方百分之百持股之子公司。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "conditional_price_and_beneficiary",
+      "finding": "基準每普通股18.50元，受第4條調整；以股份轉換基準日股東名簿持股為受領依據，排除仁寶及第9條異議股東。尚未既得限制員工股另走保管/既得機制，不得當一般公眾普通股即時付款。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 19,
+          "printed_page": 11,
+          "clause": "3.1",
+          "extracted_page_text_sha256": "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+          "exact_anchor": "甲方取得乙方每1股普通股股份之對價為現金新台幣18.50元",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "3.2",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "以本契約第6條約定之先決條件已全部成就或業經免除為前提",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "3.2.1",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "依股份轉換基準日乙方股東名簿所載各股東持有乙方普通股之情形",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "3.2.1",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "支付股份轉換對價予除甲方以外之乙方全體股東（不含第9條之異議股東）",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "3.2.2",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "交付予乙方指定之信託保管機構或股務代理機構保管",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "payment_and_net_amount",
+      "finding": "付款義務為符合條件的股份轉換基準日後7個營業日內；正常交易對價不計息，扣依法應扣繳金額並四捨五入至新台幣元。第15條稅費由各方及/或股東各自負擔，沒有給出個人可直接套用的稅率、扣繳率或全部費用。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 19,
+          "printed_page": 11,
+          "clause": "1.1",
+          "extracted_page_text_sha256": "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+          "exact_anchor": "股份轉換基準日（定義如本契約第5.2條）後七個營業日內",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "3.3",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "不計利息，且應扣除任何依法應扣繳金額，並四捨五入計算至新台幣「元」為止。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 30,
+          "printed_page": 22,
+          "clause": "15",
+          "extracted_page_text_sha256": "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "exact_anchor": "應由甲方、乙方及/或其股東各自負擔。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "adjustment_and_buyer_walkaway",
+      "finding": "18.50不是無條件不變價。4.2列重大資產/財業行為、資本與具股權證券、股利、不可抗力/虧損/訴訟/MAC、違反聲明或承諾、庫藏股及監管要求等調價事由；一般為事件後10營業日或另約期限內協議，不須另開股東會。未能善意協議，甲方得終止。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "4.1",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "除發生第4.2條所列之各款情事外，本契約所約定之股份轉換對價不得為任何變更。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "4.2",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "應於調價情事發生後10個營業日內，或甲乙雙方另行協議之其他期限內",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "4.2",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "無須另行召開股東會決議該項調整。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 20,
+          "printed_page": 12,
+          "clause": "4.2",
+          "extracted_page_text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "exact_anchor": "如雙方無法於前開期間內本於善意達成股份轉換對價調整之協議，甲方得終止本契約",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "materiality_scope",
+      "finding": "4.3的10%淨值減少界線只明指第4.2條所稱重大；7.3另定第7條重大。不能把這些界線擅自當作6.2.3所有重大不利影響的統一量化門檻。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "4.3",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "第4.2條所稱「重大」",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "4.3",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "淨值累計減少或合理預期可能累計減少百分之十（10%）（含）以上之情形。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 26,
+          "printed_page": 18,
+          "clause": "7.3",
+          "extracted_page_text_sha256": "608d83adbb1beea49fc042de51e212032c7f8af818c5bd45117e4298673bc0db",
+          "exact_anchor": "本契約第7條所稱「重大」",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "conditions_and_waivers",
+      "finding": "6.1列買方董事會、標的股東會通過交易/契約與下市提案、必要監管核准及無禁令/違法限制。6.2另外保護買方：標的聲明保證真實、無重大違約、無重大不利影響；6.3對標的有買方聲明及履約條件。條文明示6.2/6.3各由受保護一方書面免除，不能因此假設法定核准可私自省略。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "6.1.1",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "甲方之董事會及乙方之股東會業已依法決議通過本交易及本契約",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.1.3",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "本交易已取得相關主管機關必要之許可、同意或核准",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.1.4",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "未受到具備管轄權之法院所為暫時性或永久性禁制令",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.2",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "或經甲方書面同意而免除該條件",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.2.3",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "其業務、財務、財產、營運、股東權益有重大不利影響者。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.3",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "或經乙方書面同意而免除該條件",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "provisional_date_and_future_notices",
+      "finding": "5.1約定11/9股東會，但不是已通過；5.2的12/31明寫暫定且以先決條件為前提。雙方董事會或授權人可共同改基準日，5.3可協商變更時程；提案說明明寫調整後公告。不可把12/31或未驗的次年付款日期列為已確定現金日。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "5.1",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "乙方應於115年11月9日依法召開股東會通過本交易及本契約。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "5.2",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "暫定爲115年12月31日。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "5.2",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "應由雙方董事會及/或其授權之人共同決定之。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 21,
+          "printed_page": 13,
+          "clause": "5.3",
+          "extracted_page_text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "exact_anchor": "協商變更時程，繼續執行本交易。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 11,
+          "printed_page": 5,
+          "clause": "提案說明4",
+          "extracted_page_text_sha256": "98ea9b1d3cc506d3a7a949eca101959669ca4782da5a9cfcbd3e56f4eb2347e6",
+          "exact_anchor": "協商調整股份轉換基準日並公告之",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "long_stop",
+      "finding": "6.4在任一6.1至6.3條件未於簽署日起屆滿6個月當日或之前成就/被免除時，自動終止；雙方董事會可決議另以書面展延。正文聲稱9/18簽署且副本有簽章影像，但本讀本保留相對期限，不將推算日當已獨立驗證的固定最終交易日。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.4",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "未於本契約簽署日屆滿6個月之日",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.4",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "除經甲乙雙方董事會決議另以書面合意延展最終交易日外",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 22,
+          "printed_page": 14,
+          "clause": "6.4",
+          "extracted_page_text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "exact_anchor": "本契約於最終交易日自動終止。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "termination_and_force_majeure",
+      "finding": "終止不只long-stop：4.2價格未談成有買方終止權；14.1另有雙方書面同意與造成先決條件不能成就、通知後合理期間未補正且未獲豁免的違約。13條有補正、救濟/損害賠償及必要費用文字；並非保證公眾股東收到固定break fee。16.7對不可抗力不能/遲延履行的責任及5日曆日通知另有安排，不應據此假設必按原時程履行。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 29,
+          "printed_page": 21,
+          "clause": "14.1.1",
+          "extracted_page_text_sha256": "c60ece1a84537be53ae922c7d8527189153dbd11ec51b7af2c28c379e747e859",
+          "exact_anchor": "經雙方書面同意",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 29,
+          "printed_page": 21,
+          "clause": "14.1.3",
+          "extracted_page_text_sha256": "c60ece1a84537be53ae922c7d8527189153dbd11ec51b7af2c28c379e747e859",
+          "exact_anchor": "將造成第6條所定之條件無法成就",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 30,
+          "printed_page": 22,
+          "clause": "14.1.3",
+          "extracted_page_text_sha256": "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "exact_anchor": "而不能或未於合理期間內補正",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 30,
+          "printed_page": 22,
+          "clause": "14.1.3",
+          "extracted_page_text_sha256": "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "exact_anchor": "得由他方以書面通知違約方終止。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 29,
+          "printed_page": 21,
+          "clause": "13.2",
+          "extracted_page_text_sha256": "c60ece1a84537be53ae922c7d8527189153dbd11ec51b7af2c28c379e747e859",
+          "exact_anchor": "請求損害賠償及終止或解除本契約外",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 31,
+          "printed_page": 23,
+          "clause": "16.7",
+          "extracted_page_text_sha256": "42c511c8b5841455e957114a8d8233ecfbbb411ae31f583bb58fbbb2deeb9647",
+          "exact_anchor": "無須向他方負擔任何責任",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 31,
+          "printed_page": 23,
+          "clause": "16.7",
+          "extracted_page_text_sha256": "42c511c8b5841455e957114a8d8233ecfbbb411ae31f583bb58fbbb2deeb9647",
+          "exact_anchor": "應於知悉後5個日曆日內通知他方",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "amendment_and_effectiveness",
+      "finding": "16.2可因監管/法令或事實需要，由約定授權人處理或董事會另議，毋庸股東會同意；16.5要求修改/變更須雙方書面同意。16.12規定簽署且交付後生效。公開副本影像足以排除純文字抽取所致的未簽誤判，不是鑑真/交付證書或其後無修約的證明。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 30,
+          "printed_page": 22,
+          "clause": "16.2",
+          "extracted_page_text_sha256": "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "exact_anchor": "毋庸經股東會之同意。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 30,
+          "printed_page": 22,
+          "clause": "16.5",
+          "extracted_page_text_sha256": "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "exact_anchor": "本契約之修改與變更，須經甲乙雙方書面同意為之。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 31,
+          "printed_page": 23,
+          "clause": "16.12",
+          "extracted_page_text_sha256": "42c511c8b5841455e957114a8d8233ecfbbb411ae31f583bb58fbbb2deeb9647",
+          "exact_anchor": "本契約經甲乙雙方簽署並經交付後生效。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 19,
+          "printed_page": 11,
+          "clause": "前言",
+          "extracted_page_text_sha256": "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+          "exact_anchor": "115年9月18日（以下稱「本契約簽署日」）所共同簽署。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "dissent_is_a_separate_path",
+      "finding": "異議股東買回與一般股份轉換付款不同。9.4明說異議股東估價/付款程序不是本股份轉換先決條件，不能把等異議買回價判定或付款當成整案必須先完成的條件。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 28,
+          "printed_page": 20,
+          "clause": "9.4",
+          "extracted_page_text_sha256": "ab9c3d0c4679ad84b6652be889350a697f2596db1ffdf4e2b55d34a37d7c2a07",
+          "exact_anchor": "異議股東之處理及相關事宜，非為本股份轉換之先決條件",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F02.pdf",
+          "source_pdf_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+          "physical_page": 28,
+          "printed_page": 20,
+          "clause": "9.4",
+          "extracted_page_text_sha256": "ab9c3d0c4679ad84b6652be889350a697f2596db1ffdf4e2b55d34a37d7c2a07",
+          "exact_anchor": "均不影響本股份轉換於股份轉換基準日完成交割。",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    },
+    {
+      "id": "reference_document_crosscheck",
+      "finding": "F13是同一11/9臨時會提案參考資料，重述暫定基準日、相對付款規則及尚待股東會；不能當股東會通過、完成交割或付款的事後文件。",
+      "evidence": [
+        {
+          "source_pdf": "raw/2026_6674_20261109F13.pdf",
+          "source_pdf_sha256": "bb5404d58693eed814a9c578cae296c53eb8321042b14e03d0856fe7d4e59e4c",
+          "physical_page": 1,
+          "printed_page": 1,
+          "clause": "文件識別",
+          "extracted_page_text_sha256": "b9adc6e8a181cdcd564a0250f82529f171676aee4f2a31db2695d7d04e74b55d",
+          "exact_anchor": "一一五年第一次股東臨時會議案參考資料",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F13.pdf",
+          "source_pdf_sha256": "bb5404d58693eed814a9c578cae296c53eb8321042b14e03d0856fe7d4e59e4c",
+          "physical_page": 2,
+          "printed_page": 2,
+          "clause": "提案說明4",
+          "extracted_page_text_sha256": "8b5fe18ddf6ba5666e2d250162b00413f1087fb92a6ba924400433568ff028db",
+          "exact_anchor": "基準日暫定為民國115年12月31日",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        },
+        {
+          "source_pdf": "raw/2026_6674_20261109F13.pdf",
+          "source_pdf_sha256": "bb5404d58693eed814a9c578cae296c53eb8321042b14e03d0856fe7d4e59e4c",
+          "physical_page": 2,
+          "printed_page": 2,
+          "clause": "提案說明5",
+          "extracted_page_text_sha256": "8b5fe18ddf6ba5666e2d250162b00413f1087fb92a6ba924400433568ff028db",
+          "exact_anchor": "股份轉換基準日後七個營業日內",
+          "anchor_whitespace_policy": "Whitespace may be ignored for matching; punctuation and numeric characters remain exact."
+        }
+      ]
+    }
+  ],
+  "pending_future_events": [
+    {
+      "item": "2026-11-09股東臨時會交易/契約及下市提案決議",
+      "classification": "future_condition_not_unobtainable_historical_data"
+    },
+    {
+      "item": "必要監管核准、無禁令/重大違約/MAC及可書面免除條件",
+      "classification": "conditions_not_yet_proven_satisfied"
+    },
+    {
+      "item": "最終基準日、正式權利取得/最後交易與付款公告、可能修約或展延",
+      "classification": "future_or_current_version_evidence_required_before_any_entry_gate"
+    }
+  ],
+  "remaining_evidence_limits": [
+    {
+      "item": "營業日定義/適用曆",
+      "status": "Not expressly defined in the full contract physical19-32; no assumption that it equals TWSE trading days, and no fixed calendar payment date computed."
+    },
+    {
+      "item": "適用本法律形式及持有人身分的稅/扣繳/股務費用",
+      "status": "Contract contains allocation/withholding words but not a complete net-settlement rule; do not apply an extinguishing-merger tax ruling automatically."
+    },
+    {
+      "item": "最新交易/修約/交割狀態",
+      "status": "These source observations are2026-10-22morning; no evening status query, complete later-notice population or future approval/payment proved."
+    },
+    {
+      "item": "歷史PIT與最早可得時間",
+      "status": "A catalogue upload label or signed date does not prove that these preserved bytes were available/sealed on a prior signal day."
+    },
+    {
+      "item": "完整公眾事件母體/報酬/可成交價",
+      "status": "Not assessed; no inference from one contract to alpha or current executable opportunity."
+    }
+  ],
+  "research_state": {
+    "public_contract_text_obtained": true,
+    "apparent_signed_copy_observed": true,
+    "conditional_cash_conversion_terms_documented": true,
+    "missing_contract_is_no_longer_the_blocker": true,
+    "business_day_calendar_verified": false,
+    "fixed_payment_date_verified": false,
+    "fixed_long_stop_calendar_date_verified": false,
+    "conditions_satisfied_verified": false,
+    "current_execution_gate_passed": false,
+    "historical_pit_verified": false,
+    "profit_edge_proven": false,
+    "valid_prospective_signal_date": null,
+    "orders_authorized": false
+  },
+  "validation": {
+    "all_anchor_strings_verified_against_bound_pdf_pages": true,
+    "anchor_count": 48,
+    "meaning": "Anchor and SHA checks verify evidence binding; the interpretation is human reading and is not automated legal correctness or a source/entry gate pass."
+  }
+}

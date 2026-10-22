@@ -1,0 +1,148 @@
+{
+  "source_catalogue": {
+    "out": "deliverables/cash_merger_documents_20261022",
+    "batch": "catalogue",
+    "archive_sha256": "2dc775a28540045d30bcf244209c0d07bb2ea8b8aac06bd2e7372f468816f406",
+    "member": "raw/company6674_year115_catalogue.html",
+    "body_sha256": "d9f2d635e7e7263997afdbf974ea300a1c0d24b50c6a4235d20e4b5f51fb06dd",
+    "encoding": "big5"
+  },
+  "meeting_label": "第一次臨時會",
+  "meeting_date": "2026-11-09",
+  "rows": [
+    {
+      "catalogue_row_number": 12,
+      "original_cells": [
+        "6674",
+        "115 年",
+        "股東會相關資料",
+        " ",
+        "第一次臨時會",
+        "議事手冊及會議補充資料",
+        " ",
+        "2026_6674_20261109F02.pdf",
+        "              1,187,933",
+        "115/10/20 16:33:33",
+        "無"
+      ],
+      "source_filename": "2026_6674_20261109F02.pdf",
+      "new_filename": "2026_6674_20261109F02.pdf",
+      "document_type": "議事手冊及會議補充資料",
+      "display_size_bytes": 1187933,
+      "declared_uploaded_at": "115/10/20 16:33:33",
+      "request_fields": [
+        {
+          "name": "colorchg",
+          "value": "1"
+        },
+        {
+          "name": "step",
+          "value": "9"
+        },
+        {
+          "name": "kind",
+          "value": "F"
+        },
+        {
+          "name": "co_id",
+          "value": "6674"
+        },
+        {
+          "name": "filename",
+          "value": "2026_6674_20261109F02.pdf"
+        },
+        {
+          "name": "DEBUG",
+          "value": ""
+        },
+        {
+          "name": "SKEY1",
+          "value": ""
+        },
+        {
+          "name": "SKEY2",
+          "value": ""
+        },
+        {
+          "name": "YEAR",
+          "value": ""
+        },
+        {
+          "name": "MDATE",
+          "value": ""
+        },
+        {
+          "name": "TYPE",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "catalogue_row_number": 11,
+      "original_cells": [
+        "6674",
+        "115 年",
+        "股東會相關資料",
+        " ",
+        "第一次臨時會",
+        "股東會各項議案參考資料",
+        " ",
+        "2026_6674_20261109F13.pdf",
+        "                190,821",
+        "115/10/20 16:32:24",
+        "無"
+      ],
+      "source_filename": "2026_6674_20261109F13.pdf",
+      "new_filename": "2026_6674_20261109F13.pdf",
+      "document_type": "股東會各項議案參考資料",
+      "display_size_bytes": 190821,
+      "declared_uploaded_at": "115/10/20 16:32:24",
+      "request_fields": [
+        {
+          "name": "colorchg",
+          "value": "1"
+        },
+        {
+          "name": "step",
+          "value": "9"
+        },
+        {
+          "name": "kind",
+          "value": "F"
+        },
+        {
+          "name": "co_id",
+          "value": "6674"
+        },
+        {
+          "name": "filename",
+          "value": "2026_6674_20261109F13.pdf"
+        },
+        {
+          "name": "DEBUG",
+          "value": ""
+        },
+        {
+          "name": "SKEY1",
+          "value": ""
+        },
+        {
+          "name": "SKEY2",
+          "value": ""
+        },
+        {
+          "name": "YEAR",
+          "value": ""
+        },
+        {
+          "name": "MDATE",
+          "value": ""
+        },
+        {
+          "name": "TYPE",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

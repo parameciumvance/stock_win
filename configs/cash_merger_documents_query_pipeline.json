@@ -406,7 +406,9 @@
         "inputs/cash_merger_current_followthrough_20261022/ebook_routes.retrieved.zip",
         "inputs/cash_merger_current_followthrough_20261022/ebook_routes_transfer.json",
         "inputs/cash_merger_current_followthrough_20261022/ebook_form.retrieved.zip",
-        "inputs/cash_merger_current_followthrough_20261022/ebook_form_transfer.json"
+        "inputs/cash_merger_current_followthrough_20261022/ebook_form_transfer.json",
+        "cash_merger_document_catalogue.py",
+        "requirements_merger_documents.txt"
       ],
       "outputs": [
         "inputs/cash_merger_documents_20261022/raw_query/results.json"
@@ -820,7 +822,9 @@
         "inputs/cash_merger_current_followthrough_20261022/ebook_routes_transfer.json",
         "inputs/cash_merger_current_followthrough_20261022/ebook_form.retrieved.zip",
         "inputs/cash_merger_current_followthrough_20261022/ebook_form_transfer.json",
-        "inputs/cash_merger_documents_20261022/raw_query"
+        "inputs/cash_merger_documents_20261022/raw_query",
+        "cash_merger_document_catalogue.py",
+        "requirements_merger_documents.txt"
       ],
       "outputs": [
         "deliverables/cash_merger_documents_20261022/query_package.json",

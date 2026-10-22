@@ -1,0 +1,137 @@
+{
+  "recorded_at": "2026-10-22T12:34:13.370418+00:00",
+  "records": [
+    {
+      "plan": "configs/cash_merger_documents_query_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_query_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_query",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_query_acquire\nverified skip: merger_documents_query_package\n",
+      "stage_count": 2
+    },
+    {
+      "plan": "configs/cash_merger_documents_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_readback",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_query_readback\n",
+      "stage_count": 1
+    },
+    {
+      "plan": "configs/cash_merger_documents_replay_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_replay",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_all_rows_and_pointers_replay\n",
+      "stage_count": 1
+    },
+    {
+      "plan": "configs/cash_merger_documents_catalogue_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_catalogue_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_catalogue",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_catalogue_acquire\nverified skip: merger_documents_catalogue_package\n",
+      "stage_count": 2
+    },
+    {
+      "plan": "configs/cash_merger_documents_catalogue_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_catalogue_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_catalogue_readback",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_catalogue_readback\n",
+      "stage_count": 1
+    },
+    {
+      "plan": "configs/cash_merger_documents_catalogue_replay_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_catalogue_replay_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_catalogue_replay",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_declared_big5_catalogue_replay\n",
+      "stage_count": 1
+    },
+    {
+      "plan": "configs/cash_merger_documents_attachments_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_attachments_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_attachments",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_attachments_acquire\nverified skip: merger_documents_attachments_package\n",
+      "stage_count": 2
+    },
+    {
+      "plan": "configs/cash_merger_documents_attachments_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/cash_merger_documents_attachments_readback_pipeline.json",
+        "--state-dir",
+        "inputs/cash_merger_documents_20261022/pipeline_attachments_readback",
+        "--code-commit",
+        "c7234a2860f993a83057c5364a6b50ea97167af8"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: merger_documents_attachments_readback\n",
+      "stage_count": 1
+    }
+  ],
+  "verified_skips": 11,
+  "stages": 11,
+  "all_passed": true,
+  "no_new_network_requests": true
+}

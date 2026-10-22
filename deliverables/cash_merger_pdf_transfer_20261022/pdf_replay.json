@@ -1,0 +1,1112 @@
+{
+  "status": "archived_pdf_pages_extracted_identity_candidates_only",
+  "auditor_script_sha256": "0ecb516daae775e1c97918e887d2dc4aade0ad09988ff3aebf03cc749504695e",
+  "archive": {
+    "sha256": "8dfc037a92837c34536f0b65bd488d47d47ceb92992939dfeb5cfa408b1f4dad",
+    "retrieved": "inputs/cash_merger_pdf_transfer_20261022/files.retrieved.zip",
+    "manifest_files": 9,
+    "package_sha256": "1542d872d3b3afd282a0318aaf2df13ad997ac5c301a3c7b51646bddc155a70c",
+    "transfer_sha256": "f5e69b268fe39d8311d63ce7d7a60244742eb053b005a21e0c7c279f0ebf938a",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "catalogue_archive": {
+    "sha256": "2dc775a28540045d30bcf244209c0d07bb2ea8b8aac06bd2e7372f468816f406",
+    "retrieved": "inputs/cash_merger_documents_20261022/catalogue.retrieved.zip",
+    "manifest_files": 7,
+    "package_sha256": "c06b9ec06e30bfc160149edf64b8a96eb7813d890fde412872739f86070f6fa1",
+    "transfer_sha256": "1e08444f44938fbcd614d1e5a205b723dca78ce57f9626dc352a448435c6198e",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "download_page_archive": {
+    "sha256": "a21b4ec1547bb4cae44f69ef7d99b714d42240df655e38617c87698f7ae34f2e",
+    "retrieved": "inputs/cash_merger_documents_20261022/attachments.retrieved.zip",
+    "manifest_files": 10,
+    "package_sha256": "54487c4a934657b922d28a5b11ee697d9df9ce62c280d4ca04c0d2abaa492779",
+    "transfer_sha256": "654559bab9adb412b3daea695fa9c446d900f8733578ec5b2be13a90127e4bba",
+    "crc_manifest_verified": true,
+    "roundtrip_verified": true
+  },
+  "catalogue_encoding": "big5",
+  "catalogue_rows_preserved": 15,
+  "protocol_sha256": "e7e05a11f4ea082f2bba44dbc53e7cb9b3312331021f200e40b9c7f0838b51a5",
+  "attachment_request_sha256": "dd71d42f0cd38b206c81c81ec3e34e5da01571615e53a09c2cd26a3ec968b1de",
+  "documents": [
+    {
+      "filename": "2026_6674_20261109F02.pdf",
+      "source_archive_sha256": "8dfc037a92837c34536f0b65bd488d47d47ceb92992939dfeb5cfa408b1f4dad",
+      "source_member": "raw/2026_6674_20261109F02.pdf",
+      "catalogue": {
+        "filename": "2026_6674_20261109F02.pdf",
+        "original_cells": [
+          "6674",
+          "115 年",
+          "股東會相關資料",
+          "",
+          "第一次臨時會",
+          "議事手冊及會議補充資料",
+          "",
+          "2026_6674_20261109F02.pdf",
+          "1,187,933",
+          "115/10/20 16:33:33",
+          "無"
+        ],
+        "original_cells_sha256": "ff5a7afc48d0ffd0d887e31fe514231d0b96e6fbca3de8a37a54dd4ef30d9f5d",
+        "literal_pointer": "javascript:readfile2(\"F\",\"6674\",\"2026_6674_20261109F02.pdf\");",
+        "reported_upload_datetime": "115/10/20 16:33:33",
+        "reported_upload_is_first_public_availability_verified": false
+      },
+      "download_page_archive_sha256": "a21b4ec1547bb4cae44f69ef7d99b714d42240df655e38617c87698f7ae34f2e",
+      "download_page_body_sha256": "204d3ae4f1e97ed322cba88ec8ae0458c8a86acb82180b0c57aae00849f629f4",
+      "literal_pdf_href": "/pdf/2026_6674_20261109F02_20261022_064242.pdf",
+      "actual_request_started_at": "2026-10-21T22:43:56.936516+00:00",
+      "actual_observed_at": "2026-10-21T22:43:57.373292+00:00",
+      "body_sha256": "32aed2a5102f40a7a28fa35f38df7c50d73fc7f9c529d7cb5962a90541402134",
+      "size_bytes": 1187933,
+      "pdf_magic_verified": true,
+      "encrypted": false,
+      "declared_page_count": 61,
+      "extracted_page_count": 61,
+      "all_declared_pages_extracted": true,
+      "pypdf_version": "6.12.0",
+      "extraction_mode": "plain",
+      "full_text_sha256": "b22c12dd326215c85b6224f546c917ff4e8599ff90ae529c8fce8bd91133ccdf",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_sha256": "29d8bd3857989f36a6545de68cb885306e05745b7af6305f778a44c41c09066c",
+          "text_utf8_bytes": 186,
+          "character_count": 122,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 2,
+          "text_sha256": "1048959235aa0df6d8c96fb628f0b3446932e93098b3021fe9d879f015019de8",
+          "text_utf8_bytes": 814,
+          "character_count": 652,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 3,
+          "text_sha256": "1e4c2543071dfbc5e8a56318a816324f8e743783e7f76df257489095ae22c226",
+          "text_utf8_bytes": 15,
+          "character_count": 7,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 4,
+          "text_sha256": "c769d9186618c50d484c8230688683d9bc535fedcbb86ba5e0032f718b72337a",
+          "text_utf8_bytes": 197,
+          "character_count": 77,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ],
+            "meeting_type": [
+              "股東臨時會"
+            ]
+          }
+        },
+        {
+          "page_number": 5,
+          "text_sha256": "c68c5dba495ae6e9acde1768fdb71531f6ee036d8a1c1f923abe16ea0274a7e7",
+          "text_utf8_bytes": 7,
+          "character_count": 3,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 6,
+          "text_sha256": "4b5975d1e4ed56b20ee0814b412007f30209a07bcf4dff3db40e79e4257c61ef",
+          "text_utf8_bytes": 634,
+          "character_count": 242,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ],
+            "meeting_type": [
+              "股東臨時會"
+            ],
+            "meeting_date": [
+              "一一五年十一月九日"
+            ]
+          }
+        },
+        {
+          "page_number": 7,
+          "text_sha256": "5fec06337a825db709d46f55a2e50ff44d96670b38981680e2be778d13413e19",
+          "text_utf8_bytes": 12,
+          "character_count": 4,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 8,
+          "text_sha256": "acc822f4e4aac4727c0fdc6a451f0af48b133a6c3ab826e61f04320097847e06",
+          "text_utf8_bytes": 375,
+          "character_count": 139,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 9,
+          "text_sha256": "02f192f91be0c9f5bc78e2096953f173e29328b2863e0108ad017dd29068d1b0",
+          "text_utf8_bytes": 597,
+          "character_count": 217,
+          "empty_extracted_text": false,
+          "embedded_image_count": 2,
+          "visual_review_needed": true,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ],
+            "meeting_type": [
+              "股東臨時會"
+            ]
+          }
+        },
+        {
+          "page_number": 10,
+          "text_sha256": "f97399db2770d702205ec88bfa9928d02def84e6ea472628b6f9c72411cbeabb",
+          "text_utf8_bytes": 12,
+          "character_count": 4,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 11,
+          "text_sha256": "98ea9b1d3cc506d3a7a949eca101959669ca4782da5a9cfcbd3e56f4eb2347e6",
+          "text_utf8_bytes": 2578,
+          "character_count": 944,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 12,
+          "text_sha256": "3650bfc4957c3126faafd42d7d26ce665ede08a4566cd9e6dfe54ee3c9583707",
+          "text_utf8_bytes": 2693,
+          "character_count": 993,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "meeting_type": [
+              "股東臨時會"
+            ]
+          }
+        },
+        {
+          "page_number": 13,
+          "text_sha256": "f47704d6e801922ba4d9314bebfc29a6894a0bd0338d0ccaa90078ea3d7977b8",
+          "text_utf8_bytes": 1734,
+          "character_count": 628,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 14,
+          "text_sha256": "6e3776ce7a4dcbb509a5e32cafba1711bfca587cb1c8c846a68c3f9ce8872e58",
+          "text_utf8_bytes": 962,
+          "character_count": 340,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 15,
+          "text_sha256": "7f1212dc03202724a992a41dac0e1c8b83e14d07bda99d57dc83a04812bebc4d",
+          "text_utf8_bytes": 15,
+          "character_count": 7,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 16,
+          "text_sha256": "329046728a89c5b2c4cd77dc779d6d2a70ebb4a18a2878abe0223b48c0fd5d76",
+          "text_utf8_bytes": 19,
+          "character_count": 9,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 17,
+          "text_sha256": "6eec6320a32295c665537dacce4912178d4686674327077f5c13bd54341b801b",
+          "text_utf8_bytes": 7,
+          "character_count": 3,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 18,
+          "text_sha256": "06727054f8783927abb2c7ec3a8f87002249b62ffd7be877c82e039b8226e679",
+          "text_utf8_bytes": 140,
+          "character_count": 64,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 19,
+          "text_sha256": "8ae9833b2f08fd42d05d040cbe837ec4168164b240b71c5be3edd2b16405e2f1",
+          "text_utf8_bytes": 2969,
+          "character_count": 1199,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 20,
+          "text_sha256": "c0f917e551d14d049be5c81e3df15b1bf5c2e79036a43aeb79a48e022508897a",
+          "text_utf8_bytes": 2961,
+          "character_count": 1085,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 21,
+          "text_sha256": "84440ba1409289b195baecc0007ca5f719f5ef1080597e788633f8495ff16d98",
+          "text_utf8_bytes": 2522,
+          "character_count": 960,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "meeting_date": [
+              "115年11月9日"
+            ]
+          }
+        },
+        {
+          "page_number": 22,
+          "text_sha256": "3d12f42924825a809417cf85d093fd0a27ecf760435f99ddee864b496eecc5ba",
+          "text_utf8_bytes": 2636,
+          "character_count": 982,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 23,
+          "text_sha256": "4b6dd4f6a7a6523ed1ff61335e6a69714a78c10b11ac53586752fed70eaa2c4a",
+          "text_utf8_bytes": 3100,
+          "character_count": 1134,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 24,
+          "text_sha256": "13c3806951df2056bca7a41683c9b6b6d81579b3b5c59b4d7f38b957c7cbaa61",
+          "text_utf8_bytes": 3062,
+          "character_count": 1156,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 25,
+          "text_sha256": "84a301366ceed834e43d0396394584e1289dc2a2df544315d049de4865fdc46c",
+          "text_utf8_bytes": 3142,
+          "character_count": 1154,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 26,
+          "text_sha256": "608d83adbb1beea49fc042de51e212032c7f8af818c5bd45117e4298673bc0db",
+          "text_utf8_bytes": 2773,
+          "character_count": 1055,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 27,
+          "text_sha256": "9253120064c4262f3eb7530f05bfcc00ae4deb8c014c62da5b3f477e7793a41f",
+          "text_utf8_bytes": 2706,
+          "character_count": 1076,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 28,
+          "text_sha256": "ab9c3d0c4679ad84b6652be889350a697f2596db1ffdf4e2b55d34a37d7c2a07",
+          "text_utf8_bytes": 3000,
+          "character_count": 1110,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 29,
+          "text_sha256": "c60ece1a84537be53ae922c7d8527189153dbd11ec51b7af2c28c379e747e859",
+          "text_utf8_bytes": 2675,
+          "character_count": 971,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 30,
+          "text_sha256": "372852dc3743c310dae38f44cfcd10bad7ec0d76f81ddb15d2c08d6e5759e24e",
+          "text_utf8_bytes": 2987,
+          "character_count": 1097,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 31,
+          "text_sha256": "42c511c8b5841455e957114a8d8233ecfbbb411ae31f583bb58fbbb2deeb9647",
+          "text_utf8_bytes": 1957,
+          "character_count": 755,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 32,
+          "text_sha256": "80c3885c199453c85775e8c6ba036a37bc76f022477264f0f0ba0e03df48721d",
+          "text_utf8_bytes": 217,
+          "character_count": 119,
+          "empty_extracted_text": false,
+          "embedded_image_count": 5,
+          "visual_review_needed": true,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 33,
+          "text_sha256": "f3d95dc005411bd7786a38b721f2988f2bd78b291f8ccc68ec11511750c0b009",
+          "text_utf8_bytes": 527,
+          "character_count": 211,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 34,
+          "text_sha256": "f11137ec47d2bbc68fe9cbfd2850ae1aebf69dfb51c6e30c900a67a10db94875",
+          "text_utf8_bytes": 1649,
+          "character_count": 619,
+          "empty_extracted_text": false,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 35,
+          "text_sha256": "6891a3dd2ae266fd7c700f478fd4c143f2257da3d19ec2a1138ac4ea28a2555e",
+          "text_utf8_bytes": 1930,
+          "character_count": 694,
+          "empty_extracted_text": false,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 36,
+          "text_sha256": "c047ccd56ab088bdc7cfcb53648b178b37c6d4dfa15287b351836464cd9572e7",
+          "text_utf8_bytes": 1854,
+          "character_count": 688,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 37,
+          "text_sha256": "4b7db86fdd7a44ebf5d4655a812dd23e934a9eab7e4e98b765cb91d2b3e074a2",
+          "text_utf8_bytes": 468,
+          "character_count": 172,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 38,
+          "text_sha256": "f06d91512fa26f4f0fb9a2cf29ab76b48c3087c30a4d48e6a3185179c7fdb2da",
+          "text_utf8_bytes": 1597,
+          "character_count": 857,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 39,
+          "text_sha256": "22b676362d276830eb200325cef6276fbe7b5e99040e7b3fef1e7bd2eb1f5777",
+          "text_utf8_bytes": 672,
+          "character_count": 266,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 40,
+          "text_sha256": "1f532825d4adf556944bf1d222a65ef1fe5076eac6957f9eaff7340b247e1c83",
+          "text_utf8_bytes": 2235,
+          "character_count": 807,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 41,
+          "text_sha256": "f7365fa90e202c7eeb7cc63966425db8563ff6937c5b34892684bc5ab8677c3f",
+          "text_utf8_bytes": 2364,
+          "character_count": 1220,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 42,
+          "text_sha256": "b6d31eeaa28acbe780ef3b8232983242835fc165c52ff32773c6cc25a57dff92",
+          "text_utf8_bytes": 514,
+          "character_count": 242,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 43,
+          "text_sha256": "824d8c9ac0b36672d1603732aebcb665dd96d61d6254ea18908025009e8a8f89",
+          "text_utf8_bytes": 1416,
+          "character_count": 728,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 44,
+          "text_sha256": "24335280ed9cb9e6c13f2fc958d21c20e05bb9e6fd9ecefdabfc461fdb68dddb",
+          "text_utf8_bytes": 1681,
+          "character_count": 855,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 45,
+          "text_sha256": "4edb5a7241752cd64313860a6ce1f7c24cbfe8cfbaafc1faf8c178e4e194bea3",
+          "text_utf8_bytes": 1711,
+          "character_count": 637,
+          "empty_extracted_text": false,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 46,
+          "text_sha256": "065c02b367079a42d5a7177e1a3840851b1fb92feb77c17207422f2c567286a0",
+          "text_utf8_bytes": 2570,
+          "character_count": 896,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 47,
+          "text_sha256": "fc04694c9f4a2c218d2c9742896e6473f8e020b7c04600a23c9fee0fa1955354",
+          "text_utf8_bytes": 613,
+          "character_count": 219,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 48,
+          "text_sha256": "1b841ede1da3588cc0eee7e1e6ef3b9c1b1d6178157b363b78a13592208743e5",
+          "text_utf8_bytes": 535,
+          "character_count": 209,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 49,
+          "text_sha256": "5dd5adf6999b76609e1ac55ad52266b929595fe79366610e47ae3aeabf11e54f",
+          "text_utf8_bytes": 1982,
+          "character_count": 1172,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 50,
+          "text_sha256": "8c14120e337de6d5db3886009a6c9e2366c6e73e4270ec904007259784267c64",
+          "text_utf8_bytes": 1027,
+          "character_count": 413,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 51,
+          "text_sha256": "0c19f8b6bbd652f82036dcdf38e2d1adcc05c96a55b60b1e7160cd859c4bc8bd",
+          "text_utf8_bytes": 7,
+          "character_count": 3,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 52,
+          "text_sha256": "87052af4c47defefa92fbd45407b51033ca3554326d28a34ab0c37dfc670222f",
+          "text_utf8_bytes": 3671,
+          "character_count": 1265,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ],
+            "meeting_type": [
+              "股東臨時會"
+            ]
+          }
+        },
+        {
+          "page_number": 53,
+          "text_sha256": "dc9f61564c8cb6c45818dcbece7431152b73c910e119457ea24d20f03f4e9f4e",
+          "text_utf8_bytes": 3734,
+          "character_count": 1284,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 54,
+          "text_sha256": "2ff61299292062c2a22eefb5b7de9d7f930fb7827b727b162fa083fc861ad399",
+          "text_utf8_bytes": 3896,
+          "character_count": 1334,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 55,
+          "text_sha256": "0af03ce17cdeeeb77abfaac2057052a7fb9e6764524bd032111803de8c76b7cf",
+          "text_utf8_bytes": 2253,
+          "character_count": 777,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 56,
+          "text_sha256": "4b5a15357f9d8ef0f18e49ecf1743b49dcddae495098a1ad0aaebc5474dbcbad",
+          "text_utf8_bytes": 2130,
+          "character_count": 820,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 57,
+          "text_sha256": "361b2f76c27281b2640d528660729cfb9881b3f98eb468f578fe29b50885f987",
+          "text_utf8_bytes": 3827,
+          "character_count": 1317,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "meeting_type": [
+              "股東臨時會"
+            ]
+          }
+        },
+        {
+          "page_number": 58,
+          "text_sha256": "befd6c8fed17bacd3f17e51e48c009d452333eb21b7251f737032c02c857b2f5",
+          "text_utf8_bytes": 3122,
+          "character_count": 1088,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 59,
+          "text_sha256": "3b3111ac5b33119e212e6a2200eaaed1d8b8ba5a1690cd4bcbadda229c8eaf5c",
+          "text_utf8_bytes": 1972,
+          "character_count": 680,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 60,
+          "text_sha256": "daa71e97147f29a07e4e6d3f15318a9b9fdfd713cb3291c4c5a2ee350cdcc693",
+          "text_utf8_bytes": 966,
+          "character_count": 418,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ]
+          }
+        },
+        {
+          "page_number": 61,
+          "text_sha256": "29d8bd3857989f36a6545de68cb885306e05745b7af6305f778a44c41c09066c",
+          "text_utf8_bytes": 186,
+          "character_count": 122,
+          "empty_extracted_text": false,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {}
+        }
+      ],
+      "identity_candidate_matches": {
+        "issuer_name": [
+          {
+            "page_number": 4,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 4,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 6,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 6,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 9,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 9,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 18,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 18,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 19,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 19,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 31,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 31,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 32,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 32,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 33,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 33,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 34,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 34,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 35,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 35,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 36,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 36,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 38,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 38,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 52,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 52,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 56,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 56,
+            "literal": "鋐寶科技"
+          },
+          {
+            "page_number": 60,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 60,
+            "literal": "鋐寶科技"
+          }
+        ],
+        "meeting_type": [
+          {
+            "page_number": 4,
+            "literal": "股東臨時會"
+          },
+          {
+            "page_number": 6,
+            "literal": "股東臨時會"
+          },
+          {
+            "page_number": 9,
+            "literal": "股東臨時會"
+          },
+          {
+            "page_number": 12,
+            "literal": "股東臨時會"
+          },
+          {
+            "page_number": 52,
+            "literal": "股東臨時會"
+          },
+          {
+            "page_number": 57,
+            "literal": "股東臨時會"
+          }
+        ],
+        "meeting_date": [
+          {
+            "page_number": 6,
+            "literal": "一一五年十一月九日"
+          },
+          {
+            "page_number": 21,
+            "literal": "115年11月9日"
+          }
+        ]
+      },
+      "missing_identity_candidate_fields": [],
+      "text_identity_candidates_complete": true,
+      "text_identity_is_legal_or_issuer_verification": false,
+      "embedded_image_count": 11,
+      "visual_review_needed": true,
+      "visual_review_completed": false,
+      "visual_review_scope": "Image counts flag review needs; extraction performs no visual clearance or signature authentication.",
+      "contract_terms_automatically_classified": false,
+      "contractual_cash_claim_verified": false,
+      "historical_first_availability_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "filename": "2026_6674_20261109F13.pdf",
+      "source_archive_sha256": "8dfc037a92837c34536f0b65bd488d47d47ceb92992939dfeb5cfa408b1f4dad",
+      "source_member": "raw/2026_6674_20261109F13.pdf",
+      "catalogue": {
+        "filename": "2026_6674_20261109F13.pdf",
+        "original_cells": [
+          "6674",
+          "115 年",
+          "股東會相關資料",
+          "",
+          "第一次臨時會",
+          "股東會各項議案參考資料",
+          "",
+          "2026_6674_20261109F13.pdf",
+          "190,821",
+          "115/10/20 16:32:24",
+          "無"
+        ],
+        "original_cells_sha256": "f15b467d97c8f3e113a6031fb3197977f99284707cb356a464cf279cc3530df6",
+        "literal_pointer": "javascript:readfile2(\"F\",\"6674\",\"2026_6674_20261109F13.pdf\");",
+        "reported_upload_datetime": "115/10/20 16:32:24",
+        "reported_upload_is_first_public_availability_verified": false
+      },
+      "download_page_archive_sha256": "a21b4ec1547bb4cae44f69ef7d99b714d42240df655e38617c87698f7ae34f2e",
+      "download_page_body_sha256": "a0141c56a6f48c32bd1c50bae806aaeefc779dd8880c8c42dc6cb46553e2042e",
+      "literal_pdf_href": "/pdf/2026_6674_20261109F13_20261022_064242.pdf",
+      "actual_request_started_at": "2026-10-21T22:43:56.936782+00:00",
+      "actual_observed_at": "2026-10-21T22:43:57.223097+00:00",
+      "body_sha256": "bb5404d58693eed814a9c578cae296c53eb8321042b14e03d0856fe7d4e59e4c",
+      "size_bytes": 190821,
+      "pdf_magic_verified": true,
+      "encrypted": false,
+      "declared_page_count": 4,
+      "extracted_page_count": 4,
+      "all_declared_pages_extracted": true,
+      "pypdf_version": "6.12.0",
+      "extraction_mode": "plain",
+      "full_text_sha256": "0f2b17a778eddd656c690697c9621d823dd6a7ccb51b81a508a06371b5e9729e",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_sha256": "b9adc6e8a181cdcd564a0250f82529f171676aee4f2a31db2695d7d04e74b55d",
+          "text_utf8_bytes": 1857,
+          "character_count": 723,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "issuer_name": [
+              "鋐寶科技股份有限公司",
+              "鋐寶科技"
+            ],
+            "meeting_type": [
+              "股東臨時會"
+            ],
+            "meeting_date": [
+              "一一五年十一月九日"
+            ]
+          }
+        },
+        {
+          "page_number": 2,
+          "text_sha256": "8b5fe18ddf6ba5666e2d250162b00413f1087fb92a6ba924400433568ff028db",
+          "text_utf8_bytes": 2755,
+          "character_count": 1027,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {
+            "meeting_type": [
+              "股東臨時會"
+            ]
+          }
+        },
+        {
+          "page_number": 3,
+          "text_sha256": "3838f81a9f24c0709fdebb69a58373673358598a2908d544d5a0017235eaa42d",
+          "text_utf8_bytes": 2686,
+          "character_count": 1014,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 4,
+          "text_sha256": "f83ee05127351e7f9783f0804dbfbd8d3ed6fb3648a23d663d9e0ee946a0c151",
+          "text_utf8_bytes": 1505,
+          "character_count": 555,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        }
+      ],
+      "identity_candidate_matches": {
+        "issuer_name": [
+          {
+            "page_number": 1,
+            "literal": "鋐寶科技股份有限公司"
+          },
+          {
+            "page_number": 1,
+            "literal": "鋐寶科技"
+          }
+        ],
+        "meeting_type": [
+          {
+            "page_number": 1,
+            "literal": "股東臨時會"
+          },
+          {
+            "page_number": 2,
+            "literal": "股東臨時會"
+          }
+        ],
+        "meeting_date": [
+          {
+            "page_number": 1,
+            "literal": "一一五年十一月九日"
+          }
+        ]
+      },
+      "missing_identity_candidate_fields": [],
+      "text_identity_candidates_complete": true,
+      "text_identity_is_legal_or_issuer_verification": false,
+      "embedded_image_count": 0,
+      "visual_review_needed": false,
+      "visual_review_completed": false,
+      "visual_review_scope": "Image counts flag review needs; extraction performs no visual clearance or signature authentication.",
+      "contract_terms_automatically_classified": false,
+      "contractual_cash_claim_verified": false,
+      "historical_first_availability_verified": false,
+      "source_gate_passed": false
+    }
+  ],
+  "full_text_saved_only_in_ignored_inputs": true,
+  "source_reported_upload_is_historical_first_availability": false,
+  "completed_prior_network_requests": 12,
+  "actual_pdf_transfer_requests": 2,
+  "explicit_cumulative_network_requests": 14,
+  "old_document_phase_cap_remains4": true,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false,
+  "local_full_text_sha256": "c6a30bb4060e6d8b8e4047a0b2b8ac069c8902949557dd2d149667bde40dc9a0"
+}

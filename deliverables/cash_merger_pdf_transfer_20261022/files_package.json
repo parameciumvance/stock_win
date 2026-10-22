@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/cash_merger_pdf_transfer_20261022/files.zip",
+  "sha256": "8dfc037a92837c34536f0b65bd488d47d47ceb92992939dfeb5cfa408b1f4dad",
+  "manifest_files": 9,
+  "created_at": "2026-10-21T22:43:57.998305+00:00",
+  "retrieved": "inputs/cash_merger_pdf_transfer_20261022/files.retrieved.zip",
+  "transfer_receipt": "inputs/cash_merger_pdf_transfer_20261022/files_transfer.json",
+  "backup_label": "cash_merger_pdf_transfer_20261022_files"
+}
