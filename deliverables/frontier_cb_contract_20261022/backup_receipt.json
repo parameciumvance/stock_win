@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-23T01:02:45.312938+00:00",
+  "packages": [
+    {
+      "batch": "entry",
+      "archive_sha256": "95851a2b8a7668bb9461dbb2440134d5371b35fb6e4d9a043a16cc2a9c5fef9c",
+      "manifest_files": 6,
+      "receipt": "deliverables/frontier_cb_contract_20261022/source_receipt_entry.json"
+    },
+    {
+      "batch": "options",
+      "archive_sha256": "7f9d3b6605d199c1821499d12a69da6965954b21443f0bb3ee02a3051b5ae60c",
+      "manifest_files": 7,
+      "receipt": "deliverables/frontier_cb_contract_20261022/source_receipt_options.json"
+    },
+    {
+      "batch": "report",
+      "archive_sha256": "01c86216ee132344d8349de1afbdd762a511fd261f28f8545ea012aecfaaa7da",
+      "manifest_files": 7,
+      "receipt": "deliverables/frontier_cb_contract_20261022/source_receipt_report.json"
+    }
+  ],
+  "all_saved_retrieved_sha_crc_manifest_verified": true,
+  "new_manifest_entries": 20,
+  "new_requests": 3,
+  "batches": 3,
+  "old_CB_requests": 12,
+  "cumulative_CB_requests": 15,
+  "old_request_cap": 4,
+  "old_batch_cap": 3,
+  "unused_request_capacity": 1,
+  "unused_request_not_reused": true,
+  "storage": "Persistent WSL inputs plus Windows user backup on same computer; not offsite",
+  "source_gate_passed": false,
+  "profit_edge_proven": false
+}

@@ -1,0 +1,3027 @@
+{
+  "status": "all_cb_report_rows_replayed_and_frozen29_exact_id_compared",
+  "source": {
+    "source_archive": {
+      "path": "inputs/frontier_cb_contract_20261022/report.retrieved.zip",
+      "sha256": "01c86216ee132344d8349de1afbdd762a511fd261f28f8545ea012aecfaaa7da",
+      "manifest_files": 7,
+      "crc_manifest_verified": true
+    },
+    "source_member": "raw/all_issuer_report.json",
+    "body_sha256": "ae7833385a794c2178957c82051e01c6a15f868193cb83c86df1b2dce4adf2fa",
+    "request": {
+      "filename": "all_issuer_report.json",
+      "url": "https://www.tpex.org.tw/www/zh-tw/bond/convSearch",
+      "method": "POST",
+      "data": "name=bondIssuer&searchNo=&response=json"
+    },
+    "effective_url": "https://www.tpex.org.tw/www/zh-tw/bond/convSearch",
+    "request_started_at_utc": "2026-10-23T00:53:00.925638+00:00",
+    "observed_at_utc": "2026-10-23T00:53:01.310247+00:00",
+    "observed_at_taipei": "2026-10-23T08:53:01.310247+08:00",
+    "http_status": 200,
+    "exit_code": 0
+  },
+  "fields": [
+    "發行機構代碼",
+    "發行機構名稱",
+    "債券名稱",
+    "掛牌日期",
+    "發行資料"
+  ],
+  "title": "最近上櫃轉(交)換公司債",
+  "reported_date_label": "",
+  "declared_total": 389,
+  "returned_row_count": 389,
+  "count_reconciliation_passed": true,
+  "full_inventory": {
+    "path": "inputs/frontier_cb_contract_20261022/report_full.json",
+    "sha256": "64e7c19658d732fe59fb4d6e4fa2f2302fa063e5583f61538873820a692b259e",
+    "all_original_fields_retained": true
+  },
+  "row_hashes": [
+    {
+      "row_number": 1,
+      "bond_code": "65521",
+      "row_sha256": "2766cb83a77b542ccb21b347aca2b8af8e8499c85f17ecdd837b2774b0d17c6a"
+    },
+    {
+      "row_number": 2,
+      "bond_code": "65851",
+      "row_sha256": "7eabf7bd91af3d94220578376e3195af34e51a5bf9440a41f61f46321356f05d"
+    },
+    {
+      "row_number": 3,
+      "bond_code": "65852",
+      "row_sha256": "b0dd44c81a7dcbd5a551c831366912e63f362477c3da8ed808be96aa8096b030"
+    },
+    {
+      "row_number": 4,
+      "bond_code": "47393",
+      "row_sha256": "9c2ce8b06bec1a8eac3085617020da472103842a8558a6043703f7f902180661"
+    },
+    {
+      "row_number": 5,
+      "bond_code": "33571",
+      "row_sha256": "83a0df603c4417a82aecec552510f3bbfe2ef651ed806fb4334fc10115c14cb6"
+    },
+    {
+      "row_number": 6,
+      "bond_code": "53064",
+      "row_sha256": "8b786d1ac39899f631c2ebbd088c22a029da4de80d8134df3d73c07345f11823"
+    },
+    {
+      "row_number": 7,
+      "bond_code": "45663",
+      "row_sha256": "9a0d91198f59ad22ca32b4c37350257252cc07a60ca885309378796fc0f01cfc"
+    },
+    {
+      "row_number": 8,
+      "bond_code": "61263",
+      "row_sha256": "2a03f18c13a2b6716eb82345831e9ac9609983a66618aa5b2ccca22b500823a5"
+    },
+    {
+      "row_number": 9,
+      "bond_code": "62843",
+      "row_sha256": "b7c63145c592438557c2b4fccf4904f5bf288486e578dabc8c101e348d8cf9ef"
+    },
+    {
+      "row_number": 10,
+      "bond_code": "35221",
+      "row_sha256": "5114340cba7bfa3b2ba498ccce89803825116b9b7959e761c099fd8ec50de679"
+    },
+    {
+      "row_number": 11,
+      "bond_code": "84881",
+      "row_sha256": "14a5ce4f509494281eb0cb3867f3657f91eab684379f3c30138e823ea462be2e"
+    },
+    {
+      "row_number": 12,
+      "bond_code": "19094",
+      "row_sha256": "b1a08f2abca174c11f2546527b8a571928daef5db99a4dc82ed3eee1cda8e298"
+    },
+    {
+      "row_number": 13,
+      "bond_code": "35482",
+      "row_sha256": "d33c3170bd163a7ecb61278af8440b0fbf85db539c928bbea1a8bce7d7a5ac1a"
+    },
+    {
+      "row_number": 14,
+      "bond_code": "81042",
+      "row_sha256": "9d4445dc800d68a9ba2d7d2904b24873a1f11e4349dd5eb7d9a53380f5c211f8"
+    },
+    {
+      "row_number": 15,
+      "bond_code": "34793",
+      "row_sha256": "104fa93fae7dec3c98b819ab8df9dd0810dae3842c9b7e9ad7f9a434eb9165f9"
+    },
+    {
+      "row_number": 16,
+      "bond_code": "34163",
+      "row_sha256": "c90393fa874ddc9c7a9305c71f7b9b0406c9ad633310e5dc0df4299f32362402"
+    },
+    {
+      "row_number": 17,
+      "bond_code": "24762",
+      "row_sha256": "ef869dd26ee2d3a5f9cdb7aa709880528aceac658dee53a52802f869e4f415da"
+    },
+    {
+      "row_number": 18,
+      "bond_code": "27323",
+      "row_sha256": "53a2b6eae3be6a39f344ef96b732e4a143887f83f80997e7c956fb3afa7be325"
+    },
+    {
+      "row_number": 19,
+      "bond_code": "35265",
+      "row_sha256": "77e31ddb72b3d2e04d78468740d28d843c28b821ec289ad39e79253fcdcadaa6"
+    },
+    {
+      "row_number": 20,
+      "bond_code": "53211",
+      "row_sha256": "c268fe7ab8e9c28a19eb9547718e5a176eb8e1376e24950443050d47aaddc10f"
+    },
+    {
+      "row_number": 21,
+      "bond_code": "52635",
+      "row_sha256": "8ac65b873823ceee7ef304a4359fa39375b2e286735d3b72c09d20d5fcd85768"
+    },
+    {
+      "row_number": 22,
+      "bond_code": "61843",
+      "row_sha256": "a4203030e534094a4a275ea4c90ee0e912d2acad29daf86f59071bafb85aa0c6"
+    },
+    {
+      "row_number": 23,
+      "bond_code": "54573",
+      "row_sha256": "e098633d16beae3ee8da5af6a840d5587fc43cb242c1f03a5c539be722f07423"
+    },
+    {
+      "row_number": 24,
+      "bond_code": "61506",
+      "row_sha256": "516323b70d5ab4ac4e3fdfe3464b83ae7cc8d3f42cafbe56765834daa4374624"
+    },
+    {
+      "row_number": 25,
+      "bond_code": "80924",
+      "row_sha256": "5ac6bc5fc1b302e952b49e8e167ddcf928b91155fa6945e2d7c69789b1f4ae1e"
+    },
+    {
+      "row_number": 26,
+      "bond_code": "32071",
+      "row_sha256": "37002bc93f740181ac42257f423918a8676fe30aa330713e107b092fdb611b8e"
+    },
+    {
+      "row_number": 27,
+      "bond_code": "31222",
+      "row_sha256": "bb43958323411b4b5bbdd5f726aef7b721f9488ef23fcbbb7285174de4562b0e"
+    },
+    {
+      "row_number": 28,
+      "bond_code": "31413",
+      "row_sha256": "93344f3d816a791c148b2ef199c61ed45492909aff21e6d3092a0b1775b64a38"
+    },
+    {
+      "row_number": 29,
+      "bond_code": "34834",
+      "row_sha256": "e45b8025c6774d75b97f865d7e77672d11f2f9a9efd494087b24e18a49619e23"
+    },
+    {
+      "row_number": 30,
+      "bond_code": "84332",
+      "row_sha256": "b8892d9693794a4950c4bc301d464e0d1e96e5010d9dbdf691c90315c3546286"
+    },
+    {
+      "row_number": 31,
+      "bond_code": "61171",
+      "row_sha256": "85a9d4b891513ad789af9b6c005967486a0ea7f342f6e340ad882000c30b6bea"
+    },
+    {
+      "row_number": 32,
+      "bond_code": "68401",
+      "row_sha256": "e9e7508999e0def490d15fdeebe84399fadceaf24568649cfca736a883ff0c98"
+    },
+    {
+      "row_number": 33,
+      "bond_code": "84333",
+      "row_sha256": "5653255fb7715fb008582e754c2e4ab23a6eb6513e4da0ade40dcd6db52c5897"
+    },
+    {
+      "row_number": 34,
+      "bond_code": "84672",
+      "row_sha256": "a27998e3e335cfcda267918832b34b82a43e2d88c3a8604f743590c1d4964a1b"
+    },
+    {
+      "row_number": 35,
+      "bond_code": "27561",
+      "row_sha256": "e1750b95dd72d157407a33d223fafbe09a63d6c8a1d6bc8bb32f7f34e3acb220"
+    },
+    {
+      "row_number": 36,
+      "bond_code": "84673",
+      "row_sha256": "4848e03eca1cf8dccace030d6b0e588cf4344adfdd71ad227afb4d00d137b8c3"
+    },
+    {
+      "row_number": 37,
+      "bond_code": "30336",
+      "row_sha256": "21de91025bf2fe4be04ab96f66f95b043ec485999ffab4e6e4fc4361081bf969"
+    },
+    {
+      "row_number": 38,
+      "bond_code": "65461",
+      "row_sha256": "7b28c20e0fb7bc1892453ada698beb481855157646bb54998f8c58210d02a903"
+    },
+    {
+      "row_number": 39,
+      "bond_code": "61255",
+      "row_sha256": "14f2d1308ecf1222960a760c92ca59b992ee550fe44c2b148365888ec1cc67dd"
+    },
+    {
+      "row_number": 40,
+      "bond_code": "67531",
+      "row_sha256": "05380c27366b38fe777c84dd0f6a0e892687cef1f38070e7c1df18b3fbebd925"
+    },
+    {
+      "row_number": 41,
+      "bond_code": "33121",
+      "row_sha256": "8736174afb59605e3c9fbb192ca82410f71791ddb246bb73f5af628a56deb265"
+    },
+    {
+      "row_number": 42,
+      "bond_code": "62433",
+      "row_sha256": "1cd625c361de0f06b84905ebd7d0e48825d640d95a6d724821aeef3da5489ed7"
+    },
+    {
+      "row_number": 43,
+      "bond_code": "65096",
+      "row_sha256": "71950e6f01c7d8ae185566e6ce1f829d494b319a20c99dd334150754beb7c6b1"
+    },
+    {
+      "row_number": 44,
+      "bond_code": "24394",
+      "row_sha256": "af167c3a3c35f7f5b50312a9165b55e07c13c2eac000a012801b15c65633f527"
+    },
+    {
+      "row_number": 45,
+      "bond_code": "41903",
+      "row_sha256": "a4fc05953131817f03d03d31293f2551d8e6aae773e658c3e89965cbc5ded3af"
+    },
+    {
+      "row_number": 46,
+      "bond_code": "80273",
+      "row_sha256": "214acfc120963ee1734e8587d8395bce2b808c1e30708c72fa5e7bee1c94dff4"
+    },
+    {
+      "row_number": 47,
+      "bond_code": "84781",
+      "row_sha256": "a807e8763690b6c8436184ad3f1e6e6044e85a17900651c0e04de265d65fd882"
+    },
+    {
+      "row_number": 48,
+      "bond_code": "45721",
+      "row_sha256": "1cdb633e9793e7e395f29a9eeb85057af6689529a00bbb698ad08eb9734eab23"
+    },
+    {
+      "row_number": 49,
+      "bond_code": "64774",
+      "row_sha256": "925a6677a840a5d7c067a40ea204f66569d96a3326eda1653b7cca9cca9d0b6e"
+    },
+    {
+      "row_number": 50,
+      "bond_code": "24395",
+      "row_sha256": "59f2725c54ce5e173fd91fe54a17272408e11e7ff5f2080c8d09bbee4977ece8"
+    },
+    {
+      "row_number": 51,
+      "bond_code": "26417",
+      "row_sha256": "4b69a5281310d3133ce36b7422cf041aba84b43988401c4a6c995e3c8a2fb015"
+    },
+    {
+      "row_number": 52,
+      "bond_code": "30165",
+      "row_sha256": "a054f87796da52fc50d3e515097d0b9df7cf390f94038d6a886a98d3daea66c9"
+    },
+    {
+      "row_number": 53,
+      "bond_code": "62695",
+      "row_sha256": "e7793d0df7360c993ffb9fbbfcee6173e3a3bead08580399950a1d9181aa7e34"
+    },
+    {
+      "row_number": 54,
+      "bond_code": "62696",
+      "row_sha256": "33b354bf4950e744a852a6bfd859745914c0bcdbe61b891bfee5f09a8f9b1325"
+    },
+    {
+      "row_number": 55,
+      "bond_code": "36053",
+      "row_sha256": "1869f19f5b1c6458852472535da6dab536d7d4a79e0effe6639e51b30218d296"
+    },
+    {
+      "row_number": 56,
+      "bond_code": "15364",
+      "row_sha256": "fd4b7dbeb26916d9176c98b43954d20db7c7555f4120ea542806c0c53f5ac9d2"
+    },
+    {
+      "row_number": 57,
+      "bond_code": "41372",
+      "row_sha256": "49e17bbcffe5ccebb95f14e3489c64c34e7c10adc1ba068f63eb26c905fae82c"
+    },
+    {
+      "row_number": 58,
+      "bond_code": "80914",
+      "row_sha256": "c09e92dc04359c4608241796ad8d28d067a7859dc93bbde62ad8afec454380bf"
+    },
+    {
+      "row_number": 59,
+      "bond_code": "35181",
+      "row_sha256": "74518c55763e49a6a44d56c93b5d75488d4bfdba02cdfd876a855d77ad58a501"
+    },
+    {
+      "row_number": 60,
+      "bond_code": "68301",
+      "row_sha256": "4696d26e20a5dd0aa9e9cd95b9c5e42efa81f670f35f5656a6077d19850a87f5"
+    },
+    {
+      "row_number": 61,
+      "bond_code": "64324",
+      "row_sha256": "ec1dcb1cf5bb5ef140bfa16a167fd14505cd575b8a9c276645de98627a57c5c1"
+    },
+    {
+      "row_number": 62,
+      "bond_code": "89277",
+      "row_sha256": "355eeb6994fb85d4f86ea94d891d765ed3235de2715b7ab2828147187387a77a"
+    },
+    {
+      "row_number": 63,
+      "bond_code": "89278",
+      "row_sha256": "b41f9e6ea54988350c658f412c873b88c72f03ad6a6e251547f3a301ffd749d6"
+    },
+    {
+      "row_number": 64,
+      "bond_code": "61041",
+      "row_sha256": "f49889522475d6fbea4077836d9ffb69274180289db95bc257b43af5964051bc"
+    },
+    {
+      "row_number": 65,
+      "bond_code": "14363",
+      "row_sha256": "fb1c5072466bfdaaac4d2c56cc893227f1ba8df4486121037a8d1c3605dd199c"
+    },
+    {
+      "row_number": 66,
+      "bond_code": "61794",
+      "row_sha256": "b3561b578e9ac4be25cf1110a4faff8418fe82edeae267443129317d0686d4a3"
+    },
+    {
+      "row_number": 67,
+      "bond_code": "22283",
+      "row_sha256": "b5a3ed40285d5a94c5f942bff2d36e6154ff782fd57195e2c87c5f3d01f3b813"
+    },
+    {
+      "row_number": 68,
+      "bond_code": "36913",
+      "row_sha256": "e21fedd7d6ce203540c8a5bbcc5fb256b7616a2837f1d592546b96a2265eeb23"
+    },
+    {
+      "row_number": 69,
+      "bond_code": "33225",
+      "row_sha256": "7981c68196285cf19cf082253794cb2a022b3f4d61314cacdbc8c2addf35f759"
+    },
+    {
+      "row_number": 70,
+      "bond_code": "35642",
+      "row_sha256": "7c892498e4fbab5e069fa1c13ac2198600fa3bebcab23357e1f36ef65d3cdbc0"
+    },
+    {
+      "row_number": 71,
+      "bond_code": "61112",
+      "row_sha256": "e12a29c0ef89184a6ad94d3f9cfbb5da5d6c66fb1c7d0624b4563b037aaa8f2f"
+    },
+    {
+      "row_number": 72,
+      "bond_code": "66292",
+      "row_sha256": "bacfd81f58422d4b00e357ab64537cbafa95eb6389768b17a9b964d9dd562886"
+    },
+    {
+      "row_number": 73,
+      "bond_code": "17813",
+      "row_sha256": "638baec9300d835c1a052038ad714dcbdfb9b042ea8f1a31b9064cd04f9490d2"
+    },
+    {
+      "row_number": 74,
+      "bond_code": "44163",
+      "row_sha256": "971092340ce70a6b97edd5214d518646d8a3956842edb93f79632782de74963e"
+    },
+    {
+      "row_number": 75,
+      "bond_code": "81473",
+      "row_sha256": "82ecf93e5c04e58143498d396f6d1c207173f91246be4c2cb0962ba5fc72bdf6"
+    },
+    {
+      "row_number": 76,
+      "bond_code": "99353",
+      "row_sha256": "21a06356ed1cb8b66606f22d5677ee3913f879be0430082c9ce12a86cbaa0562"
+    },
+    {
+      "row_number": 77,
+      "bond_code": "61973",
+      "row_sha256": "1bd5ca349fd6fcf6186e42d3f5ed80f7b2c35337ac225f1d48942d680d7dfecc"
+    },
+    {
+      "row_number": 78,
+      "bond_code": "64251",
+      "row_sha256": "70a7abd25731afb5be9e466b2133aa19187483488806c8a09050931c1259a948"
+    },
+    {
+      "row_number": 79,
+      "bond_code": "68631",
+      "row_sha256": "a9db9fdec467e8825987282425985ab2f5acc5c1fff3aad980b2fe34f448cd94"
+    },
+    {
+      "row_number": 80,
+      "bond_code": "35161",
+      "row_sha256": "9f7550f856b61c7e89e489defd5bf053577fb0df193e2a30ef24f74aa79c0a03"
+    },
+    {
+      "row_number": 81,
+      "bond_code": "30134",
+      "row_sha256": "f80d3eb5019ec04bfa5f865045a4d1db715b14e9f05f4f4c7287ed3b41a587bb"
+    },
+    {
+      "row_number": 82,
+      "bond_code": "67062",
+      "row_sha256": "16e4a3fcd0426f5bb5be2da11941c0c1bf6de661a36de8f5ba960f6b205e7dcc"
+    },
+    {
+      "row_number": 83,
+      "bond_code": "99587",
+      "row_sha256": "8b7cdd44f2104c608a4320d4f148452cd3d909b0d9dfa2a93f739285144deaa3"
+    },
+    {
+      "row_number": 84,
+      "bond_code": "67681",
+      "row_sha256": "7d46e83fc36a2df838b617c342db38e95dffa1f454a7c176a7753e7dbe3794cf"
+    },
+    {
+      "row_number": 85,
+      "bond_code": "68351",
+      "row_sha256": "4a3cba12cabd1b1ba992e0efc061af9642961d00d84a4edad1b7235d332f177a"
+    },
+    {
+      "row_number": 86,
+      "bond_code": "68741",
+      "row_sha256": "db899657eca2c5be8d54c17d5d7c6bb9ecce126f609d270b1d4756fcd0f7483d"
+    },
+    {
+      "row_number": 87,
+      "bond_code": "45491",
+      "row_sha256": "e08e694c53defb7dcbb3c7edcf58cbaaf288827620bb0c3eed0c27779750d4df"
+    },
+    {
+      "row_number": 88,
+      "bond_code": "99588",
+      "row_sha256": "b859c954fe8bc5e875a3ba7ce37c69b091320031d864f0cb5ded2fa7bd7b07ae"
+    },
+    {
+      "row_number": 89,
+      "bond_code": "81714",
+      "row_sha256": "ad47c039642cbbcf42e312af238d308c428d59e68b04eea64013bf5deffe8d41"
+    },
+    {
+      "row_number": 90,
+      "bond_code": "81715",
+      "row_sha256": "c2ff3cbd112cf63c3f0bc907a7b2621f1ccc29abdd53e9f14fe39301d9fca2ea"
+    },
+    {
+      "row_number": 91,
+      "bond_code": "83742",
+      "row_sha256": "43dae849d3b2c011d7910781686e325a171d118a53339705370a88e96435ac64"
+    },
+    {
+      "row_number": 92,
+      "bond_code": "98026",
+      "row_sha256": "7950399b0608a8d9edf651320ec883ef13cc4cb48e9e373d2f2b8ab6826e3b27"
+    },
+    {
+      "row_number": 93,
+      "bond_code": "66642",
+      "row_sha256": "8752abf3068cf432eae20f4841350a4c461d57413cc2e47bd85f6486876289b7"
+    },
+    {
+      "row_number": 94,
+      "bond_code": "84221",
+      "row_sha256": "aeac3102c2c0190bb068c720508b2cf5f4840c479cb6e319974da38a53c212ab"
+    },
+    {
+      "row_number": 95,
+      "bond_code": "35914",
+      "row_sha256": "5dfd8901ea37f26f480c3abd378f02ce27c81ccbc9055d25309855e1af6e098e"
+    },
+    {
+      "row_number": 96,
+      "bond_code": "80506",
+      "row_sha256": "40fc8fa408194b62040f93547efc401f3004bacc22de6fda661f2421b9f71602"
+    },
+    {
+      "row_number": 97,
+      "bond_code": "33466",
+      "row_sha256": "8776901379a3658a89fb155025d2323221dc8c6269e7e7c8c6f5f8cea15c8df3"
+    },
+    {
+      "row_number": 98,
+      "bond_code": "33133",
+      "row_sha256": "51f659e462ee704da394137fe2f8dc81eeeaab0a3da9bab1ca8fbd580d373d65"
+    },
+    {
+      "row_number": 99,
+      "bond_code": "24423",
+      "row_sha256": "d7c5793e1b384858d69f7a88f6e39e6dcbde1ef4f043f6570cbd40b11bad69c2"
+    },
+    {
+      "row_number": 100,
+      "bond_code": "66451",
+      "row_sha256": "1e90284d5222ed567600abb750b71a2b5825d0b29d32d862af59da2034e607db"
+    },
+    {
+      "row_number": 101,
+      "bond_code": "49793",
+      "row_sha256": "a2872b8cf32dc587c405d7e44f5f673fcf614938aaf44d1508a62900de28c20f"
+    },
+    {
+      "row_number": 102,
+      "bond_code": "84891",
+      "row_sha256": "fef315c34172f2d8dca1f6cb752c0c0cd05e9ba593768e303237358d7c92a74e"
+    },
+    {
+      "row_number": 103,
+      "bond_code": "56087",
+      "row_sha256": "fc5d81cca479840a62317137c51a93cf0b62aaf425efadebe989a2ec3b3d468f"
+    },
+    {
+      "row_number": 104,
+      "bond_code": "52452",
+      "row_sha256": "685ae201ab2635d1acdf12c8e478fe7a35841eb2b7bda4d76eac1884a72f57fe"
+    },
+    {
+      "row_number": 105,
+      "bond_code": "49794",
+      "row_sha256": "827a9d56c9a3410a49868d4f4e1fc627dd958b1c37ea48c0ffe82d767592e143"
+    },
+    {
+      "row_number": 106,
+      "bond_code": "24424",
+      "row_sha256": "53c2db95f14dfbb21abe23ee3d2bdfdfd0a93a9243fe06b779637f66620e6a93"
+    },
+    {
+      "row_number": 107,
+      "bond_code": "13166",
+      "row_sha256": "5058e14c02a27465bcf50a5c3a08b71d265667961c215be7062042f503df8d30"
+    },
+    {
+      "row_number": 108,
+      "bond_code": "45691",
+      "row_sha256": "67aad133dbe14e2e39d6795207412058227be3b44aeb77bb6e3af2868ca52e39"
+    },
+    {
+      "row_number": 109,
+      "bond_code": "27551",
+      "row_sha256": "b842419b829dd08abf7528d2944364eabf25af39b722d1a150df4c97e3e1e213"
+    },
+    {
+      "row_number": 110,
+      "bond_code": "33902",
+      "row_sha256": "1abfcf057f64ed68c88503d54438525afe616f8f2ce3e474587ce1e177169655"
+    },
+    {
+      "row_number": 111,
+      "bond_code": "30954",
+      "row_sha256": "3aaf5a8f328d9d35151cc8f5844c7bd2baf9595ffe895fa7fe120cf29712ed32"
+    },
+    {
+      "row_number": 112,
+      "bond_code": "45102",
+      "row_sha256": "2e9e056309affc53b9f590efdc9e59a74cbee3faeeca46cfb58320e6fe85bad5"
+    },
+    {
+      "row_number": 113,
+      "bond_code": "68541",
+      "row_sha256": "357d047b30575087d2f7ebc55784d3f418e85ba65996b1bab186850ab49e7f84"
+    },
+    {
+      "row_number": 114,
+      "bond_code": "99063",
+      "row_sha256": "941a73ce44dc157d160401b4a07115957c8e878ac0eeb398e7d0d203ab1ba39f"
+    },
+    {
+      "row_number": 115,
+      "bond_code": "15984",
+      "row_sha256": "f07f38d6b6b1172797f02c3ba266a6c9925212795f054f399855cfee2f8e7a52"
+    },
+    {
+      "row_number": 116,
+      "bond_code": "44391",
+      "row_sha256": "5cc66bdb02d28ad258f876957a6d73d3a5331f0d14b2804206c5cbfbf833be60"
+    },
+    {
+      "row_number": 117,
+      "bond_code": "14364",
+      "row_sha256": "b723c329bb5df4ecf8633575117f23d3a462a9b93b826d2326bbdf24a03f819e"
+    },
+    {
+      "row_number": 118,
+      "bond_code": "54501",
+      "row_sha256": "f550f432cf09a17e2bfcb0bbda18a8a603c4138b1b30675df916d8e8e2019b52"
+    },
+    {
+      "row_number": 119,
+      "bond_code": "27271",
+      "row_sha256": "16ef7203ce887a4f960bb0e54da6fb1df44fe42b6f669839973c7618a244f33f"
+    },
+    {
+      "row_number": 120,
+      "bond_code": "14743",
+      "row_sha256": "2f988984e77777a0a9c13ecb99b4f6565f1c5877e3082b85e58e44be8330f687"
+    },
+    {
+      "row_number": 121,
+      "bond_code": "34843",
+      "row_sha256": "54a6b595e70d3d8b85e44c938ac778ff12a68000e6b4d2dae8d5ec6b0f39ea1a"
+    },
+    {
+      "row_number": 122,
+      "bond_code": "41236",
+      "row_sha256": "2789e2e75cf906d9aaa7ddc8b09c8e614ea01ccb038cf7195514d608b6c11b2e"
+    },
+    {
+      "row_number": 123,
+      "bond_code": "41237",
+      "row_sha256": "1f8ca44f15d4c660676ae161b29d68880b2c7ba1c15ef0be840ae30b581a3b93"
+    },
+    {
+      "row_number": 124,
+      "bond_code": "80872",
+      "row_sha256": "9b42a0d6418972692877978ad3e3ac101fbd6b095431c4cd5e3abc792bfd07a0"
+    },
+    {
+      "row_number": 125,
+      "bond_code": "67711",
+      "row_sha256": "33c60c99e2a5ca911928a2baa3702f73c15baa1981afd68706df6c005928ad14"
+    },
+    {
+      "row_number": 126,
+      "bond_code": "22013",
+      "row_sha256": "00ee48fd5bf2cfd9bcfd24a9e6b7f9573946657a4d4dde2dda339d5f4c4010dd"
+    },
+    {
+      "row_number": 127,
+      "bond_code": "61172",
+      "row_sha256": "3f35278a62733a158141e77738514d65ab830773df7d3d8c684b680acaf9a5b2"
+    },
+    {
+      "row_number": 128,
+      "bond_code": "14722",
+      "row_sha256": "b19737dbae15e61f2c075b8dec919f5d147cab6714a25d673b3ce158780c0190"
+    },
+    {
+      "row_number": 129,
+      "bond_code": "45554",
+      "row_sha256": "c24306165683fef65870dd599cfbfdd7e5488200c7bafb9011f4cb922eea7b0f"
+    },
+    {
+      "row_number": 130,
+      "bond_code": "62822",
+      "row_sha256": "aabcd5d00767fb0fa93f104e15a158997a290a038f3bed6500dfa6d5161ebd44"
+    },
+    {
+      "row_number": 131,
+      "bond_code": "36173",
+      "row_sha256": "a5a1e29cf14deb6ae0f8de28001240fe3012ffe21c1a5d50dab79d9e1fb55556"
+    },
+    {
+      "row_number": 132,
+      "bond_code": "14723",
+      "row_sha256": "de0c353569ded880a0e8d382814eaeea52cc56053174078a8a173144f0839f03"
+    },
+    {
+      "row_number": 133,
+      "bond_code": "23511",
+      "row_sha256": "80b3e6f056ba95a1f0f8cd132b6c0e9d6d7a81cf9ba02b5d8a7d19a08c97ad2d"
+    },
+    {
+      "row_number": 134,
+      "bond_code": "31882",
+      "row_sha256": "842ab874326e195240c58eb20a26c76d50b1ff5702ac1a61552fce6de2a2a26c"
+    },
+    {
+      "row_number": 135,
+      "bond_code": "14664",
+      "row_sha256": "2efddcec619bbc97a421f9df592e4b7c3a0d4fb4455e276c24f8b49497aafff0"
+    },
+    {
+      "row_number": 136,
+      "bond_code": "25303",
+      "row_sha256": "10b5aa9e9f180dc7b2ab7c569a73872b5a62676ac69c3051b858ef7d514491c3"
+    },
+    {
+      "row_number": 137,
+      "bond_code": "61565",
+      "row_sha256": "0833f225daec43375d2af396f8769f3a1ffeeeb9c11cc91a29d4b861bd0a10d9"
+    },
+    {
+      "row_number": 138,
+      "bond_code": "61777",
+      "row_sha256": "190adb9c39669a33c917a7f915ba15cc842cb951949ada62599890e904789128"
+    },
+    {
+      "row_number": 139,
+      "bond_code": "22471",
+      "row_sha256": "d4588b4ef0542886597b1a5c0b5ab6213824c923bcce80588f7a8a3f75bd69a0"
+    },
+    {
+      "row_number": 140,
+      "bond_code": "25304",
+      "row_sha256": "9967e454d6700308eb4892a6f46babc5a7757611089840ad7c38cb0da3f77de0"
+    },
+    {
+      "row_number": 141,
+      "bond_code": "30401",
+      "row_sha256": "9decc7d7027907089aa6c6dee7efb81ef660505f9552b292e906d0a928371608"
+    },
+    {
+      "row_number": 142,
+      "bond_code": "22472",
+      "row_sha256": "12f7bbfa26430582694860401c0688c1b05a0cc78476443b75572e844413e463"
+    },
+    {
+      "row_number": 143,
+      "bond_code": "69821",
+      "row_sha256": "3b1c43123186afd1a554647f38f32ce9b161e41553e6134813cde0f552b42ddf"
+    },
+    {
+      "row_number": 144,
+      "bond_code": "44421",
+      "row_sha256": "359e5933597837238aa75f069ca505f9830408761c3519b328cb91b11e02be33"
+    },
+    {
+      "row_number": 145,
+      "bond_code": "64693",
+      "row_sha256": "28505476b09d305d5c324e7cda467ef2363e5876c0e729b141e7444aae86e7e1"
+    },
+    {
+      "row_number": 146,
+      "bond_code": "17863",
+      "row_sha256": "330edb0201cda2d26f7fedda743bcb12ae44a84fc193a4b70b3f35cf51aa021d"
+    },
+    {
+      "row_number": 147,
+      "bond_code": "68431",
+      "row_sha256": "b9eb9b25547d8ed801ddfe337b9008d33e2adf6030636f767b4b4806fb90b8bb"
+    },
+    {
+      "row_number": 148,
+      "bond_code": "69822",
+      "row_sha256": "de2452d538366e6420a45106f62aefa35e4da2349d9a0483dcde605939b3a601"
+    },
+    {
+      "row_number": 149,
+      "bond_code": "75561",
+      "row_sha256": "60d0c3b9d982af0d28039f9340e388852cd0926021225d56dcc3951e748452fe"
+    },
+    {
+      "row_number": 150,
+      "bond_code": "68211",
+      "row_sha256": "242ae1f4f15ca36619bd26b59dff2f90f58e8565d5324073ffdc079a901d1063"
+    },
+    {
+      "row_number": 151,
+      "bond_code": "75562",
+      "row_sha256": "53f207b6c3df30d8b5a9e3ba7faa9e782750bcb515dbd6706f59b7035677d6b3"
+    },
+    {
+      "row_number": 152,
+      "bond_code": "45811",
+      "row_sha256": "93958b5d5240e8adf24a500f1991dc81b755bc58a68e8a836b23c4530c6ffeb8"
+    },
+    {
+      "row_number": 153,
+      "bond_code": "62075",
+      "row_sha256": "56c9ced361cedb07853817e7e7d07919d7740770bd15e4b23796bc97e3e0333d"
+    },
+    {
+      "row_number": 154,
+      "bond_code": "65914",
+      "row_sha256": "189a47b0a790f0c0cca9555123ab1b88723cc2be1861975c0f8737989458d891"
+    },
+    {
+      "row_number": 155,
+      "bond_code": "27431",
+      "row_sha256": "b240fa9945350796560f312458facc279117831d62bf8cdfd9e21402dba63d41"
+    },
+    {
+      "row_number": 156,
+      "bond_code": "45581",
+      "row_sha256": "87f88f13392ff403f7612bacc7cbe53948c77b0de2b3f11cd7690046d8de1dcc"
+    },
+    {
+      "row_number": 157,
+      "bond_code": "74022",
+      "row_sha256": "474d3d5446971cf698283d365966f5dada248d8b77b41a3e5d165155da592ff6"
+    },
+    {
+      "row_number": 158,
+      "bond_code": "62076",
+      "row_sha256": "005f1d8b6877dbe56059bbf16235860412ac4e6bbbaed4029415734d79c8e7ae"
+    },
+    {
+      "row_number": 159,
+      "bond_code": "65331",
+      "row_sha256": "9a693bb215beffbb3eb43b54a0bf06a0568795266ca6c48db7422f41d43d0005"
+    },
+    {
+      "row_number": 160,
+      "bond_code": "32843",
+      "row_sha256": "881c90b955a6b78c6826c9a5f9295453f6aa25deac370f6f20e4414b35acbf2a"
+    },
+    {
+      "row_number": 161,
+      "bond_code": "41684",
+      "row_sha256": "13de541b4487a648826d0f660bfc13e01a6b413e2e8d9f0d5901fddc96c1a064"
+    },
+    {
+      "row_number": 162,
+      "bond_code": "66163",
+      "row_sha256": "e72ff2237286874030189dba695a752b41ac361b2d6605c4e141f993035c3295"
+    },
+    {
+      "row_number": 163,
+      "bond_code": "44383",
+      "row_sha256": "93bea521f9ece6dbd297df139c5a6f057b4ee1bbb3b5b9f08322ef339f5d79aa"
+    },
+    {
+      "row_number": 164,
+      "bond_code": "47223",
+      "row_sha256": "6150a9069222d20bf9b6e5bff311f295cc87306c458912a366f7e5d6381b259b"
+    },
+    {
+      "row_number": 165,
+      "bond_code": "36872",
+      "row_sha256": "342b3dd542cb4f8db16aab2f26c05204b3ebf8c6dad33c9670292dbaa36fc38d"
+    },
+    {
+      "row_number": 166,
+      "bond_code": "69571",
+      "row_sha256": "23d5ca3c6c7c965047d884b1cf0ef79a6c310f165b0a9cbba1793cbc19761594"
+    },
+    {
+      "row_number": 167,
+      "bond_code": "36873",
+      "row_sha256": "cd4ec4a3bd0bc0bb9ab02ffff7f98610c38eb37bd8722dfd24574a2c5374338e"
+    },
+    {
+      "row_number": 168,
+      "bond_code": "84041",
+      "row_sha256": "5b8273cb7cb871496416e64095c33f38bc5f9bff5251c5a536771df2f17cf257"
+    },
+    {
+      "row_number": 169,
+      "bond_code": "12561",
+      "row_sha256": "dd6d57ffc303b76e5a819b4a29a7084c0bee5e46087df9cd44197f5f78ec0ab5"
+    },
+    {
+      "row_number": 170,
+      "bond_code": "64775",
+      "row_sha256": "03abf6a3da44aa5e21a18d9cc0715c9cb903e2a29726f117b4c6f6a99f394f19"
+    },
+    {
+      "row_number": 171,
+      "bond_code": "27531",
+      "row_sha256": "d6277d98e1c1ff7dc43b6991afb013e0df70e21eb0bcfbc3762cf4ce57c3249f"
+    },
+    {
+      "row_number": 172,
+      "bond_code": "21043",
+      "row_sha256": "bece67b1f885b272b4426a7a959c4e0a55da1c56f8f7481f1ffd15391ac6f7a2"
+    },
+    {
+      "row_number": 173,
+      "bond_code": "52011",
+      "row_sha256": "d36bd0139ba74af987198bc5ed0b477911f0b88bd3303ffe252635ea6761a25a"
+    },
+    {
+      "row_number": 174,
+      "bond_code": "62194",
+      "row_sha256": "b08d84dce68cefb8cacb4f4cef7c75b21cd728127809d416151b4d773ad766e8"
+    },
+    {
+      "row_number": 175,
+      "bond_code": "61635",
+      "row_sha256": "39d561003806a3861bcf2c5ed5c357c5fa06899829a92a6bfc0dd59743eddb7d"
+    },
+    {
+      "row_number": 176,
+      "bond_code": "27532",
+      "row_sha256": "5da718ec9bd4b5e18e7786dda8de64322fc044f97df22a317448b08003f13390"
+    },
+    {
+      "row_number": 177,
+      "bond_code": "77131",
+      "row_sha256": "9610b8d78eeb43824de211d4ce1d704f27d03eb4bf92b2dfa0bf10a72d3b33c1"
+    },
+    {
+      "row_number": 178,
+      "bond_code": "62093",
+      "row_sha256": "5005d285ee03f4d11124625a58351f79ced7b8c8831d18b2ca9505b5322055dc"
+    },
+    {
+      "row_number": 179,
+      "bond_code": "35513",
+      "row_sha256": "0365669914de34d443818c405a95089090da6ad8c05bc49d5dac37a6f2e6f723"
+    },
+    {
+      "row_number": 180,
+      "bond_code": "36841",
+      "row_sha256": "38768b8ae1f18cc3898a8731faf751c60f3c516316d06ea34ea70ecc05f2d815"
+    },
+    {
+      "row_number": 181,
+      "bond_code": "61907",
+      "row_sha256": "59522f9dd8ce93bc91851ee61e176ac7326acc1ef9b9b85146d9e2113491a82a"
+    },
+    {
+      "row_number": 182,
+      "bond_code": "61894",
+      "row_sha256": "eac4b24f371ccd069077d39b698c31998a00689fe7d525b753fb87a5bd161402"
+    },
+    {
+      "row_number": 183,
+      "bond_code": "30321",
+      "row_sha256": "47768987770e25f78dd1c784b0300bb8fc939bb0bef57c6ab4a99ea7ae0b1928"
+    },
+    {
+      "row_number": 184,
+      "bond_code": "24023",
+      "row_sha256": "d67349d56a1b8fe5007b79139ece9692de0f3520f286f053da276935d9ad42c3"
+    },
+    {
+      "row_number": 185,
+      "bond_code": "99412",
+      "row_sha256": "61b5ad66fa0f244e39ad3d87be4ded86df6ce9ea5f58a09a68932444192503cc"
+    },
+    {
+      "row_number": 186,
+      "bond_code": "47721",
+      "row_sha256": "454188e53a513ee565991fa6b6ef32dd3e9488967a2328ca22fcbd7b140ed942"
+    },
+    {
+      "row_number": 187,
+      "bond_code": "68901",
+      "row_sha256": "014caa74bd850bd8b5285460d5c92c53cdcdd911b24409f477b6caeb0aac7379"
+    },
+    {
+      "row_number": 188,
+      "bond_code": "13382",
+      "row_sha256": "27cc481132991e11e5bc8cfd947845e42a0405a86d2eb93daafd60d9ee0bcab6"
+    },
+    {
+      "row_number": 189,
+      "bond_code": "53887",
+      "row_sha256": "bcff4cf70a186cba4feece1d189cca32458dfeaf85bcf3792199bed6d09efc1c"
+    },
+    {
+      "row_number": 190,
+      "bond_code": "27324",
+      "row_sha256": "503c79cb4822e5810ca862a0538822e58a199eca8787da10d5b8c8e448c20704"
+    },
+    {
+      "row_number": 191,
+      "bond_code": "68902",
+      "row_sha256": "aa0d1dc2f2e455d426e34ef9d97627e9a0ffa3cf4a817b3d3de9030c33dc9148"
+    },
+    {
+      "row_number": 192,
+      "bond_code": "24271",
+      "row_sha256": "bc4d98466a7702018f54010a29b8414921abc287ae3de698a05bc2476e6fd5ea"
+    },
+    {
+      "row_number": 193,
+      "bond_code": "53097",
+      "row_sha256": "c0d7dba572825b8993e65040bb81905bcab48325180d2533372444ce0edf995a"
+    },
+    {
+      "row_number": 194,
+      "bond_code": "80426",
+      "row_sha256": "796cff426c716f5da1cc7e5c8ea73751245959ce858528bf0065cbbfa73e2842"
+    },
+    {
+      "row_number": 195,
+      "bond_code": "67962",
+      "row_sha256": "eeb73b5a3a27711d52cddd1296af7581d526971e594020dd45343c3834b40bb0"
+    },
+    {
+      "row_number": 196,
+      "bond_code": "35431",
+      "row_sha256": "fff07ee69ae94b0a80df64b7ea7775d89e5729225850b6333a211d271c6e21ed"
+    },
+    {
+      "row_number": 197,
+      "bond_code": "66702",
+      "row_sha256": "f34a3ba9724d2fd35ae3374bfbdd6a61061051a65a1fc521aa2d8bc930a13a26"
+    },
+    {
+      "row_number": 198,
+      "bond_code": "69041",
+      "row_sha256": "b6770aa42384a9438b715df6ce06f2f96de6ce733243960f45cd0194d97a3f8d"
+    },
+    {
+      "row_number": 199,
+      "bond_code": "60152",
+      "row_sha256": "8c49b8c90468f83f112a4503c285a18efe67726203a5d9d3f6ddecf631f5b453"
+    },
+    {
+      "row_number": 200,
+      "bond_code": "65101",
+      "row_sha256": "14cef41b2836ad1e0ac8044f9f5af1ba12d7791e573f59a792a46cfd123a8498"
+    },
+    {
+      "row_number": 201,
+      "bond_code": "27451",
+      "row_sha256": "a6d987f293e018bf9b5d6eade49424fc86107b8bd8bf5e2456e7081f53fe395b"
+    },
+    {
+      "row_number": 202,
+      "bond_code": "84312",
+      "row_sha256": "4e6f9c9c40e4ab80b9b3c07e5286e634c11bad2801d148356116d24f65f9a86b"
+    },
+    {
+      "row_number": 203,
+      "bond_code": "24672",
+      "row_sha256": "6b5a44216cb60b8b7e38cb746c6edb50283fd73c93c3ef9187d35032944d1226"
+    },
+    {
+      "row_number": 204,
+      "bond_code": "61993",
+      "row_sha256": "b4b4f44bf870a270b85cf23a4fe82c9058967198f2aef9eb211c8d703adc5fa9"
+    },
+    {
+      "row_number": 205,
+      "bond_code": "37171",
+      "row_sha256": "791122b6c110e6a36daa4bbe3259e175421e285df0b417085e4ea4e87fda4bb1"
+    },
+    {
+      "row_number": 206,
+      "bond_code": "37151",
+      "row_sha256": "30dbed6fa49e211996bcf77651fb61acd312531597e481c3535d54f6664df14a"
+    },
+    {
+      "row_number": 207,
+      "bond_code": "61994",
+      "row_sha256": "009869bfee46b104ec8afe3d51e2dc80c5f21522f6665d46ee26dd389823cc39"
+    },
+    {
+      "row_number": 208,
+      "bond_code": "24673",
+      "row_sha256": "fcf7fd8385398be2f5eb493ff81101204f34150abf804b380d53e116ece12cb5"
+    },
+    {
+      "row_number": 209,
+      "bond_code": "22331",
+      "row_sha256": "87c909f975a67296080732d6a7ecefb8315180882d1244bd25fd793816343d3a"
+    },
+    {
+      "row_number": 210,
+      "bond_code": "24552",
+      "row_sha256": "f75a5c91efe6f96d0c77e49a2a0a9a8127e5cc57b8dff79c5860a38383b7f17b"
+    },
+    {
+      "row_number": 211,
+      "bond_code": "82102",
+      "row_sha256": "5ccca02fb50f0c381994164409a158ac18cd00636f40b56922280323e9f1beed"
+    },
+    {
+      "row_number": 212,
+      "bond_code": "24553",
+      "row_sha256": "95b40e0a35e84d5bac7b6abed060d171fe6736e76e828c74d38e1c038335d612"
+    },
+    {
+      "row_number": 213,
+      "bond_code": "35266",
+      "row_sha256": "c84c896911dc0308b741230781dea729ae0c3c73559b889c8f7d3d6939bd3719"
+    },
+    {
+      "row_number": 214,
+      "bond_code": "49231",
+      "row_sha256": "072c538c4b7d22b032bd379ee05bbb37490465ae35cb04856b35ee441b940805"
+    },
+    {
+      "row_number": 215,
+      "bond_code": "61011",
+      "row_sha256": "ee99f5ea575c66f261023994af4d27c822b45ba2af104fbc00086f6805b51008"
+    },
+    {
+      "row_number": 216,
+      "bond_code": "61012",
+      "row_sha256": "020a53461d1d07f91db00feaecdf615a8dec6f0d446dc8c8d446b4f550db54f2"
+    },
+    {
+      "row_number": 217,
+      "bond_code": "82103",
+      "row_sha256": "d3070d084adeaf447204f7a4ab57672de9172ad5ed4f9b86061181812696b1d3"
+    },
+    {
+      "row_number": 218,
+      "bond_code": "65152",
+      "row_sha256": "b1ba29a46fc923595380032c47660cc18223e02c06e822de65783364d932bf09"
+    },
+    {
+      "row_number": 219,
+      "bond_code": "32723",
+      "row_sha256": "c0865cef3c6049169d4377c3f7a2f6ea300e4acded539c89847c06964b149d12"
+    },
+    {
+      "row_number": 220,
+      "bond_code": "68941",
+      "row_sha256": "e70a59083125bf63e721589f410a3aa1de92de580d330e63eee82a5e3cb82fee"
+    },
+    {
+      "row_number": 221,
+      "bond_code": "68621",
+      "row_sha256": "7b88accabf56e195161752aff121b9ed18777948e296b70aa658c0bed2578c8d"
+    },
+    {
+      "row_number": 222,
+      "bond_code": "23291",
+      "row_sha256": "2078a7f840508588b4986598a002ee4c0d9296d7f263afe2818a332e64e4f2e0"
+    },
+    {
+      "row_number": 223,
+      "bond_code": "69131",
+      "row_sha256": "e409015d5c4bb18dbf59dad08dfbb5576ebaad7cedcf135dcdc1103a71d0a6df"
+    },
+    {
+      "row_number": 224,
+      "bond_code": "65472",
+      "row_sha256": "3c77c09b9ca219be05ff59f1099ce09633abbb7bb9a4ff1223beb6e54295c746"
+    },
+    {
+      "row_number": 225,
+      "bond_code": "37152",
+      "row_sha256": "9680aa3dd881fabe2ec17de5ac50a2c5978a8e673e2f22df896e42d1c0e8d411"
+    },
+    {
+      "row_number": 226,
+      "bond_code": "65761",
+      "row_sha256": "a5c0b0426c96f292c04b0fa974695633e4fb6a8855339b97cb54fc75fa3f58a3"
+    },
+    {
+      "row_number": 227,
+      "bond_code": "30112",
+      "row_sha256": "75f30281bb93f28a6863de2dadf954616320e69852b4e6695aad79f3a1c2e663"
+    },
+    {
+      "row_number": 228,
+      "bond_code": "84762",
+      "row_sha256": "423fc3aa2af32125f180a856b980ff088d266bd413fb0f97c6e1303d3e6c7751"
+    },
+    {
+      "row_number": 229,
+      "bond_code": "81114",
+      "row_sha256": "337d11f0289b1ee5d0243869062c2f4d622d5ece60fc0fe8b97f101d9c27fedf"
+    },
+    {
+      "row_number": 230,
+      "bond_code": "66034",
+      "row_sha256": "39fc8bbae36abeca95ede170e743561be12ccd914a83adafe086d8412fe5a0c7"
+    },
+    {
+      "row_number": 231,
+      "bond_code": "47148",
+      "row_sha256": "5bda2720b2f1595dbfe797e5a135c822a7c35e0bed5777e9ab0e47918e36fabe"
+    },
+    {
+      "row_number": 232,
+      "bond_code": "82711",
+      "row_sha256": "6223358cd241cf45cf92e0cea5b067736e70fe10f4d0d187c12319e80e3395c1"
+    },
+    {
+      "row_number": 233,
+      "bond_code": "31352",
+      "row_sha256": "bffd23f1baec7bd4b2c57e8e9d3356843fc565f64320b446fc97d6b50c7d4ef2"
+    },
+    {
+      "row_number": 234,
+      "bond_code": "52844",
+      "row_sha256": "036d6defe7e542c29c6e468b934e4294fd94ae4576f36d2f8a7c7f7d94ba2021"
+    },
+    {
+      "row_number": 235,
+      "bond_code": "84624",
+      "row_sha256": "dc50929968350158f6b5eaaed4485917dfc5a05a21756c216ad9ebd73b8b6ac3"
+    },
+    {
+      "row_number": 236,
+      "bond_code": "52845",
+      "row_sha256": "fca6b9b521c63cdda257830832e6c361944421bec162e084144c18c4d5e3ef40"
+    },
+    {
+      "row_number": 237,
+      "bond_code": "45031",
+      "row_sha256": "b98ba198003abf2b1288e85f325905d05bb550f30fafd58f1ad51cded46dfad3"
+    },
+    {
+      "row_number": 238,
+      "bond_code": "80746",
+      "row_sha256": "1e84e9adb8e2961933772891b224c4c3f30b383bdf843027b1b7782f2d103e05"
+    },
+    {
+      "row_number": 239,
+      "bond_code": "76101",
+      "row_sha256": "0000ee78c84023c3e06d7513c19abc13952da5adba98b01e6de5331b9bf0fc12"
+    },
+    {
+      "row_number": 240,
+      "bond_code": "47602",
+      "row_sha256": "19860f75d2399059d330528b354eb369d92653661b4bc6f8180b70729dbf541e"
+    },
+    {
+      "row_number": 241,
+      "bond_code": "811210",
+      "row_sha256": "b51037f6b94aace5ffc3a6770c10aa0f7d079989b5e75b9eae8621cb393917cc"
+    },
+    {
+      "row_number": 242,
+      "bond_code": "54642",
+      "row_sha256": "097fd4d0dfb79ffb568ca9e9bf0f6b3fc508f69f86c6cb6b234324cb07e3a488"
+    },
+    {
+      "row_number": 243,
+      "bond_code": "47224",
+      "row_sha256": "2afb4d03cfee23282425197bce743672cb185f51c8a3d2a594b0b5c0b63e166a"
+    },
+    {
+      "row_number": 244,
+      "bond_code": "47491",
+      "row_sha256": "0b107b190a819a31638895d9ad13d25b72664f58bb1b7a663143d671dd3a88ac"
+    },
+    {
+      "row_number": 245,
+      "bond_code": "49311",
+      "row_sha256": "5c34297b53a7eef7fa9486176b67f8b3fc777fed4c07bbb39888c419d0896a32"
+    },
+    {
+      "row_number": 246,
+      "bond_code": "65462",
+      "row_sha256": "cb1a26e1942ed91e3c03ea5beea081462d93e4142a992665dc263d160b640c30"
+    },
+    {
+      "row_number": 247,
+      "bond_code": "622010",
+      "row_sha256": "d05b5fed6f68c11c389054df64cf9caa3b76d487217e04e3e7cac4690c765995"
+    },
+    {
+      "row_number": 248,
+      "bond_code": "32943",
+      "row_sha256": "874762c2d0e4e16aeea03f7d4706a20e1795fc1e7bf4ddf8c1155027b96a612f"
+    },
+    {
+      "row_number": 249,
+      "bond_code": "41904",
+      "row_sha256": "6300bfc66200a8aa6a0367e447d9cf1abde21ee017f920af25dc9ec5d69a9263"
+    },
+    {
+      "row_number": 250,
+      "bond_code": "65463",
+      "row_sha256": "b1e6c2dcdb75a49d1ed5e332b4807b88aea7a47a9b7885013c3a2a210ded0394"
+    },
+    {
+      "row_number": 251,
+      "bond_code": "52892",
+      "row_sha256": "1ab8a82b3a9ba2328dd12744e2d9e153e2ef68c8f3621fa2d1f99332bb9ea824"
+    },
+    {
+      "row_number": 252,
+      "bond_code": "80962",
+      "row_sha256": "f5257af928cb9f7cd0a366dc7e76a466b3606c687d2c73e5cf793f16ba74ec41"
+    },
+    {
+      "row_number": 253,
+      "bond_code": "65843",
+      "row_sha256": "43c047d6d0de9287ed79edf5bf63f8d97689c479ac5c26144ae49c492123e367"
+    },
+    {
+      "row_number": 254,
+      "bond_code": "61876",
+      "row_sha256": "58bb95e3a67db4405db8a71e9983aa2d932bb910bf37987540c586e49ac2e40e"
+    },
+    {
+      "row_number": 255,
+      "bond_code": "66241",
+      "row_sha256": "ccd6858aa46e1547039925d0e0818e04a4e8da906dcbeba03d86efe44b1ea477"
+    },
+    {
+      "row_number": 256,
+      "bond_code": "36054",
+      "row_sha256": "5231d82cf0080b70e26f85bcaaa533a963e8f232419795e9988a2fcd9b285838"
+    },
+    {
+      "row_number": 257,
+      "bond_code": "80963",
+      "row_sha256": "dac8a7d58a5783df669fd9ec5210bc7f66d83ab2e5dba024448c3e8cc899640b"
+    },
+    {
+      "row_number": 258,
+      "bond_code": "33621",
+      "row_sha256": "25a7dc62078136df9543ebe14ab893e267f29f52894637b008641cee28517139"
+    },
+    {
+      "row_number": 259,
+      "bond_code": "16231",
+      "row_sha256": "b6f36093cf28621abfd426cbc5644e7da4fc3fb295676cf8f80b1509b6b14fe9"
+    },
+    {
+      "row_number": 260,
+      "bond_code": "61343",
+      "row_sha256": "c2cdfd3dac2707120d26c1ce9dec0b0808f8b8285005860c009a6dedb97af23e"
+    },
+    {
+      "row_number": 261,
+      "bond_code": "80541",
+      "row_sha256": "1e4b7f2bc39d6448589e79f0d2ea3d983e70e8ecdfb53bf1030bece060d5e081"
+    },
+    {
+      "row_number": 262,
+      "bond_code": "24867",
+      "row_sha256": "a1fd1980ba744057a1fec1dcf3124e08797a35e200811c61a23fcada68e024d6"
+    },
+    {
+      "row_number": 263,
+      "bond_code": "99332",
+      "row_sha256": "a4f6f7433c17a81076ee19c24ab6718477c2212c3e67d27b7f5560bff5052307"
+    },
+    {
+      "row_number": 264,
+      "bond_code": "68692",
+      "row_sha256": "4ac6eb5f65b119b69350c930ef0c97c6acc0ec6b1f53a53cec624171f9e00ae1"
+    },
+    {
+      "row_number": 265,
+      "bond_code": "66931",
+      "row_sha256": "b7d8259ff9ebc7b292e7299ae70526fe1c849255a5e4778b1c41c6e2957afddd"
+    },
+    {
+      "row_number": 266,
+      "bond_code": "84423",
+      "row_sha256": "0f04aa31bf26354f542d45fbd8e79fc3b9155f2f7f3205b51a8ab38187d3873a"
+    },
+    {
+      "row_number": 267,
+      "bond_code": "69031",
+      "row_sha256": "a92c1c7087ece4db76378fa6e3a3ed95b00de2f3199d8bb0b6d36256c3d41b44"
+    },
+    {
+      "row_number": 268,
+      "bond_code": "52912",
+      "row_sha256": "437206df00dbf0d1afe386d7f7369f540cbf9efe9c9f23049e9c522716d50157"
+    },
+    {
+      "row_number": 269,
+      "bond_code": "35833",
+      "row_sha256": "e66cc2aadb3475e4e7afca01eb7b3da4d8d5b4f5a6e6c2fe1f228db8cfac104b"
+    },
+    {
+      "row_number": 270,
+      "bond_code": "33245",
+      "row_sha256": "408706f7938386e3ac3237d727cfe3b39bccf0aa06d6304ff1c0037d797cb6f3"
+    },
+    {
+      "row_number": 271,
+      "bond_code": "55362",
+      "row_sha256": "b779dfada0a98f40ac97d94176a65fc15e1a6846a9ea6d3a56595b920f626fd4"
+    },
+    {
+      "row_number": 272,
+      "bond_code": "84381",
+      "row_sha256": "6f3bf867abf80a4c74079cf28e1106c2db26e3892e8216b8e67b7156ef85ec3c"
+    },
+    {
+      "row_number": 273,
+      "bond_code": "47642",
+      "row_sha256": "ed7e002da2d883db0471890d507bd67aa9b8489137cc1b2f13721308e4379aff"
+    },
+    {
+      "row_number": 274,
+      "bond_code": "69032",
+      "row_sha256": "0d62c19e69fd8e6f5920ac8565bc07cd92f3669d971b7cce9a078d8571516447"
+    },
+    {
+      "row_number": 275,
+      "bond_code": "140202",
+      "row_sha256": "fe99b327a15bd0ac0f9e64768253f07e691dec86ed9139f7a01ecc63efd07b9b"
+    },
+    {
+      "row_number": 276,
+      "bond_code": "140201",
+      "row_sha256": "b2f624ed517d38a416079c96d3cc030d614a3a8bd9d4b36d06f2b6aee64ce6b6"
+    },
+    {
+      "row_number": 277,
+      "bond_code": "66831",
+      "row_sha256": "43b0a99409a4d174cac8034df599006273fa4876476d820abad58c0258152065"
+    },
+    {
+      "row_number": 278,
+      "bond_code": "30811",
+      "row_sha256": "81cc66f9dbd3727da926bc0501bfadf88041873fbf063b3f135173264befd368"
+    },
+    {
+      "row_number": 279,
+      "bond_code": "30812",
+      "row_sha256": "77fdf3663e6cda9792a4bcd17458d6bcad2bed3a9de6d20b5e1dca13f51befe1"
+    },
+    {
+      "row_number": 280,
+      "bond_code": "65702",
+      "row_sha256": "e43ed48d488a85e2530d262a958f66bc85274d53f6d242b51c6d1e82ca6e5ae1"
+    },
+    {
+      "row_number": 281,
+      "bond_code": "55363",
+      "row_sha256": "45a0f77911423c1d43f7028842bb469b10c6d7cbd35bab8deeeaab4a807a5efd"
+    },
+    {
+      "row_number": 282,
+      "bond_code": "89365",
+      "row_sha256": "77b7b7b1968d68e74f3328c0871d9364d0ccc73a78b0137284976ff6ecb722ce"
+    },
+    {
+      "row_number": 283,
+      "bond_code": "30166",
+      "row_sha256": "4b5ce1672715122726e4135fffe90c60851aa69799646898406fe915618e4df1"
+    },
+    {
+      "row_number": 284,
+      "bond_code": "35122",
+      "row_sha256": "712f80b694a52249636bee2ec1ac930f2f869520180492a1908276b3e32165e7"
+    },
+    {
+      "row_number": 285,
+      "bond_code": "49731",
+      "row_sha256": "27680342af77d16f2067aa3608b0a2664ed56dffcd96e19d762befc8df75c10b"
+    },
+    {
+      "row_number": 286,
+      "bond_code": "33763",
+      "row_sha256": "863fdd310ebde57d2280f951750a1b2413dfee5b26ae189b093e2a0379a543cb"
+    },
+    {
+      "row_number": 287,
+      "bond_code": "32191",
+      "row_sha256": "c28dda06437774a03ac804ab181436c4ba6c75329100be259fb62746c42ae606"
+    },
+    {
+      "row_number": 288,
+      "bond_code": "76311",
+      "row_sha256": "22cc6f67222e596412dafbe957d973f630c298ba4b29df298d89df2a149a2a09"
+    },
+    {
+      "row_number": 289,
+      "bond_code": "89366",
+      "row_sha256": "a779a13323a063cbade202fba7a32031e98bbc3435838e6b5f810b0b1337b634"
+    },
+    {
+      "row_number": 290,
+      "bond_code": "31494",
+      "row_sha256": "865236510d3a277f7f8139ab95941fc6f408069fb0794c7ed13a5ab4f6e18749"
+    },
+    {
+      "row_number": 291,
+      "bond_code": "15952",
+      "row_sha256": "1ce272d7ad4faa266cecdb23baa552401089ba1fcd6a4ab2ba2f112e521a9eb9"
+    },
+    {
+      "row_number": 292,
+      "bond_code": "66801",
+      "row_sha256": "d0cf7af4b34bef63dc9a3d18f348243409e80859e999f0e34e43c4fe15618455"
+    },
+    {
+      "row_number": 293,
+      "bond_code": "15602",
+      "row_sha256": "ab46db6f614c1c52a8ffef9e0853d29df502704208602b0122b39bf5fff72722"
+    },
+    {
+      "row_number": 294,
+      "bond_code": "24643",
+      "row_sha256": "6465aad09d435f550db75d3a695a9586983e2f9d5d63ae12126fe2d702395050"
+    },
+    {
+      "row_number": 295,
+      "bond_code": "82221",
+      "row_sha256": "5fc7e4aadd51fdaaffeb5197b25f3c0d8925371074ac152f45a5289ecb7e9afb"
+    },
+    {
+      "row_number": 296,
+      "bond_code": "77431",
+      "row_sha256": "3973432b38c818dfb5783637778900fd54be74c53bff3b0c890506b6d233eecf"
+    },
+    {
+      "row_number": 297,
+      "bond_code": "22211",
+      "row_sha256": "56956a225853a11e2e72626081da9856e0270a66351457352615df023678c559"
+    },
+    {
+      "row_number": 298,
+      "bond_code": "30337",
+      "row_sha256": "9437720c9657e563dd63b490ef2aa6c8d8f2cd1e32d331c9c89f9c6580005f58"
+    },
+    {
+      "row_number": 299,
+      "bond_code": "32609",
+      "row_sha256": "525adda82c381601da6a0a5b6b6a3d97bc5614d231641b248c63dd46cba9854c"
+    },
+    {
+      "row_number": 300,
+      "bond_code": "35834",
+      "row_sha256": "d0be6797ab1141184c18ca8c97ca60b58e08232aceb64bb9dc74d337a479ebc3"
+    },
+    {
+      "row_number": 301,
+      "bond_code": "31415",
+      "row_sha256": "60003a6b1ec5e867a22f516892b7269ab48f7ca686168579eb8a2ea09960cfc8"
+    },
+    {
+      "row_number": 302,
+      "bond_code": "27562",
+      "row_sha256": "99022a13c93374bbbdb47164f5939e8c55f84a90ca962cbe7fc13b801218c384"
+    },
+    {
+      "row_number": 303,
+      "bond_code": "52441",
+      "row_sha256": "6d32d1d095d84c67ea87be02ea26b58361b061e096f97f04abbe93e0ae49e26b"
+    },
+    {
+      "row_number": 304,
+      "bond_code": "61828",
+      "row_sha256": "8c7a40cefdbf47ed57468d2086f2a1e828b0071fd0a5f8e8a3fcc73a9714b598"
+    },
+    {
+      "row_number": 305,
+      "bond_code": "84424",
+      "row_sha256": "b0b3d892caf1ec721e61cc6cba41e3b97bfb804122c9a52a77cb1c1204a7de0d"
+    },
+    {
+      "row_number": 306,
+      "bond_code": "16095",
+      "row_sha256": "66ba2da2e565b38c5fe1fe52b1b8f79984425db49491d07c6044045945e17db6"
+    },
+    {
+      "row_number": 307,
+      "bond_code": "61743",
+      "row_sha256": "5ba53d689fa768375da0ffd65322d0029a19029b21e0bc1423631b20ca7b5f22"
+    },
+    {
+      "row_number": 308,
+      "bond_code": "30062",
+      "row_sha256": "2f55a23a0d179896d6732cc725f44b6df29a97b874022a4a1cc7370e414b8e3c"
+    },
+    {
+      "row_number": 309,
+      "bond_code": "25483",
+      "row_sha256": "03c31ce8985c93438eeda1a2bce3fb6aeaba83ecd8ecd028f5440a138dd63b01"
+    },
+    {
+      "row_number": 310,
+      "bond_code": "20344",
+      "row_sha256": "97993cfc55f4e5ac4f50da3901c946c4445cfe669f519aaa2cb1c6ecf7936ec0"
+    },
+    {
+      "row_number": 311,
+      "bond_code": "62854",
+      "row_sha256": "4680f63872485964fcc04671306abdda9a0ff499fda779ffdeef72a842a691e0"
+    },
+    {
+      "row_number": 312,
+      "bond_code": "64383",
+      "row_sha256": "abb5094c6119c305ef894ca05446255396da486c833e89199bf1300c98e183df"
+    },
+    {
+      "row_number": 313,
+      "bond_code": "52121",
+      "row_sha256": "58add9280e604be3e44d4159f9c5924dd9f153a1aa2a61ccbfd104c4a3047030"
+    },
+    {
+      "row_number": 314,
+      "bond_code": "77381",
+      "row_sha256": "06163634ef7cf195e0d8a5f1d6d578f5c0c9c34075b40adbdaf700f1749e1854"
+    },
+    {
+      "row_number": 315,
+      "bond_code": "25484",
+      "row_sha256": "13652d9b1701c94c5d516cb57dacb3193d045341e8fd14508211aa1282fa0d06"
+    },
+    {
+      "row_number": 316,
+      "bond_code": "41981",
+      "row_sha256": "7d971993d721c5da5265ffa2215fb544791ab1161ad231967cc1a79f7ac7f063"
+    },
+    {
+      "row_number": 317,
+      "bond_code": "62855",
+      "row_sha256": "64b78d8a956ce72bab806f12ab2ccb5ccd52b2777ae348a6f181b3f560d1b6d2"
+    },
+    {
+      "row_number": 318,
+      "bond_code": "99392",
+      "row_sha256": "640ead2fb383e5e3217f1f234920faf93d2fc11ee3d4a7c813f95650f3611661"
+    },
+    {
+      "row_number": 319,
+      "bond_code": "12951",
+      "row_sha256": "4f116818d7ecfb62c39a1eb8d45065a60972d6d2c8335da187b83942014074fd"
+    },
+    {
+      "row_number": 320,
+      "bond_code": "32571",
+      "row_sha256": "3993d7b2f3a2025641b320e41af320ca532a5566c52466d25d1273604c81d1fa"
+    },
+    {
+      "row_number": 321,
+      "bond_code": "33035",
+      "row_sha256": "1db4e398560465073a4a9aa6af20e1e12d9abba3212e6343abf83c1af029a803"
+    },
+    {
+      "row_number": 322,
+      "bond_code": "68701",
+      "row_sha256": "3cc75c756d9cb5e4b9a4f4f1914ba0eb30f715fcd62a4d7792abebce77bd4160"
+    },
+    {
+      "row_number": 323,
+      "bond_code": "68702",
+      "row_sha256": "242ce233832647397485e2e5f67a782832c11a61350c400e98ced70f76d4d8b2"
+    },
+    {
+      "row_number": 324,
+      "bond_code": "11011",
+      "row_sha256": "af30c4e3e6bf957364cc423b91e176ea14f6986ee0594c8a5c0265b53db64f64"
+    },
+    {
+      "row_number": 325,
+      "bond_code": "14381",
+      "row_sha256": "0785b7a13c5b9e82a6470f63ce8e3452bd4dce95fe4b9da58a551c6eb7f6b821"
+    },
+    {
+      "row_number": 326,
+      "bond_code": "25283",
+      "row_sha256": "9ffb5c1b2e65e6ce4eb6dd10c1717e34b1c4b22773eb0f351a8518c5716769b7"
+    },
+    {
+      "row_number": 327,
+      "bond_code": "81551",
+      "row_sha256": "8725b3516631493017a5b4f82e9fc2004b433f2862542fe78202753c7399de20"
+    },
+    {
+      "row_number": 328,
+      "bond_code": "15142",
+      "row_sha256": "39e151ef716a023585de37663fbe5849a82afd334057b49c48a6a6b1fb380304"
+    },
+    {
+      "row_number": 329,
+      "bond_code": "25284",
+      "row_sha256": "512f0966c3e59d0395e5bea210a19fbb2fdf16f34839d33cbda2d3136e16d163"
+    },
+    {
+      "row_number": 330,
+      "bond_code": "80282",
+      "row_sha256": "e69d26d7e01422e651a9703ebda0d1c09491007bc6b7484f2874cff0d69fd336"
+    },
+    {
+      "row_number": 331,
+      "bond_code": "30454",
+      "row_sha256": "7cce9d2d5911af570913008084b1282c7a55724481f1b488badcebb82f7cf021"
+    },
+    {
+      "row_number": 332,
+      "bond_code": "30455",
+      "row_sha256": "b332282a49e3aa3646e56769299e5b755401aacd582423eb96e4ad4f42986f63"
+    },
+    {
+      "row_number": 333,
+      "bond_code": "35483",
+      "row_sha256": "5f3db350a30e31ff15c09d436d071ae4e2af84f17179b6af157fd91cb0fa013a"
+    },
+    {
+      "row_number": 334,
+      "bond_code": "68461",
+      "row_sha256": "4eae84ed9f01552f8b77073b9f8421e2ed6bddc50750ff7daaf75fdb2d450fc4"
+    },
+    {
+      "row_number": 335,
+      "bond_code": "68462",
+      "row_sha256": "d4b960e5c063ef4ce56ec852b1dfb59b0bcbd8996408ef567ada9e0bef348ef8"
+    },
+    {
+      "row_number": 336,
+      "bond_code": "84222",
+      "row_sha256": "ee8596f7ee6aeecf6d87b62a17d08f04677edce1aa964e679768108e030e3896"
+    },
+    {
+      "row_number": 337,
+      "bond_code": "68732",
+      "row_sha256": "af2e96d0931f03e24c0b79645b5deae27c6f7f6877240f49684f8c5e7a57f2d2"
+    },
+    {
+      "row_number": 338,
+      "bond_code": "41295",
+      "row_sha256": "253d2b4205acb0b21d5d3091463116b5ea57f56b59a1d88323f544103c9d3174"
+    },
+    {
+      "row_number": 339,
+      "bond_code": "41645",
+      "row_sha256": "9d71795f18892478bf21178c54650008b5295da354ed766c967e33d8d6f6f7ca"
+    },
+    {
+      "row_number": 340,
+      "bond_code": "65381",
+      "row_sha256": "0d201a18e74d9feb8ec636c0a8e9d1a3660433b3b2851a79f1bc6a9e0178c63c"
+    },
+    {
+      "row_number": 341,
+      "bond_code": "35267",
+      "row_sha256": "cfec35669de21ec4ec5e9f39afbee0370b51f70dc449230ef2571727349deae6"
+    },
+    {
+      "row_number": 342,
+      "bond_code": "84113",
+      "row_sha256": "09a1a07191cd0aafe6d5bd298b2b1c98f7d38107d8f9a913b6f2479d03b24695"
+    },
+    {
+      "row_number": 343,
+      "bond_code": "26418",
+      "row_sha256": "54dafe8b168c4eef9455f95eb119922a0b70e24d48c65952fb8cd524fc68b053"
+    },
+    {
+      "row_number": 344,
+      "bond_code": "37075",
+      "row_sha256": "7cbf2c7c2ea88815b17466ca217c5c21dda1281a7e464494296ed73cb952025d"
+    },
+    {
+      "row_number": 345,
+      "bond_code": "54391",
+      "row_sha256": "ec5f52084326572f61f356e56da460297c158da563ee45b8edb2d20c33ffe2c0"
+    },
+    {
+      "row_number": 346,
+      "bond_code": "41135",
+      "row_sha256": "0ece7534d98c5fb9feb9db0141297771d9491d2533a2b2166a8a2cd83bf4fd26"
+    },
+    {
+      "row_number": 347,
+      "bond_code": "30371",
+      "row_sha256": "70fe40ad43562136d92587e2586fd20ad38f7e8e7e62a091fcd8cead9d1d1740"
+    },
+    {
+      "row_number": 348,
+      "bond_code": "30322",
+      "row_sha256": "8faf4cbb3bead3ec5a925e9f5a85cff2bcc60ef5d612a84ad0198d8355739e89"
+    },
+    {
+      "row_number": 349,
+      "bond_code": "53096",
+      "row_sha256": "c2df88194e91cae3178291d2b5a587331335558272aaf32f0d7456d6ffe4a0f6"
+    },
+    {
+      "row_number": 350,
+      "bond_code": "47394",
+      "row_sha256": "18dfe3cd946dff2523ca3938ba15c44cd5ad5a96e7ae46353bf1c835a0067dc8"
+    },
+    {
+      "row_number": 351,
+      "bond_code": "80212",
+      "row_sha256": "c55bb9c0a9afd9431def845804e4c14dd7ff5a6bfcb5c6a551c150421d6aa763"
+    },
+    {
+      "row_number": 352,
+      "bond_code": "23742",
+      "row_sha256": "37333e20b53b295171d5622d01beb221f05a980d8fa967f600bfc5c6d616acab"
+    },
+    {
+      "row_number": 353,
+      "bond_code": "35872",
+      "row_sha256": "5ef7f348faeeb6d435f376034cafae2704818cee0d8717beacf7cce1c0bd9022"
+    },
+    {
+      "row_number": 354,
+      "bond_code": "82993",
+      "row_sha256": "efc0bbc3bca075cd64a0e581e50ddf3a7a243d2c4ab044c64a86ddf159ccaaf4"
+    },
+    {
+      "row_number": 355,
+      "bond_code": "22363",
+      "row_sha256": "d3ec964c224fdd26a28261357ee0e206899395de5e2569d9c2ddb94353bad591"
+    },
+    {
+      "row_number": 356,
+      "bond_code": "33246",
+      "row_sha256": "155aab75d7356d68d19abc63ccef1f198a8aa296e8be70b756af71b8e6822185"
+    },
+    {
+      "row_number": 357,
+      "bond_code": "55344",
+      "row_sha256": "eadf01fd79846551098c073d00c0a18ed5f0416aef0da3fd0f31558fa5cb872c"
+    },
+    {
+      "row_number": 358,
+      "bond_code": "33247",
+      "row_sha256": "c9b6f76e664655e724d5a7bfb04c4f04e9466e2dba2f73846ff619f4f1dd9564"
+    },
+    {
+      "row_number": 359,
+      "bond_code": "41136",
+      "row_sha256": "2823a1c31ddb8b131d4e2922825aa39a48fce6251005b26aa000b0b99c64ded2"
+    },
+    {
+      "row_number": 360,
+      "bond_code": "64724",
+      "row_sha256": "ca0b96b0b696f8e78ea6019a5787ae430389f5887a9b4f52963cee3c5364ef1a"
+    },
+    {
+      "row_number": 361,
+      "bond_code": "64725",
+      "row_sha256": "8fc5ff935c3b539a1f9a498590c90599c249c0d602a899baa71ec085c9c21509"
+    },
+    {
+      "row_number": 362,
+      "bond_code": "41238",
+      "row_sha256": "82dac25998d4a3af39f1e8582310f4c4d64ffbbacd43fc571a2579f91a32bd2d"
+    },
+    {
+      "row_number": 363,
+      "bond_code": "36805",
+      "row_sha256": "a927212f19691211b6c8d99d7e3f3a9121a73014ad9f424c4fe93492ca91abce"
+    },
+    {
+      "row_number": 364,
+      "bond_code": "41239",
+      "row_sha256": "fdbaed0db3b2e8f6de2778fc21ae604cb5478e68ccbb6bdd4ba35f0544d29979"
+    },
+    {
+      "row_number": 365,
+      "bond_code": "68032",
+      "row_sha256": "7c9c7287fa1cfd0069c97706e75bf3fac977dbb7e5b19deb3dd4c867745d4ff9"
+    },
+    {
+      "row_number": 366,
+      "bond_code": "36806",
+      "row_sha256": "87f870f13d1a04bb282814cd8f26c6a3fb201f6052bcf03b6a284562591072d8"
+    },
+    {
+      "row_number": 367,
+      "bond_code": "17172",
+      "row_sha256": "3a17a00bd584de7cba0f81b08d34db8abd7b8832ffa8d536967088c375237e75"
+    },
+    {
+      "row_number": 368,
+      "bond_code": "34913",
+      "row_sha256": "20ace5b6501ad17ef71be4d58b134ba09834ed7caafd136a4b10254e67744ff3"
+    },
+    {
+      "row_number": 369,
+      "bond_code": "62236",
+      "row_sha256": "77da191936fa5fe87a9849db2b85c6c027936b7c802e07424099ec8a462fda11"
+    },
+    {
+      "row_number": 370,
+      "bond_code": "811211",
+      "row_sha256": "9bde1412373b6180d67f59abca3b82b8c62697982c0b47b9b53437db9a6e73be"
+    },
+    {
+      "row_number": 371,
+      "bond_code": "30285",
+      "row_sha256": "2474206881dffec7894379d7481b3b29d2e2e53ab1f212617ad5e5e317d23075"
+    },
+    {
+      "row_number": 372,
+      "bond_code": "81552",
+      "row_sha256": "0f966c6d52381eb3c6954c4ddae3d82037bbd6637fc16e74cc78b3d02952981c"
+    },
+    {
+      "row_number": 373,
+      "bond_code": "31414",
+      "row_sha256": "047ade4d7573f046e6bcdc527ea3b3bc43df6651258064a53c3d1b23aac3f49c"
+    },
+    {
+      "row_number": 374,
+      "bond_code": "23031",
+      "row_sha256": "72589cef9e15b2bed6f884f0cd469e82aad49856ed5f00f3124442865b7c7bcd"
+    },
+    {
+      "row_number": 375,
+      "bond_code": "81553",
+      "row_sha256": "a2dceef3848710eba0f04825b03c0d8862727034da02661bd65f22211361479d"
+    },
+    {
+      "row_number": 376,
+      "bond_code": "49675",
+      "row_sha256": "bed0a67822ba26d3ed27fc62dd43a2e9f118619e81f729443abd58ed2c4042e0"
+    },
+    {
+      "row_number": 377,
+      "bond_code": "23032",
+      "row_sha256": "cc5c5e6d11e5540986ac0a54309d7b46185845ddae4c6b94c142ffd99466dcec"
+    },
+    {
+      "row_number": 378,
+      "bond_code": "45415",
+      "row_sha256": "90fa7defba3eb41345cf9b91d690a58baeef3c7e46a157d853cfd358223ef712"
+    },
+    {
+      "row_number": 379,
+      "bond_code": "45416",
+      "row_sha256": "0dc418859e846c308f47aaa1b2f6fdafdfdb243327a893f537bfc0852fff8ce6"
+    },
+    {
+      "row_number": 380,
+      "bond_code": "26461",
+      "row_sha256": "e79eeaaca1ed1923315841a6da56c2c5690cf0f367887c42f487fd7f9bf98522"
+    },
+    {
+      "row_number": 381,
+      "bond_code": "30286",
+      "row_sha256": "68b7dcf4552a58321ba722f7e590560622baa0331d3d43d6aa3254eab70fe7b2"
+    },
+    {
+      "row_number": 382,
+      "bond_code": "26462",
+      "row_sha256": "1505555ee53ab0267b2bba7eb553a81cb5f269c18bb498e39a77b29093bd32aa"
+    },
+    {
+      "row_number": 383,
+      "bond_code": "84223",
+      "row_sha256": "24119f6d1dbbc0ad89c86e1e39eac995811695a49cd26b103fea3d0db5c56c24"
+    },
+    {
+      "row_number": 384,
+      "bond_code": "89965",
+      "row_sha256": "06ad1db675054151264000cb1876df923228be6123820ae65fffc2cf1d37a85f"
+    },
+    {
+      "row_number": 385,
+      "bond_code": "17272",
+      "row_sha256": "f59dbbc4e3e769962ffb01b03d4ac5efb32b499ba23b5e4ecab592b2119eb7a5"
+    },
+    {
+      "row_number": 386,
+      "bond_code": "80213",
+      "row_sha256": "235d30c44b43f6ba02d807963f80ecbd937ffa9fe3640cbd207cf9a3fb9b2d64"
+    },
+    {
+      "row_number": 387,
+      "bond_code": "23161",
+      "row_sha256": "579d00531f56d695bee549141e113c3c818a45e3ece2ce038abd76881e2c68a5"
+    },
+    {
+      "row_number": 388,
+      "bond_code": "89966",
+      "row_sha256": "874b2c0d98d70baa1bf45ba0c1d6b51acbfcf1247ebf5ff2b59a8b829d9d90e8"
+    },
+    {
+      "row_number": 389,
+      "bond_code": "62746",
+      "row_sha256": "99b632ca06a9d38ef5a2a1f772e75cb99402e4c360c6bf2dd0404a23c53c99dc"
+    }
+  ],
+  "frozen_calendar": {
+    "archive": {
+      "path": "inputs/frontier_20261020/calendar.retrieved.zip",
+      "sha256": "d56672ecfa1fcb94730e63d98f60e7ba994873e48e094b957afcc6d3cbbbe353",
+      "manifest_files": 13,
+      "crc_manifest_verified": true
+    },
+    "member": "raw/put_20261020_20270420.json",
+    "body_sha256": "841fca2c02fdabe3ef8a52b4ab1752b8d36b4a0274f05fa78b861739057272f1",
+    "selection_sha256": "1d3845ebd01c06513eaf62cf688b5ed607d7804e6f88c085a079ef27531a293e",
+    "original_count": 29
+  },
+  "original29_coverage": [
+    {
+      "original_calendar_row_number": 1,
+      "bond_code": "14364",
+      "original_calendar_row_sha256": "2f84628d8075f394481b0c60056f8fb894420c00ac9f4efdf16b8de1c967cb2d",
+      "matched_exact_bond_id": true,
+      "report_row_number": 117,
+      "report_row_sha256": "b723c329bb5df4ecf8633575117f23d3a462a9b93b826d2326bbdf24a03f819e",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=14364&bond_kind=5&bond_subn=%24M00000001&bond_yrn=4&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=1436&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "14364",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "4",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "1436",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 2,
+      "bond_code": "32723",
+      "original_calendar_row_sha256": "5f378066e36ffdb6ef1ea77aa5d15d6119af62c80bbffec1571980c834c26671",
+      "matched_exact_bond_id": true,
+      "report_row_number": 219,
+      "report_row_sha256": "c0865cef3c6049169d4377c3f7a2f6ea300e4acded539c89847c06964b149d12",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=32723&bond_kind=5&bond_subn=%24M00000001&bond_yrn=3&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=3272&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "32723",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "3",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "3272",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 3,
+      "bond_code": "15984",
+      "original_calendar_row_sha256": "245f22a3959e58a6345db76ad73e3738477ecc6e573c905a9210379348a50633",
+      "matched_exact_bond_id": true,
+      "report_row_number": 115,
+      "report_row_sha256": "f07f38d6b6b1172797f02c3ba266a6c9925212795f054f399855cfee2f8e7a52",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=15984&bond_kind=5&bond_subn=%24M00000001&bond_yrn=4&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=1598&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "15984",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "4",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "1598",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 4,
+      "bond_code": "68541",
+      "original_calendar_row_sha256": "0f9512279b745ad7f0e74fc57716d785e778e861f4757079730196bcd893f19d",
+      "matched_exact_bond_id": true,
+      "report_row_number": 113,
+      "report_row_sha256": "357d047b30575087d2f7ebc55784d3f418e85ba65996b1bab186850ab49e7f84",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68541&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6854&monyr_reg=202610&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "68541",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6854",
+          "monyr_reg": "202610",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 5,
+      "bond_code": "99063",
+      "original_calendar_row_sha256": "27a8f059705bd9e5bc9bba710b04665669187a39bf57102f16576030be63cd11",
+      "matched_exact_bond_id": true,
+      "report_row_number": 114,
+      "report_row_sha256": "941a73ce44dc157d160401b4a07115957c8e878ac0eeb398e7d0d203ab1ba39f",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99063&bond_kind=5&bond_subn=%24M00000001&bond_yrn=3&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9906&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "99063",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "3",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9906",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 6,
+      "bond_code": "45102",
+      "original_calendar_row_sha256": "22c19af211383f38b4206478d72ab6681a86e6bcba628e2b7d33a31a6cb9698e",
+      "matched_exact_bond_id": true,
+      "report_row_number": 112,
+      "report_row_sha256": "2e9e056309affc53b9f590efdc9e59a74cbee3faeeca46cfb58320e6fe85bad5",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=45102&bond_kind=5&bond_subn=%24M00000001&bond_yrn=2&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=4510&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "45102",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "2",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "4510",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 7,
+      "bond_code": "30954",
+      "original_calendar_row_sha256": "53ecd60890406949c0c820576f9772b1572a1352825807efd7ba70761aaa83f4",
+      "matched_exact_bond_id": true,
+      "report_row_number": 111,
+      "report_row_sha256": "3aaf5a8f328d9d35151cc8f5844c7bd2baf9595ffe895fa7fe120cf29712ed32",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=30954&bond_kind=5&bond_subn=%24M00000001&bond_yrn=4&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=3095&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "30954",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "4",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "3095",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 8,
+      "bond_code": "35266",
+      "original_calendar_row_sha256": "83bb9713fd8a859f41030036d9d68dec6945850fdbc4e19e2b3e62a60b2cb7c3",
+      "matched_exact_bond_id": true,
+      "report_row_number": 213,
+      "report_row_sha256": "c84c896911dc0308b741230781dea729ae0c3c73559b889c8f7d3d6939bd3719",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=35266&bond_kind=5&bond_subn=%24M00000001&bond_yrn=6&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=3526&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "35266",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "6",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "3526",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 9,
+      "bond_code": "13166",
+      "original_calendar_row_sha256": "36589e64ad3f2e9518ca948d53fc642a863d74bee2dee8fbbf7454a8be341a9a",
+      "matched_exact_bond_id": true,
+      "report_row_number": 107,
+      "report_row_sha256": "5058e14c02a27465bcf50a5c3a08b71d265667961c215be7062042f503df8d30",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=13166&bond_kind=5&bond_subn=%24M00000001&bond_yrn=6&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=1316&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "13166",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "6",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "1316",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 10,
+      "bond_code": "24424",
+      "original_calendar_row_sha256": "a7233d5bb7a4394e262dfc64a4f6c8878f476cbf41e93557b26e96533650dd9c",
+      "matched_exact_bond_id": true,
+      "report_row_number": 106,
+      "report_row_sha256": "53c2db95f14dfbb21abe23ee3d2bdfdfd0a93a9243fe06b779637f66620e6a93",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=24424&bond_kind=5&bond_subn=%24M00000001&bond_yrn=4&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=2442&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "24424",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "4",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "2442",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 11,
+      "bond_code": "49794",
+      "original_calendar_row_sha256": "aebedf9e919aef89da6c63d7cfdb35d5b6a2deffc3dc95eea25a07470a3e68a0",
+      "matched_exact_bond_id": true,
+      "report_row_number": 105,
+      "report_row_sha256": "827a9d56c9a3410a49868d4f4e1fc627dd958b1c37ea48c0ffe82d767592e143",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=49794&bond_kind=5&bond_subn=%24M00000001&bond_yrn=4&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=4979&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "49794",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "4",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "4979",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 12,
+      "bond_code": "52452",
+      "original_calendar_row_sha256": "c82375da0eac2db2f1d3ed842051917b263b09ed6a518cab2e457aadb32bb79c",
+      "matched_exact_bond_id": true,
+      "report_row_number": 104,
+      "report_row_sha256": "685ae201ab2635d1acdf12c8e478fe7a35841eb2b7bda4d76eac1884a72f57fe",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=52452&bond_kind=5&bond_subn=%24M00000001&bond_yrn=2&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=5245&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "52452",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "2",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "5245",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 13,
+      "bond_code": "24271",
+      "original_calendar_row_sha256": "aa36d76303e14f32f582c435347ceb6f7fdb158e79150cb7046eb6a131bcbedc",
+      "matched_exact_bond_id": true,
+      "report_row_number": 192,
+      "report_row_sha256": "bc4d98466a7702018f54010a29b8414921abc287ae3de698a05bc2476e6fd5ea",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=24271&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=2427&monyr_reg=202610&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "24271",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "2427",
+          "monyr_reg": "202610",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 14,
+      "bond_code": "49793",
+      "original_calendar_row_sha256": "cdef9a65ea78014bade69275b7be24ed0d079c56842199dc1380315e97b45b97",
+      "matched_exact_bond_id": true,
+      "report_row_number": 101,
+      "report_row_sha256": "a2872b8cf32dc587c405d7e44f5f673fcf614938aaf44d1508a62900de28c20f",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=49793&bond_kind=5&bond_subn=%24M00000001&bond_yrn=3&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=4979&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "49793",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "3",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "4979",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 15,
+      "bond_code": "84891",
+      "original_calendar_row_sha256": "86885767283e84b72f6c6ae1692d8dd01aa606e602f70cf314cf6cc1e9e86969",
+      "matched_exact_bond_id": true,
+      "report_row_number": 102,
+      "report_row_sha256": "fef315c34172f2d8dca1f6cb752c0c0cd05e9ba593768e303237358d7c92a74e",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=84891&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=8489&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "84891",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "8489",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 16,
+      "bond_code": "53887",
+      "original_calendar_row_sha256": "3e7edf815359e6c5971317c937c6d69c697f2485d803dee108d7d03dfcd95201",
+      "matched_exact_bond_id": true,
+      "report_row_number": 189,
+      "report_row_sha256": "bcff4cf70a186cba4feece1d189cca32458dfeaf85bcf3792199bed6d09efc1c",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=53887&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=5388&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "53887",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "7",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "5388",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 17,
+      "bond_code": "66451",
+      "original_calendar_row_sha256": "a8ee3c1c8db1d3ef0ffeadfe503727d293df55e35b67b50e375047483a9fd087",
+      "matched_exact_bond_id": true,
+      "report_row_number": 100,
+      "report_row_sha256": "1e90284d5222ed567600abb750b71a2b5825d0b29d32d862af59da2034e607db",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=66451&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6645&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "66451",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6645",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 18,
+      "bond_code": "13382",
+      "original_calendar_row_sha256": "3e98641143b7c8240fb9ff440092555fd735c9207d93bfd150a4557dc91480bf",
+      "matched_exact_bond_id": true,
+      "report_row_number": 188,
+      "report_row_sha256": "27cc481132991e11e5bc8cfd947845e42a0405a86d2eb93daafd60d9ee0bcab6",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=13382&bond_kind=5&bond_subn=%24M00000001&bond_yrn=2&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=1338&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "13382",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "2",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "1338",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 19,
+      "bond_code": "24423",
+      "original_calendar_row_sha256": "3ace2d7b4e8b77d1da8536096431979b6fb7a0c69313ee545045b368932491ad",
+      "matched_exact_bond_id": true,
+      "report_row_number": 99,
+      "report_row_sha256": "d7c5793e1b384858d69f7a88f6e39e6dcbde1ef4f043f6570cbd40b11bad69c2",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=24423&bond_kind=5&bond_subn=%24M00000001&bond_yrn=3&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=2442&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "24423",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "3",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "2442",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 20,
+      "bond_code": "33466",
+      "original_calendar_row_sha256": "94ebaee507cccd5a3d083eb2a2c8c13515565b65f9313f60a9cb96f8ed78f1fb",
+      "matched_exact_bond_id": true,
+      "report_row_number": 97,
+      "report_row_sha256": "8776901379a3658a89fb155025d2323221dc8c6269e7e7c8c6f5f8cea15c8df3",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=33466&bond_kind=5&bond_subn=%24M00000001&bond_yrn=6&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=3346&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "33466",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "6",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "3346",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 21,
+      "bond_code": "99412",
+      "original_calendar_row_sha256": "f00be23609308dbcef841b9c3f6f3644795c4f47f6ef2db85b81726f6c4a4cd4",
+      "matched_exact_bond_id": true,
+      "report_row_number": 185,
+      "report_row_sha256": "61b5ad66fa0f244e39ad3d87be4ded86df6ce9ea5f58a09a68932444192503cc",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99412&bond_kind=5&bond_subn=%24M00000001&bond_yrn=2&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9941&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "99412",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "2",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9941",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 22,
+      "bond_code": "98026",
+      "original_calendar_row_sha256": "ed8e11b28e369ff602f53f4518a20de098921a8f1958c9f2b47659308e2a9af7",
+      "matched_exact_bond_id": true,
+      "report_row_number": 92,
+      "report_row_sha256": "7950399b0608a8d9edf651320ec883ef13cc4cb48e9e373d2f2b8ab6826e3b27",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=98026&bond_kind=5&bond_subn=%24M00000001&bond_yrn=6&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9802&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "98026",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "6",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9802",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 23,
+      "bond_code": "61894",
+      "original_calendar_row_sha256": "c1141864be9d52717f4807296bab17e9330d95616f2d7a4df31b41f4d66fcac4",
+      "matched_exact_bond_id": true,
+      "report_row_number": 182,
+      "report_row_sha256": "eac4b24f371ccd069077d39b698c31998a00689fe7d525b753fb87a5bd161402",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=61894&bond_kind=5&bond_subn=%24M00000001&bond_yrn=4&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6189&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "61894",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "4",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6189",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 24,
+      "bond_code": "99588",
+      "original_calendar_row_sha256": "5ae6cb66113c2a03c68bec0f6a5e6466d18e4d5d078811582e1f854952bd3cb7",
+      "matched_exact_bond_id": true,
+      "report_row_number": 88,
+      "report_row_sha256": "b859c954fe8bc5e875a3ba7ce37c69b091320031d864f0cb5ded2fa7bd7b07ae",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99588&bond_kind=5&bond_subn=%24M00000001&bond_yrn=8&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "99588",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "8",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9958",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 25,
+      "bond_code": "68741",
+      "original_calendar_row_sha256": "80fe4593d7e7dbfe5a179e4765ffd09cfea650300dc206ed40f67825fa9f9ebb",
+      "matched_exact_bond_id": true,
+      "report_row_number": 86,
+      "report_row_sha256": "db899657eca2c5be8d54c17d5d7c6bb9ecce126f609d270b1d4756fcd0f7483d",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "68741",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6874",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 26,
+      "bond_code": "68351",
+      "original_calendar_row_sha256": "164181a76c8a142798f817a00d0665c563be0b9172e325dc63281104790d3a44",
+      "matched_exact_bond_id": true,
+      "report_row_number": 85,
+      "report_row_sha256": "4a3cba12cabd1b1ba992e0efc061af9642961d00d84a4edad1b7235d332f177a",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "68351",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6835",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 27,
+      "bond_code": "99587",
+      "original_calendar_row_sha256": "59a315b0f08cce8adc1bbdc9e0b87d65d713c02b7c766bdedf58ff69e9308971",
+      "matched_exact_bond_id": true,
+      "report_row_number": 83,
+      "report_row_sha256": "8b7cdd44f2104c608a4320d4f148452cd3d909b0d9dfa2a93f739285144deaa3",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "99587",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "7",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9958",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 28,
+      "bond_code": "99353",
+      "original_calendar_row_sha256": "b1eadfc0533134f51403d4c1d2ad3fb430a654a2591c101d9c0556a9fd70adbc",
+      "matched_exact_bond_id": true,
+      "report_row_number": 76,
+      "report_row_sha256": "21a06356ed1cb8b66606f22d5677ee3913f879be0430082c9ce12a86cbaa0562",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99353&bond_kind=5&bond_subn=%24M00000001&bond_yrn=3&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9935&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "99353",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "3",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9935",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "original_calendar_row_number": 29,
+      "bond_code": "21043",
+      "original_calendar_row_sha256": "5ae3db1b98b2f84c7200781948cc535fe0efa51f26545fde480ee2022622b1d6",
+      "matched_exact_bond_id": true,
+      "report_row_number": 172,
+      "report_row_sha256": "bece67b1f885b272b4426a7a959c4e0a55da1c56f8f7481f1ffd15391ac6f7a2",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=21043&bond_kind=5&bond_subn=%24M00000001&bond_yrn=3&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=2104&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "21043",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "3",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "2104",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    }
+  ],
+  "original29_exact_match_count": 29,
+  "original29_missing_bond_codes": [],
+  "controls": [
+    {
+      "bond_code": "99587",
+      "matched_exact_bond_id": true,
+      "report_row_number": 83,
+      "original_report_fields": [
+        "9958",
+        "世紀鋼鐵結構股份有限公司",
+        "世紀鋼鐵結構股份有限公司國內第七次無擔保轉換公司債",
+        "113/10/28",
+        "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg="
+      ],
+      "row_sha256": "8b7cdd44f2104c608a4320d4f148452cd3d909b0d9dfa2a93f739285144deaa3",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "99587",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "7",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "9958",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "bond_code": "68351",
+      "matched_exact_bond_id": true,
+      "report_row_number": 85,
+      "original_report_fields": [
+        "6835",
+        "圓裕企業股份有限公司",
+        "圓裕企業股份有限公司國內第一次無擔保轉換公司債",
+        "113/11/01",
+        "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg="
+      ],
+      "row_sha256": "4a3cba12cabd1b1ba992e0efc061af9642961d00d84a4edad1b7235d332f177a",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "68351",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6835",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    },
+    {
+      "bond_code": "68741",
+      "matched_exact_bond_id": true,
+      "report_row_number": 86,
+      "original_report_fields": [
+        "6874",
+        "倍力資訊股份有限公司",
+        "倍力資訊股份有限公司國內第一次無擔保轉換公司債",
+        "113/11/04",
+        "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg="
+      ],
+      "row_sha256": "db899657eca2c5be8d54c17d5d7c6bb9ecce126f609d270b1d4756fcd0f7483d",
+      "issuance_data_pointer": {
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+        "type": "official_issuance_data_html_interface_uninspected",
+        "decoded_query": {
+          "TYPEK": "",
+          "bond_id": "68741",
+          "bond_kind": "5",
+          "bond_subn": "$M00000001",
+          "bond_yrn": "1",
+          "come": "2",
+          "encodeURIComponent": "1",
+          "firstin": "ture",
+          "issuer_stock_code": "6874",
+          "monyr_reg": "202609",
+          "pg": "",
+          "step": "0",
+          "tg": ""
+        },
+        "followup_authorized": false,
+        "PDF_verified": false,
+        "holder_put_contract_verified": false
+      }
+    }
+  ],
+  "subtitle_original": "* 查詢債券基本資訊和發行及轉換辦法請至<a href = \"https://mopsov.twse.com.tw/mops/web/t120sb02_q1\" class=\"page-link\" target=\"_blank\" title=\"另開新視窗，連結至：公開資訊觀測站\">公開資訊觀測站</a>，查詢方式請參考<a href=\"/storage/bond_download/qa/公開資訊觀測站轉交換公司債新發行債券資訊查詢方法.pdf\" title=\"另開新視窗，連結至：說明\" target=\"_blank\" >說明</a>。",
+  "subtitle_pointers": [
+    {
+      "occurrence": 1,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://mopsov.twse.com.tw/mops/web/t120sb02_q1",
+      "source_literal": "https://mopsov.twse.com.tw/mops/web/t120sb02_q1",
+      "line": 1,
+      "column": 20,
+      "followup_authorized": false,
+      "resolved_url": "https://mopsov.twse.com.tw/mops/web/t120sb02_q1",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 2,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/storage/bond_download/qa/公開資訊觀測站轉交換公司債新發行債券資訊查詢方法.pdf",
+      "source_literal": "/storage/bond_download/qa/公開資訊觀測站轉交換公司債新發行債券資訊查詢方法.pdf",
+      "line": 1,
+      "column": 159,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/storage/bond_download/qa/公開資訊觀測站轉交換公司債新發行債券資訊查詢方法.pdf",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    }
+  ],
+  "next_source_types": "Actual issuance-data HTML interface links, plus subtitle MOPS query interface and instruction pointer; contents not fetched or qualified here.",
+  "UI_and_options_observed_at_utc": "2026-10-22T12:50:22.023407+00:00",
+  "coverage_limits": [
+    "totalCount reconciles this one current-vintage report response, not an independently complete bond population.",
+    "The full frozen29 calendar is compared by exact URL bond_id; an issuer-prefix match is not accepted.",
+    "Matched issuance-data links are not yet inspected documents, PDFs, application windows, payment calendars or verified holder-put contracts.",
+    "Oct22 UI/options and Oct23 report observations are distinct; reported dates are not historical first-availability evidence.",
+    "No URL was requested, JS executed, return scanned, or cash-claim/source/PIT gate promoted by this replay."
+  ],
+  "complete_bond_population_verified": false,
+  "holder_put_contracts_verified": false,
+  "cash_claim_source_gate_passed": false,
+  "source_gate_passed": false,
+  "historical_pit_verified": false
+}

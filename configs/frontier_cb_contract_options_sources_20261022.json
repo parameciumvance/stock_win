@@ -1,0 +1,13 @@
+{
+  "output_directory": "inputs/frontier_cb_contract_20261022/raw_options",
+  "allowed_hosts": [
+    "www.tpex.org.tw"
+  ],
+  "requests": [
+    {
+      "filename": "bond_issuer_options.json",
+      "url": "https://www.tpex.org.tw/www/zh-tw/api/tpexList?name=bondIssuer",
+      "method": "GET"
+    }
+  ]
+}

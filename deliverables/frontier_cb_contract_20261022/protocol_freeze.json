@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-22T12:40:38.242850+00:00",
+  "protocol_sha256": "c6726b41b278474885349ebd5cf3b28a1fe4c0a2b4f4bfe4d7609144c336f856",
+  "local_base_commit": "a4d57a114b845cb4c26411d23ae2a6e8ab87ac4f",
+  "before_new_source_acquisition": true,
+  "market_quote_outcomes_inspected": false,
+  "old_CB_requests_already_used": 12,
+  "new_contract_route_request_cap": 4
+}

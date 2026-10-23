@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-23T00:52:41.378030+00:00",
+  "status": "initial_all_issuer_report_POST_preIO_passed",
+  "command": ".venv/bin/python -m unittest test_frontier_cb_contract_sources test_frontier_sources -q",
+  "tests_passed": 37,
+  "CB_guard_tests": 25,
+  "generic_source_tests": 12,
+  "compile_passed": true,
+  "git_diff_check_passed": true,
+  "actual_plan": {
+    "command": ".venv/bin/python frontier_cb_contract_sources.py plan --batch report",
+    "requests": 1,
+    "source_io_performed": false
+  },
+  "source_UI_and_options_observed_taipei_date": "2026-10-22",
+  "new_freeze_taipei_date": "2026-10-23",
+  "sha256s": {
+    "frontier_cb_contract_sources.py": "63c0e139f8f7509f4062ebaa22f9d7e879c1ca4b1c6bda993638afa36b86f8e3",
+    "test_frontier_cb_contract_sources.py": "e25d5fcca962d086850f23b0b5f5b3c1a5f0301119665b7b96350652fcb661c5",
+    "configs/frontier_cb_contract_report_sources_20261023.json": "7f82990da3ccb348c0f34d60f1495dccb84e6faf84fe08855c9c0082966b1d0d",
+    "configs/frontier_cb_contract_report_pipeline.json": "6a48933e6ec9a95f615f08944cb7fa83d93accf699112772e9311b90f38a88e1",
+    "configs/frontier_cb_contract_report_readback_pipeline.json": "31dffc3d4c7a5429c4739974cc53e5dd5b49f6c2078360341cec8c4a5539e355",
+    "deliverables/frontier_cb_contract_20261022/report_freeze.json": "dce0003f708e54f20ff13d035f01521723275d8c6fd5d701f364c041eb8169b2"
+  },
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "original_29_put_case_coverage_verified": false,
+  "contracts_qualified": false
+}

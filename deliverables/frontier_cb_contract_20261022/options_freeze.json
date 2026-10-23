@@ -1,0 +1,62 @@
+{
+  "protocol_sha256": "c6726b41b278474885349ebd5cf3b28a1fe4c0a2b4f4bfe4d7609144c336f856",
+  "frozen_at_utc": "2026-10-22T12:49:03.692978+00:00",
+  "path": "configs/frontier_cb_contract_options_sources_20261022.json",
+  "sha256": "e725e194d71ee92bca7b9d5618b22029dc8fcb1017dc45db0e2b4c21478103eb",
+  "requests": 1,
+  "api_template_evidence": {
+    "template_id": "tpex_cb_bond_issuer_options_v1",
+    "request": {
+      "filename": "bond_issuer_options.json",
+      "url": "https://www.tpex.org.tw/www/zh-tw/api/tpexList?name=bondIssuer",
+      "method": "GET"
+    },
+    "sources": {
+      "entry": {
+        "package_path": "deliverables/frontier_cb_contract_20261022/entry_package.json",
+        "archive_sha256": "95851a2b8a7668bb9461dbb2440134d5371b35fb6e4d9a043a16cc2a9c5fef9c",
+        "member": "raw/cb_listed.html",
+        "body_sha256": "b9404588f3fd054999d921ed145d3f5afa69a8d5cc8100ebe5cf1a0432a808eb",
+        "source_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html"
+      },
+      "main": {
+        "package_path": "deliverables/frontier_20261020/route_package.json",
+        "archive_sha256": "57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5",
+        "member": "raw/main.js",
+        "body_sha256": "cfbd8c64c748149f039f1d4f1c5b3ba4511039b9c9e60d8ed53fd9624edc587a",
+        "source_url": "https://www.tpex.org.tw/rsrc/js/main.js"
+      },
+      "tables": {
+        "package_path": "deliverables/frontier_20261020/scripts_package.json",
+        "archive_sha256": "1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707",
+        "member": "raw/tables.js",
+        "body_sha256": "085fd65b4e15e2af4f3adb3f256f0058d0176dd2d98ce53217ede16667a04a90",
+        "source_url": "https://www.tpex.org.tw/rsrc/js/tables.js"
+      }
+    },
+    "derived_request": {
+      "method": "GET",
+      "url": "https://www.tpex.org.tw/www/zh-tw/api/tpexList?name=bondIssuer",
+      "query_fields": [
+        [
+          "name",
+          "bondIssuer"
+        ]
+      ],
+      "report_action": "bond/convSearch",
+      "report_request_authorized": false,
+      "searchNo_value_inferred": false
+    }
+  },
+  "allocation": {
+    "old_CB_discovery_used": 12,
+    "completed_new_entry_requests": 1,
+    "this_batch_requests": 1,
+    "phase_cap": 4,
+    "phase_requests_allocated_after_this_batch": 2,
+    "remaining_request_capacity": 2,
+    "batches_allocated_after_this_batch": 2,
+    "remaining_batch_capacity": 1
+  },
+  "market_quote_outcomes_inspected": false
+}

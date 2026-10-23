@@ -1,0 +1,12 @@
+{
+  "output_directory": "inputs/frontier_cb_contract_20261022/raw_entry",
+  "allowed_hosts": [
+    "www.tpex.org.tw"
+  ],
+  "requests": [
+    {
+      "filename": "cb_listed.html",
+      "url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html"
+    }
+  ]
+}

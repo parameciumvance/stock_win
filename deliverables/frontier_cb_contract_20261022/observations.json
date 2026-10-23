@@ -1,0 +1,22 @@
+{
+  "actual_development_observations": [
+    {
+      "action": "Early inventory unittest run while forms/scripts schema was being finalized",
+      "result": "12tests ran;2 KeyError exceptions: form and script lacked followup_authorized. Reported to author for schema alignment. Not a source or transport failure."
+    }
+  ],
+  "source_transport_errors": [],
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "root_cause_claims_made": false,
+  "recovery_20261023": {
+    "checked_at_utc": "2026-10-23T00:51:42.889728+00:00",
+    "remote_main": "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646",
+    "prior_member_checks": 452,
+    "prior_member_mismatches": 0,
+    "entry_and_options_sha_crc_manifest_reverified": true,
+    "active_research_python_workers": [],
+    "actual_agent_messages": "Three agents returned explicit usage-limit errors. Workspace and source readbacks remained accessible; no whole-environment loss or source-fault inference.",
+    "source_snapshots_not_refreshed": true
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "recorded_at": "2026-10-23T01:01:12.946082+00:00",
+  "records": [
+    {
+      "plan": "configs/frontier_cb_contract_entry_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_entry_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_entry",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: entry_acquire\nverified skip: entry_package\n",
+      "stages": 2
+    },
+    {
+      "plan": "configs/frontier_cb_contract_entry_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_entry_readback_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_entry_readback",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: entry_verify_readback\n",
+      "stages": 1
+    },
+    {
+      "plan": "configs/frontier_cb_contract_options_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_options_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_options",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: options_acquire\nverified skip: options_package\n",
+      "stages": 2
+    },
+    {
+      "plan": "configs/frontier_cb_contract_options_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_options_readback_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_options_readback",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: options_verify_readback\n",
+      "stages": 1
+    },
+    {
+      "plan": "configs/frontier_cb_contract_report_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_report_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_report",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: report_acquire\nverified skip: report_package\n",
+      "stages": 2
+    },
+    {
+      "plan": "configs/frontier_cb_contract_report_readback_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_report_readback_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_report_readback",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: report_verify_readback\n",
+      "stages": 1
+    },
+    {
+      "plan": "configs/frontier_cb_contract_inventory_pipeline.json",
+      "command": [
+        ".venv/bin/python",
+        "research_pipeline.py",
+        "--plan",
+        "configs/frontier_cb_contract_inventory_pipeline.json",
+        "--state-dir",
+        "inputs/frontier_cb_contract_20261022/pipeline_inventory",
+        "--code-commit",
+        "a4dc8b9ea2946a2ad23d6b2a4a4d04d5ae9f3646"
+      ],
+      "exit_code": 0,
+      "output": "verified skip: cb_contract_entry_saved_inventory\nverified skip: cb_contract_options_saved_inventory\nverified skip: cb_contract_report_all_rows_and_calendar_crosscheck\n",
+      "stages": 3
+    }
+  ],
+  "stages": 12,
+  "verified_skips": 12,
+  "all_passed": true,
+  "live_requests_repeated": false
+}

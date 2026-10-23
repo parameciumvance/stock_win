@@ -1,0 +1,104 @@
+{
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "lxml": "6.1.1",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "stage_observations": [
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_entry_readback/state.json",
+      "stage": "entry_verify_readback",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5072239600121975,
+      "peak_observed_rss_bytes": 7577600
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_options_readback/state.json",
+      "stage": "options_verify_readback",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5049921129830182,
+      "peak_observed_rss_bytes": 7360512
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_entry/state.json",
+      "stage": "entry_acquire",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5094761399668641,
+      "peak_observed_rss_bytes": 10301440
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_entry/state.json",
+      "stage": "entry_package",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5050466210232116,
+      "peak_observed_rss_bytes": 7925760
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_report_readback/state.json",
+      "stage": "report_verify_readback",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5064505229820497,
+      "peak_observed_rss_bytes": 8110080
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_options/state.json",
+      "stage": "options_acquire",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5063881269888952,
+      "peak_observed_rss_bytes": 8773632
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_options/state.json",
+      "stage": "options_package",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.504912054981105,
+      "peak_observed_rss_bytes": 8024064
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_report/state.json",
+      "stage": "report_acquire",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0052548429812305,
+      "peak_observed_rss_bytes": 33288192
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_report/state.json",
+      "stage": "report_package",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5054686769726686,
+      "peak_observed_rss_bytes": 8785920
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_inventory/state.json",
+      "stage": "cb_contract_entry_saved_inventory",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5068445740034804,
+      "peak_observed_rss_bytes": 7667712
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_inventory/state.json",
+      "stage": "cb_contract_options_saved_inventory",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5056487529654987,
+      "peak_observed_rss_bytes": 7725056
+    },
+    {
+      "state": "inputs/frontier_cb_contract_20261022/pipeline_inventory/state.json",
+      "stage": "cb_contract_report_all_rows_and_calendar_crosscheck",
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5069204029859975,
+      "peak_observed_rss_bytes": 7364608
+    }
+  ],
+  "resource_meaning": "Observed child RSS and elapsed stage time only; short jobs can evade sampling. No OOM/platform/source-fault root cause inferred."
+}

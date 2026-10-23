@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_contract_20261022/report.zip",
+  "sha256": "01c86216ee132344d8349de1afbdd762a511fd261f28f8545ea012aecfaaa7da",
+  "manifest_files": 7,
+  "created_at": "2026-10-23T00:53:01.909421+00:00",
+  "retrieved": "inputs/frontier_cb_contract_20261022/report.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_contract_20261022/report_transfer.json",
+  "backup_label": "frontier_cb_contract_20261022_report"
+}

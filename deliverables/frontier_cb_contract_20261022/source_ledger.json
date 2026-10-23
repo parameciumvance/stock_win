@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-23T00:54:50.540850+00:00",
+  "batches": [
+    {
+      "batch": "entry",
+      "archive_sha256": "95851a2b8a7668bb9461dbb2440134d5371b35fb6e4d9a043a16cc2a9c5fef9c",
+      "manifest_entries": 6,
+      "requests": [
+        {
+          "request": {
+            "filename": "cb_listed.html",
+            "url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "request_started_at": "2026-10-22T12:41:56.297741+00:00",
+          "observed_at": "2026-10-22T12:41:56.545336+00:00",
+          "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  10630 100  10630   0      0  49502      0                              0\r100  10630 100  10630   0      0  49494      0                              0\r100  10630 100  10630   0      0  49491      0                              0\n"
+        }
+      ]
+    },
+    {
+      "batch": "options",
+      "archive_sha256": "7f9d3b6605d199c1821499d12a69da6965954b21443f0bb3ee02a3051b5ae60c",
+      "manifest_entries": 7,
+      "requests": [
+        {
+          "request": {
+            "filename": "bond_issuer_options.json",
+            "url": "https://www.tpex.org.tw/www/zh-tw/api/tpexList?name=bondIssuer",
+            "method": "GET"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "request_started_at": "2026-10-22T12:50:21.683337+00:00",
+          "observed_at": "2026-10-22T12:50:22.023407+00:00",
+          "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  18341   0  18341   0      0  59836      0                              0\r100  18341   0  18341   0      0  59827      0                              0\r100  18341   0  18341   0      0  59822      0                              0\n"
+        }
+      ]
+    },
+    {
+      "batch": "report",
+      "archive_sha256": "01c86216ee132344d8349de1afbdd762a511fd261f28f8545ea012aecfaaa7da",
+      "manifest_entries": 7,
+      "requests": [
+        {
+          "request": {
+            "filename": "all_issuer_report.json",
+            "url": "https://www.tpex.org.tw/www/zh-tw/bond/convSearch",
+            "method": "POST",
+            "data": "name=bondIssuer&searchNo=&response=json"
+          },
+          "http_status": 200,
+          "exit_code": 0,
+          "request_started_at": "2026-10-23T00:53:00.925638+00:00",
+          "observed_at": "2026-10-23T00:53:01.310247+00:00",
+          "stderr": "  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100 130.3k   0 130.3k 100     39 404.7k    121                              0\r100 130.3k   0 130.3k 100     39 404.7k    121                              0\r100 130.3k   0 130.3k 100     39 404.6k    121                              0\n"
+        }
+      ]
+    }
+  ],
+  "old_CB_requests": 12,
+  "new_saved_requests": 3,
+  "new_request_ceiling": 4,
+  "maximum_batches": 3,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

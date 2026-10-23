@@ -1,0 +1,18 @@
+{
+  "status": "three_source_requests_saved_and_retrieved_waiting_independent_report_replay",
+  "next_action": "Seal route replay checkpoint then retrieve only three exact fixed-control issuance-data URLs in separate explicitly allocated document phase",
+  "pipeline": "configs/frontier_cb_contract_entry_pipeline.json",
+  "readback_pipeline": "configs/frontier_cb_contract_entry_readback_pipeline.json",
+  "actual_new_requests": 3,
+  "allocated_initial_requests": 1,
+  "remaining_phase_request_capacity_after_initial": 3,
+  "max_phase_requests": 4,
+  "max_phase_batches": 3,
+  "prior_CB_discovery_requests": 12,
+  "price_IO_authorized": false,
+  "user_decision_required": false,
+  "source_gate_passed": false,
+  "completed_batches": 3,
+  "unused_request_capacity": 1,
+  "fourth_batch_authorized": false
+}

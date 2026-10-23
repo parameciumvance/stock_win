@@ -1,0 +1,1638 @@
+{
+  "status": "saved_html_pointer_inventory_only",
+  "body_sha256": "b9404588f3fd054999d921ed145d3f5afa69a8d5cc8100ebe5cf1a0432a808eb",
+  "size_bytes": 10630,
+  "declared_charset": "utf-8",
+  "encoding": "utf-8-sig",
+  "effective_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html",
+  "html_lang": "zh-Hant-tw",
+  "title": "最近上櫃轉(交)換公司債 - 證券櫃檯買賣中心",
+  "pointers": [
+    {
+      "occurrence": 1,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "/rsrc/",
+      "source_literal": "/rsrc/",
+      "line": 1,
+      "column": 1013,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 2,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "/rsrc/",
+      "source_literal": "/rsrc/",
+      "line": 1,
+      "column": 1070,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 3,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "/rsrc/",
+      "source_literal": "/rsrc/",
+      "line": 1,
+      "column": 1123,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 4,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "/rsrc/",
+      "source_literal": "/rsrc/",
+      "line": 1,
+      "column": 1176,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 5,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/rsrc/asset/images/favicon.png",
+      "source_literal": "/rsrc/asset/images/favicon.png",
+      "line": 1,
+      "column": 1226,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/images/favicon.png",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 6,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "//fonts.googleapis.com",
+      "source_literal": "//fonts.googleapis.com",
+      "line": 1,
+      "column": 1290,
+      "followup_authorized": false,
+      "resolved_url": "https://fonts.googleapis.com",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 7,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "//fonts.gstatic.com",
+      "source_literal": "//fonts.gstatic.com",
+      "line": 1,
+      "column": 1343,
+      "followup_authorized": false,
+      "resolved_url": "https://fonts.gstatic.com",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 8,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "//fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Noto+Serif+TC:wght@600;700&display=swap",
+      "source_literal": "//fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Noto+Serif+TC:wght@600;700&display=swap",
+      "line": 1,
+      "column": 1405,
+      "followup_authorized": false,
+      "resolved_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Noto+Serif+TC:wght@600;700&display=swap",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 9,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/rsrc/css/main.css",
+      "source_literal": "/rsrc/css/main.css",
+      "line": 1,
+      "column": 1539,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/css/main.css",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 10,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/rsrc/asset/css/simplePagination.css",
+      "source_literal": "/rsrc/asset/css/simplePagination.css",
+      "line": 1,
+      "column": 1588,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/css/simplePagination.css",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 11,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/rsrc/asset/css/main.css",
+      "source_literal": "/rsrc/asset/css/main.css",
+      "line": 1,
+      "column": 1655,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/css/main.css",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 12,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/jquery-3.7.1.min.js",
+      "source_literal": "/rsrc/asset/js/jquery-3.7.1.min.js",
+      "line": 1,
+      "column": 1710,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/jquery-3.7.1.min.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 13,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/jquery.mousewheel.min.js",
+      "source_literal": "/rsrc/asset/js/jquery.mousewheel.min.js",
+      "line": 1,
+      "column": 1768,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/jquery.mousewheel.min.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 14,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/jquery.cookie.min.js",
+      "source_literal": "/rsrc/asset/js/jquery.cookie.min.js",
+      "line": 1,
+      "column": 1831,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/jquery.cookie.min.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 15,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/gsap.min.js",
+      "source_literal": "/rsrc/asset/js/gsap.min.js",
+      "line": 1,
+      "column": 1890,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/gsap.min.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 16,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/jquery.session.js",
+      "source_literal": "/rsrc/asset/js/jquery.session.js",
+      "line": 1,
+      "column": 1940,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/jquery.session.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 17,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/jquery.simplePagination.js",
+      "source_literal": "/rsrc/asset/js/jquery.simplePagination.js",
+      "line": 1,
+      "column": 1996,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/jquery.simplePagination.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 18,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 1,
+      "value": "/rsrc/js/ie.js",
+      "source_literal": "/rsrc/js/ie.js",
+      "line": 1,
+      "column": 2061,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/js/ie.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 19,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/js/main.js",
+      "source_literal": "/rsrc/js/main.js",
+      "line": 1,
+      "column": 2108,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/js/main.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 20,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/asset/js/global.js",
+      "source_literal": "/rsrc/asset/js/global.js",
+      "line": 1,
+      "column": 2148,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/asset/js/global.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 21,
+      "tag": "link",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/rsrc/css/tables.css",
+      "source_literal": "/rsrc/css/tables.css",
+      "line": 1,
+      "column": 2234,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/css/tables.css",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 22,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 1,
+      "value": "https://www.googletagmanager.com/gtag/js?id=G-35HCQ5YL5Z",
+      "source_literal": "https://www.googletagmanager.com/gtag/js?id=G-35HCQ5YL5Z",
+      "line": 1,
+      "column": 2285,
+      "followup_authorized": false,
+      "resolved_url": "https://www.googletagmanager.com/gtag/js?id=G-35HCQ5YL5Z",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 23,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "#accesskey-c",
+      "source_literal": "#accesskey-c",
+      "line": 1,
+      "column": 2540,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html#accesskey-c",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 24,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "#accesskey-u",
+      "source_literal": "#accesskey-u",
+      "line": 1,
+      "column": 2658,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html#accesskey-u",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 25,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "#",
+      "source_literal": "#",
+      "line": 1,
+      "column": 2810,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html#",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 26,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/ja-jp/about/publication/overview.html",
+      "source_literal": "/ja-jp/about/publication/overview.html",
+      "line": 1,
+      "column": 2866,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/ja-jp/about/publication/overview.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 27,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "/zh-tw/sitemap.html",
+      "source_literal": "/zh-tw/sitemap.html",
+      "line": 1,
+      "column": 2937,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/sitemap.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 28,
+      "tag": "form",
+      "attribute": "action",
+      "attribute_position": 1,
+      "value": "/zh-tw/search.html",
+      "source_literal": "/zh-tw/search.html",
+      "line": 1,
+      "column": 3009,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/search.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 29,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/zh-tw/",
+      "source_literal": "/zh-tw/",
+      "line": 1,
+      "column": 3235,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 30,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "#",
+      "source_literal": "#",
+      "line": 1,
+      "column": 3419,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html#",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 31,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/ja-jp/about/publication/overview.html",
+      "source_literal": "/ja-jp/about/publication/overview.html",
+      "line": 1,
+      "column": 3475,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/ja-jp/about/publication/overview.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 32,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 2,
+      "value": "/zh-tw/sitemap.html",
+      "source_literal": "/zh-tw/sitemap.html",
+      "line": 1,
+      "column": 3546,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/sitemap.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 33,
+      "tag": "form",
+      "attribute": "action",
+      "attribute_position": 1,
+      "value": "/zh-tw/search.html",
+      "source_literal": "/zh-tw/search.html",
+      "line": 1,
+      "column": 3618,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/search.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 34,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "#",
+      "source_literal": "#",
+      "line": 1,
+      "column": 4068,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html#",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 35,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "./delisted.html",
+      "source_literal": "./delisted.html",
+      "line": 1,
+      "column": 4118,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/delisted.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 36,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "./rate.html",
+      "source_literal": "./rate.html",
+      "line": 1,
+      "column": 4173,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/rate.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 37,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "./option.html",
+      "source_literal": "./option.html",
+      "line": 1,
+      "column": 4216,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/option.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 38,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "#accesskey-b",
+      "source_literal": "#accesskey-b",
+      "line": 1,
+      "column": 4862,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html#accesskey-b",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 39,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/indices/stock-index/industrial/inxh.html",
+      "source_literal": "/zh-tw/indices/stock-index/industrial/inxh.html",
+      "line": 1,
+      "column": 5035,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/indices/stock-index/industrial/inxh.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 40,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/info/stock-pricing.html",
+      "source_literal": "/zh-tw/mainboard/trading/info/stock-pricing.html",
+      "line": 1,
+      "column": 5114,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/info/stock-pricing.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 41,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/esb/trading/info/stock-pricing.html",
+      "source_literal": "/zh-tw/esb/trading/info/stock-pricing.html",
+      "line": 1,
+      "column": 5194,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/esb/trading/info/stock-pricing.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 42,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/margin-trading/transactions.html",
+      "source_literal": "/zh-tw/mainboard/trading/margin-trading/transactions.html",
+      "line": 1,
+      "column": 5268,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/margin-trading/transactions.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 43,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/margin-trading/sbl.html",
+      "source_literal": "/zh-tw/mainboard/trading/margin-trading/sbl.html",
+      "line": 1,
+      "column": 5356,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/margin-trading/sbl.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 44,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/margin-trading/exempted.html",
+      "source_literal": "/zh-tw/mainboard/trading/margin-trading/exempted.html",
+      "line": 1,
+      "column": 5436,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/margin-trading/exempted.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 45,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/major-institutional/summary/day.html",
+      "source_literal": "/zh-tw/mainboard/trading/major-institutional/summary/day.html",
+      "line": 1,
+      "column": 5529,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/major-institutional/summary/day.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 46,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/major-institutional/domestic-inst/day.html",
+      "source_literal": "/zh-tw/mainboard/trading/major-institutional/domestic-inst/day.html",
+      "line": 1,
+      "column": 5625,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/major-institutional/domestic-inst/day.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 47,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/major-institutional/foreign/day.html",
+      "source_literal": "/zh-tw/mainboard/trading/major-institutional/foreign/day.html",
+      "line": 1,
+      "column": 5724,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/major-institutional/foreign/day.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 48,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://www.twse.com.tw/zh/trading/margin/twt96u.html",
+      "source_literal": "https://www.twse.com.tw/zh/trading/margin/twt96u.html",
+      "line": 1,
+      "column": 5820,
+      "followup_authorized": false,
+      "resolved_url": "https://www.twse.com.tw/zh/trading/margin/twt96u.html",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 49,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://www.twse.com.tw/zh/products/sbl/disclosures/twt60u.html",
+      "source_literal": "https://www.twse.com.tw/zh/products/sbl/disclosures/twt60u.html",
+      "line": 1,
+      "column": 5922,
+      "followup_authorized": false,
+      "resolved_url": "https://www.twse.com.tw/zh/products/sbl/disclosures/twt60u.html",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 50,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://mis.twse.com.tw/stock/detail-sblInquiry?lang=zhHant",
+      "source_literal": "https://mis.twse.com.tw/stock/detail-sblInquiry?lang=zhHant",
+      "line": 1,
+      "column": 6031,
+      "followup_authorized": false,
+      "resolved_url": "https://mis.twse.com.tw/stock/detail-sblInquiry?lang=zhHant",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 51,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/statistics/month/listed.html",
+      "source_literal": "/zh-tw/mainboard/trading/statistics/month/listed.html",
+      "line": 1,
+      "column": 6193,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/statistics/month/listed.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 52,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/statistics/month/value.html",
+      "source_literal": "/zh-tw/mainboard/trading/statistics/month/value.html",
+      "line": 1,
+      "column": 6276,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/statistics/month/value.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 53,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/info/daily-pe.html",
+      "source_literal": "/zh-tw/mainboard/trading/info/daily-pe.html",
+      "line": 1,
+      "column": 6375,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/info/daily-pe.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 54,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/listed/month/fundamentals.html",
+      "source_literal": "/zh-tw/mainboard/listed/month/fundamentals.html",
+      "line": 1,
+      "column": 6457,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/listed/month/fundamentals.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 55,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/trading/statistics/highlight.html",
+      "source_literal": "/zh-tw/mainboard/trading/statistics/highlight.html",
+      "line": 1,
+      "column": 6537,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/trading/statistics/highlight.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 56,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/service/data/overview.html",
+      "source_literal": "/zh-tw/service/data/overview.html",
+      "line": 1,
+      "column": 6672,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/service/data/overview.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 57,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/announce/market/holiday.html",
+      "source_literal": "/zh-tw/announce/market/holiday.html",
+      "line": 1,
+      "column": 6733,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/announce/market/holiday.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 58,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/service/investor/info/personal.html",
+      "source_literal": "/zh-tw/service/investor/info/personal.html",
+      "line": 1,
+      "column": 6798,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/service/investor/info/personal.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 59,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/mainboard/applying/status/company.html",
+      "source_literal": "/zh-tw/mainboard/applying/status/company.html",
+      "line": 1,
+      "column": 6873,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/mainboard/applying/status/company.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 60,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 1,
+      "value": "/zh-tw/index.html",
+      "source_literal": "/zh-tw/index.html",
+      "line": 1,
+      "column": 7003,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/index.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 61,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/about/company/faq.html",
+      "source_literal": "/zh-tw/about/company/faq.html",
+      "line": 1,
+      "column": 7067,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/about/company/faq.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 62,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/about/company/contact/contact.html",
+      "source_literal": "/zh-tw/about/company/contact/contact.html",
+      "line": 1,
+      "column": 7135,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/about/company/contact/contact.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 63,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/related_links.html",
+      "source_literal": "/zh-tw/related_links.html",
+      "line": 1,
+      "column": 7215,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/related_links.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 64,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/gtsm_disclaimer.html",
+      "source_literal": "/zh-tw/gtsm_disclaimer.html",
+      "line": 1,
+      "column": 7279,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/gtsm_disclaimer.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 65,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/zh-tw/privacy.html",
+      "source_literal": "/zh-tw/privacy.html",
+      "line": 1,
+      "column": 7346,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/zh-tw/privacy.html",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 66,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/storage/publish/others/04000001個人資料管理政策聲明.pdf",
+      "source_literal": "/storage/publish/others/04000001個人資料管理政策聲明.pdf",
+      "line": 1,
+      "column": 7410,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/storage/publish/others/04000001個人資料管理政策聲明.pdf",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 67,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/storage/publish/others/資通安全政策及內涵.pdf",
+      "source_literal": "/storage/publish/others/資通安全政策及內涵.pdf",
+      "line": 1,
+      "column": 7509,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/storage/publish/others/資通安全政策及內涵.pdf",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 68,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "/storage/publish/others/營運持續政策.pdf",
+      "source_literal": "/storage/publish/others/營運持續政策.pdf",
+      "line": 1,
+      "column": 7591,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/storage/publish/others/營運持續政策.pdf",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 69,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://www.facebook.com/TaipeiExchange/",
+      "source_literal": "https://www.facebook.com/TaipeiExchange/",
+      "line": 1,
+      "column": 7670,
+      "followup_authorized": false,
+      "resolved_url": "https://www.facebook.com/TaipeiExchange/",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 70,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://www.instagram.com/taipeiexchange/",
+      "source_literal": "https://www.instagram.com/taipeiexchange/",
+      "line": 1,
+      "column": 7780,
+      "followup_authorized": false,
+      "resolved_url": "https://www.instagram.com/taipeiexchange/",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 71,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://www.youtube.com/@taipeiexchange",
+      "source_literal": "https://www.youtube.com/@taipeiexchange",
+      "line": 1,
+      "column": 7895,
+      "followup_authorized": false,
+      "resolved_url": "https://www.youtube.com/@taipeiexchange",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 72,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://www.linkedin.com/company/taipei-exchange-tpex/",
+      "source_literal": "https://www.linkedin.com/company/taipei-exchange-tpex/",
+      "line": 1,
+      "column": 8009,
+      "followup_authorized": false,
+      "resolved_url": "https://www.linkedin.com/company/taipei-exchange-tpex/",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 73,
+      "tag": "a",
+      "attribute": "href",
+      "attribute_position": 0,
+      "value": "https://accessibility.moda.gov.tw/Applications/DetectLog/172983",
+      "source_literal": "https://accessibility.moda.gov.tw/Applications/DetectLog/172983",
+      "line": 1,
+      "column": 8351,
+      "followup_authorized": false,
+      "resolved_url": "https://accessibility.moda.gov.tw/Applications/DetectLog/172983",
+      "same_origin": false,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 74,
+      "tag": "img",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/storage/aa.png",
+      "source_literal": "/rsrc/storage/aa.png",
+      "line": 1,
+      "column": 8464,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/storage/aa.png",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    },
+    {
+      "occurrence": 75,
+      "tag": "script",
+      "attribute": "src",
+      "attribute_position": 0,
+      "value": "/rsrc/js/tables.js",
+      "source_literal": "/rsrc/js/tables.js",
+      "line": 1,
+      "column": 8575,
+      "followup_authorized": false,
+      "resolved_url": "https://www.tpex.org.tw/rsrc/js/tables.js",
+      "same_origin": true,
+      "resolution_basis": "effective_url"
+    }
+  ],
+  "forms": [
+    {
+      "attributes": [
+        [
+          "class",
+          "searchset"
+        ],
+        [
+          "action",
+          "/zh-tw/search.html"
+        ]
+      ],
+      "action": "/zh-tw/search.html",
+      "method": null,
+      "controls": [
+        {
+          "tag": "input",
+          "name": "query",
+          "value": null,
+          "attributes": [
+            [
+              "type",
+              "text"
+            ],
+            [
+              "name",
+              "query"
+            ],
+            [
+              "title",
+              "關鍵字搜尋"
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "value": null,
+          "attributes": [
+            [
+              "role",
+              "button"
+            ],
+            [
+              "type",
+              "submit"
+            ],
+            [
+              "class",
+              "btn-search"
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        }
+      ],
+      "followup_authorized": false
+    },
+    {
+      "attributes": [
+        [
+          "class",
+          "searchset"
+        ],
+        [
+          "action",
+          "/zh-tw/search.html"
+        ]
+      ],
+      "action": "/zh-tw/search.html",
+      "method": null,
+      "controls": [
+        {
+          "tag": "input",
+          "name": "query",
+          "value": null,
+          "attributes": [
+            [
+              "type",
+              "text"
+            ],
+            [
+              "name",
+              "query"
+            ],
+            [
+              "title",
+              "關鍵字搜尋"
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "value": null,
+          "attributes": [
+            [
+              "role",
+              "button"
+            ],
+            [
+              "type",
+              "submit"
+            ],
+            [
+              "class",
+              "btn-search"
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        }
+      ],
+      "followup_authorized": false
+    },
+    {
+      "attributes": [
+        [
+          "id",
+          "tables-form"
+        ],
+        [
+          "class",
+          "formblock flex"
+        ]
+      ],
+      "action": null,
+      "method": null,
+      "controls": [
+        {
+          "tag": "input",
+          "name": "name",
+          "value": "bondIssuer",
+          "attributes": [
+            [
+              "type",
+              "hidden"
+            ],
+            [
+              "name",
+              "name"
+            ],
+            [
+              "value",
+              "bondIssuer"
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        },
+        {
+          "tag": "select",
+          "name": "searchNo",
+          "value": null,
+          "attributes": [
+            [
+              "name",
+              "searchNo"
+            ],
+            [
+              "data-option",
+              "bondIssuer"
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        },
+        {
+          "tag": "button",
+          "name": null,
+          "value": null,
+          "attributes": [
+            [
+              "type",
+              "button"
+            ],
+            [
+              "class",
+              "response"
+            ],
+            [
+              "data-format",
+              "csv"
+            ],
+            [
+              "disabled",
+              null
+            ]
+          ],
+          "options": [],
+          "followup_authorized": false
+        }
+      ],
+      "followup_authorized": false
+    }
+  ],
+  "scripts": [
+    {
+      "src": "/rsrc/asset/js/jquery-3.7.1.min.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/jquery-3.7.1.min.js"
+        ]
+      ],
+      "line": 1,
+      "column": 1710,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/asset/js/jquery.mousewheel.min.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/jquery.mousewheel.min.js"
+        ]
+      ],
+      "line": 1,
+      "column": 1768,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/asset/js/jquery.cookie.min.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/jquery.cookie.min.js"
+        ]
+      ],
+      "line": 1,
+      "column": 1831,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/asset/js/gsap.min.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/gsap.min.js"
+        ]
+      ],
+      "line": 1,
+      "column": 1890,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/asset/js/jquery.session.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/jquery.session.js"
+        ]
+      ],
+      "line": 1,
+      "column": 1940,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/asset/js/jquery.simplePagination.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/jquery.simplePagination.js"
+        ]
+      ],
+      "line": 1,
+      "column": 1996,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/js/ie.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "nomodule",
+          null
+        ],
+        [
+          "src",
+          "/rsrc/js/ie.js"
+        ]
+      ],
+      "line": 1,
+      "column": 2061,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/js/main.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/js/main.js"
+        ]
+      ],
+      "line": 1,
+      "column": 2108,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "/rsrc/asset/js/global.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/asset/js/global.js"
+        ]
+      ],
+      "line": 1,
+      "column": 2148,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-35HCQ5YL5Z",
+      "raw_text": "",
+      "attributes": [
+        [
+          "async",
+          null
+        ],
+        [
+          "src",
+          "https://www.googletagmanager.com/gtag/js?id=G-35HCQ5YL5Z"
+        ]
+      ],
+      "line": 1,
+      "column": 2285,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": null,
+      "raw_text": "function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag(\"js\",new Date),gtag(\"config\",\"G-35HCQ5YL5Z\");",
+      "attributes": [],
+      "line": 1,
+      "column": 2371,
+      "followup_authorized": false,
+      "text_sha256": "b79179ddd34828475ba13872902676c80c506c0eca796f539e13183d026cdf1b"
+    },
+    {
+      "src": "/rsrc/js/tables.js",
+      "raw_text": "",
+      "attributes": [
+        [
+          "src",
+          "/rsrc/js/tables.js"
+        ],
+        [
+          "type",
+          "text/javascript"
+        ]
+      ],
+      "line": 1,
+      "column": 8575,
+      "followup_authorized": false,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "src": null,
+      "raw_text": "\"use strict\";function modifyJson(t){for(let e of t.tables[0].data)e[4]=`<a href=\"${e[4]}\" target=\"_blank\" class=\"link-web\" title=\"開新視窗\">連結</a>`}tables.init({pattern:API_PATTERN,action:\"bond/convSearch\",option:\"api/tpexList\",autoLoad:!0,autoChange:!0,beforeInit:t=>{},beforeRender:modifyJson,afterRender:()=>{},tables:[{title:\"表格大標題\",subtitle:\"左上角文字\",align:\"auto C1 C5\",sortable:-4,pagin:0}]});",
+      "attributes": [
+        [
+          "type",
+          "text/javascript"
+        ]
+      ],
+      "line": 1,
+      "column": 8640,
+      "followup_authorized": false,
+      "text_sha256": "d43ca637db319167ace20e1009f667c0ae859011f0eff688b3e8b03f8d1fcd3d"
+    }
+  ],
+  "literal_declarations": [
+    {
+      "kind": "script_property_literal_evidence_only",
+      "key": "pattern",
+      "value": null,
+      "source_literal": "API_PATTERN",
+      "identifier": "API_PATTERN",
+      "script_number": 13,
+      "character_offset": 157,
+      "followup_authorized": false
+    },
+    {
+      "kind": "script_property_literal_evidence_only",
+      "key": "action",
+      "value": "bond/convSearch",
+      "source_literal": "\"bond/convSearch\"",
+      "identifier": null,
+      "script_number": 13,
+      "character_offset": 177,
+      "followup_authorized": false
+    },
+    {
+      "kind": "script_property_literal_evidence_only",
+      "key": "option",
+      "value": "api/tpexList",
+      "source_literal": "\"api/tpexList\"",
+      "identifier": null,
+      "script_number": 13,
+      "character_offset": 202,
+      "followup_authorized": false
+    }
+  ],
+  "data_declarations": [
+    {
+      "tag": "select",
+      "attribute": "data-option",
+      "value": "bondIssuer",
+      "source_literal": "bondIssuer",
+      "line": 1,
+      "column": 4437,
+      "followup_authorized": false
+    },
+    {
+      "tag": "button",
+      "attribute": "data-format",
+      "value": "csv",
+      "source_literal": "csv",
+      "line": 1,
+      "column": 4544,
+      "followup_authorized": false
+    }
+  ],
+  "base_href_declarations": [],
+  "resolution_base": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html",
+  "all_pointer_occurrences_retained": true,
+  "JavaScript_executed": false,
+  "script_properties_are_syntactically_unverified_evidence": true,
+  "bond_population_selected": false,
+  "complete_population_verified": false,
+  "cash_claim_source_gate_passed": false,
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "source_archive": {
+    "path": "inputs/frontier_cb_contract_20261022/entry.retrieved.zip",
+    "sha256": "95851a2b8a7668bb9461dbb2440134d5371b35fb6e4d9a043a16cc2a9c5fef9c",
+    "manifest_files": 6,
+    "crc_manifest_verified": true
+  },
+  "source_transport": {
+    "request": {
+      "filename": "cb_listed.html",
+      "url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html"
+    },
+    "request_started_at_utc": "2026-10-22T12:41:56.297741+00:00",
+    "observed_at_utc": "2026-10-22T12:41:56.545336+00:00",
+    "effective_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html",
+    "http_status": 200,
+    "exit_code": 0
+  },
+  "archived_api_template_evidence": [
+    {
+      "archive": {
+        "path": "inputs/frontier_20261020/route.retrieved.zip",
+        "sha256": "57cfdeb2a684c86a457312f5d74eed3295d92072abfb629677ae121b32ebb1c5",
+        "manifest_files": 7,
+        "crc_manifest_verified": true
+      },
+      "member": "raw/main.js",
+      "body_sha256": "cfbd8c64c748149f039f1d4f1c5b3ba4511039b9c9e60d8ed53fd9624edc587a",
+      "declarations": [
+        {
+          "exact_literal": "API_PATTERN=\"/www/{LANG}/{ACTION}\"",
+          "byte_offset": 43577,
+          "line": 17
+        },
+        {
+          "exact_literal": "docLang=document.documentElement.lang",
+          "byte_offset": 43221,
+          "line": 17
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "inputs/frontier_20261020/scripts.retrieved.zip",
+        "sha256": "1cbd35217f2adbe54e42cee218436ffe48963b2d40b811f2465c02f973db4707",
+        "manifest_files": 10,
+        "crc_manifest_verified": true
+      },
+      "member": "raw/tables.js",
+      "body_sha256": "085fd65b4e15e2af4f3adb3f256f0058d0176dd2d98ce53217ede16667a04a90",
+      "declarations": [
+        {
+          "exact_literal": "const langDir = { 'zh': 'zh-tw', 'en': 'en-us', 'jp': 'ja-jp' }",
+          "byte_offset": 101363,
+          "line": 239
+        },
+        {
+          "exact_literal": "_.apiOption   = opt.option?opt.pattern.replace",
+          "byte_offset": 101581,
+          "line": 243
+        },
+        {
+          "exact_literal": "let argv = keys.map(s=>'name='+s).join('&');",
+          "byte_offset": 124367,
+          "line": 948
+        },
+        {
+          "exact_literal": "$.get(_.apiOption,argv",
+          "byte_offset": 124421,
+          "line": 950
+        },
+        {
+          "exact_literal": "oData['response'] = 'json';",
+          "byte_offset": 135402,
+          "line": 1321
+        },
+        {
+          "exact_literal": "$.post(_.apiAction,oData",
+          "byte_offset": 135742,
+          "line": 1337
+        },
+        {
+          "exact_literal": "let op = new Option(o.text,o.value);",
+          "byte_offset": 124847,
+          "line": 965
+        },
+        {
+          "exact_literal": "initForm(()=>{",
+          "byte_offset": 102355,
+          "line": 267
+        }
+      ]
+    }
+  ],
+  "next_same_origin_source": {
+    "url": "https://www.tpex.org.tw/www/zh-tw/api/tpexList?name=bondIssuer",
+    "method": "GET",
+    "query": [
+      {
+        "name": "name",
+        "value": "bondIssuer"
+      }
+    ],
+    "meaning": "Declared option route from the entry plus already archived main/tables templates; freeze separately before any request.",
+    "followup_authorized": false
+  },
+  "report_route": {
+    "url": "https://www.tpex.org.tw/www/zh-tw/bond/convSearch",
+    "method": "POST",
+    "known_fields": {
+      "name": "bondIssuer",
+      "response": "json"
+    },
+    "searchNo_value": null,
+    "reason": "Options are appended in response order before autoLoad. Obtain actual option values/defaults before submitting a report; no issuer code is guessed.",
+    "followup_authorized": false
+  },
+  "coverage_limits": [
+    "The entry is an interface, not a returned bond/contract data table.",
+    "All href/src/action occurrences remain, including unrelated navigation and foreign hosts.",
+    "The recently-listed report is not proven to cover the original29 put-calendar population.",
+    "The inline e[4] dynamic link formatter does not establish the unseen column schema or that its links are holder-put contracts.",
+    "No JS execution, request, current issuer selection, first-availability or cash-claim gate pass."
+  ]
+}

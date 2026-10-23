@@ -1,0 +1,77 @@
+{
+  "scope": "Separate CB-holder-put contract-route continuation using the original29row source population; no new mechanism/return test",
+  "candidate": "cb_holder_putback",
+  "capital_reference_twd": 300000,
+  "max_saved_requests": 4,
+  "max_source_batches": 3,
+  "workers": 2,
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "price_return_calculations": 0,
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/buyback_coverage_20261020/checkpoint.json": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+    "deliverables/buyback_probe_20261020/checkpoint.json": "826ee004fd85d4438be317a39c0e20215c0f281c845631906ed0e1f4252d372e",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/frontier_20261020/checkpoint.json": "a8c7083ade2b815df9bc16d3f60bc710b4eaaff7a2e951badb036f9df90f04fb"
+  },
+  "prior_allocation": {
+    "protocol": "configs/research_frontier_protocol_20261020.json",
+    "protocol_sha256": "52a37c16a9efc89cd7c46daff9946559239d9a9c29e7ecf23dc9b342e4feda64",
+    "used_requests": 12,
+    "request_cap": 12,
+    "remaining_requests": 0,
+    "unchanged": true
+  },
+  "new_allocation": {
+    "request_cap": 4,
+    "maximum_batches": 3,
+    "cumulative_CB_request_cap_after_this_phase": 16,
+    "requests_charged_even_if_HTTP_or_transport_failure": true,
+    "old_program_discovery_budget_not_reopened": true
+  },
+  "selection": {
+    "path": "deliverables/frontier_cb_contract_20261022/selection.json",
+    "sha256": "1d3845ebd01c06513eaf62cf688b5ed607d7804e6f88c085a079ef27531a293e"
+  },
+  "entry_source_evidence": {
+    "package_path": "deliverables/frontier_20261020/discovery_package.json",
+    "archive_sha256": "881e05c21017dd3e4728fe3e1005794a4ab7608da86d1360c39f168c37a56ef4",
+    "member": "raw/cb_put_calendar.html",
+    "body_sha256": "a17090e009145eef7e3cd1cd671a3eae742718ae2508e1043006c97750906f23",
+    "source_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/option.html",
+    "anchor_label": "最近上櫃轉(交)換公司債",
+    "literal_href": "./listed.html",
+    "resolved_url": "https://www.tpex.org.tw/zh-tw/bond/issue/cbond/listed.html"
+  },
+  "batches": {
+    "entry": {
+      "path": "configs/frontier_cb_contract_entry_sources_20261022.json",
+      "sha256": "2a7018d0f56ad59df0a0915c12eac30674924d0b1c3659090b2a82bbb831b049",
+      "requests": 1
+    }
+  },
+  "adaptive_rule": "At most3 remaining requests and2 adaptive batches. Each requires an immutable separate freeze and readback-bound actual literal official href/src GET evidence; no guessed PDF/API/issuer URLs. A form/API path requiring new proof must be separately reviewed before any request and remain inside this same cap.",
+  "source_gate": [
+    "Saved response bytes and transport timestamps must be packaged, backed up, retrieved andSHA/CRC/manifest checked before downstream reading",
+    "Independently match company/bond series and original/amended holder-put terms; distinguish maturity, issuer-call and conversion",
+    "Verify application window, holder/settlement eligibility, payment definition and date/calendar, revisions and credit/nonpayment conditions",
+    "Only after source gates: freeze a separate finite valuation/execution evidence protocol; no quote/signal/order from source discovery"
+  ],
+  "stop_rules": [
+    "Stop this4request route with actual observations if no official term pointer or unresolved identity/schema/route; do not claim all original contracts unobtainable",
+    "No retry/captcha/authentication bypass, manual user download, paid source or silent budget extension",
+    "Preserve all29calendar rows and unknown fields; source controls are not a selected profit cohort"
+  ],
+  "historical_pit_verified": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

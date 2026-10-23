@@ -1,0 +1,87 @@
+{
+  "status": "draft_pending_frozen_route_checkpoint_SHA_no_IO",
+  "scope": "Original CB issuance/terms document acquisition for the unchanged three chronological controls and29row population; not a new mechanism/return test",
+  "candidate": "cb_holder_putback",
+  "max_saved_requests": 9,
+  "max_source_batches": 3,
+  "workers": 2,
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "price_return_calculations": 0,
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/buyback_coverage_20261020/checkpoint.json": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+    "deliverables/buyback_probe_20261020/checkpoint.json": "826ee004fd85d4438be317a39c0e20215c0f281c845631906ed0e1f4252d372e",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/frontier_20261020/checkpoint.json": "a8c7083ade2b815df9bc16d3f60bc710b4eaaff7a2e951badb036f9df90f04fb"
+  },
+  "pending_prior_checkpoint": {
+    "path": "deliverables/frontier_cb_contract_20261022/checkpoint.json",
+    "sha256": null,
+    "must_be_pinned_and_members_verified_before_protocol_freeze_or_IO": true
+  },
+  "original_selection": {
+    "path": "deliverables/frontier_cb_contract_20261022/selection.json",
+    "sha256": "1d3845ebd01c06513eaf62cf688b5ed607d7804e6f88c085a079ef27531a293e"
+  },
+  "selection": {
+    "path": "deliverables/frontier_cb_documents_20261023/selection.json",
+    "sha256": "cf4dfc334bdc489ae1ef68e0ac0b97c035261da2bd416863b5871d16a0d198bc"
+  },
+  "report_source_evidence": {
+    "package_path": "deliverables/frontier_cb_contract_20261022/report_package.json",
+    "archive_sha256": "01c86216ee132344d8349de1afbdd762a511fd261f28f8545ea012aecfaaa7da",
+    "member": "raw/all_issuer_report.json",
+    "body_sha256": "ae7833385a794c2178957c82051e01c6a15f868193cb83c86df1b2dce4adf2fa"
+  },
+  "batches": {
+    "issuance": {
+      "path": "configs/frontier_cb_documents_issuance_sources_20261023.json",
+      "sha256": "ea441b96c329131898af9c27d21ea61d4fa7da6196938d24efca79094385d0c9",
+      "requests": 3
+    }
+  },
+  "new_allocation": {
+    "maximum_requests": 9,
+    "maximum_batches": 3,
+    "initial_issuance_GETs": 3,
+    "maximum_contract_pointer_requests": 3,
+    "maximum_actual_file_transfers": 3,
+    "all_failed_requests_count": true
+  },
+  "prior_CB_allocations": {
+    "first_discovery_cap": 12,
+    "first_discovery_actual": 12,
+    "contract_route_cap": 4,
+    "contract_route_actual": 3,
+    "contract_route_batches_actual": 3,
+    "contract_route_batch_cap": 3,
+    "one_unused_contract_route_request_is_not_reused": true,
+    "cumulative_CB_requests_before_phase": 15,
+    "cumulative_CB_request_cap_after_phase": 24
+  },
+  "adaptive_rule": "After the initial3originals are archived/backed up/retrieved/SHA-CRC-manifest checked, review one actual contract/terms pointer per control before freezing a next batch of at most3. If those responses are HTML with exact generated PDF pointers, separately freeze at most3literal artifact transfers as the third batch. No guessed URLs/API parameters; each identity must match its control before IO. Current wrapper refuses unreviewed adaptive batches.",
+  "source_gate": [
+    "Exact report company/bond/series/listing identity and entire original URL before initial GET; preserve monyr_reg202609 and blank/encoded query values",
+    "Original documents must be packaged, saved and read back before any contract/term parsing",
+    "Independently verify holder put versus issuer call/maturity, application window and registration/settlement eligibility, exact amount and actual payment date/business-day definition",
+    "Retain amendments, cancellation and default/nonpayment/current-tradability unknowns; newly fetched copies do not prove first historical availability",
+    "Any later valuation/execution research needs a separate frozen protocol after source gates; no effective signals/orders from source acquisition"
+  ],
+  "stop_rules": [
+    "No more than9requests or3batches; failures consume their allocation",
+    "Do not silently reuse the prior contract-route spare request or open a fourth batch",
+    "Record inaccessible or unresolved documents precisely; do not infer all sources unavailable or ask user to download individual documents"
+  ],
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}
