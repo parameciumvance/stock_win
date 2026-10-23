@@ -1,0 +1,471 @@
+{
+  "stages": [
+    {
+      "id": "verify_sources",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "verify_sources"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "ref/institutional_twse_2023_repro_bundle.zip",
+        "inputs/reassessment_20261016/backup/original_bundle.zip",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/source_receipt.json"
+      ],
+      "timeout_seconds": 300,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "prepare",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "prepare"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "deliverables/ranking_target_20261023/source_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "timeout_seconds": 300,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "fit_return_tree_2024",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "fit",
+        "--year",
+        "2024",
+        "--objective",
+        "return_tree"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/fit_return_tree_2024.json",
+        "inputs/ranking_target_20261023/return_tree_2024.joblib",
+        "inputs/ranking_target_20261023/return_tree_2024.npy"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "fit_rank_tree_2024",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "fit",
+        "--year",
+        "2024",
+        "--objective",
+        "rank_tree"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/fit_rank_tree_2024.json",
+        "inputs/ranking_target_20261023/rank_tree_2024.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2024.npy"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "evaluate_2024",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "evaluate",
+        "--year",
+        "2024"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv",
+        "deliverables/ranking_target_20261023/fit_return_tree_2024.json",
+        "inputs/ranking_target_20261023/return_tree_2024.joblib",
+        "inputs/ranking_target_20261023/return_tree_2024.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2024.json",
+        "inputs/ranking_target_20261023/rank_tree_2024.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2024.npy"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/evaluation_2024.json",
+        "deliverables/ranking_target_20261023/daily_2024.csv",
+        "deliverables/ranking_target_20261023/monthly_2024.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2024.csv",
+        "inputs/ranking_target_20261023/selected_2024.csv.gz",
+        "inputs/ranking_target_20261023/scored_2024.pkl.gz"
+      ],
+      "timeout_seconds": 300,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "fit_return_tree_2025",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "fit",
+        "--year",
+        "2025",
+        "--objective",
+        "return_tree"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/fit_return_tree_2025.json",
+        "inputs/ranking_target_20261023/return_tree_2025.joblib",
+        "inputs/ranking_target_20261023/return_tree_2025.npy"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "fit_rank_tree_2025",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "fit",
+        "--year",
+        "2025",
+        "--objective",
+        "rank_tree"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/fit_rank_tree_2025.json",
+        "inputs/ranking_target_20261023/rank_tree_2025.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2025.npy"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "evaluate_2025",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "evaluate",
+        "--year",
+        "2025"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv",
+        "deliverables/ranking_target_20261023/fit_return_tree_2025.json",
+        "inputs/ranking_target_20261023/return_tree_2025.joblib",
+        "inputs/ranking_target_20261023/return_tree_2025.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2025.json",
+        "inputs/ranking_target_20261023/rank_tree_2025.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2025.npy"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/evaluation_2025.json",
+        "deliverables/ranking_target_20261023/daily_2025.csv",
+        "deliverables/ranking_target_20261023/monthly_2025.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2025.csv",
+        "inputs/ranking_target_20261023/selected_2025.csv.gz",
+        "inputs/ranking_target_20261023/scored_2025.pkl.gz"
+      ],
+      "timeout_seconds": 300,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "fit_return_tree_2026",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "fit",
+        "--year",
+        "2026",
+        "--objective",
+        "return_tree"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/fit_return_tree_2026.json",
+        "inputs/ranking_target_20261023/return_tree_2026.joblib",
+        "inputs/ranking_target_20261023/return_tree_2026.npy"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "fit_rank_tree_2026",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "fit",
+        "--year",
+        "2026",
+        "--objective",
+        "rank_tree"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/fit_rank_tree_2026.json",
+        "inputs/ranking_target_20261023/rank_tree_2026.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2026.npy"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "evaluate_2026",
+      "command": [
+        "{python}",
+        "ranking_target_research.py",
+        "evaluate",
+        "--year",
+        "2026"
+      ],
+      "inputs": [
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv",
+        "deliverables/ranking_target_20261023/fit_return_tree_2026.json",
+        "inputs/ranking_target_20261023/return_tree_2026.joblib",
+        "inputs/ranking_target_20261023/return_tree_2026.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2026.json",
+        "inputs/ranking_target_20261023/rank_tree_2026.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2026.npy"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/evaluation_2026.json",
+        "deliverables/ranking_target_20261023/daily_2026.csv",
+        "deliverables/ranking_target_20261023/monthly_2026.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2026.csv",
+        "inputs/ranking_target_20261023/selected_2026.csv.gz",
+        "inputs/ranking_target_20261023/scored_2026.pkl.gz"
+      ],
+      "timeout_seconds": 300,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "ranking_target_review.py",
+        "audit"
+      ],
+      "inputs": [
+        "ranking_target_review.py",
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "deliverables/ranking_target_20261023/matrix.json",
+        "inputs/ranking_target_20261023/matrix.pkl.gz",
+        "inputs/ranking_target_20261023/calendar.csv",
+        "deliverables/ranking_target_20261023/evaluation_2024.json",
+        "deliverables/ranking_target_20261023/daily_2024.csv",
+        "deliverables/ranking_target_20261023/monthly_2024.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2024.csv",
+        "inputs/ranking_target_20261023/selected_2024.csv.gz",
+        "inputs/ranking_target_20261023/scored_2024.pkl.gz",
+        "deliverables/ranking_target_20261023/fit_return_tree_2024.json",
+        "inputs/ranking_target_20261023/return_tree_2024.joblib",
+        "inputs/ranking_target_20261023/return_tree_2024.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2024.json",
+        "inputs/ranking_target_20261023/rank_tree_2024.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2024.npy",
+        "deliverables/ranking_target_20261023/evaluation_2025.json",
+        "deliverables/ranking_target_20261023/daily_2025.csv",
+        "deliverables/ranking_target_20261023/monthly_2025.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2025.csv",
+        "inputs/ranking_target_20261023/selected_2025.csv.gz",
+        "inputs/ranking_target_20261023/scored_2025.pkl.gz",
+        "deliverables/ranking_target_20261023/fit_return_tree_2025.json",
+        "inputs/ranking_target_20261023/return_tree_2025.joblib",
+        "inputs/ranking_target_20261023/return_tree_2025.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2025.json",
+        "inputs/ranking_target_20261023/rank_tree_2025.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2025.npy",
+        "deliverables/ranking_target_20261023/evaluation_2026.json",
+        "deliverables/ranking_target_20261023/daily_2026.csv",
+        "deliverables/ranking_target_20261023/monthly_2026.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2026.csv",
+        "inputs/ranking_target_20261023/selected_2026.csv.gz",
+        "inputs/ranking_target_20261023/scored_2026.pkl.gz",
+        "deliverables/ranking_target_20261023/fit_return_tree_2026.json",
+        "inputs/ranking_target_20261023/return_tree_2026.joblib",
+        "inputs/ranking_target_20261023/return_tree_2026.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2026.json",
+        "inputs/ranking_target_20261023/rank_tree_2026.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2026.npy"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/audit.json",
+        "deliverables/ranking_target_20261023/monthly_missing.csv"
+      ],
+      "timeout_seconds": 600,
+      "max_rss_mb": 2200
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "ranking_target_review.py",
+        "report"
+      ],
+      "inputs": [
+        "ranking_target_review.py",
+        "ranking_target_research.py",
+        "research_runtime.py",
+        "research_reassessment.py",
+        "audit_institutional_increment.py",
+        "configs/ranking_target_protocol_20261023.json",
+        "configs/medium_term_protocol.json",
+        "deliverables/ranking_target_20261023/audit.json",
+        "inputs/ranking_target_20261023/calendar.csv",
+        "deliverables/ranking_target_20261023/evaluation_2024.json",
+        "deliverables/ranking_target_20261023/daily_2024.csv",
+        "deliverables/ranking_target_20261023/monthly_2024.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2024.csv",
+        "inputs/ranking_target_20261023/selected_2024.csv.gz",
+        "inputs/ranking_target_20261023/scored_2024.pkl.gz",
+        "deliverables/ranking_target_20261023/fit_return_tree_2024.json",
+        "inputs/ranking_target_20261023/return_tree_2024.joblib",
+        "inputs/ranking_target_20261023/return_tree_2024.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2024.json",
+        "inputs/ranking_target_20261023/rank_tree_2024.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2024.npy",
+        "deliverables/ranking_target_20261023/evaluation_2025.json",
+        "deliverables/ranking_target_20261023/daily_2025.csv",
+        "deliverables/ranking_target_20261023/monthly_2025.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2025.csv",
+        "inputs/ranking_target_20261023/selected_2025.csv.gz",
+        "inputs/ranking_target_20261023/scored_2025.pkl.gz",
+        "deliverables/ranking_target_20261023/fit_return_tree_2025.json",
+        "inputs/ranking_target_20261023/return_tree_2025.joblib",
+        "inputs/ranking_target_20261023/return_tree_2025.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2025.json",
+        "inputs/ranking_target_20261023/rank_tree_2025.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2025.npy",
+        "deliverables/ranking_target_20261023/evaluation_2026.json",
+        "deliverables/ranking_target_20261023/daily_2026.csv",
+        "deliverables/ranking_target_20261023/monthly_2026.csv",
+        "deliverables/ranking_target_20261023/monthly_selected_2026.csv",
+        "inputs/ranking_target_20261023/selected_2026.csv.gz",
+        "inputs/ranking_target_20261023/scored_2026.pkl.gz",
+        "deliverables/ranking_target_20261023/fit_return_tree_2026.json",
+        "inputs/ranking_target_20261023/return_tree_2026.joblib",
+        "inputs/ranking_target_20261023/return_tree_2026.npy",
+        "deliverables/ranking_target_20261023/fit_rank_tree_2026.json",
+        "inputs/ranking_target_20261023/rank_tree_2026.joblib",
+        "inputs/ranking_target_20261023/rank_tree_2026.npy",
+        "deliverables/ranking_target_20261023/monthly_missing.csv"
+      ],
+      "outputs": [
+        "deliverables/ranking_target_20261023/report.md",
+        "deliverables/ranking_target_20261023/summary.json",
+        "deliverables/ranking_target_20261023/next_tasks.json"
+      ],
+      "timeout_seconds": 300,
+      "max_rss_mb": 2200
+    }
+  ]
+}

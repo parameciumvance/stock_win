@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-23T09:37:51.140342+00:00",
+  "protocol_sha256": "25fe3ebf38b369ca647dd24137bf1876d39a35eeb8f552e106349751259aea36",
+  "price_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "source_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "manifest_files": 506,
+  "saved": [
+    "inputs/reassessment_20261016/backup/original_bundle.zip",
+    "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+  ],
+  "sha_crc_manifest_readback_verified": true,
+  "storage": "Existing persistent local original, backup and readback on same filesystem; not offsite",
+  "source_requests": 0
+}

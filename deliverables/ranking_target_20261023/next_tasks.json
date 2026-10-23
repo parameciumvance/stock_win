@@ -1,0 +1,14 @@
+{
+  "status": "closed_objective_branch_gate_failed_no_retuning",
+  "fits_completed": 6,
+  "automatically_tune": false,
+  "automatically_fetch_sources": false,
+  "decision": {
+    "passed": false,
+    "positive_primary_in_all_years": false,
+    "years_beating_both_baselines": 2,
+    "interpretation": "Descriptive predeclared continuation gate on reused history, not independent validation or trading qualification"
+  },
+  "valid_signal_date": null,
+  "orders": 0
+}

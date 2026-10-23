@@ -1,0 +1,7 @@
+{
+  "local_commit": "0c9c0526f93ac44099778cad4160fc2417460038",
+  "tree": "d431fd7b329355821593b7d5150a88273871b374",
+  "local_commit_date": "2026-10-23T17:30:32+08:00",
+  "protocol_sha256": "25fe3ebf38b369ca647dd24137bf1876d39a35eeb8f552e106349751259aea36",
+  "note": "Local Git preregistration created before any fit. Frozen protocol unchanged throughout all six fits. Connected GitHub mirror may use different commit metadata/SHA."
+}

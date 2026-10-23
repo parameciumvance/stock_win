@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "studies": [
+    {
+      "year": 2024,
+      "train_rows": 37706,
+      "train_dates": 60,
+      "last_training_endpoint": "2023-12-29",
+      "test_rows": 169444,
+      "independently_replayed_selection_cohorts": 1016,
+      "unique_selected_endpoints": 47633
+    },
+    {
+      "year": 2025,
+      "train_rows": 203158,
+      "train_dates": 302,
+      "last_training_endpoint": "2024-12-31",
+      "test_rows": 151852,
+      "independently_replayed_selection_cohorts": 1020,
+      "unique_selected_endpoints": 42899
+    },
+    {
+      "year": 2026,
+      "train_rows": 352164,
+      "train_dates": 535,
+      "last_training_endpoint": "2025-12-31",
+      "test_rows": 124283,
+      "independently_replayed_selection_cohorts": 764,
+      "unique_selected_endpoints": 33652
+    }
+  ],
+  "actual_estimators": 6,
+  "protocol_sha256": "25fe3ebf38b369ca647dd24137bf1876d39a35eeb8f552e106349751259aea36",
+  "matrix_sha256": "7ef99860d7f6423476745b40160a40f60bb16897af2557d6f6a483e9a3a8ca33",
+  "max_score_error": 0.0,
+  "max_endpoint_error": 2.220446049250313e-15,
+  "independently_looked_up_endpoints": 124184,
+  "rank_correlations_independently_checked": true,
+  "monthly_missing_sha256": "72a350eed8ba4856123106667152baaa6f818a2cd212057bc447e0665efe44c8",
+  "no_trading_claim": true
+}

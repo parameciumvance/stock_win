@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "observed_at": "2026-10-23T09:43:50.470884+00:00",
+  "command": ".venv/bin/python -m unittest test_ranking_target test_medium_term test_model_failure_diagnostic -v",
+  "tests_run": 40,
+  "new_objective_tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_reported_seconds": 0.224,
+  "code_sha256": {
+    "ranking_target_research.py": "2ba37b746cdf872ef393ec111abf4a061ed67bc5289a968ed75fabf5739cf52e",
+    "ranking_target_review.py": "47fb9519ba0984d4df1b9ed0e0e32a8c4afabe88bba0e599e59bb312dc641bb2",
+    "test_ranking_target.py": "a173fd37998b55a0a29825dbe3b7099c32599e80100d96e348ee3177b2d734ef",
+    "package_ranking_target.py": "5d9707e1b6fc3b9f09bae0376dff23dd68b93a36b2ee2861c04e64e94cdf533f",
+    "audit_institutional_increment.py": "e8e0319ab71559dc36fc44454dedd8f7b2b0b13f9094888f298331912cb60947",
+    "research_reassessment.py": "ee1d9f807a4366470a84d62c2b574ae6b6bb61603b24d68844bb025e428cc9f0",
+    "research_runtime.py": "706ca59728554ef269552202313446c5ae88f075c714ce14478b21c4524e533f",
+    "test_medium_term.py": "340c2b226ce7dc77f5e6c06830b016bfff06d99a1bee8f7d81c3a81e98b10b67",
+    "test_model_failure_diagnostic.py": "d8f979c888a87d39ccda97d8671f5921e94b6335d4875fc0a96f1cbe8f87d96d"
+  },
+  "environment": {
+    "python": "3.14.4",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "fixture_correction": "Initial future-price causality test scaled both entry and exit equally, leaving the endpoint return unchanged; corrected fixture to perturb only later future prices. Pre-signal feature equality already held. No model/data/protocol change.",
+  "scope": "Unit/boundary and existing regression tests; model profitability is assessed separately by frozen exploratory comparisons"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-23T09:45:17.898987+00:00",
+  "archive": "inputs/ranking_target_20261023/ranking_target_checkpoint.zip",
+  "saved": "inputs/ranking_target_20261023/backup/ranking_target_checkpoint.zip",
+  "retrieved": "inputs/ranking_target_20261023/ranking_target_checkpoint.retrieved.zip",
+  "bytes": 97567271,
+  "sha256": "01ef3cb8365dfae30e02c4153dfc133d193f2e89de89df07e7dcabdec1758ec5",
+  "manifest_files": 61,
+  "sha_crc_manifest_roundtrip_verified": true,
+  "estimators": 6,
+  "storage": "Persistent local original/backup/readback; same filesystem, not offsite",
+  "raw_price_archive": "ref/institutional_twse_2023_repro_bundle.zip",
+  "raw_price_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94"
+}

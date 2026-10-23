@@ -4,6 +4,19 @@
   "multiple_testing_note": "Old project includes many explored features and years. This registry tracks major decisions, not every past attempted specification; none of the reused years is a fresh holdout.",
   "records": [
     {
+      "id": "ranking_target_objective_20261023",
+      "status": "closed_predeclared_continuation_gate_failed",
+      "scope": "Six fixed gradient-tree fits: same ten price features, rows, weights and price-only pool; raw60-day net-relative return versus within-date tied percentile target",
+      "protocol": "configs/ranking_target_protocol_20261023.json",
+      "evidence": "deliverables/ranking_target_20261023/report.md",
+      "decision": "Primary dailyTop10% increment +1.126/+0.123/-1.167pp in2024/2025/2026; all60-day block intervals include zero. OverallIC and monthlyTop15 improved, but do not replace the frozen primary outcome. Close objective branch without tuning, data acquisition or trading qualification.",
+      "profit_edge_proven": false,
+      "new_source_requests": 0,
+      "model_fits": 6,
+      "full_test_score_replay": true,
+      "independently_verified_unique_selected_endpoints": 124184
+    },
+    {
       "id": "existing_model_failure_diagnostic_20261023",
       "status": "completed_descriptive_no_refit",
       "scope": "Frozen 60-day Ridge/tree forecasts versus momentum and volatility; same-date, costs, pre-2024 stock groups and overlap attribution",

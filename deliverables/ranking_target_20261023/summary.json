@@ -1,0 +1,513 @@
+{
+  "status": "closed_objective_branch_gate_failed_no_retuning",
+  "protocol_sha256": "25fe3ebf38b369ca647dd24137bf1876d39a35eeb8f552e106349751259aea36",
+  "fits": 6,
+  "source_requests": 0,
+  "years": [
+    {
+      "year": 2024,
+      "daily_dates": 242,
+      "mature_calendar_dates": 242,
+      "daily_common_dates": 203,
+      "excluded_daily_dates": 39,
+      "monthly_dates": 12,
+      "monthly_common_dates": 12,
+      "comparisons": {
+        "return_tree": {
+          "mean": 0.011264711739828652,
+          "monthly_mean": 0.0867427257030308,
+          "intervals": {
+            "20": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.011264711739828652,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.004576940709232643,
+              "upper_95": 0.025749291707493554,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.011264711739828652,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.010174390609543643,
+              "upper_95": 0.026386349040963458,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.011264711739828652,
+              "block": 80,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.009139452689382705,
+              "upper_95": 0.025701785903379293,
+              "undefined_draws": 0
+            }
+          }
+        },
+        "mom60": {
+          "mean": 0.03530448337134852,
+          "monthly_mean": 0.04360473878116078,
+          "intervals": {
+            "20": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.03530448337134852,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.005388338708375539,
+              "upper_95": 0.07118890230294755,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.03530448337134852,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.020009599947550957,
+              "upper_95": 0.07464673430333381,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.03530448337134852,
+              "block": 80,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.018598676469834704,
+              "upper_95": 0.0744854535533263,
+              "undefined_draws": 0
+            }
+          }
+        },
+        "vol20": {
+          "mean": 0.044953411985985375,
+          "monthly_mean": 0.07639049345444214,
+          "intervals": {
+            "20": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.044953411985985375,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": 0.0051425633051734075,
+              "upper_95": 0.08342831462711947,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.044953411985985375,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.011223384854004656,
+              "upper_95": 0.08298550042727873,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 242,
+              "paired_dates": 203,
+              "missing_positions": 39,
+              "mean": 0.044953411985985375,
+              "block": 80,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.010014626090904897,
+              "upper_95": 0.08248981797404084,
+              "undefined_draws": 0
+            }
+          }
+        }
+      },
+      "methods": {
+        "return_tree": {
+          "daily_common_mean": -0.052648755435124484,
+          "monthly_common_mean": -0.11526604085291016,
+          "daily_own_known_dates": 230,
+          "daily_unknown_selected_rows": 12,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": 0.10131499399260624
+        },
+        "rank_tree": {
+          "daily_common_mean": -0.04138404369529583,
+          "monthly_common_mean": -0.02852331514987935,
+          "daily_own_known_dates": 219,
+          "daily_unknown_selected_rows": 26,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": 0.15348347924262742
+        },
+        "mom60": {
+          "daily_common_mean": -0.07668852706664435,
+          "monthly_common_mean": -0.07212805393104012,
+          "daily_own_known_dates": 226,
+          "daily_unknown_selected_rows": 16,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": 0.009336380474033285
+        },
+        "vol20": {
+          "daily_common_mean": -0.08633745568128122,
+          "monthly_common_mean": -0.10491380860432149,
+          "daily_own_known_dates": 233,
+          "daily_unknown_selected_rows": 9,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": -0.1275097324474163
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "daily_dates": 243,
+      "mature_calendar_dates": 243,
+      "daily_common_dates": 135,
+      "excluded_daily_dates": 108,
+      "monthly_dates": 12,
+      "monthly_common_dates": 11,
+      "comparisons": {
+        "return_tree": {
+          "mean": 0.0012309725819322926,
+          "monthly_mean": 0.029080332687175525,
+          "intervals": {
+            "20": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": 0.0012309725819322926,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.02452178217324994,
+              "upper_95": 0.02574169921115328,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": 0.0012309725819322926,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.03246304693130446,
+              "upper_95": 0.03000319180155024,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": 0.0012309725819322926,
+              "block": 80,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.03198014300578089,
+              "upper_95": 0.029481094269585333,
+              "undefined_draws": 0
+            }
+          }
+        },
+        "mom60": {
+          "mean": -0.028196516268459714,
+          "monthly_mean": -0.05994368211870509,
+          "intervals": {
+            "20": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": -0.02819651626845969,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.11899782202101235,
+              "upper_95": 0.05538330533371348,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": -0.02819651626845969,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.1555022617286395,
+              "upper_95": 0.07443306038690335,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": -0.02819651626845969,
+              "block": 80,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.15404225835904473,
+              "upper_95": 0.07419235311164475,
+              "undefined_draws": 0
+            }
+          }
+        },
+        "vol20": {
+          "mean": -0.034749995186813376,
+          "monthly_mean": 0.010727683815108193,
+          "intervals": {
+            "20": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": -0.03474999518681338,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.12683907252854984,
+              "upper_95": 0.05227501124773241,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": -0.03474999518681338,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.1512986213824769,
+              "upper_95": 0.06311971732019216,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 243,
+              "paired_dates": 135,
+              "missing_positions": 108,
+              "mean": -0.03474999518681338,
+              "block": 80,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.1464439832440528,
+              "upper_95": 0.05602626152980328,
+              "undefined_draws": 0
+            }
+          }
+        }
+      },
+      "methods": {
+        "return_tree": {
+          "daily_common_mean": -0.07627190766664001,
+          "monthly_common_mean": -0.08621795459539897,
+          "daily_own_known_dates": 192,
+          "daily_unknown_selected_rows": 690,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": -0.001441049832244156
+        },
+        "rank_tree": {
+          "daily_common_mean": -0.07504093508470772,
+          "monthly_common_mean": -0.05713762190822344,
+          "daily_own_known_dates": 147,
+          "daily_unknown_selected_rows": 751,
+          "monthly_own_known_dates": 11,
+          "monthly_unknown_selected_rows": 1,
+          "rank_ic_common_observed": 0.05873299325697908
+        },
+        "mom60": {
+          "daily_common_mean": -0.04684441881624801,
+          "monthly_common_mean": 0.0028060602104816664,
+          "daily_own_known_dates": 230,
+          "daily_unknown_selected_rows": 648,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": -0.002864754672869012
+        },
+        "vol20": {
+          "daily_common_mean": -0.04029093989789434,
+          "monthly_common_mean": -0.06786530572333165,
+          "daily_own_known_dates": 214,
+          "daily_unknown_selected_rows": 664,
+          "monthly_own_known_dates": 12,
+          "monthly_unknown_selected_rows": 0,
+          "rank_ic_common_observed": -0.03625353474300561
+        }
+      }
+    },
+    {
+      "year": 2026,
+      "daily_dates": 181,
+      "mature_calendar_dates": 122,
+      "daily_common_dates": 69,
+      "excluded_daily_dates": 112,
+      "monthly_dates": 10,
+      "monthly_common_dates": 4,
+      "comparisons": {
+        "return_tree": {
+          "mean": -0.011666206235750393,
+          "monthly_mean": 0.13549113903544183,
+          "intervals": {
+            "20": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": -0.011666206235750393,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.11086778979900071,
+              "upper_95": 0.05673067809794301,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": -0.011666206235750393,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.12967631534524834,
+              "upper_95": 0.04594644175742402,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": -0.011666206235750393,
+              "block": 80,
+              "status": "insufficient_paired_dates_no_shortened_block"
+            }
+          }
+        },
+        "mom60": {
+          "mean": 0.04612698148001451,
+          "monthly_mean": 0.14007951460992407,
+          "intervals": {
+            "20": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": 0.04612698148001451,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.12452587825745363,
+              "upper_95": 0.16383243365382352,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": 0.04612698148001451,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.15404275844046597,
+              "upper_95": 0.1544347999037255,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": 0.04612698148001451,
+              "block": 80,
+              "status": "insufficient_paired_dates_no_shortened_block"
+            }
+          }
+        },
+        "vol20": {
+          "mean": 0.057074950314945534,
+          "monthly_mean": 0.1231681796603122,
+          "intervals": {
+            "20": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": 0.057074950314945534,
+              "block": 20,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.09281276175565072,
+              "upper_95": 0.15872610342883303,
+              "undefined_draws": 0
+            },
+            "60": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": 0.057074950314945534,
+              "block": 60,
+              "status": "descriptive_circular_block_interval",
+              "lower_95": -0.12237226616749639,
+              "upper_95": 0.16052225647426013,
+              "undefined_draws": 0
+            },
+            "80": {
+              "calendar_positions": 122,
+              "paired_dates": 69,
+              "missing_positions": 53,
+              "mean": 0.057074950314945534,
+              "block": 80,
+              "status": "insufficient_paired_dates_no_shortened_block"
+            }
+          }
+        }
+      },
+      "methods": {
+        "return_tree": {
+          "daily_common_mean": -0.04231724405225066,
+          "monthly_common_mean": -0.12230429595687314,
+          "daily_own_known_dates": 74,
+          "daily_unknown_selected_rows": 4089,
+          "monthly_own_known_dates": 5,
+          "monthly_unknown_selected_rows": 47,
+          "rank_ic_common_observed": 0.11510382145845456
+        },
+        "rank_tree": {
+          "daily_common_mean": -0.053983450288001056,
+          "monthly_common_mean": 0.013186843078568676,
+          "daily_own_known_dates": 72,
+          "daily_unknown_selected_rows": 4091,
+          "monthly_own_known_dates": 4,
+          "monthly_unknown_selected_rows": 48,
+          "rank_ic_common_observed": 0.18882504776917594
+        },
+        "mom60": {
+          "daily_common_mean": -0.10011043176801554,
+          "monthly_common_mean": -0.1268926715313554,
+          "daily_own_known_dates": 122,
+          "daily_unknown_selected_rows": 4041,
+          "monthly_own_known_dates": 7,
+          "monthly_unknown_selected_rows": 45,
+          "rank_ic_common_observed": -0.0735299235298469
+        },
+        "vol20": {
+          "daily_common_mean": -0.11105840060294658,
+          "monthly_common_mean": -0.10998133658174353,
+          "daily_own_known_dates": 119,
+          "daily_unknown_selected_rows": 4044,
+          "monthly_own_known_dates": 7,
+          "monthly_unknown_selected_rows": 45,
+          "rank_ic_common_observed": -0.17259750726445566
+        }
+      }
+    }
+  ],
+  "continuation_gate": {
+    "passed": false,
+    "positive_primary_in_all_years": false,
+    "years_beating_both_baselines": 2,
+    "interpretation": "Descriptive predeclared continuation gate on reused history, not independent validation or trading qualification"
+  },
+  "limitations": [
+    "Already researched2024-2026, not a fresh holdout",
+    "Price-only pool is a separately declared controlled comparison, not old full-feature model reproduction",
+    "Adjusted prices are frozen research proxies; historical publication/version and universe limitations remain",
+    "Overlapping60-day windows are not independent trades, annual returns or NAV",
+    "Proportional costs omit minimum fees, turnover and actual fills; benchmark gross as frozen",
+    "Rank fitting is squared-error regression on percentile labels, not pairwise learning-to-rank; it does not predict calibrated return or probability"
+  ],
+  "valid_signal_date": null,
+  "orders": 0
+}

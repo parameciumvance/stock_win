@@ -1,0 +1,18 @@
+{
+  "year": 2025,
+  "status": "complete",
+  "dates": 243,
+  "monthly_dates": 12,
+  "protocol_sha256": "25fe3ebf38b369ca647dd24137bf1876d39a35eeb8f552e106349751259aea36",
+  "input_fit_sha256": {
+    "deliverables/ranking_target_20261023/fit_return_tree_2025.json": "c26cf6c48e0e4bd5135cfe53a82e1948571b2441729ce094ea0e116ceee11609",
+    "deliverables/ranking_target_20261023/fit_rank_tree_2025.json": "026035137fd799f6da609f0dd9a4b2bcc742931b50e49dee46e7b7e5088e8a91"
+  },
+  "output_sha256": {
+    "deliverables/ranking_target_20261023/daily_2025.csv": "56723700beb240729292fdbff298d11d5896469950b374804d682f43b6fdf8d0",
+    "deliverables/ranking_target_20261023/monthly_2025.csv": "850fe70c1a3cac9cf497a199fbb7ea6a2e00a308d3a6d791f9ea1328eb751c0b",
+    "inputs/ranking_target_20261023/selected_2025.csv.gz": "c4f112ee46e71b6a6a5d501803a235d74f9d58e55a3845a4302f1e162ab24fa2",
+    "deliverables/ranking_target_20261023/monthly_selected_2025.csv": "e4099860caa73e7faec56e7ff695bf3bff8cc0d1ad631639be1a99534c95d9f8",
+    "inputs/ranking_target_20261023/scored_2025.pkl.gz": "7d51fbf7b8f226702216c96bd5665387a4c54ee00c112369d4d47572e139ee9c"
+  }
+}

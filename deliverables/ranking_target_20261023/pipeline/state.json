@@ -1,0 +1,420 @@
+{
+  "stages": {
+    "verify_sources": {
+      "status": "complete",
+      "fingerprint": "5bbfde3e9ac9d6bce694e2ec2a27466d3817e57794b4f4212bffdbde6485ae5a",
+      "started_at": "2026-10-23T09:37:44.940904+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:37:44.941091+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/verify_sources.1792748264944342459.log",
+      "peak_observed_rss_bytes": 196812800,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 6.518190632981714,
+      "outputs": {
+        "deliverables/ranking_target_20261023/source_receipt.json": "40e5683d33eeb736ec6cac82b7ca3f54762901d37af3054586e3bf8cd8120a30"
+      },
+      "finished_at": "2026-10-23T09:37:51.469108+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:37:51.469223+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "prepare": {
+      "status": "complete",
+      "fingerprint": "0e7fb30cc113593b596d7c75034813a8ae8834e1f0b386e169d5662541ffed69",
+      "started_at": "2026-10-23T09:37:51.491218+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:37:51.491383+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/prepare.1792748271496756540.log",
+      "peak_observed_rss_bytes": 501264384,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 10.01373575895559,
+      "outputs": {
+        "deliverables/ranking_target_20261023/matrix.json": "31efc220eec2c23bba600202cd69e9f8c4212cda3891dc4c98ae367c1f4f8e27",
+        "inputs/ranking_target_20261023/matrix.pkl.gz": "7ef99860d7f6423476745b40160a40f60bb16897af2557d6f6a483e9a3a8ca33",
+        "inputs/ranking_target_20261023/calendar.csv": "67af0d0245bc60fba183c155fab97761d527f6563d64ff7e3338ba73f02a7522"
+      },
+      "finished_at": "2026-10-23T09:38:01.725639+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:01.725768+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "fit_return_tree_2024": {
+      "status": "complete",
+      "fingerprint": "75372fd6fa79541bf4c4e4b7cccf24615fda2b5c7434326123a0b2ca940cad62",
+      "started_at": "2026-10-23T09:38:01.745601+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:01.745746+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/fit_return_tree_2024.1792748281749070962.log",
+      "peak_observed_rss_bytes": 312020992,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.005256624019239,
+      "outputs": {
+        "deliverables/ranking_target_20261023/fit_return_tree_2024.json": "89a8fe85e718c08f27cf5b5932e84422b0111f32dc2cd12326196c783471187b",
+        "inputs/ranking_target_20261023/return_tree_2024.joblib": "c61ed31f83482f0308940d7371df714091c79532dc9aa46c6ca756bba04b28b3",
+        "inputs/ranking_target_20261023/return_tree_2024.npy": "f7b2261ce9f7b43815337d00bbb9ea38802a40c455d17a7e7d0ff9598328b890"
+      },
+      "finished_at": "2026-10-23T09:38:03.761607+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:03.761720+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "fit_rank_tree_2024": {
+      "status": "complete",
+      "fingerprint": "96c3d947bb7b6d6b477467f60db9b977e00aafba432b6ffe8a3e7fb33ed75849",
+      "started_at": "2026-10-23T09:38:03.780576+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:03.780731+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/fit_rank_tree_2024.1792748283784074036.log",
+      "peak_observed_rss_bytes": 312135680,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.5049017849960364,
+      "outputs": {
+        "deliverables/ranking_target_20261023/fit_rank_tree_2024.json": "a366cd1e0b941a60c015f6b8286584e6c5794839413576937b311598376628fc",
+        "inputs/ranking_target_20261023/rank_tree_2024.joblib": "f1b2b1db096e5460c22db9d574e34e1b1a63f8b7b019084e19b05509cc1bd522",
+        "inputs/ranking_target_20261023/rank_tree_2024.npy": "ca52f5ef609daaf7590ca79abdefc1de4dc5422e8bcfdafb22857017851095e0"
+      },
+      "finished_at": "2026-10-23T09:38:06.297173+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:06.297328+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "evaluate_2024": {
+      "status": "complete",
+      "fingerprint": "865015956f4351a0fff9be7cd36aebaad266dc08db89523cac3d30574181dc08",
+      "started_at": "2026-10-23T09:38:06.321206+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:06.321333+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/evaluate_2024.1792748286326100890.log",
+      "peak_observed_rss_bytes": 314642432,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.507490751973819,
+      "outputs": {
+        "deliverables/ranking_target_20261023/evaluation_2024.json": "d214784dfc78afd1822ac473d0aadc54af9a115e0d4be2baec60d65a68cae64c",
+        "deliverables/ranking_target_20261023/daily_2024.csv": "b305a2b4acbb6f93ec42bb0ba0a9d603c2de6a9dd91cf8aef325066c5312b455",
+        "deliverables/ranking_target_20261023/monthly_2024.csv": "053e901dc6ba5af74e89bac37d492a1961165c2f0b1f65404cef0b739f33b908",
+        "deliverables/ranking_target_20261023/monthly_selected_2024.csv": "19b6e59ca9d84e9def41920c90d35ac9e9684aa091c28f842ec734e76d0f59f0",
+        "inputs/ranking_target_20261023/selected_2024.csv.gz": "7172d3cae25df157e1b218f3f23bf2e37c8caa3e68283d05fa32df03cddc1ffb",
+        "inputs/ranking_target_20261023/scored_2024.pkl.gz": "c2b5de65be3b3f8f03addcd8ecd4cc2d508378a885510375c63eacdeb5564c90"
+      },
+      "finished_at": "2026-10-23T09:38:10.940624+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:10.940869+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "fit_return_tree_2025": {
+      "status": "complete",
+      "fingerprint": "e698010fd3f3defd80977852e930f359da485e691be64795b13ba4ba884057c6",
+      "started_at": "2026-10-23T09:38:10.959620+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:10.959760+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/fit_return_tree_2025.1792748290965362472.log",
+      "peak_observed_rss_bytes": 360443904,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.5064926199847832,
+      "outputs": {
+        "deliverables/ranking_target_20261023/fit_return_tree_2025.json": "c26cf6c48e0e4bd5135cfe53a82e1948571b2441729ce094ea0e116ceee11609",
+        "inputs/ranking_target_20261023/return_tree_2025.joblib": "481a053408cda8f5d0a3a188dd96ab4da7d55313237774634f93c6a94991ae15",
+        "inputs/ranking_target_20261023/return_tree_2025.npy": "a515bab7159ccbad672d05e7f607ec8db1894b55d35fcb283ae34d8592b7c6cf"
+      },
+      "finished_at": "2026-10-23T09:38:13.479004+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:13.479125+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "fit_rank_tree_2025": {
+      "status": "complete",
+      "fingerprint": "0a6378f07b383a1426eb8b64900a4a2b454003e9b6306ac275de4d3c6faff95e",
+      "started_at": "2026-10-23T09:38:13.497689+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:13.497844+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/fit_rank_tree_2025.1792748293500834144.log",
+      "peak_observed_rss_bytes": 361078784,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.513526205031667,
+      "outputs": {
+        "deliverables/ranking_target_20261023/fit_rank_tree_2025.json": "026035137fd799f6da609f0dd9a4b2bcc742931b50e49dee46e7b7e5088e8a91",
+        "inputs/ranking_target_20261023/rank_tree_2025.joblib": "806e4c9d40c3965d9a20c2993c59619edc1785516e5db21c8fa37151e5e8fab2",
+        "inputs/ranking_target_20261023/rank_tree_2025.npy": "23981d1a1b06a9f6852071fb42c8c6a114872dbaf730f891ca4c6ae90fc646fd"
+      },
+      "finished_at": "2026-10-23T09:38:16.022870+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:16.022973+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "evaluate_2025": {
+      "status": "complete",
+      "fingerprint": "9f6ee22d3be88095579bb140914c392f3340e91563766cbdcbe031645a06f45f",
+      "started_at": "2026-10-23T09:38:16.043775+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:16.043908+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/evaluate_2025.1792748296048292275.log",
+      "peak_observed_rss_bytes": 331878400,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.5140418719965965,
+      "outputs": {
+        "deliverables/ranking_target_20261023/evaluation_2025.json": "1058a6dc3f817219de67b93e154ef3f7ed45ecd81bc8fabc7bc177c7614c2118",
+        "deliverables/ranking_target_20261023/daily_2025.csv": "56723700beb240729292fdbff298d11d5896469950b374804d682f43b6fdf8d0",
+        "deliverables/ranking_target_20261023/monthly_2025.csv": "850fe70c1a3cac9cf497a199fbb7ea6a2e00a308d3a6d791f9ea1328eb751c0b",
+        "deliverables/ranking_target_20261023/monthly_selected_2025.csv": "e4099860caa73e7faec56e7ff695bf3bff8cc0d1ad631639be1a99534c95d9f8",
+        "inputs/ranking_target_20261023/selected_2025.csv.gz": "c4f112ee46e71b6a6a5d501803a235d74f9d58e55a3845a4302f1e162ab24fa2",
+        "inputs/ranking_target_20261023/scored_2025.pkl.gz": "7d51fbf7b8f226702216c96bd5665387a4c54ee00c112369d4d47572e139ee9c"
+      },
+      "finished_at": "2026-10-23T09:38:20.666831+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:20.667045+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "fit_return_tree_2026": {
+      "status": "complete",
+      "fingerprint": "84227983a3774f45a525335c7eb6aa8461ad8004908194f7e5614536755f20d7",
+      "started_at": "2026-10-23T09:38:20.695618+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:20.695774+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/fit_return_tree_2026.1792748300703932834.log",
+      "peak_observed_rss_bytes": 422404096,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 3.00781131896656,
+      "outputs": {
+        "deliverables/ranking_target_20261023/fit_return_tree_2026.json": "7a2affb5ec617d363b608a2d8baf68218dbec2cb0f5a1d71eb72c7e6e6551159",
+        "inputs/ranking_target_20261023/return_tree_2026.joblib": "a228c7906de2113dc699b52b19b98940abb651d8e623d08c5bc5aa72d8ee82e1",
+        "inputs/ranking_target_20261023/return_tree_2026.npy": "5cb7a5250514f20fed5435c688de04f23ea8ab5c0e4e1ac57a81d0609ccfa862"
+      },
+      "finished_at": "2026-10-23T09:38:23.721006+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:23.721188+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "fit_rank_tree_2026": {
+      "status": "complete",
+      "fingerprint": "4c67e986d3a5fff8a0964cf4f0d7c348861789f1d4b939facf0d207270adbad8",
+      "started_at": "2026-10-23T09:38:23.739170+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:23.739310+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/fit_rank_tree_2026.1792748303743744414.log",
+      "peak_observed_rss_bytes": 422666240,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 3.005616942013148,
+      "outputs": {
+        "deliverables/ranking_target_20261023/fit_rank_tree_2026.json": "ef97613337a2f874e70618ae9fa07a6237542db68de7805ae376ec002d05fb5e",
+        "inputs/ranking_target_20261023/rank_tree_2026.joblib": "56b1c19468789853b005e7997d4aa2ce93c30f0bf6eb20543404b59f5525e46d",
+        "inputs/ranking_target_20261023/rank_tree_2026.npy": "4d80f08f0bc6174bf51c6a6f392efaadc7b8004a5821805bcc01af9cf0933ef3"
+      },
+      "finished_at": "2026-10-23T09:38:26.755174+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:26.755304+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "evaluate_2026": {
+      "status": "complete",
+      "fingerprint": "de0a1f28ba7734bc2a468152202abee33fe9ab19fd297ff5a84dc52aef9618cb",
+      "started_at": "2026-10-23T09:38:26.777096+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:38:26.777230+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/evaluate_2026.1792748306781686797.log",
+      "peak_observed_rss_bytes": 295780352,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 4.008481449971441,
+      "outputs": {
+        "deliverables/ranking_target_20261023/evaluation_2026.json": "7fcdda629a6751504b774467e88e3f1bc5cddf3e1e478616ac913fdbf23463ad",
+        "deliverables/ranking_target_20261023/daily_2026.csv": "de247be1405533a7ae3ea531a3ff8448046a564082095ee3d60b68e7e89010e0",
+        "deliverables/ranking_target_20261023/monthly_2026.csv": "f12d187b10718ff026703753a8b0baf1f24f4bebfb74e8d64d032adf24a929f6",
+        "deliverables/ranking_target_20261023/monthly_selected_2026.csv": "602beaed9be4c4884be06b58f3ee0d00bc1989afeafa583abce54753c1a5e833",
+        "inputs/ranking_target_20261023/selected_2026.csv.gz": "7222b00f273f2bba51eb23d599837cb3e1387701fcf3c623c2c69511aebcdffb",
+        "inputs/ranking_target_20261023/scored_2026.pkl.gz": "5c961e92e5e9999b94c2e46d8b6becf5109613b3c58efa0914ce59db998c6347"
+      },
+      "finished_at": "2026-10-23T09:38:30.867887+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:38:30.868073+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "84c4dc57cfb825c0b033cc5254676e4497f2e2ab2e75c993fbbcfbecf19e021f",
+      "started_at": "2026-10-23T09:43:15.007589+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:43:15.007732+00:00",
+        "runtime_identity": "8bf7ae35d1417f868262b33e2f4cefd896f56ee42a3cc2b30c19ec8e07509220",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/audit.1792748595013736789.log",
+      "peak_observed_rss_bytes": 929579008,
+      "elapsed_seconds": 20.528210459975526,
+      "exit_code": 0,
+      "exit_signal": null,
+      "outputs": {
+        "deliverables/ranking_target_20261023/audit.json": "0fe3b2f8e59b0640a3d832db2431907ba78ded1e8e5d6e1b82cf8340ded2f867",
+        "deliverables/ranking_target_20261023/monthly_missing.csv": "72a350eed8ba4856123106667152baaa6f818a2cd212057bc447e0665efe44c8"
+      },
+      "finished_at": "2026-10-23T09:43:35.548147+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:43:35.548257+00:00",
+        "runtime_identity": "8bf7ae35d1417f868262b33e2f4cefd896f56ee42a3cc2b30c19ec8e07509220",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "b41634928f6863279bd2236e43656f16d8446e790f9efbe1680d3ff573597856",
+      "started_at": "2026-10-23T09:43:35.579827+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:43:35.579951+00:00",
+        "runtime_identity": "8bf7ae35d1417f868262b33e2f4cefd896f56ee42a3cc2b30c19ec8e07509220",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/ranking_target_20261023/pipeline/logs/report.1792748615586132300.log",
+      "peak_observed_rss_bytes": 174247936,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 1.5056099949870259,
+      "outputs": {
+        "deliverables/ranking_target_20261023/report.md": "2d95e5361754493c6de5b673be79b8b1a2cd91a6a19b88bf183a2d13c121dd14",
+        "deliverables/ranking_target_20261023/summary.json": "756247b30dec9fbc8546e2e892109d79d77f7d51d2d218adbba2697fd5271a28",
+        "deliverables/ranking_target_20261023/next_tasks.json": "14aadebfde4d95976204da903f56e0161678b3f27b13f8797e09dca8d956367c"
+      },
+      "finished_at": "2026-10-23T09:43:37.100448+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:43:37.100551+00:00",
+        "runtime_identity": "8bf7ae35d1417f868262b33e2f4cefd896f56ee42a3cc2b30c19ec8e07509220",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-23T09:43:14.131797+00:00",
+  "runtime_identity": "8bf7ae35d1417f868262b33e2f4cefd896f56ee42a3cc2b30c19ec8e07509220",
+  "active": {},
+  "heartbeat_at": "2026-10-23T09:43:37.104891+00:00",
+  "current_stage": "report",
+  "finished_at": "2026-10-23T09:43:37.104874+00:00"
+}

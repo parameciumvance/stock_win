@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "rows": 519715,
+  "price_date_range": [
+    "2023-01-03",
+    "2026-10-02"
+  ],
+  "path": "inputs/ranking_target_20261023/matrix.pkl.gz",
+  "sha256": "7ef99860d7f6423476745b40160a40f60bb16897af2557d6f6a483e9a3a8ca33",
+  "calendar_sha256": "67af0d0245bc60fba183c155fab97761d527f6563d64ff7e3338ba73f02a7522",
+  "protocol_sha256": "25fe3ebf38b369ca647dd24137bf1876d39a35eeb8f552e106349751259aea36",
+  "features": [
+    "r1",
+    "r5",
+    "r20",
+    "r60",
+    "vol20",
+    "atr14",
+    "ma5_20",
+    "ma20_60",
+    "volume5_20",
+    "log_turnover20"
+  ],
+  "source_receipt_sha256": "40e5683d33eeb736ec6cac82b7ca3f54762901d37af3054586e3bf8cd8120a30",
+  "scope": "New explicitly price-only pool; not restored old full-feature matrix"
+}
