@@ -1,0 +1,75 @@
+{
+  "recorded_at": "2026-10-23T06:16:56.087393+00:00",
+  "actual_source_observations": [
+    {
+      "request": {
+        "filename": "pre_maturity_announcements_form.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t198sb04_q1",
+        "method": "GET"
+      },
+      "observed_at": "2026-10-23T06:11:12.580313+00:00",
+      "request_started_at": "2026-10-23T06:11:12.089242+00:00",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "df69305eff96fc16b408ae9525b8065b77a7311771aab53f21d651a1580604bd"
+    },
+    {
+      "request": {
+        "filename": "convertible_announcements_form.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t108sb08",
+        "method": "GET"
+      },
+      "observed_at": "2026-10-23T06:11:12.412726+00:00",
+      "request_started_at": "2026-10-23T06:11:12.090595+00:00",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "6f47d431a4228c4bb4d526b000bd2bf808cda2c83c6ab1c4cf3417d8c9de4bf7"
+    },
+    {
+      "request": {
+        "filename": "99587_notices_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=9958&year=115&month=&b_date=&e_date="
+      },
+      "observed_at": "2026-10-23T06:13:50.005699+00:00",
+      "request_started_at": "2026-10-23T06:13:49.762374+00:00",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "57020287ce73ddc2cbbfaa6a429bb447bdd00d421531f03cb0b99eaded0dab4e"
+    },
+    {
+      "request": {
+        "filename": "68351_notices_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=6835&year=115&month=&b_date=&e_date="
+      },
+      "observed_at": "2026-10-23T06:13:50.352378+00:00",
+      "request_started_at": "2026-10-23T06:13:49.763581+00:00",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "8ea5ae6881c361370645f40bfcf1540e674477703de87c84a1436ac72b65fbed"
+    },
+    {
+      "request": {
+        "filename": "68741_notices_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=6874&year=115&month=&b_date=&e_date="
+      },
+      "observed_at": "2026-10-23T06:13:50.270241+00:00",
+      "request_started_at": "2026-10-23T06:13:50.012765+00:00",
+      "http_status": 200,
+      "exit_code": 0,
+      "sha256": "c7463d7c21e38f4e37d78c89ef98fc107e374440f93ac6c2a82275b02aa535b3"
+    }
+  ],
+  "transport_errors": [],
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "price_quote_requests": 0,
+  "root_cause_inferred": false,
+  "git_terminal_push_error": "could not read Username for https://github.com: No such device or address; completed via connected GitHub expected_sha ref update",
+  "source_gate_passed": false
+}

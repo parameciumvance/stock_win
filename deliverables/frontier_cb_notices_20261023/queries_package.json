@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_notices_20261023/queries.zip",
+  "sha256": "f807032e09dcdf23b9f5c491b95b0ace475b67187ee458133f4f117edf829295",
+  "manifest_files": 13,
+  "created_at": "2026-10-23T06:13:50.837941+00:00",
+  "retrieved": "inputs/frontier_cb_notices_20261023/queries.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_notices_20261023/queries_transfer.json",
+  "backup_label": "frontier_cb_notices_20261023_queries"
+}

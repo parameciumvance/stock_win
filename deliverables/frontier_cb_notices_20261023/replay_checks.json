@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-23T06:16:56.087393+00:00",
+  "stages": [
+    {
+      "stage": "forms_acquire",
+      "outputs": {
+        "inputs/frontier_cb_notices_20261023/raw_forms/results.json": "a14566050f52bb1c6bf2e670adab8d64bc556e005316df497aafc6f4b3cdea77"
+      },
+      "fingerprint": "a3edbd2346ba2d9af0a6ecd84f9e2a40daf7c8fb3a936cf90b9f5c5b9f8ddd86",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8052736,
+      "elapsed_seconds": 0.5087633400107734
+    },
+    {
+      "stage": "forms_package",
+      "outputs": {
+        "deliverables/frontier_cb_notices_20261023/forms_package.json": "3b5c2f049a2d9f601c4be3ec96ae92d9e03fe7fa460520d48865c816f8a38991"
+      },
+      "fingerprint": "87e2565badb04c866faf696bf13c22e56d00effca1115ec6fb1ecaf63cc2f62e",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7303168,
+      "elapsed_seconds": 0.5057313190191053
+    },
+    {
+      "stage": "forms_verify",
+      "outputs": {
+        "deliverables/frontier_cb_notices_20261023/source_receipt_forms.json": "18baf0ac3027c9bc72c74fe321c1cbc089b90ce30d6825f16e90ff396517ad1b"
+      },
+      "fingerprint": "e254d10eb4f1bcbe89331ef556bedaac0de650c161ce7df690df389d815d34f4",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7819264,
+      "elapsed_seconds": 0.5080016630236059
+    },
+    {
+      "stage": "queries_acquire",
+      "outputs": {
+        "inputs/frontier_cb_notices_20261023/raw_queries/results.json": "59003ff961450f3b7b386033a237b9d4f771ea07e622a2c665bc6945467c874e"
+      },
+      "fingerprint": "1c4c7709369e46b7601e1c5fb3b7c90407c21b0f0e02886ad08e10987b1681b0",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8884224,
+      "elapsed_seconds": 0.5099432329880074
+    },
+    {
+      "stage": "queries_package",
+      "outputs": {
+        "deliverables/frontier_cb_notices_20261023/queries_package.json": "65d766cd4a2218739ab868d318d97073ed25c8c340a5ed876b067d7fc956767b"
+      },
+      "fingerprint": "a7802d6afd17bcee8732ed32daec61e04c3e957fe5c11b26ab664fb5964a29de",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7598080,
+      "elapsed_seconds": 0.5057146060280502
+    },
+    {
+      "stage": "queries_verify",
+      "outputs": {
+        "deliverables/frontier_cb_notices_20261023/source_receipt_queries.json": "8cc101c04d2aa7ce5ecbf3ef29f80113c38701515605aa4211784d3bd3a3d909"
+      },
+      "fingerprint": "5d8df06f584dc49ae3f6241dd2313896f7594496eaf7e5045bbf97f16bc33485",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8032256,
+      "elapsed_seconds": 0.508364264969714
+    },
+    {
+      "stage": "notice_forms_and_all_query_rows",
+      "outputs": {
+        "deliverables/frontier_cb_notices_20261023/forms_inventory.json": "55c862a457f959e14568ee4234363d737f696080c6d3b1ef2302bc56e6c51ff7",
+        "deliverables/frontier_cb_notices_20261023/queries_inventory.json": "d9cd0b33e6fd25cec88e8dd1e191b1455f6bac2893c7e5115d833e4d7474c7ea",
+        "inputs/frontier_cb_notices_20261023/queries_full.json": "0bd9d5214e7999c57bb34d58d37822403c11e57d6bf75dd8ac974f8aa877051f"
+      },
+      "fingerprint": "ce4547bdb4e6972d91bdd00ec624079193a9eaa8fb0438fdf5f25b00367ed92e",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7102464,
+      "elapsed_seconds": 0.5077394969994202
+    }
+  ],
+  "second_pass_all_verified_skips": true,
+  "prior_member_checks": 541,
+  "source_archives_not_refetched": true
+}

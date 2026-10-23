@@ -1,0 +1,2152 @@
+{
+  "source_archive_sha256": "1013c6512d7364bd8729510ef2e5edc0f12cd376905a1a5a90bddb7093fbb117",
+  "forms": [
+    {
+      "filename": "pre_maturity_announcements_form.html",
+      "body_sha256": "df69305eff96fc16b408ae9525b8065b77a7311771aab53f21d651a1580604bd",
+      "forms": [
+        {
+          "name": "fh",
+          "method": "post",
+          "action": "/mops/web/ajax_autoComplete",
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "id": "firstin",
+              "value": "1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "TYPEK",
+              "id": "TYPEK",
+              "value": "all",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "id": "step",
+              "value": "1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "funcName",
+              "value": "t198sb04_q1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "searchtype",
+              "id": "searchtype",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "inpuType",
+              "id": "inpuType",
+              "value": "keyword",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "auto-more",
+              "id": "auto-more",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "keycon",
+              "value": "",
+              "options": []
+            },
+            {
+              "name": "keyword",
+              "type": "text",
+              "class": "textbox",
+              "id": "keyword",
+              "size": "45",
+              "oninput": "document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);",
+              "onkeydown": "chkKeyDown(this.form , this , \"auto-complete-data\" , event);",
+              "onkeyup": "document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);",
+              "onblur": "setTimeout(function(){hideDiv('auto-complete-data');} , 200);",
+              "onclick": "this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');",
+              "placeholder": "\u8acb\u8f38\u5165\u516c\u53f8\u4ee3\u865f\u3001\u7c21\u7a31\uff0c\u6216\u5831\u8868\u95dc\u9375\u5b57",
+              "autocomplete": "off",
+              "options": []
+            },
+            {
+              "type": "button",
+              "name": "rulesubmit",
+              "id": "rulesubmit",
+              "value": " \u641c\u5c0b ",
+              "onclick": "document.fh.action='/mops/web/autoAction';document.fh.submit();",
+              "options": []
+            }
+          ]
+        },
+        {
+          "name": "fh2",
+          "method": "post",
+          "action": "",
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "usually",
+              "id": "usually",
+              "value": "",
+              "options": []
+            }
+          ]
+        },
+        {
+          "name": "form1",
+          "method": "post",
+          "action": "/mops/web/ajax_t198sb04_q1",
+          "controls": [
+            {
+              "type": "hidden",
+              "id": "subMenuID",
+              "value": "[10]",
+              "options": []
+            }
+          ]
+        },
+        {
+          "name": "autoForm1",
+          "method": "post",
+          "action": "/mops/web/ajax_t198sb04",
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "TYPEK",
+              "value": "all",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "9",
+              "options": []
+            }
+          ]
+        }
+      ],
+      "external_scripts": [
+        "js/calendarcode_en.js",
+        "js/jquery-3.6.0.min.js",
+        "js/mops2.js",
+        "js/outerScript/t198sb04.js"
+      ]
+    },
+    {
+      "filename": "convertible_announcements_form.html",
+      "body_sha256": "6f47d431a4228c4bb4d526b000bd2bf808cda2c83c6ab1c4cf3417d8c9de4bf7",
+      "forms": [
+        {
+          "name": "fh",
+          "method": "post",
+          "action": "/mops/web/ajax_autoComplete",
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "id": "firstin",
+              "value": "1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "TYPEK",
+              "id": "TYPEK",
+              "value": "all",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "id": "step",
+              "value": "1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "funcName",
+              "value": "t108sb08",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "searchtype",
+              "id": "searchtype",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "inpuType",
+              "id": "inpuType",
+              "value": "keyword",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "auto-more",
+              "id": "auto-more",
+              "value": "",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "keycon",
+              "value": "",
+              "options": []
+            },
+            {
+              "name": "keyword",
+              "type": "text",
+              "class": "textbox",
+              "id": "keyword",
+              "size": "45",
+              "oninput": "document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);",
+              "onkeydown": "chkKeyDown(this.form , this , \"auto-complete-data\" , event);",
+              "onkeyup": "document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);",
+              "onblur": "setTimeout(function(){hideDiv('auto-complete-data');} , 200);",
+              "onclick": "this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');",
+              "placeholder": "\u8acb\u8f38\u5165\u516c\u53f8\u4ee3\u865f\u3001\u7c21\u7a31\uff0c\u6216\u5831\u8868\u95dc\u9375\u5b57",
+              "autocomplete": "off",
+              "options": []
+            },
+            {
+              "type": "button",
+              "name": "rulesubmit",
+              "id": "rulesubmit",
+              "value": " \u641c\u5c0b ",
+              "onclick": "document.fh.action='/mops/web/autoAction';document.fh.submit();",
+              "options": []
+            }
+          ]
+        },
+        {
+          "name": "fh2",
+          "method": "post",
+          "action": "",
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "usually",
+              "id": "usually",
+              "value": "",
+              "options": []
+            }
+          ]
+        },
+        {
+          "name": "form1",
+          "method": "post",
+          "action": "/mops/web/ajax_t108sb08",
+          "controls": [
+            {
+              "type": "hidden",
+              "id": "subMenuID",
+              "value": "[10,10010,10010003]",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "ture",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "off",
+              "value": "1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "keyword4",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "code1",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "TYPEK2",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "checkbtn",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "queryName",
+              "value": "co_id",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "inpuType",
+              "value": "co_id",
+              "options": []
+            },
+            {
+              "type": "hidden",
+              "name": "TYPEK",
+              "value": "all",
+              "options": []
+            },
+            {
+              "id": "isnew",
+              "name": "isnew",
+              "options": [
+                {
+                  "value": "true",
+                  "text": "\u6700\u65b0\u8cc7\u6599"
+                },
+                {
+                  "value": "false",
+                  "text": "\u6b77\u53f2\u8cc7\u6599"
+                }
+              ]
+            },
+            {
+              "name": "co_id",
+              "type": "text",
+              "class": "textbox",
+              "id": "co_id",
+              "value": "",
+              "size": "10",
+              "oninput": "autoComplete(this.form , 'co_id' , 'auto-complete-data' , event);",
+              "onkeydown": "{if(event.keyCode==13){document.getElementById('year').focus(); hideDiv2(this); return false;}else{chkKeyDown(document.form1 , this , 'auto-complete-data' , event);}}",
+              "onkeyup": "autoComplete(this.form , 'co_id' , 'auto-complete-data' , event);",
+              "onblur": "setTimeout(function(){hideDiv('auto-complete-data');} , 200);",
+              "onclick": "this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');",
+              "autocomplete": "off",
+              "options": []
+            },
+            {
+              "name": "year",
+              "type": "text",
+              "class": "textbox",
+              "id": "year",
+              "value": "",
+              "size": "3",
+              "maxlength": "3",
+              "onkeydown": "{if(event.keyCode==13){document.getElementById('month').focus(); return false;}}",
+              "options": []
+            },
+            {
+              "name": "month",
+              "id": "month",
+              "options": [
+                {
+                  "value": "",
+                  "text": "\u5168\u5e74\u5ea6"
+                },
+                {
+                  "value": "01",
+                  "text": "1"
+                },
+                {
+                  "value": "02",
+                  "text": "2"
+                },
+                {
+                  "value": "03",
+                  "text": "3"
+                },
+                {
+                  "value": "04",
+                  "text": "4"
+                },
+                {
+                  "value": "05",
+                  "text": "5"
+                },
+                {
+                  "value": "06",
+                  "text": "6"
+                },
+                {
+                  "value": "07",
+                  "text": "7"
+                },
+                {
+                  "value": "08",
+                  "text": "8"
+                },
+                {
+                  "value": "09",
+                  "text": "9"
+                },
+                {
+                  "value": "10",
+                  "text": "10"
+                },
+                {
+                  "value": "11",
+                  "text": "11"
+                },
+                {
+                  "value": "12",
+                  "text": "12"
+                }
+              ]
+            },
+            {
+              "name": "b_date",
+              "id": "b_date",
+              "options": [
+                {
+                  "value": "",
+                  "text": ""
+                },
+                {
+                  "value": "01",
+                  "text": "1"
+                },
+                {
+                  "value": "02",
+                  "text": "2"
+                },
+                {
+                  "value": "03",
+                  "text": "3"
+                },
+                {
+                  "value": "04",
+                  "text": "4"
+                },
+                {
+                  "value": "05",
+                  "text": "5"
+                },
+                {
+                  "value": "06",
+                  "text": "6"
+                },
+                {
+                  "value": "07",
+                  "text": "7"
+                },
+                {
+                  "value": "08",
+                  "text": "8"
+                },
+                {
+                  "value": "09",
+                  "text": "9"
+                },
+                {
+                  "value": "10",
+                  "text": "10"
+                },
+                {
+                  "value": "11",
+                  "text": "11"
+                },
+                {
+                  "value": "12",
+                  "text": "12"
+                },
+                {
+                  "value": "13",
+                  "text": "13"
+                },
+                {
+                  "value": "14",
+                  "text": "14"
+                },
+                {
+                  "value": "15",
+                  "text": "15"
+                },
+                {
+                  "value": "16",
+                  "text": "16"
+                },
+                {
+                  "value": "17",
+                  "text": "17"
+                },
+                {
+                  "value": "18",
+                  "text": "18"
+                },
+                {
+                  "value": "19",
+                  "text": "19"
+                },
+                {
+                  "value": "20",
+                  "text": "20"
+                },
+                {
+                  "value": "21",
+                  "text": "21"
+                },
+                {
+                  "value": "22",
+                  "text": "22"
+                },
+                {
+                  "value": "23",
+                  "text": "23"
+                },
+                {
+                  "value": "24",
+                  "text": "24"
+                },
+                {
+                  "value": "25",
+                  "text": "25"
+                },
+                {
+                  "value": "26",
+                  "text": "26"
+                },
+                {
+                  "value": "27",
+                  "text": "27"
+                },
+                {
+                  "value": "28",
+                  "text": "28"
+                },
+                {
+                  "value": "29",
+                  "text": "29"
+                },
+                {
+                  "value": "30",
+                  "text": "30"
+                },
+                {
+                  "value": "31",
+                  "text": "31"
+                }
+              ]
+            },
+            {
+              "name": "e_date",
+              "id": "e_date",
+              "options": [
+                {
+                  "value": "",
+                  "text": ""
+                },
+                {
+                  "value": "01",
+                  "text": "1"
+                },
+                {
+                  "value": "02",
+                  "text": "2"
+                },
+                {
+                  "value": "03",
+                  "text": "3"
+                },
+                {
+                  "value": "04",
+                  "text": "4"
+                },
+                {
+                  "value": "05",
+                  "text": "5"
+                },
+                {
+                  "value": "06",
+                  "text": "6"
+                },
+                {
+                  "value": "07",
+                  "text": "7"
+                },
+                {
+                  "value": "08",
+                  "text": "8"
+                },
+                {
+                  "value": "09",
+                  "text": "9"
+                },
+                {
+                  "value": "10",
+                  "text": "10"
+                },
+                {
+                  "value": "11",
+                  "text": "11"
+                },
+                {
+                  "value": "12",
+                  "text": "12"
+                },
+                {
+                  "value": "13",
+                  "text": "13"
+                },
+                {
+                  "value": "14",
+                  "text": "14"
+                },
+                {
+                  "value": "15",
+                  "text": "15"
+                },
+                {
+                  "value": "16",
+                  "text": "16"
+                },
+                {
+                  "value": "17",
+                  "text": "17"
+                },
+                {
+                  "value": "18",
+                  "text": "18"
+                },
+                {
+                  "value": "19",
+                  "text": "19"
+                },
+                {
+                  "value": "20",
+                  "text": "20"
+                },
+                {
+                  "value": "21",
+                  "text": "21"
+                },
+                {
+                  "value": "22",
+                  "text": "22"
+                },
+                {
+                  "value": "23",
+                  "text": "23"
+                },
+                {
+                  "value": "24",
+                  "text": "24"
+                },
+                {
+                  "value": "25",
+                  "text": "25"
+                },
+                {
+                  "value": "26",
+                  "text": "26"
+                },
+                {
+                  "value": "27",
+                  "text": "27"
+                },
+                {
+                  "value": "28",
+                  "text": "28"
+                },
+                {
+                  "value": "29",
+                  "text": "29"
+                },
+                {
+                  "value": "30",
+                  "text": "30"
+                },
+                {
+                  "value": "31",
+                  "text": "31"
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "value": " \u67e5\u8a62 ",
+              "onclick": "javascript:doAction();ajax1(document.form1,'table01');",
+              "options": []
+            }
+          ]
+        }
+      ],
+      "external_scripts": [
+        "js/jquery-3.6.0.min.js",
+        "js/mops2.js"
+      ]
+    }
+  ],
+  "query_proofs": [
+    {
+      "source_body_sha256": "6f47d431a4228c4bb4d526b000bd2bf808cda2c83c6ab1c4cf3417d8c9de4bf7",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/t108sb08",
+      "form_action": "/mops/web/ajax_t108sb08",
+      "method": "POST",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "isnew",
+          "true"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "year",
+          ""
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "select_options": {
+        "isnew": [
+          {
+            "value": "true",
+            "text": "\u6700\u65b0\u8cc7\u6599"
+          },
+          {
+            "value": "false",
+            "text": "\u6b77\u53f2\u8cc7\u6599"
+          }
+        ],
+        "month": [
+          {
+            "value": "",
+            "text": "\u5168\u5e74\u5ea6"
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          }
+        ],
+        "b_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ],
+        "e_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ]
+      },
+      "inline_script_sha256": [
+        "5891fe84451c1844c47d0d6fe092e12cd276837716a06bb01578633d075f21de",
+        "d1c638f46ac7a497e42232a63f3ebc086bc9234bc54225a65fde8268b98969b1",
+        "5ef37f0695787bb2a4fb0bef1b5ef499468248aba940cced2c3081aa8cdc0129"
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "isnew",
+          "false"
+        ],
+        [
+          "co_id",
+          "9958"
+        ],
+        [
+          "year",
+          "115"
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=9958&year=115&month=&b_date=&e_date=",
+      "query_scope": "ROC115/full year as of actual observation; no month/day restriction",
+      "issuer": "9958",
+      "javascript_executed": false,
+      "notice_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "source_body_sha256": "6f47d431a4228c4bb4d526b000bd2bf808cda2c83c6ab1c4cf3417d8c9de4bf7",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/t108sb08",
+      "form_action": "/mops/web/ajax_t108sb08",
+      "method": "POST",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "isnew",
+          "true"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "year",
+          ""
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "select_options": {
+        "isnew": [
+          {
+            "value": "true",
+            "text": "\u6700\u65b0\u8cc7\u6599"
+          },
+          {
+            "value": "false",
+            "text": "\u6b77\u53f2\u8cc7\u6599"
+          }
+        ],
+        "month": [
+          {
+            "value": "",
+            "text": "\u5168\u5e74\u5ea6"
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          }
+        ],
+        "b_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ],
+        "e_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ]
+      },
+      "inline_script_sha256": [
+        "5891fe84451c1844c47d0d6fe092e12cd276837716a06bb01578633d075f21de",
+        "d1c638f46ac7a497e42232a63f3ebc086bc9234bc54225a65fde8268b98969b1",
+        "5ef37f0695787bb2a4fb0bef1b5ef499468248aba940cced2c3081aa8cdc0129"
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "isnew",
+          "false"
+        ],
+        [
+          "co_id",
+          "6835"
+        ],
+        [
+          "year",
+          "115"
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=6835&year=115&month=&b_date=&e_date=",
+      "query_scope": "ROC115/full year as of actual observation; no month/day restriction",
+      "issuer": "6835",
+      "javascript_executed": false,
+      "notice_verified": false,
+      "source_gate_passed": false
+    },
+    {
+      "source_body_sha256": "6f47d431a4228c4bb4d526b000bd2bf808cda2c83c6ab1c4cf3417d8c9de4bf7",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/t108sb08",
+      "form_action": "/mops/web/ajax_t108sb08",
+      "method": "POST",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "isnew",
+          "true"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "year",
+          ""
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "select_options": {
+        "isnew": [
+          {
+            "value": "true",
+            "text": "\u6700\u65b0\u8cc7\u6599"
+          },
+          {
+            "value": "false",
+            "text": "\u6b77\u53f2\u8cc7\u6599"
+          }
+        ],
+        "month": [
+          {
+            "value": "",
+            "text": "\u5168\u5e74\u5ea6"
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          }
+        ],
+        "b_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ],
+        "e_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ]
+      },
+      "inline_script_sha256": [
+        "5891fe84451c1844c47d0d6fe092e12cd276837716a06bb01578633d075f21de",
+        "d1c638f46ac7a497e42232a63f3ebc086bc9234bc54225a65fde8268b98969b1",
+        "5ef37f0695787bb2a4fb0bef1b5ef499468248aba940cced2c3081aa8cdc0129"
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "isnew",
+          "false"
+        ],
+        [
+          "co_id",
+          "6874"
+        ],
+        [
+          "year",
+          "115"
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=6874&year=115&month=&b_date=&e_date=",
+      "query_scope": "ROC115/full year as of actual observation; no month/day restriction",
+      "issuer": "6874",
+      "javascript_executed": false,
+      "notice_verified": false,
+      "source_gate_passed": false
+    }
+  ],
+  "source_gate_passed": false,
+  "all_returned_controls_preserved": true
+}

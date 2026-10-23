@@ -1,0 +1,43 @@
+{
+  "source_archive_sha256": "1013c6512d7364bd8729510ef2e5edc0f12cd376905a1a5a90bddb7093fbb117",
+  "source_member": "raw/pre_maturity_announcements_form.html",
+  "body_sha256": "df69305eff96fc16b408ae9525b8065b77a7311771aab53f21d651a1580604bd",
+  "form_attributes": {
+    "name": "autoForm1",
+    "action": "/mops/web/ajax_t198sb04",
+    "method": "post",
+    "onsubmit": "return false;"
+  },
+  "controls": [
+    {
+      "type": "hidden",
+      "name": "run",
+      "value": ""
+    },
+    {
+      "type": "hidden",
+      "name": "firstin",
+      "value": "true"
+    },
+    {
+      "type": "hidden",
+      "name": "TYPEK",
+      "value": "all"
+    },
+    {
+      "type": "hidden",
+      "name": "step",
+      "value": "9"
+    }
+  ],
+  "auto_load_script_sha256": "dba20cda31a4b6f172e6f0a4d08cf3d0bc33b68901f0dfa66d6ad6fac3daae55",
+  "auto_load_literal": "ajax1(document.autoForm1,'search');",
+  "request": {
+    "filename": "pre_maturity_search_controls.html",
+    "url": "https://mopsov.twse.com.tw/mops/web/ajax_t198sb04",
+    "method": "POST",
+    "data": "run=&firstin=true&TYPEK=all&step=9"
+  },
+  "issuer_parameters_guessed": false,
+  "source_gate_passed": false
+}

@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-23T06:13:19.370766+00:00",
+  "protocol_sha256": "33594977c7f2958cf8dfcdb5d741efb8b28f7e3427ca0224dff5cb9ced67defe",
+  "path": "configs/frontier_cb_notices_queries_sources_20261023.json",
+  "sha256": "9fe787439de7dfb4db8a0e412486fe6fcccf8cb1278f6c190e018870e77baa06",
+  "requests": 3,
+  "selection": {
+    "path": "deliverables/frontier_cb_notices_20261023/queries_selection.json",
+    "sha256": "db7b82d6ed7ec32ffed37ba37267620b1c0d177d5824e6e09a8b62e5550a0b30"
+  },
+  "after_form_source_archive_readback": true,
+  "before_issuer_queries": true,
+  "query_scope": "All returned ROC115 notices per issuer; no year outcome or positive category selected"
+}

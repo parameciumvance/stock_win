@@ -1,0 +1,18 @@
+{
+  "output_directory": "inputs/frontier_cb_notices_20261023/raw_forms",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "pre_maturity_announcements_form.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t198sb04_q1",
+      "method": "GET"
+    },
+    {
+      "filename": "convertible_announcements_form.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t108sb08",
+      "method": "GET"
+    }
+  ]
+}

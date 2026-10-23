@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-23T06:16:56.087393+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "-q",
+    "test_frontier_cb_notices_sources",
+    "test_frontier_cb_notice_forms"
+  ],
+  "exit_code": 0,
+  "tests": 9,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n"
+}

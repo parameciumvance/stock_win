@@ -1,0 +1,26 @@
+{
+  "output_directory": "inputs/frontier_cb_notices_20261023/raw_queries",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "99587_notices_115.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=9958&year=115&month=&b_date=&e_date="
+    },
+    {
+      "filename": "68351_notices_115.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=6835&year=115&month=&b_date=&e_date="
+    },
+    {
+      "filename": "68741_notices_115.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t108sb08",
+      "method": "POST",
+      "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&isnew=false&co_id=6874&year=115&month=&b_date=&e_date="
+    }
+  ]
+}

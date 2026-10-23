@@ -1,0 +1,289 @@
+{
+  "source_archive_sha256": "f807032e09dcdf23b9f5c491b95b0ace475b67187ee458133f4f117edf829295",
+  "documents": [
+    {
+      "bond_code": "99587",
+      "issuer": "9958",
+      "filename": "99587_notices_115.html",
+      "body_sha256": "57020287ce73ddc2cbbfaa6a429bb447bdd00d421531f03cb0b99eaded0dab4e",
+      "observed_at": "2026-10-23T06:13:50.005699+00:00",
+      "returned_section_labels": [
+        "\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u8f49\u63db\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u505c\u6b62\u8a8d\u8cfc\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u904e\u6236\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u505c\u6b62\u904e\u6236\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u958b\u59cb\u8f49\u63db\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u9996\u6b21\u8f49\u63db\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u958b\u59cb\u8a8d\u8cfc\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u9996\u6b21\u8a8d\u8cfc\u516c\u544a",
+        "\u53ef\u6301\u7e8c\u767c\u5c55\u9023\u7d50\u50b5\u5238(SLB)\u672c\u606f\u652f\u4ed8\u689d\u4ef6\u8b8a\u52d5\u516c\u544a"
+      ],
+      "all_notices": [
+        {
+          "raw_row_number": 3,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/06/25"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "1"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u4e03\uff0c\u4ee3\u78bc\uff1a99587)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        },
+        {
+          "raw_row_number": 4,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/07/28"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "1"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u4e03\uff0c\u4ee3\u78bc\uff1a99587)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        },
+        {
+          "raw_row_number": 5,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/06/25"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "2"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u516b\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u516b\u6c38\uff0c\u4ee3\u78bc\uff1a99588)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        },
+        {
+          "raw_row_number": 6,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/07/28"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "2"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u516b\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u516b\u6c38\uff0c\u4ee3\u78bc\uff1a99588)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detail_buttons": [
+        "document.fm.bro_date.value=\"1150702\";document.fm.co_id.value=\"9958\";document.fm.seq_no.value=\"1\";document.fm.date1.value=\"1150625\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");",
+        "document.fm.bro_date.value=\"1150803\";document.fm.co_id.value=\"9958\";document.fm.seq_no.value=\"1\";document.fm.date1.value=\"1150728\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");",
+        "document.fm.bro_date.value=\"1150702\";document.fm.co_id.value=\"9958\";document.fm.seq_no.value=\"2\";document.fm.date1.value=\"1150625\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");",
+        "document.fm.bro_date.value=\"1150803\";document.fm.co_id.value=\"9958\";document.fm.seq_no.value=\"2\";document.fm.date1.value=\"1150728\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");"
+      ],
+      "missing_sections_as_returned": [],
+      "all_html_rows_sha256": "61ba77ca88faac0744fd32ca0206959db4df62afe504977f5579c1067e4c08c5",
+      "holder_put_notice_verified": false,
+      "absence_of_holder_puts_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "bond_code": "68351",
+      "issuer": "6835",
+      "filename": "68351_notices_115.html",
+      "body_sha256": "8ea5ae6881c361370645f40bfcf1540e674477703de87c84a1436ac72b65fbed",
+      "observed_at": "2026-10-23T06:13:50.352378+00:00",
+      "returned_section_labels": [
+        "\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u8f49\u63db\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u505c\u6b62\u8a8d\u8cfc\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u904e\u6236\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u505c\u6b62\u904e\u6236\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u958b\u59cb\u8f49\u63db\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u9996\u6b21\u8f49\u63db\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u958b\u59cb\u8a8d\u8cfc\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u9996\u6b21\u8a8d\u8cfc\u516c\u544a",
+        "\u53ef\u6301\u7e8c\u767c\u5c55\u9023\u7d50\u50b5\u5238(SLB)\u672c\u606f\u652f\u4ed8\u689d\u4ef6\u8b8a\u52d5\u516c\u544a"
+      ],
+      "all_notices": [
+        {
+          "raw_row_number": 3,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/06/03"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "1"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u5713\u88d5\u4e00\uff0c\u4ee3\u78bc\uff1a68351)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detail_buttons": [
+        "document.fm.bro_date.value=\"1150608\";document.fm.co_id.value=\"6835\";document.fm.seq_no.value=\"1\";document.fm.date1.value=\"1150603\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");"
+      ],
+      "missing_sections_as_returned": [],
+      "all_html_rows_sha256": "f680ecbb415294bf56629c0f0bd23bd22f829c57fe6973bd6f7a222b139d68d8",
+      "holder_put_notice_verified": false,
+      "absence_of_holder_puts_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "bond_code": "68741",
+      "issuer": "6874",
+      "filename": "68741_notices_115.html",
+      "body_sha256": "c7463d7c21e38f4e37d78c89ef98fc107e374440f93ac6c2a82275b02aa535b3",
+      "observed_at": "2026-10-23T06:13:50.270241+00:00",
+      "returned_section_labels": [
+        "\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u8f49\u63db\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u505c\u6b62\u8a8d\u8cfc\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u904e\u6236\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u505c\u6b62\u904e\u6236\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u958b\u59cb\u8f49\u63db\u516c\u544a",
+        "\u8f49\u63db\u516c\u53f8\u50b5\u9996\u6b21\u8f49\u63db\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u958b\u59cb\u8a8d\u8cfc\u516c\u544a",
+        "\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5\u9996\u6b21\u8a8d\u8cfc\u516c\u544a",
+        "\u53ef\u6301\u7e8c\u767c\u5c55\u9023\u7d50\u50b5\u5238(SLB)\u672c\u606f\u652f\u4ed8\u689d\u4ef6\u8b8a\u52d5\u516c\u544a"
+      ],
+      "all_notices": [
+        {
+          "raw_row_number": 3,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/03/12"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "1"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u500d\u529b\u4e00\uff0c\u4ee3\u78bc\uff1a68741)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        },
+        {
+          "raw_row_number": 4,
+          "cells": [
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "115/08/07"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": "1"
+            },
+            {
+              "tag": "td",
+              "attributes": {
+                "style": "text-align:left !important;"
+              },
+              "text": "\u516c\u544a\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u500d\u529b\u4e00\uff0c\u4ee3\u78bc\uff1a68741)\u505c\u6b62\u53d7\u7406\u8f49\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002"
+            },
+            {
+              "tag": "td",
+              "attributes": {},
+              "text": ""
+            }
+          ]
+        }
+      ],
+      "detail_buttons": [
+        "document.fm.bro_date.value=\"1150326\";document.fm.co_id.value=\"6874\";document.fm.seq_no.value=\"1\";document.fm.date1.value=\"1150312\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");",
+        "document.fm.bro_date.value=\"1150813\";document.fm.co_id.value=\"6874\";document.fm.seq_no.value=\"1\";document.fm.date1.value=\"1150807\";document.fm.step.value=\"2\";document.fm.action=\"/mops/web/ajax_t108sb08\";openWindow(this.form ,\"\");"
+      ],
+      "missing_sections_as_returned": [],
+      "all_html_rows_sha256": "4bfdbf5ecf170ea84544a33975edb7b9fd21605a93dac7f11a0b706ed6962c8b",
+      "holder_put_notice_verified": false,
+      "absence_of_holder_puts_proven": false,
+      "source_gate_passed": false
+    }
+  ],
+  "full_inventory_sha256": "0bd9d5214e7999c57bb34d58d37822403c11e57d6bf75dd8ac974f8aa877051f",
+  "meaning": "All response categories/rows preserved, including other issues; this interface is not proof of holder-put notice availability or absence.",
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false,
+  "orders_authorized": false
+}

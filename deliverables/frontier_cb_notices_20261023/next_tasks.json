@@ -1,0 +1,16 @@
+{
+  "status": "continue_authorized",
+  "next_stage": "frontier_cb_notice_search_20261023",
+  "reason": "t108sb08 returned nine conversion-related categories, not holder-put notices. Actual t198sb04_q1 autoForm1 declares a POST to load its missing controls.",
+  "next_exact_pointer": "deliverables/frontier_cb_notices_20261023/dynamic_form_pointer.json",
+  "new_separate_request_cap": 7,
+  "new_batch_cap": 3,
+  "cumulative_CB_actual_before_next": 26,
+  "cumulative_CB_cap_after_next": 33,
+  "unused_one_request_reused": false,
+  "planned_requests": "1dynamic-controls POST, up to3same-control searches, up to3source-bound details",
+  "user_decision_required": false,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}
