@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-23T07:26:21.927560+00:00",
+  "stages": [
+    {
+      "stage": "calendar_acquire",
+      "outputs": {
+        "inputs/frontier_cb_calendar_completion_20261023/raw_calendar/results.json": "4637149834dcd49ae29b26b7977ad80a80d866cd9ddaf06999ea26abd0b96ded"
+      },
+      "fingerprint": "ed965891a3faea5dde49c6f65336a1deb31d75b90319c69bf469d0505f020b1c",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 49172480,
+      "elapsed_seconds": 1.0113982140319422
+    },
+    {
+      "stage": "calendar_package",
+      "outputs": {
+        "deliverables/frontier_cb_calendar_completion_20261023/calendar_package.json": "e8862be9a3d938fa6eff54d60c433352655cd0ecb19f1577be05597557fb7855"
+      },
+      "fingerprint": "55f997643ddc7a3430033c65281b5db4f5f14c0cd03a04a1e5736327852123e4",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8675328,
+      "elapsed_seconds": 0.5168328689760529
+    },
+    {
+      "stage": "calendar_verify",
+      "outputs": {
+        "deliverables/frontier_cb_calendar_completion_20261023/source_receipt_calendar.json": "5b380dd24d0177ca99fa7ae6fb917ed838381eab22f9afe92fb5a4770a74b569"
+      },
+      "fingerprint": "bae8a4810be27e58b6a5d45074b8552211f5ac9afde1d8cf8aeb50dd16ab3752",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7680000,
+      "elapsed_seconds": 0.5053478989866562
+    },
+    {
+      "stage": "calendar_and_conditional_entry_comparison",
+      "outputs": {
+        "deliverables/frontier_cb_calendar_completion_20261023/calendar_and_entry_scenarios.json": "a388426542e2ed13772766a8dec8b736f17decdcdc1355aee9de11246bfae9e0"
+      },
+      "fingerprint": "1d87e08575068e735527c7ce2f4e584a411b44e4f7e787d83199e339a5baae06",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8114176,
+      "elapsed_seconds": 0.5074822180322371
+    }
+  ],
+  "second_pass_all_verified_skips": true,
+  "prior_member_checks": 740
+}

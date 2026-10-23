@@ -1,0 +1,52 @@
+{
+  "scope": "Oneactual TWSE annual-calendar payload completing prior routing; same3CBcontrols, no price study",
+  "max_saved_requests": 1,
+  "max_source_batches": 1,
+  "workers": 2,
+  "automatic_retries": 0,
+  "prior_checkpoints": {
+    "deliverables/buyback_preflight_20261020/checkpoint.json": "bd6a5621c172d741f9b57d21ab7a1d084fe409bbbbb9950e115caf3d1424fbaa",
+    "deliverables/buyback_coverage_20261020/checkpoint.json": "124e5621710ebdbaf068d6555b0946b880a6f7b05be33e7d92e676e40a781958",
+    "deliverables/buyback_probe_20261020/checkpoint.json": "826ee004fd85d4438be317a39c0e20215c0f281c845631906ed0e1f4252d372e",
+    "deliverables/discrete_accounting_20261020/checkpoint.json": "bf70e0067673fdec96ee98db836f92d52b25218ad242f67c516d2d60cf33f4b3",
+    "deliverables/rebalance_accounting_20261020/checkpoint.json": "d9be5f6b8a088319ae027e6bceb4cfe15610ecf0e63813f7022d199e0e17a2ee",
+    "deliverables/risk_control_20261018/checkpoint.json": "964593092abc5cfbb7a5bbe23dc2a6b15f63f36f6c1fad3e67430303410c76b0",
+    "deliverables/benchmark_cash_20261019/checkpoint.json": "ca37a3518d180e3d61cac8eb93c0b0b740e1a363a3dab6433e05122e5eb21517",
+    "deliverables/frontier_20261020/checkpoint.json": "a8c7083ade2b815df9bc16d3f60bc710b4eaaff7a2e951badb036f9df90f04fb",
+    "deliverables/cash_merger_20261021/checkpoint.json": "6640717e5aa9f14cff7ceecebc7eab5a933eef9ba130a66b8766df0aa73e9599",
+    "deliverables/cash_merger_census_20261021/checkpoint.json": "cdb2fe2f9e87611f694b29d6bcf6c2214a3a943f2ad751370f613c75eafa6adf",
+    "deliverables/cash_merger_current_20261021/checkpoint.json": "50de82617e8b10802e9807462f894f75751d9a59b97f52eafa8e879912b9edb2",
+    "deliverables/cash_merger_current_followthrough_20261022/checkpoint.json": "75e28620609106a198607692eecdb71c8473bbb6af2812e0152b83fa30beaaf4",
+    "deliverables/cash_merger_documents_20261022/checkpoint.json": "a312c30686bd5dec2d27dfbfc976fa71a7dac6abfe3dfbe31b33069ad501c7c4",
+    "deliverables/cash_merger_pdf_transfer_20261022/checkpoint.json": "7d0e2b3de25f08ac89fe62ea4748fe6fd3df34ef3f87c2d89f7e00fa87ffa8b3",
+    "deliverables/cash_merger_claim_20261022/checkpoint.json": "3a130cc9a785018b957c1e2345fdd7d3818e995b40fa1b50736d37a3739946dc",
+    "deliverables/frontier_cb_contract_20261022/checkpoint.json": "fd351ab8eaa87e89bbcf1fc127b7d2b58b1576911633c393032482fca501b8fc",
+    "deliverables/frontier_cb_documents_20261023/checkpoint.json": "2580c3750abd60ef5d9d07fa8fd2ca2c24b176c265ba7bafd2742b2e1ce18721",
+    "deliverables/frontier_cb_notices_20261023/checkpoint.json": "ac3a4e7c10481b2b7f446ee7627d395f23212f0479da3bb10f438854ff36e015",
+    "deliverables/frontier_cb_notice_search_20261023/checkpoint.json": "6ec04dd5ee89c4515d9e54031d0f7a44a2cad2b1f7d8479414add9309d63f071",
+    "deliverables/frontier_cb_major_20261023/checkpoint.json": "4221103278d7c6e8471c332ca33054f2f9173202d87f06a7fd6c2b22c50e37f9",
+    "deliverables/frontier_cb_material_rows_20261023/checkpoint.json": "0398cbb1a8fc885bf6878f9b87aea3439fb9d2ba400c8ad00465cc54879480a6",
+    "deliverables/frontier_cb_operations_20261023/checkpoint.json": "e73e542b5103a91705c3dacc1e16dcfca2b22eac7d6e0e29cf6293fdd1dff6e9"
+  },
+  "batches": {
+    "calendar": {
+      "path": "configs/frontier_cb_calendar_completion_sources_20261023.json",
+      "sha256": "f1d98d212938416e8e4aea15b26d942ab54d2a716f94a88203708a1204f6c620",
+      "requests": 1
+    }
+  },
+  "selection": {
+    "path": "deliverables/frontier_cb_calendar_completion_20261023/selection.json",
+    "sha256": "7efe237c9d9903a250f40aec06fc560a13256ce97c7e5c54f3446d02a58f9aa0"
+  },
+  "ledger": {
+    "prior_CB_raw_requests": 59,
+    "cumulative_raw_cap": 60,
+    "cumulative_web_search_queries": 12,
+    "old_budget_reused": false
+  },
+  "models_to_fit": 0,
+  "parameter_searches": 0,
+  "manual_download_requests": 0,
+  "orders_authorized": false
+}

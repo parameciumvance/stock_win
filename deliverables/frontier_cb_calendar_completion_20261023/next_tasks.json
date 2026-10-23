@@ -1,0 +1,40 @@
+{
+  "status": "waiting_for_external_event_or_market_observation",
+  "user_decision_required": false,
+  "user_data_or_credentials_required": null,
+  "next_scheduled_market_observation": "2026-10-27",
+  "schedule_conditional_on_no_new_closure": true,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "external_gates": [
+    {
+      "control": "99587",
+      "issue": "Illustrative T+2 purchase on10/27settles10/29afterbroker10/27cutoff; earliernegotiateddeliveryandacceptancenotverified. Notapprovedfornew-entryobservation."
+    },
+    {
+      "control": "68351",
+      "issue": "T+2calendarcomparisoncanfit10/30butdoesnotestablishavailablebalance, intradayacceptance, currenttermscoverage, executableprice/quantity, fees/tax/net orcredit/payment."
+    },
+    {
+      "control": "68741",
+      "issue": "Actualfixedissuerlistingdoesnotcontainrelevantputnotice; absenceisnotproven. Retainunqualifiedcase."
+    },
+    {
+      "control": "6674",
+      "issue": "Previouslysavedcashconversionremainspendingfuture11/9meetingandclosingconditions; do not fabricate approvals or payment."
+    }
+  ],
+  "prospective_requirements": [
+    "Ifcontinuingonefiniteevent-windowcheck: obtainfreshsourcesandtimestampsbeforeanynewentrydate, separatelyfreezeactualqueryscope, archive/backup/readbackbeforequalification",
+    "NoOct14/15/23signalbackfill",
+    "Do not restart252daymanualvalidation",
+    "Source gate must pass before economicstudy; freeze economicprotocol before inspecting returns",
+    "No third source pilot or replacement control silently added"
+  ],
+  "deferred_outputs": [
+    "valid_signal",
+    "order",
+    "performance_claim"
+  ],
+  "background_execution_promised": false
+}

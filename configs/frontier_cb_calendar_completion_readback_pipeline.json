@@ -1,0 +1,31 @@
+{
+  "stages": [
+    {
+      "id": "calendar_verify",
+      "command": [
+        "{python}",
+        "frontier_cb_calendar_completion_sources.py",
+        "verify"
+      ],
+      "inputs": [
+        "frontier_cb_calendar_completion_sources.py",
+        "frontier_cb_operations_replay.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_calendar_completion_protocol_20261023.json",
+        "deliverables/frontier_cb_calendar_completion_20261023/selection.json",
+        "deliverables/frontier_cb_calendar_completion_20261023/protocol_freeze.json",
+        "configs/frontier_cb_calendar_completion_sources_20261023.json",
+        "deliverables/frontier_cb_operations_20261023/checkpoint.json"
+      ],
+      "outputs": [
+        "deliverables/frontier_cb_calendar_completion_20261023/source_receipt_calendar.json"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

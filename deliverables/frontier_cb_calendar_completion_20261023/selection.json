@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T01:00:11.583959+00:00",
+  "source_report_sha256": "ae7833385a794c2178957c82051e01c6a15f868193cb83c86df1b2dce4adf2fa",
+  "source_report_records": 389,
+  "source_report_fields": [
+    "\u767c\u884c\u6a5f\u69cb\u4ee3\u78bc",
+    "\u767c\u884c\u6a5f\u69cb\u540d\u7a31",
+    "\u50b5\u5238\u540d\u7a31",
+    "\u639b\u724c\u65e5\u671f",
+    "\u767c\u884c\u8cc7\u6599"
+  ],
+  "source_report_archive_sha256": "01c86216ee132344d8349de1afbdd762a511fd261f28f8545ea012aecfaaa7da",
+  "source_report_observed_at_utc": "2026-10-23T00:53:01.310247+00:00",
+  "source_original_selection_sha256": "1d3845ebd01c06513eaf62cf688b5ed607d7804e6f88c085a079ef27531a293e",
+  "original_calendar_population_count": 29,
+  "original_calendar_fields": [
+    "\u4ee3\u865f",
+    "\u540d\u7a31",
+    "\u8ce3\u56de\u65e5\u671f",
+    "\u8ce3\u56de\u91d1\u984d",
+    "\u8ce3\u56de\u6536\u76ca\u7387(%)"
+  ],
+  "original_calendar_rows": [
+    [
+      "14364",
+      "\u83ef\u53cb\u806f\u56db",
+      "116/03/18",
+      "103.0225",
+      "1.5000"
+    ],
+    [
+      "32723",
+      "\u6771\u78a9\u4e09",
+      "116/03/07",
+      "100.7518",
+      "0.2500"
+    ],
+    [
+      "15984",
+      "\u5cb1\u5b87\u56db",
+      "116/03/03",
+      "102.0100",
+      "1.0000"
+    ],
+    [
+      "68541",
+      "\u933c\u5275\u79d1\u6280\u4e00KY\u5275",
+      "116/02/27",
+      "101.0025",
+      "0.5000"
+    ],
+    [
+      "99063",
+      "\u6b23\u5df4\u5df4\u4e09",
+      "116/02/27",
+      "103.0225",
+      "1.5000"
+    ],
+    [
+      "45102",
+      "\u9ad8\u92d2\u4e8c",
+      "116/02/26",
+      "100.5006",
+      "0.2500"
+    ],
+    [
+      "30954",
+      "\u53ca\u6210\u56db",
+      "116/02/25",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "35266",
+      "\u51e1\u7532\u516d",
+      "116/01/29",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "13166",
+      "\u4e0a\u66dc\u516d",
+      "115/12/27",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "24424",
+      "\u65b0\u7f8e\u9f4a\u56db",
+      "115/12/25",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "49794",
+      "\u83ef\u661f\u5149\u56db",
+      "115/12/25",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "52452",
+      "\u667a\u6676\u4e8c",
+      "115/12/18",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "24271",
+      "\u4e09\u5546\u96fb\u4e00",
+      "115/12/13",
+      "101.5100",
+      "0.5000"
+    ],
+    [
+      "49793",
+      "\u83ef\u661f\u5149\u4e09",
+      "115/12/09",
+      "101.0025",
+      "0.5000"
+    ],
+    [
+      "84891",
+      "\u4e09\u8c9d\u5fb7\u4e00",
+      "115/12/09",
+      "100.2001",
+      "0.1000"
+    ],
+    [
+      "53887",
+      "\u4e2d\u78ca\u4e03",
+      "115/12/06",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "66451",
+      "\u91d1\u842c\u6797\u4e00\u5275",
+      "115/12/04",
+      "102.0100",
+      "1.0000"
+    ],
+    [
+      "13382",
+      "\u5ee3\u83ef\u4e8cKY",
+      "115/12/01",
+      "106.1208",
+      "2.0000"
+    ],
+    [
+      "24423",
+      "\u65b0\u7f8e\u9f4a\u4e09",
+      "115/11/29",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "33466",
+      "\u9e97\u6e05\u516d",
+      "115/11/27",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "99412",
+      "\u88d5\u878d\u4e8c",
+      "115/11/20",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "98026",
+      "\u923a\u9f4a\u516dKY",
+      "115/11/15",
+      "101.0025",
+      "0.5000"
+    ],
+    [
+      "61894",
+      "\u8c50\u85dd\u56db",
+      "115/11/10",
+      "100.7519",
+      "0.2500"
+    ],
+    [
+      "99588",
+      "\u4e16\u7d00\u92fc\u516b\u6c38",
+      "115/11/08",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "68741",
+      "\u500d\u529b\u4e00",
+      "115/11/04",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "68351",
+      "\u5713\u88d5\u4e00",
+      "115/11/01",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "99587",
+      "\u4e16\u7d00\u92fc\u4e03",
+      "115/10/28",
+      "100.5000",
+      "0.2500"
+    ],
+    [
+      "99353",
+      "\u6176\u8c50\u5bcc\u4e09",
+      "115/10/14",
+      "100.0000",
+      "0.0000"
+    ],
+    [
+      "21043",
+      "\u570b\u969b\u4e2d\u6a61\u4e09",
+      "115/10/13",
+      "100.9000",
+      "0.3000"
+    ]
+  ],
+  "controls_bond_codes": [
+    "99587",
+    "68351",
+    "68741"
+  ],
+  "controls": [
+    {
+      "bond_code": "99587",
+      "issuer": "9958",
+      "issuer_name": "\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "bond_name": "\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+      "listed_date": "113/10/28",
+      "report_row_number": 83,
+      "report_original_fields": [
+        "9958",
+        "\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u4e16\u7d00\u92fc\u9435\u7d50\u69cb\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+        "113/10/28",
+        "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg="
+      ],
+      "issuance_url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+      "nominal_put_date": "2026-10-28",
+      "request_filename": "99587_issuance.html"
+    },
+    {
+      "bond_code": "68351",
+      "issuer": "6835",
+      "issuer_name": "\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "bond_name": "\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+      "listed_date": "113/11/01",
+      "report_row_number": 85,
+      "report_original_fields": [
+        "6835",
+        "\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+        "113/11/01",
+        "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg="
+      ],
+      "issuance_url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+      "nominal_put_date": "2026-11-01",
+      "request_filename": "68351_issuance.html"
+    },
+    {
+      "bond_code": "68741",
+      "issuer": "6874",
+      "issuer_name": "\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "bond_name": "\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+      "listed_date": "113/11/04",
+      "report_row_number": 86,
+      "report_original_fields": [
+        "6874",
+        "\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+        "\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+        "113/11/04",
+        "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg="
+      ],
+      "issuance_url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+      "nominal_put_date": "2026-11-04",
+      "request_filename": "68741_issuance.html"
+    }
+  ],
+  "selection_rule_unchanged": true,
+  "market_price_values_inspected": false,
+  "business_day_shifts_applied": false,
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "routes": [
+    {
+      "filename": "pre_maturity_announcements_form.html",
+      "literal_href": "t198sb04_q1",
+      "exact_label": "\u50b5\u5238\u5230\u671f\u524d\u8b8a\u52d5\u5404\u9805\u516c\u544a\u67e5\u8a62\u4f5c\u696d"
+    },
+    {
+      "filename": "convertible_announcements_form.html",
+      "literal_href": "t108sb08",
+      "exact_label": "\u8f49\u63db(\u9644\u8a8d\u80a1\u6b0a)\u516c\u53f8\u50b5\u516c\u544a(94.5.5\u8d77\u9069\u7528)"
+    }
+  ],
+  "calendar_request_proof": {
+    "request": {
+      "filename": "twse_calendar_2026.json",
+      "url": "https://www.twse.com.tw/rwd/zh/holidaySchedule/holidaySchedule?date=20260101&response=json",
+      "method": "GET"
+    },
+    "source_page_sha256": "6b366cb083b0384b7865e367c213247d3f2c5ab779d0c673c8034d362a85f7a2",
+    "report_script_sha256": "fb42365f6eb8a1516408e7604f502c134c5e54de0c4f6449c6e10c2915685058",
+    "main_script_sha256": "71199f09be305810c1600804c19a14706064e60304a249ae5c3bd2556de94426",
+    "declared_api_prefix": "/rwd",
+    "language": "zh",
+    "literal_form_api": "/holidaySchedule/holidaySchedule",
+    "chosen_year": 2026,
+    "serialized_year_selection": "20260101",
+    "production_hostname": "www.twse.com.tw",
+    "test_local_accessibility_override_applied": false,
+    "javascript_executed": false,
+    "source_gate_passed": false
+  }
+}

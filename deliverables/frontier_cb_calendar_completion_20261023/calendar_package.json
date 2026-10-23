@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_calendar_completion_20261023/calendar.zip",
+  "sha256": "a48fbd787242e5c54ce6f85036886775cedf6e9a3e9498ccbb71379a729c4562",
+  "manifest_files": 6,
+  "created_at": "2026-10-23T07:17:18.845890+00:00",
+  "retrieved": "inputs/frontier_cb_calendar_completion_20261023/calendar.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_calendar_completion_20261023/calendar_transfer.json",
+  "backup_label": "frontier_cb_calendar_completion_20261023_calendar"
+}

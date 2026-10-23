@@ -1,0 +1,291 @@
+{
+  "status": "conditional_calendar_scenarios_only",
+  "observation_day": "2026-10-23",
+  "next_scheduled_market_observation": "2026-10-27",
+  "assumptions": [
+    "Regular Saturday/Sunday closures",
+    "Additional2026-10-23closurefromtwo providers",
+    "No later unobserved emergency closure",
+    "T+2 is an explicit illustrative scenario, not verification of a broker/venue/account arrangement"
+  ],
+  "original_controls": [
+    "99587",
+    "68351",
+    "68741"
+  ],
+  "cases": [
+    {
+      "bond_code": "99587",
+      "notice_broker_end": "2026-10-27",
+      "notice_expected_payment": "2026-11-04",
+      "next_scheduled_observation_day": "2026-10-27",
+      "explicit_assumed_settlement_lag": 2,
+      "assumed_T2_settlement_day": "2026-10-29",
+      "T2_date_comparison_only_reaches_broker_end": false,
+      "actual_settlement_and_available_balance_verified": false,
+      "broker_intraday_acceptance_verified": false,
+      "alternative_earlier_negotiated_delivery_verified": false,
+      "net_proceeds_verified": false,
+      "signal_valid": false
+    },
+    {
+      "bond_code": "68351",
+      "notice_broker_end": "2026-10-30",
+      "notice_expected_payment": "2026-11-06",
+      "next_scheduled_observation_day": "2026-10-27",
+      "explicit_assumed_settlement_lag": 2,
+      "assumed_T2_settlement_day": "2026-10-29",
+      "T2_date_comparison_only_reaches_broker_end": true,
+      "actual_settlement_and_available_balance_verified": false,
+      "broker_intraday_acceptance_verified": false,
+      "alternative_earlier_negotiated_delivery_verified": false,
+      "net_proceeds_verified": false,
+      "signal_valid": false
+    }
+  ],
+  "unresolved_control": "68741",
+  "earliest_verified_executable_entry": null,
+  "valid_prospective_signal_date": null,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "profit_edge_proven": false,
+  "orders_authorized": false,
+  "calendar_archive_sha256": "a48fbd787242e5c54ce6f85036886775cedf6e9a3e9498ccbb71379a729c4562",
+  "calendar_body_sha256": "7fefe785ea7155a5004a2eb74486ad865ea5c4b5f02ee0cffbbdacb1ca2ea390",
+  "calendar_observed_at": "2026-10-23T07:17:18.057595+00:00",
+  "annual_rows": [
+    {
+      "source_row": [
+        "2026-01-01",
+        "\u4e2d\u83ef\u6c11\u570b\u958b\u570b\u7d00\u5ff5\u65e5",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-01-02",
+        "\u570b\u66c6\u65b0\u5e74\u958b\u59cb\u4ea4\u6613\u65e5",
+        "\u570b\u66c6\u65b0\u5e74\u958b\u59cb\u4ea4\u6613\u3002"
+      ],
+      "kind": "explicit_trading_day"
+    },
+    {
+      "source_row": [
+        "2026-02-11",
+        "\u8fb2\u66c6\u6625\u7bc0\u524d\u6700\u5f8c\u4ea4\u6613\u65e5",
+        "\u8fb2\u66c6\u6625\u7bc0\u524d\u6700\u5f8c\u4ea4\u6613\u3002\r\n"
+      ],
+      "kind": "explicit_trading_day"
+    },
+    {
+      "source_row": [
+        "2026-02-12",
+        "\u5e02\u5834\u7121\u4ea4\u6613\uff0c\u50c5\u8fa6\u7406\u7d50\u7b97\u4ea4\u5272\u4f5c\u696d",
+        ""
+      ],
+      "kind": "settlement_only"
+    },
+    {
+      "source_row": [
+        "2026-02-13",
+        "\u5e02\u5834\u7121\u4ea4\u6613\uff0c\u50c5\u8fa6\u7406\u7d50\u7b97\u4ea4\u5272\u4f5c\u696d",
+        ""
+      ],
+      "kind": "settlement_only"
+    },
+    {
+      "source_row": [
+        "2026-02-15",
+        "\u8fb2\u66c6\u9664\u5915\u53ca\u6625\u7bc0",
+        "\u4f9d\u898f\u5b9a\u65bc2\u670815\u65e5\u81f32\u670819\u65e5\u653e\u50475\u65e5\u30022\u670815\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc2\u670820\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-16",
+        "\u8fb2\u66c6\u9664\u5915\u53ca\u6625\u7bc0",
+        "\u4f9d\u898f\u5b9a\u65bc2\u670815\u65e5\u81f32\u670819\u65e5\u653e\u50475\u65e5\u30022\u670815\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc2\u670820\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-17",
+        "\u8fb2\u66c6\u9664\u5915\u53ca\u6625\u7bc0",
+        "\u4f9d\u898f\u5b9a\u65bc2\u670815\u65e5\u81f32\u670819\u65e5\u653e\u50475\u65e5\u30022\u670815\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc2\u670820\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002\r\n\r\n\r\n"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-18",
+        "\u8fb2\u66c6\u9664\u5915\u53ca\u6625\u7bc0",
+        "\u4f9d\u898f\u5b9a\u65bc2\u670815\u65e5\u81f32\u670819\u65e5\u653e\u50475\u65e5\u30022\u670815\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc2\u670820\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-19",
+        "\u8fb2\u66c6\u9664\u5915\u53ca\u6625\u7bc0",
+        "\u4f9d\u898f\u5b9a\u65bc2\u670815\u65e5\u81f32\u670819\u65e5\u653e\u50475\u65e5\u30022\u670815\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc2\u670820\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-20",
+        "\u8fb2\u66c6\u9664\u5915\u53ca\u6625\u7bc0",
+        "\u4f9d\u898f\u5b9a\u65bc2\u670815\u65e5\u81f32\u670819\u65e5\u653e\u50475\u65e5\u30022\u670815\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc2\u670820\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-23",
+        "\u8fb2\u66c6\u6625\u7bc0\u5f8c\u958b\u59cb\u4ea4\u6613\u65e5",
+        "\u8fb2\u66c6\u6625\u7bc0\u5f8c\u958b\u59cb\u4ea4\u6613\u3002"
+      ],
+      "kind": "explicit_trading_day"
+    },
+    {
+      "source_row": [
+        "2026-02-27",
+        "\u548c\u5e73\u7d00\u5ff5\u65e5",
+        "\u548c\u5e73\u7d00\u5ff5\u65e5\u70ba2\u670828\u65e5\u9069\u9022\u661f\u671f\u516d\uff0c\u65bc2\u670827\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-02-28",
+        "\u548c\u5e73\u7d00\u5ff5\u65e5",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-04-03",
+        "\u5152\u7ae5\u7bc0\u53ca\u6c11\u65cf\u6383\u5893\u7bc0",
+        "\u5152\u7ae5\u7bc0\u70ba4\u67084\u65e5\u9069\u9022\u661f\u671f\u516d\uff0c\u65bc4\u67083\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-04-04",
+        "\u5152\u7ae5\u7bc0\u53ca\u6c11\u65cf\u6383\u5893\u7bc0",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-04-05",
+        "\u5152\u7ae5\u7bc0\u53ca\u6c11\u65cf\u6383\u5893\u7bc0",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-04-06",
+        "\u5152\u7ae5\u7bc0\u53ca\u6c11\u65cf\u6383\u5893\u7bc0",
+        "\u6c11\u65cf\u6383\u5893\u7bc0\u70ba4\u67085\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc4\u67086\u65e5\uff08\u661f\u671f\u4e00\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-05-01",
+        "\u52de\u52d5\u7bc0",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-06-19",
+        "\u7aef\u5348\u7bc0",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-09-25",
+        "\u4e2d\u79cb\u7bc0",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-09-28",
+        "\u5b54\u5b50\u8a95\u8fb0\u7d00\u5ff5\u65e5/ \u6559\u5e2b\u7bc0",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-10-09",
+        "\u570b\u6176\u65e5",
+        "\u570b\u6176\u65e5\u70ba10\u670810\u65e5\u9069\u9022\u661f\u671f\u516d\uff0c\u65bc10\u67089\u65e5\uff08\u661f\u671f\u4e94\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-10-10",
+        "\u570b\u6176\u65e5",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-10-25",
+        "\u81fa\u7063\u5149\u5fa9\u66a8\u91d1\u9580\u53e4\u5be7\u982d\u5927\u6377\u7d00\u5ff5\u65e5",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-10-26",
+        "\u81fa\u7063\u5149\u5fa9\u66a8\u91d1\u9580\u53e4\u5be7\u982d\u5927\u6377\u7d00\u5ff5\u65e5",
+        "\u81fa\u7063\u5149\u5fa9\u66a8\u91d1\u9580\u53e4\u5be7\u982d\u5927\u6377\u7d00\u5ff5\u65e5\u70ba10\u670825\u65e5\u9069\u9022\u661f\u671f\u65e5\uff0c\u65bc10\u670826\u65e5\uff08\u661f\u671f\u4e00\uff09\u88dc\u5047\u3002"
+      ],
+      "kind": "holiday"
+    },
+    {
+      "source_row": [
+        "2026-12-25",
+        "\u884c\u61b2\u7d00\u5ff5\u65e5",
+        "\u4f9d\u898f\u5b9a\u653e\u50471\u65e5\u3002"
+      ],
+      "kind": "holiday"
+    }
+  ],
+  "annual_declared_total": 27,
+  "closure_evidence": [
+    {
+      "member": "raw/kgi_service_closures.html",
+      "body_sha256": "1fd729e9c774351987199327b7fc8e0ddcee2fa8b53da545fbdb85379d36e283",
+      "anchor": "115\u5e7410\u670823\u65e5\uff08\u661f\u671f\u4e94\uff09\u53f0\u5317\u80a1\u3001\u671f\u5e02\u4f11\u5e02\u4e00\u5929",
+      "source_kind": "provider_own_service_announcement"
+    },
+    {
+      "member": "raw/landbank_service_closures.html",
+      "body_sha256": "213bd6812d03f2dfca9fab849449fd3ad7c6e7a002dfd32598d45ce9d53aecac",
+      "anchor": "\u8b49\u5238\u3001\u671f\u8ca8\u4ea4\u6613\u5e02\u5834115\u5e7410\u670823\u65e5(\u661f\u671f\u4e94)\u5168\u65e5\u4f11\u5e02",
+      "source_kind": "provider_own_service_announcement"
+    }
+  ],
+  "closure_archive_sha256": "04c522f8683c9be95a6ac2fb64f4f9598076349ff01018fed50d30f1a66326e0",
+  "notice_annotation_sha256": "d9bf04840be548a6e0c3a749f5643f69b13cb643ea2b9e9443184747b8c34fa5"
+}

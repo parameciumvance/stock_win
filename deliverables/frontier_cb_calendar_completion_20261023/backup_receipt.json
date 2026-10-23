@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-23T07:26:21.927560+00:00",
+  "archive_sha256": "a48fbd787242e5c54ce6f85036886775cedf6e9a3e9498ccbb71379a729c4562",
+  "manifest_entries": 6,
+  "all_saved_retrieved_sha_crc_manifest_verified": true,
+  "source_requests": 1,
+  "source_batches": 1,
+  "cumulative_CB_raw_requests": 60,
+  "storage": "Windows same-computer backup and WSL persistent copy; not offsite"
+}

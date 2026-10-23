@@ -1,0 +1,178 @@
+{
+  "recorded_at": "2026-10-23T07:26:21.927560+00:00",
+  "base_remote_commit": "7ef22d02d44554609a4772b974aaefb6ac1d87de",
+  "prior_member_checks": 740,
+  "phases": [
+    {
+      "phase": "frontier_cb_documents_20261023",
+      "actual_raw_requests": 6,
+      "verified_stages": 9
+    },
+    {
+      "phase": "frontier_cb_notices_20261023",
+      "actual_raw_requests": 5,
+      "verified_stages": 7
+    },
+    {
+      "phase": "frontier_cb_notice_search_20261023",
+      "actual_raw_requests": 5,
+      "verified_stages": 10
+    },
+    {
+      "phase": "frontier_cb_major_20261023",
+      "actual_raw_requests": 9,
+      "verified_stages": 16
+    },
+    {
+      "phase": "frontier_cb_material_rows_20261023",
+      "actual_raw_requests": 11,
+      "verified_stages": 13
+    },
+    {
+      "phase": "frontier_cb_operations_20261023",
+      "actual_raw_requests": 8,
+      "verified_stages": 10
+    },
+    {
+      "phase": "frontier_cb_calendar_completion_20261023",
+      "actual_raw_requests": 1,
+      "verified_stages": 4
+    }
+  ],
+  "new_raw_requests": 45,
+  "prior_CB_raw_requests": 15,
+  "cumulative_CB_raw_requests": 60,
+  "new_archives": [
+    {
+      "package_path": "deliverables/frontier_cb_documents_20261023/issuance_package.json",
+      "archive_sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+      "manifest_files": 12,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_documents_20261023/terms_package.json",
+      "archive_sha256": "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266",
+      "manifest_files": 13,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_notices_20261023/forms_package.json",
+      "archive_sha256": "1013c6512d7364bd8729510ef2e5edc0f12cd376905a1a5a90bddb7093fbb117",
+      "manifest_files": 9,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_notices_20261023/queries_package.json",
+      "archive_sha256": "f807032e09dcdf23b9f5c491b95b0ace475b67187ee458133f4f117edf829295",
+      "manifest_files": 13,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_notice_search_20261023/controls_package.json",
+      "archive_sha256": "a5a52f1d00bbb7f1ec05dd1bbbf4fa997ee537a83d63d7d4fae60d79ca9d8d98",
+      "manifest_files": 6,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_notice_search_20261023/general_package.json",
+      "archive_sha256": "42b2a8d8a8052894627db7e4eacac2c5f5a28b05a8ceaf982d49c086a02f1cee",
+      "manifest_files": 10,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_notice_search_20261023/routes_package.json",
+      "archive_sha256": "8035777f69c88d9f712c77abb65e5bb75ef3c7e91df0db7a0d48e63f841a2745",
+      "manifest_files": 10,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_major_20261023/ajax_queries_package.json",
+      "archive_sha256": "58bd54ce53c82ebf4e14eb6a6062edd91db1048865ecb98a8c7f9221cd1d4f05",
+      "manifest_files": 13,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_major_20261023/corporate_package.json",
+      "archive_sha256": "1b40bf75e946f4bc4fa739d45ced8ee0d966fc89fdfb0025a2cc323aac47346c",
+      "manifest_files": 7,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_major_20261023/form_package.json",
+      "archive_sha256": "070ab9ff5bb849a8d7e48f0eda7d93aac3593519b5a2014b130e9cb5bd915752",
+      "manifest_files": 6,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_major_20261023/queries_package.json",
+      "archive_sha256": "9952b6af13d2606cdd83a550f17385003af2e003110cbd51cfa54898f6235035",
+      "manifest_files": 13,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_major_20261023/script_package.json",
+      "archive_sha256": "81c27caee5ad2b10fde954571672fee6712f2562e56ba724bfe696a1c946a174",
+      "manifest_files": 7,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_material_rows_20261023/corporate_package.json",
+      "archive_sha256": "0b0a679ec7f50b56881b7706e4d735e3c0d58c7d157ecce7fa2cdcc05aa884dc",
+      "manifest_files": 13,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_material_rows_20261023/details_package.json",
+      "archive_sha256": "303c9a0f243342a559e59a054064f27d800a4507796f4ba8cd6b7a7e147d6c53",
+      "manifest_files": 10,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_material_rows_20261023/month_package.json",
+      "archive_sha256": "cbc3a19d3608bb9958c4c4cecd480d0c81bb523f2d4f35d5e1744dafcd2b49b7",
+      "manifest_files": 13,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_material_rows_20261023/rows_package.json",
+      "archive_sha256": "689946a3fc895b5b30a79888112de6ffdc941cd982779a9282cf81ee94acc12e",
+      "manifest_files": 12,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_operations_20261023/artifacts_package.json",
+      "archive_sha256": "9282da3098b55ab7b6bd9cc4f8869a62fcf8ed79c84908164f60c01d919d16e0",
+      "manifest_files": 10,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_operations_20261023/config_script_package.json",
+      "archive_sha256": "b4d13d91b58ca33003bb6ce2f2de5259f26aa18677787e13fa20a9266a0654ef",
+      "manifest_files": 7,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_operations_20261023/pages_package.json",
+      "archive_sha256": "04c522f8683c9be95a6ac2fb64f4f9598076349ff01018fed50d30f1a66326e0",
+      "manifest_files": 18,
+      "sha_crc_exact_manifest_verified": true
+    },
+    {
+      "package_path": "deliverables/frontier_cb_calendar_completion_20261023/calendar_package.json",
+      "archive_sha256": "a48fbd787242e5c54ce6f85036886775cedf6e9a3e9498ccbb71379a729c4562",
+      "manifest_files": 6,
+      "sha_crc_exact_manifest_verified": true
+    }
+  ],
+  "new_archive_count": 20,
+  "new_manifest_entries": 208,
+  "verified_stages": 69,
+  "tests": 104,
+  "model_parameter_changes": 0,
+  "old_historical_inputs_substituted": false,
+  "large_warmup_retransfers": 0,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "profit_edge_proven": false,
+  "orders_authorized": false
+}
