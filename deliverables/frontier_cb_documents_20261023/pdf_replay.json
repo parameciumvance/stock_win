@@ -1,0 +1,423 @@
+{
+  "status": "all_three_cb_rule_PDFs_page_extracted_identity_candidates_only",
+  "documents": [
+    {
+      "body_sha256": "56885bffa85b9e05f5cff1f5dad34e605b80d60cd3f3071d7b07e65434c129d1",
+      "size_bytes": 473187,
+      "pdf_magic_verified": true,
+      "encrypted": false,
+      "declared_page_count": 7,
+      "extracted_page_count": 7,
+      "all_declared_pages_extracted": true,
+      "pypdf_version": "6.12.0",
+      "extraction_mode": "plain",
+      "full_text_sha256": "5ad352d8424ac9d017295366fb06410f27ed7da93ec9513d533b14046b73a65b",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text_utf8_bytes": 0,
+          "character_count": 0,
+          "empty_extracted_text": true,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 2,
+          "text_sha256": "cd7bc9e8a5ed052c2d32731a441d9a71b81aad8318ea8d704b4ae30b9fd7700c",
+          "text_utf8_bytes": 3518,
+          "character_count": 1288,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 3,
+          "text_sha256": "f1fd25e93f2d9302458406e9c01cfa996a6d315bfadca38f7941da730ec5509e",
+          "text_utf8_bytes": 2872,
+          "character_count": 1030,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 4,
+          "text_sha256": "82dbeb24726c1ec4c3424f1b005aa7e5ba588d57200e38de91299cdc66ebc1ec",
+          "text_utf8_bytes": 2689,
+          "character_count": 995,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 5,
+          "text_sha256": "e85515793bfc5301baa82b732943f96eaad05d3446f06b991de52b29e9d21c77",
+          "text_utf8_bytes": 2646,
+          "character_count": 950,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 6,
+          "text_sha256": "a2ad97aa784e0a6ec6cc1b79cd8355e1ae205126efc57e55c3055ced71ce94ff",
+          "text_utf8_bytes": 3522,
+          "character_count": 1290,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 7,
+          "text_sha256": "c2306c45a54e27c305a9928674473581d38c6089df33a25d1adf174c1f9856a7",
+          "text_utf8_bytes": 1950,
+          "character_count": 682,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        }
+      ],
+      "identity_candidate_matches": {
+        "issuer_name": [],
+        "series": []
+      },
+      "missing_identity_candidate_fields": [
+        "issuer_name",
+        "series"
+      ],
+      "text_identity_candidates_complete": false,
+      "text_identity_is_legal_or_issuer_verification": false,
+      "embedded_image_count": 1,
+      "visual_review_needed": true,
+      "visual_review_completed": false,
+      "visual_review_scope": "Image counts flag review needs; extraction performs no visual clearance or signature authentication.",
+      "contract_terms_automatically_classified": false,
+      "contractual_cash_claim_verified": false,
+      "historical_first_availability_verified": false,
+      "source_gate_passed": false,
+      "filename": "99587_terms.pdf",
+      "bond_code": "99587",
+      "url": "https://mopsov.twse.com.tw/nas/t56/t56bondb/9958_1150803_111428.pdf",
+      "image_refs": [
+        {
+          "physical_page": 1,
+          "image_number": 1,
+          "name": "Im45.jpg",
+          "data_sha256": "7ce23fd2265956d92a7fa923d97243f3fb7b9258ce761e1556562cbce359da47",
+          "size_bytes": 311554
+        }
+      ],
+      "current_contract_version_verified": false,
+      "holder_put_contract_verified": false,
+      "cash_claim_source_gate_passed": false,
+      "historical_pit_verified": false,
+      "broker_or_settlement_eligibility_verified": false,
+      "actual_notice_or_payment_verified": false,
+      "actual_source_timestamps": {
+        "request_started_at": "2026-10-23T01:11:17.875089+00:00",
+        "observed_at": "2026-10-23T01:11:18.271210+00:00",
+        "observed_at_taipei": "2026-10-23T09:11:18.271210+08:00"
+      }
+    },
+    {
+      "body_sha256": "0ecc755545fb3d68922a77f051e3b9187c4805e2936953532e6ae79c9dd6f23c",
+      "size_bytes": 262083,
+      "pdf_magic_verified": true,
+      "encrypted": false,
+      "declared_page_count": 6,
+      "extracted_page_count": 6,
+      "all_declared_pages_extracted": true,
+      "pypdf_version": "6.12.0",
+      "extraction_mode": "plain",
+      "full_text_sha256": "40fe2950a1945fcc855def8bbec4c6edeb3bbfa8499d342147d31ab1de0e4370",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_sha256": "0e7b0307695551dac885d2386f041c5de0728e7de67aac6340b2f1fd533e195a",
+          "text_utf8_bytes": 2660,
+          "character_count": 1004,
+          "empty_extracted_text": false,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {
+            "issuer_name": [
+              "\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8"
+            ],
+            "series": [
+              "\u570b\u5167\u7b2c\u4e00\u6b21"
+            ]
+          }
+        },
+        {
+          "page_number": 2,
+          "text_sha256": "25c6581bb2a5bb0eab773586b84f5129d46bd08ea313e4e70a08bfee1470e279",
+          "text_utf8_bytes": 3883,
+          "character_count": 1399,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 3,
+          "text_sha256": "48392b544486779f60603d76ef3e198384a0cca5079057654ca7eba1067c6ee5",
+          "text_utf8_bytes": 3610,
+          "character_count": 1288,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 4,
+          "text_sha256": "699965c70ea5d80d823bf7a441aa09e3addffc281bb093129d2db6198f507f36",
+          "text_utf8_bytes": 2277,
+          "character_count": 845,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 5,
+          "text_sha256": "6003a6f34080a2afe1228db1f7f3362edc427ad21fc1e32f2ca3fcdfd49d0382",
+          "text_utf8_bytes": 3555,
+          "character_count": 1269,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 6,
+          "text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+          "text_utf8_bytes": 2804,
+          "character_count": 994,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        }
+      ],
+      "identity_candidate_matches": {
+        "issuer_name": [
+          {
+            "page_number": 1,
+            "literal": "\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8"
+          }
+        ],
+        "series": [
+          {
+            "page_number": 1,
+            "literal": "\u570b\u5167\u7b2c\u4e00\u6b21"
+          }
+        ]
+      },
+      "missing_identity_candidate_fields": [],
+      "text_identity_candidates_complete": true,
+      "text_identity_is_legal_or_issuer_verification": false,
+      "embedded_image_count": 1,
+      "visual_review_needed": true,
+      "visual_review_completed": false,
+      "visual_review_scope": "Image counts flag review needs; extraction performs no visual clearance or signature authentication.",
+      "contract_terms_automatically_classified": false,
+      "contractual_cash_claim_verified": false,
+      "historical_first_availability_verified": false,
+      "source_gate_passed": false,
+      "filename": "68351_terms.pdf",
+      "bond_code": "68351",
+      "url": "https://mopsov.twse.com.tw/nas/t56/t56bondb/6835_1150904_100623.pdf",
+      "image_refs": [
+        {
+          "physical_page": 1,
+          "image_number": 1,
+          "name": "Image9.jpg",
+          "data_sha256": "7ba7f38ee4e477ffa9fc2ebfecc43c0448063967c29b12a648ee043ce65d112a",
+          "size_bytes": 4750
+        }
+      ],
+      "current_contract_version_verified": false,
+      "holder_put_contract_verified": false,
+      "cash_claim_source_gate_passed": false,
+      "historical_pit_verified": false,
+      "broker_or_settlement_eligibility_verified": false,
+      "actual_notice_or_payment_verified": false,
+      "actual_source_timestamps": {
+        "request_started_at": "2026-10-23T01:11:17.875225+00:00",
+        "observed_at": "2026-10-23T01:11:18.181517+00:00",
+        "observed_at_taipei": "2026-10-23T09:11:18.181517+08:00"
+      }
+    },
+    {
+      "body_sha256": "58e884ad34e5b91ea3f4c30e35e9756deac4674814f30134ea9e429477ddd9b3",
+      "size_bytes": 809616,
+      "pdf_magic_verified": true,
+      "encrypted": false,
+      "declared_page_count": 7,
+      "extracted_page_count": 7,
+      "all_declared_pages_extracted": true,
+      "pypdf_version": "6.12.0",
+      "extraction_mode": "plain",
+      "full_text_sha256": "d43a8a92996a2995f1eabb947aaf44aa0b051d3275d0357defdc1615756284d0",
+      "pages": [
+        {
+          "page_number": 1,
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "text_utf8_bytes": 0,
+          "character_count": 0,
+          "empty_extracted_text": true,
+          "embedded_image_count": 1,
+          "visual_review_needed": true,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 2,
+          "text_sha256": "85440e756bf3b332250dec822c2bd63f7651b24ba7b28f0cc4bd6e139421a998",
+          "text_utf8_bytes": 3321,
+          "character_count": 1195,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 3,
+          "text_sha256": "24992b76d6035ebec23f6cafc4c95c57c106c3f9b5a4ba50baa22235c915f8da",
+          "text_utf8_bytes": 2824,
+          "character_count": 1032,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 4,
+          "text_sha256": "4df0328b232249ef4158039e7324fd7d75507555c2b1d42816be32a007e3a100",
+          "text_utf8_bytes": 2673,
+          "character_count": 997,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 5,
+          "text_sha256": "e4026413dd6a025db346ad97ab66073ddf985b8c0de18d16b1cc9eb1f3a19f72",
+          "text_utf8_bytes": 2502,
+          "character_count": 914,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 6,
+          "text_sha256": "5cf6dc55fad2fe2652954b168929da684fd81a742678d7b026bb0b740cef6805",
+          "text_utf8_bytes": 3819,
+          "character_count": 1383,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        },
+        {
+          "page_number": 7,
+          "text_sha256": "696c0d0f730dab763ebb35ae835703dc5856a94466876bc63de7183636c795ba",
+          "text_utf8_bytes": 1420,
+          "character_count": 492,
+          "empty_extracted_text": false,
+          "embedded_image_count": 0,
+          "visual_review_needed": false,
+          "identity_candidates": {}
+        }
+      ],
+      "identity_candidate_matches": {
+        "issuer_name": [],
+        "series": []
+      },
+      "missing_identity_candidate_fields": [
+        "issuer_name",
+        "series"
+      ],
+      "text_identity_candidates_complete": false,
+      "text_identity_is_legal_or_issuer_verification": false,
+      "embedded_image_count": 1,
+      "visual_review_needed": true,
+      "visual_review_completed": false,
+      "visual_review_scope": "Image counts flag review needs; extraction performs no visual clearance or signature authentication.",
+      "contract_terms_automatically_classified": false,
+      "contractual_cash_claim_verified": false,
+      "historical_first_availability_verified": false,
+      "source_gate_passed": false,
+      "filename": "68741_terms.pdf",
+      "bond_code": "68741",
+      "url": "https://mopsov.twse.com.tw/nas/t56/t56bondb/6874_1131025_140422.pdf",
+      "image_refs": [
+        {
+          "physical_page": 1,
+          "image_number": 1,
+          "name": "Im23.jpg",
+          "data_sha256": "b1b105672b4673b2603ed717f1e10954f148b90c9c936757733c738107c07fd0",
+          "size_bytes": 595013
+        }
+      ],
+      "current_contract_version_verified": false,
+      "holder_put_contract_verified": false,
+      "cash_claim_source_gate_passed": false,
+      "historical_pit_verified": false,
+      "broker_or_settlement_eligibility_verified": false,
+      "actual_notice_or_payment_verified": false,
+      "actual_source_timestamps": {
+        "request_started_at": "2026-10-23T01:11:18.185112+00:00",
+        "observed_at": "2026-10-23T01:11:18.479265+00:00",
+        "observed_at_taipei": "2026-10-23T09:11:18.479265+08:00"
+      }
+    }
+  ],
+  "document_count": 3,
+  "all_selected_controls_retained": true,
+  "physical_pages": 20,
+  "archive": {
+    "sha256": "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266",
+    "manifest_files": 13,
+    "backup": {
+      "sha256": "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266",
+      "backup_path": "C:\\Users\\user\\stock_win_research_backups\\frontier_cb_documents_20261023_terms_8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266.zip",
+      "retrieved_path": "inputs/frontier_cb_documents_20261023/terms.retrieved.zip",
+      "roundtrip_verified": true,
+      "verified_at": "2026-10-23T01:11:32.083Z",
+      "transport": "Desktop Commander Remote / Windows Node file copy",
+      "storage": "Windows user backup and WSL retrieval; same computer"
+    }
+  },
+  "protocol_sha256": "f647dcb7515031fc915b69a19e17186f074cc716269fa0080f94220360e03aca",
+  "request_config_sha256": "be4c94a3e756d22de9ec29ce97afc2a18f401040a8946acd8aa7c78859bf395a",
+  "terms_selection_sha256": "7569654001a18ad0b29a97e29d0bff01face3514cb0c3b1c210ea6ee6404dda1",
+  "source_issuance_archive_sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+  "full_text_saved_only_in_ignored_inputs": true,
+  "full_inventory": {
+    "path": "inputs/frontier_cb_documents_20261023/pdf_text_full.json",
+    "sha256": "fed596510325d463f52f850af4633eaf9de5f8421f3cbd6e113b1294ad2c6b4c"
+  },
+  "text_identity_is_legal_or_issuer_verification": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false,
+  "boundaries": [
+    "Identity candidates can be absent on scanned pages; blank extraction never proves an absent issuer or unsigned document.",
+    "Physical page and full text hashes are mechanical evidence, not current notice/payment or broker/T+2 settlement eligibility.",
+    "Source filenames and file dates do not establish contract amendment chronology or historical first publication.",
+    "The parent HTML monyr_reg202609 on-time-repayment field is a monthly reported field, not proof of payment today."
+  ]
+}

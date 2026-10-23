@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-23T01:04:28.346303+00:00",
+  "protocol_sha256": "f647dcb7515031fc915b69a19e17186f074cc716269fa0080f94220360e03aca",
+  "base_remote_commit": "992f1b7f13125def87087776f4752c4cf80cbc63",
+  "route_checkpoint_sha256": "fd351ab8eaa87e89bbcf1fc127b7d2b58b1576911633c393032482fca501b8fc",
+  "prior_members_verified": 493,
+  "before_new_source_acquisition": true,
+  "market_quote_outcomes_inspected": false,
+  "prior_CB_actual_requests": 15,
+  "new_separate_phase_request_cap": 9,
+  "cumulative_CB_request_cap": 24
+}

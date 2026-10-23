@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-23T01:11:48.273734+00:00",
+  "status": "three_labelled_terms_links_preIO_passed",
+  "command": ".venv/bin/python -m unittest test_frontier_cb_documents_sources test_frontier_cb_terms_sources test_frontier_sources -q",
+  "tests_passed": 31,
+  "new_terms_focused_tests": 6,
+  "existing_documents_and_generic_tests": 25,
+  "compile_passed": true,
+  "git_diff_check_passed": true,
+  "actual_plan": {
+    "command": ".venv/bin/python frontier_cb_documents_sources.py plan --batch terms",
+    "requests": 3,
+    "source_IO_performed": false
+  },
+  "sha256s": {
+    "frontier_cb_documents_sources.py": "6e1e8062a285752bc1470839c2e900ee4fccf544c5da5a0eb54af7cef55f4004",
+    "test_frontier_cb_terms_sources.py": "329da701d408ac1e6272adbf77d8205079eff51bcd2ec8c03c2db4919485856f",
+    "configs/frontier_cb_documents_terms_sources_20261023.json": "be4c94a3e756d22de9ec29ce97afc2a18f401040a8946acd8aa7c78859bf395a",
+    "configs/frontier_cb_documents_terms_pipeline.json": "45ad26e7a37dfe0011892a7467375f9ddb5680108aceb7c956c74557b6d66fb9",
+    "configs/frontier_cb_documents_terms_readback_pipeline.json": "6b8accdf22e0c8c6ced7b76394b7e52289545a5e2ff999b78b0087970f83d442",
+    "deliverables/frontier_cb_documents_20261023/terms_selection.json": "7569654001a18ad0b29a97e29d0bff01face3514cb0c3b1c210ea6ee6404dda1",
+    "deliverables/frontier_cb_documents_20261023/terms_freeze.json": "9b57660a8951ecb1dc78fb6fec4801e4b2b99c99c2338c87d70a2e2cab603192"
+  },
+  "phase_after_terms_requests": 6,
+  "phase_request_cap": 9,
+  "phase_after_terms_batches": 2,
+  "phase_batch_cap": 3,
+  "linked_response_PDF_magic_verified": false,
+  "filename_date_meaning_inferred": false,
+  "source_gate_passed": false,
+  "historical_pit_verified": false
+}

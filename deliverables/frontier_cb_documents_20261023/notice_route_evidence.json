@@ -1,0 +1,229 @@
+{
+  "status": "three_saved_issuance_pages_share_four_generic_notice_interfaces",
+  "source_archive": {
+    "sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+    "package_receipt_path": "deliverables/frontier_cb_documents_20261023/issuance_package.json",
+    "retrieved": "inputs/frontier_cb_documents_20261023/issuance.retrieved.zip",
+    "manifest_files": 12,
+    "roundtrip_verified": true,
+    "crc_manifest_verified": true,
+    "backup": {
+      "sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+      "backup_path": "C:\\Users\\user\\stock_win_research_backups\\frontier_cb_documents_20261023_issuance_b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979.zip",
+      "retrieved_path": "inputs/frontier_cb_documents_20261023/issuance.retrieved.zip",
+      "roundtrip_verified": true,
+      "verified_at": "2026-10-23T01:05:14.360Z",
+      "transport": "Desktop Commander Remote / Windows Node file copy",
+      "storage": "Windows user backup and WSL retrieval; same computer"
+    }
+  },
+  "source_pages": [
+    {
+      "bond_code_context": "99587",
+      "source_member": "raw/99587_issuance.html",
+      "body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+      "request": {
+        "filename": "99587_issuance.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+        "method": "GET"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+      "request_started_at": "2026-10-23T01:04:52.676069+00:00",
+      "observed_at": "2026-10-23T01:04:52.948725+00:00"
+    },
+    {
+      "bond_code_context": "68351",
+      "source_member": "raw/68351_issuance.html",
+      "body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+      "request": {
+        "filename": "68351_issuance.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+        "method": "GET"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+      "request_started_at": "2026-10-23T01:04:52.676566+00:00",
+      "observed_at": "2026-10-23T01:04:53.110172+00:00"
+    },
+    {
+      "bond_code_context": "68741",
+      "source_member": "raw/68741_issuance.html",
+      "body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+      "request": {
+        "filename": "68741_issuance.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+        "method": "GET"
+      },
+      "effective_url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+      "request_started_at": "2026-10-23T01:04:52.954318+00:00",
+      "observed_at": "2026-10-23T01:04:53.134454+00:00"
+    }
+  ],
+  "routes": [
+    {
+      "exact_label": "債券到期前變動各項公告查詢作業",
+      "evidence": [
+        {
+          "source_member": "raw/99587_issuance.html",
+          "source_body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+          "raw_line_number": 243,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t198sb04_q1\">債券到期前變動各<span style=\"padding-left: 35px;\">項公告查詢作業</span></a><br/>\r\n",
+          "raw_line_sha256": "a8cb99715d19c591d67ddd0eb05e9a5d7382d6afc5cae95e82474c47935e1c60",
+          "raw_start_tag": "<a target=\"_self\" href=\"t198sb04_q1\">",
+          "source_literal": "t198sb04_q1"
+        },
+        {
+          "source_member": "raw/68351_issuance.html",
+          "source_body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+          "raw_line_number": 243,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t198sb04_q1\">債券到期前變動各<span style=\"padding-left: 35px;\">項公告查詢作業</span></a><br/>\r\n",
+          "raw_line_sha256": "a8cb99715d19c591d67ddd0eb05e9a5d7382d6afc5cae95e82474c47935e1c60",
+          "raw_start_tag": "<a target=\"_self\" href=\"t198sb04_q1\">",
+          "source_literal": "t198sb04_q1"
+        },
+        {
+          "source_member": "raw/68741_issuance.html",
+          "source_body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+          "raw_line_number": 243,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t198sb04_q1\">債券到期前變動各<span style=\"padding-left: 35px;\">項公告查詢作業</span></a><br/>\r\n",
+          "raw_line_sha256": "a8cb99715d19c591d67ddd0eb05e9a5d7382d6afc5cae95e82474c47935e1c60",
+          "raw_start_tag": "<a target=\"_self\" href=\"t198sb04_q1\">",
+          "source_literal": "t198sb04_q1"
+        }
+      ],
+      "literal_href": "t198sb04_q1",
+      "resolved_url": "https://mopsov.twse.com.tw/mops/web/t198sb04_q1",
+      "query_parameters_added": [],
+      "generic_interface_only": true,
+      "issuer_or_bond_specific_notice_verified": false,
+      "followup_authorized": false
+    },
+    {
+      "exact_label": "轉換(附認股權)公司債公告彙總表",
+      "evidence": [
+        {
+          "source_member": "raw/99587_issuance.html",
+          "source_body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+          "raw_line_number": 280,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t108sb08_1_q2\">轉換(附認股權)公司<br/><span style=\"padding-left: 35px;\">債公告彙總表</span></a><br/>\r\n",
+          "raw_line_sha256": "84e7fe1cfd57cf1041090a4c2a1b136c491e92b49ab13ce92a7bd4dd043a06f1",
+          "raw_start_tag": "<a target=\"_self\" href=\"t108sb08_1_q2\">",
+          "source_literal": "t108sb08_1_q2"
+        },
+        {
+          "source_member": "raw/68351_issuance.html",
+          "source_body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+          "raw_line_number": 280,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t108sb08_1_q2\">轉換(附認股權)公司<br/><span style=\"padding-left: 35px;\">債公告彙總表</span></a><br/>\r\n",
+          "raw_line_sha256": "84e7fe1cfd57cf1041090a4c2a1b136c491e92b49ab13ce92a7bd4dd043a06f1",
+          "raw_start_tag": "<a target=\"_self\" href=\"t108sb08_1_q2\">",
+          "source_literal": "t108sb08_1_q2"
+        },
+        {
+          "source_member": "raw/68741_issuance.html",
+          "source_body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+          "raw_line_number": 280,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t108sb08_1_q2\">轉換(附認股權)公司<br/><span style=\"padding-left: 35px;\">債公告彙總表</span></a><br/>\r\n",
+          "raw_line_sha256": "84e7fe1cfd57cf1041090a4c2a1b136c491e92b49ab13ce92a7bd4dd043a06f1",
+          "raw_start_tag": "<a target=\"_self\" href=\"t108sb08_1_q2\">",
+          "source_literal": "t108sb08_1_q2"
+        }
+      ],
+      "literal_href": "t108sb08_1_q2",
+      "resolved_url": "https://mopsov.twse.com.tw/mops/web/t108sb08_1_q2",
+      "query_parameters_added": [],
+      "generic_interface_only": true,
+      "issuer_or_bond_specific_notice_verified": false,
+      "followup_authorized": false
+    },
+    {
+      "exact_label": "各項公告查詢作業",
+      "evidence": [
+        {
+          "source_member": "raw/99587_issuance.html",
+          "source_body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+          "raw_line_number": 283,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t127sb00_q2\">各項公告查詢作業</a><br/>\r\n",
+          "raw_line_sha256": "68e4ca1a32583cf45a88e5ba373f517c3b849203cdc0ddfb7451f28f7d516c44",
+          "raw_start_tag": "<a target=\"_self\" href=\"t127sb00_q2\">",
+          "source_literal": "t127sb00_q2"
+        },
+        {
+          "source_member": "raw/68351_issuance.html",
+          "source_body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+          "raw_line_number": 283,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t127sb00_q2\">各項公告查詢作業</a><br/>\r\n",
+          "raw_line_sha256": "68e4ca1a32583cf45a88e5ba373f517c3b849203cdc0ddfb7451f28f7d516c44",
+          "raw_start_tag": "<a target=\"_self\" href=\"t127sb00_q2\">",
+          "source_literal": "t127sb00_q2"
+        },
+        {
+          "source_member": "raw/68741_issuance.html",
+          "source_body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+          "raw_line_number": 283,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t127sb00_q2\">各項公告查詢作業</a><br/>\r\n",
+          "raw_line_sha256": "68e4ca1a32583cf45a88e5ba373f517c3b849203cdc0ddfb7451f28f7d516c44",
+          "raw_start_tag": "<a target=\"_self\" href=\"t127sb00_q2\">",
+          "source_literal": "t127sb00_q2"
+        }
+      ],
+      "literal_href": "t127sb00_q2",
+      "resolved_url": "https://mopsov.twse.com.tw/mops/web/t127sb00_q2",
+      "query_parameters_added": [],
+      "generic_interface_only": true,
+      "issuer_or_bond_specific_notice_verified": false,
+      "followup_authorized": false
+    },
+    {
+      "exact_label": "轉換(附認股權)公司債公告(94.5.5起適用)",
+      "evidence": [
+        {
+          "source_member": "raw/99587_issuance.html",
+          "source_body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+          "raw_line_number": 286,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t108sb08\">轉換(附認股權)公司<br/><span style=\"padding-left: 35px;\">債公告(94.5.5起適</span><br/><span style=\"padding-left: 35px;\">用)</span></a><br/>\r\n",
+          "raw_line_sha256": "297e262294b4350582b44109740add492e292ebe0e4d797ebdec6b636308d7ca",
+          "raw_start_tag": "<a target=\"_self\" href=\"t108sb08\">",
+          "source_literal": "t108sb08"
+        },
+        {
+          "source_member": "raw/68351_issuance.html",
+          "source_body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+          "raw_line_number": 286,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t108sb08\">轉換(附認股權)公司<br/><span style=\"padding-left: 35px;\">債公告(94.5.5起適</span><br/><span style=\"padding-left: 35px;\">用)</span></a><br/>\r\n",
+          "raw_line_sha256": "297e262294b4350582b44109740add492e292ebe0e4d797ebdec6b636308d7ca",
+          "raw_start_tag": "<a target=\"_self\" href=\"t108sb08\">",
+          "source_literal": "t108sb08"
+        },
+        {
+          "source_member": "raw/68741_issuance.html",
+          "source_body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+          "raw_line_number": 286,
+          "raw_line_utf8": "\t\t\t\t\t\t\t<img src=\"images/pointer.gif\"/><a target=\"_self\" href=\"t108sb08\">轉換(附認股權)公司<br/><span style=\"padding-left: 35px;\">債公告(94.5.5起適</span><br/><span style=\"padding-left: 35px;\">用)</span></a><br/>\r\n",
+          "raw_line_sha256": "297e262294b4350582b44109740add492e292ebe0e4d797ebdec6b636308d7ca",
+          "raw_start_tag": "<a target=\"_self\" href=\"t108sb08\">",
+          "source_literal": "t108sb08"
+        }
+      ],
+      "literal_href": "t108sb08",
+      "resolved_url": "https://mopsov.twse.com.tw/mops/web/t108sb08",
+      "query_parameters_added": [],
+      "generic_interface_only": true,
+      "issuer_or_bond_specific_notice_verified": false,
+      "followup_authorized": false
+    }
+  ],
+  "meaning": "These are shared navigation entries copied from all three saved issuance pages. They are generic interfaces, not issuer-specific notices, holder-put announcements, query parameters, or current notice results.",
+  "no_issuer_query_parameters_guessed": true,
+  "new_source_requests_performed": 0,
+  "documents_unused_request_allowance_reused": false,
+  "future_notice_phase_requires_separate_frozen_allocation": true,
+  "most_recent_notice_verified": false,
+  "holder_put_notice_verified": false,
+  "cash_claim_source_gate_passed": false,
+  "source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "market_prices_or_returns_read": false,
+  "orders_authorized": false
+}

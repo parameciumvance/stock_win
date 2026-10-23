@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "source_archive_sha256": "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266",
+  "review_scope": "Full20physicalpages read; three embedded p1 images actually viewed; independent semantic review of these copies only, not legal/investment advice or current status certification",
+  "documents": [
+    {
+      "filename": "99587_terms.pdf",
+      "bond_code": "99587",
+      "body_sha256": "56885bffa85b9e05f5cff1f5dad34e605b80d60cd3f3071d7b07e65434c129d1",
+      "physical_page_count": 7,
+      "all_physical_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_observed_at": {
+        "request_started_at": "2026-10-23T01:11:17.875089+00:00",
+        "observed_at": "2026-10-23T01:11:18.271210+00:00",
+        "observed_at_taipei": "2026-10-23T09:11:18.271210+08:00"
+      },
+      "findings": [
+        {
+          "topic": "holder_put_and_nominal_base_date",
+          "interpretation": "§19 是持有人賣回權；二年名目賣回基準日為民國115年10月28日。不同於§18由發行人於條件發生時選擇行使的贖回權；本次未核對任何已生效call公告。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "a2ad97aa784e0a6ec6cc1b79cd8355e1ae205126efc57e55c3055ced71ce94ff",
+              "exact_anchors": [
+                "十八、本公司對本轉換公司債之贖回權",
+                "十九、債權人之賣回權：",
+                "屆滿二年之日（115 年 10 月 28 日）"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "notice_and_application_window",
+          "interpretation": "原文規定基準日前30日（115年9月28日）前掛號通知並函請櫃買中心公告；持有人於基準日前30日內書面通知股務代理。本文件不證明通知已實際寄發、公告已完成或券商截止時刻。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "a2ad97aa784e0a6ec6cc1b79cd8355e1ae205126efc57e55c3055ced71ce94ff",
+              "exact_anchors": [
+                "賣回基準日之前三十日（115 年 9 月\n28 日）前",
+                "得於賣回基準日之前三十日內以書面通知本公司股務代理機構"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "notice_register_is_not_purchase_cutoff",
+          "interpretation": "寄發日前第五營業日名冊界定郵寄通知對象；條文明列其後買受者以公告通知，不能直接把該名冊日當成投資人買進/交割資格截止日。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "a2ad97aa784e0a6ec6cc1b79cd8355e1ae205126efc57e55c3055ced71ce94ff",
+              "exact_anchors": [
+                "寄發日前第五個營業日債權人名冊所載者為準",
+                "對於其後因買賣或其他原因始取\n得本轉換債之投資人，則以公告方式為之"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "put_amount_and_contract_yield",
+          "interpretation": "賣回按面額100.50%；原文賣回年收益率0.25%是契約字段，不是本研究進場後的報酬。",
+          "references": [
+            {
+              "physical_page": 7,
+              "page_text_sha256": "c2306c45a54e27c305a9928674473581d38c6089df33a25d1adf174c1f9856a7",
+              "exact_anchors": [
+                "100.50%(賣回年收益率 0.25%)",
+                "將其所持有之本轉換公司債以現金贖回"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "delivery_postmark_and_irrevocability",
+          "interpretation": "書面送達生效，郵寄以郵戳為憑，且不得申請撤銷；未由此推導經紀商作業或T+2資格。",
+          "references": [
+            {
+              "physical_page": 7,
+              "page_text_sha256": "c2306c45a54e27c305a9928674473581d38c6089df33a25d1adf174c1f9856a7",
+              "exact_anchors": [
+                "送達時即生效力，採郵寄者以郵戳為憑，且不得申請撤銷"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "payment_clock_and_costs",
+          "interpretation": "受理賣回後，基準日後五營業日內匯款或支票交付，郵匯費由債款扣除；如前述日期遇臺北市證券集中交易市場停止營業日順延下一營業日。未把五營業日直接換算成某付款日，郵匯費金額、扣繳與實付未核。",
+          "references": [
+            {
+              "physical_page": 7,
+              "page_text_sha256": "c2306c45a54e27c305a9928674473581d38c6089df33a25d1adf174c1f9856a7",
+              "exact_anchors": [
+                "應於賣回基準日後五個營業日內",
+                "匯款或開立支票",
+                "郵匯費將自償還債款中扣除",
+                "臺北市證券集中交\n易市場停止營業之日，將順延至次一營業日"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "trustee_and_remaining_legal_scope",
+          "interpretation": "原文受託人永豐商業銀行；一般過戶/稅賦依相關法令，不等於本案已完成登錄或清償。文件末尾未盡事宜依相關法令，不是目前版本完整性證明。",
+          "references": [
+            {
+              "physical_page": 7,
+              "page_text_sha256": "c2306c45a54e27c305a9928674473581d38c6089df33a25d1adf174c1f9856a7",
+              "exact_anchors": [
+                "永豐商業銀行股份有限公司為債券持有人之受託人",
+                "另稅賦事宜依當時之\n稅法規定辦理",
+                "如有未盡事宜之處，悉依相關法令辦理之"
+              ]
+            }
+          ]
+        }
+      ],
+      "visual_review": [
+        {
+          "physical_page": 1,
+          "image_number": 1,
+          "name": "Im45.jpg",
+          "data_sha256": "7ce23fd2265956d92a7fa923d97243f3fb7b9258ce761e1556562cbce359da47",
+          "size_bytes": 311554,
+          "actually_viewed": true,
+          "observation": "已實際視讀physical p1整頁掃描：公司名世紀鋼鐵結構股份有限公司、國內第七次無擔保轉換公司債、113年10月28日、每張面額十萬元、零息及公司紅章可見。此頁沒有可抽取文字；不得據此說身分不符或未簽章。視讀不驗證印章真偽。"
+        }
+      ],
+      "version_boundary": "本次僅核實Oct23取得的這份sourcecopy，未建立歷次修訂／當前公告完整鏈；不從檔名數字推定生效或首次公布日期。",
+      "source_gate_passed": false,
+      "current_contract_version_verified": false
+    },
+    {
+      "filename": "68351_terms.pdf",
+      "bond_code": "68351",
+      "body_sha256": "0ecc755545fb3d68922a77f051e3b9187c4805e2936953532e6ae79c9dd6f23c",
+      "physical_page_count": 6,
+      "all_physical_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_observed_at": {
+        "request_started_at": "2026-10-23T01:11:17.875225+00:00",
+        "observed_at": "2026-10-23T01:11:18.181517+00:00",
+        "observed_at_taipei": "2026-10-23T09:11:18.181517+08:00"
+      },
+      "findings": [
+        {
+          "topic": "holder_put_versus_issuer_call",
+          "interpretation": "實際章節標題§18是本公司贖回權；§19是債券持有人賣回權，須按實際條文內容區分。",
+          "references": [
+            {
+              "physical_page": 5,
+              "page_text_sha256": "6003a6f34080a2afe1228db1f7f3362edc427ad21fc1e32f2ca3fcdfd49d0382",
+              "exact_anchors": [
+                "十八、本公司對本轉換公司債之贖回權"
+              ]
+            },
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "十九、債券持有人之賣回權"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "internal_cross_reference_conflict",
+          "interpretation": "physical p1 §6將第十八條指作賣回權、第十九條指作贖回，與實際章節標題相反。保留交叉引用不一致，不能自動修正文意或排除這個案例；需要當前通知/版本控制釐清。",
+          "references": [
+            {
+              "physical_page": 1,
+              "page_text_sha256": "0e7b0307695551dac885d2386f041c5de0728e7de67aac6340b2f1fd533e195a",
+              "exact_anchors": [
+                "依本辦法第十八條行使\n賣回權",
+                "依本辦法第十九條贖回"
+              ]
+            },
+            {
+              "physical_page": 5,
+              "page_text_sha256": "6003a6f34080a2afe1228db1f7f3362edc427ad21fc1e32f2ca3fcdfd49d0382",
+              "exact_anchors": [
+                "十八、本公司對本轉換公司債之贖回權"
+              ]
+            },
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "十九、債券持有人之賣回權"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "nominal_base_notice_and_application_window",
+          "interpretation": "名目基準日115年11月1日；本案通知與申請窗是40日，明列115年9月22日前通知。不能套用99587的30日。日期順延適用範圍與實際截止仍待當前公告核對。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "發行滿 兩年之日(115年11月1日)",
+                "賣回基準日之前四十日(115年9月22日)前",
+                "債\n券持有人得於賣回基準日之前四十日內以書面通知本公司股務代理機構"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "notice_register_is_not_purchase_cutoff",
+          "interpretation": "名冊寄發前第五營業日只對掛號通知；其後買受者另以公告通知，未證明任何券商或交割截止。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "寄發日前第五\n個營業日債券持有人名冊所載者為準",
+                "對於其後因買賣或其他原因始取得本債券之債\n券持有人，則以公告方式為之"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "put_amount_and_irrevocability",
+          "interpretation": "原文面額100%、賣回權收益率0%；送達生效、郵戳為憑、不得申請撤銷。契約收益率不是研究可實現報酬。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "債券面額之100%(賣\n回權收益率0%)",
+                "於送達時即\n生效力，採郵寄者以郵戳為憑，且不得申請撤銷"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "payment_clock_and_costs",
+          "interpretation": "基準日後五營業日內現金贖回並匯款/支票交付，郵匯費從債款扣除，遇臺北市證券集中交易市場休市順延下一營業日。未硬算週一到週五、付款日或費額。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "賣回基準\n日後五個營業日內以現金贖回本債券",
+                "匯款或開立支票",
+                "郵匯費將自償還債款中扣除",
+                "臺北市證券集中交  \n易市場停止營業之日，將順延至次一營業日"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "trustee_and_legal_scope",
+          "interpretation": "受託人台北富邦商業銀行；稅賦與未盡事宜另依當時法令，未核此持有人的實際扣款、資格或付款。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "e8f593cff9dc65097ca3ba19fd9151bf14b0b455140d5240c15e024dcb64fea8",
+              "exact_anchors": [
+                "台北富邦商業銀行股份有限公司為債權人之受託人",
+                "稅賦事宜依當時之\n稅法規定辦理",
+                "如有未盡事宜之處，悉依相關法令規定辦理之"
+              ]
+            }
+          ]
+        }
+      ],
+      "visual_review": [
+        {
+          "physical_page": 1,
+          "image_number": 1,
+          "name": "Image9.jpg",
+          "data_sha256": "7ba7f38ee4e477ffa9fc2ebfecc43c0448063967c29b12a648ee043ce65d112a",
+          "size_bytes": 4750,
+          "actually_viewed": true,
+          "observation": "已實際視讀physical p1所含紅色公司章影像；頁面正文有可抽取公司名與國內第一次資訊。公司章影像存在不等於驗證真偽或目前版本有效。"
+        }
+      ],
+      "version_boundary": "本次僅核實Oct23取得的這份sourcecopy，未建立歷次修訂／當前公告完整鏈；不從檔名數字推定生效或首次公布日期。",
+      "source_gate_passed": false,
+      "current_contract_version_verified": false
+    },
+    {
+      "filename": "68741_terms.pdf",
+      "bond_code": "68741",
+      "body_sha256": "58e884ad34e5b91ea3f4c30e35e9756deac4674814f30134ea9e429477ddd9b3",
+      "physical_page_count": 7,
+      "all_physical_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source_observed_at": {
+        "request_started_at": "2026-10-23T01:11:18.185112+00:00",
+        "observed_at": "2026-10-23T01:11:18.479265+00:00",
+        "observed_at_taipei": "2026-10-23T09:11:18.479265+08:00"
+      },
+      "findings": [
+        {
+          "topic": "holder_put_versus_issuer_call",
+          "interpretation": "§18為發行人條件式贖回權，§19為持有人賣回權。此次未核任何已發生call、撤銷或終止公告。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "5cf6dc55fad2fe2652954b168929da684fd81a742678d7b026bb0b740cef6805",
+              "exact_anchors": [
+                "十八、本公司對本轉換公司債之贖回權",
+                "十九、債券持有人之賣回權"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "nominal_base_notice_and_application_window",
+          "interpretation": "原文二年基準日115年11月4日；40日前（115年9月25日）通知並公告、40日內書面通知股務代理。不能移植99587的30日。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "5cf6dc55fad2fe2652954b168929da684fd81a742678d7b026bb0b740cef6805",
+              "exact_anchors": [
+                "發行屆滿二年之日(115 年 11 月 4 日)",
+                "賣回基準日之前四十日 (115 年 9 月 25 \n日)前",
+                "得於賣回基準日之前四十日內以書面通知"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "notice_register_is_not_purchase_cutoff",
+          "interpretation": "郵寄對象以寄發前第五營業日名冊為準；其後取得者公告通知。原文在此用「使取得」字樣，保留原字，未推定任何券商/T+2資格。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "5cf6dc55fad2fe2652954b168929da684fd81a742678d7b026bb0b740cef6805",
+              "exact_anchors": [
+                "寄發日前第五個營業日債券持有人名冊所載者為準",
+                "對於其後因買賣或其他原因使 取\n得本轉換公司 債持有人，則以公告方式為之"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "face_amount_and_irrevocability",
+          "interpretation": "原文以面額現金贖回，送達生效、郵戳為憑、不得撤回；§19沒有明列0%賣回收益率，不能把HTML同名字段當作此PDF原文。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "5cf6dc55fad2fe2652954b168929da684fd81a742678d7b026bb0b740cef6805",
+              "exact_anchors": [
+                "於送達時即生效力，採郵寄者以郵戳為憑 ，且不得撤回",
+                "要求本\n公司以債券面額其所持有之本轉換公司債以現金贖回"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "payment_clock_and_unspecified_fee",
+          "interpretation": "§19明列基準日後五營業日內現金贖回、遇臺北市證券集中交易市場休市順延；該節沒有另兩案的匯款/支票與郵匯費扣除句，不能推定費用為零或照搬另案費率。",
+          "references": [
+            {
+              "physical_page": 6,
+              "page_text_sha256": "5cf6dc55fad2fe2652954b168929da684fd81a742678d7b026bb0b740cef6805",
+              "exact_anchors": [
+                "應於賣\n回基準日後五個營業日內，以現金贖回本轉換公司債",
+                "臺北市證券集中\n交易市場停止營業之日，將順延至次一營業日"
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "trustee_and_legal_scope",
+          "interpretation": "受託人台北富邦商業銀行；一般過戶及稅賦依當時法令，未核現持有人實付或扣款。",
+          "references": [
+            {
+              "physical_page": 7,
+              "page_text_sha256": "696c0d0f730dab763ebb35ae835703dc5856a94466876bc63de7183636c795ba",
+              "exact_anchors": [
+                "台北富邦商業銀行股份有限公司為債權持有人之受託人",
+                "稅賦事宜依當時\n之稅法規定辦理",
+                "如有未盡事宜之處，悉依相關法令辦理之"
+              ]
+            }
+          ]
+        }
+      ],
+      "visual_review": [
+        {
+          "physical_page": 1,
+          "image_number": 1,
+          "name": "Im23.jpg",
+          "data_sha256": "b1b105672b4673b2603ed717f1e10954f148b90c9c936757733c738107c07fd0",
+          "size_bytes": 595013,
+          "actually_viewed": true,
+          "observation": "已實際視讀physical p1整頁掃描：倍力資訊股份有限公司、國內第一次無擔保轉換公司債、113年11月4日、每張面額十萬元、零息及公司紅章可見。視讀不驗證印章真偽或最新版本。"
+        }
+      ],
+      "version_boundary": "本次僅核實Oct23取得的這份sourcecopy，未建立歷次修訂／當前公告完整鏈；不從檔名數字推定生效或首次公布日期。",
+      "source_gate_passed": false,
+      "current_contract_version_verified": false
+    }
+  ],
+  "shared_boundaries": [
+    "通知書寄件名冊不是已證實的買進/交割資格截止；券商/T+2/集保作業未核。",
+    "法定營業日/實際休市日曆及當前付款公告未核，未生成任何精確付款日。",
+    "PDF或HTML本身不證明通知已寄發、申請已受理、未違約、目前仍交易或已付款。",
+    "原HTML按時還本是monyr_reg202609月資料，不能當Oct23今日還款證明。",
+    "保全全部3控制案例及各自衝突／缺文，未以乾淨案例作選擇。"
+  ],
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "orders_authorized": false
+}

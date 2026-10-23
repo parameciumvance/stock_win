@@ -1,0 +1,204 @@
+{
+  "checked_at_utc": "2026-10-23T01:00:11.586858+00:00",
+  "status": "actual_saved_report_and_three_literal_URLs_verified_policy_not_frozen",
+  "report_proof": {
+    "identities": [
+      {
+        "bond_code": "99587",
+        "issuer": "9958",
+        "issuer_name": "世紀鋼鐵結構股份有限公司",
+        "report_row_number": 83,
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+        "query_pairs": [
+          [
+            "TYPEK",
+            ""
+          ],
+          [
+            "bond_id",
+            "99587"
+          ],
+          [
+            "bond_kind",
+            "5"
+          ],
+          [
+            "bond_subn",
+            "$M00000001"
+          ],
+          [
+            "bond_yrn",
+            "7"
+          ],
+          [
+            "come",
+            "2"
+          ],
+          [
+            "encodeURIComponent",
+            "1"
+          ],
+          [
+            "firstin",
+            "ture"
+          ],
+          [
+            "issuer_stock_code",
+            "9958"
+          ],
+          [
+            "monyr_reg",
+            "202609"
+          ],
+          [
+            "pg",
+            ""
+          ],
+          [
+            "step",
+            "0"
+          ],
+          [
+            "tg",
+            ""
+          ]
+        ]
+      },
+      {
+        "bond_code": "68351",
+        "issuer": "6835",
+        "issuer_name": "圓裕企業股份有限公司",
+        "report_row_number": 85,
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+        "query_pairs": [
+          [
+            "TYPEK",
+            ""
+          ],
+          [
+            "bond_id",
+            "68351"
+          ],
+          [
+            "bond_kind",
+            "5"
+          ],
+          [
+            "bond_subn",
+            "$M00000001"
+          ],
+          [
+            "bond_yrn",
+            "1"
+          ],
+          [
+            "come",
+            "2"
+          ],
+          [
+            "encodeURIComponent",
+            "1"
+          ],
+          [
+            "firstin",
+            "ture"
+          ],
+          [
+            "issuer_stock_code",
+            "6835"
+          ],
+          [
+            "monyr_reg",
+            "202609"
+          ],
+          [
+            "pg",
+            ""
+          ],
+          [
+            "step",
+            "0"
+          ],
+          [
+            "tg",
+            ""
+          ]
+        ]
+      },
+      {
+        "bond_code": "68741",
+        "issuer": "6874",
+        "issuer_name": "倍力資訊股份有限公司",
+        "report_row_number": 86,
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+        "query_pairs": [
+          [
+            "TYPEK",
+            ""
+          ],
+          [
+            "bond_id",
+            "68741"
+          ],
+          [
+            "bond_kind",
+            "5"
+          ],
+          [
+            "bond_subn",
+            "$M00000001"
+          ],
+          [
+            "bond_yrn",
+            "1"
+          ],
+          [
+            "come",
+            "2"
+          ],
+          [
+            "encodeURIComponent",
+            "1"
+          ],
+          [
+            "firstin",
+            "ture"
+          ],
+          [
+            "issuer_stock_code",
+            "6874"
+          ],
+          [
+            "monyr_reg",
+            "202609"
+          ],
+          [
+            "pg",
+            ""
+          ],
+          [
+            "step",
+            "0"
+          ],
+          [
+            "tg",
+            ""
+          ]
+        ]
+      }
+    ],
+    "returned_report_records": 389,
+    "original_put_population_count": 29,
+    "requests": 3,
+    "identity_before_IO_verified": true,
+    "whole_URLs_copied_without_reencoding": true,
+    "complete_original29_contract_coverage_verified": false,
+    "source_gate_passed": false,
+    "historical_pit_verified": false
+  },
+  "source_IO_performed": false,
+  "prior_route_checkpoint_pending": true,
+  "protocol_file_created": false,
+  "original29_population_unchanged": true,
+  "prior15_plus_new_cap9_equals24": true
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-23T06:08:58.496205+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "-q",
+    "test_frontier_cb_independent_audit",
+    "test_frontier_cb_documents_sources",
+    "test_frontier_cb_documents_replay",
+    "test_frontier_cb_terms_sources",
+    "test_frontier_cb_pdf_replay",
+    "test_frontier_sources"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 52 tests in 0.235s\n\nOK\n",
+  "tests": 52,
+  "synthetic_inputs": true,
+  "initial_independent_fixture_errors": 5,
+  "fixture_correction": "Added explicit aware UTC source timestamps; verifier was unchanged."
+}

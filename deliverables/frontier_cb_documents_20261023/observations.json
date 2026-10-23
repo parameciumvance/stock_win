@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-23T01:08:02.213581+00:00",
+  "initial_requests": 3,
+  "initial_batches": 1,
+  "all_initial_http200_exit0": true,
+  "initial_archive_sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+  "initial_manifest_members": 12,
+  "backed_up_and_retrieved_before_body_reading": true,
+  "data_query_vintage": "monyr_reg=202609 retained exactly; not asserted to be current October terms",
+  "source_body_sha256s": {
+    "99587": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+    "68351": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+    "68741": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810"
+  },
+  "source_transport_errors": [],
+  "automatic_retries": 0,
+  "manual_download_requests": 0,
+  "market_quote_requests": 0,
+  "root_cause_claims_made": false,
+  "source_gate_passed": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "completed_at": "2026-10-23T06:08:58.496205+00:00",
+  "total_saved_requests": 6,
+  "total_source_batches": 2,
+  "all_six_http200_exit0": true,
+  "source_archives": [
+    "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+    "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266"
+  ],
+  "recovery_prior_member_checks": 493,
+  "resource_observations": [
+    {
+      "stage": "issuance_acquire",
+      "peak_observed_rss_bytes": 7299072,
+      "elapsed_seconds": 0.5050331269740127
+    },
+    {
+      "stage": "issuance_package",
+      "peak_observed_rss_bytes": 8605696,
+      "elapsed_seconds": 0.5079661679919809
+    },
+    {
+      "stage": "issuance_verify_readback",
+      "peak_observed_rss_bytes": 8040448,
+      "elapsed_seconds": 0.5064055020338856
+    },
+    {
+      "stage": "cb_documents_three_issuance_pages_identity_and_pointer_replay",
+      "peak_observed_rss_bytes": 6881280,
+      "elapsed_seconds": 0.5036830870085396
+    },
+    {
+      "stage": "terms_acquire",
+      "peak_observed_rss_bytes": 35876864,
+      "elapsed_seconds": 1.0049902849714272
+    },
+    {
+      "stage": "terms_package",
+      "peak_observed_rss_bytes": 7344128,
+      "elapsed_seconds": 0.5049378410330974
+    },
+    {
+      "stage": "terms_verify_readback",
+      "peak_observed_rss_bytes": 7168000,
+      "elapsed_seconds": 0.5035251160152256
+    },
+    {
+      "stage": "cb_documents_PDF_pages_and_primary_annotation_bindings",
+      "peak_observed_rss_bytes": 57610240,
+      "elapsed_seconds": 1.0040655370103195
+    },
+    {
+      "stage": "cb_documents_independent_annotation_bindings",
+      "peak_observed_rss_bytes": 79302656,
+      "elapsed_seconds": 1.508887831994798
+    }
+  ],
+  "recovery_note": "Execution resumed after interrupted turns; no cause inferred from silence. Frozen inputs rechecked, sources not re-fetched."
+}

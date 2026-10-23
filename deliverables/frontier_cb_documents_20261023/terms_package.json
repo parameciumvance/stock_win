@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_documents_20261023/terms.zip",
+  "sha256": "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266",
+  "manifest_files": 13,
+  "created_at": "2026-10-23T01:11:18.958936+00:00",
+  "retrieved": "inputs/frontier_cb_documents_20261023/terms.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_documents_20261023/terms_transfer.json",
+  "backup_label": "frontier_cb_documents_20261023_terms"
+}

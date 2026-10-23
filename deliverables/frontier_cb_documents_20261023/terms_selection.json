@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T01:10:34.953919+00:00",
+  "initial_selection_sha256": "cf4dfc334bdc489ae1ef68e0ac0b97c035261da2bd416863b5871d16a0d198bc",
+  "source_issuance_archive_sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+  "controls_bond_codes": [
+    "99587",
+    "68351",
+    "68741"
+  ],
+  "controls": [
+    {
+      "bond_code": "99587",
+      "source_member": "raw/99587_issuance.html",
+      "source_body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+      "source_request": {
+        "filename": "99587_issuance.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+        "method": "GET"
+      },
+      "source_observed_at_utc": "2026-10-23T01:04:52.948725+00:00",
+      "identity_and_pointer": {
+        "bond_code": "99587",
+        "issuer": "9958",
+        "issuer_name": "世紀鋼鐵結構股份有限公司",
+        "bond_name": "世紀鋼鐵結構股份有限公司國內第七次無擔保轉換公司債",
+        "series": "7",
+        "literal_href": "/nas/t56/t56bondb/9958_1150803_111428.pdf",
+        "url": "https://mopsov.twse.com.tw/nas/t56/t56bondb/9958_1150803_111428.pdf",
+        "anchor_text": "9958_1150803_111428.pdf",
+        "label": "發行辦法之內容：",
+        "body_sha256": "53b54e4b4533590227007ebefdf644ffdaf35b1c062457f2fab586351a196ffa",
+        "response_is_PDF_verified": false,
+        "filename_date_meaning_inferred": false,
+        "source_gate_passed": false
+      }
+    },
+    {
+      "bond_code": "68351",
+      "source_member": "raw/68351_issuance.html",
+      "source_body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+      "source_request": {
+        "filename": "68351_issuance.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+        "method": "GET"
+      },
+      "source_observed_at_utc": "2026-10-23T01:04:53.110172+00:00",
+      "identity_and_pointer": {
+        "bond_code": "68351",
+        "issuer": "6835",
+        "issuer_name": "圓裕企業股份有限公司",
+        "bond_name": "圓裕企業股份有限公司國內第一次無擔保轉換公司債",
+        "series": "1",
+        "literal_href": "/nas/t56/t56bondb/6835_1150904_100623.pdf",
+        "url": "https://mopsov.twse.com.tw/nas/t56/t56bondb/6835_1150904_100623.pdf",
+        "anchor_text": "6835_1150904_100623.pdf",
+        "label": "發行辦法之內容：",
+        "body_sha256": "50a2d772aac8449b0dabfd960a0ba548732ffed9a02d5d38ecf8bd15ac749da0",
+        "response_is_PDF_verified": false,
+        "filename_date_meaning_inferred": false,
+        "source_gate_passed": false
+      }
+    },
+    {
+      "bond_code": "68741",
+      "source_member": "raw/68741_issuance.html",
+      "source_body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+      "source_request": {
+        "filename": "68741_issuance.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+        "method": "GET"
+      },
+      "source_observed_at_utc": "2026-10-23T01:04:53.134454+00:00",
+      "identity_and_pointer": {
+        "bond_code": "68741",
+        "issuer": "6874",
+        "issuer_name": "倍力資訊股份有限公司",
+        "bond_name": "倍力資訊股份有限公司國內第一次無擔保轉換公司債",
+        "series": "1",
+        "literal_href": "/nas/t56/t56bondb/6874_1131025_140422.pdf",
+        "url": "https://mopsov.twse.com.tw/nas/t56/t56bondb/6874_1131025_140422.pdf",
+        "anchor_text": "6874_1131025_140422.pdf",
+        "label": "發行辦法之內容：",
+        "body_sha256": "b12551fe356cacc88ffb2fe290fe43cd5760dd6bdf8eb8262696de8391613810",
+        "response_is_PDF_verified": false,
+        "filename_date_meaning_inferred": false,
+        "source_gate_passed": false
+      }
+    }
+  ],
+  "link_role": "發行辦法之內容 cell, not受託契約 ornavigation",
+  "filename_dates_interpreted": false,
+  "linked_response_PDF_magic_verified": false,
+  "source_gate_passed": false,
+  "historical_pit_verified": false
+}

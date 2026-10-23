@@ -1,0 +1,23 @@
+{
+  "output_directory": "inputs/frontier_cb_documents_20261023/raw_issuance",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "99587_issuance.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=99587&bond_kind=5&bond_subn=%24M00000001&bond_yrn=7&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=9958&monyr_reg=202609&pg=&step=0&tg=",
+      "method": "GET"
+    },
+    {
+      "filename": "68351_issuance.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68351&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6835&monyr_reg=202609&pg=&step=0&tg=",
+      "method": "GET"
+    },
+    {
+      "filename": "68741_issuance.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t120sg01?TYPEK=&bond_id=68741&bond_kind=5&bond_subn=%24M00000001&bond_yrn=1&come=2&encodeURIComponent=1&firstin=ture&issuer_stock_code=6874&monyr_reg=202609&pg=&step=0&tg=",
+      "method": "GET"
+    }
+  ]
+}

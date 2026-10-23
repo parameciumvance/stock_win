@@ -1,0 +1,13 @@
+{
+  "status": "all_pdf_annotation_page_anchors_and_image_references_verified",
+  "documents": 3,
+  "text_anchors_verified": 51,
+  "image_references_verified": 3,
+  "semantic_interpretation_automatically_approved": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "annotation_path": "deliverables/frontier_cb_documents_20261023/terms_annotation.json",
+  "annotation_sha256": "b84ec5304447d79d36e3b911b373e631706dbb93b7cbae9a6ca713de2dbfc700",
+  "pdf_replay_sha256": "3e05576623896abb6fb6d97bea34089cfeb290727bbef1ca8e58bfd88453cf3a"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "continue_authorized_no_user_decision",
+  "next_stage": "frontier_cb_notices_20261023",
+  "reason": "Current put announcements and version/status are not established by issuance PDFs.",
+  "controls": [
+    "99587",
+    "68351",
+    "68741"
+  ],
+  "next_generic_routes": [
+    "t198sb04_q1",
+    "t108sb08"
+  ],
+  "new_separate_request_cap": 6,
+  "prior_actual_CB_requests": 21,
+  "new_cumulative_cap": 27,
+  "unused_documents_three_requests_reused": false,
+  "unused_route_one_request_reused": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

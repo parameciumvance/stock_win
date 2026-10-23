@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-23T06:08:58.496205+00:00",
+  "packages": [
+    {
+      "batch": "issuance",
+      "archive_sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+      "manifest_files": 12,
+      "receipt": "deliverables/frontier_cb_documents_20261023/source_receipt_issuance.json"
+    },
+    {
+      "batch": "terms",
+      "archive_sha256": "8566db22cad7ffa2619f27b71152b21784c27e1334be861d148374c927b3a266",
+      "manifest_files": 13,
+      "receipt": "deliverables/frontier_cb_documents_20261023/source_receipt_terms.json"
+    }
+  ],
+  "all_saved_retrieved_sha_crc_manifest_verified": true,
+  "new_manifest_entries": 25,
+  "new_requests": 6,
+  "batches": 2,
+  "old_CB_requests": 15,
+  "cumulative_CB_requests": 21,
+  "phase_request_cap": 9,
+  "phase_batch_cap": 3,
+  "unused_request_capacity": 3,
+  "unused_request_not_reused": true,
+  "storage": "Persistent WSL inputs plus Windows same-computer backup; not offsite",
+  "source_gate_passed": false,
+  "profit_edge_proven": false
+}

@@ -1,0 +1,30 @@
+{
+  "protocol_sha256": "f647dcb7515031fc915b69a19e17186f074cc716269fa0080f94220360e03aca",
+  "frozen_at_utc": "2026-10-23T01:10:34.957315+00:00",
+  "path": "configs/frontier_cb_documents_terms_sources_20261023.json",
+  "sha256": "be4c94a3e756d22de9ec29ce97afc2a18f401040a8946acd8aa7c78859bf395a",
+  "requests": 3,
+  "terms_selection": {
+    "path": "deliverables/frontier_cb_documents_20261023/terms_selection.json",
+    "sha256": "7569654001a18ad0b29a97e29d0bff01face3514cb0c3b1c210ea6ee6404dda1"
+  },
+  "issuance_source_evidence": {
+    "package_path": "deliverables/frontier_cb_documents_20261023/issuance_package.json",
+    "archive_sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+    "manifest_files": 12
+  },
+  "allocation": {
+    "phase_initial_requests_used": 3,
+    "this_batch_requests": 3,
+    "phase_requests_allocated_after_batch": 6,
+    "phase_request_cap": 9,
+    "phase_batches_after_batch": 2,
+    "phase_batch_cap": 3,
+    "maximum_remaining_requests": 3,
+    "maximum_remaining_batches": 1
+  },
+  "body_identity_before_IO": true,
+  "linked_response_is_PDF_not_yet_verified": true,
+  "filename_date_meaning_inferred": false,
+  "source_gate_passed": false
+}

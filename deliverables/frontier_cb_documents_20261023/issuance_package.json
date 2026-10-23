@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_documents_20261023/issuance.zip",
+  "sha256": "b44941466b27c510e6f6295af3e8c3cab59e38666cc7caea66ec7999d94a8979",
+  "manifest_files": 12,
+  "created_at": "2026-10-23T01:04:53.716462+00:00",
+  "retrieved": "inputs/frontier_cb_documents_20261023/issuance.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_documents_20261023/issuance_transfer.json",
+  "backup_label": "frontier_cb_documents_20261023_issuance"
+}
