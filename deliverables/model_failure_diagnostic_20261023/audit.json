@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scalar_rows": 3570,
+  "max_endpoint_error": 4.440892098500626e-16,
+  "frozen_monthly_cohorts_verified": true,
+  "cost_aggregates": 63,
+  "group_aggregates": 264,
+  "paired_aggregates": 24,
+  "overlap_month_pairs": 272,
+  "exposure_aggregates": 189,
+  "unknown_selected_rows": 315,
+  "outputs_sha256": {
+    "deliverables/model_failure_diagnostic_20261023/costs.csv": "436789ee2fef4276477fdd0179f54b12fa3f8c506c87dba58fef184201c27fbe",
+    "deliverables/model_failure_diagnostic_20261023/pairs.csv": "74945b559c0dbd5a94c268702bb2a9e7c89144e82e9e1b11ac6993d8774f8feb",
+    "deliverables/model_failure_diagnostic_20261023/groups.csv": "65d405b27ea766e61f39f803fa1c11616c1b86574ca7cc27f44a5f7beae383db",
+    "deliverables/model_failure_diagnostic_20261023/overlap.csv": "840402f9a20c33fa38d189415a5f6b2f453c246d2c79676dfa92d6f0aa06f46c",
+    "deliverables/model_failure_diagnostic_20261023/exposures.csv": "4cca7d6305e789002fdc88215a40a0a91671b674b32be9ea3bd17cd15c978602",
+    "deliverables/model_failure_diagnostic_20261023/summary.json": "d96ebfaa6091158246a4eb3e25255361c81ede8959854d1d7665e7fce24a6de0"
+  }
+}

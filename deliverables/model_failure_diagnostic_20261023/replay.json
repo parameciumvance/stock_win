@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "rows": 3570,
+  "selected_sha256": "1dd10fd6faa919068c892f5f12fb0e78f12fe76f233f8b8346f64e75ff7f54e7",
+  "boundaries": {
+    "vol20": [
+      0.013684751104869683,
+      0.022716165073162403
+    ],
+    "turnover20": [
+      41900212.15,
+      216891683.55
+    ],
+    "r60": [
+      -0.023771790808127413,
+      0.0875675525099846
+    ]
+  },
+  "group_reference_cutoff": "2023-12-29",
+  "group_reference": "2023 eligible price-pool stock-days; not the original feature-complete common pool; boundaries never fit to later returns",
+  "signal_range": [
+    "2023-12-29",
+    "2026-09-30"
+  ],
+  "price_range": [
+    "2023-01-03",
+    "2026-10-02"
+  ],
+  "selected_unknown_rows": 315,
+  "full_score_replay": false
+}

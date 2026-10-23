@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-23T09:02:59.499394+00:00",
+  "protocol_sha256": "0c1edfe19c79df719d3dccbd7420ce07cfaa1ca0e8a0a07b425fd1b464df7263",
+  "input_sha256": {
+    "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+    "configs/medium_term_protocol.json": "995550cbf91a32479335ffb0226b5ca03fb8e32e616a639d8b41e80b8567cacb",
+    "deliverables/medium_term/matrix.json": "0839ea8488575adcc6f4e24b91b45407b86c8b69b1df05db87903919216a9c23",
+    "deliverables/medium_term/summary_2024.json": "2b5a981e2c1534a162c9eef856b7c06d818b111f92af081ed874357675c0774a",
+    "deliverables/medium_term/daily_2024.csv": "bc2e75a47f22f88283920b5f532979f7179ee8c4a6ea043d4a26d9b3c974574c",
+    "deliverables/medium_term/monthly_2024.csv": "e0dd5f2f4be7fc2c8e574aa721e822028f88ad3ea90e54ee239bc5e82ca7e4ee",
+    "deliverables/medium_term/monthly_selections_2024.csv": "c452b3d2de2b9624845b98928a32b4305889652d6a7cd2a3245092557e6c3103",
+    "deliverables/medium_term/summary_2025.json": "03e4ccd0fec287db77f511cae5f4b4f398dee6705b15b2d82de997195b63d1bc",
+    "deliverables/medium_term/daily_2025.csv": "e025e6f622befcc0210470d564c1106c24ed7632dc771dfc397383124c0ac375",
+    "deliverables/medium_term/monthly_2025.csv": "2da468cfbf287d4293607de42ebab5482096c94cce61da98db9008e541042dce",
+    "deliverables/medium_term/monthly_selections_2025.csv": "0b9431c124b9f344d80ff310e85e1e1039288934189a23bef7e26593fb52bf52",
+    "deliverables/medium_term/summary_2026.json": "9f58c4e121f285d077d67086e7af9be7776017003715b2ca5a25a751947ae4b9",
+    "deliverables/medium_term/daily_2026.csv": "5d1f34977e8c657fa3a374915e37499e2c6cd812f1a332ede36c875019d604cf",
+    "deliverables/medium_term/monthly_2026.csv": "91077f6cf8645df2dbc2e1f8662a51ecdcde2d69c4b785b6da5dfca6bbc1d573",
+    "deliverables/medium_term/monthly_selections_2026.csv": "d2a7e20b8d06e36db877d94ee5cd531d7d228942a12e098701aa131efbaca91c"
+  },
+  "archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+  "archive_manifest_files": 506,
+  "saved_copies": [
+    "inputs/reassessment_20261016/backup/original_bundle.zip",
+    "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+  ],
+  "sha_crc_manifest_readback_verified": true,
+  "storage": "Persistent local original, backup and readback; same filesystem, not offsite",
+  "scope": "Frozen prices and Git-backed selections/daily outputs only; full candidate matrix and estimators absent; no full score replay claimed"
+}

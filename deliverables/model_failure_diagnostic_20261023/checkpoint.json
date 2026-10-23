@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-23T09:05:14.874090+00:00",
+  "archive": "inputs/model_failure_diagnostic_20261023/diagnostic_checkpoint.zip",
+  "backup": "inputs/model_failure_diagnostic_20261023/backup/diagnostic_checkpoint.zip",
+  "retrieved": "inputs/model_failure_diagnostic_20261023/diagnostic_checkpoint.retrieved.zip",
+  "sha256": "24a16fd21f277f6239012150ae8862fa92c42bf8540442e09d4ac00a8c8ca493",
+  "manifest_files": 21,
+  "sha_crc_manifest_roundtrip_verified": true,
+  "storage": "Persistent local copies on same filesystem, not offsite",
+  "source_archive_sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94"
+}

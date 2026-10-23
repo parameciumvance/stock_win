@@ -1,0 +1,163 @@
+{
+  "stages": {
+    "verify_inputs": {
+      "status": "complete",
+      "fingerprint": "3ef1f9fe2ee367346accf2cb20f00ad3b67ebeeae94668645491c689007a4d3d",
+      "started_at": "2026-10-23T09:02:53.576309+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:02:53.576561+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/model_failure_diagnostic_20261023/pipeline/logs/verify_inputs.1792746173581050217.log",
+      "peak_observed_rss_bytes": 115884032,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 6.510709701979067,
+      "outputs": {
+        "deliverables/model_failure_diagnostic_20261023/source_receipt.json": "6e9f18dc6991fd7f1a30472e3956d9452bf175269cae39d7de5bc4d03b89a26c"
+      },
+      "finished_at": "2026-10-23T09:03:00.099056+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:03:00.099172+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "replay": {
+      "status": "complete",
+      "fingerprint": "6d700b6416b83fb7ca1942e73b7b79c2c8aaa2b8de05b634eb1864b8b9b26b0d",
+      "started_at": "2026-10-23T09:03:00.120495+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:03:00.120654+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/model_failure_diagnostic_20261023/pipeline/logs/replay.1792746180125925927.log",
+      "peak_observed_rss_bytes": 409464832,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 6.510145127016585,
+      "outputs": {
+        "deliverables/model_failure_diagnostic_20261023/replay.json": "01deee10ac394bd5779b080f901f079d67dce168b5d87cec04e661cc118ce31b",
+        "inputs/model_failure_diagnostic_20261023/selected_replay.csv.gz": "1dd10fd6faa919068c892f5f12fb0e78f12fe76f233f8b8346f64e75ff7f54e7"
+      },
+      "finished_at": "2026-10-23T09:03:06.651034+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:03:06.651147+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "diagnose": {
+      "status": "complete",
+      "fingerprint": "c458878368ea37face3448a028a24a71d40791c9b729c6f0dcf008722af9f8a3",
+      "started_at": "2026-10-23T09:03:06.673953+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:03:06.674069+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/model_failure_diagnostic_20261023/pipeline/logs/diagnose.1792746186682177164.log",
+      "peak_observed_rss_bytes": 86933504,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 2.00978371797828,
+      "outputs": {
+        "deliverables/model_failure_diagnostic_20261023/costs.csv": "436789ee2fef4276477fdd0179f54b12fa3f8c506c87dba58fef184201c27fbe",
+        "deliverables/model_failure_diagnostic_20261023/pairs.csv": "74945b559c0dbd5a94c268702bb2a9e7c89144e82e9e1b11ac6993d8774f8feb",
+        "deliverables/model_failure_diagnostic_20261023/groups.csv": "65d405b27ea766e61f39f803fa1c11616c1b86574ca7cc27f44a5f7beae383db",
+        "deliverables/model_failure_diagnostic_20261023/overlap.csv": "840402f9a20c33fa38d189415a5f6b2f453c246d2c79676dfa92d6f0aa06f46c",
+        "deliverables/model_failure_diagnostic_20261023/exposures.csv": "4cca7d6305e789002fdc88215a40a0a91671b674b32be9ea3bd17cd15c978602",
+        "deliverables/model_failure_diagnostic_20261023/summary.json": "d96ebfaa6091158246a4eb3e25255361c81ede8959854d1d7665e7fce24a6de0"
+      },
+      "finished_at": "2026-10-23T09:03:08.699105+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:03:08.699204+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "audit": {
+      "status": "complete",
+      "fingerprint": "62092cb0218656a9869c6b6025c9191c5fda8dad824dd267c9dafbd25c3f0e2c",
+      "started_at": "2026-10-23T09:03:08.722317+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:03:08.722454+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/model_failure_diagnostic_20261023/pipeline/logs/audit.1792746188726311186.log",
+      "peak_observed_rss_bytes": 507289600,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 8.013068235013634,
+      "outputs": {
+        "deliverables/model_failure_diagnostic_20261023/audit.json": "424bd8df6c1fd2bfe50896f4d2ea5f1168c8c605e8d46d4074f4da0c567aacc8"
+      },
+      "finished_at": "2026-10-23T09:03:16.746609+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:03:16.746713+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    },
+    "report": {
+      "status": "complete",
+      "fingerprint": "b5846f9c06209efd41f8f625015819581ebfa078bcce9838d28e07ca08bf3246",
+      "started_at": "2026-10-23T09:03:16.750932+00:00",
+      "runtime_before": {
+        "observed_at": "2026-10-23T09:03:16.751038+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      },
+      "attempt": 1,
+      "log": "deliverables/model_failure_diagnostic_20261023/pipeline/logs/report.1792746196754272402.log",
+      "peak_observed_rss_bytes": 7409664,
+      "exit_code": 0,
+      "exit_signal": null,
+      "elapsed_seconds": 0.5044502699747682,
+      "outputs": {
+        "deliverables/model_failure_diagnostic_20261023/report.md": "b5a17681abc5f003531241647a9d6fbaca15be95b0ff4a4d026d4709f2a67ecf",
+        "deliverables/model_failure_diagnostic_20261023/next_tasks.json": "5257c207137b28b5f9c5d036d71910adfc588739e02e66f35f8d38c2ae6adb80"
+      },
+      "finished_at": "2026-10-23T09:03:17.263469+00:00",
+      "runtime_after": {
+        "observed_at": "2026-10-23T09:03:17.263565+00:00",
+        "runtime_identity": "c1b04dff634c5d268d342273f5c0a4766fd0bce57edf356a3a628ad3e63d2059",
+        "memory_events": null,
+        "memory_current_bytes": null,
+        "memory_limit_bytes": null
+      }
+    }
+  },
+  "status": "complete",
+  "started_at": "2026-10-23T09:05:14.365407+00:00",
+  "runtime_identity": "ce3344801d5ddf3beb33d5ff15547de67bb8b2e3bc1b84a7b173b27383d2951e",
+  "active": {},
+  "heartbeat_at": "2026-10-23T09:05:14.603761+00:00",
+  "current_stage": "report",
+  "finished_at": "2026-10-23T09:05:14.603739+00:00"
+}

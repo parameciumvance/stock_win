@@ -1,0 +1,188 @@
+{
+  "stages": [
+    {
+      "id": "verify_inputs",
+      "command": [
+        "{python}",
+        "model_failure_diagnostic.py",
+        "verify_inputs"
+      ],
+      "inputs": [
+        "model_failure_diagnostic.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/model_failure_diagnostic_20261023.json",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "configs/medium_term_protocol.json",
+        "deliverables/medium_term/matrix.json",
+        "deliverables/medium_term/summary_2024.json",
+        "deliverables/medium_term/daily_2024.csv",
+        "deliverables/medium_term/monthly_2024.csv",
+        "deliverables/medium_term/monthly_selections_2024.csv",
+        "deliverables/medium_term/summary_2025.json",
+        "deliverables/medium_term/daily_2025.csv",
+        "deliverables/medium_term/monthly_2025.csv",
+        "deliverables/medium_term/monthly_selections_2025.csv",
+        "deliverables/medium_term/summary_2026.json",
+        "deliverables/medium_term/daily_2026.csv",
+        "deliverables/medium_term/monthly_2026.csv",
+        "deliverables/medium_term/monthly_selections_2026.csv",
+        "ref/institutional_twse_2023_repro_bundle.zip",
+        "inputs/reassessment_20261016/backup/original_bundle.zip",
+        "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+      ],
+      "outputs": [
+        "deliverables/model_failure_diagnostic_20261023/source_receipt.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1800
+    },
+    {
+      "id": "replay",
+      "command": [
+        "{python}",
+        "model_failure_diagnostic.py",
+        "replay"
+      ],
+      "inputs": [
+        "model_failure_diagnostic.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/model_failure_diagnostic_20261023.json",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "configs/medium_term_protocol.json",
+        "deliverables/medium_term/matrix.json",
+        "deliverables/medium_term/summary_2024.json",
+        "deliverables/medium_term/daily_2024.csv",
+        "deliverables/medium_term/monthly_2024.csv",
+        "deliverables/medium_term/monthly_selections_2024.csv",
+        "deliverables/medium_term/summary_2025.json",
+        "deliverables/medium_term/daily_2025.csv",
+        "deliverables/medium_term/monthly_2025.csv",
+        "deliverables/medium_term/monthly_selections_2025.csv",
+        "deliverables/medium_term/summary_2026.json",
+        "deliverables/medium_term/daily_2026.csv",
+        "deliverables/medium_term/monthly_2026.csv",
+        "deliverables/medium_term/monthly_selections_2026.csv",
+        "deliverables/model_failure_diagnostic_20261023/source_receipt.json"
+      ],
+      "outputs": [
+        "deliverables/model_failure_diagnostic_20261023/replay.json",
+        "inputs/model_failure_diagnostic_20261023/selected_replay.csv.gz"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1800
+    },
+    {
+      "id": "diagnose",
+      "command": [
+        "{python}",
+        "model_failure_diagnostic.py",
+        "diagnose"
+      ],
+      "inputs": [
+        "model_failure_diagnostic.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/model_failure_diagnostic_20261023.json",
+        "deliverables/model_failure_diagnostic_20261023/replay.json",
+        "inputs/model_failure_diagnostic_20261023/selected_replay.csv.gz",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "configs/medium_term_protocol.json",
+        "deliverables/medium_term/matrix.json",
+        "deliverables/medium_term/summary_2024.json",
+        "deliverables/medium_term/daily_2024.csv",
+        "deliverables/medium_term/monthly_2024.csv",
+        "deliverables/medium_term/monthly_selections_2024.csv",
+        "deliverables/medium_term/summary_2025.json",
+        "deliverables/medium_term/daily_2025.csv",
+        "deliverables/medium_term/monthly_2025.csv",
+        "deliverables/medium_term/monthly_selections_2025.csv",
+        "deliverables/medium_term/summary_2026.json",
+        "deliverables/medium_term/daily_2026.csv",
+        "deliverables/medium_term/monthly_2026.csv",
+        "deliverables/medium_term/monthly_selections_2026.csv"
+      ],
+      "outputs": [
+        "deliverables/model_failure_diagnostic_20261023/costs.csv",
+        "deliverables/model_failure_diagnostic_20261023/pairs.csv",
+        "deliverables/model_failure_diagnostic_20261023/groups.csv",
+        "deliverables/model_failure_diagnostic_20261023/overlap.csv",
+        "deliverables/model_failure_diagnostic_20261023/exposures.csv",
+        "deliverables/model_failure_diagnostic_20261023/summary.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1800
+    },
+    {
+      "id": "audit",
+      "command": [
+        "{python}",
+        "model_failure_diagnostic.py",
+        "audit"
+      ],
+      "inputs": [
+        "model_failure_diagnostic.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/model_failure_diagnostic_20261023.json",
+        "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+        "configs/medium_term_protocol.json",
+        "deliverables/medium_term/matrix.json",
+        "deliverables/medium_term/summary_2024.json",
+        "deliverables/medium_term/daily_2024.csv",
+        "deliverables/medium_term/monthly_2024.csv",
+        "deliverables/medium_term/monthly_selections_2024.csv",
+        "deliverables/medium_term/summary_2025.json",
+        "deliverables/medium_term/daily_2025.csv",
+        "deliverables/medium_term/monthly_2025.csv",
+        "deliverables/medium_term/monthly_selections_2025.csv",
+        "deliverables/medium_term/summary_2026.json",
+        "deliverables/medium_term/daily_2026.csv",
+        "deliverables/medium_term/monthly_2026.csv",
+        "deliverables/medium_term/monthly_selections_2026.csv",
+        "inputs/model_failure_diagnostic_20261023/selected_replay.csv.gz",
+        "deliverables/model_failure_diagnostic_20261023/replay.json",
+        "deliverables/model_failure_diagnostic_20261023/costs.csv",
+        "deliverables/model_failure_diagnostic_20261023/pairs.csv",
+        "deliverables/model_failure_diagnostic_20261023/groups.csv",
+        "deliverables/model_failure_diagnostic_20261023/overlap.csv",
+        "deliverables/model_failure_diagnostic_20261023/exposures.csv",
+        "deliverables/model_failure_diagnostic_20261023/summary.json"
+      ],
+      "outputs": [
+        "deliverables/model_failure_diagnostic_20261023/audit.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1800
+    },
+    {
+      "id": "report",
+      "command": [
+        "{python}",
+        "model_failure_diagnostic.py",
+        "report"
+      ],
+      "inputs": [
+        "model_failure_diagnostic.py",
+        "research_reassessment.py",
+        "research_runtime.py",
+        "configs/model_failure_diagnostic_20261023.json",
+        "deliverables/model_failure_diagnostic_20261023/audit.json",
+        "deliverables/model_failure_diagnostic_20261023/replay.json",
+        "deliverables/model_failure_diagnostic_20261023/costs.csv",
+        "deliverables/model_failure_diagnostic_20261023/pairs.csv",
+        "deliverables/model_failure_diagnostic_20261023/groups.csv",
+        "deliverables/model_failure_diagnostic_20261023/overlap.csv",
+        "deliverables/model_failure_diagnostic_20261023/exposures.csv",
+        "deliverables/model_failure_diagnostic_20261023/summary.json"
+      ],
+      "outputs": [
+        "deliverables/model_failure_diagnostic_20261023/report.md",
+        "deliverables/model_failure_diagnostic_20261023/next_tasks.json"
+      ],
+      "timeout_seconds": 240,
+      "max_rss_mb": 1800
+    }
+  ]
+}

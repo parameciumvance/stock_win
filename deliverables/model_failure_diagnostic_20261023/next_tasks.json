@@ -1,0 +1,13 @@
+{
+  "status": "completed_bounded_diagnosis",
+  "completed": [
+    "frozen input verification",
+    "independent endpoint replay",
+    "same-date model/baseline contrasts",
+    "cost and fixed pre-evaluation stock-group diagnostics"
+  ],
+  "automatically_acquire_more_data": false,
+  "automatically_tune_models": false,
+  "valid_signal_date": null,
+  "next_research_gate": "One distinct falsifiable hypothesis and frozen finite comparison; no recycled year called fresh holdout"
+}

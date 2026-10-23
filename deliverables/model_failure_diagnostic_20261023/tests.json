@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "observed_at": "2026-10-23T09:05:14.042762+00:00",
+  "command": ".venv/bin/python -m unittest test_model_failure_diagnostic test_medium_term test_research_reassessment test_research_pipeline -v",
+  "tests_run": 43,
+  "new_diagnostic_tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_reported_seconds": 0.75,
+  "tested_code_sha256": {
+    "model_failure_diagnostic.py": "7f08463e5e981e0a14af731cdf3c527aa5f648d38c917c06f1693e8decdebcbe",
+    "test_model_failure_diagnostic.py": "d8f979c888a87d39ccda97d8671f5921e94b6335d4875fc0a96f1cbe8f87d96d",
+    "research_reassessment.py": "ee1d9f807a4366470a84d62c2b574ae6b6bb61603b24d68844bb025e428cc9f0",
+    "research_runtime.py": "706ca59728554ef269552202313446c5ae88f075c714ce14478b21c4524e533f",
+    "research_pipeline.py": "ac0ace81f211dc0abd895d1c9e09fd4bf9a14abd818c9385e458610ade8f2031",
+    "test_medium_term.py": "340c2b226ce7dc77f5e6c06830b016bfff06d99a1bee8f7d81c3a81e98b10b67",
+    "test_research_reassessment.py": "35e7c405c06193199d9537f64deb15c3841465d805395573f960f6a51c1db791",
+    "test_research_pipeline.py": "61a5f1fb1ccdf5d5eb1b8e7ede0c902bf77b83fb05f9d827bd0af87138e5345b",
+    "package_model_failure_diagnostic.py": "0ff0f870aece7cd015efc5b56e47ab6a5fb0c106b169dff3cd7842c0b816adc9"
+  },
+  "environment": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1"
+  },
+  "scope": "Unit/boundary tests and existing regression suites; not profitability or a new model fit"
+}
