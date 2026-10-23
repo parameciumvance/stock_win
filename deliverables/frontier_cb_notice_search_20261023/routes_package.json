@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_notice_search_20261023/routes.zip",
+  "sha256": "8035777f69c88d9f712c77abb65e5bb75ef3c7e91df0db7a0d48e63f841a2745",
+  "manifest_files": 10,
+  "created_at": "2026-10-23T06:21:15.618384+00:00",
+  "retrieved": "inputs/frontier_cb_notice_search_20261023/routes.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_notice_search_20261023/routes_transfer.json",
+  "backup_label": "frontier_cb_notice_search_20261023_routes"
+}

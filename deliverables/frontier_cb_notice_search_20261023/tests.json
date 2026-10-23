@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-23T06:26:29.969812+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "-q",
+    "test_frontier_cb_notice_search_sources"
+  ],
+  "exit_code": 0,
+  "tests": 4,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n"
+}

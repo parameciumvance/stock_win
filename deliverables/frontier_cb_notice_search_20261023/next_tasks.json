@@ -1,0 +1,21 @@
+{
+  "status": "continue_authorized",
+  "next_stage": "frontier_cb_major_20261023",
+  "reason": "Actual frozen option lists in t198sb04 and t127sb00 cover outstanding changes/early repayment/SLB, not direct holder put. Original issuance page has actual t113sb04_q2 historical bond material-announcement navigation.",
+  "exact_url": "https://mopsov.twse.com.tw/mops/web/t113sb04_q2",
+  "source_raw_line": 238,
+  "new_source_cap": 10,
+  "new_batch_cap": 6,
+  "cumulative_CB_raw_actual_before_next": 31,
+  "cumulative_CB_raw_cap_after_next": 41,
+  "old_unused_two_not_reused": true,
+  "query_population_unchanged": [
+    "99587",
+    "68351",
+    "68741"
+  ],
+  "user_decision_required": false,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

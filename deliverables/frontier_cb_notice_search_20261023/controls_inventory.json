@@ -1,0 +1,94 @@
+{
+  "source_archive_sha256": "a5a52f1d00bbb7f1ec05dd1bbbf4fa997ee537a83d63d7d4fae60d79ca9d8d98",
+  "body_sha256": "3fba9222d2352c27efb50d2a1aa2bd8dcb60b5e950a3f6a71c2b8148d388c571",
+  "forms": [],
+  "rows": [
+    {
+      "occurrence": 1,
+      "html_line": 26,
+      "table": 1,
+      "attributes": {
+        "style": "text-align:left !important;"
+      },
+      "text": "\u516c\u544a\u985e\u5225 Type of announcement\uff1a\u975e\u65e2\u5b9a\u4e4b\u9918\u984d\u8b8a\u52d5\u516c\u544a(\u5df2\u77e5\u6089\u6642-\u9918\u984d\u672a\u8b8a\u52d5\u516c\u544a)Expected variation in amount outstanding (for both repurchase from secondary market and repayment of principal on an earlier time)\u975e\u65e2\u5b9a\u4e4b\u9918\u984d\u8b8a\u52d5\u516c\u544a(\u5df2\u5be6\u969b\u8b8a\u52d5-\u4f46\u8b8a\u52d5\u5f8c\u4ecd\u6709\u9918\u984d)Variation in amount outstanding after repurchase from secondary market or partly repay principal on an earlier time\u56e0\u63d0\u524d\u8cb7\u56de\u3001\u8d16\u56de\u6216\u5176\u4ed6\u56e0\u7d20\u5c46\u81e8\u9084\u6e05\u672c\u91d1\u4e26\u7d42\u6b62\u6ac3\u6aaf\u8cb7\u8ce3Termination of TPEx trading due to repurchase from secondary market, or full repayment of principal on an earlier time\u53ef\u6301\u7e8c\u767c\u5c55\u9023\u7d50\u50b5\u5238(SLB)\u672c\u606f\u652f\u4ed8\u689d\u4ef6\u8b8a\u52d5\u516c\u544aVariation in bond principal and interest payment terms of the Sustainability-Linked Bond (SLB)",
+      "cells": [
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": "\u516c\u544a\u985e\u5225 Type of announcement\uff1a"
+        },
+        {
+          "tag": "td",
+          "attributes": {
+            "colspan": "6"
+          },
+          "text": "\u975e\u65e2\u5b9a\u4e4b\u9918\u984d\u8b8a\u52d5\u516c\u544a(\u5df2\u77e5\u6089\u6642-\u9918\u984d\u672a\u8b8a\u52d5\u516c\u544a)Expected variation in amount outstanding (for both repurchase from secondary market and repayment of principal on an earlier time)\u975e\u65e2\u5b9a\u4e4b\u9918\u984d\u8b8a\u52d5\u516c\u544a(\u5df2\u5be6\u969b\u8b8a\u52d5-\u4f46\u8b8a\u52d5\u5f8c\u4ecd\u6709\u9918\u984d)Variation in amount outstanding after repurchase from secondary market or partly repay principal on an earlier time\u56e0\u63d0\u524d\u8cb7\u56de\u3001\u8d16\u56de\u6216\u5176\u4ed6\u56e0\u7d20\u5c46\u81e8\u9084\u6e05\u672c\u91d1\u4e26\u7d42\u6b62\u6ac3\u6aaf\u8cb7\u8ce3Termination of TPEx trading due to repurchase from secondary market, or full repayment of principal on an earlier time\u53ef\u6301\u7e8c\u767c\u5c55\u9023\u7d50\u50b5\u5238(SLB)\u672c\u606f\u652f\u4ed8\u689d\u4ef6\u8b8a\u52d5\u516c\u544aVariation in bond principal and interest payment terms of the Sustainability-Linked Bond (SLB)"
+        }
+      ]
+    },
+    {
+      "occurrence": 2,
+      "html_line": 26,
+      "table": 1,
+      "attributes": {
+        "style": "text-align:left !important;"
+      },
+      "text": "\u767c\u884c\u4eba\u4ee3\u865f Issuer code\uff1a ~ ",
+      "cells": [
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": "\u767c\u884c\u4eba\u4ee3\u865f Issuer code\uff1a"
+        },
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": " ~ "
+        },
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": ""
+        }
+      ]
+    },
+    {
+      "occurrence": 3,
+      "html_line": 26,
+      "table": 1,
+      "attributes": {
+        "style": "text-align:left !important;"
+      },
+      "text": "\u7533\u5831\u65e5\u671f Date of disclosure\uff1a~ (\u4f8b\u5982\uff1a20170101  for example\uff1a20170101 (Year / Month / Day)",
+      "cells": [
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": ""
+        },
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": "\u7533\u5831\u65e5\u671f Date of disclosure\uff1a"
+        },
+        {
+          "tag": "td",
+          "attributes": {},
+          "text": "~ (\u4f8b\u5982\uff1a20170101  for example\uff1a20170101 (Year / Month / Day)"
+        }
+      ]
+    }
+  ],
+  "source_gate_passed": false,
+  "reason": "Actual options are changes in outstanding amounts/early redemption/termination/SLB. Holder-put application notice is not an explicit option; getslt requires actual external script."
+}

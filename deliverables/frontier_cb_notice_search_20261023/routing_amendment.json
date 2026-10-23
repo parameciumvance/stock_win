@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-23T06:21:01.862234+00:00",
+  "original_protocol_sha256": "1c1579021f662111dc2673464d00183f25f1ef1be8b9a6521a11c39a827e22e3",
+  "max_saved_requests": 7,
+  "max_source_batches": 3,
+  "source_actual_before_amendment": 1,
+  "source_archive_sha256": "a5a52f1d00bbb7f1ec05dd1bbbf4fa997ee537a83d63d7d4fae60d79ca9d8d98",
+  "reason": "Returned controls are not a direct holder-put notice interface and submit depends on getslt. Preserve original protocol; source-only reallocation within unchanged caps: two literal route/script GETs then at most3same-control queries, not guessed issuer fields.",
+  "prior_unused_capacity_reused": false,
+  "model_parameters_changed": false,
+  "requests_increase": 0,
+  "batch2": "2literal route/script GETs",
+  "batch3": "at most3actual-control issuer queries; source-bound and frozen after route readback"
+}

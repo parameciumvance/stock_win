@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-23T06:22:59.821587+00:00",
+  "original_protocol_sha256": "1c1579021f662111dc2673464d00183f25f1ef1be8b9a6521a11c39a827e22e3",
+  "max_saved_requests": 7,
+  "max_source_batches": 3,
+  "actual_prior_requests": 3,
+  "reason": "Actual general-announcement form again auto-loads controls; literal script is also required for option/action mapping. Use last batch for2declared control/script requests; issuer queries deferred to a separately frozen stage. Original source policy preserved, no cap increase.",
+  "requests_increase": 0,
+  "model_parameters_changed": false,
+  "prior_unused_capacity_reused": false
+}

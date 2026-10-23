@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-23T06:21:01.881700+00:00",
+  "protocol_sha256": "1c1579021f662111dc2673464d00183f25f1ef1be8b9a6521a11c39a827e22e3",
+  "path": "configs/frontier_cb_notice_search_routes_sources_20261023.json",
+  "sha256": "8492c8de6f9812862522b6bf13091b67daf3f1bf57dee2e295cba6b4a8c93966",
+  "requests": 2,
+  "routing_amendment_sha256": "bb28ed5fc6b18b33b4566d0b00cb328f03a98f487920a09c63af043cde564b71",
+  "before_new_route_acquisition": true
+}

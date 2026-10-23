@@ -1,0 +1,31 @@
+{
+  "stages": [
+    {
+      "id": "controls_verify",
+      "command": [
+        "{python}",
+        "frontier_cb_notice_search_sources.py",
+        "verify"
+      ],
+      "inputs": [
+        "frontier_cb_notice_search_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_notice_search_protocol_20261023.json",
+        "deliverables/frontier_cb_notice_search_20261023/protocol_freeze.json",
+        "deliverables/frontier_cb_notice_search_20261023/selection.json",
+        "configs/frontier_cb_notice_search_controls_sources_20261023.json",
+        "deliverables/frontier_cb_notices_20261023/checkpoint.json",
+        "deliverables/frontier_cb_notices_20261023/dynamic_form_pointer.json"
+      ],
+      "outputs": [
+        "deliverables/frontier_cb_notice_search_20261023/source_receipt_controls.json"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

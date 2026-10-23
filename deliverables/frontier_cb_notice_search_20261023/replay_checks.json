@@ -1,0 +1,109 @@
+{
+  "recorded_at": "2026-10-23T06:26:29.969812+00:00",
+  "stages": [
+    {
+      "stage": "controls_acquire",
+      "outputs": {
+        "inputs/frontier_cb_notice_search_20261023/raw_controls/results.json": "1b75ddd563cdddbfd6aa8131ac6bca171b87df7f58d2746526bbf694e6eea5e0"
+      },
+      "fingerprint": "ace64f698e011af1a8a53a4d053837e8b9e837887a9c6c49264ebbbe4334e03a",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8544256,
+      "elapsed_seconds": 0.5092271990142763
+    },
+    {
+      "stage": "controls_package",
+      "outputs": {
+        "deliverables/frontier_cb_notice_search_20261023/controls_package.json": "9d491615cea6e44d0beb48e1b85485289762c3b27a2265c83bc1165e665da699"
+      },
+      "fingerprint": "fe34d36a909f3fe322540e9c55a368c700a3b2de71d3f75b09290352df2aded9",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 9314304,
+      "elapsed_seconds": 0.5115227390197106
+    },
+    {
+      "stage": "controls_verify",
+      "outputs": {
+        "deliverables/frontier_cb_notice_search_20261023/source_receipt_controls.json": "455beed0208e9ca03a805e12a5ba51ba4d53e7035cea3e45f99ff273d8b5c767"
+      },
+      "fingerprint": "a4eea2d2531c306cb7e9a4edeb784cfa3c5b948ca008643f89ca0bb7aab392b4",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 10027008,
+      "elapsed_seconds": 0.5175121020292863
+    },
+    {
+      "stage": "routes_acquire",
+      "outputs": {
+        "inputs/frontier_cb_notice_search_20261023/raw_routes/results.json": "9887593a4995b86ae770709b128242ca152b6489fb812816d08c0f71799103bf"
+      },
+      "fingerprint": "4299f5321b53414423a698b63f6167d1a92dd14e1fc9630cc3176d5472a82e36",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8101888,
+      "elapsed_seconds": 0.5114573769969866
+    },
+    {
+      "stage": "routes_package",
+      "outputs": {
+        "deliverables/frontier_cb_notice_search_20261023/routes_package.json": "88d30283893b25a0ba23a7552088a49c30b3c28e6d9f1fdc780ecd869bac0309"
+      },
+      "fingerprint": "729b468e1d77cfc2a640222c2b95d85114f7dab44278e9023d724371ab80e043",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 6868992,
+      "elapsed_seconds": 0.5092618020134978
+    },
+    {
+      "stage": "routes_verify",
+      "outputs": {
+        "deliverables/frontier_cb_notice_search_20261023/source_receipt_routes.json": "518bb8ecf6106d1d56dac8c216850b417d7b3f5d9b70aa881f6b330fef24ad85"
+      },
+      "fingerprint": "dc9c1088a718fa5ea8751d898c41f063499958a2f19a2d1cf1402643988bd9f9",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8503296,
+      "elapsed_seconds": 0.5098859510035254
+    },
+    {
+      "stage": "general_acquire",
+      "outputs": {
+        "inputs/frontier_cb_notice_search_20261023/raw_general/results.json": "b33e6f95306eae2034bde7959daa5898381eec6dee8810488bad77f320a00bba"
+      },
+      "fingerprint": "801eadf3ce2a77b085b3a37f95e737879cab0867326af53526c20c880dba8fca",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 32792576,
+      "elapsed_seconds": 2.0167077720398083
+    },
+    {
+      "stage": "general_package",
+      "outputs": {
+        "deliverables/frontier_cb_notice_search_20261023/general_package.json": "dd8d2683b620123829369ec2a6e295613f56b91d7abeb1558cfe730ad058af7b"
+      },
+      "fingerprint": "65ca9b056bd8ce6f4861d35731b9065b6fa69b0e94bc26ab787888f2c737f1ea",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 10342400,
+      "elapsed_seconds": 0.5162561259930953
+    },
+    {
+      "stage": "general_verify",
+      "outputs": {
+        "deliverables/frontier_cb_notice_search_20261023/source_receipt_general.json": "68839cd06ce33e3e88e6c393b47bfb27b786ef0967b10da9b472d304279986b2"
+      },
+      "fingerprint": "791a5f09c96a5b899b1c128137d19ffe74b86988442790ceec217c37f22f13a4",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 9158656,
+      "elapsed_seconds": 0.5115456749917939
+    },
+    {
+      "stage": "routing_full_inventory",
+      "outputs": {
+        "inputs/frontier_cb_notice_search_20261023/routing_full.json": "cb30edc9096deba70b72c62db6483ad2dfbb489b152cb1a8cb0481d2d5c202d1",
+        "deliverables/frontier_cb_notice_search_20261023/routing_inventory.json": "bf408e5ca8a1ed33b168f32b68b4fa85c6b2ec425916144aaec2f8a289586486"
+      },
+      "fingerprint": "727dc874cbd0697fffc6afde1052d62d56963b907c54443fb65deef83980088f",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7696384,
+      "elapsed_seconds": 0.5074041049811058
+    }
+  ],
+  "second_pass_all_verified_skips": true,
+  "prior_member_checks": 571,
+  "source_archives_not_refetched": true
+}

@@ -1,0 +1,19 @@
+{
+  "output_directory": "inputs/frontier_cb_notice_search_20261023/raw_general",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "general_search_controls.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t127sb00",
+      "method": "POST",
+      "data": "run=&firstin=true&TYPEK=all&step=9"
+    },
+    {
+      "filename": "t127sb00.js",
+      "url": "https://mopsov.twse.com.tw/mops/web/js/outerScript/t127sb00.js",
+      "method": "GET"
+    }
+  ]
+}
