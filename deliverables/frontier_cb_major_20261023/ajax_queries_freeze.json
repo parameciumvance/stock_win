@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-23T06:35:06.989697+00:00",
+  "protocol_sha256": "6b3e7496ee40235a2e8c821d77dc9bd35b968ac71f2658a3c32e72103c1c90f5",
+  "path": "configs/frontier_cb_major_ajax_queries_sources_20261023.json",
+  "sha256": "a06bf2ec81b0398285b3e962c0d50e9a0fdb0e63a87a61173e3c3e0e683a8d3d",
+  "requests": 3,
+  "selection": {
+    "path": "deliverables/frontier_cb_major_20261023/ajax_queries_selection.json",
+    "sha256": "4903c052bc9c8c7e1713db9095cdfc5cb572325bc3b1597e247b1dcc0dbec048"
+  },
+  "before_source_requests": true,
+  "previous_raw_responses_preserved": true,
+  "automatic_retry": false
+}

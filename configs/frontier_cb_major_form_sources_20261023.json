@@ -1,0 +1,13 @@
+{
+  "output_directory": "inputs/frontier_cb_major_20261023/raw_form",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "historical_bond_material_form.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/t113sb04_q2",
+      "method": "GET"
+    }
+  ]
+}

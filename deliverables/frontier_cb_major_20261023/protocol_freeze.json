@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-23T06:28:27.827031+00:00",
+  "protocol_sha256": "6b3e7496ee40235a2e8c821d77dc9bd35b968ac71f2658a3c32e72103c1c90f5",
+  "base_remote_commit": "b91be05745b55ba9d9a04dcb61c73c74e40e8d80",
+  "before_new_source_IO": true,
+  "prior_raw_requests": 31,
+  "prior_search_queries": 3,
+  "old_unused_two_not_reused": true
+}

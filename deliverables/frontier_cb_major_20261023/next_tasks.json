@@ -1,0 +1,14 @@
+{
+  "status": "continue_authorized",
+  "next_stage": "frontier_cb_material_rows_20261023",
+  "reason": "All3saved responses contain actual autoForm action ajax_t113sb04 and step12, with original issuer/date controls. Follow these exact declared second POSTs before classifying events. No public absence claim.",
+  "new_saved_raw_request_cap": 12,
+  "new_batch_cap": 4,
+  "cumulative_CB_raw_before_next": 40,
+  "cumulative_raw_cap_after_next": 52,
+  "unused_one_not_reused": true,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "user_decision_required": false
+}

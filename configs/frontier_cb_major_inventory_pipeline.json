@@ -1,0 +1,42 @@
+{
+  "stages": [
+    {
+      "id": "all_responses_and_empty_shells",
+      "command": [
+        "{python}",
+        "frontier_cb_major_inventory.py"
+      ],
+      "inputs": [
+        "frontier_cb_major_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_major_protocol_20261023.json",
+        "deliverables/frontier_cb_major_20261023/selection.json",
+        "deliverables/frontier_cb_major_20261023/protocol_freeze.json",
+        "configs/frontier_cb_major_form_sources_20261023.json",
+        "deliverables/frontier_cb_notice_search_20261023/checkpoint.json",
+        "configs/frontier_cb_major_script_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/script_freeze.json",
+        "configs/frontier_cb_major_corporate_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/corporate_freeze.json",
+        "frontier_cb_major_forms.py",
+        "frontier_cb_major_inventory.py",
+        "cash_merger_document_lookup.py",
+        "deliverables/frontier_cb_major_20261023/source_receipt_form.json",
+        "deliverables/frontier_cb_major_20261023/source_receipt_queries.json",
+        "deliverables/frontier_cb_major_20261023/source_receipt_script.json",
+        "deliverables/frontier_cb_major_20261023/source_receipt_ajax_queries.json",
+        "deliverables/frontier_cb_major_20261023/source_receipt_corporate.json"
+      ],
+      "outputs": [
+        "inputs/frontier_cb_major_20261023/all_responses_full.json",
+        "deliverables/frontier_cb_major_20261023/inventory.json"
+      ],
+      "timeout_seconds": 120
+    }
+  ]
+}

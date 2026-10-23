@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-23T06:32:41.724202+00:00",
+  "protocol_sha256": "6b3e7496ee40235a2e8c821d77dc9bd35b968ac71f2658a3c32e72103c1c90f5",
+  "path": "configs/frontier_cb_major_script_sources_20261023.json",
+  "sha256": "3b0eadaa93202693c2eed364e745fee22f4d92a639b7073d0e9fcb5db9be34cd",
+  "requests": 1,
+  "source_archive_sha256": "070ab9ff5bb849a8d7e48f0eda7d93aac3593519b5a2014b130e9cb5bd915752",
+  "source_member": "raw/historical_bond_material_form.html",
+  "source_body_sha256": "39acd21734e47e5f5665b72c91d1d119d66ca74880db5d0c479fa2f1c682a216",
+  "literal_src": "js/mops2.js",
+  "reason": "All3issuer queries returned an empty div01 shell with HTTP200; do not infer absence. Inspect actual ajax1 serialization before any further query."
+}

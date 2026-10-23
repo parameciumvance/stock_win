@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_major_20261023/script.zip",
+  "sha256": "81c27caee5ad2b10fde954571672fee6712f2562e56ba724bfe696a1c946a174",
+  "manifest_files": 7,
+  "created_at": "2026-10-23T06:32:46.490650+00:00",
+  "retrieved": "inputs/frontier_cb_major_20261023/script.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_major_20261023/script_transfer.json",
+  "backup_label": "frontier_cb_major_20261023_script"
+}

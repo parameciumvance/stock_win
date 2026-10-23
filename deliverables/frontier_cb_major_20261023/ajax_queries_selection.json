@@ -1,0 +1,409 @@
+{
+  "form_archive_sha256": "070ab9ff5bb849a8d7e48f0eda7d93aac3593519b5a2014b130e9cb5bd915752",
+  "script_archive_sha256": "81c27caee5ad2b10fde954571672fee6712f2562e56ba724bfe696a1c946a174",
+  "query_proofs": [
+    {
+      "source_body_sha256": "39acd21734e47e5f5665b72c91d1d119d66ca74880db5d0c479fa2f1c682a216",
+      "issuer": "9958",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/t113sb04_q2",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+      "method": "POST",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "T1",
+          ""
+        ],
+        [
+          "T2",
+          ""
+        ]
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          "9958"
+        ],
+        [
+          "T1",
+          "20260101"
+        ],
+        [
+          "T2",
+          "20261023"
+        ]
+      ],
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=9958&T1=20260101&T2=20261023",
+      "inline_script_sha256": [
+        "5891fe84451c1844c47d0d6fe092e12cd276837716a06bb01578633d075f21de",
+        "a0a9acbe38421bbc909db3053f4cb7883d083b62da71b606e9bd77afb8522232",
+        "5ef37f0695787bb2a4fb0bef1b5ef499468248aba940cced2c3081aa8cdc0129"
+      ],
+      "date_range": [
+        "2026-01-01",
+        "2026-10-23"
+      ],
+      "date_range_policy": "same full current year through observation date for every issuer; all returned rows retained",
+      "javascript_executed": false,
+      "historical_pit_verified": false,
+      "source_gate_passed": false,
+      "wire_encoder_script_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "active_ajax1_source_offset": 78834,
+      "active_ajax1_source_end": 80656,
+      "active_ajax1_source_sha256": "eea6cb41e3f0778f500b29c8d65b3d36dd9f461cda458e9a7251749d10fdf6c5",
+      "commented_backup_ignored": true
+    },
+    {
+      "source_body_sha256": "39acd21734e47e5f5665b72c91d1d119d66ca74880db5d0c479fa2f1c682a216",
+      "issuer": "6835",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/t113sb04_q2",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+      "method": "POST",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "T1",
+          ""
+        ],
+        [
+          "T2",
+          ""
+        ]
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          "6835"
+        ],
+        [
+          "T1",
+          "20260101"
+        ],
+        [
+          "T2",
+          "20261023"
+        ]
+      ],
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6835&T1=20260101&T2=20261023",
+      "inline_script_sha256": [
+        "5891fe84451c1844c47d0d6fe092e12cd276837716a06bb01578633d075f21de",
+        "a0a9acbe38421bbc909db3053f4cb7883d083b62da71b606e9bd77afb8522232",
+        "5ef37f0695787bb2a4fb0bef1b5ef499468248aba940cced2c3081aa8cdc0129"
+      ],
+      "date_range": [
+        "2026-01-01",
+        "2026-10-23"
+      ],
+      "date_range_policy": "same full current year through observation date for every issuer; all returned rows retained",
+      "javascript_executed": false,
+      "historical_pit_verified": false,
+      "source_gate_passed": false,
+      "wire_encoder_script_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "active_ajax1_source_offset": 78834,
+      "active_ajax1_source_end": 80656,
+      "active_ajax1_source_sha256": "eea6cb41e3f0778f500b29c8d65b3d36dd9f461cda458e9a7251749d10fdf6c5",
+      "commented_backup_ignored": true
+    },
+    {
+      "source_body_sha256": "39acd21734e47e5f5665b72c91d1d119d66ca74880db5d0c479fa2f1c682a216",
+      "issuer": "6874",
+      "source_url": "https://mopsov.twse.com.tw/mops/web/t113sb04_q2",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+      "method": "POST",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "T1",
+          ""
+        ],
+        [
+          "T2",
+          ""
+        ]
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          "6874"
+        ],
+        [
+          "T1",
+          "20260101"
+        ],
+        [
+          "T2",
+          "20261023"
+        ]
+      ],
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6874&T1=20260101&T2=20261023",
+      "inline_script_sha256": [
+        "5891fe84451c1844c47d0d6fe092e12cd276837716a06bb01578633d075f21de",
+        "a0a9acbe38421bbc909db3053f4cb7883d083b62da71b606e9bd77afb8522232",
+        "5ef37f0695787bb2a4fb0bef1b5ef499468248aba940cced2c3081aa8cdc0129"
+      ],
+      "date_range": [
+        "2026-01-01",
+        "2026-10-23"
+      ],
+      "date_range_policy": "same full current year through observation date for every issuer; all returned rows retained",
+      "javascript_executed": false,
+      "historical_pit_verified": false,
+      "source_gate_passed": false,
+      "wire_encoder_script_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "active_ajax1_source_offset": 78834,
+      "active_ajax1_source_end": 80656,
+      "active_ajax1_source_sha256": "eea6cb41e3f0778f500b29c8d65b3d36dd9f461cda458e9a7251749d10fdf6c5",
+      "commented_backup_ignored": true
+    }
+  ],
+  "reason": "Initial POSTs omitted ajax1 encodeURIComponent=1 prefix; preserve those empty-shell responses and add a separately frozen corrected-wire batch, not automatic retry. All original issuers/date ranges unchanged."
+}

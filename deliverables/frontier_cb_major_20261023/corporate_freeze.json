@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-10-23T06:36:43.432666+00:00",
+  "protocol_sha256": "6b3e7496ee40235a2e8c821d77dc9bd35b968ac71f2658a3c32e72103c1c90f5",
+  "path": "configs/frontier_cb_major_corporate_sources_20261023.json",
+  "sha256": "bbeb493d715e55ff03ef273d92262b4b152c4a7ae54479ad7918e94d1f828b46",
+  "requests": 1,
+  "before_source_IO": true,
+  "source_script_archive_sha256": "81c27caee5ad2b10fde954571672fee6712f2562e56ba724bfe696a1c946a174",
+  "source_form_archive_sha256": "070ab9ff5bb849a8d7e48f0eda7d93aac3593519b5a2014b130e9cb5bd915752",
+  "reason": "Correct AJAX prefix did not change the three empty shells; no cause inferred. Saved script also declares corporate historical menuAction(t05st01,Y) and menu form POST. Follow this actual alternative instead of guessing issuer-code prefixes."
+}

@@ -1,0 +1,382 @@
+{
+  "source_archive_sha256": "070ab9ff5bb849a8d7e48f0eda7d93aac3593519b5a2014b130e9cb5bd915752",
+  "body_sha256": "39acd21734e47e5f5665b72c91d1d119d66ca74880db5d0c479fa2f1c682a216",
+  "forms": [
+    {
+      "occurrence": 1,
+      "html_line": 46,
+      "attributes": {
+        "name": "fh",
+        "style": "margin:0;",
+        "action": "/mops/web/ajax_autoComplete",
+        "method": "post",
+        "onsubmit": "return false;"
+      },
+      "action": "/mops/web/ajax_autoComplete",
+      "method": "post",
+      "controls": [
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "firstin",
+            "id": "firstin",
+            "value": "1"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "TYPEK",
+            "id": "TYPEK",
+            "value": "all"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "step",
+            "id": "step",
+            "value": "1"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "co_id",
+            "value": ""
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "funcName",
+            "value": "t113sb04_q2"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "searchtype",
+            "id": "searchtype",
+            "value": ""
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "inpuType",
+            "id": "inpuType",
+            "value": "keyword"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "auto-more",
+            "id": "auto-more",
+            "value": ""
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "keycon",
+            "value": ""
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "name": "keyword",
+            "type": "text",
+            "class": "textbox",
+            "id": "keyword",
+            "size": "45",
+            "oninput": "document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);",
+            "onkeydown": "chkKeyDown(this.form , this , \"auto-complete-data\" , event);",
+            "onkeyup": "document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);",
+            "onblur": "setTimeout(function(){hideDiv('auto-complete-data');} , 200);",
+            "onclick": "this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');",
+            "placeholder": "\u8acb\u8f38\u5165\u516c\u53f8\u4ee3\u865f\u3001\u7c21\u7a31\uff0c\u6216\u5831\u8868\u95dc\u9375\u5b57",
+            "autocomplete": "off"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "button",
+            "name": "rulesubmit",
+            "id": "rulesubmit",
+            "value": " \u641c\u5c0b ",
+            "onclick": "document.fh.action='/mops/web/autoAction';document.fh.submit();"
+          },
+          "text": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "occurrence": 2,
+      "html_line": 46,
+      "attributes": {
+        "name": "fh2",
+        "style": "margin:0;",
+        "action": "",
+        "method": "post",
+        "onsubmit": "return false;"
+      },
+      "action": "",
+      "method": "post",
+      "controls": [
+        {
+          "tag": "input",
+          "html_line": 46,
+          "attributes": {
+            "type": "hidden",
+            "name": "usually",
+            "id": "usually",
+            "value": ""
+          },
+          "text": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "occurrence": 3,
+      "html_line": 348,
+      "attributes": {
+        "id": "form1",
+        "name": "form1",
+        "action": "/mops/web/ajax_t113sb04_q2",
+        "onsubmit": "return false;",
+        "method": "post"
+      },
+      "action": "/mops/web/ajax_t113sb04_q2",
+      "method": "post",
+      "controls": [
+        {
+          "tag": "input",
+          "html_line": 349,
+          "attributes": {
+            "type": "hidden",
+            "id": "subMenuID",
+            "value": "[10,10007,10007005]"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 366,
+          "attributes": {
+            "type": "hidden",
+            "name": "step",
+            "value": "1"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 367,
+          "attributes": {
+            "type": "hidden",
+            "name": "firstin",
+            "value": "ture"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 368,
+          "attributes": {
+            "type": "hidden",
+            "name": "off",
+            "value": "1"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 369,
+          "attributes": {
+            "type": "hidden",
+            "name": "keyword4"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 370,
+          "attributes": {
+            "type": "hidden",
+            "name": "code1"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 371,
+          "attributes": {
+            "type": "hidden",
+            "name": "TYPEK2"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 372,
+          "attributes": {
+            "type": "hidden",
+            "name": "checkbtn"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 373,
+          "attributes": {
+            "type": "hidden",
+            "name": "queryName",
+            "value": "co_id"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 374,
+          "attributes": {
+            "type": "hidden",
+            "name": "inpuType",
+            "value": "co_id"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 378,
+          "attributes": {
+            "type": "hidden",
+            "name": "TYPEK",
+            "value": "all"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 387,
+          "attributes": {
+            "name": "co_id",
+            "type": "text",
+            "id": "co_id",
+            "size": "10",
+            "onkeydown": "{if(event.keyCode==13){document.getElementById('BTN_date').focus(); return false;}}"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 389,
+          "attributes": {
+            "type": "button",
+            "style": "cursor:pointer;padding:0pt;width:200px;",
+            "value": "\u4ee3\u865f\u67e5\u8a62search for issuer code ",
+            "onclick": "showsh2('quicksearch9','showTable9');document.form1.step.value='5';action='/mops/web/ajax_quickpgm';ajax1(this.form,'quicksearch9');"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 399,
+          "attributes": {
+            "class": "cal-TextBox",
+            "size": "9",
+            "type": "text",
+            "name": "T1",
+            "id": "T1"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 403,
+          "attributes": {
+            "class": "cal-TextBox",
+            "size": "9",
+            "type": "text",
+            "name": "T2",
+            "id": "T2",
+            "onkeydown": "{if(event.keyCode==13){ajax1(document.form1,'table01');}}"
+          },
+          "text": "",
+          "options": []
+        },
+        {
+          "tag": "input",
+          "html_line": 424,
+          "attributes": {
+            "type": "button",
+            "value": " \u67e5\u8a62 ",
+            "onclick": "javascript:doAction();ajax1(document.form1,'table01');"
+          },
+          "text": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "source_gate_passed": false
+}

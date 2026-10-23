@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-23T06:40:41.831793+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "-q",
+    "test_frontier_cb_major_forms",
+    "test_frontier_cb_major_inventory"
+  ],
+  "exit_code": 0,
+  "tests": 10,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 10 tests in 0.005s\n\nOK\n",
+  "inventory_initial_failure": "Expected6empty_visible_shells but hidden autoForm made old element-based check false. Corrected classifier retains all hidden controls, marks pending autoForm, and refuses event-absence inference; added regression test."
+}

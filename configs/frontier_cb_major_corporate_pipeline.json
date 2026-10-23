@@ -1,0 +1,70 @@
+{
+  "stages": [
+    {
+      "id": "corporate_acquire",
+      "command": [
+        "{python}",
+        "frontier_cb_major_sources.py",
+        "acquire",
+        "--batch",
+        "corporate"
+      ],
+      "inputs": [
+        "frontier_cb_major_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_major_protocol_20261023.json",
+        "deliverables/frontier_cb_major_20261023/selection.json",
+        "deliverables/frontier_cb_major_20261023/protocol_freeze.json",
+        "configs/frontier_cb_major_form_sources_20261023.json",
+        "deliverables/frontier_cb_notice_search_20261023/checkpoint.json",
+        "configs/frontier_cb_major_script_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/script_freeze.json",
+        "configs/frontier_cb_major_corporate_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/corporate_freeze.json",
+        "frontier_cb_major_forms.py"
+      ],
+      "outputs": [
+        "inputs/frontier_cb_major_20261023/raw_corporate/results.json"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "corporate_package",
+      "command": [
+        "{python}",
+        "frontier_cb_major_sources.py",
+        "package",
+        "--batch",
+        "corporate"
+      ],
+      "inputs": [
+        "frontier_cb_major_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_major_protocol_20261023.json",
+        "deliverables/frontier_cb_major_20261023/selection.json",
+        "deliverables/frontier_cb_major_20261023/protocol_freeze.json",
+        "configs/frontier_cb_major_form_sources_20261023.json",
+        "deliverables/frontier_cb_notice_search_20261023/checkpoint.json",
+        "configs/frontier_cb_major_script_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/script_freeze.json",
+        "configs/frontier_cb_major_corporate_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/corporate_freeze.json",
+        "frontier_cb_major_forms.py"
+      ],
+      "outputs": [
+        "deliverables/frontier_cb_major_20261023/corporate_package.json"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

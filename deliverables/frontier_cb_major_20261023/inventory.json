@@ -1,0 +1,511 @@
+{
+  "documents": [
+    {
+      "batch": "form",
+      "filename": "historical_bond_material_form.html",
+      "body_sha256": "39acd21734e47e5f5665b72c91d1d119d66ca74880db5d0c479fa2f1c682a216",
+      "request": {
+        "filename": "historical_bond_material_form.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t113sb04_q2",
+        "method": "GET"
+      },
+      "request_started_at": "2026-10-23T06:28:30.586643+00:00",
+      "observed_at": "2026-10-23T06:28:30.923040+00:00",
+      "empty_div01_shell": false,
+      "pending_declared_auto_form": false,
+      "declared_auto_forms": [],
+      "explicit_no_data_message": false,
+      "returned_row_count": 15,
+      "form_count": 3,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "queries",
+      "filename": "99587_major_115.html",
+      "body_sha256": "8c237da7ebc4e7a01873eeb70a3179748751211eaf62d50451450de023b4b37e",
+      "request": {
+        "filename": "99587_major_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=9958&T1=20260101&T2=20261023"
+      },
+      "request_started_at": "2026-10-23T06:30:40.346322+00:00",
+      "observed_at": "2026-10-23T06:30:41.144178+00:00",
+      "empty_div01_shell": true,
+      "pending_declared_auto_form": true,
+      "declared_auto_forms": [
+        {
+          "attributes": {
+            "name": "autoForm",
+            "action": "/mops/web/ajax_t113sb04",
+            "method": "post",
+            "onsubmit": "return false;"
+          },
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "12"
+            },
+            {
+              "type": "hidden",
+              "name": "id",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "T1",
+              "value": "20260101"
+            },
+            {
+              "type": "hidden",
+              "name": "T2",
+              "value": "20261023"
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "9958"
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true"
+            },
+            {
+              "type": "hidden",
+              "name": "KK",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "explicit_no_data_message": false,
+      "returned_row_count": 0,
+      "form_count": 1,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "queries",
+      "filename": "68351_major_115.html",
+      "body_sha256": "9a0845b178d75ac943a4f631fba915e6612b01d4803cc60b2e7d913803fdf61f",
+      "request": {
+        "filename": "68351_major_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6835&T1=20260101&T2=20261023"
+      },
+      "request_started_at": "2026-10-23T06:30:40.347571+00:00",
+      "observed_at": "2026-10-23T06:30:40.533841+00:00",
+      "empty_div01_shell": true,
+      "pending_declared_auto_form": true,
+      "declared_auto_forms": [
+        {
+          "attributes": {
+            "name": "autoForm",
+            "action": "/mops/web/ajax_t113sb04",
+            "method": "post",
+            "onsubmit": "return false;"
+          },
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "12"
+            },
+            {
+              "type": "hidden",
+              "name": "id",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "T1",
+              "value": "20260101"
+            },
+            {
+              "type": "hidden",
+              "name": "T2",
+              "value": "20261023"
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "6835"
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true"
+            },
+            {
+              "type": "hidden",
+              "name": "KK",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "explicit_no_data_message": false,
+      "returned_row_count": 0,
+      "form_count": 1,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "queries",
+      "filename": "68741_major_115.html",
+      "body_sha256": "9f05066920bc8400d0662607276a1917fa8c0b77b4800ffee17d833f661a0bdb",
+      "request": {
+        "filename": "68741_major_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+        "method": "POST",
+        "data": "step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6874&T1=20260101&T2=20261023"
+      },
+      "request_started_at": "2026-10-23T06:30:40.549108+00:00",
+      "observed_at": "2026-10-23T06:30:40.739124+00:00",
+      "empty_div01_shell": true,
+      "pending_declared_auto_form": true,
+      "declared_auto_forms": [
+        {
+          "attributes": {
+            "name": "autoForm",
+            "action": "/mops/web/ajax_t113sb04",
+            "method": "post",
+            "onsubmit": "return false;"
+          },
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "12"
+            },
+            {
+              "type": "hidden",
+              "name": "id",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "T1",
+              "value": "20260101"
+            },
+            {
+              "type": "hidden",
+              "name": "T2",
+              "value": "20261023"
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "6874"
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true"
+            },
+            {
+              "type": "hidden",
+              "name": "KK",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "explicit_no_data_message": false,
+      "returned_row_count": 0,
+      "form_count": 1,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "script",
+      "filename": "mops2.js",
+      "body_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "request": {
+        "filename": "mops2.js",
+        "url": "https://mopsov.twse.com.tw/mops/web/js/mops2.js",
+        "method": "GET"
+      },
+      "request_started_at": "2026-10-23T06:32:44.405812+00:00",
+      "observed_at": "2026-10-23T06:32:45.806937+00:00"
+    },
+    {
+      "batch": "ajax_queries",
+      "filename": "99587_major_ajax_115.html",
+      "body_sha256": "8c237da7ebc4e7a01873eeb70a3179748751211eaf62d50451450de023b4b37e",
+      "request": {
+        "filename": "99587_major_ajax_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+        "method": "POST",
+        "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=9958&T1=20260101&T2=20261023"
+      },
+      "request_started_at": "2026-10-23T06:35:27.747488+00:00",
+      "observed_at": "2026-10-23T06:35:27.926319+00:00",
+      "empty_div01_shell": true,
+      "pending_declared_auto_form": true,
+      "declared_auto_forms": [
+        {
+          "attributes": {
+            "name": "autoForm",
+            "action": "/mops/web/ajax_t113sb04",
+            "method": "post",
+            "onsubmit": "return false;"
+          },
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "12"
+            },
+            {
+              "type": "hidden",
+              "name": "id",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "T1",
+              "value": "20260101"
+            },
+            {
+              "type": "hidden",
+              "name": "T2",
+              "value": "20261023"
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "9958"
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true"
+            },
+            {
+              "type": "hidden",
+              "name": "KK",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "explicit_no_data_message": false,
+      "returned_row_count": 0,
+      "form_count": 1,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "ajax_queries",
+      "filename": "68351_major_ajax_115.html",
+      "body_sha256": "9a0845b178d75ac943a4f631fba915e6612b01d4803cc60b2e7d913803fdf61f",
+      "request": {
+        "filename": "68351_major_ajax_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+        "method": "POST",
+        "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6835&T1=20260101&T2=20261023"
+      },
+      "request_started_at": "2026-10-23T06:35:27.747367+00:00",
+      "observed_at": "2026-10-23T06:35:27.934883+00:00",
+      "empty_div01_shell": true,
+      "pending_declared_auto_form": true,
+      "declared_auto_forms": [
+        {
+          "attributes": {
+            "name": "autoForm",
+            "action": "/mops/web/ajax_t113sb04",
+            "method": "post",
+            "onsubmit": "return false;"
+          },
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "12"
+            },
+            {
+              "type": "hidden",
+              "name": "id",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "T1",
+              "value": "20260101"
+            },
+            {
+              "type": "hidden",
+              "name": "T2",
+              "value": "20261023"
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "6835"
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true"
+            },
+            {
+              "type": "hidden",
+              "name": "KK",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "explicit_no_data_message": false,
+      "returned_row_count": 0,
+      "form_count": 1,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "ajax_queries",
+      "filename": "68741_major_ajax_115.html",
+      "body_sha256": "9f05066920bc8400d0662607276a1917fa8c0b77b4800ffee17d833f661a0bdb",
+      "request": {
+        "filename": "68741_major_ajax_115.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/ajax_t113sb04_q2",
+        "method": "POST",
+        "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6874&T1=20260101&T2=20261023"
+      },
+      "request_started_at": "2026-10-23T06:35:27.933727+00:00",
+      "observed_at": "2026-10-23T06:35:29.161128+00:00",
+      "empty_div01_shell": true,
+      "pending_declared_auto_form": true,
+      "declared_auto_forms": [
+        {
+          "attributes": {
+            "name": "autoForm",
+            "action": "/mops/web/ajax_t113sb04",
+            "method": "post",
+            "onsubmit": "return false;"
+          },
+          "controls": [
+            {
+              "type": "hidden",
+              "name": "run",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "step",
+              "value": "12"
+            },
+            {
+              "type": "hidden",
+              "name": "id",
+              "value": ""
+            },
+            {
+              "type": "hidden",
+              "name": "T1",
+              "value": "20260101"
+            },
+            {
+              "type": "hidden",
+              "name": "T2",
+              "value": "20261023"
+            },
+            {
+              "type": "hidden",
+              "name": "co_id",
+              "value": "6874"
+            },
+            {
+              "type": "hidden",
+              "name": "firstin",
+              "value": "true"
+            },
+            {
+              "type": "hidden",
+              "name": "KK",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "explicit_no_data_message": false,
+      "returned_row_count": 0,
+      "form_count": 1,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "batch": "corporate",
+      "filename": "corporate_historical_form.html",
+      "body_sha256": "6a6576edab8ea7e5b8f0593bfaa765cc4334bfbd70b48f9e3ab814b4d58e7ba6",
+      "request": {
+        "filename": "corporate_historical_form.html",
+        "url": "https://mopsov.twse.com.tw/mops/web/t05st01",
+        "method": "POST",
+        "data": "usually=Y"
+      },
+      "request_started_at": "2026-10-23T06:36:46.140872+00:00",
+      "observed_at": "2026-10-23T06:36:46.806869+00:00",
+      "empty_div01_shell": false,
+      "pending_declared_auto_form": false,
+      "declared_auto_forms": [],
+      "explicit_no_data_message": false,
+      "returned_row_count": 14,
+      "form_count": 3,
+      "usable_event_listing": false,
+      "absence_of_events_proven": false,
+      "source_gate_passed": false
+    }
+  ],
+  "requests": 9,
+  "batches": 5,
+  "empty_shells": 6,
+  "active_ajax_prefix_correction_changed_body": false,
+  "cause_of_empty_shells_verified": false,
+  "declared_next_request_present": true,
+  "next_source_requirement": "Follow each saved autoForm POST to ajax_t113sb04 with actual step12 and unchanged dates/issuer; first response is not final event listing.",
+  "source_gate_passed": false,
+  "holder_put_notice_verified": false,
+  "absence_of_public_notices_proven": false,
+  "full_inventory_sha256": "300b67c4a428a2cf4b1262d203a269f004cfd61b6ee45ae4f8162bc46d74729c",
+  "corporate_form_observed": true,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}
