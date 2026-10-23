@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-10-23T06:51:53.900410+00:00",
+  "protocol_sha256": "99766e49d13e9a5395103f300271b2befe07ba22d6ddf14af8c04f9f17368c01",
+  "max_saved_requests": 12,
+  "max_source_batches": 4,
+  "reason": "Full-year endpoint declares no total count. Use final batch for same3issuer current-month overlap to catch later amendments/cancellations and source coverage mismatch; no price or signal optimization.",
+  "requests_increase": 0,
+  "model_parameters_changed": false
+}

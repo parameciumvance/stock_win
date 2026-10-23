@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-23T06:44:41.258866+00:00",
+  "protocol_sha256": "99766e49d13e9a5395103f300271b2befe07ba22d6ddf14af8c04f9f17368c01",
+  "max_saved_requests": 12,
+  "max_source_batches": 4,
+  "reason": "Final t113sb04 result is explicitly for International/Foreign Bond with No data for all3domestic codes. Use saved actual corporate historical form; no absence inference or guessed code prefix.",
+  "allocation": "batch1original continuations3, batch2corporate full-year queries3, batch3at most3actual continuations/details, batch4at most3actual details",
+  "requests_increase": 0,
+  "model_parameters_changed": false
+}

@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-23T06:44:41.269022+00:00",
+  "protocol_sha256": "99766e49d13e9a5395103f300271b2befe07ba22d6ddf14af8c04f9f17368c01",
+  "path": "configs/frontier_cb_material_corporate_sources_20261023.json",
+  "sha256": "f8b7ccbd5a3bd4d00db8dfdc7d6d00df927653f7966b644498b4af85ef88bf93",
+  "requests": 3,
+  "selection": {
+    "path": "deliverables/frontier_cb_material_rows_20261023/corporate_selection.json",
+    "sha256": "2a3ec0a8fd536f46cc745d1983048e50d7d83a2c72ab5607895cad9b89ad3da1"
+  },
+  "routing_amendment_sha256": "ed5b17b95b70868d9c9cb5381cb78a38d231057f23f5ef3da592ba98f44d00dd",
+  "before_source_IO": true
+}

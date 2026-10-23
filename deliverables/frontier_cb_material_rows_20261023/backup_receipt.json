@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-23T07:02:03.812005+00:00",
+  "packages": {
+    "rows": {
+      "archive_sha256": "689946a3fc895b5b30a79888112de6ffdc941cd982779a9282cf81ee94acc12e",
+      "manifest_files": 12
+    },
+    "corporate": {
+      "archive_sha256": "0b0a679ec7f50b56881b7706e4d735e3c0d58c7d157ecce7fa2cdcc05aa884dc",
+      "manifest_files": 13
+    },
+    "details": {
+      "archive_sha256": "303c9a0f243342a559e59a054064f27d800a4507796f4ba8cd6b7a7e147d6c53",
+      "manifest_files": 10
+    },
+    "month": {
+      "archive_sha256": "cbc3a19d3608bb9958c4c4cecd480d0c81bb523f2d4f35d5e1744dafcd2b49b7",
+      "manifest_files": 13
+    }
+  },
+  "all_saved_retrieved_sha_crc_manifest_verified": true,
+  "manifest_entries": 48,
+  "source_requests": 11,
+  "source_batches": 4,
+  "cumulative_CB_raw_requests": 51,
+  "unused_request_capacity": 1,
+  "unused_request_not_reused": true,
+  "storage": "Windows same-computer backup and WSL persistent copy; not offsite"
+}

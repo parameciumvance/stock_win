@@ -1,0 +1,20 @@
+{
+  "status": "source_and_human_references_verified",
+  "available_notices": 2,
+  "original_controls": 3,
+  "unresolved_controls": [
+    "68741"
+  ],
+  "text_anchors_verified": 28,
+  "semantic_interpretation_automatically_verified": false,
+  "current_notice_coverage_complete_verified": false,
+  "source_gate_passed": false,
+  "cash_claim_source_gate_passed": false,
+  "historical_pit_verified": false,
+  "profit_edge_proven": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "annotation_sha256": "d9bf04840be548a6e0c3a749f5643f69b13cb643ea2b9e9443184747b8c34fa5",
+  "full_inventory_sha256": "9cda4c6befd0e2185f9ab3589ccff0bf0011351e7edd937e377dc5083d99e5fb",
+  "source_archive_sha256": "303c9a0f243342a559e59a054064f27d800a4507796f4ba8cd6b7a7e147d6c53"
+}

@@ -1,0 +1,141 @@
+{
+  "recorded_at": "2026-10-23T07:02:03.812005+00:00",
+  "stages": [
+    {
+      "stage": "rows_acquire",
+      "outputs": {
+        "inputs/frontier_cb_material_rows_20261023/raw_rows/results.json": "4e2697baf5204c2151bfa3c6ad04b5e4780b46dedddf5bb5e9a41e5e266eb026"
+      },
+      "fingerprint": "2c319875723471985be814d88e0fba67b6bf74ddec7c4710e5ac5845600b4cf5",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 5427200,
+      "elapsed_seconds": 0.5050897269975394
+    },
+    {
+      "stage": "rows_package",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/rows_package.json": "1265a20379bcdf4c87cb7ed9763b32f37ab5bb7332a8f61d8ab029169bd8ed90"
+      },
+      "fingerprint": "55b912ecd9daed97b0e17ccb227f3c71903555bf8fe9a3d8e86041ceab02a05d",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7536640,
+      "elapsed_seconds": 0.5060990060446784
+    },
+    {
+      "stage": "rows_verify",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/source_receipt_rows.json": "ac6083166648e9305e6d832711d098d16ceff7afbec87d3ea75d548adaf14560"
+      },
+      "fingerprint": "bc6c905ff6dd3b554b771c300b4c4335093b776638f2a7058e2d98b4b31ceec2",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8187904,
+      "elapsed_seconds": 0.5094296720344573
+    },
+    {
+      "stage": "corporate_acquire",
+      "outputs": {
+        "inputs/frontier_cb_material_rows_20261023/raw_corporate/results.json": "7b0f5a821de02033ea24d5ad2b2e9c1b3d5bd1537b76cae03904610b6d6c9557"
+      },
+      "fingerprint": "55e1dd04c6fa2dd10367d108c88b420451e9f82f6fab2fbb93e88d00f1efd355",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8826880,
+      "elapsed_seconds": 0.5088089570053853
+    },
+    {
+      "stage": "corporate_package",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/corporate_package.json": "3061439c553dc6233e764642d38e92458cc6ec9237e9f9ff6ad71aac9c58b91b"
+      },
+      "fingerprint": "49b6e9d8de6a8e1d9ad6fcf8b77b649a48e119ea49a64e98d9ba1bc447f4faae",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 10756096,
+      "elapsed_seconds": 0.5223034880473278
+    },
+    {
+      "stage": "corporate_verify",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/source_receipt_corporate.json": "537974e93a671cd7f9bbace42d10ce6f2805db2ba030d923d44b73942501b889"
+      },
+      "fingerprint": "9155348c916625bdffc175018dd4773ded7070018a198631d18635c8491a815a",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8491008,
+      "elapsed_seconds": 0.5079957109992392
+    },
+    {
+      "stage": "details_acquire",
+      "outputs": {
+        "inputs/frontier_cb_material_rows_20261023/raw_details/results.json": "8cc898bb42ee3493f53f2a50514dcffc5667ff99a32e00395a96f1e4feb459b3"
+      },
+      "fingerprint": "02138fa8857778db9ee8db696d721e2f223226de9a552c3bf2628bc225692571",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 10584064,
+      "elapsed_seconds": 0.5125815270002931
+    },
+    {
+      "stage": "details_package",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/details_package.json": "b6e2b7efba28d3902295fbe832a5e25db7f30712d050c8ab7b98b1b4353fb6bf"
+      },
+      "fingerprint": "cbf4935f21630ba1a9c2bece96d0b2e81ea44fec0bfcf7ee4406eee41abcf84c",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7270400,
+      "elapsed_seconds": 0.5064598239841871
+    },
+    {
+      "stage": "details_verify",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/source_receipt_details.json": "68ceac5d5fb1cec27176a7ca0f7c42b6ac16d64e2f0079c026c7eaa1d3dadea4"
+      },
+      "fingerprint": "501957291abc2b744433d3011822186359b6dfe19b7a77f50ce13e68f3aeb1e0",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7954432,
+      "elapsed_seconds": 0.5093905410030857
+    },
+    {
+      "stage": "month_acquire",
+      "outputs": {
+        "inputs/frontier_cb_material_rows_20261023/raw_month/results.json": "cbccc9e3a0aa33e11812f0558876c877ee2619f39f15351b3e5f32987349a343"
+      },
+      "fingerprint": "fab4a662f3ec756b4c78de0802697b26d5f35e59ae6cc308f8cb0df4bfee5ccf",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 36749312,
+      "elapsed_seconds": 1.008136102987919
+    },
+    {
+      "stage": "month_package",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/month_package.json": "fa9569b770cfadc074ddab2a5e1e64c2891b1025fb778e6a58148e1d4c7743de"
+      },
+      "fingerprint": "edc2325272130e678d24cc85e5315a32740913f9f03264d531186a1c7ffdaab5",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8101888,
+      "elapsed_seconds": 0.5079103559837677
+    },
+    {
+      "stage": "month_verify",
+      "outputs": {
+        "deliverables/frontier_cb_material_rows_20261023/source_receipt_month.json": "03b0cef89c1f0a6fbf520166ed326561d1d5dca88082ef3a101031709366b9d7"
+      },
+      "fingerprint": "6aad58c5b93acc5fa147ca89e4786d7657551d5ada930dca857c819f28cdf5b1",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 6410240,
+      "elapsed_seconds": 0.5074541139765643
+    },
+    {
+      "stage": "all_responses_and_put_notice_references",
+      "outputs": {
+        "inputs/frontier_cb_material_rows_20261023/all_responses_full.json": "680984ba4358e4128a4c75f4c07585a2d56025ec8978a9115d224fd38138028e",
+        "inputs/frontier_cb_material_rows_20261023/put_notices_full.json": "9cda4c6befd0e2185f9ab3589ccff0bf0011351e7edd937e377dc5083d99e5fb",
+        "deliverables/frontier_cb_material_rows_20261023/inventory.json": "30da49aafc8d41970fa8311d4911c2881e80e2c882cf923b951fd006f404fae4",
+        "deliverables/frontier_cb_material_rows_20261023/put_notice_audit.json": "c55ec127b973408591931ca255f4d94fde411599ac3d7ededf7756742adf7824"
+      },
+      "fingerprint": "b7c86cccb28794f3e08048e164a266e466590c09f9a1ff7d3bac15fc29d56fc9",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 6807552,
+      "elapsed_seconds": 0.5079687190009281
+    }
+  ],
+  "second_pass_all_verified_skips": true,
+  "prior_member_checks": 654,
+  "source_archives_not_refetched": true
+}

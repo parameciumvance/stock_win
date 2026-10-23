@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-23T07:02:03.812005+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "-q",
+    "test_frontier_cb_independent_audit",
+    "test_frontier_cb_documents_sources",
+    "test_frontier_cb_documents_replay",
+    "test_frontier_cb_terms_sources",
+    "test_frontier_cb_pdf_replay",
+    "test_frontier_sources",
+    "test_frontier_cb_notices_sources",
+    "test_frontier_cb_notice_forms",
+    "test_frontier_cb_notice_search_sources",
+    "test_frontier_cb_major_forms",
+    "test_frontier_cb_major_inventory",
+    "test_frontier_cb_material_sources",
+    "test_frontier_cb_material_detail",
+    "test_frontier_cb_put_notice_replay"
+  ],
+  "exit_code": 0,
+  "tests": 91,
+  "new_phase_tests": 16,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 91 tests in 0.334s\n\nOK\n"
+}

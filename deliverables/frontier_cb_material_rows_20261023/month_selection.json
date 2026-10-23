@@ -1,0 +1,1359 @@
+{
+  "query_proofs": [
+    {
+      "source_body_sha256": "6a6576edab8ea7e5b8f0593bfaa765cc4334bfbd70b48f9e3ab814b4d58e7ba6",
+      "script_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "issuer": "9958",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "year",
+          ""
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          "9958"
+        ],
+        [
+          "year",
+          "115"
+        ],
+        [
+          "month",
+          "10"
+        ],
+        [
+          "b_date",
+          "01"
+        ],
+        [
+          "e_date",
+          "23"
+        ]
+      ],
+      "select_options": {
+        "month": [
+          {
+            "value": "",
+            "text": "\u5168\u5e74\u5ea6"
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          }
+        ],
+        "b_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ],
+        "e_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ]
+      },
+      "method": "POST",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=9958&year=115&month=10&b_date=01&e_date=23",
+      "scope": "Independent overlap audit: ROC115 October1through23 for all3issuers; compare all rows to saved full-year listing, no event-outcome selection",
+      "javascript_executed": false,
+      "source_gate_passed": false
+    },
+    {
+      "source_body_sha256": "6a6576edab8ea7e5b8f0593bfaa765cc4334bfbd70b48f9e3ab814b4d58e7ba6",
+      "script_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "issuer": "6835",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "year",
+          ""
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          "6835"
+        ],
+        [
+          "year",
+          "115"
+        ],
+        [
+          "month",
+          "10"
+        ],
+        [
+          "b_date",
+          "01"
+        ],
+        [
+          "e_date",
+          "23"
+        ]
+      ],
+      "select_options": {
+        "month": [
+          {
+            "value": "",
+            "text": "\u5168\u5e74\u5ea6"
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          }
+        ],
+        "b_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ],
+        "e_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ]
+      },
+      "method": "POST",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6835&year=115&month=10&b_date=01&e_date=23",
+      "scope": "Independent overlap audit: ROC115 October1through23 for all3issuers; compare all rows to saved full-year listing, no event-outcome selection",
+      "javascript_executed": false,
+      "source_gate_passed": false
+    },
+    {
+      "source_body_sha256": "6a6576edab8ea7e5b8f0593bfaa765cc4334bfbd70b48f9e3ab814b4d58e7ba6",
+      "script_sha256": "84ff231589df2ec24042393b3fed1b257920fa7c3eabe5eeb25572bfc701f2c5",
+      "issuer": "6874",
+      "original_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "ture"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          ""
+        ],
+        [
+          "year",
+          ""
+        ],
+        [
+          "month",
+          ""
+        ],
+        [
+          "b_date",
+          ""
+        ],
+        [
+          "e_date",
+          ""
+        ]
+      ],
+      "submitted_controls": [
+        [
+          "step",
+          "1"
+        ],
+        [
+          "firstin",
+          "1"
+        ],
+        [
+          "off",
+          "1"
+        ],
+        [
+          "keyword4",
+          ""
+        ],
+        [
+          "code1",
+          ""
+        ],
+        [
+          "TYPEK2",
+          ""
+        ],
+        [
+          "checkbtn",
+          ""
+        ],
+        [
+          "queryName",
+          "co_id"
+        ],
+        [
+          "inpuType",
+          "co_id"
+        ],
+        [
+          "TYPEK",
+          "all"
+        ],
+        [
+          "co_id",
+          "6874"
+        ],
+        [
+          "year",
+          "115"
+        ],
+        [
+          "month",
+          "10"
+        ],
+        [
+          "b_date",
+          "01"
+        ],
+        [
+          "e_date",
+          "23"
+        ]
+      ],
+      "select_options": {
+        "month": [
+          {
+            "value": "",
+            "text": "\u5168\u5e74\u5ea6"
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          }
+        ],
+        "b_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ],
+        "e_date": [
+          {
+            "value": "",
+            "text": ""
+          },
+          {
+            "value": "01",
+            "text": "1"
+          },
+          {
+            "value": "02",
+            "text": "2"
+          },
+          {
+            "value": "03",
+            "text": "3"
+          },
+          {
+            "value": "04",
+            "text": "4"
+          },
+          {
+            "value": "05",
+            "text": "5"
+          },
+          {
+            "value": "06",
+            "text": "6"
+          },
+          {
+            "value": "07",
+            "text": "7"
+          },
+          {
+            "value": "08",
+            "text": "8"
+          },
+          {
+            "value": "09",
+            "text": "9"
+          },
+          {
+            "value": "10",
+            "text": "10"
+          },
+          {
+            "value": "11",
+            "text": "11"
+          },
+          {
+            "value": "12",
+            "text": "12"
+          },
+          {
+            "value": "13",
+            "text": "13"
+          },
+          {
+            "value": "14",
+            "text": "14"
+          },
+          {
+            "value": "15",
+            "text": "15"
+          },
+          {
+            "value": "16",
+            "text": "16"
+          },
+          {
+            "value": "17",
+            "text": "17"
+          },
+          {
+            "value": "18",
+            "text": "18"
+          },
+          {
+            "value": "19",
+            "text": "19"
+          },
+          {
+            "value": "20",
+            "text": "20"
+          },
+          {
+            "value": "21",
+            "text": "21"
+          },
+          {
+            "value": "22",
+            "text": "22"
+          },
+          {
+            "value": "23",
+            "text": "23"
+          },
+          {
+            "value": "24",
+            "text": "24"
+          },
+          {
+            "value": "25",
+            "text": "25"
+          },
+          {
+            "value": "26",
+            "text": "26"
+          },
+          {
+            "value": "27",
+            "text": "27"
+          },
+          {
+            "value": "28",
+            "text": "28"
+          },
+          {
+            "value": "29",
+            "text": "29"
+          },
+          {
+            "value": "30",
+            "text": "30"
+          },
+          {
+            "value": "31",
+            "text": "31"
+          }
+        ]
+      },
+      "method": "POST",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6874&year=115&month=10&b_date=01&e_date=23",
+      "scope": "Independent overlap audit: ROC115 October1through23 for all3issuers; compare all rows to saved full-year listing, no event-outcome selection",
+      "javascript_executed": false,
+      "source_gate_passed": false
+    }
+  ],
+  "all_original_controls_retained": true,
+  "source_archive_sha256": "1b40bf75e946f4bc4fa739d45ced8ee0d966fc89fdfb0025a2cc323aac47346c"
+}

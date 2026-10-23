@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_material_rows_20261023/details.zip",
+  "sha256": "303c9a0f243342a559e59a054064f27d800a4507796f4ba8cd6b7a7e147d6c53",
+  "manifest_files": 10,
+  "created_at": "2026-10-23T06:49:44.261163+00:00",
+  "retrieved": "inputs/frontier_cb_material_rows_20261023/details.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_material_rows_20261023/details_transfer.json",
+  "backup_label": "frontier_cb_material_rows_20261023_details"
+}

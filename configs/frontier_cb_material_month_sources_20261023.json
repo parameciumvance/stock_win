@@ -1,0 +1,26 @@
+{
+  "output_directory": "inputs/frontier_cb_material_rows_20261023/raw_month",
+  "allowed_hosts": [
+    "mopsov.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "99587_corporate_october.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+      "method": "POST",
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=9958&year=115&month=10&b_date=01&e_date=23"
+    },
+    {
+      "filename": "68351_corporate_october.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+      "method": "POST",
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6835&year=115&month=10&b_date=01&e_date=23"
+    },
+    {
+      "filename": "68741_corporate_october.html",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+      "method": "POST",
+      "data": "encodeURIComponent=1&step=1&firstin=1&off=1&keyword4=&code1=&TYPEK2=&checkbtn=&queryName=co_id&inpuType=co_id&TYPEK=all&co_id=6874&year=115&month=10&b_date=01&e_date=23"
+    }
+  ]
+}

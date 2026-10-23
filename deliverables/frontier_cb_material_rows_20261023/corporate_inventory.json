@@ -1,0 +1,1647 @@
+{
+  "documents": [
+    {
+      "bond_code": "99587",
+      "source_body_sha256": "b53f0c9434e860ebddbf2a14486631c3f0cd708cd7ddd5c4a99d0128571695f9",
+      "returned_company_rows": [
+        {
+          "raw_row_number": 4,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/01/15",
+            "14:19:56",
+            "\u88dc\u5145\u516c\u544a(\u539f\u53d6\u5f97\u89c0\u97f3\u5340\u5de5\u696d\u5340\u4e94\u5c0f\u6bb572\u53ca76\u5730\u865f\u8b8a\u66f4\u70ba\u89c0\u97f3\u5340\u5de5\u696d\u5340\u4e94\u5c0f\u6bb575\u53ca76\u5730\u865f)",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='141956';document.t05st01_fm.spoke_date.value='20260115';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 5,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/01/28",
+            "16:10:40",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e2026\u5e74\u6350\u8d08\u8ca1\u5718\u6cd5\u4eba\u4e16\u7d00\u6c38\u7e8c\u767c\u5c55\u57fa\u91d1\u6703\u6848",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='161040';document.t05st01_fm.spoke_date.value='20260128';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 6,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/02/13",
+            "14:35:28",
+            "\u516c\u544a\u672c\u516c\u53f8114\u5e74\u5ea6\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u53ec\u958b\u65e5\u671f",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='143528';document.t05st01_fm.spoke_date.value='20260213';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 7,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/03/02",
+            "17:19:34",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u80a1\u5229\u5206\u914d",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='171934';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 8,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/03/02",
+            "17:22:33",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e114\u5e74\u5ea6\u5408\u4f75\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='172233';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 9,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/03/02",
+            "17:25:33",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u4e0d\u7e7c\u7e8c\u8fa6\u7406114\u5e74\u80a1\u6771\u5e38\u6703\u901a\u904e\u4e4b\u79c1\u52df\u6709\u50f9\u8b49\u5238\u6848",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='172533';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 10,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/03/02",
+            "17:48:32",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u53ec\u958b115\u5e74\u80a1\u6771\u5e38\u6703\u76f8\u95dc\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='174832';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 11,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/03/02",
+            "18:20:58",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u8fa6\u7406\u767c\u884c\u79c1\u52df\u666e\u901a\u80a1",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='4';document.t05st01_fm.spoke_time.value='182058';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 12,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/03/30",
+            "14:23:02",
+            "\u672c\u516c\u53f8\u53d7\u9080\u8acb\u53c3\u52a0\u6c38\u8c50\u91d1\u8b49\u5238\u8209\u8fa6\u4e4b\u6cd5\u4eba\u8aaa\u660e\u6703",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='142302';document.t05st01_fm.spoke_date.value='20260330';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 13,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/04/21",
+            "13:32:19",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u73fe\u91d1\u589e\u8cc7\u5b50\u516c\u53f8PTCENTURYINDONESIAWINDENERGY",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='133219';document.t05st01_fm.spoke_date.value='20260421';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 14,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/04/21",
+            "13:32:45",
+            "\u672c\u516c\u53f8\u4f9d\u516c\u958b\u767c\u884c\u516c\u53f8\u8cc7\u91d1\u8cb8\u8207\u53ca\u80cc\u66f8\u4fdd\u8b49\u8655\u7406\u6e96\u5247\u7b2c\u4e8c\u5341\u4e94\u689d\u7b2c\u4e00\u9805\u7b2c\u56db\u6b3e\u898f\u5b9a\u516c\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='133245';document.t05st01_fm.spoke_date.value='20260421';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 15,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/05/04",
+            "16:01:10",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u5ea6\u7b2c1\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u53ec\u958b\u65e5\u671f",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='160110';document.t05st01_fm.spoke_date.value='20260504';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 16,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/05/12",
+            "16:19:45",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e114\u5e74\u5ea6\u7b2c\u4e00\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='161945';document.t05st01_fm.spoke_date.value='20260512';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 17,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/05/12",
+            "16:20:13",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u8fa6\u7406\u73fe\u91d1\u589e\u8cc7\u767c\u884c\u666e\u901a\u80a1",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='162013';document.t05st01_fm.spoke_date.value='20260512';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 18,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/05/12",
+            "16:20:44",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u767c\u884c\u570b\u5167\u7b2c\u4e5d\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='162044';document.t05st01_fm.spoke_date.value='20260512';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 19,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/05/13",
+            "08:10:24",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e115\u5e74\u5ea6\u7b2c\u4e00\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a(\u66f4\u6b63\u4e3b\u65e8\uff1a\u8463\u4e8b\u6703\u901a\u904e\u5e74\u5ea6)",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='81024';document.t05st01_fm.spoke_date.value='20260513';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 20,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/05/25",
+            "13:41:19",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u80a1\u6771\u5e38\u6703\u91cd\u8981\u6c7a\u8b70\u4e8b\u9805",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='134119';document.t05st01_fm.spoke_date.value='20260525';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 21,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/06/25",
+            "15:11:43",
+            "\u516c\u544a\u672c\u516c\u53f8\u9664\u606f\u57fa\u6e96\u65e5\u66a8\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u8f49\u63db\u671f\u9593",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='151143';document.t05st01_fm.spoke_date.value='20260625';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 22,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/06/25",
+            "16:34:49",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u56e0\u5b50\u516c\u53f8\u9032\u884c\u80a1\u4efd\u8f49\u63db\u800c\u5411\u95dc\u4fc2\u4eba\u53d6\u5f97\u80a1\u6b0a\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='163449';document.t05st01_fm.spoke_date.value='20260625';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 23,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/07/08",
+            "16:36:19",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u8f49\u63db\u50f9\u683c\u8abf\u6574",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='163619';document.t05st01_fm.spoke_date.value='20260708';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 24,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/07/08",
+            "16:39:48",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u516b\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u8f49\u63db\u50f9\u683c\u8abf\u6574",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='163948';document.t05st01_fm.spoke_date.value='20260708';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 25,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/07/23",
+            "14:55:11",
+            "\u66f4\u6b63115\u5e744\u6708\u30015\u6708\u53ca6\u6708\u80cc\u66f8\u4fdd\u8b49\u8cc7\u8a0a\u63ed\u9732\u660e\u7d30\u8868",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='145511';document.t05st01_fm.spoke_date.value='20260723';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 26,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/07/28",
+            "14:00:52",
+            "\u516c\u544a\u672c\u516c\u53f8\u73fe\u91d1\u589e\u8cc7\u767c\u884c\u65b0\u80a1\u8a8d\u80a1\u57fa\u6e96\u65e5\u66a8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u53ca\u570b\u5167\u7b2c\u516b\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u505c\u6b62\u8f49\u63db\u76f8\u95dc\u4e8b\u5b9c\u3002",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='140052';document.t05st01_fm.spoke_date.value='20260728';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 27,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/07/28",
+            "15:06:21",
+            "\u516c\u544a\u66f4\u6b63\u672c\u516c\u53f8114\u5e74\u5ea6\u5e74\u5831\u90e8\u5206\u5167\u5bb9",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='150621';document.t05st01_fm.spoke_date.value='20260728';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 28,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/03",
+            "13:39:29",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u7b2c2\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u53ec\u958b\u65e5\u671f",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='133929';document.t05st01_fm.spoke_date.value='20260803';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 29,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/11",
+            "14:10:28",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e115\u5e74\u5ea6\u7b2c\u4e8c\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='141028';document.t05st01_fm.spoke_date.value='20260811';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 30,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/12",
+            "15:18:09",
+            "\u672c\u516c\u53f8\u53d7\u9080\u8acb\u53c3\u52a0\u6c38\u8c50\u91d1\u8b49\u5238\u8209\u8fa6\u4e4b\u6cd5\u4eba\u8aaa\u660e\u6703",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='151809';document.t05st01_fm.spoke_date.value='20260812';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 31,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/12",
+            "16:09:45",
+            "\u516c\u544a\u672c\u516c\u53f8\u8fa6\u7406\u767c\u884c\u570b\u5167\u7b2c\u4e5d\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\uff0c\u5411\u91d1\u7ba1\u6703\u7533\u8acb\u5ef6\u9577\u52df\u96c6\u671f\u9593\u4e09\u500b\u6708",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='160945';document.t05st01_fm.spoke_date.value='20260812';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 32,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/17",
+            "14:40:14",
+            "\u516c\u544a\u672c\u516c\u53f8\u73fe\u91d1\u589e\u8cc7\u767c\u884c\u65b0\u80a1\u8a8d\u80a1\u57fa\u6e96\u65e5\u7b49\u76f8\u95dc\u4e8b\u5b9c(\u88dc\u5145\u516c\u544a\u6bcf\u80a1\u767c\u884c\u50f9\u683c\u3001\u4ee3\u6536\u5b58\u6b3e\u53ca\u5b58\u5132\u6b3e\u9805\u6a5f\u69cb)",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='144014';document.t05st01_fm.spoke_date.value='20260817';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 33,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/26",
+            "14:33:35",
+            "\u516c\u544a\u672c\u516c\u53f8\u7533\u8acb\u5ef6\u9577\u73fe\u91d1\u589e\u8cc7\u52df\u96c6\u671f\u9593",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='5';document.t05st01_fm.spoke_time.value='143335';document.t05st01_fm.spoke_date.value='20260826';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 34,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/28",
+            "16:28:44",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u8f49\u63db\u50f9\u683c\u8abf\u6574",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='162844';document.t05st01_fm.spoke_date.value='20260828';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 35,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/28",
+            "16:29:30",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u516b\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u8f49\u63db\u50f9\u683c\u8abf\u6574",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='162930';document.t05st01_fm.spoke_date.value='20260828';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 36,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/08/31",
+            "14:43:00",
+            "\u516c\u544a\u672c\u516c\u53f8\u7533\u8acb\u5ef6\u9577\u767c\u884c\u570b\u5167\u7b2c\u4e5d\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u52df\u96c6\u671f\u9593\u4e09\u500b\u6708\uff0c\u696d\u7d93\u91d1\u7ba1\u6703\u6838\u51c6",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='5';document.t05st01_fm.spoke_time.value='144300';document.t05st01_fm.spoke_date.value='20260831';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 37,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/09/02",
+            "16:59:19",
+            "\u516c\u544a\u672c\u516c\u53f8\u7533\u8acb\u5ef6\u9577\u73fe\u91d1\u589e\u8cc7\u52df\u96c6\u671f\u9593\u4e09\u500b\u6708\uff0c\u696d\u7d93\u91d1\u7ba1\u6703\u6838\u51c6(\u539f\u5df2\u516c\u544a\u5b9a\u50f9\u3001\u7e73\u6b3e\u671f\u9593\u53ca\u76f8\u95dc\u4f5c\u696d\u5747\u7121\u8b8a\u52d5\u6216\u5f71\u97ff)",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='165919';document.t05st01_fm.spoke_date.value='20260902';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 38,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/09/07",
+            "17:07:39",
+            "\u672c\u516c\u53f8115\u5e74\u73fe\u91d1\u589e\u8cc7\u767c\u884c\u666e\u901a\u80a1\u50ac\u7e73\u516c\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='170739';document.t05st01_fm.spoke_date.value='20260907';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 39,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/09/07",
+            "17:08:27",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\uff08\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u4e03\uff0c\u4ee3\u78bc\uff1a99587\uff09\u65bc115\u5e7410\u670828\u65e5\u767c\u884c\u5c46\u6eff2\u5e74\uff0c\u50b5\u5238\u6301\u6709\u4eba\u5f97\u884c\u4f7f\u8ce3\u56de\u6b0a\u76f8\u95dc\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='170827';document.t05st01_fm.spoke_date.value='20260907';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 40,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/09/07",
+            "17:08:56",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u516b\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\uff08\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u516b\u6c38\uff0c\u4ee3\u78bc\uff1a99588\uff09\u65bc115\u5e7411\u67088\u65e5\u767c\u884c\u5c46\u6eff2\u5e74\uff0c\u50b5\u5238\u6301\u6709\u4eba\u5f97\u884c\u4f7f\u8ce3\u56de\u6b0a\u76f8\u95dc\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='170856';document.t05st01_fm.spoke_date.value='20260907';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 41,
+          "cells": [
+            "9958",
+            "\u4e16\u7d00\u92fc",
+            "115/09/11",
+            "15:24:03",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u73fe\u91d1\u589e\u8cc7\u6536\u8db3\u80a1\u6b3e\u66a8\u589e\u8cc7\u57fa\u6e96\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='152403';document.t05st01_fm.spoke_date.value='20260911';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        }
+      ],
+      "selected_details": [
+        {
+          "bond_code": "99587",
+          "source_body_sha256": "b53f0c9434e860ebddbf2a14486631c3f0cd708cd7ddd5c4a99d0128571695f9",
+          "row": {
+            "raw_row_number": 39,
+            "cells": [
+              "9958",
+              "\u4e16\u7d00\u92fc",
+              "115/09/07",
+              "17:08:27",
+              "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e03\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\uff08\u7c21\u7a31\uff1a\u4e16\u7d00\u92fc\u4e03\uff0c\u4ee3\u78bc\uff1a99587\uff09\u65bc115\u5e7410\u670828\u65e5\u767c\u884c\u5c46\u6eff2\u5e74\uff0c\u50b5\u5238\u6301\u6709\u4eba\u5f97\u884c\u4f7f\u8ce3\u56de\u6b0a\u76f8\u95dc\u4e8b\u5b9c",
+              ""
+            ],
+            "button_attributes": {
+              "type": "button",
+              "value": "\u8a73\u7d30\u8cc7\u6599",
+              "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='170827';document.t05st01_fm.spoke_date.value='20260907';document.t05st01_fm.co_id.value='9958';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+            }
+          },
+          "original_controls": [
+            [
+              "firstin",
+              "true"
+            ],
+            [
+              "b_date",
+              ""
+            ],
+            [
+              "e_date",
+              ""
+            ],
+            [
+              "TYPEK",
+              ""
+            ],
+            [
+              "year",
+              "115"
+            ],
+            [
+              "month",
+              "all"
+            ],
+            [
+              "type",
+              ""
+            ],
+            [
+              "co_id",
+              ""
+            ],
+            [
+              "spoke_date",
+              ""
+            ],
+            [
+              "spoke_time",
+              ""
+            ],
+            [
+              "seq_no",
+              ""
+            ],
+            [
+              "MEETING_STEP",
+              ""
+            ],
+            [
+              "MODEL",
+              ""
+            ],
+            [
+              "ITEM",
+              ""
+            ],
+            [
+              "e_month",
+              "all"
+            ],
+            [
+              "step",
+              "2"
+            ],
+            [
+              "off",
+              "1"
+            ]
+          ],
+          "assignments": [
+            [
+              "action",
+              "ajax_t05st01"
+            ],
+            [
+              "seq_no",
+              "2"
+            ],
+            [
+              "spoke_time",
+              "170827"
+            ],
+            [
+              "spoke_date",
+              "20260907"
+            ],
+            [
+              "co_id",
+              "9958"
+            ],
+            [
+              "TYPEK",
+              "sii"
+            ]
+          ],
+          "submitted_controls": [
+            [
+              "firstin",
+              "true"
+            ],
+            [
+              "b_date",
+              ""
+            ],
+            [
+              "e_date",
+              ""
+            ],
+            [
+              "TYPEK",
+              "sii"
+            ],
+            [
+              "year",
+              "115"
+            ],
+            [
+              "month",
+              "all"
+            ],
+            [
+              "type",
+              ""
+            ],
+            [
+              "co_id",
+              "9958"
+            ],
+            [
+              "spoke_date",
+              "20260907"
+            ],
+            [
+              "spoke_time",
+              "170827"
+            ],
+            [
+              "seq_no",
+              "2"
+            ],
+            [
+              "MEETING_STEP",
+              ""
+            ],
+            [
+              "MODEL",
+              ""
+            ],
+            [
+              "ITEM",
+              ""
+            ],
+            [
+              "e_month",
+              "all"
+            ],
+            [
+              "step",
+              "2"
+            ],
+            [
+              "off",
+              "1"
+            ]
+          ],
+          "request": {
+            "filename": "99587_notice_20260907_2.html",
+            "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+            "method": "POST",
+            "data": "encodeURIComponent=1&firstin=true&b_date=&e_date=&TYPEK=sii&year=115&month=all&type=&co_id=9958&spoke_date=20260907&spoke_time=170827&seq_no=2&MEETING_STEP=&MODEL=&ITEM=&e_month=all&step=2&off=1"
+          },
+          "source_gate_passed": false
+        }
+      ],
+      "returned_company_row_count": 38,
+      "selected_detail_count": 1,
+      "coverage_complete_verified": false,
+      "absence_of_put_notice_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "bond_code": "68351",
+      "source_body_sha256": "9ddf634718e750956348749edffd66f641aac2c3a57c5a6e11dba3c5f030cf1b",
+      "returned_company_rows": [
+        {
+          "raw_row_number": 4,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/01/28",
+            "08:17:01",
+            "\u672c\u516c\u53f8\u4fee\u8a02\u300c\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u767c\u884c\u53ca\u8f49\u63db\u8fa6\u6cd5\u300d\u4e4b\u50b5\u6b0a\u4eba\u7570\u8b70\u671f\u9593\u5c46\u6eff\u516c\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='81701';document.t05st01_fm.spoke_date.value='20260128';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 5,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/02/05",
+            "13:43:03",
+            "\u516c\u544a\u672c\u516c\u53f8\u4fee\u8a02\u300c\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5\u767c\u884c\u53ca\u8f49\u63db\u8fa6\u6cd5\u300d\u696d\u7d93\u91d1\u878d\u76e3\u7763\u7ba1\u7406\u59d4\u54e1\u6703\u6838\u51c6",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='134303';document.t05st01_fm.spoke_date.value='20260205';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 6,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/02/13",
+            "14:00:13",
+            "\u516c\u544a\u672c\u516c\u53f8114\u5e74\u5ea6\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u9810\u8a08\u53ec\u958b\u65e5\u671f\u70ba115\u5e7402\u670826\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='140013';document.t05st01_fm.spoke_date.value='20260213';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 7,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/02/26",
+            "15:33:41",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e114\u5e74\u5ea6\u5408\u4f75\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='153341';document.t05st01_fm.spoke_date.value='20260226';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 8,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/02/26",
+            "15:34:10",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u53ec\u958b115\u5e74\u80a1\u6771\u5e38\u6703\u76f8\u95dc\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='153410';document.t05st01_fm.spoke_date.value='20260226';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 9,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/02/26",
+            "15:36:38",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u80a1\u5229\u5206\u6d3e",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='153638';document.t05st01_fm.spoke_date.value='20260226';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 10,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/03/10",
+            "14:09:56",
+            "\u4ee3\u5b50\u516c\u53f8CMI(THAILAND)CO.,LTD.\u516c\u544a\u8ca1\u52d9\u4e3b\u7ba1\u4efb\u547d",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='140956';document.t05st01_fm.spoke_date.value='20260310';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 11,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/03/27",
+            "14:23:45",
+            "\u4ee3\u91cd\u8981\u5b50\u516c\u53f8\u6606\u5c71\u5713\u88d5\u96fb\u5b50\u79d1\u6280\u6709\u9650\u516c\u53f8\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u4e0d\u5206\u914d114\u5e74\u5ea6\u80a1\u5229\u3002",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='142345';document.t05st01_fm.spoke_date.value='20260327';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 12,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/05/04",
+            "13:55:26",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u5ea6\u7b2c\u4e00\u5b63\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u9810\u8a08\u53ec\u958b\u65e5\u671f\u70ba115\u5e7405\u670812\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='135526';document.t05st01_fm.spoke_date.value='20260504';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 13,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/05/12",
+            "16:35:50",
+            "\u4ee3\u91cd\u8981\u5b50\u516c\u53f8CMI(THAILAND)CO.,LTD.\u516c\u544a\u8463\u4e8b\u6703\u6c7a\u8b70\u901a\u904e\u8fa6\u7406\u73fe\u91d1\u589e\u8cc7\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='163550';document.t05st01_fm.spoke_date.value='20260512';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 14,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/05/12",
+            "16:36:16",
+            "\u516c\u544a\u672c\u516c\u53f8\u767c\u8a00\u4eba\u7570\u52d5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='163616';document.t05st01_fm.spoke_date.value='20260512';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 15,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/05/12",
+            "16:36:40",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e115\u5e74\u7b2c\u4e00\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='4';document.t05st01_fm.spoke_time.value='163640';document.t05st01_fm.spoke_date.value='20260512';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 16,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/05/29",
+            "14:00:59",
+            "\u672c\u516c\u53f8115\u5e74\u80a1\u6771\u5e38\u6703\u91cd\u8981\u6c7a\u8b70\u4e8b\u9805",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='140059';document.t05st01_fm.spoke_date.value='20260529';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 17,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/06/03",
+            "15:35:46",
+            "\u516c\u544a\u672c\u516c\u53f8\u6c11\u570b114\u5e74\u5ea6\u73fe\u91d1\u80a1\u5229\u4e4b\u914d\u606f\u57fa\u6e96\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='153546';document.t05st01_fm.spoke_date.value='20260603';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 18,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/06/03",
+            "15:36:21",
+            "\u516c\u544a\u5713\u88d5\u4f01\u696d\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49(\u4ea4)\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u5713\u88d5\u4e00\uff0c\u4ee3\u78bc\uff1a68351)\u505c\u6b62\u53d7\u7406\u8f49\u4ea4\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='153621';document.t05st01_fm.spoke_date.value='20260603';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 19,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/06/12",
+            "13:36:12",
+            "\u516c\u544a\u672c\u516c\u53f8\u8abf\u6574\u73fe\u91d1\u80a1\u5229\u914d\u606f\u7387",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='133612';document.t05st01_fm.spoke_date.value='20260612';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 20,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/08/03",
+            "14:07:02",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u5ea6\u7b2c\u4e8c\u5b63\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u9810\u8a08\u53ec\u958b\u65e5\u671f\u70ba115\u5e7408\u670811\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='140702';document.t05st01_fm.spoke_date.value='20260803';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 21,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/08/11",
+            "15:05:53",
+            "\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e115\u5e74\u7b2c\u4e8c\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='150553';document.t05st01_fm.spoke_date.value='20260811';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 22,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/08/24",
+            "16:58:11",
+            "\u66f4\u6b63115\u5e74\u7b2c\u4e8c\u5b63\u5408\u4f75\u8ca1\u52d9\u5831\u544a\u7b2c14\u9801",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='165811';document.t05st01_fm.spoke_date.value='20260824';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 23,
+          "cells": [
+            "6835",
+            "\u5713\u88d5",
+            "115/09/04",
+            "14:00:23",
+            "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u5713\u88d5\u4e00\uff0c\u4ee3\u78bc\uff1a68351)\u65bc115\u5e7411\u670801\u65e5\u767c\u884c\u5c46\u6eff2\u5e74\uff0c\u50b5\u5238\u6301\u6709\u4eba\u5f97\u884c\u4f7f\u8ce3\u56de\u6b0a\u76f8\u95dc\u4e8b\u5b9c",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='140023';document.t05st01_fm.spoke_date.value='20260904';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+          }
+        }
+      ],
+      "selected_details": [
+        {
+          "bond_code": "68351",
+          "source_body_sha256": "9ddf634718e750956348749edffd66f641aac2c3a57c5a6e11dba3c5f030cf1b",
+          "row": {
+            "raw_row_number": 23,
+            "cells": [
+              "6835",
+              "\u5713\u88d5",
+              "115/09/04",
+              "14:00:23",
+              "\u516c\u544a\u672c\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd\u8f49\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u5713\u88d5\u4e00\uff0c\u4ee3\u78bc\uff1a68351)\u65bc115\u5e7411\u670801\u65e5\u767c\u884c\u5c46\u6eff2\u5e74\uff0c\u50b5\u5238\u6301\u6709\u4eba\u5f97\u884c\u4f7f\u8ce3\u56de\u6b0a\u76f8\u95dc\u4e8b\u5b9c",
+              ""
+            ],
+            "button_attributes": {
+              "type": "button",
+              "value": "\u8a73\u7d30\u8cc7\u6599",
+              "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='140023';document.t05st01_fm.spoke_date.value='20260904';document.t05st01_fm.co_id.value='6835';document.t05st01_fm.TYPEK.value='sii';openWindow(this.form ,'');"
+            }
+          },
+          "original_controls": [
+            [
+              "firstin",
+              "true"
+            ],
+            [
+              "b_date",
+              ""
+            ],
+            [
+              "e_date",
+              ""
+            ],
+            [
+              "TYPEK",
+              ""
+            ],
+            [
+              "year",
+              "115"
+            ],
+            [
+              "month",
+              "all"
+            ],
+            [
+              "type",
+              ""
+            ],
+            [
+              "co_id",
+              ""
+            ],
+            [
+              "spoke_date",
+              ""
+            ],
+            [
+              "spoke_time",
+              ""
+            ],
+            [
+              "seq_no",
+              ""
+            ],
+            [
+              "MEETING_STEP",
+              ""
+            ],
+            [
+              "MODEL",
+              ""
+            ],
+            [
+              "ITEM",
+              ""
+            ],
+            [
+              "e_month",
+              "all"
+            ],
+            [
+              "step",
+              "2"
+            ],
+            [
+              "off",
+              "1"
+            ]
+          ],
+          "assignments": [
+            [
+              "action",
+              "ajax_t05st01"
+            ],
+            [
+              "seq_no",
+              "1"
+            ],
+            [
+              "spoke_time",
+              "140023"
+            ],
+            [
+              "spoke_date",
+              "20260904"
+            ],
+            [
+              "co_id",
+              "6835"
+            ],
+            [
+              "TYPEK",
+              "sii"
+            ]
+          ],
+          "submitted_controls": [
+            [
+              "firstin",
+              "true"
+            ],
+            [
+              "b_date",
+              ""
+            ],
+            [
+              "e_date",
+              ""
+            ],
+            [
+              "TYPEK",
+              "sii"
+            ],
+            [
+              "year",
+              "115"
+            ],
+            [
+              "month",
+              "all"
+            ],
+            [
+              "type",
+              ""
+            ],
+            [
+              "co_id",
+              "6835"
+            ],
+            [
+              "spoke_date",
+              "20260904"
+            ],
+            [
+              "spoke_time",
+              "140023"
+            ],
+            [
+              "seq_no",
+              "1"
+            ],
+            [
+              "MEETING_STEP",
+              ""
+            ],
+            [
+              "MODEL",
+              ""
+            ],
+            [
+              "ITEM",
+              ""
+            ],
+            [
+              "e_month",
+              "all"
+            ],
+            [
+              "step",
+              "2"
+            ],
+            [
+              "off",
+              "1"
+            ]
+          ],
+          "request": {
+            "filename": "68351_notice_20260904_1.html",
+            "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01",
+            "method": "POST",
+            "data": "encodeURIComponent=1&firstin=true&b_date=&e_date=&TYPEK=sii&year=115&month=all&type=&co_id=6835&spoke_date=20260904&spoke_time=140023&seq_no=1&MEETING_STEP=&MODEL=&ITEM=&e_month=all&step=2&off=1"
+          },
+          "source_gate_passed": false
+        }
+      ],
+      "returned_company_row_count": 20,
+      "selected_detail_count": 1,
+      "coverage_complete_verified": false,
+      "absence_of_put_notice_proven": false,
+      "source_gate_passed": false
+    },
+    {
+      "bond_code": "68741",
+      "source_body_sha256": "30c67b436065b58be3e40c687451f1a064c47685f3c2d3460e72f3c9516edd5b",
+      "returned_company_rows": [
+        {
+          "raw_row_number": 4,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/02/22",
+            "16:12:04",
+            "\u516c\u544a\u672c\u516c\u53f8114\u5e74\u5ea6\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u53ec\u958b\u65e5\u671f\u70ba115\u5e743\u67082\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='161204';document.t05st01_fm.spoke_date.value='20260222';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 5,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/03/02",
+            "19:17:45",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u53ec\u958b115\u5e74\u80a1\u6771\u5e38\u6703",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='191745';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 6,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/03/02",
+            "19:18:01",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e114\u5e74\u5ea6\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='191801';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 7,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/03/02",
+            "19:18:17",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u8cc7\u672c\u516c\u7a4d\u8f49\u589e\u8cc7\u767c\u884c\u65b0\u80a1\u6848",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='191817';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 8,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/03/02",
+            "19:18:30",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u76c8\u9918\u53ca\u8cc7\u672c\u516c\u7a4d\u5206\u914d\u60c5\u5f62",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='4';document.t05st01_fm.spoke_time.value='191830';document.t05st01_fm.spoke_date.value='20260302';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 9,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/03/13",
+            "18:08:38",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u53ec\u958b115\u5e74\u80a1\u6771\u5e38\u6703(\u4fee\u6b63\u505c\u6b62\u904e\u6236\u8d77\u59cb\u65e5)",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='180838';document.t05st01_fm.spoke_date.value='20260313';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 10,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/03/20",
+            "16:16:14",
+            "\u516c\u544a\u672c\u516c\u53f8\u53d7\u9080\u53c3\u52a0\u6ac3\u8cb7\u4e2d\u5fc3\u8209\u8fa6\u4e4b\u696d\u7e3e\u767c\u8868\u6703",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='161614';document.t05st01_fm.spoke_date.value='20260320';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 11,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/04/30",
+            "17:51:23",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u7b2c\u4e00\u5b63\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u53ec\u958b\u65e5\u671f",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='175123';document.t05st01_fm.spoke_date.value='20260430';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 12,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/05/08",
+            "17:15:07",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e115\u5e74\u7b2c\u4e00\u5b63\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='171507';document.t05st01_fm.spoke_date.value='20260508';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 13,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/05/27",
+            "16:04:51",
+            "\u516c\u544a\u672c\u516c\u53f8114\u5e74\u80a1\u6771\u5e38\u6703\u91cd\u8981\u6c7a\u8b70\u4e8b\u9805",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='160451';document.t05st01_fm.spoke_date.value='20260527';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 14,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/05/27",
+            "16:29:28",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u80a1\u6771\u5e38\u6703\u91cd\u8981\u6c7a\u8b70\u4e8b\u9805(\u4fee\u6b63\u5e74\u5ea6)",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='162928';document.t05st01_fm.spoke_date.value='20260527';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 15,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/06/23",
+            "16:07:20",
+            "\u516c\u544a\u672c\u516c\u53f8\u53d7\u9080\u53c3\u52a0\u7389\u5c71\u8b49\u5238\u8209\u8fa6\u4e4b\u6cd5\u4eba\u8aaa\u660e\u6703",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='160720';document.t05st01_fm.spoke_date.value='20260623';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 16,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/07/30",
+            "19:00:06",
+            "\u516c\u544a\u672c\u516c\u53f8115\u5e74\u7b2c\u4e8c\u5b63\u8ca1\u52d9\u5831\u544a\u8463\u4e8b\u6703\u53ec\u958b\u65e5\u671f",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='190006';document.t05st01_fm.spoke_date.value='20260730';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 17,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/08/07",
+            "15:59:50",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u901a\u904e115\u5e74\u7b2c\u4e8c\u5b63\u8ca1\u52d9\u5831\u544a",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='155950';document.t05st01_fm.spoke_date.value='20260807';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 18,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/08/07",
+            "18:13:04",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u9577\u8a02\u5b9a\u9664\u606f\u57fa\u6e96\u65e5",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='2';document.t05st01_fm.spoke_time.value='181304';document.t05st01_fm.spoke_date.value='20260807';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 19,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/08/07",
+            "18:18:28",
+            "\u516c\u544a\u672c\u516c\u53f8\u8463\u4e8b\u6703\u6c7a\u8b70\u9664\u6b0a\u57fa\u6e96\u65e5\u53ca\u53ef\u8f49\u50b5\u505c\u6b62\u8f49\u63db\u671f\u9593",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='3';document.t05st01_fm.spoke_time.value='181828';document.t05st01_fm.spoke_date.value='20260807';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 20,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/08/07",
+            "18:23:50",
+            "\u516c\u544a\u500d\u529b\u8cc7\u8a0a\u80a1\u4efd\u6709\u9650\u516c\u53f8\u570b\u5167\u7b2c\u4e00\u6b21\u7121\u64d4\u4fdd(\u4f8b\uff1a\u7b2c\u4e00\u6b21\u6709\u64d4\u4fdd)\u8f49(\u4ea4)\u63db\u516c\u53f8\u50b5(\u7c21\u7a31\uff1a\u500d\u529b\u4e00\uff0c\u4ee3\u78bc\uff1a68741)\u505c\u6b62\u53d7\u7406\u8f49\u4ea4\u63db\u7b49\u76f8\u95dc\u4e8b\u9805\u3002",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='4';document.t05st01_fm.spoke_time.value='182350';document.t05st01_fm.spoke_date.value='20260807';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        },
+        {
+          "raw_row_number": 21,
+          "cells": [
+            "6874",
+            "\u500d\u529b",
+            "115/08/10",
+            "17:19:34",
+            "\u516c\u544a\u672c\u516c\u53f8\u53d7\u9080\u53c3\u52a0\u6ac3\u8cb7\u4e2d\u5fc3\u8209\u8fa6\u4e4b\u696d\u7e3e\u767c\u8868\u6703",
+            ""
+          ],
+          "button_attributes": {
+            "type": "button",
+            "value": "\u8a73\u7d30\u8cc7\u6599",
+            "onclick": "document.t05st01_fm.action='ajax_t05st01';document.t05st01_fm.seq_no.value='1';document.t05st01_fm.spoke_time.value='171934';document.t05st01_fm.spoke_date.value='20260810';document.t05st01_fm.co_id.value='6874';document.t05st01_fm.TYPEK.value='otc';openWindow(this.form ,'');"
+          }
+        }
+      ],
+      "selected_details": [],
+      "returned_company_row_count": 18,
+      "selected_detail_count": 0,
+      "coverage_complete_verified": false,
+      "absence_of_put_notice_proven": false,
+      "source_gate_passed": false
+    }
+  ],
+  "source_archive_sha256": "0b0a679ec7f50b56881b7706e4d735e3c0d58c7d157ecce7fa2cdcc05aa884dc",
+  "full_inventory_sha256": "dbf8bdf5cd7480fc0c1e156733842adc40766b256da7245addea857991c209f3",
+  "source_gate_passed": false
+}

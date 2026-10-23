@@ -1,0 +1,82 @@
+{
+  "stages": [
+    {
+      "id": "details_acquire",
+      "command": [
+        "{python}",
+        "frontier_cb_material_sources.py",
+        "acquire",
+        "--batch",
+        "details"
+      ],
+      "inputs": [
+        "frontier_cb_material_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_material_protocol_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/selection.json",
+        "deliverables/frontier_cb_material_rows_20261023/protocol_freeze.json",
+        "configs/frontier_cb_material_rows_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/checkpoint.json",
+        "frontier_cb_corporate_forms.py",
+        "frontier_cb_major_forms.py",
+        "deliverables/frontier_cb_material_rows_20261023/corporate_selection.json",
+        "deliverables/frontier_cb_material_rows_20261023/corporate_routing_amendment.json",
+        "configs/frontier_cb_material_corporate_sources_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/corporate_freeze.json",
+        "frontier_cb_material_detail.py",
+        "cash_merger_document_lookup.py",
+        "configs/frontier_cb_material_details_sources_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/details_selection.json",
+        "deliverables/frontier_cb_material_rows_20261023/details_freeze.json"
+      ],
+      "outputs": [
+        "inputs/frontier_cb_material_rows_20261023/raw_details/results.json"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "details_package",
+      "command": [
+        "{python}",
+        "frontier_cb_material_sources.py",
+        "package",
+        "--batch",
+        "details"
+      ],
+      "inputs": [
+        "frontier_cb_material_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_material_protocol_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/selection.json",
+        "deliverables/frontier_cb_material_rows_20261023/protocol_freeze.json",
+        "configs/frontier_cb_material_rows_sources_20261023.json",
+        "deliverables/frontier_cb_major_20261023/checkpoint.json",
+        "frontier_cb_corporate_forms.py",
+        "frontier_cb_major_forms.py",
+        "deliverables/frontier_cb_material_rows_20261023/corporate_selection.json",
+        "deliverables/frontier_cb_material_rows_20261023/corporate_routing_amendment.json",
+        "configs/frontier_cb_material_corporate_sources_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/corporate_freeze.json",
+        "frontier_cb_material_detail.py",
+        "cash_merger_document_lookup.py",
+        "configs/frontier_cb_material_details_sources_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/details_selection.json",
+        "deliverables/frontier_cb_material_rows_20261023/details_freeze.json"
+      ],
+      "outputs": [
+        "deliverables/frontier_cb_material_rows_20261023/details_package.json"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

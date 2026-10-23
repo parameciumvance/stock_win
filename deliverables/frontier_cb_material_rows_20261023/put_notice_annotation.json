@@ -1,0 +1,163 @@
+{
+  "archive_sha256": "303c9a0f243342a559e59a054064f27d800a4507796f4ba8cd6b7a7e147d6c53",
+  "original_controls": [
+    "99587",
+    "68351",
+    "68741"
+  ],
+  "unresolved_controls": [
+    "68741"
+  ],
+  "cases": [
+    {
+      "filename": "99587_notice_20260907_2.html",
+      "reported_disclosure_at_taipei": "2026-09-07T17:08:27+08:00",
+      "nominal_put_date": "2026-10-28",
+      "written_start": "2026-09-29",
+      "written_end": "2026-10-28",
+      "broker_start": "2026-09-24",
+      "broker_end": "2026-10-27",
+      "nominal_face_percentage": "100.50",
+      "expected_payment_date": "2026-11-04",
+      "fee_amount": null,
+      "facts": [
+        {
+          "topic": "identity_and_legal_clause",
+          "reading": "Issuer9958 seventh issue99587; explicit holder put under article19.",
+          "exact_anchors": [
+            "\u4e16\u7d00\u92fc\u4e03\uff0c\u4ee3\u78bc\uff1a99587",
+            "\u767c\u884c\u53ca\u8f49\u63db\u8fa6\u6cd5\u7b2c\u5341\u4e5d\u689d\u898f\u5b9a\u8fa6\u7406"
+          ]
+        },
+        {
+          "topic": "written_window_effectiveness",
+          "reading": "Written9/29\u201310/28; delivery effective, not merely sending.",
+          "exact_anchors": [
+            "115\u5e7409\u670829\u65e5\u81f3115\u5e7410\u670828\u65e5",
+            "\u65bc\u6587\u4ef6\u9001\u9054\u6642\u5373\u751f\u6548\u529b"
+          ]
+        },
+        {
+          "topic": "gross_face_fraction_not_market_return",
+          "reading": "100.50%of face; statedannual0.25%is issuance term, not holding return.",
+          "exact_anchors": [
+            "\u50b5\u5238\u9762\u984d\u4e4b100.50%",
+            "\u8ce3\u56de\u5e74\u6536\u76ca\u73870.25%"
+          ]
+        },
+        {
+          "topic": "broker_window",
+          "reading": "TDCC-deposited holders apply to their broker9/24\u201310/27; private intraday cutoff not stated.",
+          "exact_anchors": [
+            "\u4e4b\u524d\u4e00\u71df\u696d\u65e5(115\u5e749\u670824\u65e5)\u8d77",
+            "\u4e4b\u524d\u4e00\u71df\u696d\u65e5(115\u5e7410\u670827\u65e5)\u6b62",
+            "\u50b5\u5238\u6301\u6709\u4eba\u5411\u5f80\u4f86\u5238\u5546\u8fa6\u7406\u8ce3\u56de\u624b\u7e8c"
+          ]
+        },
+        {
+          "topic": "payment_and_fee",
+          "reading": "Within5businessdaysafterbase, expected11/4; postage/remittance deducted, unknown amount and tax/net.",
+          "exact_anchors": [
+            "\u8ce3\u56de\u57fa\u6e96\u65e5\u5f8c\u4e94\u500b\u71df\u696d\u65e5\u5167",
+            "\u9810\u8a08\u65bc115\u5e7411\u670804\u65e5",
+            "\u50f9\u6b3e\u6263\u9664\u90f5\u532f\u8cbb\u5f8c"
+          ]
+        }
+      ],
+      "bond_code": "99587",
+      "issuer": "9958",
+      "body_sha256": "502684407dff9034de40f7fbdd9b0595ef52740324e800ec0eb8d39b4193660c",
+      "observed_at_utc": "2026-10-23T06:49:43.936065+00:00",
+      "reported_payment_date_guaranteed": false,
+      "net_amount_verified": false,
+      "current_eligibility_verified": false,
+      "historical_first_availability_verified": false
+    },
+    {
+      "filename": "68351_notice_20260904_1.html",
+      "reported_disclosure_at_taipei": "2026-09-04T14:00:23+08:00",
+      "nominal_put_date": "2026-11-01",
+      "written_start": "2026-09-22",
+      "written_end": "2026-11-01",
+      "broker_start": "2026-09-21",
+      "broker_end": "2026-10-30",
+      "nominal_face_percentage": "100",
+      "expected_payment_date": "2026-11-06",
+      "fee_amount": null,
+      "facts": [
+        {
+          "topic": "identity_and_legal_clause",
+          "reading": "6835first issue68351; notice cites article19 despite PDFarticle6reversed crossreferences.",
+          "exact_anchors": [
+            "\u4ee3\u78bc\uff1a68351",
+            "\u4f9d\u64da\u5713\u88d5\u767c\u884c\u53ca\u8f49\u63db\u8fa6\u6cd5\u7b2c\u5341\u4e5d\u689d\u898f\u5b9a\u8fa6\u7406"
+          ]
+        },
+        {
+          "topic": "face_and_nominal_base",
+          "reading": "Nominal11/1retained; 100000face*100%=100000gross, not net.",
+          "exact_anchors": [
+            "\u6c11\u570b115\u5e7411\u670801\u65e5",
+            "\u50b5\u5238\u9762\u984d\u4e4b100%\u8a08\u7b97",
+            "\u65b0\u53f0\u5e63100,000\u5143"
+          ]
+        },
+        {
+          "topic": "written_window",
+          "reading": "9/22\u201311/1, overdue not accepted.",
+          "exact_anchors": [
+            "115\u5e7409\u670822\u65e5\u8d77",
+            "115\u5e7411\u670801\u65e5\u6b62",
+            "\u903e\u671f\u6055\u4e0d\u53d7\u7406"
+          ]
+        },
+        {
+          "topic": "broker_window",
+          "reading": "Applyviaownbroker9/21\u201310/30; notice provides its own exactdates, not derived weekdays.",
+          "exact_anchors": [
+            "115\u5e7409\u670821\u65e5\u81f3\u6c11\u570b115\u5e7410\u670830\u65e5",
+            "\u5411\u5f80\u4f86\u5238\u5546\u8fa6\u7406\u8ce3\u56de\u624b\u7e8c"
+          ]
+        },
+        {
+          "topic": "irrevocable_and_required_documents",
+          "reading": "Effectiveondelivery, irrevocable; originalsealbooklet/accountsealrequired.",
+          "exact_anchors": [
+            "\u9001\u9054\u6642\u5373\u751f\u6548\u529b\u4e14\u4e0d\u5f97\u64a4\u56de",
+            "\u9808\u52a0\u84cb\u8b49\u5238\u96c6\u4fdd\u5e33\u6236\u539f\u7559\u5370\u9451\u7ae0",
+            "\u8b49\u5238\u5b58\u647a",
+            "\u96c6\u4fdd\u5e33\u6236\u5370\u9451"
+          ]
+        },
+        {
+          "topic": "expected_payment_not_guarantee",
+          "reading": "Expected11/6viaTDCCprovidedbrokerbankdetails; no fee amount stated here. PDFpostage term retained, not assumedzero.",
+          "exact_anchors": [
+            "\u9810\u8a08\u65bc\u6c11\u570b115\u5e7411\u670806\u65e5",
+            "\u81fa\u7063\u96c6\u4e2d\u4fdd\u7ba1\u7d50\u7b97\u6240\u63d0\u4f9b\u4ea4\u6613\u5238\u5546\u4e4b\u9280\u884c\u5e33\u865f\u63a1\u532f\u6b3e\u65b9\u5f0f\u7d66\u4ed8"
+          ]
+        }
+      ],
+      "bond_code": "68351",
+      "issuer": "6835",
+      "body_sha256": "6332d1b466b2cb9ac4200cc55e32875ddea97a2c95e07e41b25f86a74548dc51",
+      "observed_at_utc": "2026-10-23T06:49:40.414274+00:00",
+      "reported_payment_date_guaranteed": false,
+      "net_amount_verified": false,
+      "current_eligibility_verified": false,
+      "historical_first_availability_verified": false
+    }
+  ],
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "profit_edge_proven": false,
+  "limitations": [
+    "Twooriginalnoticesavailable, third missing; no control replaced",
+    "Full-year endpoint no declared total; latest-version completeness not proven",
+    "Facepercentage not investorreturn; no quotes/cost/netverified",
+    "Expectedpayment not actualpayment or legally calculated deadline",
+    "Calendar/settlement/brokerintradaycutoff/account eligibility still need primary proof",
+    "ReportedSepdisclosure dates are source claims; first observed bythisprojectOct23, no historic signal backfill"
+  ]
+}

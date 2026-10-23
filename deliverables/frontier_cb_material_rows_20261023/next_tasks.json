@@ -1,0 +1,14 @@
+{
+  "status": "continue_authorized",
+  "next_stage": "frontier_cb_operations_20261023",
+  "reason": "Twoactual put notices now give broker dates; verify calendar, temporary closures and TDCC/account-balance operations before any feasibility/quote claim.",
+  "new_raw_request_cap": 8,
+  "new_batch_cap": 3,
+  "cumulative_raw_before_next": 51,
+  "cumulative_raw_cap_after_next": 59,
+  "unused_one_not_reused": true,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "user_decision_required": false
+}

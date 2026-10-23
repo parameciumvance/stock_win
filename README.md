@@ -1,5 +1,7 @@
 > 目前狀態（2026-10-23）：尚無已證明獲利優勢、值得啟動每日人工驗證的策略；七規則每日計畫已停止。先看[最新進度](docs/RESEARCH_PRIORITIES.md)與[研究決策紀錄](docs/research_decision_registry.json)。
 >
+> [可轉債賣回通知原件與期限](deliverables/frontier_cb_material_rows_20261023/report.md)：原三案保留、兩份原文已核對；尚未通過實際執行／淨收益關卡。
+>
 > [CB389列索引與29案入口核對](deliverables/frontier_cb_contract_20261022/report.md)：58項測試／12階段重播通過，接續固定三案原件；入口仍不代表可交易現金權利。
 >
 > [6674條件時鐘驗收](deliverables/cash_merger_claim_20261022/report.md)：24項測試與獨立算式核對通過，實際現金／日期仍未知；接續CB契約入口，毋須人工逐檔下載。
