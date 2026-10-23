@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-23T07:04:37.372766+00:00",
+  "protocol_sha256": "1c1270ad6638c1a01381da8c859b84210767eb78887e6d78479779f8336fcbfe",
+  "base_remote_commit": "718d99c35d386c839dbacfd7f994734c62983361",
+  "prior_member_checks": 704,
+  "before_source_IO": true,
+  "source_discovery": "12previous search-enginequeries, literal primary official/provider URLs only"
+}

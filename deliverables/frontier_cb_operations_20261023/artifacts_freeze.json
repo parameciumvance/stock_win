@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-23T07:06:48.813565+00:00",
+  "protocol_sha256": "1c1270ad6638c1a01381da8c859b84210767eb78887e6d78479779f8336fcbfe",
+  "path": "configs/frontier_cb_operations_artifacts_sources_20261023.json",
+  "sha256": "e832cb148abcfa03407a26ddc913940d99596c402d2cca8ec050405b27e7b632",
+  "requests": 2,
+  "selection": {
+    "path": "deliverables/frontier_cb_operations_20261023/artifacts_selection.json",
+    "sha256": "89d9381fa972f9fd0d17789d9c07e171c3ac2476c31876261e95a0effe687b85"
+  },
+  "before_source_IO": true,
+  "after_pages_archive_readback": true
+}

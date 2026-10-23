@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-23T07:15:16.739974+00:00",
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "unittest",
+    "-q",
+    "test_frontier_cb_operations_replay"
+  ],
+  "exit_code": 0,
+  "tests": 6,
+  "stdout": "",
+  "stderr": "----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n",
+  "replay_pre_pipeline_correction": "Calendar declaration matcher initially expected wrong lexical form i.val().toString(); corrected to source String(i.val()). No source or model parameters changed."
+}

@@ -1,0 +1,25 @@
+{
+  "proofs": [
+    {
+      "source_member": "raw/tdcc_redemption.html",
+      "source_body_sha256": "5c2e02d3aa9e2642cc76c3cb66c6ef46025f0b1fb0f56c863253a50e4e4c347d",
+      "literal": "https://m.tdcc.com.tw/TDCCWEB/upload/4028979687182c920187368f082f0047.pdf",
+      "request": {
+        "filename": "tdcc_redemption_principles.pdf",
+        "url": "https://m.tdcc.com.tw/TDCCWEB/upload/4028979687182c920187368f082f0047.pdf",
+        "method": "GET"
+      }
+    },
+    {
+      "source_member": "raw/twse_calendar.html",
+      "source_body_sha256": "6b366cb083b0384b7865e367c213247d3f2c5ab779d0c673c8034d362a85f7a2",
+      "literal": "/res/js/web-report.js?-0I2",
+      "request": {
+        "filename": "twse_web_report.js",
+        "url": "https://www.twse.com.tw/res/js/web-report.js?-0I2",
+        "method": "GET"
+      }
+    }
+  ],
+  "readback_archive_sha256": "04c522f8683c9be95a6ac2fb64f4f9598076349ff01018fed50d30f1a66326e0"
+}

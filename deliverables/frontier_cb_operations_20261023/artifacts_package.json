@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_operations_20261023/artifacts.zip",
+  "sha256": "9282da3098b55ab7b6bd9cc4f8869a62fcf8ed79c84908164f60c01d919d16e0",
+  "manifest_files": 10,
+  "created_at": "2026-10-23T07:06:53.407652+00:00",
+  "retrieved": "inputs/frontier_cb_operations_20261023/artifacts.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_operations_20261023/artifacts_transfer.json",
+  "backup_label": "frontier_cb_operations_20261023_artifacts"
+}

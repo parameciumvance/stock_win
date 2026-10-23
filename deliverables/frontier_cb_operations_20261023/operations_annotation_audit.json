@@ -1,0 +1,12 @@
+{
+  "status": "human_operation_reference_bindings_verified",
+  "text_anchors_verified": 16,
+  "semantic_interpretation_automatically_verified": false,
+  "current_broker_acceptance_verified": false,
+  "calendar_annual_data_verified": false,
+  "actual_net_amount_verified": false,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "annotation_sha256": "7fb0e5609769f424b96bb36fccbaf6ba60136536e9cdbaa1a4c8771c18441f9d"
+}

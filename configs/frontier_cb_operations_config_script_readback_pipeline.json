@@ -1,0 +1,34 @@
+{
+  "stages": [
+    {
+      "id": "config_script_verify",
+      "command": [
+        "{python}",
+        "frontier_cb_operations_sources.py",
+        "verify",
+        "--batch",
+        "config_script"
+      ],
+      "inputs": [
+        "frontier_cb_operations_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_operations_protocol_20261023.json",
+        "deliverables/frontier_cb_operations_20261023/selection.json",
+        "deliverables/frontier_cb_operations_20261023/protocol_freeze.json",
+        "configs/frontier_cb_operations_pages_sources_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/checkpoint.json",
+        "configs/frontier_cb_operations_config_script_sources_20261023.json",
+        "deliverables/frontier_cb_operations_20261023/config_script_freeze.json"
+      ],
+      "outputs": [
+        "deliverables/frontier_cb_operations_20261023/source_receipt_config_script.json"
+      ],
+      "timeout_seconds": 180
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "output_directory": "inputs/frontier_cb_operations_20261023/raw_pages",
+  "allowed_hosts": [
+    "www.twse.com.tw",
+    "www.tdcc.com.tw",
+    "www.tpex.org.tw",
+    "www.kgieworld.com.tw",
+    "stock.landbank.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "twse_calendar.html",
+      "url": "https://www.twse.com.tw/zh/trading/holiday.html",
+      "method": "GET"
+    },
+    {
+      "filename": "tdcc_redemption.html",
+      "url": "https://www.tdcc.com.tw/portal/zh/equity/redemption",
+      "method": "GET"
+    },
+    {
+      "filename": "tpex_bond_operations.html",
+      "url": "https://www.tpex.org.tw/zh-tw/bond/service/introduction/tpex-bond.html",
+      "method": "GET"
+    },
+    {
+      "filename": "kgi_service_closures.html",
+      "url": "https://www.kgieworld.com.tw/index/news_mtrade.aspx?nsid=12907",
+      "method": "GET"
+    },
+    {
+      "filename": "landbank_service_closures.html",
+      "url": "https://stock.landbank.com.tw/Index_CH/Index_Detail.aspx?ct=1&id=P0066&n=P0054&open=5025",
+      "method": "GET"
+    }
+  ]
+}

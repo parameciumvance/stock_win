@@ -1,0 +1,41 @@
+{
+  "stages": [
+    {
+      "id": "operation_pages_PDF_and_calendar_route",
+      "command": [
+        "{python}",
+        "frontier_cb_operations_replay.py"
+      ],
+      "inputs": [
+        "frontier_cb_operations_sources.py",
+        "frontier_sources.py",
+        "native_public_sources.py",
+        "bounded_public_sources.py",
+        "research_runtime.py",
+        "source_checkpoint.py",
+        "tender_preflight.py",
+        "configs/frontier_cb_operations_protocol_20261023.json",
+        "deliverables/frontier_cb_operations_20261023/selection.json",
+        "deliverables/frontier_cb_operations_20261023/protocol_freeze.json",
+        "configs/frontier_cb_operations_pages_sources_20261023.json",
+        "deliverables/frontier_cb_material_rows_20261023/checkpoint.json",
+        "configs/frontier_cb_operations_config_script_sources_20261023.json",
+        "deliverables/frontier_cb_operations_20261023/config_script_freeze.json",
+        "frontier_cb_operations_replay.py",
+        "cash_merger_pdf_replay.py",
+        "cash_merger_document_lookup.py",
+        "deliverables/frontier_cb_operations_20261023/operations_annotation.json",
+        "deliverables/frontier_cb_operations_20261023/source_receipt_pages.json",
+        "deliverables/frontier_cb_operations_20261023/source_receipt_artifacts.json",
+        "deliverables/frontier_cb_operations_20261023/source_receipt_config_script.json"
+      ],
+      "outputs": [
+        "inputs/frontier_cb_operations_20261023/all_sources_full.json",
+        "deliverables/frontier_cb_operations_20261023/calendar_route.json",
+        "deliverables/frontier_cb_operations_20261023/inventory.json",
+        "deliverables/frontier_cb_operations_20261023/operations_annotation_audit.json"
+      ],
+      "timeout_seconds": 120
+    }
+  ]
+}

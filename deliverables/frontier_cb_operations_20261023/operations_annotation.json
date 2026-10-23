@@ -1,0 +1,94 @@
+{
+  "documents": [
+    {
+      "filename": "kgi_service_closures.html",
+      "body_sha256": "1fd729e9c774351987199327b7fc8e0ddcee2fa8b53da545fbdb85379d36e283",
+      "observed_at": "2026-10-23T07:04:40.897188+00:00",
+      "facts": [
+        {
+          "topic": "own_service_closure",
+          "reading": "ProviderstatesOct23stock/futuresclosed, localserviceandcutoffs maychange; notuniversalbrokeracceptance.",
+          "anchors": [
+            "115\u5e7410\u670823\u65e5\uff08\u661f\u671f\u4e94\uff09\u53f0\u5317\u80a1\u3001\u671f\u5e02\u4f11\u5e02\u4e00\u5929",
+            "10/27(\u4e8c)\u9810\u7d04\u59d4\u8a17",
+            "115\u5e7410\u670826\u65e5\uff08\u661f\u671f\u4e00\uff09"
+          ]
+        }
+      ],
+      "semantic_interpretation_automatically_verified": false
+    },
+    {
+      "filename": "landbank_service_closures.html",
+      "body_sha256": "213bd6812d03f2dfca9fab849449fd3ad7c6e7a002dfd32598d45ce9d53aecac",
+      "observed_at": "2026-10-23T07:04:44.363099+00:00",
+      "facts": [
+        {
+          "topic": "own_service_closure_and_settlement",
+          "reading": "BankannouncesOct23all-dayclosureandsettlementdeferral; itsownscheduledpayment/buy dates are not copiedtoCB eligibility.",
+          "anchors": [
+            "\u8b49\u5238\u3001\u671f\u8ca8\u4ea4\u6613\u5e02\u5834115\u5e7410\u670823\u65e5(\u661f\u671f\u4e94)\u5168\u65e5\u4f11\u5e02",
+            "\u61c9\u5c46\u4ea4\u5272\u6b3e\u5238\u9806\u5ef6\u81f3\u6b21\u4e00\u71df\u696d\u65e5\u8fa6\u7406",
+            "115/10/27"
+          ]
+        }
+      ],
+      "semantic_interpretation_automatically_verified": false
+    },
+    {
+      "filename": "tpex_bond_operations.html",
+      "body_sha256": "4363cc8af05e6396e554f50af7661d413728008736d847ee69139583f8462648",
+      "observed_at": "2026-10-23T07:04:40.898076+00:00",
+      "facts": [
+        {
+          "topic": "venue_and_face_unit",
+          "reading": "Equivalent-priceCBvenue usesface100000minimum; face is not cash purchasebudget.",
+          "anchors": [
+            "\u7b49\u50f9\u6210\u4ea4\u7cfb\u7d71\uff08\u8cb7\u8ce3\u65b7\uff09\uff1a\u8f49\u63db\u516c\u53f8\u50b5\u3001\u4ea4\u63db\u516c\u53f8\u50b5\u53ca\u9644\u8a8d\u80a1\u6b0a\u516c\u53f8\u50b5",
+            "\u7b49\u50f9\u6210\u4ea4\u7cfb\u7d71",
+            "\u6700\u4f4e\u6210\u4ea4\u55ae\u4f4d\uff1a\u9762\u984d10\u842c\u5143"
+          ]
+        },
+        {
+          "topic": "settlement_paths",
+          "reading": "NegotiatedsettlementbyagreementmustfinishnolaterthanT+2; thisdoesnotpromiseT0orstock-equivalentvenueeligibility.",
+          "anchors": [
+            "\u5176\u4ea4\u5272\u65b9\u5f0f\u7531\u96d9\u65b9\u81ea\u884c\u7d04\u5b9a",
+            "\u6210\u4ea4\u65e5\u4e4b\u6b21\u4e8c\u71df\u696d\u65e5\u524d\uff08T+2\u65e5\uff09",
+            "\u7b49\u50f9\u6210\u4ea4\u7cfb\u7d71\uff1a\u6bd4\u7167\u4e0a\u6ac3\u80a1\u7968\u4e4b\u898f\u5b9a"
+          ]
+        }
+      ],
+      "semantic_interpretation_automatically_verified": false
+    },
+    {
+      "filename": "tdcc_redemption_principles.pdf",
+      "body_sha256": "257825775243cc258f7e175a9289117512bd23bc37b8debdf3ad97e1f4eb664e",
+      "observed_at": "2026-10-23T07:06:52.837349+00:00",
+      "facts": [
+        {
+          "topic": "holder_application_and_seal",
+          "reading": "Applicationthroughoriginalbrokerwithbookletandoriginalseal/signature; noverifiedaccountavailability/intradaycutoff.",
+          "anchors": [
+            "\u6295\u8cc7\u4eba\u6301\u300e\u8b49\u5238\u5b58\u647a\u300f",
+            "\u539f\u7559\u5b58\u5370\u9451\u6216\u7c3d\u540d\u5f0f\u6a23"
+          ]
+        },
+        {
+          "topic": "electronic_service_not_universal",
+          "reading": "Somedepositoryelectronicoperationisnotavailableatallbrokers; thisparagraphdoesnotguaranteethisusersputacceptanceorautomaticallyapplyholderput.",
+          "anchors": [
+            "\u90e8\u5206\u8b49\u5238\u5546\u5c1a\u672a\u63d0\u4f9b\u6b64\u9805\u4f5c\u696d",
+            "\u78ba\u8a8d\u662f\u5426\u5f97\u4ee5\u96fb\u5b50\u5316\u65b9\u5f0f\u8fa6\u7406"
+          ]
+        }
+      ],
+      "semantic_interpretation_automatically_verified": false
+    }
+  ],
+  "source_gate_passed": false,
+  "current_broker_acceptance_verified": false,
+  "calendar_annual_data_verified": false,
+  "actual_net_amount_verified": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false
+}

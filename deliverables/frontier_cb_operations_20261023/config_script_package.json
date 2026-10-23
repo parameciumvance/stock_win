@@ -1,0 +1,9 @@
+{
+  "archive": "inputs/frontier_cb_operations_20261023/config_script.zip",
+  "sha256": "b4d13d91b58ca33003bb6ce2f2de5259f26aa18677787e13fa20a9266a0654ef",
+  "manifest_files": 7,
+  "created_at": "2026-10-23T07:09:12.946707+00:00",
+  "retrieved": "inputs/frontier_cb_operations_20261023/config_script.retrieved.zip",
+  "transfer_receipt": "inputs/frontier_cb_operations_20261023/config_script_transfer.json",
+  "backup_label": "frontier_cb_operations_20261023_config_script"
+}

@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-10-23T07:09:09.675043+00:00",
+  "protocol_sha256": "1c1270ad6638c1a01381da8c859b84210767eb78887e6d78479779f8336fcbfe",
+  "path": "configs/frontier_cb_operations_config_script_sources_20261023.json",
+  "sha256": "c832372b8623b79afe35d0219e7f5eb6ce9e7e95f12683ee58de5e80b2152d52",
+  "requests": 1,
+  "source_archive_sha256": "04c522f8683c9be95a6ac2fb64f4f9598076349ff01018fed50d30f1a66326e0",
+  "source_member": "raw/twse_calendar.html",
+  "literal_src": "/res/js/main.js?cRmf",
+  "reason": "Actual web-report script composes API using cfg.apiHost.rwd and cfg.lan; fetch declared main config before constructing any calendar URL. No guessed API root."
+}

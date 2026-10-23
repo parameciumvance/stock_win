@@ -1,0 +1,19 @@
+{
+  "output_directory": "inputs/frontier_cb_operations_20261023/raw_artifacts",
+  "allowed_hosts": [
+    "m.tdcc.com.tw",
+    "www.twse.com.tw"
+  ],
+  "requests": [
+    {
+      "filename": "tdcc_redemption_principles.pdf",
+      "url": "https://m.tdcc.com.tw/TDCCWEB/upload/4028979687182c920187368f082f0047.pdf",
+      "method": "GET"
+    },
+    {
+      "filename": "twse_web_report.js",
+      "url": "https://www.twse.com.tw/res/js/web-report.js?-0I2",
+      "method": "GET"
+    }
+  ]
+}

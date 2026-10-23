@@ -1,0 +1,111 @@
+{
+  "recorded_at": "2026-10-23T07:15:16.739974+00:00",
+  "stages": [
+    {
+      "stage": "pages_acquire",
+      "outputs": {
+        "inputs/frontier_cb_operations_20261023/raw_pages/results.json": "d23fe3966325353f564b49a9d7381540a43ff933bf39641e0e4c092d707f0683"
+      },
+      "fingerprint": "35c68bf38db182ba196c1353e072eabed91574bda3d4cfd04fd27bb0ea076830",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 9129984,
+      "elapsed_seconds": 0.5097245100187138
+    },
+    {
+      "stage": "pages_package",
+      "outputs": {
+        "deliverables/frontier_cb_operations_20261023/pages_package.json": "a61bbae469e363a6048722f11390b094b9417c653919c1dc34f29e17ed71bd6c"
+      },
+      "fingerprint": "c1c7f2bafe45030cc734b0ca4a290d8ee89cb32d5b53b9cd8fb0a5cc49d9210a",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 9043968,
+      "elapsed_seconds": 0.5097416010103188
+    },
+    {
+      "stage": "pages_verify",
+      "outputs": {
+        "deliverables/frontier_cb_operations_20261023/source_receipt_pages.json": "835c8f05fba51f08431917523f4e20670103af41da8503e3ae2e2dbf4293c7a4"
+      },
+      "fingerprint": "b3788d6ac9284a6383f6f1c3e05ee3c08709be24eaec08c45069af17fbd9d1a3",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7933952,
+      "elapsed_seconds": 0.5071921609924175
+    },
+    {
+      "stage": "artifacts_acquire",
+      "outputs": {
+        "inputs/frontier_cb_operations_20261023/raw_artifacts/results.json": "d910705cd7681459711c4b4f5deee445e01475fcc0e7e0aaacda8a65641f402b"
+      },
+      "fingerprint": "e5210db1541f233b6bc981ab14f92dc9ab880646cba60be6cfb2554165f238da",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7753728,
+      "elapsed_seconds": 0.5091949760098942
+    },
+    {
+      "stage": "artifacts_package",
+      "outputs": {
+        "deliverables/frontier_cb_operations_20261023/artifacts_package.json": "1638fd3ad4db5049e8c5514cd8dc47b20aaabe0f9f4cb7b9ebdefd17caf7a84c"
+      },
+      "fingerprint": "3293161c28629440d9a34d5313cc689eeba4258362f3220730683dd325a4a252",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7344128,
+      "elapsed_seconds": 0.5106125330203213
+    },
+    {
+      "stage": "artifacts_verify",
+      "outputs": {
+        "deliverables/frontier_cb_operations_20261023/source_receipt_artifacts.json": "e51245f2c3eae27d75f2e297e38f2dae0a71e3ffef70811644b1d3ba79434fd2"
+      },
+      "fingerprint": "6e14835b3ec0d0d85b038b49a1c67795ef30019d3eb75f9d3155bc5c5b701c09",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8421376,
+      "elapsed_seconds": 0.5115710239624605
+    },
+    {
+      "stage": "config_script_acquire",
+      "outputs": {
+        "inputs/frontier_cb_operations_20261023/raw_config_script/results.json": "a0a83eee52224b6ff456bbdccc9db815c2444d3d0dbaa9d433107ac9dce91976"
+      },
+      "fingerprint": "3419251ea204089309c9250201fc94b449dba8d2c7daf567afa9d448546f7b9c",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 6672384,
+      "elapsed_seconds": 0.5062059320043772
+    },
+    {
+      "stage": "config_script_package",
+      "outputs": {
+        "deliverables/frontier_cb_operations_20261023/config_script_package.json": "80ee5f69d9934cf4c3e6eefcd148fb1b94dccaab22d3bc72b512d36cfb612ac7"
+      },
+      "fingerprint": "235cd219987c23f0678e77f64a5c6ed81aacaec0091199d59a71c52926a220cf",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 8548352,
+      "elapsed_seconds": 0.5082152970135212
+    },
+    {
+      "stage": "config_script_verify",
+      "outputs": {
+        "deliverables/frontier_cb_operations_20261023/source_receipt_config_script.json": "8a20a5cd60416dc68ecc8cf9af37e06ddcd9bc1ed05893db655d3e11e3f85ffb"
+      },
+      "fingerprint": "65e27f3e7c050bd84fd740c82a41b23eb36bdfe4388d84077f562515cddb9e9f",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 12132352,
+      "elapsed_seconds": 0.5280570199829526
+    },
+    {
+      "stage": "operation_pages_PDF_and_calendar_route",
+      "outputs": {
+        "inputs/frontier_cb_operations_20261023/all_sources_full.json": "3479502754e7644f44554e1a1ab1ae2038fc0cece9d129ab30f5c247fbe91537",
+        "deliverables/frontier_cb_operations_20261023/calendar_route.json": "c74f434301599a0171ccce60d0508265e627070c7717da98cc69898564ea5a4b",
+        "deliverables/frontier_cb_operations_20261023/inventory.json": "8c84eae235a34bd3138a1fb7fda5538a9970b86b9c4568d92689b5f63f466aa6",
+        "deliverables/frontier_cb_operations_20261023/operations_annotation_audit.json": "81ae374728f533453b2777fdf051ab2caa8582cfcae289b8ea1e73fba2e88269"
+      },
+      "fingerprint": "73ca5cbdd856440df55792538ccad5efa40f0bd7d8b5bdf52b9abaddb6e2dc93",
+      "exit_code": 0,
+      "peak_observed_rss_bytes": 7917568,
+      "elapsed_seconds": 0.5091483480064198
+    }
+  ],
+  "second_pass_all_verified_skips": true,
+  "prior_member_checks": 704,
+  "source_archives_not_refetched": true
+}

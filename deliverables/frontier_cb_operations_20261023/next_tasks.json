@@ -1,0 +1,15 @@
+{
+  "status": "continue_authorized",
+  "next_stage": "frontier_cb_calendar_20261023",
+  "reason": "Actual TWSE page, report and main scripts now fully bind one calendar GET; need actual annual payload before conditional dates.",
+  "source_request_proof": "deliverables/frontier_cb_operations_20261023/calendar_route.json",
+  "new_raw_request_cap": 1,
+  "new_batch_cap": 1,
+  "cumulative_raw_before_next": 59,
+  "cumulative_raw_cap_after_next": 60,
+  "no_old_capacity_reused": true,
+  "source_gate_passed": false,
+  "valid_prospective_signal_date": null,
+  "orders_authorized": false,
+  "user_decision_required": false
+}
