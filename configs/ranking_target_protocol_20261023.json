@@ -1,0 +1,95 @@
+{
+  "frozen_at": "2026-10-23T09:29:56.619738+00:00",
+  "base_commit": "442879e00f80fe769176c4aeb1595a69cb7d04ec",
+  "status": "one_fixed_exploratory_objective_comparison",
+  "hypothesis": "Within-date rank targets reduce dominance of extreme realized return magnitudes and improve cross-year selection relative to identical return-target trees; this tests an objective, not a new economic information source.",
+  "prices": "twse_history/output_multiyear_2023_2026_asof_20261002/prices_adjusted_2023_2026.csv.gz",
+  "expected_prices_sha256": "871b55052d1398a0edb62e144cf2d6274ec32358d075675583b79f900c65858d",
+  "legacy_protocol": "configs/medium_term_protocol.json",
+  "legacy_protocol_sha256": "995550cbf91a32479335ffb0226b5ca03fb8e32e616a639d8b41e80b8567cacb",
+  "feature_definition_source": "audit_institutional_increment.py",
+  "feature_definition_sha256": "e8e0319ab71559dc36fc44454dedd8f7b2b0b13f9094888f298331912cb60947",
+  "source_archive": {
+    "path": "ref/institutional_twse_2023_repro_bundle.zip",
+    "sha256": "2e2654a125e7b33ac284cd5796be151738101b2ecb88f8407fae0f99317c4e94",
+    "saved": [
+      "inputs/reassessment_20261016/backup/original_bundle.zip",
+      "inputs/reassessment_20261016/original_bundle.retrieved.zip"
+    ]
+  },
+  "asof": "2026-10-02",
+  "years": [
+    2024,
+    2025,
+    2026
+  ],
+  "horizon": 60,
+  "features": [
+    "r1",
+    "r5",
+    "r20",
+    "r60",
+    "vol20",
+    "atr14",
+    "ma5_20",
+    "ma20_60",
+    "volume5_20",
+    "log_turnover20"
+  ],
+  "tree_parameters": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "max_depth": 4,
+    "min_samples_leaf": 200,
+    "l2_regularization": 1,
+    "early_stopping": false,
+    "random_state": 20261010
+  },
+  "commission": 0.001425,
+  "sell_tax": 0.003,
+  "slippage_each_side": 0.005,
+  "top_fraction": 0.1,
+  "monthly_top_n": 15,
+  "min_pool_size": 100,
+  "threads": 2,
+  "fit_count": 6,
+  "methods": [
+    "return_tree",
+    "rank_tree",
+    "mom60",
+    "vol20"
+  ],
+  "eligibility": "Same price-only ordinary-stock pool for all four methods: 120 complete market closes, raw close>=10, positive volume, trailing20 turnover>=10 million TWD and finite ten price features. No flow/revenue completeness filter; this differs from the old all-feature pool, so refit both objectives on this pool.",
+  "training": "Expand from2023. First signal may be prior year final market close; every training label endpoint <= previous calendar yearend AND <= first evaluation signal. Exactly same finite-label rows and weights for both objectives. No future result filter in scoring pool.",
+  "rank_target": "Average tied ascending within-signal-date percentile rank of finite future net-relative endpoints in that date price pool. Unknown endpoints excluded from training targets, retained in evaluation selections. Purge whole date groups before fitting; labels mature on common60th market day.",
+  "return_target": "Stock adjusted t+1 open to t+60 close after frozen proportional costs minus gross0050 return on same endpoints. Missing interior prices do not erase valid endpoints; missing endpoints remain unknown.",
+  "evaluation": "Daily top10%, monthlyTop15, ties by symbol; no replacements. Same known dates across all4 methods for direct contrasts; report each excluded date and missing selected counts. IC uses observed labels only, not a prospective pool filter.",
+  "primary": "rank_tree minus return_tree, daily same-date net-relative endpoint mean",
+  "uncertainty": {
+    "blocks": [
+      20,
+      60,
+      80
+    ],
+    "primary_block": 60,
+    "replicates": 5000,
+    "seed": 20261023,
+    "method": "Circular blocks on original mature signal-date positions with missing paired differences retained; do not compress missing calendar gaps or shorten blocks; disclose invalid draws and boundaries"
+  },
+  "continuation_gate": {
+    "primary": "Rank-minus-return positive in all3 evaluated years",
+    "baselines": "Rank beats BOTH momentum and volatility on the same date set in at least2 of3 years",
+    "meaning": "Descriptive resource gate only; already seen history, not statistical validation or trading qualification"
+  },
+  "stop": "Exactly one parameter setting, six serial fits, all3 years reported. No retuning after results. If gate fails close objective branch; no automatic data acquisition.",
+  "limitations": [
+    "Already researched2024-2026, not a fresh holdout",
+    "Price-only pool is a separately declared controlled comparison, not old full-feature model reproduction",
+    "Adjusted prices are frozen research proxies; historical publication/version and universe limitations remain",
+    "Overlapping60-day windows are not independent trades, annual returns or NAV",
+    "Proportional costs omit minimum fees, turnover and actual fills; benchmark gross as frozen",
+    "Rank fitting is squared-error regression on percentile labels, not pairwise learning-to-rank; it does not predict calibrated return or probability"
+  ]
+}
